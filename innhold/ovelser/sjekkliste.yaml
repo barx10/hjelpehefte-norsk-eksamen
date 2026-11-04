@@ -1,0 +1,55 @@
+- id: sjekk-huskeregel
+  type: flashkort
+  kapittel: sjekkliste
+  mal: [m10-06, m10-12]
+  status: godkjent
+  forside: "Huskeregel for virkemiddelanalyse: hvilke tre spørsmål besvarer du?"
+  bakside: "1. Hva er virkemidlet? (Navngi det) 2. Hva er eksempelet? (Sitat fra teksten) 3. Hva gjør det? (Forklar effekten)"
+- id: sjekk-struktur
+  type: flashkort
+  kapittel: sjekkliste
+  mal: [m10-12]
+  status: godkjent
+  forside: "Sjekkliste: hva kontrollerer du under «Tekst og struktur»?"
+  bakside: "Har du svart på det oppgaven faktisk spør om? Har du tittel, innledning, hoveddel og avslutning? Starter hvert avsnitt med en temasetning? Har du hoppet over en linje mellom hvert avsnitt?"
+- id: sjekk-faglig
+  type: flashkort
+  kapittel: sjekkliste
+  mal: [m10-06, m10-12]
+  status: godkjent
+  forside: "Sjekkliste: hva kontrollerer du under «Faglig kvalitet»?"
+  bakside: "Har du brukt minst tre fagbegreper der oppgaven ber om analyse? Har du forklart hva virkemidlene gjør, ikke bare nevnt dem? Har du brukt eksempler fra teksten, gjerne med sitat, som bevis?"
+- id: sjekk-sprak
+  type: flashkort
+  kapittel: sjekkliste
+  mal: [m10-11]
+  status: godkjent
+  forside: "Sjekkliste: hva kontrollerer du under «Språk og form»?"
+  bakside: "Store bokstaver etter punktum. Sammensatte ord skrevet som ett ord. Kandidatnummer, ikke navn. Retteprogrammet sjekket på usikre ord. Lengdekravet i oppgaven er oppfylt."
+- id: sjekk-fv-analyse
+  type: flervalg
+  kapittel: sjekkliste
+  mal: [m10-06, m10-12]
+  status: utkast
+  spm: "Hvilket svar viser best virkemiddelanalyse?"
+  alternativer: ["Forfatteren bruker metaforen «livet er en storm». Det gjør at vi forstår hvor kaotisk livet føles for karakteren.", "Forfatteren bruker metafor.", "Metaforer er vanlige i litteratur.", "Teksten har mange virkemidler, og det gjør den bra."]
+  riktig: 0
+  forklaring: "Et godt svar navngir virkemidlet, viser sitatet og forklarer effekten."
+- id: sjekk-fv-fagbegreper
+  type: flervalg
+  kapittel: sjekkliste
+  mal: [m10-12]
+  status: utkast
+  spm: "Hvor mange fagbegreper bør du minst bruke når oppgaven ber om analyse?"
+  alternativer: ["Tre", "Ett", "Ingen", "Femti"]
+  riktig: 0
+  forklaring: "Sjekklisten ber deg bruke minst tre fagbegreper i en analyse."
+- id: sjekk-fv-sammensatt
+  type: flervalg
+  kapittel: sjekkliste
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["eksamensoppgave", "eksamen oppgave", "eksamens oppgave", "eksamen-oppgave"]
+  riktig: 0
+  forklaring: "Sammensatte ord skrives som ett ord."

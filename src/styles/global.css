@@ -1,0 +1,223 @@
+:root {
+  --bg: #fbfaf7;
+  --flate: #ffffff;
+  --flate-2: #f4efe8;
+  --tekst: #1d1b19;
+  --dempet: #5c564f;
+  --linje: #ddd5ca;
+  --primar: #8c1d1d;
+  --primar-tekst: #ffffff;
+  --primar-hover: #6f1515;
+  --aksent: #8a5a36;
+  --riktig: #1c6b3b;
+  --riktig-bg: #e6f3ea;
+  --feil: #a3281f;
+  --feil-bg: #fbe9e6;
+  --fokus: #1f5fbf;
+  --radius: 12px;
+  --skygge: 0 1px 2px rgb(0 0 0 / 0.06), 0 2px 8px rgb(0 0 0 / 0.04);
+  --smal: 44rem;
+  --bred: 64rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #171413;
+    --flate: #221e1c;
+    --flate-2: #2b2623;
+    --tekst: #f1ece6;
+    --dempet: #b8afa5;
+    --linje: #3b3430;
+    --primar: #e58a7b;
+    --primar-tekst: #1b0f0d;
+    --primar-hover: #f0a396;
+    --aksent: #d9a77c;
+    --riktig: #7fd49b;
+    --riktig-bg: #1b2e22;
+    --feil: #ff9c8f;
+    --feil-bg: #3a201c;
+    --fokus: #7fb0ff;
+    --skygge: none;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--tekst);
+  font: 1.0625rem/1.6 system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3 { line-height: 1.25; margin: 1.6em 0 0.5em; text-wrap: balance; }
+h1 { font-size: clamp(1.7rem, 4.5vw, 2.4rem); margin-top: 0.4em; }
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.15rem; }
+p, ul, ol { margin: 0 0 1em; }
+a { color: var(--primar); text-underline-offset: 0.15em; }
+a:hover { color: var(--primar-hover); }
+
+:focus-visible { outline: 3px solid var(--fokus); outline-offset: 2px; border-radius: 4px; }
+[tabindex='-1']:focus { outline: none; }
+
+.hopp {
+  position: absolute; left: 1rem; top: -4rem; background: var(--primar); color: var(--primar-tekst);
+  padding: 0.6rem 1rem; border-radius: 0 0 8px 8px; z-index: 10;
+}
+.hopp:focus { top: 0; }
+
+.rad { max-width: var(--bred); margin: 0 auto; padding: 0 1rem; }
+
+.topp { background: var(--flate); border-bottom: 1px solid var(--linje); }
+.topp .rad { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.25rem 1.5rem; padding-top: 0.6rem; padding-bottom: 0.6rem; }
+.logo { font-weight: 700; color: var(--tekst); text-decoration: none; font-size: 1.05rem; }
+.topp nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 0.25rem; margin: 0; padding: 0; }
+.topp nav a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 0.75rem; border-radius: 8px;
+  color: var(--tekst); text-decoration: none;
+}
+.topp nav a:hover { background: var(--flate-2); }
+.topp nav a[aria-current='page'] { background: var(--flate-2); font-weight: 650; box-shadow: inset 0 -3px 0 var(--primar); border-radius: 8px 8px 0 0; }
+
+.utkastvarsel { margin: 0; padding: 0.5rem 1rem; text-align: center; background: #fff3cd; color: #4a3b00; font-size: 0.95rem; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme='light']) .utkastvarsel { background: #4a3b00; color: #fff3cd; } }
+
+.side { width: 100%; margin: 0 auto; padding: 1.25rem 1rem 3rem; flex: 1; }
+.side.smal { max-width: calc(var(--smal) + 2rem); }
+.side.bred { max-width: calc(var(--bred) + 2rem); }
+
+.bunn { border-top: 1px solid var(--linje); color: var(--dempet); font-size: 0.9rem; padding: 1rem 0; }
+.bunn p { margin: 0.25rem 0; }
+
+/* Knapper */
+.knapp, button.knapp {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; min-height: 48px; padding: 0 1.25rem;
+  border-radius: 10px; border: 2px solid var(--primar); background: var(--primar); color: var(--primar-tekst);
+  font: inherit; font-weight: 650; text-decoration: none; cursor: pointer;
+}
+.knapp:hover { background: var(--primar-hover); border-color: var(--primar-hover); color: var(--primar-tekst); }
+.knapp.sekundar { background: transparent; color: var(--primar); }
+.knapp.sekundar:hover { background: var(--flate-2); color: var(--primar-hover); }
+.knapp[disabled] { opacity: 0.5; cursor: not-allowed; }
+.knapp-rad { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1rem 0; }
+
+/* Forside */
+.hero p.ingress { font-size: 1.2rem; color: var(--dempet); max-width: 38rem; }
+.temaer { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); list-style: none; padding: 0; margin: 1rem 0 2rem; }
+.tema {
+  background: var(--flate); border: 1px solid var(--linje); border-radius: var(--radius); padding: 1rem 1.1rem;
+  box-shadow: var(--skygge); display: flex; flex-direction: column; gap: 0.5rem;
+}
+.tema h3 { margin: 0; font-size: 1.1rem; }
+.tema .nr { color: var(--aksent); font-weight: 700; margin-right: 0.35rem; }
+.tema .meta { color: var(--dempet); font-size: 0.92rem; margin: 0; }
+.tema .lenker { margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; padding-top: 0.5rem; }
+.tema .lenker a { min-height: 44px; display: inline-flex; align-items: center; }
+.tema .lenker a.hoved { font-weight: 650; }
+.fremdrift-linje { height: 8px; border-radius: 99px; background: var(--flate-2); overflow: hidden; border: 1px solid var(--linje); }
+.fremdrift-linje > span { display: block; height: 100%; background: var(--riktig); width: 0; transition: width 0.3s; }
+.fremdrift-tekst { font-size: 0.88rem; color: var(--dempet); margin: 0; min-height: 1.4em; }
+
+.merknad {
+  background: var(--flate-2); border-left: 4px solid var(--aksent); border-radius: 8px; padding: 0.75rem 1rem; margin: 1.25rem 0;
+}
+.merknad p:last-child { margin-bottom: 0; }
+
+/* Øvelser */
+.runner { background: var(--flate); border: 1px solid var(--linje); border-radius: var(--radius); padding: 1.25rem; box-shadow: var(--skygge); }
+.runner h2 { margin-top: 0; }
+.runner h2:focus { outline: none; }
+.runner-topp { display: flex; justify-content: space-between; align-items: center; gap: 1rem; color: var(--dempet); font-size: 0.95rem; margin-bottom: 0.75rem; }
+.runner progress { width: 100%; height: 10px; accent-color: var(--primar); margin-bottom: 1rem; }
+.merke { display: inline-block; font-size: 0.8rem; padding: 0.1rem 0.55rem; border-radius: 99px; background: var(--flate-2); border: 1px solid var(--linje); color: var(--dempet); }
+.merke.utkast { background: #fff3cd; color: #4a3b00; border-color: #e0c670; }
+.spm { font-size: 1.3rem; font-weight: 650; margin: 0.5rem 0 1rem; }
+.kort-svar { background: var(--flate-2); border-radius: 10px; padding: 0.9rem 1rem; margin: 0 0 1rem; border: 1px solid var(--linje); }
+.kort-svar .etikett { display: block; font-size: 0.85rem; color: var(--dempet); margin-bottom: 0.25rem; }
+fieldset.valg { border: 0; padding: 0; margin: 0; min-width: 0; }
+fieldset.valg legend { padding: 0; }
+.alt {
+  display: flex; gap: 0.75rem; align-items: flex-start; width: 100%; text-align: left; margin: 0 0 0.6rem; min-height: 48px; padding: 0.7rem 0.9rem;
+  border-radius: 10px; border: 2px solid var(--linje); background: var(--flate); color: var(--tekst); font: inherit; cursor: pointer;
+}
+.alt:hover:not([disabled]) { border-color: var(--primar); }
+.alt .tast { flex: none; min-width: 1.6rem; height: 1.6rem; display: inline-grid; place-items: center; border-radius: 6px; background: var(--flate-2); font-weight: 700; font-size: 0.9rem; }
+.alt[disabled] { cursor: default; }
+.alt.riktig { border-color: var(--riktig); background: var(--riktig-bg); }
+.alt.feil { border-color: var(--feil); background: var(--feil-bg); }
+.alt .status { margin-left: auto; font-weight: 700; flex: none; }
+.alt.riktig .status { color: var(--riktig); }
+.alt.feil .status { color: var(--feil); }
+.tilbakemelding { border-radius: 10px; padding: 0.8rem 1rem; margin: 0.5rem 0 1rem; border: 1px solid var(--linje); }
+.tilbakemelding.riktig { background: var(--riktig-bg); border-color: var(--riktig); }
+.tilbakemelding.feil { background: var(--feil-bg); border-color: var(--feil); }
+.tilbakemelding strong { display: block; margin-bottom: 0.2rem; }
+.valgrekke { border: 0; padding: 0; margin: 1rem 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; }
+.valgrekke legend { font-weight: 650; margin-bottom: 0.4rem; padding: 0; }
+.valgrekke label { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 44px; cursor: pointer; }
+.valgrekke input { width: 1.2rem; height: 1.2rem; accent-color: var(--primar); }
+.resultat-tall { font-size: 2.2rem; font-weight: 800; margin: 0.25rem 0; }
+.feilliste { padding-left: 1.2rem; }
+.feilliste li { margin-bottom: 0.9rem; }
+.feilliste .svar { color: var(--dempet); display: block; }
+.tastehint { color: var(--dempet); font-size: 0.88rem; margin-top: 0.75rem; }
+
+/* Hefte */
+.innhold h2 { border-bottom: 2px solid var(--primar); padding-bottom: 0.2rem; }
+.innhold table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 1rem 0 1.5rem; font-size: 0.93rem; }
+.innhold th { background: var(--primar); color: var(--primar-tekst); text-align: left; }
+.innhold th, .innhold td { padding: 0.55rem 0.75rem; border: 1px solid var(--linje); vertical-align: top; min-width: 6rem; }
+.innhold tbody tr:nth-child(even) { background: var(--flate-2); }
+.innhold blockquote {
+  margin: 1.25rem 0; padding: 0.9rem 1.1rem 0.5rem; background: var(--flate-2); border-left: 5px solid var(--aksent); border-radius: 0 10px 10px 0;
+}
+.innhold blockquote p:last-child, .innhold blockquote ul:last-child, .innhold blockquote ol:last-child { margin-bottom: 0.4rem; }
+.innhold li { margin-bottom: 0.25rem; }
+.kapittelnav { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-top: 2.5rem; border-top: 1px solid var(--linje); padding-top: 1rem; }
+.kapittelnav a { min-height: 44px; display: inline-flex; align-items: center; }
+.liste-kapitler { list-style: none; padding: 0; display: grid; gap: 0.5rem; }
+.liste-kapitler a {
+  display: flex; gap: 0.75rem; align-items: center; min-height: 52px; padding: 0.5rem 1rem; background: var(--flate); border: 1px solid var(--linje);
+  border-radius: 10px; text-decoration: none; color: var(--tekst);
+}
+.liste-kapitler a:hover { border-color: var(--primar); }
+.liste-kapitler .nr { color: var(--aksent); font-weight: 700; min-width: 2.2rem; }
+
+/* Mål */
+.mal-liste { list-style: none; padding: 0; display: grid; gap: 0.75rem; }
+.mal { background: var(--flate); border: 1px solid var(--linje); border-radius: 10px; padding: 0.8rem 1rem; }
+.mal p { margin: 0 0 0.4rem; }
+.mal .info { color: var(--dempet); font-size: 0.92rem; margin: 0; }
+.omfang { display: inline-block; font-size: 0.8rem; font-weight: 700; padding: 0.1rem 0.6rem; border-radius: 99px; margin-bottom: 0.4rem; border: 1px solid currentColor; }
+.omfang.dekkes { color: var(--riktig); }
+.omfang.delvis { color: var(--aksent); }
+.omfang.senere { color: var(--dempet); }
+.omfang.utenfor { color: var(--dempet); border-style: dashed; }
+
+/* Fremgang */
+textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo, Consolas, monospace; background: var(--flate); color: var(--tekst); border: 2px solid var(--linje); border-radius: 10px; padding: 0.6rem; }
+.stat { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: 0.75rem; margin: 1rem 0; }
+.stat div { background: var(--flate); border: 1px solid var(--linje); border-radius: 10px; padding: 0.75rem 1rem; }
+.stat strong { display: block; font-size: 1.6rem; }
+.melding { min-height: 1.5em; font-weight: 600; }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+@media print {
+  :root { --bg: #fff; --flate: #fff; --flate-2: #f2f2f2; --tekst: #000; --dempet: #333; --linje: #999; --primar: #000; --primar-tekst: #fff; --aksent: #444; }
+  body { font-size: 11pt; display: block; }
+  .topp, .bunn, .hopp, .utkastvarsel, .knapp, .knapp-rad, .kapittelnav, .ikke-utskrift { display: none !important; }
+  .side { max-width: none; padding: 0; }
+  .innhold table, .innhold blockquote { break-inside: avoid; display: table; }
+  .innhold th { background: #ddd; color: #000; }
+  h1, h2, h3 { break-after: avoid; }
+  .kapittel-blokk { break-before: page; }
+  .kapittel-blokk:first-of-type { break-before: auto; }
+  a { color: #000; text-decoration: none; }
+}

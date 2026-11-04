@@ -1,0 +1,58 @@
+---
+import '../styles/global.css';
+import { url } from '../lib/url';
+import { visUtkast } from '../lib/innhold';
+
+interface Props {
+  tittel: string;
+  beskrivelse?: string;
+  bredde?: 'smal' | 'bred';
+}
+const { tittel, beskrivelse = 'Øv til skriftlig eksamen i norsk med flashkort og flervalg basert på Hjelpehefte norsk eksamen.', bredde = 'smal' } = Astro.props;
+const naa = Astro.url.pathname;
+const lenker = [
+  { href: url(''), tekst: 'Øv', aktiv: naa === url('') || naa.startsWith(url('ovelser/')) },
+  { href: url('hefte/'), tekst: 'Hefte', aktiv: naa.startsWith(url('hefte/')) },
+  { href: url('mal/'), tekst: 'Kompetansemål', aktiv: naa.startsWith(url('mal/')) },
+  { href: url('fremgang/'), tekst: 'Min fremgang', aktiv: naa.startsWith(url('fremgang/')) },
+];
+const fulltTittel = tittel === 'Hjelpehefte norsk eksamen' ? tittel : `${tittel} | Hjelpehefte norsk eksamen`;
+---
+<!doctype html>
+<html lang="nb">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={beskrivelse} />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/svg+xml" href={url('favicon.svg')} />
+    <title>{fulltTittel}</title>
+  </head>
+  <body>
+    <a class="hopp" href="#innhold">Hopp til innhold</a>
+    <header class="topp">
+      <div class="rad">
+        <a class="logo" href={url('')}>Hjelpehefte norsk eksamen</a>
+        <nav aria-label="Hovedmeny">
+          <ul>
+            {lenker.map((l) => (
+              <li><a href={l.href} aria-current={l.aktiv ? 'page' : undefined}>{l.tekst}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    {visUtkast && (
+      <p class="utkastvarsel" role="note">Utkastmodus: øvelser med status «utkast» vises. Den publiserte siden viser bare godkjente øvelser.</p>
+    )}
+    <main id="innhold" class={`side ${bredde}`} tabindex="-1">
+      <slot />
+    </main>
+    <footer class="bunn">
+      <div class="rad">
+        <p>© Lærerliv 2026. Hjelpehefte og øvingsside for norsk eksamen.</p>
+        <p><a href="https://github.com/barx10/hjelpehefte-norsk-eksamen">Innhold og kode på GitHub</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

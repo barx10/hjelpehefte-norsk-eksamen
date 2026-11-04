@@ -1,0 +1,37 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Ovelsesrunner from '../../components/Ovelsesrunner.astro';
+import { hentKapitler, hentOvelser, kapittelNavn, tilKlient } from '../../lib/innhold';
+import { url } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const kapitler = await hentKapitler();
+  const ovelser = await hentOvelser();
+  const tittelPerId = new Map(kapitler.map((k) => [k.id, kapittelNavn(k)]));
+  const klient = (liste: typeof ovelser) => liste.map((o) => tilKlient(o, tittelPerId.get(o.data.kapittel.id) ?? ''));
+
+  const sider = kapitler
+    .map((k) => ({ k, liste: ovelser.filter((o) => o.data.kapittel.id === k.id) }))
+    .filter(({ liste }) => liste.length > 0)
+    .map(({ k, liste }) => ({
+      params: { tema: k.id },
+      props: { tittel: kapittelNavn(k), ingress: k.data.ingress, ovelser: klient(liste), kapittelId: k.id },
+    }));
+
+  return [
+    { params: { tema: 'alle' }, props: { tittel: 'Alle temaer', ingress: 'Blandede øvelser fra hele heftet.', ovelser: klient(ovelser), kapittelId: null } },
+    ...sider,
+  ];
+}
+
+const { tittel, ingress, ovelser, kapittelId } = Astro.props;
+---
+<Layout tittel={`Øv: ${tittel}`}>
+  <nav aria-label="Brødsmulesti"><a href={url('')}>Alle temaer</a></nav>
+  <h1>{tittel}</h1>
+  {ingress && <p>{ingress}</p>}
+  <Ovelsesrunner ovelser={ovelser} tittel={tittel} />
+  <p class="tastehint">Eksempeltekstene i øvelsene er laget for øving.
+    {kapittelId && <> <a href={url(`hefte/${kapittelId}/`)}>Les kapittelet i heftet</a>.</>}
+  </p>
+</Layout>

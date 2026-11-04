@@ -1,0 +1,78 @@
+- id: skriv-samhandle
+  type: flashkort
+  kapittel: skrivehandlinger
+  mal: [m10-10]
+  status: godkjent
+  forside: "Å samhandle: formål og sjangre"
+  bakside: "Formål: informere, stille spørsmål, svare, begrunne. Sjangre: formelle brev, søknader, fagartikkel, blogg."
+- id: skriv-reflektere
+  type: flashkort
+  kapittel: skrivehandlinger
+  mal: [m10-10]
+  status: godkjent
+  forside: "Å reflektere: formål og sjangre"
+  bakside: "Formål: tenke over, filosofere, vurdere, kommentere. Sjangre: kåseri, essay, dagbok, drøftende artikkel."
+- id: skriv-beskrive
+  type: flashkort
+  kapittel: skrivehandlinger
+  mal: [m10-10]
+  status: godkjent
+  forside: "Å beskrive: formål og sjangre"
+  bakside: "Formål: gjøre rede for, forklare, definere, sammenligne. Sjangre: debattartikkel, leserinnlegg, fagartikkel."
+- id: skriv-utforske
+  type: flashkort
+  kapittel: skrivehandlinger
+  mal: [m10-10]
+  status: godkjent
+  forside: "Å utforske: formål og sjangre"
+  bakside: "Formål: undersøke, analysere, tolke, drøfte. Sjangre: fagartikkel, analyse, rapport."
+- id: skriv-forestille
+  type: flashkort
+  kapittel: skrivehandlinger
+  mal: [m10-10]
+  status: godkjent
+  forside: "Å forestille seg: formål og sjangre"
+  bakside: "Formål: fortelle, fantasere, dikte, skildre. Sjangre: novelle, fortelling."
+- id: skriv-overbevise
+  type: flashkort
+  kapittel: skrivehandlinger
+  mal: [m10-10]
+  status: godkjent
+  forside: "Å overbevise: formål og sjangre"
+  bakside: "Formål: argumentere, hevde meninger, overtale. Sjangre: debattartikkel, leserinnlegg, reklame."
+- id: skriv-fv-kaseri
+  type: flervalg
+  kapittel: skrivehandlinger
+  mal: [m10-10]
+  status: utkast
+  spm: "Kåseri hører til en bestemt skrivehandling. Hvilken?"
+  alternativer: ["Å reflektere", "Å overbevise", "Å forestille seg", "Å utforske"]
+  riktig: 0
+  forklaring: "Kåseri, essay, dagbok og drøftende artikkel hører til å reflektere."
+- id: skriv-fv-novelle
+  type: flervalg
+  kapittel: skrivehandlinger
+  mal: [m10-10]
+  status: utkast
+  spm: "Du skal skrive en novelle. Hvilken skrivehandling er det?"
+  alternativer: ["Å forestille seg", "Å beskrive", "Å samhandle", "Å utforske"]
+  riktig: 0
+  forklaring: "Novelle og fortelling hører til å forestille seg: fortelle, fantasere, dikte og skildre."
+- id: skriv-fv-overtale
+  type: flervalg
+  kapittel: skrivehandlinger
+  mal: [m10-10]
+  status: utkast
+  spm: "Formålet er å argumentere, hevde meninger og overtale. Hvilken skrivehandling er det?"
+  alternativer: ["Å overbevise", "Å beskrive", "Å reflektere", "Å samhandle"]
+  riktig: 0
+  forklaring: "Å overbevise handler om å argumentere og overtale, for eksempel i debattartikkel eller leserinnlegg."
+- id: skriv-fv-rapport
+  type: flervalg
+  kapittel: skrivehandlinger
+  mal: [m10-10]
+  status: utkast
+  spm: "Hvilken skrivehandling hører rapport til?"
+  alternativer: ["Å utforske", "Å forestille seg", "Å overbevise", "Å reflektere"]
+  riktig: 0
+  forklaring: "Å utforske: undersøke, analysere, tolke og drøfte. Aktuelle sjangre er fagartikkel, analyse og rapport."

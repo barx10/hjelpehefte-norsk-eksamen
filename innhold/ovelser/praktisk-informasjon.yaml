@@ -1,0 +1,54 @@
+- id: prak-tid
+  type: flashkort
+  kapittel: praktisk-informasjon
+  status: godkjent
+  forside: "Hvor lang tid har du på eksamen i norsk, og er det forberedelsesdag?"
+  bakside: "5 timer (kl. 09:00 til 14:00). Ingen forberedelsesdag. Eksamen starter direkte."
+- id: prak-levering
+  type: flashkort
+  kapittel: praktisk-informasjon
+  status: godkjent
+  forside: "Hvordan leverer du besvarelsen?"
+  bakside: "Eksamen er heldigital. Du leser oppgavene og leverer svar på nett, som ett samlet dokument med svar på alle tre oppgavene."
+- id: prak-hjelpemidler
+  type: flashkort
+  kapittel: praktisk-informasjon
+  status: godkjent
+  forside: "Hvilke hjelpemidler er tillatt, og hva er ikke tillatt?"
+  bakside: "Ordbøker, grammatikk og hefte er tillatt. KI er ikke tillatt."
+- id: prak-kandidatnummer
+  type: flashkort
+  kapittel: praktisk-informasjon
+  status: godkjent
+  forside: "Hva skriver du på besvarelsen i stedet for navn?"
+  bakside: "Kandidatnummer."
+- id: prak-innsyn
+  type: flashkort
+  kapittel: praktisk-informasjon
+  status: godkjent
+  forside: "Når og hvor kan du se besvarelsen din etter eksamen?"
+  bakside: "Dagen etter eksamen, på kandidat.udir.no."
+- id: prak-fv-navn
+  type: flervalg
+  kapittel: praktisk-informasjon
+  status: utkast
+  spm: "Hva skriver du på besvarelsen din?"
+  alternativer: ["Kandidatnummer", "Fullt navn", "Fødselsnummer", "Navnet på skolen"]
+  riktig: 0
+  forklaring: "Du skriver kandidatnummer, ikke navn."
+- id: prak-fv-ki
+  type: flervalg
+  kapittel: praktisk-informasjon
+  status: utkast
+  spm: "Hvilket av disse hjelpemidlene er ikke tillatt på eksamen?"
+  alternativer: ["KI", "Ordbok", "Grammatikk", "Hjelpeheftet"]
+  riktig: 0
+  forklaring: "Ordbøker, grammatikk og hefte er tillatt. KI er ikke tillatt."
+- id: prak-fv-tid
+  type: flervalg
+  kapittel: praktisk-informasjon
+  status: utkast
+  spm: "Hvordan er eksamenstiden lagt opp?"
+  alternativer: ["Fem timer, uten forberedelsesdag", "Tre timer, uten forberedelsesdag", "Fem timer, med forberedelsesdag", "To dager"]
+  riktig: 0
+  forklaring: "Eksamen varer fem timer (kl. 09:00 til 14:00) og starter direkte, uten forberedelsesdag."
