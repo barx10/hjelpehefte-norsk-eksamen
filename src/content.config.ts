@@ -4,6 +4,7 @@ import type { Loader } from 'astro/loaders';
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import yaml from 'js-yaml';
+import { deler, finnFeilIndekser, kommaOppsett } from './lib/tekstverktoy';
 
 /**
  * Leser alle YAML-filer i en mappe. Hver fil er en liste med øvelser, og hver øvelse har en unik id.
@@ -40,6 +41,7 @@ function yamlListeLoader(mappe: string): Loader {
   };
 }
 
+
 const status = z.enum(['utkast', 'godkjent']);
 
 // Kapitlene i heftet. Hvert kapittel er også et øvingstema.
@@ -50,6 +52,8 @@ const hefte = defineCollection({
     nummer: z.string().default(''),
     rekkefolge: z.number(),
     ingress: z.string().optional(),
+    // Kapitler som ikke er gjennomgått vises ikke på den publiserte siden.
+    status: status.default('godkjent'),
   }),
 });
 
@@ -86,11 +90,39 @@ const flervalg = base.extend({
   forklaring: z.string(),
 });
 
+// Eleven setter komma ved å trykke på ordene. `setning` er den riktige setningen, med komma.
+const komma = base.extend({
+  type: z.literal('komma'),
+  setning: z.string(),
+  regler: z.array(z.number().int().min(1).max(6)).default([]),
+  forklaring: z.string(),
+});
+
+// Eleven trykker på ordet som er feil. `feil` er ordet (eller ordene) slik det står i teksten.
+const finnfeil = base.extend({
+  type: z.literal('finnfeil'),
+  tekst: z.string(),
+  feil: z.string(),
+  rettelse: z.string(),
+  forklaring: z.string(),
+});
+
 const ovelser = defineCollection({
   loader: yamlListeLoader('innhold/ovelser'),
-  schema: z.discriminatedUnion('type', [flashkort, flervalg]).superRefine((o, ctx) => {
+  schema: z.discriminatedUnion('type', [flashkort, flervalg, komma, finnfeil]).superRefine((o, ctx) => {
     if (o.type === 'flervalg' && o.riktig >= o.alternativer.length) {
       ctx.addIssue({ code: 'custom', message: 'riktig peker utenfor alternativene' });
+    }
+    if (o.type === 'komma') {
+      const { ord, komma: k } = kommaOppsett(o.setning);
+      if (ord.length < 2) ctx.addIssue({ code: 'custom', message: 'setningen er for kort' });
+      if (k[k.length - 1]) ctx.addIssue({ code: 'custom', message: 'siste ord kan ikke ha komma etter seg' });
+    }
+    if (o.type === 'finnfeil') {
+      if (!finnFeilIndekser(o.tekst, o.feil)) {
+        ctx.addIssue({ code: 'custom', message: `«${o.feil}» må stå nøyaktig én gang i teksten` });
+      }
+      if (o.feil === o.rettelse) ctx.addIssue({ code: 'custom', message: 'rettelsen er lik feilen' });
     }
   }),
 });

@@ -1,0 +1,114 @@
+- id: rett-fk-to-ord
+  type: flashkort
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  forside: "Hvordan skrives «i dag», «i morgen», «i går», «til slutt» og «for eksempel»?"
+  bakside: "Alle skrives i to ord (for eksempel i dag, ikke idag). «For eksempel» kan forkortes til f.eks."
+- id: rett-fk-sammensatt
+  type: flashkort
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  forside: "Hvordan skrives sammensatte ord?"
+  bakside: "Som ett ord: eksamensoppgave, ikke «eksamen oppgave»."
+- id: rett-fk-liten
+  type: flashkort
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  forside: "Hvilke ord skrives med liten forbokstav?"
+  bakside: "Ukedager (mandag), måneder (mai), språk (norsk, engelsk) og folkeslag (nordmann)."
+- id: rett-fk-stor
+  type: flashkort
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  forside: "Hvilke ord skrives med stor forbokstav?"
+  bakside: "Navn på personer og steder (Oslo, Norge), og første ord etter punktum."
+- id: rett-fk-a-og
+  type: flashkort
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  forside: "Når skriver du «å», og når skriver du «og»?"
+  bakside: "«Å» står foran verb i infinitiv (å lese). «Og» binder sammen ord og setninger. «Jeg liker å lese og skrive.»"
+- id: rett-fk-de-dem
+  type: flashkort
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  forside: "Når skriver du «de», og når skriver du «dem»?"
+  bakside: "«De» er subjekt: «De ser meg.» «Dem» er objekt: «Jeg ser dem.»"
+- id: rett-fv-idag
+  type: flervalg
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["i dag", "idag", "i-dag"]
+  riktig: 0
+  forklaring: "«I dag» skrives i to ord."
+- id: rett-fv-imorgen
+  type: flervalg
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["i morgen", "imorgen", "i-morgen"]
+  riktig: 0
+  forklaring: "«I morgen» skrives i to ord."
+- id: rett-fv-tilslutt
+  type: flervalg
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["til slutt", "tilslutt", "til-slutt"]
+  riktig: 0
+  forklaring: "«Til slutt» skrives i to ord."
+- id: rett-fv-forexempel
+  type: flervalg
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["for eksempel", "forexempel", "for exempel", "foreksempel"]
+  riktig: 0
+  forklaring: "Det skrives «for eksempel», i to ord og med k og s."
+- id: rett-fv-bokstaver
+  type: flervalg
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken setning har riktige små og store bokstaver?"
+  alternativer: ["Vi har prøve på mandag i mai.", "Vi har prøve på Mandag i Mai.", "Vi har prøve på mandag i Mai.", "Vi har prøve på Mandag i mai."]
+  riktig: 0
+  forklaring: "Ukedager og måneder skrives med liten forbokstav."
+- id: rett-fv-a-og
+  type: flervalg
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken setning er riktig?"
+  alternativer: ["Jeg liker å lese og skrive.", "Jeg liker og lese og skrive.", "Jeg liker å lese å skrive.", "Jeg liker og lese å skrive."]
+  riktig: 0
+  forklaring: "«Å» står foran verbene i infinitiv. «Og» binder dem sammen."
+- id: rett-fv-de-dem
+  type: flervalg
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken setning er riktig?"
+  alternativer: ["Jeg ser dem, men de ser ikke meg.", "Jeg ser de, men dem ser ikke meg.", "Jeg ser dem, men dem ser ikke meg.", "Jeg ser de, men de ser ikke meg."]
+  riktig: 0
+  forklaring: "«De» er subjekt og «dem» er objekt. «Jeg ser dem» (objekt), «de ser meg» (subjekt)."
+- id: rett-fv-liten-forbokstav
+  type: flervalg
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilket av disse ordene skrives med liten forbokstav midt i en setning?"
+  alternativer: ["norsk", "Oslo", "Norge", "Bjørnson"]
+  riktig: 0
+  forklaring: "Språk skrives med liten forbokstav. Steder og personnavn har stor forbokstav."
