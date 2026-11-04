@@ -15,7 +15,8 @@ const { ovelser, tittel } = Astro.props;
 
 <script>
   import { les, lagre, oppdater, velgOkt, stokk, antallMestret } from '../lib/fremgang';
-  import { stokkForskjellig } from '../lib/tekstverktoy';
+  import { stokkForskjellig, ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus } from '../lib/tekstverktoy';
+  import { lesSkriveutkast, lagreSkriveutkast } from '../lib/lager';
   import type { Fremgang } from '../lib/fremgang';
 
   type Felles = { id: string; kapittel: string; utkast: boolean };
@@ -35,7 +36,11 @@ const { ovelser, tittel } = Astro.props;
     type: 'matching'; oppdrag: string; par: { venstre: string; hoyre: string }[]; forklaring: string; fasitTekst: string;
   };
   type Marker = Felles & { type: 'marker'; oppdrag: string; ord: string[]; riktig: boolean[]; forklaring: string; fasitTekst: string };
-  type Ovelse = Flashkort | Flervalg | Komma | FinnFeil | Sortering | Rekkefolge | Matching | Marker;
+  type Skriv = Felles & {
+    type: 'skriv'; oppdrag: string; utdrag: string | null; starttekst: string; ord: { min: number; maks: number };
+    nokkelord: string[]; nokkelordMinst: number; sitat: boolean; kriterier: string[]; modelltekst: string; modellkommentar: string; fasitTekst: string; forklaring: string;
+  };
+  type Ovelse = Flashkort | Flervalg | Komma | FinnFeil | Sortering | Rekkefolge | Matching | Marker | Skriv;
   const TYPENAVN: Record<Ovelse['type'], string> = {
     flashkort: 'Flashkort',
     flervalg: 'Flervalg',
@@ -45,6 +50,7 @@ const { ovelser, tittel } = Astro.props;
     rekkefolge: 'Rekkefølge',
     matching: 'Koble',
     marker: 'Marker i teksten',
+    skriv: 'Skriv',
   };
   type Svar = { ovelse: Ovelse; riktig: boolean };
 
@@ -159,7 +165,8 @@ const { ovelser, tittel } = Astro.props;
     else if (o.type === 'sortering') visSortering(o, indeks);
     else if (o.type === 'rekkefolge') visRekkefolge(o, indeks);
     else if (o.type === 'matching') visMatching(o, indeks);
-    else visMarker(o, indeks);
+    else if (o.type === 'marker') visMarker(o, indeks);
+    else visSkriv(o, indeks);
   }
 
   function neste(indeks: number) {
@@ -511,6 +518,97 @@ const { ovelser, tittel } = Astro.props;
     vis(...framdrift(indeks), merker(o), overskrift, hjelp, setning, flate, handlinger);
   }
 
+  function visSkriv(o: Skriv, indeks: number) {
+    const overskrift = el('h2', { class: 'spm', tabindex: '-1' }, o.oppdrag);
+    const utdrag = o.utdrag ? el('blockquote', { class: 'utdrag' }, o.utdrag) : document.createComment('');
+    const id = `skriv${indeks}`;
+    const etikett = el('label', { for: id, class: 'etikett-stor' }, o.starttekst ? 'Skriv teksten på nytt, bedre' : 'Skriv svaret ditt');
+    const felt = el('textarea', { id, rows: o.ord.maks > 120 ? '10' : '6', 'aria-describedby': `${id}-teller`, spellcheck: 'true', lang: 'nb' });
+    felt.value = lesSkriveutkast(o.id) || o.starttekst;
+    const teller = el('p', { class: 'teller', id: `${id}-teller` });
+    const personvern = el('p', { class: 'tastehint' }, 'Teksten din lagres bare i denne nettleseren og sendes ikke noe sted.');
+    let ferdig = false;
+
+    const oppdaterTeller = () => {
+      const n = ordTelling(felt.value);
+      const status = ordStatus(n, o.ord);
+      teller.textContent = `${n} ord. Mål: ${o.ord.min} til ${o.ord.maks} ord.` + (status === 'for-kort' ? ' Litt for kort ennå.' : status === 'for-lang' ? ' Litt for lang.' : '');
+      teller.className = `teller ${status}`;
+    };
+    let timer: number | undefined;
+    felt.addEventListener('input', () => {
+      oppdaterTeller();
+      window.clearTimeout(timer);
+      timer = window.setTimeout(() => lagreSkriveutkast(o.id, felt.value), 400);
+    });
+    oppdaterTeller();
+
+    const flate = el('div', { 'aria-live': 'polite' });
+    const sjekk = el('button', { class: 'knapp', type: 'button' }, 'Vis tilbakemelding');
+    const hopp = el('button', { class: 'knapp sekundar', type: 'button' }, 'Hopp over');
+    const handlinger = el('div', { class: 'knapp-rad' }, sjekk, hopp);
+    hopp.addEventListener('click', () => { window.clearTimeout(timer); lagreSkriveutkast(o.id, felt.value); neste(indeks); });
+
+    sjekk.addEventListener('click', () => {
+      if (ferdig) return;
+      const tekst = felt.value;
+      if (ordTelling(tekst) < Math.max(3, Math.floor(o.ord.min / 2))) {
+        flate.replaceChildren(el('p', { class: 'melding' }, 'Skriv litt mer først, så får du tilbakemelding.'));
+        felt.focus();
+        return;
+      }
+      ferdig = true;
+      flate.replaceChildren();
+      felt.readOnly = true;
+      window.clearTimeout(timer);
+      lagreSkriveutkast(o.id, tekst);
+
+      const n = ordTelling(tekst);
+      const status = ordStatus(n, o.ord);
+      const nok = brukteNokkelord(tekst, o.nokkelord);
+      const auto = el('ul', { class: 'sjekkliste' });
+      const punkt = (ok: boolean, tekst_: string) => auto.append(el('li', { class: ok ? 'ok' : 'mangler' }, el('span', { class: 'ikon', 'aria-hidden': 'true' }, ok ? '✓' : '✗'), tekst_));
+      punkt(status === 'ok', status === 'ok' ? `Lengde: ${n} ord, innenfor målet.` : `Lengde: ${n} ord. Målet er ${o.ord.min} til ${o.ord.maks}.`);
+      if (o.nokkelord.length) {
+        const nok_ = nok.brukt.length >= o.nokkelordMinst;
+        const alle = o.nokkelordMinst >= o.nokkelord.length;
+        punkt(nok_, `${alle ? 'Begreper som bør være med' : `Bruk minst ${o.nokkelordMinst} av disse`}: ${nok.brukt.length} av ${o.nokkelord.length} brukt. Brukt: ${nok.brukt.join(', ') || 'ingen'}. Ikke brukt: ${nok.mangler.join(', ') || 'ingen'}.`);
+      }
+      if (o.sitat) punkt(harSitat(tekst), harSitat(tekst) ? 'Du har brukt sitat i anførselstegn.' : 'Du har ikke brukt sitat i anførselstegn.');
+      if (o.ord.maks > 150) punkt(antallAvsnitt(tekst) >= 2, `Avsnitt: ${antallAvsnitt(tekst)}. Hopp over en linje mellom avsnittene.`);
+
+      const krysser: HTMLInputElement[] = o.kriterier.map((_, i) => el('input', { type: 'checkbox', id: `${id}-k${i}` }));
+      const egenvurdering = el('fieldset', { class: 'egenvurdering' }, el('legend', {}, 'Vurder deg selv: stemmer dette med teksten din?'));
+      o.kriterier.forEach((k, i) => egenvurdering.append(el('div', { class: 'kriterium' }, krysser[i]!, el('label', { for: `${id}-k${i}` }, k))));
+
+      const modell = el('details', { class: 'modell' },
+        el('summary', {}, 'Se et eksempel på et godt svar'),
+        el('p', {}, o.modelltekst),
+        o.modellkommentar ? el('p', { class: 'tastehint' }, o.modellkommentar) : document.createComment(''));
+
+      const fullfor = el('button', { class: 'knapp', type: 'button' }, indeks + 1 < okt.length ? 'Fullfør og gå videre' : 'Fullfør og se resultat');
+      fullfor.addEventListener('click', () => {
+        const alleKrysset = krysser.every((k) => k.checked);
+        window.clearTimeout(timer);
+        lagreSkriveutkast(o.id, '');
+        registrer(o, alleKrysset);
+        neste(indeks);
+      });
+
+      flate.append(
+        el('h3', {}, 'Automatisk sjekk'), auto,
+        el('h3', {}, 'Egenvurdering'), egenvurdering,
+        modell,
+        el('p', { class: 'tastehint' }, 'Du får regnet øvelsen som mestret når du har krysset av for alle punktene. Vær ærlig, det er deg selv du lurer.'),
+        el('div', { class: 'knapp-rad' }, fullfor),
+      );
+      handlinger.remove();
+      sjekk.disabled = true;
+    });
+
+    vis(...framdrift(indeks), merker(o), overskrift, utdrag, etikett, felt, teller, personvern, flate, handlinger);
+  }
+
   document.addEventListener('keydown', (e) => tastHandler?.(e));
 
   function visResultat() {
@@ -534,6 +632,7 @@ const { ovelser, tittel } = Astro.props;
         else if (ovelse.type === 'flervalg') [spm, fasit] = [ovelse.spm, `${ovelse.alternativer[ovelse.riktig]}. ${ovelse.forklaring}`];
         else if (ovelse.type === 'komma') [spm, fasit] = [`Sett komma: ${ovelse.utenKomma}`, `${ovelse.fasit} ${ovelse.forklaring}`];
         else if (ovelse.type === 'finnfeil') [spm, fasit] = [`Finn feilen: ${ovelse.tekst}`, `${ovelse.rettet} ${ovelse.forklaring}`];
+        else if (ovelse.type === 'skriv') [spm, fasit] = [ovelse.oppdrag, `Eksempel på et godt svar: ${ovelse.modelltekst}`];
         else [spm, fasit] = [ovelse.oppdrag, `${ovelse.fasitTekst}. ${ovelse.forklaring}`];
         liste.append(el('li', {}, el('strong', {}, spm), el('span', { class: 'svar' }, fasit)));
       }

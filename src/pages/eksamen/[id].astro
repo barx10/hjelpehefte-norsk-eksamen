@@ -1,0 +1,53 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Eksamensrunner from '../../components/Eksamensrunner.astro';
+import { hentEksamen, hentKapitler, kapittelNavn } from '../../lib/innhold';
+import { url } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const pakker = await hentEksamen();
+  const kapitler = await hentKapitler();
+  const synlige = new Map(kapitler.map((k) => [k.id, k]));
+
+  // Sjekklisten er hentet fra kapittel 8 i heftet.
+  const sjekkliste = [
+    { gruppe: 'Tekst og struktur', punkter: ['Har du svart på det oppgaven faktisk spør om?', 'Har du tittel, innledning, hoveddel og avslutning?', 'Starter hvert avsnitt med en temasetning?', 'Har du hoppet over en linje mellom hvert avsnitt?'] },
+    { gruppe: 'Faglig kvalitet', punkter: ['Har du brukt minst tre fagbegreper der oppgaven ber om analyse?', 'Har du forklart hva virkemidlene gjør i teksten, ikke bare nevnt dem?', 'Har du brukt eksempler fra teksten (gjerne med sitat) som bevis?'] },
+    { gruppe: 'Språk og form', punkter: ['Store bokstaver etter punktum?', 'Sammensatte ord skrevet som ett ord?', 'Kandidatnummer på plass, ikke navn?', 'Har du sjekket retteprogrammet på ord du er usikker på?', 'Oppfyller teksten lengdekravet som er oppgitt i oppgaven?'] },
+  ];
+
+  return pakker.map((p) => {
+    const d = p.data;
+    const data = {
+      id: p.id,
+      tittel: d.tittel,
+      beskrivelse: d.beskrivelse,
+      vedlegg: d.vedlegg,
+      oppgave1: d.oppgave1,
+      oppgave2: {
+        valg: d.oppgave2.valg.map((v) => ({
+          id: v.id,
+          tittel: v.tittel,
+          tekst: v.tekst,
+          vedlegg: v.vedlegg,
+          ord: v.ord,
+          nokkelord: v.nokkelord,
+          sitat: v.sitat,
+          malUrl: url(`hefte/${v.mal.id}/`),
+          malTittel: synlige.has(v.mal.id) ? kapittelNavn(synlige.get(v.mal.id)!) : v.mal.id,
+        })),
+      },
+      oppgave3: d.oppgave3,
+      sjekkliste,
+    };
+    return { params: { id: p.id }, props: { tittel: d.tittel, data } };
+  });
+}
+
+const { tittel, data } = Astro.props;
+---
+<Layout tittel={`Eksamenstrening: ${tittel}`} bredde="bred">
+  <nav aria-label="Brødsmulesti"><a href={url('eksamen/')}>Eksamenstrening</a></nav>
+  <h1>{tittel}</h1>
+  <Eksamensrunner data={data} />
+</Layout>

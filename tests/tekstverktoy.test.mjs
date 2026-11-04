@@ -65,3 +65,34 @@ test('stokkForskjellig gir aldri samme rekkefølge', () => {
   }
   assert.deepEqual(stokkForskjellig(['a']), ['a']);
 });
+
+import { ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus } from '../src/lib/tekstverktoy.ts';
+
+test('ordTelling og antallAvsnitt', () => {
+  assert.equal(ordTelling('  Dette er   fem ord. '), 4);
+  assert.equal(ordTelling(''), 0);
+  assert.equal(antallAvsnitt('Første.\n\nAndre.\n\n\nTredje.'), 3);
+  assert.equal(antallAvsnitt('Én linje\nmed linjeskift'), 1);
+  assert.equal(antallAvsnitt('   '), 0);
+});
+
+test('brukteNokkelord finner bøyde former', () => {
+  const r = brukteNokkelord('Forfatteren bruker en Metafor, og metaforen virker.', ['metafor', 'frampek']);
+  assert.deepEqual(r.brukt, ['metafor']);
+  assert.deepEqual(r.mangler, ['frampek']);
+});
+
+test('harSitat godtar vanlige anførselstegn', () => {
+  assert.ok(harSitat('Han skriver «natten er en vegg».'));
+  assert.ok(harSitat('Han skriver "natten er en vegg".'));
+  assert.ok(harSitat('Han skriver “natten er en vegg”.'));
+  assert.ok(!harSitat('Han skriver at natten er en vegg.'));
+  assert.ok(!harSitat('Tomt «» sitat'));
+});
+
+test('ordStatus', () => {
+  assert.equal(ordStatus(5, { min: 10, maks: 20 }), 'for-kort');
+  assert.equal(ordStatus(10, { min: 10, maks: 20 }), 'ok');
+  assert.equal(ordStatus(20, { min: 10, maks: 20 }), 'ok');
+  assert.equal(ordStatus(21, { min: 10, maks: 20 }), 'for-lang');
+});

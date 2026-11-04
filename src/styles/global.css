@@ -218,6 +218,25 @@ button.liten[disabled] { opacity: 0.35; cursor: default; }
 .ord.marker.ekstra { background: var(--feil-bg); color: var(--tekst); border-bottom-color: var(--feil); text-decoration: line-through; }
 .ord.marker.mangler { background: var(--riktig-bg); color: var(--tekst); border-bottom: 2px dotted var(--riktig); }
 
+/* Skriving */
+.etikett-stor { display: block; font-weight: 650; margin: 0.5rem 0 0.3rem; }
+.runner textarea, .eksamen textarea { min-height: 9rem; line-height: 1.5; font: inherit; resize: vertical; }
+.teller { margin: 0.4rem 0; font-size: 0.92rem; color: var(--dempet); }
+.teller.ok { color: var(--riktig); }
+.teller.for-lang { color: var(--feil); }
+.sjekkliste { list-style: none; padding: 0; margin: 0 0 1rem; display: grid; gap: 0.4rem; }
+.sjekkliste li { display: flex; gap: 0.6rem; align-items: baseline; }
+.sjekkliste .ikon { font-weight: 800; min-width: 1.2rem; }
+.sjekkliste .ok .ikon { color: var(--riktig); }
+.sjekkliste .mangler .ikon { color: var(--feil); }
+.egenvurdering { border: 1px solid var(--linje); border-radius: 10px; padding: 0.7rem 1rem; margin: 0 0 1rem; background: var(--flate); }
+.egenvurdering legend { font-weight: 650; padding: 0 0.3rem; }
+.kriterium { display: flex; gap: 0.7rem; align-items: flex-start; padding: 0.3rem 0; }
+.kriterium input { width: 1.3rem; height: 1.3rem; margin-top: 0.2rem; flex: none; accent-color: var(--primar); }
+.kriterium label { cursor: pointer; }
+details.modell { border: 1px solid var(--linje); border-radius: 10px; padding: 0.6rem 1rem; margin: 0 0 1rem; background: var(--flate-2); }
+details.modell summary { cursor: pointer; font-weight: 650; min-height: 44px; display: flex; align-items: center; }
+
 /* Hefte */
 .innhold h2 { border-bottom: 2px solid var(--primar); padding-bottom: 0.2rem; }
 .innhold table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 1rem 0 1.5rem; font-size: 0.93rem; }
@@ -274,3 +293,22 @@ textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo,
 
 /* Marker-oppgaver skal ikke vise komma */
 .ord.marker::after, .ord.marker.mangler::after, .ord.marker[aria-pressed='true']::after { content: none; }
+
+/* Eksamenstrening */
+.eks-topp { position: sticky; top: 0; z-index: 5; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; padding: 0.6rem 0.9rem; background: var(--flate); border: 1px solid var(--linje); border-radius: 10px; margin-bottom: 0.75rem; box-shadow: var(--skygge); }
+.eks-tid { font-weight: 800; font-size: 1.2rem; font-variant-numeric: tabular-nums; margin-right: auto; }
+.liten-tekst { font: inherit; background: transparent; border: 0; color: var(--primar); text-decoration: underline; cursor: pointer; min-height: 44px; padding: 0 0.5rem; }
+.eks-banner { background: var(--feil-bg); border: 1px solid var(--feil); border-radius: 10px; padding: 0.7rem 1rem; margin-bottom: 0.75rem; }
+.eks-banner[hidden], .eks-pane[hidden] { display: none; }
+.faner { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+.fane { font: inherit; min-height: 44px; padding: 0 1rem; border: 2px solid var(--linje); border-radius: 99px; background: var(--flate); color: var(--tekst); cursor: pointer; }
+.fane[aria-pressed='true'] { border-color: var(--primar); background: var(--flate-2); font-weight: 700; }
+.vedlegg { background: var(--flate); border: 1px solid var(--linje); border-radius: 10px; padding: 0.5rem 1.1rem; margin-bottom: 1rem; }
+.vedlegg h4, .eks-kort h4 { margin: 0.8rem 0 0.3rem; }
+.eks-felt { margin-bottom: 1.2rem; }
+.eksamen { background: var(--flate); border: 1px solid var(--linje); border-radius: var(--radius); padding: 1.25rem; box-shadow: var(--skygge); }
+.eks-kort { border: 1px solid var(--linje); border-radius: 10px; padding: 0.3rem 1.1rem 1rem; margin-bottom: 1rem; background: var(--bg); }
+.eksamen input[type='number'] { font: inherit; width: 6rem; min-height: 44px; padding: 0 0.5rem; border: 2px solid var(--linje); border-radius: 8px; background: var(--flate); color: var(--tekst); }
+@media print { .eks-topp, .faner { display: none; } }
+
+.vedlegg p { white-space: pre-line; }

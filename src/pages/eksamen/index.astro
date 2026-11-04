@@ -1,0 +1,20 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { hentEksamen } from '../../lib/innhold';
+import { url } from '../../lib/url';
+
+const pakker = await hentEksamen();
+---
+<Layout tittel="Eksamenstrening" beskrivelse="Tren på hele eller deler av eksamen med tidtaker, vedlegg og tilbakemelding.">
+  <h1>Eksamenstrening</h1>
+  <p>Skriv en hel eller en del av en eksamen med tidtaker. Du får vedlegg og oppgaver, og en automatisk sjekk av lengde og form når du leverer. Oppgavene er laget for øving og er ikke ekte eksamensoppgaver.</p>
+  <ul class="liste-kapitler">
+    {pakker.map((p) => (
+      <li><a href={url(`eksamen/${p.id}/`)}><span>{p.data.tittel}</span></a></li>
+    ))}
+  </ul>
+  {pakker.length === 0 && <p>Det er ingen godkjente eksamenspakker ennå.</p>}
+  <div class="merknad">
+    <p><strong>Slik bruker du det.</strong> Du kan trene på oppgave 1, 2 eller 3 hver for seg, eller på hele eksamen. Teksten din lagres bare i nettleseren din, og du kan laste den ned eller kopiere den for å vise den til læreren din.</p>
+  </div>
+</Layout>

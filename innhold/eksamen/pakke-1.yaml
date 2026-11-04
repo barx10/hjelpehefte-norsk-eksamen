@@ -1,0 +1,51 @@
+tittel: "Pakke 1: Mobil og konsentrasjon"
+beskrivelse: "Denne pakken handler om mobilbruk i skolen. Du får et debattinnlegg, et novelleutdrag og en kort undersøkelse. Alle tekstene er skrevet for øving."
+status: utkast
+vedlegg:
+  - id: v1
+    tittel: "Vedlegg 1: Legg bort telefonen i timene"
+    forfatter: "Debattinnlegg skrevet av en lærer (fiktiv tekst for øving)"
+    tekst: "Hver dag sitter 25 elever i klasserommet mitt. De fleste har mobilen i lomma, og jeg ser det på blikkene deres når et varsel kommer. Jeg har undervist i tjue år, og jeg har aldri sett konsentrasjonen falle så fort som nå.\n\nFordi mobilen avbryter, tar det lenger tid å komme tilbake til oppgaven. I min egen klasse brukte vi forrige uke fire minutter på noe som vanligvis tar to, bare fordi tre elever måtte sjekke telefonen. Det betyr at vi mister nesten en hel skoletime i uka.\n\nTenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Tenk deg å være eleven som vil lære, men som ikke klarer å la være å se på skjermen. Det er ikke rettferdig mot noen av dem.\n\nDerfor foreslår jeg at mobilene legges bort i en felles kasse ved timens start. Det koster oss ingenting, og det gir elevene tilbake noe de har mistet: roen til å tenke ferdig.\n\nHvis vi voksne mener alvor med at skolen skal være et sted for læring, må vi tørre å sette en grense."
+  - id: v2
+    tittel: "Vedlegg 2: Paraplyen (novelleutdrag)"
+    forfatter: "Novelleutdrag skrevet for øving (fiktiv tekst)"
+    tekst: "Regnet hadde falt siden morgenen. Mia stod alene ved busstoppet og så på paraplyen som lå igjen på benken. Den var stor og svart, og ingen kom for å hente den.\n\nHun hadde sagt til moren at hun skulle reise i dag. Hun hadde pakket sekken kvelden før, og tatt med seg alt hun ville ha, bortsett fra rommet. Det var ikke noe å ta med seg av det.\n\nBussen kom ti over åtte, nøyaktig som den alltid gjorde. Døren åpnet seg med et sukk. Sjåføren så på henne, og Mia så på paraplyen.\n\n«Skal du være med?» ropte sjåføren.\n\nHun åpnet munnen, men ingenting kom ut. Så tok hun paraplyen fra benken, åpnet den og trådte ut i regnet igjen. Bussen kjørte videre. Bak henne lå gaten tom og våt, og for første gang på lenge visste hun akkurat hvor hun skulle gå."
+  - id: v3
+    tittel: "Vedlegg 3: Undersøkelse ved Fjellvang ungdomsskole"
+    forfatter: "Sammendrag av en spørreundersøkelse (fiktiv, laget for øving)"
+    tekst: "I en spørreundersøkelse ved Fjellvang ungdomsskole svarte 214 elever på spørsmål om mobilbruk i skoletiden.\n\n62 prosent sa at de sjekker mobilen minst én gang i hver time.\n48 prosent sa at de har problemer med å konsentrere seg når mobilen ligger på pulten.\n71 prosent sa at de ønsker klare regler for mobilbruk, men bare 29 prosent ønsker totalforbud.\n54 prosent sa at de bruker mobilen til skolearbeid minst én gang i uka."
+oppgave1:
+  vedlegg: v1
+  innledning: "Les vedlegg 1 og svar kort på spørsmålene. Bruk egne ord."
+  delsporsmal:
+    - tekst: "Hva er innleggets hovedpåstand? Svar i 1–2 setninger."
+      ord: { min: 10, maks: 60 }
+      modell: "Hovedpåstanden er at mobilene bør legges bort i timene, slik at elevene kan konsentrere seg og lære mer."
+    - tekst: "Hvem er avsenderen, og hvem er mottakeren? Svar i 1–2 setninger."
+      ord: { min: 10, maks: 60 }
+      modell: "Avsenderen er en lærer med tjue års erfaring. Mottakerne er foreldre, kolleger og skolens ledelse, altså de som kan bestemme regler for skolen."
+    - tekst: "Finn ett eksempel på patos i innlegget, og forklar hvorfor det er patos."
+      ord: { min: 15, maks: 80 }
+      modell: "Setningen «Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel» er patos. Den får leseren til å leve seg inn i en frustrerende situasjon og vekker følelser."
+oppgave2:
+  valg:
+    - id: novelle
+      tittel: "A: Analyser novellen"
+      tekst: "Analyser novelleutdraget «Paraplyen» i vedlegg 2. Gjør rede for tema, oppbygging, synsvinkel og minst to virkemidler."
+      mal: novelleanalyse
+      vedlegg: v2
+      ord: { min: 450, maks: 900 }
+      nokkelord: ["tema", "frampek", "synsvinkel", "symbol", "kontrast", "vendepunkt", "oppbygging", "personskildring", "konflikt"]
+      nokkelordMinst: 3
+      sitat: true
+    - id: refleksjon
+      tittel: "B: Reflekter over skjermen i hverdagen"
+      tekst: "Reflekter over hvordan mobilen og skjermen påvirker hverdagen din og de rundt deg. Bruk egne erfaringer og se saken fra flere sider."
+      mal: reflekterende-tekst
+      ord: { min: 450, maks: 900 }
+oppgave3:
+  tekst: "Skriv et leserinnlegg der du argumenterer for eller mot et forbud mot mobil i timene på din skole. Bruk opplysninger fra vedlegg 3, og kommenter gjerne vedlegg 1."
+  vedlegg: [v3, v1]
+  ord: { min: 250, maks: 350 }
+  nokkelord: ["prosent", "undersøkelse", "innlegg"]
+  nokkelordMinst: 2

@@ -10,6 +10,7 @@ export const visUtkast: boolean = import.meta.env.DEV || import.meta.env.PUBLIC_
 export type Kapittel = CollectionEntry<'hefte'>;
 export type Mal = CollectionEntry<'mal'>;
 export type Ovelse = CollectionEntry<'ovelser'>;
+export type Eksamenspakke = CollectionEntry<'eksamen'>;
 
 export async function hentKapitler(): Promise<Kapittel[]> {
   const alle = (await getCollection('hefte')).filter((k) => visUtkast || k.data.status === 'godkjent');
@@ -30,6 +31,11 @@ export async function hentOvelser(): Promise<Ovelse[]> {
     .sort((a, b) => a.id.localeCompare(b.id, 'nb'));
 }
 
+export async function hentEksamen(): Promise<Eksamenspakke[]> {
+  const alle = (await getCollection('eksamen')).filter((e) => visUtkast || e.data.status === 'godkjent');
+  return alle.sort((a, b) => a.id.localeCompare(b.id, 'nb'));
+}
+
 export function kapittelNavn(k: Kapittel): string {
   return k.data.nummer ? `${k.data.nummer} ${k.data.tittel}` : k.data.tittel;
 }
@@ -46,6 +52,7 @@ export const typeNavn: Record<Ovelsestype, string> = {
   rekkefolge: 'rekkefølgeoppgaver',
   matching: 'koblingsoppgaver',
   marker: '«marker i teksten»-oppgaver',
+  skriv: 'skriveoppgaver',
 };
 
 /** Det klienten trenger for å kjøre en øvelse. */
@@ -118,6 +125,23 @@ export function tilKlient(o: Ovelse, kapittelTittel: string) {
         fasitTekst: ord.filter((x) => x.riktig).map((x) => x.ord).join(' '),
       };
     }
+    case 'skriv':
+      return {
+        ...felles,
+        type: 'skriv' as const,
+        oppdrag: d.oppdrag,
+        utdrag: d.utdrag ?? null,
+        starttekst: d.starttekst ?? '',
+        ord: d.ord,
+        nokkelord: d.nokkelord,
+        nokkelordMinst: d.nokkelordMinst ?? d.nokkelord.length,
+        sitat: d.sitat,
+        kriterier: d.kriterier,
+        modelltekst: d.modelltekst,
+        modellkommentar: d.modellkommentar ?? '',
+        fasitTekst: d.modelltekst,
+        forklaring: d.modellkommentar ?? '',
+      };
     case 'finnfeil':
       return {
         ...felles,
