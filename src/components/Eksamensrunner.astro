@@ -1,0 +1,375 @@
+---
+import { tilJson } from '../lib/innhold';
+
+interface Props {
+  data: unknown;
+}
+const { data } = Astro.props;
+---
+<section class="eksamen" id="eksamen" aria-label="Eksamenstrening">
+  <p>Laster ...</p>
+  <noscript><p>Eksamenstreningen krever JavaScript.</p></noscript>
+</section>
+<script type="application/json" id="eksamen-data" set:html={tilJson(data)} />
+
+<script>
+  import { lesJson, skrivJson, slettJson, eksamenNokkel } from '../lib/lager';
+  import { ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus } from '../lib/tekstverktoy';
+  import type { Ordkrav } from '../lib/tekstverktoy';
+
+  type Modus = 'hel' | 'o1' | 'o2' | 'o3';
+  type Vedlegg = { id: string; tittel: string; forfatter?: string; tekst: string };
+  type Valg2 = { id: string; tittel: string; tekst: string; malUrl: string; malTittel: string; vedlegg?: string; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean };
+  type Pakke = {
+    id: string; tittel: string; beskrivelse: string; vedlegg: Vedlegg[];
+    oppgave1: { vedlegg: string; innledning: string; delsporsmal: { tekst: string; ord: Ordkrav; modell: string }[] };
+    oppgave2: { valg: Valg2[] };
+    oppgave3: { tekst: string; vedlegg: string[]; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean };
+    sjekkliste: { gruppe: string; punkter: string[] }[];
+  };
+  type Tilstand = { versjon: 1; modus: Modus; start: number; slutt: number; skjulTid: boolean; valg2: string; svar: Record<string, string>; levert: boolean };
+
+  const MODUSER: Record<Modus, { navn: string; minutter: number; oppgaver: (1 | 2 | 3)[] }> = {
+    hel: { navn: 'Hel eksamen: oppgave 1, 2 og 3', minutter: 300, oppgaver: [1, 2, 3] },
+    o1: { navn: 'Bare oppgave 1', minutter: 40, oppgaver: [1] },
+    o2: { navn: 'Bare oppgave 2', minutter: 120, oppgaver: [2] },
+    o3: { navn: 'Bare oppgave 3', minutter: 60, oppgaver: [3] },
+  };
+
+  const rot = document.getElementById('eksamen') as HTMLElement;
+  const pakke: Pakke = JSON.parse(document.getElementById('eksamen-data')!.textContent ?? '{}');
+  const NOKKEL = eksamenNokkel(pakke.id);
+  let tilstand: Tilstand | null = lesJson<Tilstand | null>(NOKKEL, null);
+  if (tilstand && tilstand.versjon !== 1) tilstand = null;
+  let intervall: number | undefined;
+  let lagreTimer: number | undefined;
+
+  function el<K extends keyof HTMLElementTagNameMap>(tag: K, egenskaper: Record<string, string> = {}, ...barn: (Node | string)[]): HTMLElementTagNameMap[K] {
+    const e = document.createElement(tag);
+    for (const [k, v] of Object.entries(egenskaper)) {
+      if (k === 'class') e.className = v;
+      else e.setAttribute(k, v);
+    }
+    e.append(...barn);
+    return e;
+  }
+
+  function lagre() {
+    if (tilstand) skrivJson(NOKKEL, tilstand);
+  }
+
+  function vis(...barn: Node[]) {
+    window.clearInterval(intervall);
+    rot.replaceChildren(...barn);
+    rot.querySelector<HTMLElement>('h2')?.focus();
+  }
+
+  function absatser(tekst: string): HTMLElement[] {
+    return tekst.split(/\n\s*\n/).map((a) => el('p', {}, a.trim())).filter((p) => p.textContent);
+  }
+
+  function tid(ms: number): string {
+    const s = Math.max(0, Math.ceil(ms / 1000));
+    const t = Math.floor(s / 3600);
+    const m = Math.floor((s % 3600) / 60);
+    return `${t}:${String(m).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
+  }
+
+  // ---------- start ----------
+  function visStart() {
+    let valgt: Modus = 'hel';
+    let minutter = MODUSER.hel.minutter;
+    let endretTid = false;
+
+    const barn: Node[] = [
+      el('h2', { tabindex: '-1' }, 'Slik fungerer det'),
+      ...absatser(pakke.beskrivelse),
+      el('p', {}, 'Tekstene og oppgavene er laget for øving. De ligner på en eksamen, men er ikke ekte eksamensoppgaver. Du kan bruke heftet og ordbok, men ikke KI. Teksten din lagres bare i denne nettleseren.'),
+    ];
+
+    if (tilstand && !tilstand.levert) {
+      const igjen = tilstand.slutt - Date.now();
+      const fortsett = el('button', { class: 'knapp', type: 'button' }, 'Fortsett økten');
+      fortsett.addEventListener('click', visArbeid);
+      const slett = el('button', { class: 'knapp sekundar', type: 'button' }, 'Slett og start på nytt');
+      slett.addEventListener('click', () => {
+        if (!confirm('Vil du slette den pågående økten og teksten din?')) return;
+        slettJson(NOKKEL);
+        tilstand = null;
+        visStart();
+      });
+      barn.push(el('div', { class: 'merknad' },
+        el('p', {}, el('strong', {}, 'Du har en pågående økt. '), igjen > 0 ? `Det er ${tid(igjen)} igjen.` : 'Tiden er ute.'),
+        el('div', { class: 'knapp-rad' }, fortsett, slett)));
+    }
+
+    const modusSett = el('fieldset', { class: 'valgrekke' }, el('legend', {}, 'Hva vil du øve på?'));
+    const tidInput = el('input', { type: 'number', id: 'eks-tid', min: '5', max: '360', step: '5', value: String(minutter) });
+    for (const [verdi, m] of Object.entries(MODUSER) as [Modus, (typeof MODUSER)[Modus]][]) {
+      const radio = el('input', { type: 'radio', name: 'modus', value: verdi });
+      radio.checked = verdi === valgt;
+      radio.addEventListener('change', () => {
+        valgt = verdi;
+        if (!endretTid) { minutter = m.minutter; tidInput.value = String(minutter); }
+      });
+      modusSett.append(el('label', {}, radio, `${m.navn} (${m.minutter} min)`));
+    }
+    tidInput.addEventListener('input', () => { endretTid = true; minutter = Number(tidInput.value); });
+    const skjul = el('input', { type: 'checkbox', id: 'eks-skjul' });
+    const start = el('button', { class: 'knapp', type: 'button' }, 'Start tiden');
+    start.addEventListener('click', () => {
+      const min = Math.min(360, Math.max(5, Math.round(minutter) || MODUSER[valgt].minutter));
+      const naa = Date.now();
+      tilstand = { versjon: 1, modus: valgt, start: naa, slutt: naa + min * 60000, skjulTid: skjul.checked, valg2: pakke.oppgave2.valg[0]!.id, svar: {}, levert: false };
+      lagre();
+      visArbeid();
+    });
+    barn.push(
+      modusSett,
+      el('p', {}, el('label', { for: 'eks-tid' }, 'Tid i minutter: '), tidInput),
+      el('p', {}, el('label', {}, skjul, ' Skjul tidtakeren (du kan vise den igjen underveis)')),
+      el('div', { class: 'knapp-rad' }, start),
+    );
+    vis(...barn);
+  }
+
+  // ---------- arbeid ----------
+  function visArbeid() {
+    const t = tilstand!;
+    t.levert = false;
+    lagre();
+    const modus = MODUSER[t.modus];
+    const felt = new Map<string, HTMLTextAreaElement>();
+    const live = el('p', { class: 'visuelt-skjult', 'aria-live': 'polite' });
+
+    const tidstekst = el('span', { class: 'eks-tid', role: 'timer' });
+    const skjulKnapp = el('button', { class: 'liten-tekst', type: 'button' }, t.skjulTid ? 'Vis tid' : 'Skjul tid');
+    skjulKnapp.addEventListener('click', () => { t.skjulTid = !t.skjulTid; skjulKnapp.textContent = t.skjulTid ? 'Vis tid' : 'Skjul tid'; lagre(); oppdaterTid(); });
+    const lever = el('button', { class: 'knapp', type: 'button' }, 'Lever');
+    lever.addEventListener('click', () => {
+      if (!confirm('Vil du levere og se tilbakemelding? Du kan gå tilbake og skrive mer etterpå.')) return;
+      t.levert = true;
+      lagre();
+      visResultat();
+    });
+    const toppbanner = el('div', { class: 'eks-banner', hidden: '' });
+    const topp = el('div', { class: 'eks-topp' }, tidstekst, skjulKnapp, lever);
+
+    const vedleggPane = el('div', { class: 'eks-pane', id: 'pane-vedlegg' }, el('h3', {}, 'Vedlegg'));
+    for (const v of pakke.vedlegg) {
+      vedleggPane.append(el('article', { class: 'vedlegg' }, el('h4', {}, v.tittel), v.forfatter ? el('p', { class: 'tastehint' }, v.forfatter) : document.createComment(''), ...absatser(v.tekst)));
+    }
+
+    function skrivefelt(nokkel: string, merkelapp: string, krav: Ordkrav, rader = 8): HTMLElement {
+      const id = `eks-${nokkel}`;
+      const f = el('textarea', { id, rows: String(rader), lang: 'nb', spellcheck: 'true', 'aria-describedby': `${id}-teller` });
+      f.value = t.svar[nokkel] ?? '';
+      felt.set(nokkel, f);
+      const teller = el('p', { class: 'teller', id: `${id}-teller` });
+      const oppdater = () => {
+        const n = ordTelling(f.value);
+        const s = ordStatus(n, krav);
+        teller.textContent = `${n} ord. Mål: ${krav.min} til ${krav.maks}.`;
+        teller.className = `teller ${s}`;
+      };
+      f.addEventListener('input', () => {
+        t.svar[nokkel] = f.value;
+        oppdater();
+        window.clearTimeout(lagreTimer);
+        lagreTimer = window.setTimeout(lagre, 500);
+      });
+      oppdater();
+      return el('div', { class: 'eks-felt' }, el('label', { for: id, class: 'etikett-stor' }, merkelapp), f, teller);
+    }
+
+    const panes: { id: string; navn: string; el: HTMLElement }[] = [{ id: 'vedlegg', navn: 'Vedlegg', el: vedleggPane }];
+
+    if (modus.oppgaver.includes(1)) {
+      const p = el('div', { class: 'eks-pane', id: 'pane-o1' }, el('h3', {}, 'Oppgave 1'), el('p', {}, pakke.oppgave1.innledning));
+      const v = pakke.vedlegg.find((x) => x.id === pakke.oppgave1.vedlegg);
+      if (v) p.append(el('p', { class: 'tastehint' }, `Se vedlegg: ${v.tittel}`));
+      pakke.oppgave1.delsporsmal.forEach((d, i) => p.append(skrivefelt(`o1-${i}`, `${String.fromCharCode(97 + i)}) ${d.tekst}`, d.ord, 3)));
+      panes.push({ id: 'o1', navn: 'Oppgave 1', el: p });
+    }
+    if (modus.oppgaver.includes(2)) {
+      const p = el('div', { class: 'eks-pane', id: 'pane-o2' }, el('h3', {}, 'Oppgave 2'), el('p', {}, 'Velg én av oppgavene.'));
+      const oppgaveBoks = el('div', {});
+      const tegn2 = () => {
+        const valg = pakke.oppgave2.valg.find((x) => x.id === t.valg2) ?? pakke.oppgave2.valg[0]!;
+        const v = valg.vedlegg ? pakke.vedlegg.find((x) => x.id === valg.vedlegg) : undefined;
+        oppgaveBoks.replaceChildren(
+          el('p', {}, el('strong', {}, valg.tekst)),
+          v ? el('p', { class: 'tastehint' }, `Se vedlegg: ${v.tittel}`) : document.createComment(''),
+          el('p', { class: 'tastehint' }, 'Hjelp: ', el('a', { href: valg.malUrl, target: '_blank', rel: 'noopener' }, `${valg.malTittel} i heftet (åpnes i ny fane)`)),
+          skrivefelt('o2', 'Svaret ditt', valg.ord, 18),
+        );
+      };
+      if (pakke.oppgave2.valg.length > 1) {
+        const sett = el('fieldset', { class: 'valgrekke' }, el('legend', {}, 'Oppgavevalg'));
+        for (const v of pakke.oppgave2.valg) {
+          const r = el('input', { type: 'radio', name: 'valg2', value: v.id });
+          r.checked = v.id === t.valg2;
+          r.addEventListener('change', () => { t.valg2 = v.id; lagre(); tegn2(); });
+          sett.append(el('label', {}, r, v.tittel));
+        }
+        p.append(sett);
+      }
+      p.append(oppgaveBoks);
+      tegn2();
+      panes.push({ id: 'o2', navn: 'Oppgave 2', el: p });
+    }
+    if (modus.oppgaver.includes(3)) {
+      const p = el('div', { class: 'eks-pane', id: 'pane-o3' }, el('h3', {}, 'Oppgave 3'), el('p', {}, el('strong', {}, pakke.oppgave3.tekst)));
+      const navn = pakke.oppgave3.vedlegg.map((id) => pakke.vedlegg.find((x) => x.id === id)?.tittel).filter(Boolean);
+      p.append(el('p', { class: 'tastehint' }, `Se vedlegg: ${navn.join(', ')}`), skrivefelt('o3', 'Svaret ditt', pakke.oppgave3.ord, 12));
+      panes.push({ id: 'o3', navn: 'Oppgave 3', el: p });
+    }
+
+    const faner = el('div', { class: 'faner', role: 'group', 'aria-label': 'Velg del' });
+    const visPane = (id: string) => {
+      panes.forEach((p) => { p.el.hidden = p.id !== id; });
+      faner.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.pane === id)));
+    };
+    for (const p of panes) {
+      const b = el('button', { class: 'fane', type: 'button', 'aria-pressed': 'false', 'data-pane': p.id }, p.navn);
+      b.addEventListener('click', () => visPane(p.id));
+      faner.append(b);
+    }
+    visPane(panes[1]?.id ?? 'vedlegg');
+
+    // Tidtaker
+    const varsler = [60, 30, 10, 5, 1];
+    let sistVarslet = Infinity;
+    let utlopt = false;
+    function oppdaterTid() {
+      const igjen = t.slutt - Date.now();
+      tidstekst.textContent = t.skjulTid ? 'Tid skjult' : `Tid igjen: ${tid(igjen)}`;
+      const minIgjen = Math.ceil(igjen / 60000);
+      const v = varsler.find((x) => minIgjen <= x && x < sistVarslet);
+      if (igjen > 0 && v !== undefined) { sistVarslet = v; live.textContent = `${v === 1 ? 'Ett minutt' : v + ' minutter'} igjen.`; }
+      if (igjen <= 0 && !utlopt) {
+        utlopt = true;
+        felt.forEach((f) => { f.readOnly = true; });
+        live.textContent = 'Tiden er ute.';
+        const ekstra = el('button', { class: 'knapp sekundar', type: 'button' }, 'Legg til 10 minutter (ikke som på eksamen)');
+        ekstra.addEventListener('click', () => {
+          t.slutt = Date.now() + 10 * 60000; lagre(); utlopt = false; sistVarslet = Infinity;
+          felt.forEach((f) => { f.readOnly = false; });
+          toppbanner.hidden = true;
+        });
+        toppbanner.replaceChildren(el('strong', {}, 'Tiden er ute. '), 'Skrivefeltene er låst. Lever for å se tilbakemelding. ', ekstra);
+        toppbanner.hidden = false;
+      }
+    }
+    oppdaterTid();
+
+    vis(el('h2', { tabindex: '-1', class: 'visuelt-skjult' }, pakke.tittel), topp, toppbanner, live, faner, ...panes.map((p) => p.el));
+    intervall = window.setInterval(oppdaterTid, 1000);
+    oppdaterTid();
+  }
+
+  // ---------- resultat ----------
+  function vurder(tekst: string, krav: Ordkrav, nokkelord: string[], sitat: boolean, minst?: number): HTMLElement {
+    const n = ordTelling(tekst);
+    const s = ordStatus(n, krav);
+    const liste = el('ul', { class: 'sjekkliste' });
+    const punkt = (ok: boolean, t_: string) => liste.append(el('li', { class: ok ? 'ok' : 'mangler' }, el('span', { class: 'ikon', 'aria-hidden': 'true' }, ok ? '✓' : '✗'), t_));
+    punkt(s === 'ok', s === 'ok' ? `Lengde: ${n} ord, innenfor målet (${krav.min} til ${krav.maks}).` : `Lengde: ${n} ord. Målet er ${krav.min} til ${krav.maks}.`);
+    if (krav.maks > 150) punkt(antallAvsnitt(tekst) >= 3, `Avsnitt: ${antallAvsnitt(tekst)}. Hopp over en linje mellom avsnittene.`);
+    if (nokkelord.length) {
+      const r = brukteNokkelord(tekst, nokkelord);
+      const krevd = minst ?? Math.min(3, nokkelord.length);
+      punkt(r.brukt.length >= krevd, `Fagbegreper og henvisninger: ${r.brukt.length} av ${nokkelord.length} (bør være minst ${krevd}). Brukt: ${r.brukt.join(', ') || 'ingen'}. Ikke brukt: ${r.mangler.join(', ') || 'ingen'}.`);
+    }
+    if (sitat) punkt(harSitat(tekst), harSitat(tekst) ? 'Du har brukt sitat i anførselstegn.' : 'Du har ikke brukt sitat i anførselstegn.');
+    return liste;
+  }
+
+  function eksportTekst(): string {
+    const t = tilstand!;
+    const modus = MODUSER[t.modus];
+    const deler: string[] = [`${pakke.tittel}`, new Date().toLocaleDateString('nb-NO'), ''];
+    if (modus.oppgaver.includes(1)) {
+      deler.push('OPPGAVE 1');
+      pakke.oppgave1.delsporsmal.forEach((d, i) => deler.push(`${String.fromCharCode(97 + i)}) ${d.tekst}`, t.svar[`o1-${i}`] ?? '', ''));
+    }
+    if (modus.oppgaver.includes(2)) {
+      const v = pakke.oppgave2.valg.find((x) => x.id === t.valg2) ?? pakke.oppgave2.valg[0]!;
+      deler.push('OPPGAVE 2', v.tekst, '', t.svar['o2'] ?? '', '');
+    }
+    if (modus.oppgaver.includes(3)) deler.push('OPPGAVE 3', pakke.oppgave3.tekst, '', t.svar['o3'] ?? '', '');
+    return deler.join('\n');
+  }
+
+  function visResultat() {
+    const t = tilstand!;
+    const modus = MODUSER[t.modus];
+    const barn: Node[] = [el('h2', { tabindex: '-1' }, 'Tilbakemelding'), el('p', {}, 'Dette er en automatisk sjekk av lengde og form. Den sier ingenting om innholdet. Les gjennom teksten din og bruk sjekklisten under.')];
+
+    if (modus.oppgaver.includes(1)) {
+      const kort = el('section', { class: 'eks-kort' }, el('h3', {}, 'Oppgave 1'));
+      pakke.oppgave1.delsporsmal.forEach((d, i) => {
+        const svar = (t.svar[`o1-${i}`] ?? '').trim();
+        kort.append(
+          el('h4', {}, `${String.fromCharCode(97 + i)}) ${d.tekst}`),
+          svar ? el('blockquote', { class: 'utdrag' }, svar) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
+          vurder(svar, d.ord, [], false),
+          el('details', { class: 'modell' }, el('summary', {}, 'Se et eksempel på et godt svar'), el('p', {}, d.modell)),
+        );
+      });
+      barn.push(kort);
+    }
+    if (modus.oppgaver.includes(2)) {
+      const v = pakke.oppgave2.valg.find((x) => x.id === t.valg2) ?? pakke.oppgave2.valg[0]!;
+      const svar = (t.svar['o2'] ?? '').trim();
+      barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, 'Oppgave 2'), el('p', {}, el('strong', {}, v.tittel)),
+        svar ? vurder(svar, v.ord, v.nokkelord, v.sitat, v.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
+        el('p', {}, el('a', { href: v.malUrl, target: '_blank', rel: 'noopener' }, `Sammenlign med malen: ${v.malTittel}`))));
+    }
+    if (modus.oppgaver.includes(3)) {
+      const svar = (t.svar['o3'] ?? '').trim();
+      barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, 'Oppgave 3'),
+        svar ? vurder(svar, pakke.oppgave3.ord, pakke.oppgave3.nokkelord, pakke.oppgave3.sitat, pakke.oppgave3.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.')));
+    }
+
+    const sjekk = el('section', { class: 'eks-kort' }, el('h3', {}, 'Sjekkliste før innlevering'));
+    pakke.sjekkliste.forEach((g, gi) => {
+      const sett = el('fieldset', { class: 'egenvurdering' }, el('legend', {}, g.gruppe));
+      g.punkter.forEach((p, pi) => {
+        const id = `sj-${gi}-${pi}`;
+        sett.append(el('div', { class: 'kriterium' }, el('input', { type: 'checkbox', id }), el('label', { for: id }, p)));
+      });
+      sjekk.append(sett);
+    });
+    barn.push(sjekk);
+
+    const melding = el('p', { class: 'melding', role: 'status' });
+    const tilbake = el('button', { class: 'knapp', type: 'button' }, 'Tilbake til skrivingen');
+    tilbake.addEventListener('click', visArbeid);
+    const kopier = el('button', { class: 'knapp sekundar', type: 'button' }, 'Kopier svarene');
+    kopier.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(eksportTekst()); melding.textContent = 'Svarene er kopiert.'; } catch { melding.textContent = 'Kunne ikke kopiere. Bruk «Last ned» i stedet.'; }
+    });
+    const last = el('button', { class: 'knapp sekundar', type: 'button' }, 'Last ned som tekstfil');
+    last.addEventListener('click', () => {
+      const blob = new Blob([eksportTekst()], { type: 'text/plain;charset=utf-8' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'eksamenstrening.txt';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    });
+    const slett = el('button', { class: 'knapp sekundar', type: 'button' }, 'Avslutt og slett teksten');
+    slett.addEventListener('click', () => {
+      if (!confirm('Vil du slette teksten din fra denne nettleseren?')) return;
+      slettJson(NOKKEL);
+      tilstand = null;
+      visStart();
+    });
+    barn.push(el('div', { class: 'knapp-rad' }, tilbake, kopier, last, slett), melding);
+    vis(...barn);
+  }
+
+  if (tilstand?.levert) visResultat();
+  else visStart();
+</script>

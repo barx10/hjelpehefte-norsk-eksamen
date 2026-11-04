@@ -54,6 +54,11 @@ Flashkort har `forside` og `bakside` i stedet for spørsmål, alternativer og fo
 | `rekkefolge` | Setter elementene i riktig rekkefølge | `oppdrag`, `elementer` (skriv dem i riktig rekkefølge), `forklaring` |
 | `matching` | Kobler begrep til forklaring | `oppdrag`, `par` (`venstre`, `hoyre`), `forklaring` |
 | `marker` | Trykker på riktige ord i en tekst | `oppdrag`, `tekst` (riktige ord i `[[dobbel hakeparentes]]`), `forklaring` |
+| `skriv` | Skriver en egen tekst, får automatisk sjekk og vurderer seg selv | `oppdrag`, `utdrag`, `starttekst`, `ord` (`min`, `maks`), `nokkelord`, `nokkelordMinst`, `sitat`, `kriterier`, `modelltekst` |
+
+### Eksamenstrening
+
+Eksamenspakker ligger i `innhold/eksamen/`, én YAML-fil per pakke. En pakke har vedlegg, oppgave 1 (tre delspørsmål med modellsvar), oppgave 2 (ett eller flere valg, hvert knyttet til en mal i heftet) og oppgave 3. Byggingen stopper hvis en oppgave peker på et vedlegg eller en mal som ikke finnes. Tekstene skal være skrevet for øvingen. Pakker med `status: utkast` vises ikke på den publiserte siden.
 
 Byggingen stopper med en feilmelding hvis en øvelse peker på et kapittel eller mål som ikke finnes, hvis en id er brukt to ganger, eller hvis `riktig` peker utenfor alternativene.
 

@@ -142,9 +142,28 @@ const marker = base.extend({
   forklaring: z.string(),
 });
 
+const ordkrav = z.object({ min: z.number().int().min(1), maks: z.number().int().min(1) }).refine((o) => o.min <= o.maks, {
+  message: 'min kan ikke være større enn maks',
+});
+
+// Eleven skriver en egen tekst, får automatisk sjekk og vurderer seg selv mot kriterier.
+const skriv = base.extend({
+  type: z.literal('skriv'),
+  oppdrag: z.string(),
+  utdrag: z.string().optional(),
+  starttekst: z.string().optional(), // ferdig tekst eleven skal forbedre
+  ord: ordkrav,
+  nokkelord: z.array(z.string()).default([]), // begreper teksten bør bruke
+  nokkelordMinst: z.number().int().min(1).optional(), // hvor mange av dem som må brukes (standard: alle)
+  sitat: z.boolean().default(false),
+  kriterier: z.array(z.string()).min(2).max(8),
+  modelltekst: z.string(),
+  modellkommentar: z.string().optional(),
+});
+
 const ovelser = defineCollection({
   loader: yamlListeLoader('innhold/ovelser'),
-  schema: z.discriminatedUnion('type', [flashkort, flervalg, komma, finnfeil, sortering, rekkefolge, matching, marker]).superRefine((o, ctx) => {
+  schema: z.discriminatedUnion('type', [flashkort, flervalg, komma, finnfeil, sortering, rekkefolge, matching, marker, skriv]).superRefine((o, ctx) => {
     if (o.type === 'flervalg' && o.riktig >= o.alternativer.length) {
       ctx.addIssue({ code: 'custom', message: 'riktig peker utenfor alternativene' });
     }
@@ -178,4 +197,55 @@ const ovelser = defineCollection({
   }),
 });
 
-export const collections = { hefte, mal, ovelser };
+// Eksamenspakker for eksamensmodus: vedlegg og tre oppgaver. Tekstene er skrevet for øvingen.
+const eksamen = defineCollection({
+  loader: glob({ pattern: '*.yaml', base: './innhold/eksamen' }),
+  schema: z
+    .object({
+      tittel: z.string(),
+      beskrivelse: z.string(),
+      status,
+      vedlegg: z.array(z.object({ id: z.string(), tittel: z.string(), forfatter: z.string().optional(), tekst: z.string() })).min(1),
+      oppgave1: z.object({
+        vedlegg: z.string(),
+        innledning: z.string(),
+        delsporsmal: z.array(z.object({ tekst: z.string(), ord: ordkrav, modell: z.string() })).length(3),
+      }),
+      oppgave2: z.object({
+        valg: z
+          .array(
+            z.object({
+              id: z.string(),
+              tittel: z.string(),
+              tekst: z.string(),
+              mal: reference('hefte'),
+              vedlegg: z.string().optional(),
+              ord: ordkrav,
+              nokkelord: z.array(z.string()).default([]),
+              nokkelordMinst: z.number().int().min(1).optional(),
+              sitat: z.boolean().default(false),
+            }),
+          )
+          .min(1),
+      }),
+      oppgave3: z.object({
+        tekst: z.string(),
+        vedlegg: z.array(z.string()).min(1),
+        ord: ordkrav,
+        nokkelord: z.array(z.string()).default([]),
+        nokkelordMinst: z.number().int().min(1).optional(),
+        sitat: z.boolean().default(false),
+      }),
+    })
+    .superRefine((e, ctx) => {
+      const ider = new Set(e.vedlegg.map((v) => v.id));
+      const sjekk = (id: string | undefined, hvor: string) => {
+        if (id && !ider.has(id)) ctx.addIssue({ code: 'custom', message: `${hvor}: vedlegget «${id}» finnes ikke` });
+      };
+      sjekk(e.oppgave1.vedlegg, 'oppgave 1');
+      e.oppgave2.valg.forEach((v) => sjekk(v.vedlegg, `oppgave 2 (${v.id})`));
+      e.oppgave3.vedlegg.forEach((v) => sjekk(v, 'oppgave 3'));
+    }),
+});
+
+export const collections = { hefte, mal, ovelser, eksamen };

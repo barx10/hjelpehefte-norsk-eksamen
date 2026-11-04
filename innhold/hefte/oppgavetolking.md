@@ -23,8 +23,9 @@ Mange mister poeng fordi de svarer på noe annet enn det oppgaven spør om. Bruk
 | En personlig tekst der du tenker høyt om et tema | Reflekterende tekst (kap. 4.2) |
 | Analyse av hvordan en tekst overbeviser | Retorisk analyse (kap. 4.3) |
 | Analyse av et dikt | Diktanalyse (kap. 4.4) |
+| Drøfting eller vurdering av en sak | Drøftende tekst (kap. 4.5) |
 
-Heftet har ikke egen mal for drøfting og argumentasjon. Bygg slike tekster med klare avsnitt: ett poeng per avsnitt, belegg for hvert poeng, og en avslutning der du tar stilling.
+Bygg alle avsnitt på samme måte, med temasetning, belegg, forklaring og kobling (se kapittel 13).
 
 ## Oppgave 1
 

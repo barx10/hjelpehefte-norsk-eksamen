@@ -84,3 +84,33 @@ export function stokkForskjellig<T>(liste: T[], rng: () => number = Math.random)
   }
   return [...liste].reverse();
 }
+
+/** Antall ord, slik de fleste tekstbehandlere teller dem. */
+export function ordTelling(tekst: string): number {
+  return deler(tekst).length;
+}
+
+/** Avsnitt er tekstblokker adskilt av en tom linje. */
+export function antallAvsnitt(tekst: string): number {
+  return tekst.split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean).length;
+}
+
+/** Sjekker hvilke nøkkelord som brukes. Treffer også bøyde former (metafor, metaforen). */
+export function brukteNokkelord(tekst: string, nokkelord: string[]): { brukt: string[]; mangler: string[] } {
+  const lav = tekst.toLocaleLowerCase('nb');
+  const brukt: string[] = [];
+  const mangler: string[] = [];
+  for (const ord of nokkelord) (lav.includes(ord.toLocaleLowerCase('nb')) ? brukt : mangler).push(ord);
+  return { brukt, mangler };
+}
+
+/** Finner ut om teksten har minst ett sitat i anførselstegn. */
+export function harSitat(tekst: string): boolean {
+  return /«[^»]{2,}»|"[^"]{2,}"|“[^”]{2,}”/.test(tekst);
+}
+
+export type Ordkrav = { min: number; maks: number };
+
+export function ordStatus(antall: number, krav: Ordkrav): 'for-kort' | 'ok' | 'for-lang' {
+  return antall < krav.min ? 'for-kort' : antall > krav.maks ? 'for-lang' : 'ok';
+}

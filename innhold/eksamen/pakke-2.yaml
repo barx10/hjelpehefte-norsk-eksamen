@@ -1,0 +1,55 @@
+tittel: "Pakke 2: Mat, tid og venting"
+beskrivelse: "Denne pakken har et debattinnlegg om skolemat, et dikt og en kort undersøkelse. Alle tekstene er skrevet for øving."
+status: utkast
+vedlegg:
+  - id: v1
+    tittel: "Vedlegg 1: Gratis skolemat til alle"
+    forfatter: "Debattinnlegg skrevet av en kantineleder (fiktiv tekst for øving)"
+    tekst: "Jeg har drevet skolekantina på Åsen ungdomsskole i tolv år. Hver morgen ser jeg de samme elevene komme inn døren, og jeg vet hvem som ikke har spist.\n\nFordi sultne elever har vanskeligere for å konsentrere seg, taper skolen noe hver eneste dag. I vår egen undersøkelse svarte 3 av 10 elever at de ofte hopper over frokost. Det betyr at nesten en tredjedel av klasserommet starter dagen på tomgang.\n\nNoen vil si at skolemat er for dyrt. Men hva koster det å la være? Hver elev som ikke lærer, koster samfunnet mer enn et måltid.\n\nTenk deg å sitte gjennom en matteprøve mens magen rumler. Det er ikke bare ukomfortabelt. Det er urettferdig.\n\nDerfor må skolemat være et tilbud til alle, ikke en tjeneste for dem som har råd."
+  - id: v2
+    tittel: "Vedlegg 2: Havn (dikt)"
+    forfatter: "Dikt skrevet for øving (fiktiv tekst)"
+    tekst: "Havna sover under tåka,\nskipene puster tungt.\nAlt jeg sa ble liggende igjen\npå kaia, kaldt og urørt.\n\nDu er en brygge uten båter.\nJeg står der likevel\nog venter, som om tiden\nkunne snu av seg selv.\n\nNår tåka letter, vet jeg\nat ingenting har kommet inn.\nMen jeg blir stående,\nog jeg har ikke lært å gå."
+  - id: v3
+    tittel: "Vedlegg 3: Elevrådets undersøkelse ved Åsen skole"
+    forfatter: "Sammendrag (fiktiv, laget for øving)"
+    tekst: "Elevrådet ved Åsen skole spurte 180 elever om skolemåltider.\n\n31 prosent sa at de ofte hopper over frokost.\n57 prosent sa at de ville spist skolemat hvis den kostet under 20 kroner.\n43 prosent sa at de blir trøtte eller uoppmerksomme før lunsj.\n12 prosent sa at de ikke har råd til å kjøpe mat på skolen."
+oppgave1:
+  vedlegg: v1
+  innledning: "Les vedlegg 1 og svar kort på spørsmålene. Bruk egne ord."
+  delsporsmal:
+    - tekst: "Hva er innleggets hovedpåstand? Svar i 1–2 setninger."
+      ord: { min: 10, maks: 60 }
+      modell: "Hovedpåstanden er at skolemat bør være gratis og et tilbud til alle elever."
+    - tekst: "Hvem er avsenderen, og hvem er mottakeren? Svar i 1–2 setninger."
+      ord: { min: 10, maks: 60 }
+      modell: "Avsenderen er en kantineleder med tolv års erfaring. Mottakerne er beslutningstakere og foreldre, altså de som kan bestemme om skolemat skal bli gratis."
+    - tekst: "Finn ett eksempel på logos i innlegget, og forklar hvorfor det er logos."
+      ord: { min: 15, maks: 80 }
+      modell: "Setningen «I vår egen undersøkelse svarte 3 av 10 elever at de ofte hopper over frokost» er logos. Den bruker tall og fakta som støtter påstanden om at mange elever starter dagen uten mat."
+oppgave2:
+  valg:
+    - id: dikt
+      tittel: "A: Analyser diktet"
+      tekst: "Analyser diktet «Havn» i vedlegg 2. Gjør rede for tema, motiv, form og minst to virkemidler."
+      mal: diktanalyse
+      vedlegg: v2
+      ord: { min: 450, maks: 900 }
+      nokkelord: ["tema", "motiv", "metafor", "besjeling", "strofe", "rim", "stemning", "kontrast", "virkemiddel"]
+      nokkelordMinst: 3
+      sitat: true
+    - id: retorikk
+      tittel: "B: Retorisk analyse"
+      tekst: "Analyser hvordan avsenderen forsøker å overbevise leserne i innlegget i vedlegg 1."
+      mal: retorisk-analyse
+      vedlegg: v1
+      ord: { min: 450, maks: 900 }
+      nokkelord: ["etos", "logos", "patos", "avsender", "mottaker", "målgruppe"]
+      nokkelordMinst: 3
+      sitat: true
+oppgave3:
+  tekst: "Skriv et leserinnlegg der du argumenterer for eller mot gratis skolemat. Bruk opplysninger fra vedlegg 3, og kommenter gjerne vedlegg 1."
+  vedlegg: [v3, v1]
+  ord: { min: 250, maks: 350 }
+  nokkelord: ["prosent", "undersøkelse", "innlegg"]
+  nokkelordMinst: 2

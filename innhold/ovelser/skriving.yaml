@@ -1,0 +1,189 @@
+- id: skriv-innl-retorisk
+  type: skriv
+  kapittel: innledning-avslutning
+  mal: [m10-10, m10-12]
+  status: utkast
+  oppdrag: "Skriv innledningen til en retorisk analyse av debattinnlegget."
+  utdrag: "Debattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
+  ord: { min: 40, maks: 90 }
+  nokkelord: ["avsender", "mottaker", "analysere", "etos", "logos", "patos"]
+  nokkelordMinst: 3
+  kriterier: ["Jeg sier hvem avsenderen er", "Jeg sier hvem mottakeren er", "Jeg sier hva avsenderen vil oppnå", "Jeg sier hva jeg skal gjøre i teksten («I denne teksten skal jeg analysere ...»)"]
+  modelltekst: "I debattinnlegget «Legg bort telefonen» skriver en lærer til foreldre og skolestyre. Hun vil overbevise dem om at mobiler bør legges bort i timene. I denne teksten skal jeg analysere hvordan hun bruker etos, logos og patos for å nå fram."
+  modellkommentar: "En innledning til retorisk analyse nevner avsender, mottaker og formål, og sier hva du skal analysere."
+- id: skriv-innl-novelle
+  type: skriv
+  kapittel: innledning-avslutning
+  mal: [m10-10, m10-12]
+  status: utkast
+  oppdrag: "Skriv innledningen til en novelleanalyse av utdraget."
+  utdrag: "Novelleutdrag «Paraplyen» (fiktiv tekst for øving):\n\nRegnet hadde falt siden morgenen. Mia stod alene ved busstoppet og så på paraplyen som lå igjen på benken. Ingen kom for å hente den. Da bussen endelig svingte inn, lot hun døren gli igjen og ble stående."
+  ord: { min: 40, maks: 90 }
+  nokkelord: ["novelle", "analysere", "tema"]
+  nokkelordMinst: 2
+  kriterier: ["Jeg nevner navnet på novellen", "Jeg sier kort hva novellen handler om", "Jeg sier hva jeg skal analysere («I denne teksten skal jeg analysere ...»)"]
+  modelltekst: "«Paraplyen» er en kort novelle om en jente som venter på en buss hun kanskje ikke ønsker å ta. Teksten er stillferdig og viser mer enn den sier. I denne teksten skal jeg analysere hvordan frampek og symbol bidrar til å formidle temaet om å bli stående."
+- id: skriv-innl-dikt
+  type: skriv
+  kapittel: innledning-avslutning
+  mal: [m10-10, m10-12]
+  status: utkast
+  oppdrag: "Skriv innledningen til en diktanalyse av diktet."
+  utdrag: "Diktet «Havn» (fiktiv tekst for øving):\n\nHavna sover under tåka,\nskipene puster tungt.\nAlt jeg sa ble liggende igjen\npå kaia, kaldt og urørt.\n\nDu er en brygge uten båter.\nJeg står der likevel\nog venter, som om tiden\nkunne snu av seg selv."
+  ord: { min: 40, maks: 90 }
+  nokkelord: ["dikt", "analysere", "tema"]
+  nokkelordMinst: 2
+  kriterier: ["Jeg nevner navnet på diktet", "Jeg sier kort hva diktet handler om", "Jeg sier hva jeg skal analysere"]
+  modelltekst: "Diktet «Havn» er et kort dikt om savn og venting. Det bruker bilder fra havna for å vise en følelse som er vanskelig å si direkte. I denne teksten skal jeg analysere hvordan metafor og besjeling bidrar til å formidle temaet."
+- id: skriv-innl-refleksjon
+  type: skriv
+  kapittel: innledning-avslutning
+  mal: [m10-10, m10-12]
+  status: utkast
+  oppdrag: "Skriv innledningen til en reflekterende tekst med tittelen «Hva er en venn?»"
+  ord: { min: 40, maks: 80 }
+  kriterier: ["Jeg kommer raskt til poenget", "Jeg stiller et spørsmål eller sier hva jeg vil utforske", "Innledningen gjør leseren nysgjerrig"]
+  modelltekst: "Hva er en venn egentlig? Er det den som er der når alt går bra, eller den som blir værende når det butter? Jeg lurer på om vi bruker ordet for lett, og i denne teksten vil jeg utforske hva som skiller en venn fra en bekjent."
+- id: skriv-avsl-refleksjon
+  type: skriv
+  kapittel: innledning-avslutning
+  mal: [m10-10, m10-12]
+  status: utkast
+  oppdrag: "Skriv om avslutningen slik at den tar stilling i stedet for å oppsummere."
+  starttekst: "Til slutt vil jeg oppsummere. Jeg har skrevet om vennskap, og jeg har tatt opp flere ting. Det er mange måter å se det på."
+  ord: { min: 30, maks: 80 }
+  kriterier: ["Jeg oppsummerer ikke", "Jeg sier tydelig hva jeg mener", "Jeg begrunner det kort"]
+  modelltekst: "Etter å ha tenkt gjennom dette mener jeg at en venn først og fremst er den som blir. Vennskap handler mindre om hvor mye vi gjør sammen og mer om at noen er der når det er vanskelig. Det er den typen venn jeg selv vil prøve å være."
+- id: skriv-avsl-retorisk
+  type: skriv
+  kapittel: innledning-avslutning
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Skriv avslutningen på en retorisk analyse av debattinnlegget."
+  utdrag: "Debattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
+  ord: { min: 30, maks: 80 }
+  nokkelord: ["målgruppe", "etos", "logos", "patos"]
+  nokkelordMinst: 2
+  kriterier: ["Jeg svarer på om teksten fungerer for målgruppen", "Jeg begrunner svaret", "Jeg knytter svaret til etos, logos eller patos"]
+  modelltekst: "Samlet sett fungerer innlegget godt for målgruppen, foreldre og skolestyre. Læreren bygger troverdighet gjennom egen erfaring (etos), og hun forklarer sammenhengen mellom mobilbruk og konsentrasjon (logos). Det som svekker teksten, er at hun ikke legger fram tall, så patos blir det sterkeste virkemiddelet."
+- id: skriv-tittel
+  type: skriv
+  kapittel: innledning-avslutning
+  mal: [m10-10, m10-12]
+  status: utkast
+  oppdrag: "Skriv en tittel til en reflekterende tekst om hvorfor vi scroller."
+  ord: { min: 5, maks: 15 }
+  kriterier: ["Tittelen har mellom 5 og 15 ord", "Tittelen stiller et spørsmål eller gir en påstand", "Tittelen sier noe om temaet"]
+  modelltekst: "Hvorfor kan jeg ikke slutte å scrolle når jeg egentlig vil sove?"
+- id: skriv-avs-metafor
+  type: skriv
+  kapittel: avsnitt
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Skriv ett avsnitt om metaforen «Du er en brygge uten båter» med temasetning, sitat, forklaring og kobling."
+  utdrag: "Diktet «Havn» (fiktiv tekst for øving):\n\nHavna sover under tåka,\nskipene puster tungt.\nAlt jeg sa ble liggende igjen\npå kaia, kaldt og urørt.\n\nDu er en brygge uten båter.\nJeg står der likevel\nog venter, som om tiden\nkunne snu av seg selv."
+  ord: { min: 50, maks: 110 }
+  nokkelord: ["metafor"]
+  sitat: true
+  kriterier: ["Avsnittet starter med en temasetning", "Jeg bruker et sitat fra diktet i anførselstegn", "Jeg forklarer hva metaforen gjør", "Jeg avslutter med en kobling til temaet"]
+  modelltekst: "Metaforen gjør savnet konkret. Dikteren skriver: «Du er en brygge uten båter». En brygge er laget for å ta imot, men her er den tom, og det forteller at jeg-personen er klar til å møte noen som ikke kommer. På den måten får leseren kjenne tomrommet, og metaforen binder sammen diktets tema om å vente."
+- id: skriv-avs-forbedre
+  type: skriv
+  kapittel: avsnitt
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Gjør dette om til et godt analyseavsnitt om metaforen «Du er en brygge uten båter»."
+  utdrag: "Diktet «Havn» (fiktiv tekst for øving):\n\nHavna sover under tåka,\nskipene puster tungt.\nAlt jeg sa ble liggende igjen\npå kaia, kaldt og urørt.\n\nDu er en brygge uten båter.\nJeg står der likevel\nog venter, som om tiden\nkunne snu av seg selv."
+  starttekst: "Forfatteren bruker metafor. Det er bra."
+  ord: { min: 40, maks: 100 }
+  nokkelord: ["metafor"]
+  sitat: true
+  kriterier: ["Jeg navngir virkemidlet", "Jeg bruker et sitat i anførselstegn", "Jeg forklarer hva virkemidlet gjør", "Avsnittet har en temasetning"]
+  modelltekst: "Metaforen i diktet gjør ventingen konkret. Dikteren skriver: «Du er en brygge uten båter». Bildet viser et sted som er laget for å ta imot, men som står tomt. Det gjør at leseren kjenner savnet, ikke bare forstår det."
+  modellkommentar: "Det svake avsnittet nevner bare virkemidlet. Et godt avsnitt navngir, siterer og forklarer."
+- id: skriv-avs-gjentakelse
+  type: skriv
+  kapittel: avsnitt
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Skriv et avsnitt om gjentakelsen i dette utdraget fra en tekst: «Vi går. Vi går. Vi går videre.»"
+  ord: { min: 40, maks: 90 }
+  nokkelord: ["gjentakelse"]
+  sitat: true
+  kriterier: ["Jeg navngir virkemidlet", "Jeg bruker sitatet i anførselstegn", "Jeg forklarer hva gjentakelsen gjør", "Avsnittet starter med en temasetning"]
+  modelltekst: "Gjentakelsen gir teksten rytme og viser utholdenhet. Teksten sier: «Vi går. Vi går. Vi går videre.» Ordet «går» gjentas, og det får oss til å høre trinnene og forstå at personene ikke gir opp. På den måten forsterker gjentakelsen temaet om å holde ut."
+- id: skriv-avs-logos
+  type: skriv
+  kapittel: avsnitt
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Skriv et logos-avsnitt om denne setningen i et debattinnlegg: «Elever som har mobilen i lomma, løser færre oppgaver fordi de blir avbrutt.»"
+  ord: { min: 40, maks: 90 }
+  nokkelord: ["logos", "fordi"]
+  sitat: true
+  kriterier: ["Avsnittet starter med en temasetning", "Jeg bruker sitatet i anførselstegn", "Jeg forklarer hvorfor argumentet er logos", "Jeg vurderer om argumentet er sterkt"]
+  modelltekst: "Innlegget bruker logos når det forklarer en årsak. Avsenderen skriver: «Elever som har mobilen i lomma, løser færre oppgaver fordi de blir avbrutt.» Setningen viser en sammenheng mellom mobilbruk og resultater, og ordet «fordi» markerer årsaken. Argumentet blir sterkere hvis det støttes av tall, men det er likevel logisk og lett å følge."
+- id: skriv-drofte-innledning
+  type: skriv
+  kapittel: droftende-tekst
+  mal: [m10-10, m10-09, m10-12]
+  status: utkast
+  oppdrag: "Skriv innledningen til en drøftende tekst med tittelen «Bør skolen forby mobiltelefoner i timene?»"
+  ord: { min: 40, maks: 90 }
+  nokkelord: ["drøfte"]
+  kriterier: ["Jeg presenterer temaet", "Jeg viser hvorfor det er aktuelt", "Jeg sier at jeg skal drøfte («I denne teksten skal jeg drøfte ...»)"]
+  modelltekst: "Skal skolen forby mobiltelefoner i timene? Mange lærere mener at mobilen stjeler konsentrasjonen, mens elever ofte sier at de trenger den til skolearbeid. I denne teksten skal jeg drøfte fordeler og ulemper ved et forbud, og avslutte med hva jeg mener."
+- id: skriv-drofte-motargument
+  type: skriv
+  kapittel: droftende-tekst
+  mal: [m10-10, m10-09, m10-12]
+  status: utkast
+  oppdrag: "Skriv ett avsnitt som tar opp et motargument mot mobilforbud, og svar på det."
+  ord: { min: 60, maks: 120 }
+  nokkelord: ["derimot", "likevel", "men", "på den andre siden"]
+  nokkelordMinst: 1
+  kriterier: ["Avsnittet starter med en temasetning", "Jeg tar opp motargumentet rettferdig", "Jeg bruker et overgangsord som viser motsetning (derimot, likevel, men)", "Jeg svarer på motargumentet"]
+  modelltekst: "Noen hevder at et forbud tar bort en nyttig læringsressurs. Det stemmer at mobilen kan brukes til oppslag og notater. Likevel kan skolen løse det med felles datamaskiner, slik at elevene slipper varslene som avbryter dem. Motargumentet taler derfor ikke mot et forbud, men for gode alternativer."
+- id: skriv-drofte-konklusjon
+  type: skriv
+  kapittel: droftende-tekst
+  mal: [m10-10, m10-09, m10-12]
+  status: utkast
+  oppdrag: "Skriv avslutningen på en drøfting av mobilforbud. Ta stilling."
+  ord: { min: 40, maks: 90 }
+  kriterier: ["Jeg tar stilling", "Jeg begrunner standpunktet", "Jeg oppsummerer ikke bare, jeg kommer fram til noe"]
+  modelltekst: "Etter å ha veid argumentene mener jeg at skolen bør forby mobilen i timene, men ikke i friminuttene. Konsentrasjonen veier tyngre enn bekvemmeligheten, og alternativer finnes. Et slikt forbud må likevel følges av gode regler for når mobilen kan brukes til skolearbeid."
+- id: skriv-o1-hovedpastand
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: utkast
+  oppdrag: "Hva er hovedpåstanden i innlegget? Svar i 1–2 setninger."
+  utdrag: "Debattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
+  ord: { min: 10, maks: 50 }
+  kriterier: ["Jeg svarer direkte i første setning", "Jeg bruker egne ord", "Jeg holder meg til 1–2 setninger"]
+  modelltekst: "Hovedpåstanden er at elevene lærer mer hvis mobilene legges bort i timene. Læreren mener at telefonene ødelegger konsentrasjonen."
+- id: skriv-o1-avsender
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: utkast
+  oppdrag: "Hvem er avsenderen, og hvem er mottakeren? Svar i 1–2 setninger."
+  utdrag: "Debattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
+  ord: { min: 10, maks: 50 }
+  nokkelord: ["lærer"]
+  kriterier: ["Jeg sier hvem avsenderen er", "Jeg sier hvem mottakeren er", "Jeg holder meg til 1–2 setninger"]
+  modelltekst: "Avsenderen er en lærer med tjue års erfaring. Mottakerne er foreldre og skolens ledelse, som kan bestemme regler for skolen."
+  modellkommentar: "Teksten sier ikke direkte hvem mottakeren er, så du må vurdere hvem den er rettet mot."
+- id: skriv-o1-patos
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-06, m10-01]
+  status: utkast
+  oppdrag: "Finn ett eksempel på patos i innlegget og forklar hvorfor det er patos."
+  utdrag: "Debattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
+  ord: { min: 15, maks: 60 }
+  nokkelord: ["patos"]
+  sitat: true
+  kriterier: ["Jeg siterer en kort setning", "Jeg sier at det er patos", "Jeg forklarer hvilke følelser setningen vekker"]
+  modelltekst: "Setningen «Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel» er patos. Den får leseren til å leve seg inn i en frustrerende situasjon og vekker følelser."
