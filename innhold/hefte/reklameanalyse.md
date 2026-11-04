@@ -1,5 +1,5 @@
 ---
-tittel: Sammensatt tekst: reklameanalyse
+tittel: "Sammensatt tekst: reklameanalyse"
 nummer: '4.6'
 rekkefolge: 4.6
 status: utkast
