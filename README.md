@@ -40,7 +40,20 @@ Legg den til i en YAML-fil i `innhold/ovelser/`.
   forklaring: "Hvorfor dette er riktig."
 ```
 
-Flashkort har `forside` og `bakside` i stedet for spørsmål, alternativer og forklaring.
+Flashkort har `forside` og `bakside` i stedet for spørsmål, alternativer og forklaring. Flervalg kan ha et kort `utdrag` som spørsmålet gjelder. Utdrag skal være skrevet for øvingen eller være fri for opphavsrett.
+
+### Øvelsestyper
+
+| `type` | Hva eleven gjør | Viktige felt |
+|---|---|---|
+| `flashkort` | Vender kort | `forside`, `bakside` |
+| `flervalg` | Velger ett svar | `spm`, `alternativer`, `riktig`, `forklaring`, `utdrag` (valgfri) |
+| `komma` | Trykker på ordene der det skal være komma | `setning` (riktig setning med komma), `regler`, `forklaring` |
+| `finnfeil` | Trykker på ordet som er feil | `tekst`, `feil`, `rettelse`, `forklaring` |
+| `sortering` | Plasserer hvert element i en kategori | `oppdrag`, `kategorier`, `elementer` (`tekst`, `kategori` som tall fra 0), `forklaring` |
+| `rekkefolge` | Setter elementene i riktig rekkefølge | `oppdrag`, `elementer` (skriv dem i riktig rekkefølge), `forklaring` |
+| `matching` | Kobler begrep til forklaring | `oppdrag`, `par` (`venstre`, `hoyre`), `forklaring` |
+| `marker` | Trykker på riktige ord i en tekst | `oppdrag`, `tekst` (riktige ord i `[[dobbel hakeparentes]]`), `forklaring` |
 
 Byggingen stopper med en feilmelding hvis en øvelse peker på et kapittel eller mål som ikke finnes, hvis en id er brukt to ganger, eller hvis `riktig` peker utenfor alternativene.
 

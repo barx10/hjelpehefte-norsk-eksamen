@@ -54,3 +54,33 @@ export function rettTekst(tekst: string, feil: string, rettelse: string): string
 export function utenKomma(setning: string): string {
   return kommaOppsett(setning).ord.join(' ');
 }
+
+export type MarkertOrd = { ord: string; riktig: boolean };
+
+/**
+ * Leser en tekst der riktige ord står i dobbel hakeparentes, for eksempel «[[Drøft]] hvilke fordeler ...».
+ * Flere ord kan stå i samme parentes: «[[Gjør rede for]]».
+ */
+export function leseMarkering(tekst: string): MarkertOrd[] {
+  let inne = false;
+  return deler(tekst).map((rå) => {
+    if (rå.includes('[[')) inne = true;
+    const riktig = inne;
+    if (rå.includes(']]')) inne = false;
+    return { ord: rå.replace('[[', '').replace(']]', ''), riktig };
+  });
+}
+
+/** Stokker en liste og sørger for at resultatet ikke blir identisk med originalen. */
+export function stokkForskjellig<T>(liste: T[], rng: () => number = Math.random): T[] {
+  if (liste.length < 2) return [...liste];
+  for (let forsok = 0; forsok < 20; forsok++) {
+    const ut = [...liste];
+    for (let i = ut.length - 1; i > 0; i--) {
+      const j = Math.floor(rng() * (i + 1));
+      [ut[i], ut[j]] = [ut[j]!, ut[i]!];
+    }
+    if (ut.some((x, i) => x !== liste[i])) return ut;
+  }
+  return [...liste].reverse();
+}

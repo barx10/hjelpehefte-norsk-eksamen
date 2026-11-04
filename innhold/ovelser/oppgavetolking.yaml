@@ -1,0 +1,102 @@
+- id: tolk-marker-tema-1
+  type: marker
+  kapittel: oppgavetolking
+  mal: [m10-12, m10-10]
+  status: utkast
+  oppdrag: "Marker temaet oppgaven handler om."
+  tekst: "Reflekter over hva [[ensomhet]] betyr for deg."
+  forklaring: "Temaet er det du skal skrive om. Her er det ensomhet."
+- id: tolk-marker-tema-2
+  type: marker
+  kapittel: oppgavetolking
+  mal: [m10-12, m10-10]
+  status: utkast
+  oppdrag: "Marker temaet oppgaven handler om."
+  tekst: "Analyser hvordan [[klimaendringer]] omtales i debattinnlegget."
+  forklaring: "Temaet er klimaendringer. «Analyser» er instruksjonsordet."
+- id: tolk-marker-tema-3
+  type: marker
+  kapittel: oppgavetolking
+  mal: [m10-12, m10-10]
+  status: utkast
+  oppdrag: "Marker temaet oppgaven handler om."
+  tekst: "Drøft om [[skolemat]] bør være gratis for alle elever."
+  forklaring: "Temaet er skolemat. «Drøft» er instruksjonsordet."
+- id: tolk-fv-mal-1
+  type: flervalg
+  kapittel: oppgavetolking
+  mal: [m10-12, m10-10]
+  status: utkast
+  spm: "Hvilken mal passer til oppgaven? «Analyser hvordan avsenderen forsøker å overbevise leserne i debattinnlegget.»"
+  alternativer: ["Retorisk analyse", "Novelleanalyse", "Diktanalyse", "Reflekterende tekst"]
+  riktig: 0
+  forklaring: "Oppgaven handler om hvordan en tekst overbeviser. Da bruker du retorisk analyse med etos, logos og patos."
+- id: tolk-fv-mal-2
+  type: flervalg
+  kapittel: oppgavetolking
+  mal: [m10-12, m10-10]
+  status: utkast
+  spm: "Hvilken mal passer til oppgaven? «Analyser hvordan novellen bygger opp spenning.»"
+  alternativer: ["Novelleanalyse", "Retorisk analyse", "Diktanalyse", "Reflekterende tekst"]
+  riktig: 0
+  forklaring: "Oppgaven gjelder en novelle, så du bruker novelleanalyse."
+- id: tolk-fv-mal-3
+  type: flervalg
+  kapittel: oppgavetolking
+  mal: [m10-12, m10-10]
+  status: utkast
+  spm: "Hvilken mal passer til oppgaven? «Analyser hvordan diktet bruker språklige virkemidler.»"
+  alternativer: ["Diktanalyse", "Retorisk analyse", "Novelleanalyse", "Reflekterende tekst"]
+  riktig: 0
+  forklaring: "Oppgaven gjelder et dikt, så du bruker diktanalyse."
+- id: tolk-fv-mal-4
+  type: flervalg
+  kapittel: oppgavetolking
+  mal: [m10-12, m10-10]
+  status: utkast
+  spm: "Hvilken mal passer til oppgaven? «Skriv en personlig tekst der du reflekterer over hva vennskap betyr.»"
+  alternativer: ["Reflekterende tekst", "Retorisk analyse", "Novelleanalyse", "Diktanalyse"]
+  riktig: 0
+  forklaring: "Oppgaven ber om en personlig tekst der du tenker høyt og bruker egne erfaringer. Det er en reflekterende tekst."
+- id: tolk-fv-mal-5
+  type: flervalg
+  kapittel: oppgavetolking
+  mal: [m10-12, m10-10]
+  status: utkast
+  spm: "Hvilken mal passer til oppgaven? «Analyser bruken av etos, logos og patos i teksten.»"
+  alternativer: ["Retorisk analyse", "Novelleanalyse", "Diktanalyse", "Reflekterende tekst"]
+  riktig: 0
+  forklaring: "Etos, logos og patos er appellformene i en retorisk analyse."
+- id: tolk-fv-rede-for
+  type: flervalg
+  kapittel: oppgavetolking
+  mal: [m10-12, m10-10]
+  status: utkast
+  spm: "Oppgaven sier: «Gjør rede for hva etos, logos og patos er.» Hva skal du gjøre?"
+  alternativer: ["Forklare hva begrepene betyr", "Analysere en bestemt tekst", "Ta stilling til om de er viktige", "Skrive en personlig tekst om dem"]
+  riktig: 0
+  forklaring: "«Gjør rede for» betyr å forklare. Oppgaven ber deg ikke analysere en tekst eller mene noe."
+- id: tolk-match-mal
+  type: matching
+  kapittel: oppgavetolking
+  mal: [m10-12, m10-10]
+  status: utkast
+  oppdrag: "Koble oppgaveformuleringen til malen som passer."
+  par:
+    - venstre: "Analyser hvordan avsenderen overbeviser"
+      hoyre: "Retorisk analyse"
+    - venstre: "Analyser hvordan novellen er bygd opp"
+      hoyre: "Novelleanalyse"
+    - venstre: "Analyser hvordan diktet bruker virkemidler"
+      hoyre: "Diktanalyse"
+    - venstre: "Reflekter over et tema med egne erfaringer"
+      hoyre: "Reflekterende tekst"
+  forklaring: "Se tabellen «Hvilken mal passer?» i kapittel 12."
+- id: tolk-rekkefolge
+  type: rekkefolge
+  kapittel: oppgavetolking
+  mal: [m10-12, m10-10]
+  status: utkast
+  oppdrag: "Sett stegene i riktig rekkefølge når du leser en oppgave."
+  elementer: ["Finn instruksjonsordet", "Finn temaet eller teksten oppgaven gjelder", "Sjekk lengdekrav og vedlegg", "Velg mal", "Lag en kort disposisjon"]
+  forklaring: "Du må vite hva du skal gjøre før du velger mal og planlegger."

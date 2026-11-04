@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { deler, rensk, kommaOppsett, finnFeilIndekser, rettTekst, utenKomma } from '../src/lib/tekstverktoy.ts';
+import { deler, rensk, kommaOppsett, finnFeilIndekser, rettTekst, utenKomma, leseMarkering, stokkForskjellig } from '../src/lib/tekstverktoy.ts';
 
 test('deler og rensk', () => {
   assert.deepEqual(deler('  a  b\nc '), ['a', 'b', 'c']);
@@ -40,4 +40,28 @@ test('rettTekst beholder tegnsetting og stor bokstav', () => {
   assert.equal(rettTekst('Vi har eksamen imorgen.', 'imorgen', 'i morgen'), 'Vi har eksamen i morgen.');
   assert.equal(rettTekst('Tilslutt oppsummerer jeg.', 'Tilslutt', 'Til slutt'), 'Til slutt oppsummerer jeg.');
   assert.equal(rettTekst('Jeg leste eksamen oppgaven nøye.', 'eksamen oppgaven', 'eksamensoppgaven'), 'Jeg leste eksamensoppgaven nøye.');
+});
+
+test('leseMarkering finner ett og flere markerte ord', () => {
+  const a = leseMarkering('[[Drøft]] hvilke fordeler det har.');
+  assert.deepEqual(a.map((x) => x.riktig), [true, false, false, false, false]);
+  assert.equal(a[0].ord, 'Drøft');
+  const b = leseMarkering('Du skal [[gjøre rede for]] hva en metafor er.');
+  assert.deepEqual(b.filter((x) => x.riktig).map((x) => x.ord), ['gjøre', 'rede', 'for']);
+});
+
+test('leseMarkering tåler tegnsetting etter parentesen', () => {
+  const a = leseMarkering('Hva mener [[du]]?');
+  assert.equal(a[2].ord, 'du?');
+  assert.equal(a[2].riktig, true);
+});
+
+test('stokkForskjellig gir aldri samme rekkefølge', () => {
+  const x = ['a', 'b', 'c', 'd'];
+  for (let i = 0; i < 50; i++) {
+    const y = stokkForskjellig(x);
+    assert.deepEqual([...y].sort(), x);
+    assert.notDeepEqual(y, x);
+  }
+  assert.deepEqual(stokkForskjellig(['a']), ['a']);
 });

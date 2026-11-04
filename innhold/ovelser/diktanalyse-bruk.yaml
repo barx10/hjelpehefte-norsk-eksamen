@@ -1,0 +1,37 @@
+- id: dikt-rekke-mal
+  type: rekkefolge
+  kapittel: diktanalyse
+  mal: [m10-01, m10-12]
+  status: godkjent
+  oppdrag: "Sett delene i en diktanalyse i riktig rekkefølge."
+  elementer: ["Tittel", "Innledning", "Avsnitt 1: Tema og motiv", "Avsnitt 2: Form og oppbygging", "Avsnitt 3: Språklige virkemidler", "Avsnitt: Stemning og tone", "Avslutning"]
+  forklaring: "Se malen for diktanalyse i heftet."
+- id: dikt-rekke-metafor
+  type: rekkefolge
+  kapittel: diktanalyse
+  mal: [m10-06, m10-12]
+  status: godkjent
+  oppdrag: "Sett setningene i riktig rekkefølge i avsnittet om metafor."
+  elementer: ["Forfatteren skriver at «natten er en vegg mellom oss».", "Dette er en metafor: natten sammenlignes med noe som stenger ute og skiller.", "Metaforen gjør ensomheten fysisk og konkret.", "Vi føler avstanden, ikke bare forstår den."]
+  forklaring: "Avsnittet viser sitatet, navngir virkemidlet, forklarer og avslutter med effekten på leseren."
+- id: dikt-sort-motiv-tema
+  type: sortering
+  kapittel: diktanalyse
+  mal: [m10-01, m10-12]
+  status: utkast
+  oppdrag: "Er dette et motiv (det konkrete) eller et tema (det abstrakte)?"
+  kategorier: ["Motiv", "Tema"]
+  elementer:
+    - tekst: "En gutt som står alene på en kai"
+      kategori: 0
+    - tekst: "Savn"
+      kategori: 1
+    - tekst: "Regn mot et vindu"
+      kategori: 0
+    - tekst: "Ensomhet"
+      kategori: 1
+    - tekst: "To hender som holder hverandre"
+      kategori: 0
+    - tekst: "Kjærlighet"
+      kategori: 1
+  forklaring: "Motivet er det vi ser i diktet. Temaet er det diktet egentlig handler om."

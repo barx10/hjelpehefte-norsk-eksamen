@@ -1,0 +1,43 @@
+- id: nov-rekke-mal
+  type: rekkefolge
+  kapittel: novelleanalyse
+  mal: [m10-12]
+  status: godkjent
+  oppdrag: "Sett delene i en novelleanalyse i riktig rekkefølge."
+  elementer: ["Tittel", "Innledning", "Avsnitt 1: Tema og handlingsreferat", "Avsnitt 2: Oppbygging", "Avsnitt 3: Synsvinkel og personskildring", "Avsnitt 4: Språklige virkemidler", "Avslutning"]
+  forklaring: "Se malen for novelleanalyse i heftet."
+- id: nov-rekke-innledning
+  type: rekkefolge
+  kapittel: novelleanalyse
+  mal: [m10-12]
+  status: godkjent
+  oppdrag: "Sett setningene i riktig rekkefølge i innledningen."
+  elementer: ["«Faderen» av Bjørnstjerne Bjørnson (1860) er en kort novelle om en bonde som aldri klarer å vise stolthet over sønnen sin før det er for sent.", "Bjørnson er kjent for et folkelig og direkte språk.", "I denne teksten skal jeg analysere hvordan frampek og indirekte personskildring bidrar til å formidle temaet om fortrengning og sorg."]
+  forklaring: "Innledningen presenterer novellen og forfatteren, og sier til slutt hva du skal gjøre."
+- id: nov-rekke-frampek
+  type: rekkefolge
+  kapittel: novelleanalyse
+  mal: [m10-06, m10-12]
+  status: godkjent
+  oppdrag: "Sett setningene i riktig rekkefølge i avsnittet om frampek."
+  elementer: ["Novellen bruker frampek tidlig i teksten: vi hører at Tord alltid ber presten for sønnen sin, men aldri sier hvorfor.", "Dette skaper en uro i leseren helt fra begynnelsen.", "Når sønnen drukner til slutt, forstår vi at frampeket har varslet tragedien hele veien.", "Spenningskurven bygger opp mot et vendepunkt leseren nesten ikke orker å lese."]
+  forklaring: "Avsnittet navngir virkemidlet og viser det, forklarer effekten og kobler det til slutten."
+- id: nov-sort-avsnitt
+  type: sortering
+  kapittel: novelleanalyse
+  mal: [m10-12]
+  status: utkast
+  oppdrag: "Hvilket avsnitt i novelleanalysen hører setningen hjemme i?"
+  kategorier: ["Innledning", "Handlingsreferat", "Oppbygging", "Synsvinkel", "Avslutning"]
+  elementer:
+    - tekst: "I denne teksten skal jeg analysere hvordan frampek og kontrast bidrar til å formidle temaet."
+      kategori: 0
+    - tekst: "En ung jente finner et gammelt brev i en kjellerbod og bestemmer seg for å lese det."
+      kategori: 1
+    - tekst: "Vendepunktet kommer når hun forstår hvem brevet er fra."
+      kategori: 2
+    - tekst: "Fortelleren er autoral refererende og beskriver bare det vi kan se og høre."
+      kategori: 3
+    - tekst: "Til slutt viser analysen at virkemidlene sammen forteller om et savn som aldri blir sagt høyt."
+      kategori: 4
+  forklaring: "Innledningen sier hva du skal gjøre. Referatet forteller hva som skjer. Oppbygging handler om vendepunkt og spenning. Synsvinkel handler om hvem som forteller. Avslutningen kobler tema og virkemidler."

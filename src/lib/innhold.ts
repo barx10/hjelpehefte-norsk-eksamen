@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { deler, finnFeilIndekser, kommaOppsett, rettTekst, utenKomma } from './tekstverktoy';
+import { deler, finnFeilIndekser, kommaOppsett, leseMarkering, rettTekst, utenKomma } from './tekstverktoy';
 
 /**
  * Utkast vises bare under utvikling, eller når siden bygges med `npm run build:utkast`.
@@ -42,6 +42,10 @@ export const typeNavn: Record<Ovelsestype, string> = {
   flervalg: 'flervalg',
   komma: 'kommaoppgaver',
   finnfeil: '«finn feilen»-oppgaver',
+  sortering: 'sorteringsoppgaver',
+  rekkefolge: 'rekkefølgeoppgaver',
+  matching: 'koblingsoppgaver',
+  marker: '«marker i teksten»-oppgaver',
 };
 
 /** Det klienten trenger for å kjøre en øvelse. */
@@ -59,6 +63,7 @@ export function tilKlient(o: Ovelse, kapittelTittel: string) {
         alternativer: d.alternativer,
         riktig: d.riktig,
         forklaring: d.forklaring,
+        utdrag: d.utdrag ?? null,
       };
     case 'komma': {
       const { ord, komma } = kommaOppsett(d.setning);
@@ -71,6 +76,46 @@ export function tilKlient(o: Ovelse, kapittelTittel: string) {
         forklaring: d.forklaring,
         fasit: d.setning,
         utenKomma: utenKomma(d.setning),
+      };
+    }
+    case 'sortering':
+      return {
+        ...felles,
+        type: 'sortering' as const,
+        oppdrag: d.oppdrag,
+        kategorier: d.kategorier,
+        elementer: d.elementer,
+        forklaring: d.forklaring,
+        fasitTekst: d.elementer.map((e) => `${e.tekst} → ${d.kategorier[e.kategori]}`).join('. '),
+      };
+    case 'rekkefolge':
+      return {
+        ...felles,
+        type: 'rekkefolge' as const,
+        oppdrag: d.oppdrag,
+        elementer: d.elementer,
+        forklaring: d.forklaring,
+        fasitTekst: d.elementer.map((e, i) => `${i + 1}. ${e}`).join(' '),
+      };
+    case 'matching':
+      return {
+        ...felles,
+        type: 'matching' as const,
+        oppdrag: d.oppdrag,
+        par: d.par,
+        forklaring: d.forklaring,
+        fasitTekst: d.par.map((p) => `${p.venstre} = ${p.hoyre}`).join('. '),
+      };
+    case 'marker': {
+      const ord = leseMarkering(d.tekst);
+      return {
+        ...felles,
+        type: 'marker' as const,
+        oppdrag: d.oppdrag,
+        ord: ord.map((x) => x.ord),
+        riktig: ord.map((x) => x.riktig),
+        forklaring: d.forklaring,
+        fasitTekst: ord.filter((x) => x.riktig).map((x) => x.ord).join(' '),
       };
     }
     case 'finnfeil':

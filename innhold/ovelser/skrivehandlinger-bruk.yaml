@@ -1,0 +1,43 @@
+- id: skriv-sort-sjanger
+  type: sortering
+  kapittel: skrivehandlinger
+  mal: [m10-10]
+  status: godkjent
+  oppdrag: "Hvilken skrivehandling hører sjangeren til?"
+  kategorier: ["Å reflektere", "Å forestille seg", "Å overbevise", "Å utforske"]
+  elementer:
+    - tekst: "Kåseri"
+      kategori: 0
+    - tekst: "Novelle"
+      kategori: 1
+    - tekst: "Reklame"
+      kategori: 2
+    - tekst: "Rapport"
+      kategori: 3
+    - tekst: "Dagbok"
+      kategori: 0
+    - tekst: "Fortelling"
+      kategori: 1
+    - tekst: "Analyse"
+      kategori: 3
+  forklaring: "Kåseri og dagbok hører til å reflektere. Novelle og fortelling hører til å forestille seg. Reklame hører til å overbevise. Rapport og analyse hører til å utforske."
+- id: skriv-match-formal
+  type: matching
+  kapittel: skrivehandlinger
+  mal: [m10-10]
+  status: godkjent
+  oppdrag: "Koble skrivehandlingen til formålet."
+  par:
+    - venstre: "Å samhandle"
+      hoyre: "Informere, stille spørsmål, svare, begrunne"
+    - venstre: "Å reflektere"
+      hoyre: "Tenke over, filosofere, vurdere, kommentere"
+    - venstre: "Å beskrive"
+      hoyre: "Gjøre rede for, forklare, definere, sammenligne"
+    - venstre: "Å utforske"
+      hoyre: "Undersøke, analysere, tolke, drøfte"
+    - venstre: "Å forestille seg"
+      hoyre: "Fortelle, fantasere, dikte, skildre"
+    - venstre: "Å overbevise"
+      hoyre: "Argumentere, hevde meninger, overtale"
+  forklaring: "Se tabellen over skrivehandlinger i heftet."

@@ -1,0 +1,118 @@
+- id: instr-marker-1
+  type: marker
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  oppdrag: "Marker instruksjonsordet i oppgaven."
+  tekst: "[[Drøft]] hvilke fordeler og ulemper sosiale medier har for unge."
+  forklaring: "«Drøft» betyr at du skal se saken fra begge sider."
+- id: instr-marker-2
+  type: marker
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  oppdrag: "Marker instruksjonsordet i oppgaven."
+  tekst: "[[Analyser]] hvordan avsenderen bruker etos, logos og patos i teksten."
+  forklaring: "«Analyser» betyr at du skal gå inn i teksten og se på virkemidler, formål, målgruppe og effekt."
+- id: instr-marker-3
+  type: marker
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  oppdrag: "Marker instruksjonsordet i oppgaven."
+  tekst: "[[Gjør rede for]] hva en metafor er, og gi et eksempel."
+  forklaring: "«Gjør rede for» betyr at du skal forklare."
+- id: instr-marker-4
+  type: marker
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  oppdrag: "Marker instruksjonsordet i oppgaven."
+  tekst: "[[Sammenlign]] hvordan de to tekstene framstiller ungdomstiden."
+  forklaring: "«Sammenlign» betyr at du skal finne likheter og forskjeller."
+- id: instr-marker-5
+  type: marker
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  oppdrag: "Marker instruksjonsordet i oppgaven."
+  tekst: "[[Vurder]] om skolen bør forby mobiltelefoner i timene."
+  forklaring: "«Vurder» betyr at du skal ta stilling og begrunne."
+- id: instr-marker-6
+  type: marker
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  oppdrag: "Marker instruksjonsordet i oppgaven."
+  tekst: "[[Reflekter]] over hva det vil si å være ung i dag."
+  forklaring: "«Reflekter» betyr at du skal tenke gjennom temaet fra flere vinkler og bruke egne erfaringer."
+- id: instr-marker-7
+  type: marker
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  oppdrag: "Marker instruksjonsordet i oppgaven."
+  tekst: "[[Argumenter]] for eller mot at stemmerett bør gis fra 16 år."
+  forklaring: "«Argumenter» betyr at du skal komme med saklige grunner for eller mot."
+- id: instr-sort-1
+  type: sortering
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: godkjent
+  oppdrag: "Hvilket instruksjonsord passer til hva du skal gjøre?"
+  kategorier: ["Gjør rede for", "Drøft", "Vurder", "Sammenlign"]
+  elementer:
+    - tekst: "Forklare hva noe er og hvordan det fungerer"
+      kategori: 0
+    - tekst: "Se saken fra begge sider og komme med argumenter for og mot"
+      kategori: 1
+    - tekst: "Ta stilling og begrunne hva du mener"
+      kategori: 2
+    - tekst: "Finne likheter og forskjeller mellom to tekster"
+      kategori: 3
+  forklaring: "Gjør rede for = forklar. Drøft = begge sider. Vurder = ta stilling. Sammenlign = likheter og forskjeller."
+- id: instr-sort-2
+  type: sortering
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: godkjent
+  oppdrag: "Hvilket instruksjonsord passer til hva du skal gjøre?"
+  kategorier: ["Analyser", "Reflekter", "Argumenter"]
+  elementer:
+    - tekst: "Gå inn i teksten og se på virkemidler, formål, målgruppe og effekt"
+      kategori: 0
+    - tekst: "Tenke gjennom temaet fra flere vinkler og bruke egne erfaringer"
+      kategori: 1
+    - tekst: "Komme med saklige grunner for eller mot noe"
+      kategori: 2
+  forklaring: "Analyser = gå inn i teksten. Reflekter = flere vinkler og egne erfaringer. Argumenter = grunner for eller mot."
+- id: instr-match-1
+  type: matching
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: godkjent
+  oppdrag: "Koble instruksjonsordet til hva det betyr."
+  par:
+    - venstre: "Gjør rede for"
+      hoyre: "Forklar. Hva er det? Hvordan fungerer det?"
+    - venstre: "Argumenter"
+      hoyre: "Kom med grunner for eller mot noe. Vær saklig, men du kan bruke retoriske virkemidler."
+    - venstre: "Drøft / diskuter"
+      hoyre: "Se saken fra begge sider. Kom med argumenter for og mot."
+    - venstre: "Analyser"
+      hoyre: "Gå inn i teksten: virkemidler, formål, målgruppe, effekt."
+  forklaring: "Se tabellen over instruksjonsord i heftet."
+- id: instr-match-2
+  type: matching
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: godkjent
+  oppdrag: "Koble instruksjonsordet til hva det betyr."
+  par:
+    - venstre: "Reflekter"
+      hoyre: "Tenk gjennom temaet fra flere vinkler. Bruk egne erfaringer."
+    - venstre: "Vurder"
+      hoyre: "Ta stilling. Si hva du mener og begrunn det."
+    - venstre: "Sammenlign"
+      hoyre: "Finn likheter og forskjeller mellom to tekster eller fenomener."
+  forklaring: "Se tabellen over instruksjonsord i heftet."

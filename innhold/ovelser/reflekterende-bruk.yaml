@@ -1,0 +1,16 @@
+- id: ref-rekke-mal
+  type: rekkefolge
+  kapittel: reflekterende-tekst
+  mal: [m10-10, m10-12]
+  status: godkjent
+  oppdrag: "Sett delene i en reflekterende tekst i riktig rekkefølge."
+  elementer: ["Tittel", "Innledning", "Hoveddel: minst tre avsnitt", "Avslutning: ta stilling"]
+  forklaring: "Se malen for reflekterende tekst i heftet."
+- id: ref-rekke-avsnitt
+  type: rekkefolge
+  kapittel: reflekterende-tekst
+  mal: [m10-10, m10-12]
+  status: godkjent
+  oppdrag: "Sett setningene i riktig rekkefølge i avsnittet."
+  elementer: ["Kjedsomhet er ikke sløsing med tid.", "Forskning viser at hjernen bearbeider inntrykk og løser problemer når vi ikke aktivt gjør noe.", "Jeg merker det selv: de beste ideene kommer i dusjen, ikke foran skjermen.", "Men det forutsetter at jeg faktisk lar det bli stille."]
+  forklaring: "Avsnittet starter med en temasetning, legger til fakta og en personlig erfaring, og avrundes med en kobling."
