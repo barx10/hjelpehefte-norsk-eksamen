@@ -11,6 +11,31 @@ kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-retorisk-analyse/3074631416"
 analysertTekstUrl: "https://www.aftenposten.no/meninger/sid/i/BRw9Vw/som-ungdomsskoleelev-traff-kjoennskampen-meg-hardt-oskar-macdonald-dunlop"
 endringer: "Ingen endringer i innholdet. Teksten er hentet ved automatisk lesing av nettsiden og kan avvike i små detaljer (anførselstegn, bindestreker, kursiv). Sjekk mot originalen før publisering."
 merknad: "Leserinnlegget som analyseres er skrevet av en navngitt 15-åring (2019) og omtaler en omstridt samfunnsdebatt om likestilling. Innlegget har Aftenposten som rettighetshaver og ligger ikke i repoet. Overskriften står som «Kjønnkampen» i ett sitat i originalen. Kildeoppgivelsen har «Kjønnskampen». Sitatene er ikke kontrollert mot innlegget."
+avsnitt:
+  - nr: 1
+    funksjon: "Ingress"
+  - nr: 2
+    funksjon: "Innledning"
+  - nr: 3
+    funksjon: "Hovedsyn og bakgrunn"
+  - nr: 4
+    funksjon: "Målgruppe og etos"
+  - nr: 5
+    funksjon: "Patos: ekspressivt språk"
+  - nr: 6
+    funksjon: "Patos: eksempler"
+  - nr: 7
+    funksjon: "Overgang fra patos til logos"
+  - nr: 8
+    funksjon: "Logos"
+  - nr: 9
+    funksjon: "Etos: omsorg og lånt etos"
+  - nr: 10
+    funksjon: "Den retoriske situasjonen"
+  - nr: 11
+    funksjon: "Aptum"
+  - nr: 12
+    funksjon: "Avslutning"
 ---
 
 Dette er et eksempel på en retorisk analyse. Den tar for seg et leserinnlegg om likestilling som ble publisert på Aftenpostens Si ;D-sider i 2019.

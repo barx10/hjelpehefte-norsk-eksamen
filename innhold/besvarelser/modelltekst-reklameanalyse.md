@@ -12,6 +12,21 @@ kildeTittel: "Reklameanalyse: En modelltekst med tips (NDLA). Lenke til siden ma
 analysertTekstUrl: ""
 endringer: "Ingen endringer i innholdet. Sidens menytekst («Sitere eller gjenbruke?», «TekstH5PInnbyggingslenke») er tatt bort. Sist oppdatert på NDLA 16.12.2025."
 merknad: "Reklamen som analyseres, er en tekst og et bilde fra Lerum og ligger ikke i repoet. Eleven må kunne se reklamen for å ha nytte av analysen. Lenke til reklamen og til modellteksten mangler."
+avsnitt:
+  - nr: 1
+    funksjon: "Innledning"
+  - nr: 2
+    funksjon: "Bildet: oppbygging"
+  - nr: 3
+    funksjon: "Bildet: farger og patos"
+  - nr: 4
+    funksjon: "Brødtekst: etos"
+  - nr: 5
+    funksjon: "Brødtekst: språklige virkemidler"
+  - nr: 6
+    funksjon: "Verbaltekst: humor"
+  - nr: 7
+    funksjon: "Avslutning"
 ---
 
 Nordmenn elsker norsk natur. Det har Lerum benyttet seg av når de reklamerer for eplejusen sin i ny pakning. Den sammensatte reklameteksten har som formål å selge jus til nordmenn. Målet prøver de å nå ved å bruke både det typisk norske, humor og egen erfaring som salgstriks.

@@ -4,7 +4,7 @@ type: fagartikkel
 nivaa: elevtekst, forenklet for 10. trinn
 status: utkast
 oppgave: "Fagartikkel om konspirasjonsteorier"
-forfatter: "Anniken Louise Møster (original). Bearbeidet og forenklet."
+forfatter: "Anniken Louise Møster (bearbeidet og forenklet)"
 lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
 kilde: ""
@@ -12,6 +12,32 @@ kildeTittel: "Elevtekst: Fagartikkel om konspirasjonsteorier (NDLA). Lenke til s
 bearbeidetFra: "elevtekst-fagartikkel-konspirasjonsteorier"
 varsel: "Teksten omtaler antisemittisme og pandemien. Vurder om temaet passer for klassen."
 endringer: "Teksten er kortet ned til under halvparten og skrevet om med enklere språk og kortere setninger. Den er bygd opp etter malen for fagartikkel i heftet, med problemstilling i innledningen, forklaring med kilder, drøfting av konsekvenser og et svar på problemstillingen til slutt. Eksemplene om Michael Jackson og presidentvalget i 2020 er tatt ut, og generaliseringene om at de som tror på konspirasjonsteorier «ofte ønsker å fornekte sannhet», er mykere formulert. Forfatternavnet i litteraturlisten er rettet til Dyrendal, slik det står i teksten. Kildehenvisningene er hentet fra originalen og ikke kontrollert mot kildene."
+avsnitt:
+  - nr: 1
+    funksjon: "Innledning og problemstilling"
+    kommentar: "Fanger leseren og stiller tre spørsmål som artikkelen skal svare på."
+    vurdering: styrke
+  - nr: 2
+    funksjon: "Forklaring med kilde"
+    kommentar: "Definerer begrepet og viser til kilde med etternavn og årstall."
+  - nr: 3
+    funksjon: "Forklaring: tre typer"
+    kommentar: "Går gjennom typene med eksempler og en kildehenvisning."
+  - nr: 4
+    funksjon: "Forklaring: årsaker"
+    kommentar: "Forklarer hvorfor noen tror på konspirasjonsteorier, uten å generalisere."
+  - nr: 5
+    funksjon: "Konsekvenser"
+    kommentar: "Bruker pandemien som eksempel på hvorfor teoriene kan være farlige."
+  - nr: 6
+    funksjon: "Sosiale medier"
+    kommentar: "Forklarer algoritmer og ekkokammer."
+  - nr: 7
+    funksjon: "Hva kan vi gjøre?"
+    kommentar: "Gir råd om kildekritikk og ansvar."
+  - nr: 8
+    funksjon: "Avslutning"
+    kommentar: "Svarer på problemstillingen."
 ---
 
 Du har kanskje hørt at jorda er flat eller at månelandingen aldri skjedde. De fleste skjønner at slike påstander er usanne, men mange tror på dem. Hva er konspirasjonsteorier, hvorfor tror noen på dem, og kan de være en fare for samfunnet?

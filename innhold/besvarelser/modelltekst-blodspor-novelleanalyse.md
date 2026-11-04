@@ -12,6 +12,41 @@ novelleUrl: "https://ndla.no/r/norsk-sf-vg1/blodspor/bbcc8ac6c5"
 varsel: "Novellen handler om et barn som dør i krig. Vurder om temaet passer for klassen, og si fra på forhånd."
 endringer: "Ingen endringer i innholdet. Teksten er hentet ved automatisk lesing av nettsiden og kan avvike i små detaljer (anførselstegn, bindestreker, kursiv). Sjekk mot originalen før publisering."
 merknad: "Originalen gjengir to ting unøyaktig sammenlignet med novellen: «Hjertet hamrer» står ikke i novellen (der står «Hjertet slår like raskt og like hardt»), og «hans lille hjerne skjønner ingenting» har stor H i novellen. Novellen har én hovedperson, men andre omtales kollektivt. Novellen er under begrenset gjenbruk (Bakir Ahmethodzic), så den ligger ikke i repoet. Blokksitatet om hjertet bygger på sitatretten og er ikke omfattet av CC-lisensen."
+avsnitt:
+  - nr: 1
+    funksjon: "Innledning"
+  - nr: 2
+    funksjon: "Motiv"
+  - nr: 3
+    funksjon: "Tema"
+  - nr: 4
+    funksjon: "Synsvinkel"
+  - nr: 5
+    funksjon: "Komposisjon: in medias res"
+  - nr: 6
+    funksjon: "Komposisjon: tidsrom og vendepunkt"
+  - nr: 7
+    funksjon: "Handlings- og tankereferat"
+  - nr: 8
+    funksjon: "Tankereferat"
+  - nr: 9
+    funksjon: "Personskildring"
+  - nr: 10
+    funksjon: "Virkemiddel: gjentakelse av «han»"
+  - nr: 11
+    funksjon: "Virkemiddel: gjentakelse av «blod»"
+  - nr: 12
+    funksjon: "Virkemiddel: gjentakelse av «hjerte»"
+  - nr: 13
+    funksjon: "Symbolikk i «hjerte»"
+  - nr: 14
+    funksjon: "Virkemiddel: ladde ord"
+  - nr: 15
+    funksjon: "Metakommentar og kontrast"
+  - nr: 16
+    funksjon: "Tittelen"
+  - nr: 17
+    funksjon: "Avslutning"
 ---
 
 De fleste mennesker i Norge har aldri opplevd en krig. I stedet ser vi innslag om krig fra ulike deler av verden på nyheter eller leser om det i aviser. "Triste greier", tenker vi kanskje, slår av tv-en og logger oss på Instagram for å sjekke siste nytt som virkelig "angår oss". Novella "Blodspor", skrevet av Bakir Ahmethodzic, handler om en slik krig som vi i Norge erfarte på avstand. Den gir et innblikk i hvordan en krig oppleves gjennom en liten gutts øyne.

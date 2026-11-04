@@ -70,6 +70,8 @@ const mal = defineCollection({
 
 const base = z.object({
   kapittel: reference('hefte'),
+  // Teksten øvelsen bygger på. Brukes til å vise kilde og lisens.
+  fraTekst: reference('besvarelser').optional(),
   mal: z.array(reference('mal')).default([]),
   nivaa: z.string().default('10'),
   status,
@@ -248,4 +250,38 @@ const eksamen = defineCollection({
     }),
 });
 
-export const collections = { hefte, mal, ovelser, eksamen };
+// Modelltekster og besvarelser. Metadata og merknader til hvert avsnitt ligger i frontmatter.
+const besvarelser = defineCollection({
+  loader: glob({ pattern: ['*.md', '!README.md'], base: './innhold/besvarelser' }),
+  schema: z.object({
+    tittel: z.string(),
+    type: z.enum(['retorisk-analyse', 'novelleanalyse', 'diktanalyse', 'reklameanalyse', 'fagartikkel', 'reflekterende-tekst', 'droftende-tekst']),
+    nivaa: z.string(),
+    status,
+    oppgave: z.string(),
+    forfatter: z.string().optional(),
+    lisens: z.string().optional(),
+    lisensUrl: z.string().optional(),
+    kilde: z.string().optional(),
+    kildeTittel: z.string().optional(),
+    diktUrl: z.string().optional(),
+    novelleUrl: z.string().optional(),
+    analysertTekstUrl: z.string().optional(),
+    bearbeidetFra: z.string().optional(),
+    endringer: z.string().optional(),
+    merknad: z.string().optional(),
+    varsel: z.string().optional(),
+    avsnitt: z
+      .array(
+        z.object({
+          nr: z.number().int().min(1),
+          funksjon: z.string(),
+          kommentar: z.string().optional(),
+          vurdering: z.enum(['styrke', 'svakhet']).optional(),
+        }),
+      )
+      .default([]),
+  }),
+});
+
+export const collections = { hefte, mal, ovelser, eksamen, besvarelser };

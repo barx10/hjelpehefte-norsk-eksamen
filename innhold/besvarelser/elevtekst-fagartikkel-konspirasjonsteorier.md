@@ -11,6 +11,34 @@ kilde: ""
 kildeTittel: "Elevtekst: Fagartikkel om konspirasjonsteorier (NDLA). Lenke til siden mangler. Sist oppdatert på NDLA 09.04.2026."
 endringer: "Ingen endringer i innholdet. Sidens menytekst («Vis kompetansemål», «Sitere eller gjenbruke?», «TekstInnbyggingslenke») er tatt bort."
 merknad: "Dette er en elevtekst, ikke en modelltekst. Den har svakheter som kan brukes i undervisning: noen generaliseringer om at de som tror på konspirasjonsteorier «ofte ønsker å fornekte sannhet» og «aldri lager teoriene selv», og noen påstander uten kilde (for eksempel om Michael Jackson og valget i 2020). I litteraturlisten står forfatteren som «Dyrendahl», mens teksten har «Dyrendal». Teksten omtaler antisemittisme og pandemien, og noen elever kan ha opplevd dette personlig."
+avsnitt:
+  - nr: 1
+    funksjon: "Innledning og problemstilling"
+    vurdering: styrke
+  - nr: 2
+    funksjon: "Eksempel: pandemien"
+  - nr: 3
+    funksjon: "Forklaring med kilde: definisjon og typer"
+    vurdering: styrke
+  - nr: 4
+    funksjon: "Forklaring: systemkonspirasjoner"
+    kommentar: "Bruker kilde og et historisk eksempel."
+    vurdering: styrke
+  - nr: 5
+    funksjon: "Forklaring: superkonspirasjoner"
+  - nr: 6
+    funksjon: "Hvem tror på dem?"
+    kommentar: "Generaliserer («ofte», «aldri»), og eksemplene om Michael Jackson og valget i 2020 har ingen kilde."
+    vurdering: svakhet
+  - nr: 7
+    funksjon: "Konsekvenser: pandemien"
+  - nr: 8
+    funksjon: "Sosiale medier og ekkokammer"
+  - nr: 9
+    funksjon: "Demokratiet"
+    kommentar: "Bruker kilde for definisjonen av demokrati."
+  - nr: 10
+    funksjon: "Avslutning"
 ---
 
 Du har kanskje hørt noen si at jorda er flat, og at månelandinga aldri skjedde. De aller fleste skjønner at slike myter er usanne, men det er også veldig mange som tror på dem. Hvor kommer slike vrangforestillinger fra? Hvem tror på dem? Og kan konspirasjonsteorier være en fare for samfunnet vårt?

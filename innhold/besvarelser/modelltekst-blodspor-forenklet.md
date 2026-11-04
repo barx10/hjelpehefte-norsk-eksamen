@@ -4,7 +4,7 @@ type: novelleanalyse
 nivaa: modelltekst, forenklet for 10. trinn
 status: utkast
 oppgave: "Analyse av novellen «Blodspor» av Bakir Ahmethodzic (1999)"
-forfatter: "Åsa Abusland (original). Bearbeidet og forenklet."
+forfatter: "Åsa Abusland (bearbeidet og forenklet)"
 lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
 kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-novelleanalyse-av-blodspor/a9c79ac3b4"
@@ -12,6 +12,29 @@ novelleUrl: "https://ndla.no/r/norsk-sf-vg1/blodspor/bbcc8ac6c5"
 bearbeidetFra: "modelltekst-blodspor-novelleanalyse"
 varsel: "Novellen handler om et barn som dør i krig. Vurder om temaet passer for klassen, og si fra på forhånd."
 endringer: "Teksten er kortet ned til omtrent en tredel og skrevet om med enklere språk og kortere setninger. Den er bygd opp etter malen for novelleanalyse i heftet, med innledning, tema og handling, oppbygging, synsvinkel og personskildring, virkemidler og avslutning. Hovedpoengene og de fleste sitatene er hentet fra originalen. Sitatene er kontrollert mot novellen. «Hjertet hamrer» er tatt ut, fordi det ikke står i novellen. Avsnittene om symbolikk og om metakommentaren er kortet kraftig ned."
+avsnitt:
+  - nr: 1
+    funksjon: "Innledning"
+    kommentar: "Nevner novellen, forfatteren og årstallet, og sier hva analysen skal gjøre."
+  - nr: 2
+    funksjon: "Tema og handling"
+    kommentar: "Forteller kort hva som skjer, og sier hva temaet er."
+  - nr: 3
+    funksjon: "Oppbygging"
+    kommentar: "Viser at novellen starter in medias res, peker på vendepunktet og siterer slutten."
+  - nr: 4
+    funksjon: "Synsvinkel og personskildring"
+    kommentar: "Forklarer hvem som forteller, og hvordan vi kommer tett på gutten."
+  - nr: 5
+    funksjon: "Virkemiddel: gjentakelse"
+    kommentar: "Følger ordene «blod» og «hjerte» gjennom novellen og forklarer hva utviklingen viser."
+    vurdering: styrke
+  - nr: 6
+    funksjon: "Virkemiddel: kontrast"
+    kommentar: "Viser hva som er uvanlig i situasjonen, og hvorfor kommentaren på slutten virker."
+  - nr: 7
+    funksjon: "Avslutning"
+    kommentar: "Forklarer tittelen og kobler analysen til hva litteratur kan gjøre."
 ---
 
 «Blodspor» av Bakir Ahmethodzic (1999) er en kort novelle om krigen i Sarajevo, sett gjennom en liten gutts øyne. Forfatteren kom selv til Norge som flyktning fra krigen i Bosnia. I denne teksten skal jeg analysere hvordan in medias res, gjentakelse og kontrast viser hvordan krig rammer uskyldige.

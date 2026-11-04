@@ -11,6 +11,7 @@ export type Kapittel = CollectionEntry<'hefte'>;
 export type Mal = CollectionEntry<'mal'>;
 export type Ovelse = CollectionEntry<'ovelser'>;
 export type Eksamenspakke = CollectionEntry<'eksamen'>;
+export type Besvarelse = CollectionEntry<'besvarelser'>;
 
 export async function hentKapitler(): Promise<Kapittel[]> {
   const alle = (await getCollection('hefte')).filter((k) => visUtkast || k.data.status === 'godkjent');
@@ -30,6 +31,21 @@ export async function hentOvelser(): Promise<Ovelse[]> {
     .filter((o) => synligeKapitler.has(o.data.kapittel.id))
     .sort((a, b) => a.id.localeCompare(b.id, 'nb'));
 }
+
+export async function hentBesvarelser(): Promise<Besvarelse[]> {
+  const alle = (await getCollection('besvarelser')).filter((b) => visUtkast || b.data.status === 'godkjent');
+  return alle.sort((a, b) => a.id.localeCompare(b.id, 'nb'));
+}
+
+export const typeTittel: Record<Besvarelse['data']['type'], string> = {
+  'retorisk-analyse': 'Retorisk analyse',
+  novelleanalyse: 'Novelleanalyse',
+  diktanalyse: 'Diktanalyse',
+  reklameanalyse: 'Reklameanalyse',
+  fagartikkel: 'Fagartikkel',
+  'reflekterende-tekst': 'Reflekterende tekst',
+  'droftende-tekst': 'Drøftende tekst',
+};
 
 export async function hentEksamen(): Promise<Eksamenspakke[]> {
   const alle = (await getCollection('eksamen')).filter((e) => visUtkast || e.data.status === 'godkjent');
@@ -56,8 +72,12 @@ export const typeNavn: Record<Ovelsestype, string> = {
 };
 
 /** Det klienten trenger for å kjøre en øvelse. */
-export function tilKlient(o: Ovelse, kapittelTittel: string) {
-  const felles = { id: o.id, kapittel: kapittelTittel, utkast: o.data.status === 'utkast' };
+export function tilKlient(o: Ovelse, kapittelTittel: string, tekster: Map<string, Besvarelse> = new Map()) {
+  const t = o.data.fraTekst ? tekster.get(o.data.fraTekst.id) : undefined;
+  const tekstKilde = t
+    ? { tittel: t.data.tittel, forfatter: t.data.forfatter ?? '', lisens: t.data.lisens ?? '', lisensUrl: t.data.lisensUrl ?? '', kilde: t.data.kilde ?? '', side: t.id }
+    : null;
+  const felles = { id: o.id, kapittel: kapittelTittel, utkast: o.data.status === 'utkast', tekstKilde };
   const d = o.data;
   switch (d.type) {
     case 'flashkort':

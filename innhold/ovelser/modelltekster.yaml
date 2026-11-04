@@ -1,0 +1,397 @@
+- id: tekst-dikt-rekke
+  type: rekkefolge
+  kapittel: diktanalyse
+  fraTekst: modelltekst-dahle-forenklet
+  mal: [m10-01, m10-06, m10-12]
+  status: utkast
+  oppdrag: "Sett åpningssetningene i analysen i riktig rekkefølge."
+  elementer: ["«Hvem er det som ingen ser» av Gro Dahle (1994) er et dikt om en mor som gjør alt arbeidet hjemme uten at noen legger merke til det.", "Motivet i diktet er en mor i hverdagen.", "Diktet har frie vers og ingen fast rytme.", "Diktet kan deles i tre deler.", "Det viktigste virkemiddelet er metaforer.", "Gro Dahle bruker altså metaforer, kontrast og allusjon for å vise at moren går fra å være en sliter ingen ser, til å bli hyllet som en dronning."]
+  forklaring: "Analysen følger malen for diktanalyse: innledning, tema og motiv, form, oppbygging, virkemidler og avslutning."
+- id: tekst-dikt-sorter
+  type: sortering
+  kapittel: diktanalyse
+  fraTekst: modelltekst-dahle-forenklet
+  mal: [m10-01, m10-06, m10-12]
+  status: utkast
+  oppdrag: "Hvilken del av analysen hører setningen til?"
+  kategorier: ["Innledning", "Tema og motiv", "Form", "Virkemidler", "Avslutning"]
+  elementer:
+    - tekst: "I denne teksten skal jeg analysere hvordan diktet bruker metaforer, kontrast og allusjon for å vise hva moren betyr."
+      kategori: 0
+    - tekst: "Temaet er at mødre gjør en uvurderlig jobb som vi ofte tar for gitt."
+      kategori: 1
+    - tekst: "Gjentakelsen av «slik» gjør at det høres nesten ut som en regle."
+      kategori: 2
+    - tekst: "Metaforen viser at hun nesten har blitt en del av kjøkkenet, så vi ser henne ikke lenger."
+      kategori: 3
+    - tekst: "Diktet svarer på spørsmålet i tittelen: Det er våre mødre vi aldri ser, men vi burde verdsette dem mer."
+      kategori: 4
+  forklaring: "Innledningen sier hva du skal gjøre. Tema og motiv sier hva diktet handler om. Form handler om vers og rytme. Virkemidler forklarer hva språket gjør. Avslutningen svarer på spørsmålet."
+- id: tekst-dikt-marker
+  type: marker
+  kapittel: diktanalyse
+  fraTekst: modelltekst-dahle-forenklet
+  mal: [m10-01, m10-06, m10-12]
+  status: utkast
+  oppdrag: "Marker ordene som navngir virkemidlet i avsnittet."
+  tekst: "Det viktigste virkemiddelet er [[metaforer]]. Allerede i begynnelsen er moren «støpt inn i kjøkkenbenken». [[Metaforen]] viser at hun nesten har blitt en del av kjøkkenet, så vi ser henne ikke lenger. I midten brukes en [[bakemetafor]]: moren «kjevler barna ut i deig». Hun former barna slik en baker former pepperkaker. Det viser hvor stor rolle en mor har i hvordan barna blir."
+  forklaring: "Å navngi virkemidlet er første steg i en virkemiddelanalyse. Her står virkemidlet som «metaforer», «Metaforen» og «bakemetafor»."
+- id: tekst-dikt-fv-kontrast
+  type: flervalg
+  kapittel: diktanalyse
+  fraTekst: modelltekst-dahle-forenklet
+  mal: [m10-01, m10-06, m10-12]
+  status: utkast
+  spm: "Hvilket virkemiddel setter begynnelsen og slutten av diktet opp mot hverandre?"
+  alternativer: ["Kontrast", "Sammenligning", "Besjeling", "Gjentakelse"]
+  riktig: 0
+  forklaring: "Moren er først knyttet til «havregrøt» og «fiskeskinn» og til slutt til «dronning» og «hersker». Det er en motsetning, altså kontrast."
+  utdrag: "I begynnelsen er moren knyttet til «havregrøt» og «fiskeskinn». På slutten kalles hun «dronning» og «hersker»."
+- id: tekst-dikt-fv-allusjon
+  type: flervalg
+  kapittel: diktanalyse
+  fraTekst: modelltekst-dahle-forenklet
+  mal: [m10-01, m10-06, m10-12]
+  status: utkast
+  spm: "Hva er en allusjon?"
+  alternativer: ["En hentydning til noe kjent, for eksempel Bibelen", "En sammenligning med «som»", "En gjentakelse av et ord", "Et spørsmål der svaret er innebygd"]
+  riktig: 0
+  forklaring: "En allusjon er en hentydning til noe kjent. «Korsfestet til tøyet» henviser til Bibelen og Jesus."
+  utdrag: "«Korsfestet til tøyet» er en allusjon til Bibelen og til hva som skjedde med Jesus."
+- id: tekst-dikt-skriv
+  type: skriv
+  kapittel: diktanalyse
+  fraTekst: modelltekst-dahle-forenklet
+  mal: [m10-01, m10-06, m10-12]
+  status: utkast
+  oppdrag: "Les avslutningen i modellteksten. Skriv en avslutning til en diktanalyse av «Havn» på samme måte."
+  utdrag: "Avslutningen i modellteksten om Gro Dahles dikt: «Gro Dahle bruker altså metaforer, kontrast og allusjon for å vise at moren går fra å være en sliter ingen ser, til å bli hyllet som en dronning. Diktet svarer på spørsmålet i tittelen: Det er våre mødre vi aldri ser, men vi burde verdsette dem mer.»\n\nDiktet «Havn» (fiktiv tekst for øving):\n\nHavna sover under tåka,\nskipene puster tungt.\nAlt jeg sa ble liggende igjen\npå kaia, kaldt og urørt.\n\nDu er en brygge uten båter.\nJeg står der likevel\nog venter, som om tiden\nkunne snu av seg selv."
+  ord: { min: 30, maks: 80 }
+  nokkelord: ["metafor", "tema"]
+  nokkelordMinst: 1
+  kriterier: ["Jeg nevner virkemidlene jeg har analysert", "Jeg sier hva diktet handler om (temaet)", "Jeg avslutter med en tanke som svarer på hva diktet vil si"]
+  modelltekst: "Dikteren bruker metaforen «Du er en brygge uten båter» og besjelingen «Havna sover» for å gjøre ventingen konkret. Sammen viser de at temaet er savn, og at jeg-personen blir stående selv om ingenting kommer. Diktet sier at venting kan være en måte å holde fast på noen på."
+- id: tekst-novelle-rekke
+  type: rekkefolge
+  kapittel: novelleanalyse
+  fraTekst: modelltekst-blodspor-forenklet
+  mal: [m10-01, m10-06, m10-12]
+  status: utkast
+  oppdrag: "Sett åpningssetningene i analysen i riktig rekkefølge."
+  elementer: ["«Blodspor» av Bakir Ahmethodzic (1999) er en kort novelle om krigen i Sarajevo, sett gjennom en liten gutts øyne.", "Motivet er en liten gutt som løper fra en sterk lyd.", "Novellen starter in medias res.", "Fortelleren er autoral og allvitende.", "Det viktigste virkemiddelet er gjentakelse.", "Tittelen «Blodspor» viser til sporene etter gutten og til alle uskyldige ofre i kriger."]
+  forklaring: "Analysen følger malen for novelleanalyse: innledning, tema og handling, oppbygging, synsvinkel, virkemidler og avslutning."
+- id: tekst-novelle-sorter
+  type: sortering
+  kapittel: novelleanalyse
+  fraTekst: modelltekst-blodspor-forenklet
+  mal: [m10-01, m10-06, m10-12]
+  status: utkast
+  oppdrag: "Hvilken del av analysen hører setningen til?"
+  kategorier: ["Innledning", "Tema og handling", "Oppbygging", "Synsvinkel", "Virkemidler"]
+  elementer:
+    - tekst: "I denne teksten skal jeg analysere hvordan in medias res, gjentakelse og kontrast viser hvordan krig rammer uskyldige."
+      kategori: 0
+    - tekst: "Temaet er krig og hvordan den rammer barn som ikke har skyld i den."
+      kategori: 1
+    - tekst: "Vendepunktet kommer når den kraftige lyden smeller."
+      kategori: 2
+    - tekst: "Fortelleren er autoral og allvitende."
+      kategori: 3
+    - tekst: "Ordet «blod» går igjen."
+      kategori: 4
+  forklaring: "Innledningen sier hva du skal gjøre. Temaet hører til tema og handling. Vendepunktet hører til oppbyggingen. Hvem som forteller, er synsvinkel. At et ord går igjen, er gjentakelse, et virkemiddel."
+- id: tekst-novelle-marker
+  type: marker
+  kapittel: novelleanalyse
+  fraTekst: modelltekst-blodspor-forenklet
+  mal: [m10-01, m10-06, m10-12]
+  status: utkast
+  oppdrag: "Marker fagbegrepene i avsnittet."
+  tekst: "Novellen starter [[in]] [[medias]] [[res]]. Den første setningen kaster oss rett inn i hendelsen: «Plutselig begynner hans lille hjerte å slå veldig hardt og veldig raskt.» Vi vet ikke hva gutten er redd for, og det skaper uro. Hele novellen varer bare noen minutter. [[Vendepunktet]] kommer når den kraftige lyden smeller. Etterpå blir det stille: «Plutselig hører han ingenting, ingenting unntatt stillheten.» Helt til slutt kommenterer fortelleren: «Alle gatene i Sarajevo har blitt sånn: Noen rakk enden – og noen gjorde det ikke.»"
+  forklaring: "«In medias res» betyr at teksten starter midt i handlingen. «Vendepunktet» er et tydelig skifte i handlingen. Begge er fagbegreper fra heftet."
+- id: tekst-novelle-fv-blod
+  type: flervalg
+  kapittel: novelleanalyse
+  fraTekst: modelltekst-blodspor-forenklet
+  mal: [m10-01, m10-06, m10-12]
+  status: utkast
+  spm: "Hva viser utviklingen i ordet «blod» i dette utdraget?"
+  alternativer: ["At håpet blir mindre, selv om gutten ikke forstår det", "At gutten blir tryggere", "At forfatteren vil gi fakta om krigen", "At det er en overdrivelse"]
+  riktig: 0
+  forklaring: "Blodet går fra «bitte små bloddammer» til blod fra magen. Det viser at håpet er ute, mens gutten ikke forstår det selv."
+  utdrag: "Først er det «bitte små bloddammer» fra et lite skrubbsår, og det er fortsatt håp. Rundt ham ligger større bloddammer, og etter den kraftige lyden kommer blodet fra magen hans. Da forstår vi at håpet er ute, selv om gutten ikke forstår det selv."
+- id: tekst-novelle-fv-synsvinkel
+  type: flervalg
+  kapittel: novelleanalyse
+  fraTekst: modelltekst-blodspor-forenklet
+  mal: [m10-01, m10-06, m10-12]
+  status: utkast
+  spm: "Hva slags synsvinkel har novellen, ifølge analysen?"
+  alternativer: ["Autoral allvitende", "Personal 1. person", "Autoral refererende", "Personal 3. person"]
+  riktig: 0
+  forklaring: "Fortelleren står utenfor og kjenner tankene til gutten. Av og til bryter fortelleren inn med noe gutten ikke kunne ha tenkt selv. Det er autoral allvitende."
+  utdrag: "Mesteparten av tiden er vi tett på gutten og får vite hva han tenker og føler. Av og til bryter fortelleren inn, for eksempel i «Hans lille hjerne skjønner ingenting»."
+- id: tekst-novelle-skriv
+  type: skriv
+  kapittel: novelleanalyse
+  fraTekst: modelltekst-blodspor-forenklet
+  mal: [m10-01, m10-06, m10-12]
+  status: utkast
+  oppdrag: "Skriv ett avsnitt om gjentakelsen av ordet «hjerte» i «Blodspor», med samme oppbygging som avsnittet om «blod»."
+  utdrag: "Avsnittet om «blod» i modellteksten: «Det viktigste virkemiddelet er gjentakelse. Ordet «blod» går igjen. Først er det «bitte små bloddammer» fra et lite skrubbsår, og det er fortsatt håp. Rundt ham ligger større bloddammer, og etter den kraftige lyden kommer blodet fra magen hans. Da forstår vi at håpet er ute, selv om gutten ikke forstår det selv.»"
+  ord: { min: 40, maks: 90 }
+  nokkelord: ["gjentakelse", "hjerte"]
+  nokkelordMinst: 2
+  sitat: true
+  kriterier: ["Avsnittet starter med en temasetning", "Jeg bruker et sitat i anførselstegn", "Jeg forklarer hva ordet «hjerte» står for", "Jeg viser utviklingen gjennom novellen"]
+  modelltekst: "Ordet «hjerte» står for liv. Først slår det hardt og raskt, og det viser at gutten fortsatt kjemper. Til slutt slår det «langsommere, og langsommere, og langsommere». I stedet for å skrive at gutten dør, lar forfatteren hjertet slutte å slå, og det gjør slutten stille og nesten uutholdelig."
+- id: tekst-retorisk-rekke
+  type: rekkefolge
+  kapittel: retorisk-analyse
+  fraTekst: modelltekst-retorisk-forenklet
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Sett åpningssetningene i analysen i riktig rekkefølge."
+  elementer: ["I leserinnlegget «Som ungdomsskoleelev traff 'Kjønnskampen' meg hardt» skriver en 15 år gammel gutt om likestilling.", "Avsenderen er bare 15 år og ingen ekspert på likestilling.", "Han bruker også logos.", "Patos er det han bruker mest.", "Innlegget fungerer godt for målgruppen."]
+  forklaring: "Analysen følger malen for retorisk analyse: innledning, etos, logos, patos og avslutning."
+- id: tekst-retorisk-sorter
+  type: sortering
+  kapittel: retorisk-analyse
+  fraTekst: modelltekst-retorisk-forenklet
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Hvilken del av analysen hører setningen til?"
+  kategorier: ["Innledning", "Etos", "Logos", "Patos", "Avslutning"]
+  elementer:
+    - tekst: "I denne teksten skal jeg analysere hvordan han bruker etos, logos og patos for å nå fram."
+      kategori: 0
+    - tekst: "Siden NRK er en pålitelig kanal, virker han mer troverdig når han bruker fakta derfra."
+      kategori: 1
+    - tekst: "Han tar utgangspunkt i at «Likestilling skal styrke begge kjønn», og viser til statistikk."
+      kategori: 2
+    - tekst: "Allerede i overskriften sier han at dokumentaren «traff» ham «hardt»."
+      kategori: 3
+    - tekst: "Men noen vil kanskje mene at det blir for mye følelser, og at det å være «bekymret» og «provosert» ikke er gode argumenter."
+      kategori: 4
+  forklaring: "Etos handler om troverdighet. Logos handler om fakta og logikk. Patos handler om følelser. Innledningen sier hva analysen skal gjøre, og avslutningen vurderer om teksten fungerer."
+- id: tekst-retorisk-marker
+  type: marker
+  kapittel: retorisk-analyse
+  fraTekst: modelltekst-retorisk-forenklet
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Marker de tre appellformene i avsnittet."
+  tekst: "Innlegget fungerer godt for målgruppen. Det kom like etter dokumentaren, da mange hadde sett den og kjente på de samme følelsene. Avsenderen bruker både [[etos]], [[logos]] og [[patos]]. Men noen vil kanskje mene at det blir for mye følelser, og at det å være «bekymret» og «provosert» ikke er gode argumenter. Likevel kan han overbevise flere om at likestillingen har blitt for opptatt av kvinner."
+  forklaring: "Avsnittet navngir alle tre appellformene: etos, logos og patos."
+- id: tekst-retorisk-fv-etos
+  type: flervalg
+  kapittel: retorisk-analyse
+  fraTekst: modelltekst-retorisk-forenklet
+  mal: [m10-06, m10-12]
+  status: utkast
+  spm: "Hvilken appellform er dette utdraget et eksempel på?"
+  alternativer: ["Etos", "Logos", "Patos", "Ingen av dem"]
+  riktig: 0
+  forklaring: "Avsenderen virker omsorgsfull og troverdig ved å vise til egen erfaring fra skolen. Det er etos."
+  utdrag: "Han virker dessuten omsorgsfull når han forteller at han trives på skolen, men har sett mange elever som sliter."
+- id: tekst-retorisk-fv-logos
+  type: flervalg
+  kapittel: retorisk-analyse
+  fraTekst: modelltekst-retorisk-forenklet
+  mal: [m10-06, m10-12]
+  status: utkast
+  spm: "Hva gjør avsenderen i denne setningen?"
+  alternativer: ["Snur situasjonen på hodet for å få leseren til å tenke logisk", "Forteller om egne følelser", "Viser til sin egen erfaring som ekspert", "Bruker humor for å lette stemningen"]
+  riktig: 0
+  forklaring: "Avsenderen snur saken på hodet: Hva om en mann hadde sagt det samme? Det bygger på en logisk sammenligning, altså logos."
+  utdrag: "Hvis lignende karakteristikk hadde blitt brukt av en mannlig popartist mot kvinner, hadde reaksjonene mest sannsynlig ikke latt vente på seg."
+- id: tekst-retorisk-skriv
+  type: skriv
+  kapittel: retorisk-analyse
+  fraTekst: modelltekst-retorisk-forenklet
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Les etos-avsnittet i modellteksten. Skriv et tilsvarende etos-avsnitt om debattinnlegget «Legg bort telefonen» under."
+  utdrag: "Etos-avsnittet i modellteksten: «Avsenderen er bare 15 år og ingen ekspert på likestilling. Det kan svekke etosen hans. Samtidig er han selv en av dem innlegget handler om, og det styrker den.»\n\nDebattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
+  ord: { min: 50, maks: 110 }
+  nokkelord: ["etos", "troverdig"]
+  nokkelordMinst: 2
+  sitat: true
+  kriterier: ["Avsnittet starter med en temasetning", "Jeg bruker et sitat fra innlegget i anførselstegn", "Jeg sier både hva som styrker og hva som svekker troverdigheten", "Jeg bruker ordene «etos» og «troverdig»"]
+  modelltekst: "Avsenderen bygger etos ved å vise til egen erfaring. Hun skriver at hun har «undervist i tjue år», og det gjør henne troverdig som en som kjenner klasserommet. Samtidig er hun lærer og ikke forsker, så noen vil kanskje savne tall som viser at mobilen skader læringen. Likevel virker hun troverdig for foreldre og skolestyre."
+- id: tekst-reklame-rekke
+  type: rekkefolge
+  kapittel: reklameanalyse
+  fraTekst: modelltekst-reklameanalyse-forenklet
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Sett åpningssetningene i analysen i riktig rekkefølge."
+  elementer: ["Reklamen for Lerums eplejus i ny pakning er en sammensatt tekst.", "Bildet har produktet i forgrunnen.", "I brødteksten er det etos som dominerer.", "Teksten har også språklige virkemidler som spiller på følelser.", "Alt i alt er dette en typisk norsk reklame."]
+  forklaring: "Analysen følger malen for reklameanalyse: innledning, bilde, etos, språk og avslutning."
+- id: tekst-reklame-sorter
+  type: sortering
+  kapittel: reklameanalyse
+  fraTekst: modelltekst-reklameanalyse-forenklet
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Hvilken del av analysen hører setningen til?"
+  kategorier: ["Innledning", "Bilde", "Etos", "Språk og humor", "Avslutning"]
+  elementer:
+    - tekst: "I denne teksten skal jeg analysere hvordan reklamen bruker patos og etos."
+      kategori: 0
+    - tekst: "I bakgrunnen ser vi norsk natur fra Sognefjorden, men den er dempet, slik at den ikke stjeler oppmerksomhet fra jusen."
+      kategori: 1
+    - tekst: "Lerum er en kjent merkevare, og de trenger ikke å virke nye og spennende."
+      kategori: 2
+    - tekst: "Reklamen bruker også humor."
+      kategori: 3
+    - tekst: "Selv om reklamen bruker mye etos og patos, blir den ikke selvhøytidelig."
+      kategori: 4
+  forklaring: "Bildet handler om forgrunn, bakgrunn og farger. Etos handler om troverdighet. Språk og humor handler om ordvalg. Avslutningen vurderer helheten."
+- id: tekst-reklame-marker
+  type: marker
+  kapittel: reklameanalyse
+  fraTekst: modelltekst-reklameanalyse-forenklet
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Marker ordene som beskriver hvordan bildet er bygd opp."
+  tekst: "Bildet har produktet i [[forgrunnen]]. Det er [[blikkfanget]]. I [[bakgrunnen]] ser vi norsk natur fra Sognefjorden, men den er dempet, slik at den ikke stjeler oppmerksomhet fra jusen. Bildet har friske farger, grønne epler og en juskartong med bilde av en fjord. Fargene og naturen får oss til å tenke at jusen er sunn, naturlig og typisk norsk. Det vekker gode følelser, og bildet er derfor først og fremst patos."
+  forklaring: "Forgrunn er det som er nærmest i bildet. Bakgrunn er det som er lengst bak. Blikkfang er det første øyet ser."
+- id: tekst-reklame-fv-verdiladde
+  type: flervalg
+  kapittel: reklameanalyse
+  fraTekst: modelltekst-reklameanalyse-forenklet
+  mal: [m10-06, m10-12]
+  status: utkast
+  spm: "Hva kaller vi slike ord i en reklame?"
+  alternativer: ["Verdiladde ord", "Fagord", "Sammensatte ord", "Lånord"]
+  riktig: 0
+  forklaring: "Ord som «frisk» og «den aller beste» er positivt ladet. De kalles verdiladde ord, og de spiller på følelsene."
+  utdrag: "Jusen kalles «frisk», laget av den «finaste» frukten og «den aller beste»."
+- id: tekst-reklame-fv-oppfordrende
+  type: flervalg
+  kapittel: reklameanalyse
+  fraTekst: modelltekst-reklameanalyse-forenklet
+  mal: [m10-06, m10-12]
+  status: utkast
+  spm: "Hva slags språk er dette?"
+  alternativer: ["Oppfordrende språk", "Informativt språk", "Overdrivelse", "Retorisk spørsmål"]
+  riktig: 0
+  forklaring: "Setningen sier hva leseren skal gjøre. Det kalles oppfordrende språk."
+  utdrag: "«prøv vår friske eplejus i ny pakning»"
+- id: tekst-reklame-skriv
+  type: skriv
+  kapittel: reklameanalyse
+  fraTekst: modelltekst-reklameanalyse-forenklet
+  mal: [m10-06, m10-12]
+  status: utkast
+  oppdrag: "Les avsnittet om bildet. Skriv et tilsvarende avsnitt om en reklame du selv velger, for eksempel en plakat eller en annonse du har sett."
+  utdrag: "Avsnittet om bildet i modellteksten: «Bildet har produktet i forgrunnen. Det er blikkfanget. I bakgrunnen ser vi norsk natur fra Sognefjorden, men den er dempet, slik at den ikke stjeler oppmerksomhet fra jusen. Bildet har friske farger, grønne epler og en juskartong med bilde av en fjord. Fargene og naturen får oss til å tenke at jusen er sunn, naturlig og typisk norsk.»"
+  ord: { min: 50, maks: 110 }
+  nokkelord: ["blikkfang", "forgrunn", "bakgrunn", "farge"]
+  nokkelordMinst: 3
+  kriterier: ["Jeg sier hva som er blikkfanget", "Jeg beskriver forgrunn og bakgrunn", "Jeg forklarer hva fargene gjør med følelsene", "Jeg skriver om hva bildet gjør, ikke bare hva det viser"]
+  modelltekst: "Bildet har en boks med havregryn i forgrunnen, og det er blikkfanget. I bakgrunnen er det en uskarp fjord. Fargene er grønne og blå, og de får oss til å tenke på noe friskt og naturlig. Det vekker gode følelser, og bildet er derfor patos."
+  modellkommentar: "Eksempelet bruker en oppdiktet reklame. Velg gjerne en du kan se for deg."
+- id: tekst-fag-rekke
+  type: rekkefolge
+  kapittel: fagartikkel
+  fraTekst: elevtekst-fagartikkel-forenklet
+  mal: [m10-07, m10-12, m10-10]
+  status: utkast
+  oppdrag: "Sett åpningssetningene i fagartikkelen i riktig rekkefølge."
+  elementer: ["Du har kanskje hørt at jorda er flat eller at månelandingen aldri skjedde.", "En konspirasjonsteori er en forklaringsmodell som sier at det som er galt i verden, skyldes at mektige grupper i hemmelighet jobber sammen for å fremme sin egen skjulte agenda (Dyrendal, 2020).", "Hvorfor tror noen på dem?", "Konspirasjonsteorier kan være farlige.", "Hva kan vi gjøre?", "Konspirasjonsteorier forsvinner ikke med det første, men vi kan hindre at feilinformasjon spres."]
+  forklaring: "En fagartikkel starter med en problemstilling, forklarer med kilder, drøfter årsaker og konsekvenser og svarer på problemstillingen til slutt."
+- id: tekst-fag-sorter
+  type: sortering
+  kapittel: fagartikkel
+  fraTekst: elevtekst-fagartikkel-forenklet
+  mal: [m10-07, m10-12, m10-10]
+  status: utkast
+  oppdrag: "Hvilken funksjon har setningen i fagartikkelen?"
+  kategorier: ["Problemstilling", "Forklaring med kilde", "Konsekvenser", "Svar på problemstillingen"]
+  elementer:
+    - tekst: "Hva er konspirasjonsteorier, hvorfor tror noen på dem, og kan de være en fare for samfunnet?"
+      kategori: 0
+    - tekst: "Ifølge den amerikanske statsviteren Michael Barkun finnes det tre typer: hendelseskonspirasjoner, systemkonspirasjoner og superkonspirasjoner (Dyrendal, 2020)."
+      kategori: 1
+    - tekst: "Når mange ikke fulgte smittevernreglene eller var redde for å ta vaksinen, kunne det gi mer smitte og sykdom."
+      kategori: 2
+    - tekst: "Derfor kan konspirasjonsteorier være en fare for samfunnet, og for demokratiet."
+      kategori: 3
+  forklaring: "Problemstillingen er spørsmålet teksten skal svare på. Forklaringen bruker kilde. Konsekvensene viser hva som kan skje. Svaret på slutten henter fram problemstillingen igjen."
+- id: tekst-fag-marker
+  type: marker
+  kapittel: fagartikkel
+  fraTekst: elevtekst-fagartikkel-forenklet
+  mal: [m10-07, m10-12, m10-10]
+  status: utkast
+  oppdrag: "Marker kildehenvisningene i avsnittet."
+  tekst: "En konspirasjonsteori er en forklaringsmodell som sier at det som er galt i verden, skyldes at mektige grupper i hemmelighet jobber sammen for å fremme sin egen skjulte agenda [[(Dyrendal, 2020)]]. Teoriene bygger ofte på få og ukjente kilder. Ifølge den amerikanske statsviteren Michael Barkun finnes det tre typer: hendelseskonspirasjoner, systemkonspirasjoner og superkonspirasjoner [[(Dyrendal, 2020)]]."
+  forklaring: "En kildehenvisning i teksten har forfatterens etternavn og årstall i parentes. Det viser hvor opplysningene kommer fra."
+- id: tekst-fag-fv-henvisning
+  type: flervalg
+  kapittel: fagartikkel
+  fraTekst: elevtekst-fagartikkel-forenklet
+  mal: [m10-07, m10-12, m10-10]
+  status: utkast
+  spm: "Hva er en riktig kildehenvisning i løpende tekst?"
+  alternativer: ["(Dyrendal, 2020)", "(Dyrendal)", "(2020)", "(snl.no)"]
+  riktig: 0
+  forklaring: "Henvisningen har forfatterens etternavn og årstall. De andre mangler enten forfatter eller årstall."
+  utdrag: "Ifølge den amerikanske statsviteren Michael Barkun finnes det tre typer: hendelseskonspirasjoner, systemkonspirasjoner og superkonspirasjoner (Dyrendal, 2020)."
+- id: tekst-fag-fv-problemstilling
+  type: flervalg
+  kapittel: fagartikkel
+  fraTekst: elevtekst-fagartikkel-forenklet
+  mal: [m10-07, m10-12, m10-10]
+  status: utkast
+  spm: "Hva er problemstillingen i denne innledningen?"
+  alternativer: ["Hva er konspirasjonsteorier, hvorfor tror noen på dem, og kan de være en fare for samfunnet?", "Jorda er flat", "Månelandingen skjedde ikke", "Mange tror på mye rart"]
+  riktig: 0
+  forklaring: "Problemstillingen er spørsmålene artikkelen skal svare på. De står sist i innledningen."
+  utdrag: "Du har kanskje hørt at jorda er flat eller at månelandingen aldri skjedde. De fleste skjønner at slike påstander er usanne, men mange tror på dem. Hva er konspirasjonsteorier, hvorfor tror noen på dem, og kan de være en fare for samfunnet?"
+- id: tekst-fag-skriv
+  type: skriv
+  kapittel: fagartikkel
+  fraTekst: elevtekst-fagartikkel-forenklet
+  mal: [m10-07, m10-12, m10-10]
+  status: utkast
+  oppdrag: "Les innledningen i modellteksten. Skriv en innledning med en problemstilling til en fagartikkel om hvorfor vi sover for lite."
+  utdrag: "Innledningen i modellteksten: «Du har kanskje hørt at jorda er flat eller at månelandingen aldri skjedde. De fleste skjønner at slike påstander er usanne, men mange tror på dem. Hva er konspirasjonsteorier, hvorfor tror noen på dem, og kan de være en fare for samfunnet?»"
+  ord: { min: 40, maks: 90 }
+  nokkelord: ["hvorfor", "sove"]
+  nokkelordMinst: 1
+  kriterier: ["Innledningen fanger leseren", "Jeg stiller en tydelig problemstilling som et spørsmål", "Jeg sier hva artikkelen skal forklare"]
+  modelltekst: "Mange ungdommer sier at de sover for lite, og at de er trøtte på skolen. Hvorfor sover vi dårligere enn før? Hvilken rolle spiller mobilen, og hva kan vi gjøre for å sove bedre? I denne artikkelen skal jeg forklare årsakene og se på hva som kan hjelpe."
+- id: tekst-fag-svak-aldri
+  type: marker
+  kapittel: fagartikkel
+  fraTekst: elevtekst-fagartikkel-konspirasjonsteorier
+  mal: [m10-07, m10-12]
+  status: utkast
+  oppdrag: "Marker ordet som gjør påstanden for bastant."
+  tekst: "En som tror på konspirasjonsteorier, lager [[aldri]] teoriene selv, men manipulerer den informasjonen som allerede er gitt."
+  forklaring: "«Aldri» gjør påstanden absolutt. Det er vanskelig å vise at ingen noen gang lager teorier selv. «Noen» eller «mange» ville vært tryggere."
+- id: tekst-fag-svak-kilde
+  type: flervalg
+  kapittel: fagartikkel
+  fraTekst: elevtekst-fagartikkel-konspirasjonsteorier
+  mal: [m10-07, m10-12]
+  status: utkast
+  spm: "Hva mangler i dette utdraget fra en fagartikkel?"
+  alternativer: ["En kilde som viser at opplysningene stemmer", "En tittel", "Et sitat", "En konklusjon"]
+  riktig: 0
+  forklaring: "Utdraget kommer med påstander om dødsfallet uten kilde. I en fagartikkel må opplysninger støttes av kilder."
+  utdrag: "Da han sovnet inn etter en feildosering av sovepiller i 2009, ble en hel verden rystet. Det ble spekulert mye rundt dødsfallet, og nye konspirasjonsteorier dukket opp."
+- id: tekst-fag-svak-generalisering
+  type: flervalg
+  kapittel: fagartikkel
+  fraTekst: elevtekst-fagartikkel-konspirasjonsteorier
+  mal: [m10-07, m10-12]
+  status: utkast
+  spm: "Hva er problemet med setningen «De som tror på konspirasjonsteorier, ønsker ofte å fornekte sannhet»?"
+  alternativer: ["Den sier noe om hva en hel gruppe mennesker vil, uten kilde", "Den er for kort", "Den mangler komma", "Den bruker for mange fagord"]
+  riktig: 0
+  forklaring: "Setningen påstår noe om motivene til en hel gruppe. Det trenger en kilde, og man bør heller skrive «noen» og forklare."
+  utdrag: "De som tror på konspirasjonsteorier, ønsker ofte å fornekte sannhet."

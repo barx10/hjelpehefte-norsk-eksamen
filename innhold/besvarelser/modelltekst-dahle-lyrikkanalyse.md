@@ -11,6 +11,29 @@ kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-lyrikkanalyse/8c1ab237c1"
 diktUrl: "https://ndla.no/r/norsk-sf-vg1/hvem-er-det-som-ingen-ser/042379cd2b"
 merknad: "Originalen gjengir noen sitater unøyaktig sammenlignet med diktet: «bærer huset på ryggen» (diktet: «Slik bærer hun huset på ryggen»), «klipper øret av sønnen» (diktet: «Klipper ørene av sønnen»), «er støpt inn i kjøkkenbenken» (diktet: «Støpt inn i kjøkkenbenken»), «krones i smuler» (diktet: «Hun krones av smuler») og «Hvem er det som ingen ser? / Det er moren det» (første linje er tittelen). Teksten er ikke endret her."
 endringer: "Ingen. Teksten er limt inn uendret, uten sidens menytekst."
+avsnitt:
+  - nr: 1
+    funksjon: "Innledning"
+  - nr: 2
+    funksjon: "Stemmen i diktet"
+  - nr: 3
+    funksjon: "Form"
+  - nr: 4
+    funksjon: "Oppbygging: tredelt motiv"
+  - nr: 5
+    funksjon: "Tredelingen og temaet"
+  - nr: 6
+    funksjon: "Temaet"
+  - nr: 7
+    funksjon: "Virkemiddel: metaforer"
+  - nr: 8
+    funksjon: "Kontrast mellom metaforene"
+  - nr: 9
+    funksjon: "Religiøse metaforer"
+  - nr: 10
+    funksjon: "Kontrast og allusjon"
+  - nr: 11
+    funksjon: "Avslutning: temaet er allmenngyldig"
 ---
 
 "Det er moren det / som går i ett med skålene", skriver Gro Dahle i diktet "Hvem er det som ingen ser" (1994). Slik svarer hun allerede i første linje på spørsmålet som er tittelen til diktet. Diktet handler nemlig om den rollen ei mor spiller i livet vårt. Ei mor som vi kanskje ikke ser eller legger merke til.

@@ -4,7 +4,7 @@ type: reklameanalyse
 nivaa: modelltekst, forenklet for 10. trinn
 status: utkast
 oppgave: "Analyse av en sammensatt reklametekst for Lerum eplejus i ny pakning"
-forfatter: "Åsa Abusland (original). Bearbeidet og forenklet."
+forfatter: "Åsa Abusland (bearbeidet og forenklet)"
 lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
 kilde: ""
@@ -12,6 +12,23 @@ kildeTittel: "Reklameanalyse: En modelltekst med tips (NDLA). Lenke til siden ma
 analysertTekstUrl: ""
 bearbeidetFra: "modelltekst-reklameanalyse"
 endringer: "Teksten er kortet ned til omtrent halvparten og skrevet om med enklere språk og kortere setninger. Den er bygd opp med innledning, bilde, etos, patos og avslutning, i samme rekkefølge som i kapittelet om reklameanalyse i heftet. Begrepet «skjult argumentasjon» og avsnittet om nasjonalromantikk er tatt ut. Sitatene fra reklamen er hentet fra originalen og ikke kontrollert mot reklamen."
+avsnitt:
+  - nr: 1
+    funksjon: "Innledning"
+    kommentar: "Sier hva slags tekst det er, hvem avsender og mottaker er, hva formålet er, og hva analysen skal gjøre."
+  - nr: 2
+    funksjon: "Bilde"
+    kommentar: "Går gjennom blikkfang, forgrunn, bakgrunn og farger, og forklarer hva de gjør med følelsene."
+    vurdering: styrke
+  - nr: 3
+    funksjon: "Etos"
+    kommentar: "Viser at brødteksten bygger troverdighet med tradisjon og bruker sitat."
+  - nr: 4
+    funksjon: "Språk, humor og patos"
+    kommentar: "Går gjennom verdiladde ord, oppfordrende språk og humor, med sitater."
+  - nr: 5
+    funksjon: "Avslutning"
+    kommentar: "Kobler bilde og tekst og forklarer hvorfor reklamen virker."
 ---
 
 Reklamen for Lerums eplejus i ny pakning er en sammensatt tekst. Den består av et bilde og flere tekster. Formålet er å selge jus til nordmenn. Lerum prøver å nå målet ved å bruke det typisk norske, humor og lange tradisjoner. I denne teksten skal jeg analysere hvordan reklamen bruker patos og etos.

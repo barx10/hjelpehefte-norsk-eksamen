@@ -4,13 +4,39 @@ type: diktanalyse
 nivaa: modelltekst, forenklet for 10. trinn
 status: utkast
 oppgave: "Analyse av diktet «Hvem er det som ingen ser» av Gro Dahle (1994)"
-forfatter: "Åsa Abusland (original). Bearbeidet og forenklet."
+forfatter: "Åsa Abusland (bearbeidet og forenklet)"
 lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
 kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-lyrikkanalyse/8c1ab237c1"
 diktUrl: "https://ndla.no/r/norsk-sf-vg1/hvem-er-det-som-ingen-ser/042379cd2b"
 bearbeidetFra: "modelltekst-dahle-lyrikkanalyse"
 endringer: "Teksten er kortet ned og skrevet om med enklere språk og kortere setninger. Avsnittet om hvem stemmen i diktet er, er tatt bort. Teksten er bygd opp etter malen for diktanalyse i heftet, med innledning, tema og motiv, form, virkemidler og avslutning. Sitatene og hovedpoengene er hentet fra originalen. Noen setninger er beholdt nesten ordrett. Tre sitater som var gjengitt unøyaktig i originalen, er rettet etter diktet (bærer hun huset på ryggen, klipper ørene av sønnen, krones av smuler)."
+avsnitt:
+  - nr: 1
+    funksjon: "Innledning"
+    kommentar: "Nevner diktet, forfatteren og årstallet. Forklarer kort hva diktet handler om, og sier hva analysen skal gjøre."
+  - nr: 2
+    funksjon: "Tema og motiv"
+    kommentar: "Skiller mellom motiv (en mor i hverdagen) og tema (mødre gjør en uvurderlig jobb)."
+  - nr: 3
+    funksjon: "Form"
+    kommentar: "Tar opp frie vers og strofer, og viser hvordan gjentakelsen av «slik» gir en leken rytme."
+  - nr: 4
+    funksjon: "Oppbygging"
+    kommentar: "Deler diktet i tre og viser utviklingen fra sliter til hyllet."
+  - nr: 5
+    funksjon: "Virkemiddel: metafor"
+    kommentar: "Navngir virkemidlet, siterer og forklarer hva det gjør. Dette er en modell for et godt analyseavsnitt."
+    vurdering: styrke
+  - nr: 6
+    funksjon: "Virkemiddel: kontrast"
+    kommentar: "Setter begynnelsen opp mot slutten og knytter kontrasten til temaet."
+  - nr: 7
+    funksjon: "Virkemiddel: allusjon"
+    kommentar: "Forklarer at «korsfestet til tøyet» henviser til Bibelen, og hva det gjør med morsrollen."
+  - nr: 8
+    funksjon: "Avslutning"
+    kommentar: "Kobler virkemidlene til temaet og svarer på spørsmålet i tittelen."
 ---
 
 «Hvem er det som ingen ser» av Gro Dahle (1994) er et dikt om en mor som gjør alt arbeidet hjemme uten at noen legger merke til det. Allerede i første linje får vi svaret på spørsmålet i tittelen: «Det er moren det / som går i ett med skålene». I denne teksten skal jeg analysere hvordan diktet bruker metaforer, kontrast og allusjon for å vise hva moren betyr.

@@ -19,7 +19,8 @@ const { ovelser, tittel } = Astro.props;
   import { lesSkriveutkast, lagreSkriveutkast } from '../lib/lager';
   import type { Fremgang } from '../lib/fremgang';
 
-  type Felles = { id: string; kapittel: string; utkast: boolean };
+  type TekstKilde = { tittel: string; forfatter: string; lisens: string; lisensUrl: string; kilde: string; side: string };
+  type Felles = { id: string; kapittel: string; utkast: boolean; tekstKilde: TekstKilde | null };
   type Flashkort = Felles & { type: 'flashkort'; forside: string; bakside: string };
   type Flervalg = Felles & { type: 'flervalg'; spm: string; alternativer: string[]; riktig: number; forklaring: string; utdrag: string | null };
   type Komma = Felles & {
@@ -101,6 +102,17 @@ const { ovelser, tittel } = Astro.props;
     if (visKapittel) venstre.append(el('span', { class: 'merke' }, o.kapittel));
     if (o.utkast) venstre.append(' ', el('span', { class: 'merke utkast' }, 'Utkast, ikke godkjent'));
     boks.append(venstre);
+    const k = o.tekstKilde;
+    if (k) {
+      const linje = el('p', { class: 'tekstkilde' }, 'Tekst: ', `«${k.tittel}»`, k.forfatter ? ` av ${k.forfatter}` : '');
+      if (k.lisens) {
+        linje.append(', ');
+        if (k.lisensUrl) linje.append(el('a', { href: k.lisensUrl, rel: 'noopener' }, k.lisens));
+        else linje.append(k.lisens);
+      }
+      if (k.kilde) linje.append(', ', el('a', { href: k.kilde, rel: 'noopener', target: '_blank' }, 'kilde'));
+      boks.append(linje);
+    }
     return boks;
   }
 
