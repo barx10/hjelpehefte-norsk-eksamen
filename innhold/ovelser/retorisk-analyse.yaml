@@ -1,0 +1,126 @@
+- id: ret-etos
+  type: flashkort
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: godkjent
+  forside: "Etos"
+  bakside: "Avsenderens troverdighet. Hvem er de? Har de kunnskap og tillit?"
+- id: ret-logos
+  type: flashkort
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: godkjent
+  forside: "Logos"
+  bakside: "Argumentenes logikk og fornuft. Fakta, statistikk, årsak og virkning."
+- id: ret-patos
+  type: flashkort
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: godkjent
+  forside: "Patos"
+  bakside: "Appell til følelser. Ord som engasjerer, opprører eller beveger leseren."
+- id: ret-def
+  type: flashkort
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: godkjent
+  forside: "Hva undersøker en retorisk analyse?"
+  bakside: "Hvordan en tekst er laget for å overbevise. Du bruker appellformene etos, logos og patos som verktøy."
+- id: ret-innledning
+  type: flashkort
+  kapittel: retorisk-analyse
+  mal: [m10-06, m10-12]
+  status: godkjent
+  forside: "Hva inneholder innledningen i en retorisk analyse?"
+  bakside: "Ca. 4 linjer: Hvem er avsenderen? Hvem er mottakeren? Hva vil avsenderen oppnå? Hva gjør avsenderen for å oppnå dette?"
+- id: ret-avsnitt-etos
+  type: flashkort
+  kapittel: retorisk-analyse
+  mal: [m10-06, m10-12]
+  status: godkjent
+  forside: "Hva spør du om i etos-avsnittet?"
+  bakside: "Styrker eller svekker noe avsenderens troverdighet? Bruk sitat."
+- id: ret-avsnitt-logos
+  type: flashkort
+  kapittel: retorisk-analyse
+  mal: [m10-06, m10-12]
+  status: godkjent
+  forside: "Hva ser du etter i logos-avsnittet?"
+  bakside: "Er argumentene logiske? Se etter «fordi», tall og fakta. Bruk sitat."
+- id: ret-avsnitt-patos
+  type: flashkort
+  kapittel: retorisk-analyse
+  mal: [m10-06, m10-12]
+  status: godkjent
+  forside: "Hva ser du etter i patos-avsnittet?"
+  bakside: "Påvirker teksten følelsene? «Du» og «vi» trekker leseren inn. Bruk sitat."
+- id: ret-avslutning
+  type: flashkort
+  kapittel: retorisk-analyse
+  mal: [m10-12]
+  status: godkjent
+  forside: "Hva svarer du på i avslutningen av en retorisk analyse?"
+  bakside: "Fungerer teksten for målgruppen? Hvorfor, eller hvorfor ikke?"
+- id: ret-fv-etos1
+  type: flervalg
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilken appellform brukes i dette utsagnet? «Som sykepleier med tjue års erfaring har jeg sett hva ensomhet gjør med eldre.»"
+  alternativer: ["Etos", "Logos", "Patos", "Ingen av dem"]
+  riktig: 0
+  forklaring: "Avsenderen viser til egen erfaring og kompetanse for å fremstå som troverdig. Det er etos."
+- id: ret-fv-logos1
+  type: flervalg
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilken appellform brukes i dette utsagnet? «Fordi trafikken har økt med 20 prosent, må kollektivtilbudet bygges ut.»"
+  alternativer: ["Logos", "Etos", "Patos", "Ingen av dem"]
+  riktig: 0
+  forklaring: "Utsagnet bygger på tall og en årsak-virkning-sammenheng («fordi»). Det er logos."
+- id: ret-fv-patos1
+  type: flervalg
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilken appellform brukes i dette utsagnet? «Tenk deg å våkne alene hver eneste julemorgen.»"
+  alternativer: ["Patos", "Logos", "Etos", "Ingen av dem"]
+  riktig: 0
+  forklaring: "Utsagnet trekker leseren inn («tenk deg») og vekker følelser. Det er patos."
+- id: ret-fv-etos2
+  type: flervalg
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilken appellform brukes i dette utsagnet? «Vi i Foreningen for lokal mat har drevet gårdsbutikker i femti år.»"
+  alternativer: ["Etos", "Logos", "Patos", "Ingen av dem"]
+  riktig: 0
+  forklaring: "Avsenderen understreker lang erfaring for å bygge tillit. Det er etos."
+- id: ret-fv-logos2
+  type: flervalg
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilken appellform brukes i dette utsagnet? «Undersøkelsen viser at 7 av 10 elever sover mindre enn åtte timer.»"
+  alternativer: ["Logos", "Etos", "Patos", "Ingen av dem"]
+  riktig: 0
+  forklaring: "Statistikk og fakta er typisk logos."
+- id: ret-fv-patos2
+  type: flervalg
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilken appellform brukes i dette utsagnet? «Det er uforståelig og skammelig at vi lar dem stå alene i kulden.»"
+  alternativer: ["Patos", "Logos", "Etos", "Ingen av dem"]
+  riktig: 0
+  forklaring: "Sterke ord som «uforståelig» og «skammelig», og «vi», appellerer til følelser og skyldfølelse. Det er patos."
+- id: ret-fv-logos-sok
+  type: flervalg
+  kapittel: retorisk-analyse
+  mal: [m10-06, m10-12]
+  status: utkast
+  spm: "Hva ser du etter i logos-avsnittet i en retorisk analyse?"
+  alternativer: ["«Fordi», tall og fakta, og om argumentene er logiske", "Ord som vekker sterke følelser", "Hvem avsenderen er og hva de kan", "Rim og rytme"]
+  riktig: 0
+  forklaring: "Logos handler om fornuft: fakta, statistikk og logiske sammenhenger."

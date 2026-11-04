@@ -1,0 +1,114 @@
+- id: komma-1
+  type: flashkort
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  forside: "Regel 1: komma mellom sideordnede setninger"
+  bakside: "Komma mellom to helsetninger som er knyttet sammen med og, eller, men, for. Eksempel: «Alle jobbet, og de fleste ble ferdige i tide.»"
+- id: komma-2
+  type: flashkort
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  forside: "Regel 2: komma foran «men»"
+  bakside: "Alltid komma rett foran «men». Eksempel: «Hun var sliten, men fornøyd.»"
+- id: komma-3
+  type: flashkort
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  forside: "Regel 3: leddsetning først"
+  bakside: "Komma etter leddsetningen når den kommer før helsetningen. Eksempel: «Når vi er ferdige, kan vi ta pause.»"
+- id: komma-4
+  type: flashkort
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  forside: "Regel 4: oppramsing"
+  bakside: "Komma mellom hvert ledd. Eksempel: «Vi trenger kabel, klips, bryter og skruer.»"
+- id: komma-5
+  type: flashkort
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  forside: "Regel 5: innskutte ledd"
+  bakside: "Komma rundt forklarende tillegg midt i setningen. Eksempel: «Tore, den eldste sønnen, begynte på skolen.»"
+- id: komma-6
+  type: flashkort
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  forside: "Regel 6: svarord og tiltaleord"
+  bakside: "Komma etter svarord, og rundt tiltaleord. Eksempel: «Ja, det stemmer.» / «Jan, kom og spis!»"
+- id: komma-fv-men
+  type: flervalg
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken setning har riktig komma?"
+  alternativer: ["Hun var sliten, men fornøyd.", "Hun var sliten men fornøyd.", "Hun var sliten men, fornøyd.", "Hun var, sliten men fornøyd."]
+  riktig: 0
+  forklaring: "Regel 2: det skal alltid være komma rett foran «men»."
+- id: komma-fv-leddsetning
+  type: flervalg
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken setning har riktig komma?"
+  alternativer: ["Når vi er ferdige, kan vi ta pause.", "Når vi er ferdige kan vi ta pause.", "Når, vi er ferdige kan vi ta pause.", "Når vi er ferdige kan, vi ta pause."]
+  riktig: 0
+  forklaring: "Regel 3: når leddsetningen står først, setter du komma etter den."
+- id: komma-fv-oppramsing
+  type: flervalg
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken setning har riktig komma?"
+  alternativer: ["Vi trenger kabel, klips, bryter og skruer.", "Vi trenger kabel klips bryter og skruer.", "Vi trenger kabel, klips, bryter, og skruer.", "Vi trenger, kabel, klips, bryter og skruer."]
+  riktig: 0
+  forklaring: "Regel 4: komma mellom hvert ledd i oppramsingen, men ikke foran «og» som binder de to siste leddene sammen."
+- id: komma-fv-innskutt
+  type: flervalg
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken setning har riktig komma?"
+  alternativer: ["Tore, den eldste sønnen, begynte på skolen.", "Tore den eldste sønnen, begynte på skolen.", "Tore, den eldste sønnen begynte på skolen.", "Tore den eldste sønnen begynte på skolen."]
+  riktig: 0
+  forklaring: "Regel 5: et forklarende innskudd midt i setningen skal ha komma på begge sider."
+- id: komma-fv-svarord
+  type: flervalg
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken setning har riktig komma?"
+  alternativer: ["Ja, det stemmer.", "Ja det stemmer.", "Ja det, stemmer.", "Ja, det, stemmer."]
+  riktig: 0
+  forklaring: "Regel 6: komma etter svarord."
+- id: komma-fv-tiltale
+  type: flervalg
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken setning har riktig komma?"
+  alternativer: ["Jan, kom og spis!", "Jan kom og spis!", "Jan kom, og spis!", "Jan, kom, og spis!"]
+  riktig: 0
+  forklaring: "Regel 6: komma etter tiltaleord. Du snakker til Jan, og Jan er ikke subjekt i setningen."
+- id: komma-fv-hvilken-regel1
+  type: flervalg
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken kommaregel brukes her? «Når regnet stoppet, gikk vi ut.»"
+  alternativer: ["Leddsetning først", "Oppramsing", "Svarord og tiltaleord", "Foran «men»"]
+  riktig: 0
+  forklaring: "«Når regnet stoppet» er en leddsetning som står foran helsetningen «gikk vi ut»."
+- id: komma-fv-hvilken-regel2
+  type: flervalg
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken kommaregel brukes her? «Hun kjøpte melk, egg, smør og brød.»"
+  alternativer: ["Oppramsing", "Innskutte ledd", "Leddsetning først", "Svarord og tiltaleord"]
+  riktig: 0
+  forklaring: "Komma mellom hvert ledd i en oppramsing."

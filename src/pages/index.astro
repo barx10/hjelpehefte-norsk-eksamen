@@ -1,0 +1,70 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { hentKapitler, hentOvelser, kapittelNavn } from '../lib/innhold';
+import { url } from '../lib/url';
+
+const kapitler = await hentKapitler();
+const ovelser = await hentOvelser();
+
+const temaer = kapitler
+  .map((k) => {
+    const liste = ovelser.filter((o) => o.data.kapittel.id === k.id);
+    return {
+      k,
+      ider: liste.map((o) => o.id),
+      kort: liste.filter((o) => o.data.type === 'flashkort').length,
+      flervalg: liste.filter((o) => o.data.type === 'flervalg').length,
+    };
+  })
+  .filter((t) => t.ider.length > 0);
+---
+<Layout tittel="Hjelpehefte norsk eksamen" bredde="bred">
+  <section class="hero">
+    <h1>Øv til skriftlig eksamen i norsk</h1>
+    <p class="ingress">Korte økter med flashkort og flervalg, bygd på Hjelpehefte norsk eksamen. Du velger tema, og øvelsene du kan minst kommer først.</p>
+    <div class="knapp-rad">
+      {temaer.length > 0 && <a class="knapp" href={url('ovelser/alle/')}>Øv på alt</a>}
+      <a class="knapp sekundar" href={url('hefte/')}>Les heftet</a>
+    </div>
+  </section>
+
+  <h2 id="temaer">Velg tema</h2>
+  {temaer.length === 0 ? (
+    <p>Det er ingen godkjente øvelser ennå.</p>
+  ) : (
+    <ul class="temaer" aria-labelledby="temaer">
+      {temaer.map((t) => (
+        <li class="tema" data-ider={JSON.stringify(t.ider)}>
+          <h3>{t.k.data.nummer && <span class="nr">{t.k.data.nummer}</span>}{t.k.data.tittel}</h3>
+          <p class="meta">{[t.kort > 0 && `${t.kort} flashkort`, t.flervalg > 0 && `${t.flervalg} flervalg`].filter(Boolean).join(' og ')}</p>
+          <div class="fremdrift-linje" aria-hidden="true"><span></span></div>
+          <p class="fremdrift-tekst" data-fremdrift></p>
+          <div class="lenker">
+            <a class="knapp" href={url(`ovelser/${t.k.id}/`)} aria-label={`Øv på ${kapittelNavn(t.k)}`}>Øv</a>
+            <a href={url(`hefte/${t.k.id}/`)} aria-label={`Les ${kapittelNavn(t.k)} i heftet`}>Les i heftet</a>
+          </div>
+        </li>
+      ))}
+    </ul>
+  )}
+
+  <div class="merknad">
+    <p><strong>Hva siden dekker.</strong> Siden øver skriftlig eksamen: eksamensoppbygging, oppgaveord, sjangre og maler, virkemidler, synsvinkel og tegnsetting. Muntlige mål og språkhistorie er ikke med. <a href={url('mal/')}>Se oversikt over kompetansemål</a>.</p>
+    <p><strong>Personvern.</strong> Fremgangen lagres bare i nettleseren din. Siden har ingen innlogging og samler ikke inn data om deg.</p>
+  </div>
+</Layout>
+
+<script>
+  import { les, antallMestret } from '../lib/fremgang';
+  const fremgang = les();
+  document.querySelectorAll<HTMLElement>('.tema').forEach((kort) => {
+    const ider: string[] = JSON.parse(kort.dataset.ider ?? '[]');
+    const mestret = antallMestret(fremgang, ider);
+    const prosent = ider.length ? Math.round((mestret / ider.length) * 100) : 0;
+    const linje = kort.querySelector<HTMLElement>('.fremdrift-linje > span');
+    if (linje) linje.style.width = `${prosent}%`;
+    const tekst = kort.querySelector<HTMLElement>('[data-fremdrift]');
+    const proevd = ider.filter((id) => fremgang[id]).length;
+    if (tekst) tekst.textContent = proevd > 0 ? `${mestret} av ${ider.length} mestret, ${proevd} prøvd` : 'Ikke startet';
+  });
+</script>

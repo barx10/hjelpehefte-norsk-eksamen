@@ -1,0 +1,101 @@
+- id: nov-sjanger
+  type: flashkort
+  kapittel: novelleanalyse
+  mal: [m10-01, m10-12]
+  status: godkjent
+  forside: "Hva kjennetegner en novelle?"
+  bakside: "Den er kort. Den konsentrerer seg om én situasjon og én konflikt, og slutten er gjerne åpen."
+- id: nov-tittel
+  type: flashkort
+  kapittel: novelleanalyse
+  mal: [m10-12]
+  status: godkjent
+  forside: "Hvordan bør tittelen i en novelleanalyse være?"
+  bakside: "Kreativ, gjerne hentet fra novellen eller oppgaveteksten. 3 til 15 ord."
+- id: nov-innledning
+  type: flashkort
+  kapittel: novelleanalyse
+  mal: [m10-12]
+  status: godkjent
+  forside: "Hva inneholder innledningen i en novelleanalyse?"
+  bakside: "Navn på novellen og årstall. Én setning om forfatteren. Hva du skal gjøre: «I denne teksten skal jeg analysere ...»"
+- id: nov-avsnitt1
+  type: flashkort
+  kapittel: novelleanalyse
+  mal: [m10-12]
+  status: godkjent
+  forside: "Hva skal avsnitt 1 (tema og handlingsreferat) inneholde?"
+  bakside: "Hva er temaet? Hva skjer? Ca. 4 linjer, med egne ord. Forklar HVA som skjer, ikke HVORFOR."
+- id: nov-avsnitt2
+  type: flashkort
+  kapittel: novelleanalyse
+  mal: [m10-01, m10-12]
+  status: godkjent
+  forside: "Hva tar du opp i avsnittet om oppbygging i en novelleanalyse?"
+  bakside: "Frampek, konflikt, kronologi, vendepunkt, spenningskurve og om slutten er åpen eller lukket."
+- id: nov-avsnitt3
+  type: flashkort
+  kapittel: novelleanalyse
+  mal: [m10-01, m10-12]
+  status: godkjent
+  forside: "Hva tar du opp i avsnittet om synsvinkel og personskildring?"
+  bakside: "Synsvinkel, direkte eller indirekte personskildring, og om karakteren er statisk eller dynamisk."
+- id: nov-avsnitt4
+  type: flashkort
+  kapittel: novelleanalyse
+  mal: [m10-06, m10-12]
+  status: godkjent
+  forside: "Hvordan skriver du avsnittene om språklige virkemidler i en novelleanalyse?"
+  bakside: "Ett virkemiddel per avsnitt. Forklar hva det gjør i teksten, ikke bare hva det er."
+- id: nov-avslutning
+  type: flashkort
+  kapittel: novelleanalyse
+  mal: [m10-12]
+  status: godkjent
+  forside: "Hva gjør du i avslutningen av en novelleanalyse?"
+  bakside: "Du kobler tema og virkemidler. Hva vil forfatteren si?"
+- id: nov-fv-referat
+  type: flervalg
+  kapittel: novelleanalyse
+  mal: [m10-12]
+  status: utkast
+  spm: "Hva skal handlingsreferatet i en novelleanalyse forklare?"
+  alternativer: ["Hva som skjer, ikke hvorfor", "Hvorfor personene gjør det de gjør", "Hvilke virkemidler forfatteren bruker", "Hva du selv synes om slutten"]
+  riktig: 0
+  forklaring: "Referatet er kort, i egne ord, og svarer på HVA som skjer. Hvorfor-spørsmålet hører til analysen senere."
+- id: nov-fv-frampek
+  type: flervalg
+  kapittel: novelleanalyse
+  mal: [m10-01, m10-12]
+  status: utkast
+  spm: "Hvilket avsnitt i novelleanalysen er et naturlig sted å ta opp frampek?"
+  alternativer: ["Oppbygging", "Innledning", "Synsvinkel og personskildring", "Tittel"]
+  riktig: 0
+  forklaring: "Frampek, konflikt, vendepunkt og spenningskurve hører til avsnittet om oppbygging."
+- id: nov-fv-synsvinkel
+  type: flervalg
+  kapittel: novelleanalyse
+  mal: [m10-01, m10-12]
+  status: utkast
+  spm: "Hvor i novelleanalysen tar du opp om karakteren er statisk eller dynamisk?"
+  alternativer: ["Avsnittet om synsvinkel og personskildring", "Innledningen", "Avsnittet om tema og handlingsreferat", "Avslutningen"]
+  riktig: 0
+  forklaring: "Statisk eller dynamisk karakter er en del av personskildringen."
+- id: nov-fv-virkemiddel
+  type: flervalg
+  kapittel: novelleanalyse
+  mal: [m10-06, m10-12]
+  status: utkast
+  spm: "Hvilken formulering er den beste analysen av et virkemiddel?"
+  alternativer: ["Novellen bruker frampek tidlig. Det skaper uro hos leseren fordi vi aner at noe vil gå galt.", "Novellen bruker frampek.", "Frampek er et virkemiddel som brukes i mange noveller.", "Jeg synes frampeket i novellen er bra."]
+  riktig: 0
+  forklaring: "En god analyse navngir virkemidlet, viser hvor det er brukt og forklarer hva det gjør. Det er ikke nok å bare nevne det."
+- id: nov-fv-avslutning
+  type: flervalg
+  kapittel: novelleanalyse
+  mal: [m10-12]
+  status: utkast
+  spm: "Hva er hovedoppgaven til avslutningen i en novelleanalyse?"
+  alternativer: ["Koble tema og virkemidler og si hva forfatteren vil", "Gjenfortelle hele handlingen", "Introdusere et nytt virkemiddel", "Skrive en ny innledning"]
+  riktig: 0
+  forklaring: "Avslutningen binder sammen analysen: hvordan virkemidlene bidrar til å formidle temaet."

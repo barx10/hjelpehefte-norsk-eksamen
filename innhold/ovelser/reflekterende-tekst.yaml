@@ -1,0 +1,71 @@
+- id: ref-sjanger
+  type: flashkort
+  kapittel: reflekterende-tekst
+  mal: [m10-10]
+  status: godkjent
+  forside: "Hva kjennetegner en reflekterende tekst?"
+  bakside: "Den er personlig. Du tenker høyt om et tema, bruker egne erfaringer og ser saken fra ulike sider."
+- id: ref-innledning
+  type: flashkort
+  kapittel: reflekterende-tekst
+  mal: [m10-10, m10-12]
+  status: godkjent
+  forside: "Hvordan skriver du innledningen i en reflekterende tekst?"
+  bakside: "Presenter temaet og kom raskt til poenget. Still et spørsmål, eller si hva du vil utforske: «I denne teksten vil jeg ...»"
+- id: ref-hoveddel
+  type: flashkort
+  kapittel: reflekterende-tekst
+  mal: [m10-10, m10-12]
+  status: godkjent
+  forside: "Hvordan bygger du hoveddelen i en reflekterende tekst?"
+  bakside: "Minst tre avsnitt med ulike vinkler. Start hvert avsnitt med en temasetning. Bruk egne erfaringer som eksempler. Vis at du ser saken fra mer enn én side."
+- id: ref-avslutning
+  type: flashkort
+  kapittel: reflekterende-tekst
+  mal: [m10-10, m10-12]
+  status: godkjent
+  forside: "Hva gjør du i avslutningen av en reflekterende tekst?"
+  bakside: "Du oppsummerer ikke. Du tar stilling: hva mener DU, etter å ha tenkt gjennom dette?"
+- id: ref-tittel
+  type: flashkort
+  kapittel: reflekterende-tekst
+  mal: [m10-12]
+  status: godkjent
+  forside: "Hvordan kan tittelen i en reflekterende tekst være?"
+  bakside: "Still gjerne et spørsmål eller formuler en påstand. 5 til 15 ord."
+- id: ref-fv-avslutning
+  type: flervalg
+  kapittel: reflekterende-tekst
+  mal: [m10-10, m10-12]
+  status: utkast
+  spm: "Hva bør avslutningen i en reflekterende tekst gjøre?"
+  alternativer: ["Ta stilling til det du har tenkt gjennom", "Oppsummere alle avsnittene på nytt", "Introdusere et helt nytt tema", "Be leseren finne svaret selv"]
+  riktig: 0
+  forklaring: "En reflekterende tekst ender med at du sier hva du mener. Å gjenta det du allerede har skrevet, gir lite."
+- id: ref-fv-avsnitt
+  type: flervalg
+  kapittel: reflekterende-tekst
+  mal: [m10-10, m10-12]
+  status: utkast
+  spm: "Hvor mange avsnitt med ulike vinkler bør hoveddelen minst ha?"
+  alternativer: ["Tre", "Ett", "To", "Ti"]
+  riktig: 0
+  forklaring: "Hoveddelen bør ha minst tre avsnitt med ulike vinkler på temaet."
+- id: ref-fv-temasetning
+  type: flervalg
+  kapittel: reflekterende-tekst
+  mal: [m10-12]
+  status: utkast
+  spm: "Hva er en temasetning?"
+  alternativer: ["Første setning i et avsnitt som sier hva avsnittet handler om", "Siste setning i teksten", "En setning som bare inneholder et sitat", "Tittelen på teksten"]
+  riktig: 0
+  forklaring: "Temasetningen åpner avsnittet og gir leseren retningen. Resten av avsnittet utdyper den."
+- id: ref-fv-innledning
+  type: flervalg
+  kapittel: reflekterende-tekst
+  mal: [m10-10, m10-12]
+  status: utkast
+  spm: "Hvilken innledning følger rådene om å presentere temaet og komme raskt til poenget?"
+  alternativer: ["Hva skjer egentlig med oss når vi aldri er alene med tankene våre? Jeg lurer på om vi glemmer å kjede oss.", "Mange mennesker har mobil. Mobil kom for lenge siden. Det finnes mange typer mobiler.", "Takk for at du leser teksten min. Nå skal du få lese den.", "I denne teksten skal jeg skrive en tekst."]
+  riktig: 0
+  forklaring: "Den første åpner med et spørsmål og sier raskt hva teksten skal utforske. De andre kommer ikke til poenget."

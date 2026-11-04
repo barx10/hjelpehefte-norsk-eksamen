@@ -1,0 +1,94 @@
+- id: dikt-sjanger
+  type: flashkort
+  kapittel: diktanalyse
+  mal: [m10-01]
+  status: godkjent
+  forside: "Hvorfor er virkemidler viktige i et dikt?"
+  bakside: "Et dikt sier mye på lite plass. Virkemidlene er ikke pynt. De er meningen."
+- id: dikt-innledning
+  type: flashkort
+  kapittel: diktanalyse
+  mal: [m10-12]
+  status: godkjent
+  forside: "Hva inneholder innledningen i en diktanalyse?"
+  bakside: "Navn på diktet og forfatter. Utgivelsesår hvis du vet det. Én setning om forfatteren. Hva du skal gjøre."
+- id: dikt-motiv
+  type: flashkort
+  kapittel: diktanalyse
+  mal: [m10-01, m10-12]
+  status: godkjent
+  forside: "Motiv i et dikt"
+  bakside: "Hva ser vi i diktet? Det konkrete."
+- id: dikt-tema
+  type: flashkort
+  kapittel: diktanalyse
+  mal: [m10-01, m10-12]
+  status: godkjent
+  forside: "Tema i et dikt"
+  bakside: "Hva handler diktet egentlig om? Det abstrakte."
+- id: dikt-form
+  type: flashkort
+  kapittel: diktanalyse
+  mal: [m10-01, m10-12]
+  status: godkjent
+  forside: "Hva spør du om i avsnittet om form og oppbygging?"
+  bakside: "Fast form eller frie vers? Rim? Rytme? Strofer? Hvordan påvirker formen stemningen?"
+- id: dikt-virkemidler
+  type: flashkort
+  kapittel: diktanalyse
+  mal: [m10-06, m10-12]
+  status: godkjent
+  forside: "Hva spør du om i avsnittene om språklige virkemidler i en diktanalyse?"
+  bakside: "Ett virkemiddel per avsnitt. Hva er virkemidlet? Hva gjør det? Hvorfor fungerer det?"
+- id: dikt-stemning
+  type: flashkort
+  kapittel: diktanalyse
+  mal: [m10-01]
+  status: godkjent
+  forside: "Hva tar du opp i avsnittet om stemning og tone?"
+  bakside: "Er diktet trist, håpefullt, sint eller drømmende? Hvilke ord skaper dette?"
+- id: dikt-fv-motiv
+  type: flervalg
+  kapittel: diktanalyse
+  mal: [m10-01]
+  status: utkast
+  spm: "I et dikt sitter en gammel mann alene ved vinduet mens regnet faller. Hva er dette?"
+  alternativer: ["Motivet", "Temaet", "Rimmønsteret", "Stemningen alene"]
+  riktig: 0
+  forklaring: "Motivet er det konkrete vi ser i diktet. Temaet er det abstrakte, for eksempel ensomhet."
+- id: dikt-fv-tema
+  type: flervalg
+  kapittel: diktanalyse
+  mal: [m10-01]
+  status: utkast
+  spm: "Hvilket av disse er et tema, ikke et motiv?"
+  alternativer: ["Ensomhet", "En benk i en park", "Et tre i regn", "En gammel mann ved et vindu"]
+  riktig: 0
+  forklaring: "Ensomhet er abstrakt og beskriver hva diktet egentlig handler om. De andre er konkrete bilder, altså motiv."
+- id: dikt-fv-form
+  type: flervalg
+  kapittel: diktanalyse
+  mal: [m10-01, m10-12]
+  status: utkast
+  spm: "Hvilke spørsmål hører hjemme i avsnittet om form og oppbygging?"
+  alternativer: ["Fast form eller frie vers, rim, rytme og strofer", "Hva forfatteren gjorde som barn", "Hva diktet koster", "Om du liker diktet"]
+  riktig: 0
+  forklaring: "Form og oppbygging handler om diktets ytre bygning og hvordan den påvirker stemningen."
+- id: dikt-fv-metafor
+  type: flervalg
+  kapittel: diktanalyse
+  mal: [m10-06]
+  status: utkast
+  spm: "Forfatteren skriver «natten er en vegg mellom oss». Hvilket virkemiddel er dette?"
+  alternativer: ["Metafor", "Sammenligning", "Retorisk spørsmål", "Gjentakelse"]
+  riktig: 0
+  forklaring: "Natten kalles direkte en vegg, uten «som». Det er en metafor."
+- id: dikt-fv-stemning
+  type: flervalg
+  kapittel: diktanalyse
+  mal: [m10-01]
+  status: utkast
+  spm: "Hva handler avsnittet om stemning og tone om?"
+  alternativer: ["Om diktet er trist, håpefullt, sint eller drømmende, og hvilke ord som skaper det", "Hvor mange strofer diktet har", "Når diktet ble utgitt", "Hvem som har illustrert diktet"]
+  riktig: 0
+  forklaring: "Stemning og tone handler om følelsesuttrykket og ordvalgene som skaper det."

@@ -1,0 +1,254 @@
+---
+import { tilJson } from '../lib/innhold';
+
+interface Props {
+  ovelser: unknown[];
+  tittel: string;
+}
+const { ovelser, tittel } = Astro.props;
+---
+<section class="runner" id="runner" aria-label={`Øvelser: ${tittel}`}>
+  <p>Laster øvelser ...</p>
+  <noscript><p>Øvelsene krever JavaScript. Du kan lese heftet uten.</p></noscript>
+</section>
+<script type="application/json" id="ovelser-data" set:html={tilJson(ovelser)} />
+
+<script>
+  import { les, lagre, oppdater, velgOkt, stokk, antallMestret } from '../lib/fremgang';
+  import type { Fremgang } from '../lib/fremgang';
+
+  type Felles = { id: string; kapittel: string; utkast: boolean };
+  type Flashkort = Felles & { type: 'flashkort'; forside: string; bakside: string };
+  type Flervalg = Felles & { type: 'flervalg'; spm: string; alternativer: string[]; riktig: number; forklaring: string };
+  type Ovelse = Flashkort | Flervalg;
+  type Svar = { ovelse: Ovelse; riktig: boolean };
+
+  const OKT_STORRELSE = 10;
+  const rot = document.getElementById('runner') as HTMLElement;
+  const data: Ovelse[] = JSON.parse(document.getElementById('ovelser-data')!.textContent ?? '[]');
+  const visKapittel = new Set(data.map((o) => o.kapittel)).size > 1;
+
+  let fremgang: Fremgang = les();
+  let filter: 'alle' | 'flashkort' | 'flervalg' = 'alle';
+  let okt: Ovelse[] = [];
+  let svar: Svar[] = [];
+  let tastHandler: ((e: KeyboardEvent) => void) | null = null;
+  let lagringFeilet = false;
+
+  function el<K extends keyof HTMLElementTagNameMap>(
+    tag: K,
+    egenskaper: Record<string, string> = {},
+    ...barn: (Node | string)[]
+  ): HTMLElementTagNameMap[K] {
+    const e = document.createElement(tag);
+    for (const [k, v] of Object.entries(egenskaper)) {
+      if (k === 'class') e.className = v;
+      else e.setAttribute(k, v);
+    }
+    e.append(...barn);
+    return e;
+  }
+
+  function vis(...barn: Node[]) {
+    tastHandler = null;
+    rot.replaceChildren(...barn);
+    const overskrift = rot.querySelector<HTMLElement>('h2');
+    overskrift?.focus();
+  }
+
+  function filtrert(): Ovelse[] {
+    return filter === 'alle' ? data : data.filter((o) => o.type === filter);
+  }
+
+  function lagreFremgang() {
+    if (!lagre(fremgang)) lagringFeilet = true;
+  }
+
+  function merker(o: Ovelse): HTMLElement {
+    const boks = el('div', { class: 'runner-topp' });
+    const venstre = el('span');
+    if (visKapittel) venstre.append(el('span', { class: 'merke' }, o.kapittel));
+    if (o.utkast) venstre.append(' ', el('span', { class: 'merke utkast' }, 'Utkast, ikke godkjent'));
+    boks.append(venstre);
+    return boks;
+  }
+
+  function visStart() {
+    const alle = data.map((o) => o.id);
+    const typer = [...new Set(data.map((o) => o.type))];
+    const mestret = antallMestret(fremgang, alle);
+
+    const barn: Node[] = [
+      el('h2', { tabindex: '-1' }, 'Klar til å øve?'),
+      el('p', {}, `${data.length} øvelser i dette temaet. Du har mestret ${mestret}. Hver økt tar for seg ${Math.min(OKT_STORRELSE, data.length)} øvelser, og de du kan minst kommer først.`),
+    ];
+
+    if (typer.length > 1) {
+      const sett = el('fieldset', { class: 'valgrekke' }, el('legend', {}, 'Velg øvelsestype'));
+      const valg: [typeof filter, string][] = [['alle', 'Alle'], ['flashkort', 'Flashkort'], ['flervalg', 'Flervalg']];
+      for (const [verdi, tekst] of valg) {
+        const input = el('input', { type: 'radio', name: 'filter', value: verdi });
+        input.checked = filter === verdi;
+        input.addEventListener('change', () => { filter = verdi; });
+        sett.append(el('label', {}, input, tekst));
+      }
+      barn.push(sett);
+    }
+
+    const start = el('button', { class: 'knapp', type: 'button' }, 'Start økt');
+    start.addEventListener('click', startOkt);
+    barn.push(el('div', { class: 'knapp-rad' }, start));
+    if (!lagre(fremgang)) {
+      barn.push(el('p', { class: 'tastehint' }, 'Nettleseren din lar ikke siden lagre fremgang. Du kan fortsatt øve.'));
+    }
+    vis(...barn);
+  }
+
+  function startOkt() {
+    const kilde = filtrert();
+    const ider = velgOkt(kilde.map((o) => o.id), fremgang, OKT_STORRELSE);
+    const perId = new Map(kilde.map((o) => [o.id, o]));
+    okt = ider.map((id) => perId.get(id)!).filter(Boolean);
+    svar = [];
+    visOvelse(0);
+  }
+
+  function registrer(o: Ovelse, riktig: boolean) {
+    fremgang = oppdater(fremgang, o.id, riktig);
+    lagreFremgang();
+    svar.push({ ovelse: o, riktig });
+  }
+
+  function framdrift(indeks: number): Node[] {
+    const p = el('progress', { max: String(okt.length), value: String(indeks), 'aria-label': 'Framdrift i økten' });
+    return [el('p', { class: 'runner-topp' }, `Øvelse ${indeks + 1} av ${okt.length}`), p];
+  }
+
+  function visOvelse(indeks: number) {
+    const o = okt[indeks];
+    if (!o) return visResultat();
+    if (o.type === 'flashkort') visFlashkort(o, indeks);
+    else visFlervalg(o, indeks);
+  }
+
+  function neste(indeks: number) {
+    visOvelse(indeks + 1);
+  }
+
+  function visFlashkort(o: Flashkort, indeks: number) {
+    const sporsmal = el('h2', { class: 'spm', tabindex: '-1' }, o.forside);
+    const visSvar = el('button', { class: 'knapp', type: 'button' }, 'Vis svar');
+    const handlinger = el('div', { class: 'knapp-rad' }, visSvar);
+    const flate = el('div', { 'aria-live': 'polite' });
+
+    visSvar.addEventListener('click', () => {
+      flate.append(el('div', { class: 'kort-svar' }, el('span', { class: 'etikett' }, 'Svar'), o.bakside));
+      const kunne = el('button', { class: 'knapp', type: 'button' }, 'Jeg kunne den');
+      const kunneIkke = el('button', { class: 'knapp sekundar', type: 'button' }, 'Jeg kunne den ikke');
+      kunne.addEventListener('click', () => { registrer(o, true); neste(indeks); });
+      kunneIkke.addEventListener('click', () => { registrer(o, false); neste(indeks); });
+      handlinger.replaceChildren(kunne, kunneIkke);
+      kunne.focus();
+    });
+
+    vis(...framdrift(indeks), merker(o), sporsmal, flate, handlinger);
+    // Etter vis() er fokus på overskriften. Det gir skjermlesere spørsmålet først.
+  }
+
+  function visFlervalg(o: Flervalg, indeks: number) {
+    const alt = stokk(o.alternativer.map((tekst, i) => ({ tekst, riktig: i === o.riktig })));
+    const overskrift = el('h2', { class: 'spm', tabindex: '-1' }, o.spm);
+    const sett = el('fieldset', { class: 'valg' });
+    sett.setAttribute('aria-label', 'Svaralternativer');
+    const tilbakemelding = el('div', { 'aria-live': 'polite' });
+    const knapper: HTMLButtonElement[] = [];
+    let besvart = false;
+
+    const velg = (i: number) => {
+      if (besvart) return;
+      besvart = true;
+      const valgt = alt[i]!;
+      registrer(o, valgt.riktig);
+      knapper.forEach((k, j) => {
+        k.disabled = true;
+        const a = alt[j]!;
+        if (a.riktig) {
+          k.classList.add('riktig');
+          k.append(el('span', { class: 'status' }, 'Riktig'));
+        } else if (j === i) {
+          k.classList.add('feil');
+          k.append(el('span', { class: 'status' }, 'Feil'));
+        }
+      });
+      tilbakemelding.append(
+        el('div', { class: `tilbakemelding ${valgt.riktig ? 'riktig' : 'feil'}` },
+          el('strong', {}, valgt.riktig ? 'Riktig.' : 'Ikke helt.'),
+          o.forklaring),
+      );
+      const nesteKnapp = el('button', { class: 'knapp', type: 'button' }, indeks + 1 < okt.length ? 'Neste' : 'Se resultat');
+      nesteKnapp.addEventListener('click', () => neste(indeks));
+      tilbakemelding.append(el('div', { class: 'knapp-rad' }, nesteKnapp));
+      nesteKnapp.focus();
+    };
+
+    alt.forEach((a, i) => {
+      const k = el('button', { class: 'alt', type: 'button' }, el('span', { class: 'tast', 'aria-hidden': 'true' }, String(i + 1)), el('span', {}, a.tekst));
+      k.addEventListener('click', () => velg(i));
+      knapper.push(k);
+      sett.append(k);
+    });
+
+    vis(...framdrift(indeks), merker(o), overskrift, sett, tilbakemelding, el('p', { class: 'tastehint' }, 'Tips: trykk 1 til ' + alt.length + ' på tastaturet for å svare.'));
+    tastHandler = (e) => {
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      const n = Number(e.key);
+      if (Number.isInteger(n) && n >= 1 && n <= alt.length) {
+        e.preventDefault();
+        velg(n - 1);
+      }
+    };
+  }
+
+  document.addEventListener('keydown', (e) => tastHandler?.(e));
+
+  function visResultat() {
+    const riktige = svar.filter((s) => s.riktig).length;
+    const feil = svar.filter((s) => !s.riktig);
+    const ider = data.map((o) => o.id);
+
+    const barn: Node[] = [
+      el('h2', { tabindex: '-1' }, 'Økten er ferdig'),
+      el('p', { class: 'resultat-tall' }, `${riktige} av ${svar.length} riktige`),
+      el('p', {}, `Du har nå mestret ${antallMestret(fremgang, ider)} av ${data.length} øvelser i dette temaet.`),
+    ];
+
+    if (feil.length > 0) {
+      barn.push(el('h3', {}, 'Repeter disse'));
+      const liste = el('ul', { class: 'feilliste' });
+      for (const { ovelse } of feil) {
+        const [spm, fasit] = ovelse.type === 'flashkort'
+          ? [ovelse.forside, ovelse.bakside]
+          : [ovelse.spm, `${ovelse.alternativer[ovelse.riktig]}. ${ovelse.forklaring}`];
+        liste.append(el('li', {}, el('strong', {}, spm), el('span', { class: 'svar' }, fasit)));
+      }
+      barn.push(liste);
+    } else {
+      barn.push(el('p', {}, 'Ingen feil i denne økten.'));
+    }
+
+    const igjen = el('button', { class: 'knapp', type: 'button' }, 'Ny økt');
+    igjen.addEventListener('click', startOkt);
+    const tilbake = el('button', { class: 'knapp sekundar', type: 'button' }, 'Til start');
+    tilbake.addEventListener('click', visStart);
+    barn.push(el('div', { class: 'knapp-rad' }, igjen, tilbake));
+    if (lagringFeilet) barn.push(el('p', { class: 'tastehint' }, 'Fremgangen ble ikke lagret i denne nettleseren.'));
+    vis(...barn);
+  }
+
+  if (data.length === 0) {
+    rot.replaceChildren(el('p', {}, 'Det er ingen øvelser her ennå.'));
+  } else {
+    visStart();
+    rot.removeAttribute('aria-busy');
+  }
+</script>

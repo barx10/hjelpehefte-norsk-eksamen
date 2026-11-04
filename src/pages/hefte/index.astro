@@ -1,0 +1,24 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { hentKapitler } from '../../lib/innhold';
+import { url } from '../../lib/url';
+
+const kapitler = await hentKapitler();
+---
+<Layout tittel="Hefte" beskrivelse="Hjelpeheftet til norsk eksamen, kapittel for kapittel.">
+  <h1>Hjelpehefte for norsk eksamen</h1>
+  <p>Heftet er skrevet for deg som skal ha skriftlig eksamen i norsk. Hvert kapittel har tilhørende øvelser.</p>
+  <div class="knapp-rad">
+    <a class="knapp sekundar" href={url('hefte/alle/')}>Alle kapitler på én side (for utskrift)</a>
+  </div>
+  <ul class="liste-kapitler">
+    {kapitler.map((k) => (
+      <li>
+        <a href={url(`hefte/${k.id}/`)}>
+          <span class="nr">{k.data.nummer}</span>
+          <span>{k.data.tittel}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Layout>

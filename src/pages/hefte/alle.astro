@@ -1,0 +1,27 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { render } from 'astro:content';
+import { hentKapitler } from '../../lib/innhold';
+import { url } from '../../lib/url';
+
+const kapitler = await hentKapitler();
+const innhold = await Promise.all(kapitler.map(async (k) => ({ k, Content: (await render(k)).Content })));
+---
+<Layout tittel="Hele heftet" beskrivelse="Hele hjelpeheftet på én side, laget for utskrift eller lagring som PDF.">
+  <nav aria-label="Brødsmulesti" class="ikke-utskrift"><a href={url('hefte/')}>Hefte</a></nav>
+  <h1>Hjelpehefte for norsk eksamen</h1>
+  <div class="knapp-rad ikke-utskrift">
+    <button class="knapp" type="button" id="skriv-ut">Skriv ut eller lagre som PDF</button>
+  </div>
+  {innhold.map(({ k, Content }) => (
+    <section class="kapittel-blokk innhold" aria-labelledby={`k-${k.id}`}>
+      <h2 id={`k-${k.id}`}>{k.data.nummer && `${k.data.nummer} `}{k.data.tittel}</h2>
+      <Content />
+    </section>
+  ))}
+  <p class="tastehint">© Lærerliv 2026</p>
+</Layout>
+
+<script>
+  document.getElementById('skriv-ut')?.addEventListener('click', () => window.print());
+</script>

@@ -1,0 +1,128 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { hentKapitler, hentOvelser } from '../lib/innhold';
+import { tilJson } from '../lib/innhold';
+
+const kapitler = await hentKapitler();
+const ovelser = await hentOvelser();
+const temaer = kapitler
+  .map((k) => ({ tittel: k.data.tittel, nummer: k.data.nummer, ider: ovelser.filter((o) => o.data.kapittel.id === k.id).map((o) => o.id) }))
+  .filter((t) => t.ider.length > 0);
+---
+<Layout tittel="Min fremgang" beskrivelse="Se, flytt og nullstill fremgangen din.">
+  <h1>Min fremgang</h1>
+  <p>Fremgangen lagres bare i nettleseren på denne enheten. Vil du bytte mellom mobil og PC, kan du eksportere og importere den her.</p>
+
+  <div class="stat" id="stat" aria-live="polite"></div>
+  <h2>Per tema</h2>
+  <ul class="mal-liste" id="per-tema"></ul>
+
+  <h2>Flytt fremgangen</h2>
+  <label for="eksport"><strong>Eksporter.</strong> Kopier koden og lim den inn på den andre enheten.</label>
+  <textarea id="eksport" readonly rows="4"></textarea>
+  <div class="knapp-rad">
+    <button class="knapp" type="button" id="kopier">Kopier kode</button>
+    <button class="knapp sekundar" type="button" id="last-ned">Last ned som fil</button>
+  </div>
+
+  <label for="import"><strong>Importer.</strong> Lim inn koden her. Den erstatter fremgangen på denne enheten.</label>
+  <textarea id="import" rows="4"></textarea>
+  <div class="knapp-rad">
+    <button class="knapp" type="button" id="importer">Importer</button>
+    <label class="knapp sekundar" for="fil">Velg fil</label>
+    <input type="file" id="fil" accept="application/json,.json" hidden />
+  </div>
+  <p class="melding" id="melding" role="status"></p>
+
+  <h2>Nullstill</h2>
+  <p>Sletter all fremgang på denne enheten.</p>
+  <div class="knapp-rad"><button class="knapp sekundar" type="button" id="nullstill">Nullstill fremgang</button></div>
+
+  <script type="application/json" id="temaer" set:html={tilJson(temaer)} />
+</Layout>
+
+<script>
+  import { les, lagre, eksporter, importer, nullstill, antallMestret, tom } from '../lib/fremgang';
+
+  type Tema = { tittel: string; nummer: string; ider: string[] };
+  const temaer: Tema[] = JSON.parse(document.getElementById('temaer')!.textContent ?? '[]');
+  const alleIder = temaer.flatMap((t) => t.ider);
+
+  const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+  const melding = (tekst: string) => { $('melding').textContent = tekst; };
+
+  function tegn() {
+    const f = les();
+    const poster = alleIder.map((id) => f[id]).filter((p) => p !== undefined);
+    const svar = poster.reduce((s, p) => s + p.riktig + p.feil, 0);
+    const riktig = poster.reduce((s, p) => s + p.riktig, 0);
+    const stat = $('stat');
+    stat.replaceChildren(
+      ...[
+        [`${antallMestret(f, alleIder)} av ${alleIder.length}`, 'øvelser mestret'],
+        [String(poster.length), 'øvelser prøvd'],
+        [svar > 0 ? `${Math.round((riktig / svar) * 100)} %` : '–', 'riktige svar'],
+      ].map(([tall, tekst]) => {
+        const d = document.createElement('div');
+        const s = document.createElement('strong');
+        s.textContent = tall!;
+        d.append(s, tekst!);
+        return d;
+      }),
+    );
+
+    $('per-tema').replaceChildren(
+      ...temaer.map((t) => {
+        const li = document.createElement('li');
+        li.className = 'mal';
+        const m = antallMestret(f, t.ider);
+        li.textContent = `${t.nummer ? t.nummer + ' ' : ''}${t.tittel}: ${m} av ${t.ider.length} mestret`;
+        return li;
+      }),
+    );
+    $<HTMLTextAreaElement>('eksport').value = eksporter(f);
+  }
+
+  $('kopier').addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText($<HTMLTextAreaElement>('eksport').value);
+      melding('Koden er kopiert.');
+    } catch {
+      $<HTMLTextAreaElement>('eksport').select();
+      melding('Kunne ikke kopiere automatisk. Koden er markert, så du kan kopiere den selv.');
+    }
+  });
+
+  $('last-ned').addEventListener('click', () => {
+    const blob = new Blob([eksporter(les())], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'fremgang-hjelpehefte-norsk.json';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+
+  function bruk(tekst: string) {
+    const f = importer(tekst);
+    if (!f) return melding('Koden er ikke gyldig. Sjekk at du har kopiert hele koden.');
+    if (Object.keys(les()).length > 0 && !confirm('Dette erstatter fremgangen på denne enheten. Vil du fortsette?')) return;
+    if (!lagre(f)) return melding('Nettleseren din lar ikke siden lagre fremgang.');
+    tegn();
+    melding(`Fremgangen er importert (${Object.keys(f).length} øvelser).`);
+  }
+
+  $('importer').addEventListener('click', () => bruk($<HTMLTextAreaElement>('import').value));
+  $<HTMLInputElement>('fil').addEventListener('change', async (e) => {
+    const fil = (e.target as HTMLInputElement).files?.[0];
+    if (fil) bruk(await fil.text());
+  });
+  $('nullstill').addEventListener('click', () => {
+    if (!confirm('Vil du slette all fremgang på denne enheten?')) return;
+    nullstill();
+    lagre(tom());
+    tegn();
+    melding('Fremgangen er nullstilt.');
+  });
+
+  tegn();
+</script>

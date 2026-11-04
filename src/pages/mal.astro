@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { hentMal, hentOvelser, hentKapitler } from '../lib/innhold';
+import { url } from '../lib/url';
+
+const mal = await hentMal();
+const ovelser = await hentOvelser();
+const kapitler = new Map((await hentKapitler()).map((k) => [k.id, k]));
+
+const omfangTekst = {
+  dekkes: 'Øves her',
+  delvis: 'Delvis',
+  senere: 'Planlagt',
+  utenfor: 'Utenfor denne siden',
+} as const;
+
+const rader = mal.map((m) => {
+  const mine = ovelser.filter((o) => o.data.mal.some((r) => r.id === m.id));
+  const kapitlerForMal = [...new Set(mine.map((o) => o.data.kapittel.id))]
+    .map((id) => kapitler.get(id))
+    .filter((k) => k !== undefined);
+  return { m, antall: mine.length, kapitler: kapitlerForMal };
+});
+const grupper = (['dekkes', 'delvis', 'senere', 'utenfor'] as const).map((o) => ({
+  omfang: o,
+  rader: rader.filter((r) => r.m.data.omfang === o),
+})).filter((g) => g.rader.length > 0);
+---
+<Layout tittel="Kompetansemål" beskrivelse="Hvilke kompetansemål etter 10. trinn i norsk siden øver, og hva som ikke er med." bredde="smal">
+  <h1>Kompetansemål etter 10. trinn</h1>
+  <p>Målene er hentet ordrett fra <a href="https://www.udir.no/lk20/nor01-08">læreplanen i norsk på udir.no</a>. Antall øvelser telles fra øvelsene som er synlige på siden.</p>
+  <div class="merknad">
+    <p>Siden er laget for skriftlig eksamen. Muntlige mål og språkhistorie er bevisst holdt utenfor, men kan bygges ut senere.</p>
+  </div>
+  {grupper.map((g) => (
+    <section aria-labelledby={`g-${g.omfang}`}>
+      <h2 id={`g-${g.omfang}`}>{omfangTekst[g.omfang]} ({g.rader.length})</h2>
+      <ul class="mal-liste">
+        {g.rader.map(({ m, antall, kapitler: ks }) => (
+          <li class="mal">
+            <span class={`omfang ${m.data.omfang}`}>{omfangTekst[m.data.omfang]}</span>
+            <p>Eleven skal kunne {m.data.tekst}</p>
+            {m.data.merknad && <p class="info">{m.data.merknad}</p>}
+            {antall > 0 && (
+              <p class="info">
+                {antall} øvelser. Temaer:{' '}
+                {ks.map((k, i) => (<>{i > 0 && ', '}<a href={url(`ovelser/${k!.id}/`)}>{k!.data.tittel}</a></>))}
+              </p>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Layout>

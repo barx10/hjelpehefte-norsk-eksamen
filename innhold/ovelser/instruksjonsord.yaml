@@ -1,0 +1,112 @@
+- id: instr-gjor-rede-for
+  type: flashkort
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: godkjent
+  forside: "Gjør rede for"
+  bakside: "Forklar. Hva er det? Hvordan fungerer det?"
+- id: instr-argumenter
+  type: flashkort
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: godkjent
+  forside: "Argumenter"
+  bakside: "Kom med grunner for eller mot noe. Vær saklig, men du kan bruke retoriske virkemidler."
+- id: instr-droft
+  type: flashkort
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: godkjent
+  forside: "Drøft / diskuter"
+  bakside: "Se saken fra begge sider. Kom med argumenter for og mot."
+- id: instr-analyser
+  type: flashkort
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: godkjent
+  forside: "Analyser"
+  bakside: "Gå inn i teksten: virkemidler, formål, målgruppe, effekt."
+- id: instr-reflekter
+  type: flashkort
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: godkjent
+  forside: "Reflekter"
+  bakside: "Tenk gjennom temaet fra flere vinkler. Bruk egne erfaringer."
+- id: instr-vurder
+  type: flashkort
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: godkjent
+  forside: "Vurder"
+  bakside: "Ta stilling. Si hva du mener og begrunn det."
+- id: instr-sammenlign
+  type: flashkort
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: godkjent
+  forside: "Sammenlign"
+  bakside: "Finn likheter og forskjeller mellom to tekster eller fenomener."
+- id: instr-fv-droft
+  type: flervalg
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  spm: "Oppgaven sier «Drøft». Hva gjør du?"
+  alternativer: ["Ser saken fra begge sider og kommer med argumenter for og mot", "Forteller hva du selv mener, uten å vise til andre synspunkter", "Gjengir handlingen i teksten", "Forklarer hva ordene i teksten betyr"]
+  riktig: 0
+  forklaring: "«Drøft» og «diskuter» betyr at du skal se saken fra begge sider."
+- id: instr-fv-analyser
+  type: flervalg
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  spm: "Hva ber instruksjonsordet «Analyser» deg om å gjøre?"
+  alternativer: ["Gå inn i teksten og se på virkemidler, formål, målgruppe og effekt", "Gjenfortelle teksten med egne ord", "Skrive en personlig opplevelse om temaet", "Si om du liker teksten eller ikke"]
+  riktig: 0
+  forklaring: "Å analysere er å undersøke hvordan teksten er laget og hva den gjør med leseren."
+- id: instr-fv-gjor-rede-for
+  type: flervalg
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  spm: "Hvilket instruksjonsord ber deg om å forklare hva noe er og hvordan det fungerer?"
+  alternativer: ["Gjør rede for", "Vurder", "Reflekter", "Argumenter"]
+  riktig: 0
+  forklaring: "«Gjør rede for» betyr å forklare. Hva er det? Hvordan fungerer det?"
+- id: instr-fv-vurder
+  type: flervalg
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  spm: "Du skal ta stilling, si hva du mener og begrunne det. Hvilket instruksjonsord passer?"
+  alternativer: ["Vurder", "Sammenlign", "Gjør rede for", "Analyser"]
+  riktig: 0
+  forklaring: "«Vurder» betyr å ta stilling og begrunne."
+- id: instr-fv-sammenlign
+  type: flervalg
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  spm: "Hva gjør du når oppgaven sier «Sammenlign»?"
+  alternativer: ["Finner likheter og forskjeller mellom to tekster eller fenomener", "Velger den teksten du liker best", "Forklarer én tekst grundig", "Gjengir begge tekstene i sin helhet"]
+  riktig: 0
+  forklaring: "«Sammenlign» krever at du ser to ting opp mot hverandre."
+- id: instr-fv-reflekter
+  type: flervalg
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  spm: "Hva kjennetegner et godt svar på «Reflekter»?"
+  alternativer: ["Temaet sees fra flere vinkler, og egne erfaringer brukes", "Det er kort og faktabasert uten egne tanker", "Det gjengir handlingen", "Det bare nevner virkemidler"]
+  riktig: 0
+  forklaring: "Å reflektere er å tenke gjennom et tema fra flere sider, og du kan bruke egne erfaringer."
+- id: instr-fv-argumenter
+  type: flervalg
+  kapittel: instruksjonsord
+  mal: [m10-12]
+  status: utkast
+  spm: "Hva skal du gjøre når oppgaven sier «Argumenter»?"
+  alternativer: ["Komme med saklige grunner for eller mot noe", "Se saken fra begge sider uten å velge", "Forklare hvordan noe fungerer", "Gjenfortelle teksten"]
+  riktig: 0
+  forklaring: "«Argumenter» betyr å gi grunner for eller mot. Du kan bruke retoriske virkemidler, men vær saklig."
