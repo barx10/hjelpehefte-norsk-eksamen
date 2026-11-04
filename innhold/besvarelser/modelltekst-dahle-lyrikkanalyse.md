@@ -7,7 +7,7 @@ oppgave: "Analyse av diktet «Hvem er det som ingen ser» av Gro Dahle (1994)"
 forfatter: "Åsa Abusland"
 lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
-kilde: "NDLA (lenke til siden mangler)"
+kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-lyrikkanalyse/8c1ab237c1"
 endringer: "Ingen. Teksten er limt inn uendret, uten sidens menytekst."
 ---
 
