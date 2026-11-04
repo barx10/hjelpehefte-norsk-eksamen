@@ -10,6 +10,7 @@ Hver fil er en besvarelse eller modelltekst. Metadata står øverst i filen.
 | `status` | `utkast` eller `godkjent` |
 | `oppgave` | Oppgaven teksten svarer på |
 | `forfatter`, `lisens`, `lisensUrl`, `kilde` | Opphav og lisens. Må fylles ut for tekster andre har skrevet. |
+| `diktUrl` | Lenke til diktet eller teksten som analyseres. Selve diktet legges ikke inn hvis det er opphavsrettsbeskyttet. |
 
 Tekster under Creative Commons må vises med navn på forfatter, lisens og lenke til kilden. Ved CC BY-SA må også bearbeidelser (for eksempel øvelser som bruker teksten) deles på samme lisens.
 
