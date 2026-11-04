@@ -5,7 +5,7 @@ Hver fil er en besvarelse eller modelltekst. Metadata står øverst i filen.
 | Felt | Betydning |
 |---|---|
 | `tittel` | Tittel på teksten |
-| `type` | `retorisk-analyse`, `novelleanalyse`, `diktanalyse`, `reflekterende-tekst` eller `droftende-tekst` |
+| `type` | `retorisk-analyse`, `novelleanalyse`, `diktanalyse`, `reklameanalyse`, `fagartikkel`, `reflekterende-tekst` eller `droftende-tekst` |
 | `nivaa` | `modelltekst`, eller karakter/nivå for en elevbesvarelse |
 | `status` | `utkast` eller `godkjent` |
 | `oppgave` | Oppgaven teksten svarer på |
