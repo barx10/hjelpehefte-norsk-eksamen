@@ -1,0 +1,22 @@
+- id: opp-rekkefolge-tid
+  type: rekkefolge
+  kapittel: oppbygging
+  mal: []
+  status: godkjent
+  oppdrag: "Sett eksamensdagen i riktig rekkefølge."
+  elementer: ["Les alle oppgavene og tekstvedleggene nøye", "Oppgave 1: svar på de tre delspørsmålene", "Oppgave 2: lengre skriveoppgave", "Oppgave 3: skriving med vedlegg", "Les gjennom, rett feil, sjekk at du svarer på det som ble spurt"]
+  forklaring: "Slik er tidsplanen i heftet: 0:00 les, 0:20 oppgave 1, 1:00 oppgave 2, 3:00 oppgave 3, 4:00 gjennomgang."
+- id: opp-match-lengde
+  type: matching
+  kapittel: oppbygging
+  mal: []
+  status: godkjent
+  oppdrag: "Koble oppgaven til omtrentlig lengde."
+  par:
+    - venstre: "Oppgave 1"
+      hoyre: "1–2 setninger eller 100–150 ord (følg anbefalingen i oppgaven)"
+    - venstre: "Oppgave 2"
+      hoyre: "450–900 ord"
+    - venstre: "Oppgave 3"
+      hoyre: "250–350 ord"
+  forklaring: "Oppgave 1 har tre delspørsmål. Oppgave 2 er fri skriving. Oppgave 3 er skriving med tekstvedlegg."

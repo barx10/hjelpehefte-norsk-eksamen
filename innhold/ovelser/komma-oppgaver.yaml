@@ -1,0 +1,304 @@
+- id: komma-sett-helsetninger-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Alle jobbet, og de fleste ble ferdige i tide."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «og». Da settes det komma foran."
+- id: komma-sett-helsetninger-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Eleven leste teksten, og læreren stilte spørsmål."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt (eleven, læreren) er bundet sammen med «og»."
+- id: komma-sett-helsetninger-eller
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Skal vi lese teksten først, eller skal vi begynne å skrive?"
+  regler: [1]
+  forklaring: "To helsetninger er bundet sammen med «eller»."
+- id: komma-sett-helsetninger-for
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Vi må øve nå, for eksamen nærmer seg."
+  regler: [1]
+  forklaring: "«For» betyr her «fordi» og binder sammen to helsetninger. Da settes det komma foran."
+- id: komma-sett-helsetninger-uten-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Mia leste novellen og skrev analysen samme kveld."
+  regler: [1]
+  forklaring: "Begge verbene har samme subjekt (Mia), og det står ikke noe nytt subjekt etter «og». Da settes det ikke komma."
+- id: komma-sett-helsetninger-uten-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Han åpnet døren og gikk inn."
+  regler: [1]
+  forklaring: "Samme subjekt til begge verbene, så det er ikke komma foran «og»."
+- id: komma-sett-men-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Hun var sliten, men fornøyd."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-sett-men-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Novellen er kort, men sterk."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-sett-men-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Vi ventet lenge, men bussen kom aldri."
+  regler: [1, 2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-sett-leddsetning-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Når vi er ferdige, kan vi ta pause."
+  regler: [3]
+  forklaring: "Leddsetningen «Når vi er ferdige» står først. Da settes det komma etter den."
+- id: komma-sett-leddsetning-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Hvis du leser teksten nøye, forstår du oppgaven bedre."
+  regler: [3]
+  forklaring: "Leddsetningen står først, så det er komma etter den."
+- id: komma-sett-leddsetning-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Fordi det regnet, ble vi hjemme."
+  regler: [3]
+  forklaring: "Leddsetningen «Fordi det regnet» står først, så det er komma etter den."
+- id: komma-sett-leddsetning-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Etter at eksamen var over, gikk vi på kafé."
+  regler: [3]
+  forklaring: "«Etter at eksamen var over» er en leddsetning som står først."
+- id: komma-sett-leddsetning-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Selv om han var trett, fortsatte han å skrive."
+  regler: [3]
+  forklaring: "Leddsetningen står først, så det er komma etter den."
+- id: komma-sett-leddsetning-6
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Da hun åpnet brevet, skjønte hun alt."
+  regler: [3]
+  forklaring: "Leddsetningen «Da hun åpnet brevet» står først."
+- id: komma-sett-leddsetning-7
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Siden temaet er viktig, bør du bruke tid på innledningen."
+  regler: [3]
+  forklaring: "Leddsetningen står først, så det er komma etter den."
+- id: komma-sett-leddsetning-sist-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Vi ble hjemme fordi det regnet."
+  regler: [3]
+  forklaring: "Leddsetningen står sist. Da settes det vanligvis ikke komma foran den."
+- id: komma-sett-leddsetning-sist-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Du forstår oppgaven bedre hvis du leser teksten nøye."
+  regler: [3]
+  forklaring: "Leddsetningen står sist, så det er ikke komma."
+- id: komma-sett-leddsetning-sist-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Hun skjønte alt da hun åpnet brevet."
+  regler: [3]
+  forklaring: "Leddsetningen står sist, så det er ikke komma."
+- id: komma-sett-leddsetning-sist-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Vi kan ta pause når vi er ferdige."
+  regler: [3]
+  forklaring: "Leddsetningen står sist, så det er ikke komma."
+- id: komma-sett-oppramsing-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Vi trenger kabel, klips, bryter og skruer."
+  regler: [4]
+  forklaring: "Det er komma mellom leddene i en oppramsing, men ikke foran «og» mellom de to siste."
+- id: komma-sett-oppramsing-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Teksten bruker metafor, sammenligning, gjentakelse og kontrast."
+  regler: [4]
+  forklaring: "Komma mellom leddene, ikke foran «og»."
+- id: komma-sett-oppramsing-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Hun kjøpte melk, egg, smør og brød."
+  regler: [4]
+  forklaring: "Komma mellom leddene, ikke foran «og»."
+- id: komma-sett-oppramsing-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Etos, logos og patos er de tre appellformene."
+  regler: [4]
+  forklaring: "Komma mellom leddene, ikke foran «og»."
+- id: komma-sett-oppramsing-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Jeg har lest novellen, diktet og kronikken."
+  regler: [4]
+  forklaring: "Komma mellom leddene, ikke foran «og»."
+- id: komma-sett-innskutt-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Tore, den eldste sønnen, begynte på skolen."
+  regler: [5]
+  forklaring: "«den eldste sønnen» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-sett-innskutt-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Læreren vår, Kari Hansen, har rettet prøvene."
+  regler: [5]
+  forklaring: "Navnet er et forklarende tillegg og får komma på begge sider."
+- id: komma-sett-innskutt-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Oslo, hovedstaden i Norge, er Norges største by."
+  regler: [5]
+  forklaring: "Tillegget «hovedstaden i Norge» er et innskudd og får komma på begge sider."
+- id: komma-sett-innskutt-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Eksamen, som varer i fem timer, starter klokken ni."
+  regler: [5]
+  forklaring: "Leddsetningen «som varer i fem timer» er et forklarende innskudd og får komma på begge sider."
+- id: komma-sett-innskutt-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Novellen «Faderen», som er skrevet av Bjørnson, handler om sorg."
+  regler: [5]
+  forklaring: "Leddsetningen «som er skrevet av Bjørnson» er et forklarende innskudd og får komma på begge sider."
+- id: komma-sett-svarord-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Ja, det stemmer."
+  regler: [6]
+  forklaring: "Det er komma etter svarordet «ja»."
+- id: komma-sett-svarord-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Nei, jeg har ikke lest den."
+  regler: [6]
+  forklaring: "Det er komma etter svarordet «nei»."
+- id: komma-sett-tiltale-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Jan, kom og spis!"
+  regler: [6]
+  forklaring: "Det er komma etter tiltaleordet. Det er ikke komma foran «og», fordi «kom» og «spis» har samme subjekt."
+- id: komma-sett-tiltale-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Kan du hjelpe meg, Maria?"
+  regler: [6]
+  forklaring: "Tiltaleordet står sist og får komma foran."
+- id: komma-sett-tiltale-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Hei, Sofie!"
+  regler: [6]
+  forklaring: "Det er komma etter hilsenen og foran tiltaleordet."
+- id: komma-sett-blandet-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Fordi temaet var vanskelig, brukte jeg mye tid, men jeg ble fornøyd."
+  regler: [2, 3]
+  forklaring: "Komma etter leddsetningen som står først, og foran «men»."
+- id: komma-sett-blandet-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Når eksamen starter, må du lese alle oppgavene, og så må du velge tema."
+  regler: [1, 3]
+  forklaring: "Komma etter leddsetningen som står først, og foran «og» mellom to helsetninger med hvert sitt subjekt."
+- id: komma-sett-blandet-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: utkast
+  setning: "Hvis du er usikker, spør læreren."
+  regler: [3]
+  forklaring: "Leddsetningen står først, så det er komma etter den."

@@ -1,0 +1,88 @@
+- id: ret-sort-1
+  type: sortering
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: utkast
+  oppdrag: "Hvilken appellform brukes i utsagnet? (Debattinnlegg om gratis skolemat)"
+  kategorier: ["Etos", "Logos", "Patos"]
+  elementer:
+    - tekst: "Som kantineleder i tolv år har jeg sett hvor mange elever som går sultne."
+      kategori: 0
+    - tekst: "Ifølge en undersøkelse hopper 3 av 10 elever over frokost, og derfor mister mange konsentrasjonen."
+      kategori: 1
+    - tekst: "Tenk deg å sitte og lytte til magen din rumle gjennom hele matteprøven."
+      kategori: 2
+    - tekst: "Vi i Elevrådet har snakket med over fem hundre elever."
+      kategori: 0
+    - tekst: "Mange elever mister konsentrasjonen fordi de er sultne, og dermed blir resultatene dårligere."
+      kategori: 1
+    - tekst: "Det er urettferdig og skammelig at noen barn må gå sultne."
+      kategori: 2
+  forklaring: "Etos viser avsenderens erfaring og kunnskap. Logos bruker tall og årsak-virkning. Patos appellerer til følelser."
+- id: ret-sort-2
+  type: sortering
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: utkast
+  oppdrag: "Hvilken appellform brukes i utsagnet? (Debattinnlegg om mobilfri skole)"
+  kategorier: ["Etos", "Logos", "Patos"]
+  elementer:
+    - tekst: "Jeg har undervist i 25 år og har aldri sett konsentrasjonen falle så raskt."
+      kategori: 0
+    - tekst: "Elever som har mobilen i lomma, løser færre oppgaver fordi de blir avbrutt."
+      kategori: 1
+    - tekst: "Ingen elev fortjener å føle seg utenfor fordi alle andre sitter og ser på skjermen."
+      kategori: 2
+    - tekst: "Som lege vet jeg hvordan søvnmangel påvirker hjernen."
+      kategori: 0
+    - tekst: "Når mobilen er borte, øker oppmerksomheten, og dermed blir prøveresultatene bedre."
+      kategori: 1
+    - tekst: "Vi må ikke la en hel generasjon vokse opp uten å kunne konsentrere seg!"
+      kategori: 2
+  forklaring: "Etos, logos og patos kan blandes i samme tekst. Se etter hva utsagnet gjør: viser troverdighet, argumenterer logisk eller vekker følelser."
+- id: ret-marker-1
+  type: marker
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: utkast
+  oppdrag: "Marker pronomenene som trekker leseren inn (du, vi, deg)."
+  tekst: "[[Vi]] vet alle hva som skjer når [[vi]] ikke gjør noe. Hva vil [[du]] velge? [[Du]] kan gjøre en forskjell, og [[vi]] trenger [[deg]]."
+  forklaring: "«Du» og «vi» trekker leseren inn og styrker patos."
+- id: ret-marker-2
+  type: marker
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: utkast
+  oppdrag: "Marker pronomenene som inkluderer leseren (vi, oss)."
+  tekst: "Klimaet angår [[oss]] alle. Hvis [[vi]] venter, kommer regningen til å treffe barna våre."
+  forklaring: "«Vi» og «oss» gjør leseren til en del av fellesskapet. Det er en vanlig patos-teknikk."
+- id: ret-match-appell
+  type: matching
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: godkjent
+  oppdrag: "Koble appellformen til forklaringen."
+  par:
+    - venstre: "Etos"
+      hoyre: "Avsenderens troverdighet. Hvem er de? Har de kunnskap og tillit?"
+    - venstre: "Logos"
+      hoyre: "Argumentenes logikk og fornuft. Fakta, statistikk, årsak og virkning."
+    - venstre: "Patos"
+      hoyre: "Appell til følelser. Ord som engasjerer, opprører eller beveger leseren."
+  forklaring: "Se appellformene i heftet."
+- id: ret-rekke-mal
+  type: rekkefolge
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: godkjent
+  oppdrag: "Sett delene i en retorisk analyse i riktig rekkefølge."
+  elementer: ["Tittel", "Innledning", "Avsnitt etos", "Avsnitt logos", "Avsnitt patos", "Avslutning"]
+  forklaring: "Se malen for retorisk analyse i heftet."
+- id: ret-rekke-logos
+  type: rekkefolge
+  kapittel: retorisk-analyse
+  mal: [m10-06]
+  status: godkjent
+  oppdrag: "Sett setningene i riktig rekkefølge i logos-avsnittet."
+  elementer: ["Naturvernforbundet bruker konkrete tall: de hevder at én kilo biff krever 15 000 liter vann å produsere.", "Slike fakta gjør det vanskelig å avvise argumentet.", "Det er ikke bare en mening, det er et regnestykke."]
+  forklaring: "Avsnittet viser tallene, forklarer hva de gjør, og avslutter med en kobling."

@@ -15,12 +15,37 @@ const { ovelser, tittel } = Astro.props;
 
 <script>
   import { les, lagre, oppdater, velgOkt, stokk, antallMestret } from '../lib/fremgang';
+  import { stokkForskjellig } from '../lib/tekstverktoy';
   import type { Fremgang } from '../lib/fremgang';
 
   type Felles = { id: string; kapittel: string; utkast: boolean };
   type Flashkort = Felles & { type: 'flashkort'; forside: string; bakside: string };
-  type Flervalg = Felles & { type: 'flervalg'; spm: string; alternativer: string[]; riktig: number; forklaring: string };
-  type Ovelse = Flashkort | Flervalg;
+  type Flervalg = Felles & { type: 'flervalg'; spm: string; alternativer: string[]; riktig: number; forklaring: string; utdrag: string | null };
+  type Komma = Felles & {
+    type: 'komma'; ord: string[]; komma: boolean[]; regler: number[]; forklaring: string; fasit: string; utenKomma: string;
+  };
+  type FinnFeil = Felles & {
+    type: 'finnfeil'; ord: string[]; feilIndekser: number[]; feil: string; rettelse: string; rettet: string; forklaring: string; tekst: string;
+  };
+  type Sortering = Felles & {
+    type: 'sortering'; oppdrag: string; kategorier: string[]; elementer: { tekst: string; kategori: number }[]; forklaring: string; fasitTekst: string;
+  };
+  type Rekkefolge = Felles & { type: 'rekkefolge'; oppdrag: string; elementer: string[]; forklaring: string; fasitTekst: string };
+  type Matching = Felles & {
+    type: 'matching'; oppdrag: string; par: { venstre: string; hoyre: string }[]; forklaring: string; fasitTekst: string;
+  };
+  type Marker = Felles & { type: 'marker'; oppdrag: string; ord: string[]; riktig: boolean[]; forklaring: string; fasitTekst: string };
+  type Ovelse = Flashkort | Flervalg | Komma | FinnFeil | Sortering | Rekkefolge | Matching | Marker;
+  const TYPENAVN: Record<Ovelse['type'], string> = {
+    flashkort: 'Flashkort',
+    flervalg: 'Flervalg',
+    komma: 'Sett komma',
+    finnfeil: 'Finn feilen',
+    sortering: 'Sorter',
+    rekkefolge: 'Rekkefølge',
+    matching: 'Koble',
+    marker: 'Marker i teksten',
+  };
   type Svar = { ovelse: Ovelse; riktig: boolean };
 
   const OKT_STORRELSE = 10;
@@ -29,7 +54,7 @@ const { ovelser, tittel } = Astro.props;
   const visKapittel = new Set(data.map((o) => o.kapittel)).size > 1;
 
   let fremgang: Fremgang = les();
-  let filter: 'alle' | 'flashkort' | 'flervalg' = 'alle';
+  let filter: 'alle' | Ovelse['type'] = 'alle';
   let okt: Ovelse[] = [];
   let svar: Svar[] = [];
   let tastHandler: ((e: KeyboardEvent) => void) | null = null;
@@ -85,7 +110,7 @@ const { ovelser, tittel } = Astro.props;
 
     if (typer.length > 1) {
       const sett = el('fieldset', { class: 'valgrekke' }, el('legend', {}, 'Velg øvelsestype'));
-      const valg: [typeof filter, string][] = [['alle', 'Alle'], ['flashkort', 'Flashkort'], ['flervalg', 'Flervalg']];
+      const valg: [typeof filter, string][] = [['alle', 'Alle'], ...typer.map((t): [typeof filter, string] => [t, TYPENAVN[t]])];
       for (const [verdi, tekst] of valg) {
         const input = el('input', { type: 'radio', name: 'filter', value: verdi });
         input.checked = filter === verdi;
@@ -128,7 +153,13 @@ const { ovelser, tittel } = Astro.props;
     const o = okt[indeks];
     if (!o) return visResultat();
     if (o.type === 'flashkort') visFlashkort(o, indeks);
-    else visFlervalg(o, indeks);
+    else if (o.type === 'flervalg') visFlervalg(o, indeks);
+    else if (o.type === 'komma') visKomma(o, indeks);
+    else if (o.type === 'finnfeil') visFinnFeil(o, indeks);
+    else if (o.type === 'sortering') visSortering(o, indeks);
+    else if (o.type === 'rekkefolge') visRekkefolge(o, indeks);
+    else if (o.type === 'matching') visMatching(o, indeks);
+    else visMarker(o, indeks);
   }
 
   function neste(indeks: number) {
@@ -198,7 +229,8 @@ const { ovelser, tittel } = Astro.props;
       sett.append(k);
     });
 
-    vis(...framdrift(indeks), merker(o), overskrift, sett, tilbakemelding, el('p', { class: 'tastehint' }, 'Tips: trykk 1 til ' + alt.length + ' på tastaturet for å svare.'));
+    const utdrag = o.utdrag ? el('blockquote', { class: 'utdrag' }, o.utdrag) : document.createComment('');
+    vis(...framdrift(indeks), merker(o), overskrift, utdrag, sett, tilbakemelding, el('p', { class: 'tastehint' }, 'Tips: trykk 1 til ' + alt.length + ' på tastaturet for å svare.'));
     tastHandler = (e) => {
       if (e.ctrlKey || e.metaKey || e.altKey) return;
       const n = Number(e.key);
@@ -207,6 +239,276 @@ const { ovelser, tittel } = Astro.props;
         velg(n - 1);
       }
     };
+  }
+
+
+  function nesteKnapp(indeks: number): HTMLButtonElement {
+    const k = el('button', { class: 'knapp', type: 'button' }, indeks + 1 < okt.length ? 'Neste' : 'Se resultat');
+    k.addEventListener('click', () => neste(indeks));
+    return k;
+  }
+
+  function visKomma(o: Komma, indeks: number) {
+    const overskrift = el('h2', { class: 'spm', tabindex: '-1' }, 'Sett komma der det trengs');
+    const hjelp = el('p', {}, 'Trykk på et ord for å sette komma etter det. Trykk igjen for å fjerne. Noen setninger trenger ikke komma.');
+    const setning = el('p', { class: 'setning' });
+    const valgt = o.ord.map(() => false);
+    const knapper: HTMLButtonElement[] = [];
+    let ferdig = false;
+
+    o.ord.forEach((ord, i) => {
+      if (i === o.ord.length - 1) {
+        setning.append(el('span', { class: 'ord-siste' }, ord));
+        return;
+      }
+      const k = el('button', { class: 'ord', type: 'button', 'aria-pressed': 'false', 'aria-label': `${ord}, komma etter ordet` }, ord);
+      k.addEventListener('click', () => {
+        if (ferdig) return;
+        valgt[i] = !valgt[i];
+        k.setAttribute('aria-pressed', String(valgt[i]));
+      });
+      knapper.push(k);
+      setning.append(k, ' ');
+    });
+
+    const flate = el('div', { 'aria-live': 'polite' });
+    const sjekk = el('button', { class: 'knapp', type: 'button' }, 'Sjekk svaret');
+    const handlinger = el('div', { class: 'knapp-rad' }, sjekk);
+
+    sjekk.addEventListener('click', () => {
+      ferdig = true;
+      const feilSteder: string[] = [];
+      knapper.forEach((k, i) => {
+        k.disabled = true;
+        const skalHa = o.komma[i]!;
+        if (valgt[i] && skalHa) k.classList.add('rett');
+        else if (valgt[i] && !skalHa) { k.classList.add('ekstra'); feilSteder.push(`Ikke komma etter «${o.ord[i]}»`); }
+        else if (!valgt[i] && skalHa) { k.classList.add('mangler'); feilSteder.push(`Komma mangler etter «${o.ord[i]}»`); }
+      });
+      const riktig = feilSteder.length === 0;
+      registrer(o, riktig);
+      const boks = el('div', { class: `tilbakemelding ${riktig ? 'riktig' : 'feil'}` },
+        el('strong', {}, riktig ? 'Riktig.' : 'Ikke helt.'));
+      if (!riktig) {
+        boks.append(el('span', {}, feilSteder.join('. ') + '.'), el('br'), el('span', {}, `Riktig setning: ${o.fasit}`), el('br'));
+      } else if (!o.komma.some(Boolean)) {
+        boks.append('Setningen skal ikke ha komma. ');
+      }
+      boks.append(o.forklaring);
+      const neste_ = nesteKnapp(indeks);
+      flate.append(boks, el('div', { class: 'knapp-rad' }, neste_));
+      handlinger.remove();
+      neste_.focus();
+    });
+
+    vis(...framdrift(indeks), merker(o), overskrift, hjelp, setning, flate, handlinger);
+  }
+
+  function visFinnFeil(o: FinnFeil, indeks: number) {
+    const overskrift = el('h2', { class: 'spm', tabindex: '-1' }, 'Finn feilen i setningen');
+    const hjelp = el('p', {}, 'Trykk på ordet som er feil skrevet eller feil brukt. Det er én feil.');
+    const setning = el('p', { class: 'setning' });
+    const flate = el('div', { 'aria-live': 'polite' });
+    const knapper: HTMLButtonElement[] = [];
+    let ferdig = false;
+
+    o.ord.forEach((ord, i) => {
+      const k = el('button', { class: 'ord', type: 'button' }, ord);
+      k.addEventListener('click', () => {
+        if (ferdig) return;
+        ferdig = true;
+        const riktig = o.feilIndekser.includes(i);
+        knapper.forEach((b, j) => {
+          b.disabled = true;
+          if (o.feilIndekser.includes(j)) b.classList.add('rett');
+          else if (j === i) b.classList.add('ekstra');
+        });
+        registrer(o, riktig);
+        const boks = el('div', { class: `tilbakemelding ${riktig ? 'riktig' : 'feil'}` },
+          el('strong', {}, riktig ? 'Riktig.' : `Nei, «${ord}» er ikke feil.`),
+          el('span', {}, `Feilen er «${o.feil}». Riktig er «${o.rettelse}».`), el('br'),
+          el('span', {}, `Riktig setning: ${o.rettet}`), el('br'),
+          o.forklaring);
+        const neste_ = nesteKnapp(indeks);
+        flate.append(boks, el('div', { class: 'knapp-rad' }, neste_));
+        neste_.focus();
+      });
+      knapper.push(k);
+      setning.append(k, ' ');
+    });
+
+    vis(...framdrift(indeks), merker(o), overskrift, hjelp, setning, flate);
+  }
+
+  /** Felles avslutning for oppgaver som sjekkes med en knapp. */
+  function sjekkResultat(o: Ovelse, indeks: number, riktig: boolean, linjer: string[], forklaring: string, flate: HTMLElement, handlinger: HTMLElement) {
+    registrer(o, riktig);
+    const boks = el('div', { class: `tilbakemelding ${riktig ? 'riktig' : 'feil'}` }, el('strong', {}, riktig ? 'Riktig.' : 'Ikke helt.'));
+    for (const linje of linjer) boks.append(el('span', {}, linje), el('br'));
+    boks.append(forklaring);
+    const neste_ = nesteKnapp(indeks);
+    flate.append(boks, el('div', { class: 'knapp-rad' }, neste_));
+    handlinger.remove();
+    neste_.focus();
+  }
+
+  function visSortering(o: Sortering, indeks: number) {
+    const overskrift = el('h2', { class: 'spm', tabindex: '-1' }, o.oppdrag);
+    const valg: (number | null)[] = o.elementer.map(() => null);
+    const rader: { i: number; sett: HTMLFieldSetElement; inputs: HTMLInputElement[] }[] = [];
+    const liste = el('div', { class: 'sorter' });
+
+    for (const i of stokk(o.elementer.map((_, k) => k))) {
+      const e = o.elementer[i]!;
+      const sett = el('fieldset', { class: 'sorter-rad' }, el('legend', {}, e.tekst));
+      const gruppe = el('div', { class: 'piller' });
+      const inputs: HTMLInputElement[] = [];
+      o.kategorier.forEach((kategori, k) => {
+        const id = `s${indeks}-${i}-${k}`;
+        const input = el('input', { type: 'radio', name: `s${indeks}-${i}`, id, value: String(k) });
+        input.addEventListener('change', () => { valg[i] = k; });
+        inputs.push(input);
+        gruppe.append(el('label', { class: 'pille', for: id }, input, el('span', {}, kategori)));
+      });
+      sett.append(gruppe);
+      liste.append(sett);
+      rader.push({ i, sett, inputs });
+    }
+
+    const flate = el('div', { 'aria-live': 'polite' });
+    const sjekk = el('button', { class: 'knapp', type: 'button' }, 'Sjekk svaret');
+    const handlinger = el('div', { class: 'knapp-rad' }, sjekk);
+    sjekk.addEventListener('click', () => {
+      let antallFeil = 0;
+      for (const { i, sett, inputs } of rader) {
+        inputs.forEach((x) => { x.disabled = true; });
+        const fasit = o.elementer[i]!.kategori;
+        const riktig = valg[i] === fasit;
+        if (!riktig) antallFeil++;
+        sett.classList.add(riktig ? 'rett' : 'feil');
+        sett.append(el('p', { class: 'rad-status' }, riktig ? 'Riktig.' : `Feil. Riktig er: ${o.kategorier[fasit]}.`));
+      }
+      sjekkResultat(o, indeks, antallFeil === 0, antallFeil ? [`${antallFeil} av ${o.elementer.length} er feil.`] : [], o.forklaring, flate, handlinger);
+    });
+
+    vis(...framdrift(indeks), merker(o), overskrift, liste, flate, handlinger);
+  }
+
+  function visRekkefolge(o: Rekkefolge, indeks: number) {
+    const overskrift = el('h2', { class: 'spm', tabindex: '-1' }, o.oppdrag);
+    const hjelp = el('p', {}, 'Bruk pilknappene for å flytte elementene til riktig plass.');
+    let ordning = stokkForskjellig(o.elementer.map((_, k) => k));
+    let ferdig = false;
+    const liste = el('ol', { class: 'rekkefolge' });
+    const melding = el('p', { class: 'visuelt-skjult', 'aria-live': 'polite' });
+
+    function tegn(fokus?: { pos: number; knapp: 'opp' | 'ned' }) {
+      liste.replaceChildren(...ordning.map((idx, pos) => {
+        const tekst = o.elementer[idx]!;
+        const opp = el('button', { class: 'liten opp', type: 'button', 'aria-label': `Flytt opp: ${tekst}`, title: 'Flytt opp' }, '↑');
+        const ned = el('button', { class: 'liten ned', type: 'button', 'aria-label': `Flytt ned: ${tekst}`, title: 'Flytt ned' }, '↓');
+        opp.disabled = ferdig || pos === 0;
+        ned.disabled = ferdig || pos === ordning.length - 1;
+        const flytt = (til: number, knapp: 'opp' | 'ned') => {
+          const [x] = ordning.splice(pos, 1);
+          ordning.splice(til, 0, x!);
+          melding.textContent = `${tekst} står nå på plass ${til + 1} av ${ordning.length}.`;
+          tegn({ pos: til, knapp });
+        };
+        opp.addEventListener('click', () => flytt(pos - 1, 'opp'));
+        ned.addEventListener('click', () => flytt(pos + 1, 'ned'));
+        const li = el('li', { class: 'rekke-element' }, el('span', { class: 'rekke-tekst' }, tekst), el('span', { class: 'rekke-knapper' }, opp, ned));
+        if (ferdig) li.classList.add(idx === pos ? 'rett' : 'feil');
+        return li;
+      }));
+      if (fokus) {
+        const m = liste.children[fokus.pos]?.querySelector<HTMLButtonElement>(fokus.knapp === 'opp' ? '.opp' : '.ned');
+        (m && !m.disabled ? m : liste.children[fokus.pos]?.querySelector<HTMLButtonElement>('button:not([disabled])'))?.focus();
+      }
+    }
+    tegn();
+
+    const flate = el('div', { 'aria-live': 'polite' });
+    const sjekk = el('button', { class: 'knapp', type: 'button' }, 'Sjekk rekkefølgen');
+    const handlinger = el('div', { class: 'knapp-rad' }, sjekk);
+    sjekk.addEventListener('click', () => {
+      ferdig = true;
+      const antallFeil = ordning.filter((idx, pos) => idx !== pos).length;
+      tegn();
+      sjekkResultat(o, indeks, antallFeil === 0, antallFeil ? [`Riktig rekkefølge: ${o.fasitTekst}`] : [], o.forklaring, flate, handlinger);
+    });
+
+    vis(...framdrift(indeks), merker(o), overskrift, hjelp, liste, melding, flate, handlinger);
+  }
+
+  function visMatching(o: Matching, indeks: number) {
+    const overskrift = el('h2', { class: 'spm', tabindex: '-1' }, o.oppdrag);
+    const alternativer = stokk(o.par.map((p) => p.hoyre));
+    const rader = el('div', { class: 'kobling' });
+    const velgere: HTMLSelectElement[] = [];
+    o.par.forEach((p, i) => {
+      const id = `m${indeks}-${i}`;
+      const velger = el('select', { id });
+      velger.append(el('option', { value: '' }, 'Velg ...'));
+      for (const a of alternativer) velger.append(el('option', { value: a }, a));
+      velgere.push(velger);
+      rader.append(el('div', { class: 'kobling-rad' }, el('label', { for: id }, p.venstre), velger));
+    });
+
+    const flate = el('div', { 'aria-live': 'polite' });
+    const sjekk = el('button', { class: 'knapp', type: 'button' }, 'Sjekk svaret');
+    const handlinger = el('div', { class: 'knapp-rad' }, sjekk);
+    sjekk.addEventListener('click', () => {
+      let antallFeil = 0;
+      velgere.forEach((v, i) => {
+        v.disabled = true;
+        const riktig = v.value === o.par[i]!.hoyre;
+        if (!riktig) antallFeil++;
+        const rad = v.parentElement!;
+        rad.classList.add(riktig ? 'rett' : 'feil');
+        rad.append(el('p', { class: 'rad-status' }, riktig ? 'Riktig.' : `Feil. Riktig er: ${o.par[i]!.hoyre}`));
+      });
+      sjekkResultat(o, indeks, antallFeil === 0, antallFeil ? [`${antallFeil} av ${o.par.length} er feil.`] : [], o.forklaring, flate, handlinger);
+    });
+
+    vis(...framdrift(indeks), merker(o), overskrift, rader, flate, handlinger);
+  }
+
+  function visMarker(o: Marker, indeks: number) {
+    const overskrift = el('h2', { class: 'spm', tabindex: '-1' }, o.oppdrag);
+    const hjelp = el('p', {}, 'Trykk på ordene du vil markere. Trykk igjen for å fjerne markeringen.');
+    const setning = el('p', { class: 'setning' });
+    const valgt = o.ord.map(() => false);
+    const knapper: HTMLButtonElement[] = [];
+    o.ord.forEach((ord, i) => {
+      const k = el('button', { class: 'ord marker', type: 'button', 'aria-pressed': 'false' }, ord);
+      k.addEventListener('click', () => {
+        valgt[i] = !valgt[i];
+        k.setAttribute('aria-pressed', String(valgt[i]));
+      });
+      knapper.push(k);
+      setning.append(k, ' ');
+    });
+
+    const flate = el('div', { 'aria-live': 'polite' });
+    const sjekk = el('button', { class: 'knapp', type: 'button' }, 'Sjekk svaret');
+    const handlinger = el('div', { class: 'knapp-rad' }, sjekk);
+    sjekk.addEventListener('click', () => {
+      const mangler: string[] = [];
+      const ekstra: string[] = [];
+      knapper.forEach((k, i) => {
+        k.disabled = true;
+        if (valgt[i] && o.riktig[i]) k.classList.add('rett');
+        else if (valgt[i]) { k.classList.add('ekstra'); ekstra.push(`«${o.ord[i]}»`); }
+        else if (o.riktig[i]) { k.classList.add('mangler'); mangler.push(`«${o.ord[i]}»`); }
+      });
+      const linjer: string[] = [];
+      if (mangler.length) linjer.push(`Du glemte: ${mangler.join(', ')}.`);
+      if (ekstra.length) linjer.push(`Disse skulle ikke vært markert: ${ekstra.join(', ')}.`);
+      sjekkResultat(o, indeks, linjer.length === 0, linjer, o.forklaring, flate, handlinger);
+    });
+
+    vis(...framdrift(indeks), merker(o), overskrift, hjelp, setning, flate, handlinger);
   }
 
   document.addEventListener('keydown', (e) => tastHandler?.(e));
@@ -226,9 +528,13 @@ const { ovelser, tittel } = Astro.props;
       barn.push(el('h3', {}, 'Repeter disse'));
       const liste = el('ul', { class: 'feilliste' });
       for (const { ovelse } of feil) {
-        const [spm, fasit] = ovelse.type === 'flashkort'
-          ? [ovelse.forside, ovelse.bakside]
-          : [ovelse.spm, `${ovelse.alternativer[ovelse.riktig]}. ${ovelse.forklaring}`];
+        let spm = '';
+        let fasit = '';
+        if (ovelse.type === 'flashkort') [spm, fasit] = [ovelse.forside, ovelse.bakside];
+        else if (ovelse.type === 'flervalg') [spm, fasit] = [ovelse.spm, `${ovelse.alternativer[ovelse.riktig]}. ${ovelse.forklaring}`];
+        else if (ovelse.type === 'komma') [spm, fasit] = [`Sett komma: ${ovelse.utenKomma}`, `${ovelse.fasit} ${ovelse.forklaring}`];
+        else if (ovelse.type === 'finnfeil') [spm, fasit] = [`Finn feilen: ${ovelse.tekst}`, `${ovelse.rettet} ${ovelse.forklaring}`];
+        else [spm, fasit] = [ovelse.oppdrag, `${ovelse.fasitTekst}. ${ovelse.forklaring}`];
         liste.append(el('li', {}, el('strong', {}, spm), el('span', { class: 'svar' }, fasit)));
       }
       barn.push(liste);

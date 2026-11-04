@@ -1,0 +1,235 @@
+- id: virk-match-1
+  type: matching
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  oppdrag: "Koble virkemiddelet til eksempelet."
+  par:
+    - venstre: "Sammenligning"
+      hoyre: "«Han var sterk som en okse»"
+    - venstre: "Metafor"
+      hoyre: "«Livet er en berg-og-dal-bane»"
+    - venstre: "Personifikasjon"
+      hoyre: "«Tiden flyr»"
+    - venstre: "Besjeling"
+      hoyre: "«Sola smiler»"
+    - venstre: "Overdrivelse"
+      hoyre: "«Jeg lo meg i hjel.»"
+  forklaring: "Eksemplene er hentet fra heftet."
+- id: virk-match-2
+  type: matching
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  oppdrag: "Koble det litterære virkemiddelet til beskrivelsen."
+  par:
+    - venstre: "Kontrast"
+      hoyre: "Motsetninger settes opp mot hverandre"
+    - venstre: "Frampek"
+      hoyre: "Hint om hva som skal skje"
+    - venstre: "In medias res"
+      hoyre: "Teksten starter midt i handlingen"
+    - venstre: "Vendepunkt"
+      hoyre: "Et tydelig skifte i handlingen"
+    - venstre: "Sirkelkomposisjon"
+      hoyre: "Teksten starter og slutter likt"
+  forklaring: "Beskrivelsene er hentet fra heftet."
+- id: virk-match-3
+  type: matching
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  oppdrag: "Koble virkemiddelet til hva det gjør."
+  par:
+    - venstre: "Retorisk spørsmål"
+      hoyre: "Aktiverer leseren"
+    - venstre: "Gjentakelse"
+      hoyre: "Slår et poeng fast"
+    - venstre: "Understatement"
+      hoyre: "Gir ironi"
+    - venstre: "Korte setninger"
+      hoyre: "Gir tempo og trykk"
+  forklaring: "Funksjonene er hentet fra heftet."
+- id: virk-sort-1
+  type: sortering
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  oppdrag: "Er virkemiddelet språklig eller litterært?"
+  kategorier: ["Språklig virkemiddel", "Litterært virkemiddel"]
+  elementer:
+    - tekst: "Metafor"
+      kategori: 0
+    - tekst: "Frampek"
+      kategori: 1
+    - tekst: "Gjentakelse"
+      kategori: 0
+    - tekst: "Vendepunkt"
+      kategori: 1
+    - tekst: "Allusjon"
+      kategori: 0
+    - tekst: "Sirkelkomposisjon"
+      kategori: 1
+  forklaring: "Heftet har to lister: språklige virkemidler (for eksempel metafor) og litterære virkemidler (for eksempel frampek)."
+- id: virk-sort-2
+  type: sortering
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  oppdrag: "Er virkemiddelet språklig eller litterært?"
+  kategorier: ["Språklig virkemiddel", "Litterært virkemiddel"]
+  elementer:
+    - tekst: "Sammenligning"
+      kategori: 0
+    - tekst: "In medias res"
+      kategori: 1
+    - tekst: "Overdrivelse"
+      kategori: 0
+    - tekst: "Høydepunkt"
+      kategori: 1
+    - tekst: "Besjeling"
+      kategori: 0
+    - tekst: "Parallellhandlinger"
+      kategori: 1
+  forklaring: "Heftet har to lister: språklige virkemidler og litterære virkemidler."
+- id: virk-sort-3
+  type: sortering
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  oppdrag: "Er virkemiddelet språklig eller litterært?"
+  kategorier: ["Språklig virkemiddel", "Litterært virkemiddel"]
+  elementer:
+    - tekst: "Retorisk spørsmål"
+      kategori: 0
+    - tekst: "Kontrast"
+      kategori: 1
+    - tekst: "Korte setninger"
+      kategori: 0
+    - tekst: "Symbol"
+      kategori: 1
+    - tekst: "Understatement"
+      kategori: 0
+    - tekst: "Tema"
+      kategori: 1
+  forklaring: "Heftet har to lister: språklige virkemidler og litterære virkemidler."
+- id: virk-fv-utdrag-metafor
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilket virkemiddel er «Hun var en storm den dagen»?"
+  alternativer: ["Metafor", "Sammenligning", "Besjeling", "Understatement"]
+  riktig: 0
+  forklaring: "Hun kalles direkte en storm, uten «som». Det er en metafor."
+  utdrag: "Hun var en storm den dagen. Hun feide gjennom gangene og kastet døren igjen."
+- id: virk-fv-utdrag-gjentakelse
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilket virkemiddel skaper den trykkende stemningen med «Tik. Tak. Tik. Tak.»?"
+  alternativer: ["Gjentakelse", "Overdrivelse", "Allusjon", "Sammenligning"]
+  riktig: 0
+  forklaring: "Lyden gjentas, og det gir en følelse av at tiden står stille."
+  utdrag: "Klokka tikket høyt i den tomme stuen. Tik. Tak. Tik. Tak. Ingenting annet skjedde."
+- id: virk-fv-utdrag-overdrivelse
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilket virkemiddel er dette?"
+  alternativer: ["Overdrivelse", "Understatement", "Metafor", "Kontrast"]
+  riktig: 0
+  forklaring: "Utsagnet sier mer enn det faktisk er, og gir humor."
+  utdrag: "Jeg har ventet i hundre år på denne bussen."
+- id: virk-fv-utdrag-understatement
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilket virkemiddel er «Det var ikke så galt»?"
+  alternativer: ["Understatement", "Overdrivelse", "Retorisk spørsmål", "Gjentakelse"]
+  riktig: 0
+  forklaring: "Han sier mindre enn det faktisk er. Det skaper ironi."
+  utdrag: "«Det var ikke så galt,» sa han og så på det som var igjen av huset etter brannen."
+- id: virk-fv-utdrag-retorisk
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilket virkemiddel er dette?"
+  alternativer: ["Retorisk spørsmål", "Gjentakelse", "Allusjon", "Korte setninger"]
+  riktig: 0
+  forklaring: "Svaret er innebygd. Spørsmålet aktiverer leseren."
+  utdrag: "Er det virkelig for mye å be om litt respekt?"
+- id: virk-fv-utdrag-frampek
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilket virkemiddel er den siste setningen?"
+  alternativer: ["Frampek", "Vendepunkt", "In medias res", "Høydepunkt"]
+  riktig: 0
+  forklaring: "Setningen hinter om hva som skal skje, og bygger spenning."
+  utdrag: "Bak henne lå trappen, mørk og stille. Hun visste ikke at hun aldri skulle gå ned den igjen."
+- id: virk-fv-utdrag-besjeling
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: utkast
+  spm: "Hva er «trærne bøyde seg for å høre bedre»?"
+  alternativer: ["Besjeling", "Personifikasjon", "Metafor", "Overdrivelse"]
+  riktig: 0
+  forklaring: "Trær er konkrete ting i naturen, og de får menneskelig atferd. Det er besjeling."
+  utdrag: "Vinden tok i, og trærne bøyde seg som for å høre bedre."
+- id: virk-fv-utdrag-personifikasjon
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: utkast
+  spm: "Hva er «Rettferdigheten sov»?"
+  alternativer: ["Personifikasjon", "Besjeling", "Sammenligning", "Gjentakelse"]
+  riktig: 0
+  forklaring: "Rettferdighet er abstrakt og får en menneskelig egenskap. Det er personifikasjon."
+  utdrag: "Rettferdigheten sov mens han ble dømt."
+- id: virk-fv-utdrag-parallell
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: utkast
+  spm: "Hvilket litterært virkemiddel er det når to handlinger skjer samtidig, som her?"
+  alternativer: ["Parallellhandlinger", "Sirkelkomposisjon", "In medias res", "Høydepunkt"]
+  riktig: 0
+  forklaring: "To handlinger skjer samtidig og viser kontrasten mellom personene."
+  utdrag: "Mens hun lo og danset på festen, satt moren alene hjemme og ventet i mørket."
+- id: virk-fv-effekt-overdrivelse
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: utkast
+  spm: "Hva er effekten av virkemiddelet i dette utdraget?"
+  alternativer: ["Det gir humor og viser at ventetiden føles uendelig lang", "Det gir faktaopplysninger om busstider", "Det gjør teksten mer formell", "Det viser at forfatteren er upålitelig"]
+  riktig: 0
+  forklaring: "Overdrivelse gir humor eller dramatikk. Her viser den hvor lang ventetiden føles."
+  utdrag: "Jeg har ventet i hundre år på denne bussen."
+- id: virk-fv-effekt-understatement
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: utkast
+  spm: "Hva er effekten av understatement i dette utdraget?"
+  alternativer: ["Det skaper ironi og viser hvor stor kontrasten er til virkeligheten", "Det gjør teksten mer spennende fordi handlingen akselererer", "Det viser at personen er glad", "Det forklarer hva som har skjedd"]
+  riktig: 0
+  forklaring: "Når noen sier mindre enn det faktisk er, blir det ironisk. Brannen er en katastrofe, men han kaller det «ikke så galt»."
+  utdrag: "«Det var ikke så galt,» sa han og så på det som var igjen av huset etter brannen."
+- id: virk-fv-effekt-frampek
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: utkast
+  spm: "Hva gjør frampeket i dette utdraget med leseren?"
+  alternativer: ["Det bygger spenning, siden vi aner at noe vil skje", "Det avslører hele slutten", "Det gjør teksten tørr og saklig", "Det forklarer hvem personen er"]
+  riktig: 0
+  forklaring: "Frampek hinter om hva som skal skje, og bygger spenning."
+  utdrag: "Bak henne lå trappen, mørk og stille. Hun visste ikke at hun aldri skulle gå ned den igjen."

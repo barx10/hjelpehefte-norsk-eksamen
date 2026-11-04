@@ -1,0 +1,144 @@
+- id: bind-fk-hva
+  type: flashkort
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  forside: "Hva er tekstbinding?"
+  bakside: "Det som får setninger og avsnitt til å henge sammen, for eksempel overgangsord, henvisninger og temasetninger."
+- id: bind-fk-legge-til
+  type: flashkort
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  forside: "Overgangsord som legger til noe"
+  bakside: "Dessuten, i tillegg, også."
+- id: bind-fk-kontrast
+  type: flashkort
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  forside: "Overgangsord som viser kontrast"
+  bakside: "Men, derimot, likevel, imidlertid."
+- id: bind-fk-arsak
+  type: flashkort
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  forside: "Overgangsord som gir årsak"
+  bakside: "Fordi, siden."
+- id: bind-fk-folge
+  type: flashkort
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  forside: "Overgangsord som viser følge"
+  bakside: "Derfor, dermed."
+- id: bind-fk-eksempel
+  type: flashkort
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  forside: "Overgangsord som innleder et eksempel"
+  bakside: "For eksempel, blant annet."
+- id: bind-fk-rekkefolge
+  type: flashkort
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  forside: "Overgangsord som viser rekkefølge"
+  bakside: "Først, deretter, til slutt."
+- id: bind-fk-konklusjon
+  type: flashkort
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  forside: "Overgangsord som innleder en konklusjon"
+  bakside: "Alt i alt, oppsummert."
+- id: bind-fk-henvisning
+  type: flashkort
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  forside: "Hvordan kan du binde setninger sammen uten overgangsord?"
+  bakside: "Ved å henvise tilbake («Denne utviklingen bekymrer mange»), ved å starte avsnittet med en temasetning som knytter seg til forrige avsnitt, og ved å variere setningsstarten."
+- id: bind-fv-kontrast
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  spm: "Velg riktig overgangsord: «Novellen er kort. ___ rommer den store følelser.»"
+  alternativer: ["Likevel", "Derfor", "Først", "For eksempel"]
+  riktig: 0
+  forklaring: "Det er en motsetning mellom «kort» og «store følelser». «Likevel» viser kontrast."
+- id: bind-fv-folge
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  spm: "Velg riktig overgangsord: «Han glemte å lese oppgaven. ___ misforsto han hva som ble spurt om.»"
+  alternativer: ["Derfor", "Likevel", "For eksempel", "Tvert imot"]
+  riktig: 0
+  forklaring: "Det å misforstå er en følge av å ikke ha lest oppgaven. «Derfor» viser følge."
+- id: bind-fv-eksempel
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  spm: "Velg riktig overgangsord: «Metaforer gjør teksten levende. ___ gir «natten er en vegg» en følelse av avstand.»"
+  alternativer: ["For eksempel", "Men", "Derfor", "Til slutt"]
+  riktig: 0
+  forklaring: "Setningen gir et eksempel på det som er sagt før. «For eksempel» innleder eksempler."
+- id: bind-fv-rekkefolge
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  spm: "Velg riktig overgangsord: «___ leser du alle oppgavene. Deretter velger du oppgave.»"
+  alternativer: ["Først", "Til slutt", "Likevel", "For eksempel"]
+  riktig: 0
+  forklaring: "«Deretter» viser at dette er første steg. «Først» passer."
+- id: bind-fv-konklusjon
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  spm: "Velg riktig overgangsord: «Vi har sett på språk, form og tema. ___ kan vi konkludere med at diktet handler om ensomhet.»"
+  alternativer: ["Alt i alt", "For eksempel", "Først", "Likevel"]
+  riktig: 0
+  forklaring: "Setningen oppsummerer og konkluderer. «Alt i alt» innleder en konklusjon."
+- id: bind-fv-arsak
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  spm: "Velg riktig ord: «Vi ble hjemme, ___ det regnet.»"
+  alternativer: ["fordi", "derfor", "likevel", "dessuten"]
+  riktig: 0
+  forklaring: "«Fordi» gir årsaken og binder sammen to setninger. «Derfor» og «dessuten» kan ikke stå slik her."
+- id: bind-fv-men
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  spm: "Velg riktig ord: «Hun var sliten, ___ hun fortsatte å skrive.»"
+  alternativer: ["men", "fordi", "derfor", "dermed"]
+  riktig: 0
+  forklaring: "Det er en motsetning mellom å være sliten og å fortsette. «Men» viser kontrast."
+- id: bind-fv-henvisning
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  spm: "Hvilken tekst er best bundet sammen?"
+  alternativer: ["Klimaendringene øker. Denne utviklingen bekymrer mange.", "Klimaendringene øker. Klimaendringene øker. Klimaendringene øker.", "Klimaendringene øker. Mange spiser frokost. Det er onsdag.", "Klimaendringene øker. Bekymrer mange."]
+  riktig: 0
+  forklaring: "«Denne utviklingen» henviser tilbake til forrige setning. Teksten henger sammen uten gjentakelse."
+- id: bind-fv-derimot
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: utkast
+  spm: "Hva gjør overgangsordet «derimot»?"
+  alternativer: ["Viser kontrast", "Gir et eksempel", "Viser rekkefølge", "Innleder en konklusjon"]
+  riktig: 0
+  forklaring: "«Derimot» setter to ting opp mot hverandre."

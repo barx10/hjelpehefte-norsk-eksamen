@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { hentKapitler, hentOvelser, kapittelNavn } from '../lib/innhold';
+import { hentKapitler, hentOvelser, kapittelNavn, typeNavn } from '../lib/innhold';
+import type { Ovelsestype } from '../lib/innhold';
 import { url } from '../lib/url';
 
 const kapitler = await hentKapitler();
@@ -12,8 +13,10 @@ const temaer = kapitler
     return {
       k,
       ider: liste.map((o) => o.id),
-      kort: liste.filter((o) => o.data.type === 'flashkort').length,
-      flervalg: liste.filter((o) => o.data.type === 'flervalg').length,
+      oversikt: (Object.keys(typeNavn) as Ovelsestype[])
+        .map((type) => ({ type, antall: liste.filter((o) => o.data.type === type).length }))
+        .filter((x) => x.antall > 0)
+        .map((x) => `${x.antall} ${typeNavn[x.type]}`),
     };
   })
   .filter((t) => t.ider.length > 0);
@@ -36,7 +39,7 @@ const temaer = kapitler
       {temaer.map((t) => (
         <li class="tema" data-ider={JSON.stringify(t.ider)}>
           <h3>{t.k.data.nummer && <span class="nr">{t.k.data.nummer}</span>}{t.k.data.tittel}</h3>
-          <p class="meta">{[t.kort > 0 && `${t.kort} flashkort`, t.flervalg > 0 && `${t.flervalg} flervalg`].filter(Boolean).join(' og ')}</p>
+          <p class="meta">{t.oversikt.length > 1 ? `${t.oversikt.slice(0, -1).join(', ')} og ${t.oversikt.at(-1)}` : t.oversikt.join('')}</p>
           <div class="fremdrift-linje" aria-hidden="true"><span></span></div>
           <p class="fremdrift-tekst" data-fremdrift></p>
           <div class="lenker">
@@ -49,7 +52,7 @@ const temaer = kapitler
   )}
 
   <div class="merknad">
-    <p><strong>Hva siden dekker.</strong> Siden øver skriftlig eksamen: eksamensoppbygging, oppgaveord, sjangre og maler, virkemidler, synsvinkel og tegnsetting. Muntlige mål og språkhistorie er ikke med. <a href={url('mal/')}>Se oversikt over kompetansemål</a>.</p>
+    <p><strong>Hva siden dekker.</strong> Siden øver skriftlig eksamen: eksamensoppbygging, oppgaveord, sjangre og maler, virkemidler, synsvinkel, tegnsetting, rettskriving, tekstbinding og kildebruk. Muntlige mål og språkhistorie er ikke med. <a href={url('mal/')}>Se oversikt over kompetansemål</a>.</p>
     <p><strong>Personvern.</strong> Fremgangen lagres bare i nettleseren din. Siden har ingen innlogging og samler ikke inn data om deg.</p>
   </div>
 </Layout>

@@ -168,6 +168,56 @@ fieldset.valg legend { padding: 0; }
 .feilliste .svar { color: var(--dempet); display: block; }
 .tastehint { color: var(--dempet); font-size: 0.88rem; margin-top: 0.75rem; }
 
+/* Ord-oppgaver (komma og finn feilen) */
+.setning { font-size: 1.25rem; line-height: 2.6; margin: 0.5rem 0 1.25rem; }
+.ord {
+  font: inherit; color: inherit; background: transparent; border: 0; border-bottom: 2px dashed var(--linje); border-radius: 4px;
+  padding: 0.35rem 0.15rem; margin: 0; cursor: pointer; min-height: 44px;
+}
+.ord:hover:not([disabled]) { background: var(--flate-2); border-bottom-color: var(--primar); }
+.ord[disabled] { cursor: default; }
+.ord[aria-pressed='true']::after { content: ','; font-weight: 800; color: var(--primar); }
+.ord.rett { background: var(--riktig-bg); border-bottom: 2px solid var(--riktig); }
+.ord.rett[aria-pressed='true']::after { color: var(--riktig); }
+.ord.ekstra { background: var(--feil-bg); border-bottom: 2px solid var(--feil); }
+.ord.ekstra[aria-pressed='true']::after { color: var(--feil); text-decoration: line-through; }
+.ord.mangler { background: var(--riktig-bg); border-bottom: 2px dotted var(--riktig); }
+.ord.mangler::after { content: ','; font-weight: 800; color: var(--riktig); }
+.ord-siste { padding: 0.35rem 0.15rem; }
+
+/* Sortering, rekkefølge, kobling, marker */
+.utdrag { margin: 0 0 1rem; padding: 0.8rem 1rem; background: var(--flate-2); border-left: 5px solid var(--aksent); border-radius: 0 10px 10px 0; font-style: normal; }
+.visuelt-skjult { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.sorter, .kobling { display: grid; gap: 0.75rem; margin-bottom: 1rem; }
+.sorter-rad, .kobling-rad { border: 1px solid var(--linje); border-radius: 10px; padding: 0.7rem 0.9rem; margin: 0; min-width: 0; background: var(--flate); }
+.sorter-rad legend { font-weight: 600; padding: 0 0.3rem; }
+.sorter-rad.rett, .kobling-rad.rett, .rekke-element.rett { border-color: var(--riktig); background: var(--riktig-bg); }
+.sorter-rad.feil, .kobling-rad.feil, .rekke-element.feil { border-color: var(--feil); background: var(--feil-bg); }
+.piller { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.3rem; }
+.pille { position: relative; display: inline-flex; }
+.pille input { position: absolute; opacity: 0; inset: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
+.pille span { display: inline-flex; align-items: center; min-height: 44px; padding: 0 0.9rem; border: 2px solid var(--linje); border-radius: 99px; background: var(--flate); }
+.pille input:checked + span { border-color: var(--primar); background: var(--flate-2); font-weight: 700; box-shadow: inset 0 0 0 1px var(--primar); }
+.pille input:focus-visible + span { outline: 3px solid var(--fokus); outline-offset: 2px; }
+.pille input:disabled { cursor: default; }
+.rad-status { margin: 0.4rem 0 0; font-size: 0.92rem; font-weight: 600; }
+.kobling-rad { display: grid; gap: 0.4rem; }
+.kobling-rad label { font-weight: 600; }
+.kobling-rad select { font: inherit; width: 100%; min-height: 44px; padding: 0.4rem; border-radius: 8px; border: 2px solid var(--linje); background: var(--flate); color: var(--tekst); }
+.rekkefolge { list-style: none; padding: 0; margin: 0 0 1rem; display: grid; gap: 0.5rem; counter-reset: rekke; }
+.rekke-element { counter-increment: rekke; display: flex; align-items: center; gap: 0.75rem; border: 1px solid var(--linje); border-radius: 10px; padding: 0.5rem 0.75rem; background: var(--flate); }
+.rekke-element::before { content: counter(rekke); font-weight: 800; color: var(--aksent); min-width: 1.4rem; }
+.rekke-tekst { flex: 1; }
+.rekke-knapper { display: flex; gap: 0.4rem; flex: none; }
+button.liten { min-width: 44px; min-height: 44px; border-radius: 8px; border: 2px solid var(--linje); background: var(--flate); color: var(--tekst); font: inherit; font-size: 1.1rem; cursor: pointer; }
+button.liten:hover:not([disabled]) { border-color: var(--primar); }
+button.liten[disabled] { opacity: 0.35; cursor: default; }
+.ord.marker { border-bottom-style: solid; }
+.ord.marker[aria-pressed='true'] { background: #ffe9a8; color: #1d1b19; border-bottom-color: var(--aksent); }
+.ord.marker.rett { background: var(--riktig-bg); color: var(--tekst); border-bottom-color: var(--riktig); }
+.ord.marker.ekstra { background: var(--feil-bg); color: var(--tekst); border-bottom-color: var(--feil); text-decoration: line-through; }
+.ord.marker.mangler { background: var(--riktig-bg); color: var(--tekst); border-bottom: 2px dotted var(--riktig); }
+
 /* Hefte */
 .innhold h2 { border-bottom: 2px solid var(--primar); padding-bottom: 0.2rem; }
 .innhold table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 1rem 0 1.5rem; font-size: 0.93rem; }
@@ -221,3 +271,6 @@ textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo,
   .kapittel-blokk:first-of-type { break-before: auto; }
   a { color: #000; text-decoration: none; }
 }
+
+/* Marker-oppgaver skal ikke vise komma */
+.ord.marker::after, .ord.marker.mangler::after, .ord.marker[aria-pressed='true']::after { content: none; }

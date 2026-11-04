@@ -1,0 +1,33 @@
+- id: syn-match
+  type: matching
+  kapittel: synsvinkel
+  mal: [m10-01]
+  status: godkjent
+  oppdrag: "Koble synsvinkelen til kjennetegnet."
+  par:
+    - venstre: "Personal 1. person (jeg/vi)"
+      hoyre: "Fortelleren deltar og forteller fra sitt eget ståsted. Vi kommer tett på."
+    - venstre: "Personal 3. person (han/hun)"
+      hoyre: "Fortelleren deltar via en av personene, men omtaler dem som «han/hun»."
+    - venstre: "Autoral refererende"
+      hoyre: "Fortelleren står utenfor og beskriver bare det vi kan observere."
+    - venstre: "Autoral allvitende"
+      hoyre: "Fortelleren har full oversikt og vet hva personene tenker og føler."
+  forklaring: "Se tabellen over synsvinkel i heftet."
+- id: syn-sort
+  type: sortering
+  kapittel: synsvinkel
+  mal: [m10-01]
+  status: godkjent
+  oppdrag: "Er synsvinkelen personal eller autoral?"
+  kategorier: ["Personal", "Autoral"]
+  elementer:
+    - tekst: "Personal 1. person"
+      kategori: 0
+    - tekst: "Autoral refererende"
+      kategori: 1
+    - tekst: "Personal 3. person"
+      kategori: 0
+    - tekst: "Autoral allvitende"
+      kategori: 1
+  forklaring: "Personal: fortelleren deltar, enten som «jeg» eller via en av personene. Autoral: fortelleren står utenfor."

@@ -1,0 +1,198 @@
+- id: feil-sammensatt-eksamensoppgave
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Jeg leste eksamen oppgaven nøye."
+  feil: "eksamen oppgaven"
+  rettelse: "eksamensoppgaven"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-sammensatt-skriveplan
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Vi trenger en god skrive plan."
+  feil: "skrive plan"
+  rettelse: "skriveplan"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-sammensatt-avisartikkel
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Hun leste en lang avis artikkel."
+  feil: "avis artikkel"
+  rettelse: "avisartikkel"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-sammensatt-sprakbruk
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Teksten har en sterk språk bruk."
+  feil: "språk bruk"
+  rettelse: "språkbruk"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-sammensatt-diktanalyse
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Dikt analysen var vanskelig."
+  feil: "Dikt analysen"
+  rettelse: "Diktanalysen"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-tid-imorgen
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Vi har eksamen imorgen."
+  feil: "imorgen"
+  rettelse: "i morgen"
+  forklaring: "«I morgen» skrives i to ord."
+- id: feil-tid-idag
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Jeg leste novellen idag."
+  feil: "idag"
+  rettelse: "i dag"
+  forklaring: "«I dag» skrives i to ord."
+- id: feil-tid-igar
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Vi skrev en tekst igår."
+  feil: "igår"
+  rettelse: "i går"
+  forklaring: "«I går» skrives i to ord."
+- id: feil-tid-tilslutt
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Tilslutt oppsummerer jeg poengene."
+  feil: "Tilslutt"
+  rettelse: "Til slutt"
+  forklaring: "«Til slutt» skrives i to ord."
+- id: feil-tid-forexempel
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Mange bruker virkemidler, forexempel metaforer."
+  feil: "forexempel"
+  rettelse: "for eksempel"
+  forklaring: "«For eksempel» skrives i to ord, og eksempel har k og s."
+- id: feil-bokstav-mandag
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Eksamen er på Mandag."
+  feil: "Mandag"
+  rettelse: "mandag"
+  forklaring: "Ukedager skrives med liten forbokstav."
+- id: feil-bokstav-mai
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Vi har prøve i Mai."
+  feil: "Mai"
+  rettelse: "mai"
+  forklaring: "Måneder skrives med liten forbokstav."
+- id: feil-bokstav-norsk
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Jeg liker å skrive på Norsk."
+  feil: "Norsk"
+  rettelse: "norsk"
+  forklaring: "Språk skrives med liten forbokstav."
+- id: feil-bokstav-norsk-forfatter
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Faderen ble skrevet av Bjørnson, en Norsk forfatter."
+  feil: "Norsk"
+  rettelse: "norsk"
+  forklaring: "Ord som angir språk eller nasjonalitet skrives med liten forbokstav."
+- id: feil-bokstav-oslo
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Vi bor i oslo."
+  feil: "oslo"
+  rettelse: "Oslo"
+  forklaring: "Navn på steder skrives med stor forbokstav."
+- id: feil-bokstav-punktum
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Det regnet. vi gikk hjem."
+  feil: "vi"
+  rettelse: "Vi"
+  forklaring: "Første ord i en ny setning skrives med stor forbokstav."
+- id: feil-a-og-1
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Jeg liker og lese bøker."
+  feil: "og"
+  rettelse: "å"
+  forklaring: "Foran verb i infinitiv skriver du «å». «Og» binder sammen ord og setninger."
+- id: feil-a-og-2
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Hun prøvde og skrive en novelle."
+  feil: "og"
+  rettelse: "å"
+  forklaring: "Foran verb i infinitiv skriver du «å»."
+- id: feil-a-og-3
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Hun leste novellen å skrev en analyse."
+  feil: "å"
+  rettelse: "og"
+  forklaring: "«Og» binder sammen to handlinger. «Å» står foran verb i infinitiv."
+- id: feil-de-dem-1
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Jeg ser de hver dag."
+  feil: "de"
+  rettelse: "dem"
+  forklaring: "«Dem» er objekt (den som blir sett). «De» er subjekt."
+- id: feil-de-dem-2
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Dem kom for sent til timen."
+  feil: "Dem"
+  rettelse: "De"
+  forklaring: "«De» er subjekt (den som kom). «Dem» er objekt."
+- id: feil-hver-dag
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  tekst: "Jeg leser hverdag før leggetid."
+  feil: "hverdag"
+  rettelse: "hver dag"
+  forklaring: "«Hver dag» betyr alle dager. «Hverdag» er en dag som ikke er helg."
