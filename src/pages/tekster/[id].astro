@@ -1,0 +1,99 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { hentBesvarelser, hentKapitler, hentOvelser, typeTittel } from '../../lib/innhold';
+import { lesBlokker, tilHtml } from '../../lib/besvarelse';
+import { url } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const alle = await hentBesvarelser();
+  const ovelser = await hentOvelser();
+  const kapitler = new Set((await hentKapitler()).map((k) => k.id));
+  return alle.map((b) => ({
+    params: { id: b.id },
+    props: {
+      tekst: b,
+      original: b.data.bearbeidetFra ? alle.find((x) => x.id === b.data.bearbeidetFra) ?? null : null,
+      forenklinger: alle.filter((x) => x.data.bearbeidetFra === b.id),
+      harKapittel: kapitler.has(b.data.type),
+      antallOvelser: ovelser.filter((o) => o.data.fraTekst?.id === b.id).length,
+    },
+  }));
+}
+
+const { tekst, original, forenklinger, harKapittel, antallOvelser } = Astro.props;
+const d = tekst.data;
+const blokker = lesBlokker(tekst.body ?? '');
+const merknader = new Map(d.avsnitt.map((a) => [a.nr, a]));
+const lenker = [
+  d.diktUrl && { href: d.diktUrl, tekst: 'Les diktet' },
+  d.novelleUrl && { href: d.novelleUrl, tekst: 'Les novellen' },
+  d.analysertTekstUrl && { href: d.analysertTekstUrl, tekst: 'Les teksten som analyseres' },
+].filter(Boolean) as { href: string; tekst: string }[];
+---
+<Layout tittel={d.tittel} beskrivelse={`${typeTittel[d.type]}: ${d.oppgave}`}>
+  <nav aria-label="Brødsmulesti"><a href={url('tekster/')}>Modelltekster</a></nav>
+  <h1>{d.tittel}</h1>
+  <p class="tekst-meta">{typeTittel[d.type]}. {d.nivaa}.</p>
+
+  {d.varsel && <p class="varsel-boks" role="note"><strong>Innholdsvarsel.</strong> {d.varsel}</p>}
+
+  <p><strong>Oppgave:</strong> {d.oppgave}</p>
+  {lenker.length > 0 && (
+    <p>{lenker.map((l, i) => (<>{i > 0 && ' · '}<a href={l.href} target="_blank" rel="noopener">{l.tekst} (åpnes i ny fane)</a></>))}</p>
+  )}
+
+  {(original || forenklinger.length > 0) && (
+    <p>
+      {original && <a href={url(`tekster/${original.id}/`)}>Se originalen ({original.data.nivaa})</a>}
+      {forenklinger.map((f) => <a href={url(`tekster/${f.id}/`)}>Se den forenklede versjonen</a>)}
+    </p>
+  )}
+
+  <div class="kontroller">
+    <label><input type="checkbox" id="vis-merknader" /> Vis merknader til avsnittene</label>
+    {antallOvelser > 0 && <a href={url(`ovelser/${d.type}/`)}>Øv med denne teksten ({antallOvelser} øvelser)</a>}
+    {harKapittel && <a href={url(`hefte/${d.type}/`)}>Les malen i heftet</a>}
+  </div>
+
+  <article class="tekstflate" id="tekstflate">
+    {blokker.map((b) => {
+      if (b.type === 'overskrift') return <h2 class="kilde-overskrift">{b.tekst}</h2>;
+      if (b.type === 'sitat') return <blockquote class="sitat-blokk" set:html={tilHtml(b.tekst)} />;
+      if (b.type === 'kilde') return <div class="kilde-liste"><p set:html={tilHtml(b.tekst)} /></div>;
+      const m = merknader.get(b.nr);
+      return (
+        <div class="avsnitt-rad">
+          <span class="avsnitt-nr" aria-hidden="true">{b.nr}</span>
+          <p set:html={tilHtml(b.tekst)} />
+          {m && (
+            <aside class={`merknad-avsnitt ${m.vurdering ?? ''}`} aria-label={`Merknad til avsnitt ${b.nr}`}>
+              <span class="funksjon">{m.funksjon}</span>
+              {m.vurdering && <strong>{m.vurdering === 'styrke' ? 'Styrke. ' : 'Svakhet. '}</strong>}
+              {m.kommentar && <span class="tekst-liten">{m.kommentar}</span>}
+            </aside>
+          )}
+        </div>
+      );
+    })}
+  </article>
+
+  <div class="lisensboks">
+    {d.forfatter && <p><strong>Tekst:</strong> {d.forfatter}{d.lisens && <> / {d.lisensUrl ? <a href={d.lisensUrl} rel="noopener">{d.lisens}</a> : d.lisens}</>}</p>}
+    {d.kilde && <p><strong>Kilde:</strong> <a href={d.kilde} rel="noopener">{d.kilde}</a></p>}
+    {!d.kilde && d.kildeTittel && <p><strong>Kilde:</strong> {d.kildeTittel}</p>}
+    {d.endringer && <p><strong>Endringer:</strong> {d.endringer}</p>}
+    {d.merknad && (
+      <details>
+        <summary>Merknader til læreren</summary>
+        <p>{d.merknad}</p>
+      </details>
+    )}
+    <p>Merknadene til avsnittene er skrevet for denne siden.</p>
+  </div>
+</Layout>
+
+<script>
+  const boks = document.getElementById('vis-merknader') as HTMLInputElement | null;
+  const flate = document.getElementById('tekstflate');
+  boks?.addEventListener('change', () => flate?.classList.toggle('med-merknader', boks.checked));
+</script>

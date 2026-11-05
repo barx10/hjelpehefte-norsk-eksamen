@@ -312,3 +312,35 @@ textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo,
 @media print { .eks-topp, .faner { display: none; } }
 
 .vedlegg p { white-space: pre-line; }
+
+/* Modelltekster */
+.runner-topp { flex-wrap: wrap; }
+.tekstkilde { flex-basis: 100%; margin: 0.25rem 0 0; font-size: 0.82rem; color: var(--dempet); }
+.tekst-meta { color: var(--dempet); margin: -0.5rem 0 1rem; }
+.varsel-boks { background: #fff3cd; color: #4a3b00; border-left: 5px solid #c79100; border-radius: 8px; padding: 0.75rem 1rem; margin: 1rem 0; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme='light']) .varsel-boks { background: #4a3b00; color: #fff3cd; border-left-color: #e0b13a; } }
+.kontroller { display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; align-items: center; margin: 1rem 0; }
+.kontroller label { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 44px; cursor: pointer; font-weight: 600; }
+.kontroller input { width: 1.2rem; height: 1.2rem; accent-color: var(--primar); }
+.tekstflate { background: var(--flate); border: 1px solid var(--linje); border-radius: var(--radius); padding: 0.5rem 1rem 1rem; }
+.avsnitt-rad { display: grid; grid-template-columns: 2rem 1fr; column-gap: 0.5rem; margin-top: 1rem; }
+.avsnitt-nr { color: var(--aksent); font-weight: 800; padding-top: 0.15rem; }
+.avsnitt-rad p { margin: 0; }
+.avsnitt-rad blockquote { margin: 0; }
+.merknad-avsnitt { display: none; grid-column: 2; margin-top: 0.5rem; padding: 0.5rem 0.75rem; border-radius: 8px; background: var(--flate-2); border-left: 4px solid var(--aksent); font-size: 0.95rem; }
+.merknad-avsnitt.styrke { border-left-color: var(--riktig); }
+.merknad-avsnitt.svakhet { border-left-color: var(--feil); }
+.med-merknader .merknad-avsnitt { display: block; }
+.funksjon { display: inline-block; font-weight: 700; font-size: 0.85rem; padding: 0.05rem 0.6rem; border-radius: 99px; background: var(--flate); border: 1px solid var(--linje); margin-right: 0.4rem; }
+.merknad-avsnitt .tekst-liten { display: block; margin-top: 0.3rem; }
+noscript .merknad-avsnitt { display: block; }
+.tekstflate .kilde-liste p { font-size: 0.92rem; margin: 0.4rem 0; word-break: break-word; }
+.tekstflate blockquote.sitat-blokk { border-left: 4px solid var(--linje); padding-left: 1rem; color: var(--dempet); margin-top: 0.5rem; }
+.lisensboks { margin-top: 1.5rem; padding: 0.75rem 1rem; border: 1px solid var(--linje); border-radius: 10px; font-size: 0.92rem; background: var(--bg); }
+.lisensboks p { margin: 0.3rem 0; }
+.lisensboks details { margin-top: 0.5rem; }
+.tekst-gruppe h3 { margin-top: 1.5rem; }
+.tekstkort { display: block; padding: 0.7rem 1rem; background: var(--flate); border: 1px solid var(--linje); border-radius: 10px; text-decoration: none; color: var(--tekst); min-height: 52px; }
+.tekstkort:hover { border-color: var(--primar); }
+.tekstkort .liten { display: block; color: var(--dempet); font-size: 0.88rem; }
+@media print { .kontroller { display: none; } .med-merknader .merknad-avsnitt { display: block; } }

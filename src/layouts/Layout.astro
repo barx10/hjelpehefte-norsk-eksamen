@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import { url } from '../lib/url';
-import { visUtkast } from '../lib/innhold';
+import { visUtkast, hentBesvarelser, hentEksamen } from '../lib/innhold';
 
 interface Props {
   tittel: string;
@@ -10,9 +10,12 @@ interface Props {
 }
 const { tittel, beskrivelse = 'Øv til skriftlig eksamen i norsk med flashkort og flervalg basert på Hjelpehefte norsk eksamen.', bredde = 'smal' } = Astro.props;
 const naa = Astro.url.pathname;
+const harTekster = (await hentBesvarelser()).length > 0;
+const harEksamen = (await hentEksamen()).length > 0;
 const lenker = [
   { href: url(''), tekst: 'Øv', aktiv: naa === url('') || naa.startsWith(url('ovelser/')) },
-  { href: url('eksamen/'), tekst: 'Eksamenstrening', aktiv: naa.startsWith(url('eksamen/')) },
+  ...(harTekster ? [{ href: url('tekster/'), tekst: 'Modelltekster', aktiv: naa.startsWith(url('tekster/')) }] : []),
+  ...(harEksamen ? [{ href: url('eksamen/'), tekst: 'Eksamenstrening', aktiv: naa.startsWith(url('eksamen/')) }] : []),
   { href: url('hefte/'), tekst: 'Hefte', aktiv: naa.startsWith(url('hefte/')) },
   { href: url('mal/'), tekst: 'Kompetansemål', aktiv: naa.startsWith(url('mal/')) },
   { href: url('fremgang/'), tekst: 'Min fremgang', aktiv: naa.startsWith(url('fremgang/')) },

@@ -1,14 +1,15 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Ovelsesrunner from '../../components/Ovelsesrunner.astro';
-import { hentKapitler, hentOvelser, kapittelNavn, tilKlient } from '../../lib/innhold';
+import { hentBesvarelser, hentKapitler, hentOvelser, kapittelNavn, tilKlient } from '../../lib/innhold';
 import { url } from '../../lib/url';
 
 export async function getStaticPaths() {
   const kapitler = await hentKapitler();
   const ovelser = await hentOvelser();
+  const tekster = new Map((await hentBesvarelser()).map((b) => [b.id, b]));
   const tittelPerId = new Map(kapitler.map((k) => [k.id, kapittelNavn(k)]));
-  const klient = (liste: typeof ovelser) => liste.map((o) => tilKlient(o, tittelPerId.get(o.data.kapittel.id) ?? ''));
+  const klient = (liste: typeof ovelser) => liste.map((o) => tilKlient(o, tittelPerId.get(o.data.kapittel.id) ?? '', tekster));
 
   const sider = kapitler
     .map((k) => ({ k, liste: ovelser.filter((o) => o.data.kapittel.id === k.id) }))
