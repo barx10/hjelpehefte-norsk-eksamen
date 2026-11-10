@@ -3,7 +3,7 @@ tittel: "Gutten som løper"
 type: novelleanalyse
 kategori: modelltekst, forenklet for 10. trinn
 nivaa: ['10']
-status: utkast
+status: godkjent
 oppgave: "Analyse av novellen «Blodspor» av Bakir Ahmethodzic (1999)"
 forfatter: "Åsa Abusland (bearbeidet og forenklet)"
 lisens: "CC BY-SA 4.0"
