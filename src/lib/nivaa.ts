@@ -22,7 +22,7 @@ export const NIVAAER: readonly Nivaa[] = [
     kort: '10. trinn',
     beskrivelse: 'Skriftlig eksamen i norsk etter 10. trinn.',
     malTittel: 'Kompetansemål etter 10. trinn',
-    laereplan: 'https://www.udir.no/lk20/nor01-08',
+    laereplan: 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110',
   },
   {
     id: 'vgs',
@@ -31,7 +31,7 @@ export const NIVAAER: readonly Nivaa[] = [
     kort: 'vg3 studieforberedende',
     beskrivelse: 'Skriftlig eksamen i norsk hovedmål etter vg3 studieforberedende.',
     malTittel: 'Kompetansemål etter vg3 studieforberedende',
-    laereplan: 'https://www.udir.no/lk20/nor01-08',
+    laereplan: 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1114',
   },
 ];
 
