@@ -32,7 +32,7 @@ En sammensatt tekst bruker flere uttrykksformer samtidig, for eksempel bilde og 
 
 > **Eksempel: innledning**
 >
-> Reklamen for «Fjordfrisk» havregryn er en sammensatt tekst med bilde og tekst. Avsenderen er produsenten, og mottakerne er norske familier. Formålet er å selge frokostblandingen ved å vise den som sunn og norsk. I denne teksten skal jeg analysere hvordan reklamen bruker patos og etos.
+> Reklamen for «Fjordfrisk» havregryn er en sammensatt tekst med bilde og tekst. Avsenderen er produsenten, og mottakerne er norske familier. Formålet er å selge havregrynet ved å vise den som sunn og norsk. I denne teksten skal jeg analysere hvordan reklamen bruker patos og etos.
 
 > **Eksempel: avsnitt om bildet**
 >

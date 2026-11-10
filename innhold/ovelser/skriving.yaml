@@ -9,7 +9,7 @@
   nokkelord: ["avsender", "mottaker", "analysere", "etos", "logos", "patos"]
   nokkelordMinst: 3
   kriterier: ["Jeg sier hvem avsenderen er", "Jeg sier hvem mottakeren er", "Jeg sier hva avsenderen vil oppnå", "Jeg sier hva jeg skal gjøre i teksten («I denne teksten skal jeg analysere ...»)"]
-  modelltekst: "I debattinnlegget «Legg bort telefonen» skriver en lærer til foreldre og skolestyre. Hun vil overbevise dem om at mobiler bør legges bort i timene. I denne teksten skal jeg analysere hvordan hun bruker etos, logos og patos for å nå fram."
+  modelltekst: "I debattinnlegget «Legg bort telefonen» skriver en lærer til foreldre og skolens ledelse. Hun vil overbevise dem om at mobiler bør legges bort i timene. I denne teksten skal jeg analysere hvordan hun bruker etos, logos og patos for å nå fram."
   modellkommentar: "En innledning til retorisk analyse nevner avsender, mottaker og formål, og sier hva du skal analysere."
 - id: skriv-innl-novelle
   type: skriv
@@ -65,7 +65,7 @@
   nokkelord: ["målgruppe", "etos", "logos", "patos"]
   nokkelordMinst: 2
   kriterier: ["Jeg svarer på om teksten fungerer for målgruppen", "Jeg begrunner svaret", "Jeg knytter svaret til etos, logos eller patos"]
-  modelltekst: "Samlet sett fungerer innlegget godt for målgruppen, foreldre og skolestyre. Læreren bygger troverdighet gjennom egen erfaring (etos), og hun forklarer sammenhengen mellom mobilbruk og konsentrasjon (logos). Det som svekker teksten, er at hun ikke legger fram tall, så patos blir det sterkeste virkemiddelet."
+  modelltekst: "Samlet sett fungerer innlegget godt for målgruppen, foreldre og skolens ledelse. Læreren bygger troverdighet gjennom egen erfaring (etos), og hun forklarer sammenhengen mellom mobilbruk og konsentrasjon (logos). Det som svekker teksten, er at hun ikke legger fram tall, så patos blir det sterkeste virkemiddelet."
 - id: skriv-tittel
   type: skriv
   kapittel: innledning-avslutning
@@ -86,7 +86,7 @@
   nokkelord: ["metafor"]
   sitat: true
   kriterier: ["Avsnittet starter med en temasetning", "Jeg bruker et sitat fra diktet i anførselstegn", "Jeg forklarer hva metaforen gjør", "Jeg avslutter med en kobling til temaet"]
-  modelltekst: "Metaforen gjør savnet konkret. Dikteren skriver: «Du er en brygge uten båter». En brygge er laget for å ta imot, men her er den tom, og det forteller at jeg-personen er klar til å møte noen som ikke kommer. På den måten får leseren kjenne tomrommet, og metaforen binder sammen diktets tema om å vente."
+  modelltekst: "Metaforen gjør savnet konkret. Dikteren skriver: «Du er en brygge uten båter». En brygge er laget for å ta imot, men her er den tom, og det forteller at jeg-personen er klar til å møte noen som ikke kommer. På den måten får leseren kjenne tomrommet, og metaforen knytter seg til diktets tema om å vente."
 - id: skriv-avs-forbedre
   type: skriv
   kapittel: avsnitt

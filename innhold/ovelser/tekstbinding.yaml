@@ -96,7 +96,7 @@
   spm: "Velg riktig overgangsord: «___ leser du alle oppgavene. Deretter velger du oppgave.»"
   alternativer: ["Først", "Til slutt", "Likevel", "For eksempel"]
   riktig: 0
-  forklaring: "«Deretter» viser at dette er første steg. «Først» passer."
+  forklaring: "Neste setning starter med «deretter». Da er dette første steg, og «først» passer."
 - id: bind-fv-konklusjon
   type: flervalg
   kapittel: tekstbinding

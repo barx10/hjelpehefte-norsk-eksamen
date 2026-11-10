@@ -64,7 +64,7 @@
   spm: "I en tekst står det: «Vi må handle nå, før det er for sent.» Hvilken setning er et referat med egne ord?"
   alternativer: ["Teksten oppfordrer til å handle raskt.", "Teksten sier: «Vi må handle nå, før det er for sent.»", "Vi må handle nå, før det er for sent.", "Teksten handler om noe annet."]
   riktig: 0
-  forklaring: "Et referat gjengir innholdet med egne ord. De to andre bruker teksten ordrett."
+  forklaring: "Et referat gjengir innholdet med egne ord. To av de andre bruker teksten ordrett, og den siste gjengir ikke innholdet."
 - id: kilde-fv-plagiat
   type: flervalg
   kapittel: kilder
