@@ -18,7 +18,7 @@ Til en analyse tar du i tillegg med navnet på teksten, forfatteren eller avsend
 | Svak innledning | Sterk innledning |
 |---|---|
 | «I denne oppgaven skal jeg skrive om sosiale medier.» | «Hva gjør det med oss at vi aldri er alene med tankene våre? I denne teksten vil jeg utforske hvordan telefonen har endret måten vi er sammen på.» |
-| «Debattinnlegget handler om mobil.» | «I debattinnlegget «Legg bort telefonen» skriver en lærer til foreldre og skolens ledelse. Hun vil overbevise dem om at mobilen hører hjemme utenfor timene.» |
+| «Debattinnlegget handler om mobil.» | «I debattinnlegget «Legg bort telefonen» skriver en lærer til foreldre og skolestyre. Hun vil overbevise dem om at mobilen hører hjemme utenfor timene.» |
 
 ## Avslutning
 

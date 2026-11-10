@@ -218,7 +218,7 @@
   nokkelordMinst: 2
   sitat: true
   kriterier: ["Avsnittet starter med en temasetning", "Jeg bruker et sitat fra innlegget i anførselstegn", "Jeg sier både hva som styrker og hva som svekker troverdigheten", "Jeg bruker ordene «etos» og «troverdig»"]
-  modelltekst: "Avsenderen bygger etos ved å vise til egen erfaring. Hun skriver at hun har «undervist i tjue år», og det gjør henne troverdig som en som kjenner klasserommet. Samtidig er hun lærer og ikke forsker, så noen vil kanskje savne tall som viser at mobilen skader læringen. Likevel virker hun troverdig for foreldre og skolens ledelse."
+  modelltekst: "Avsenderen bygger etos ved å vise til egen erfaring. Hun skriver at hun har «undervist i tjue år», og det gjør henne troverdig som en som kjenner klasserommet. Samtidig er hun lærer og ikke forsker, så noen vil kanskje savne tall som viser at mobilen skader læringen. Likevel virker hun troverdig for foreldre og skolestyre."
 - id: tekst-reklame-rekke
   type: rekkefolge
   kapittel: reklameanalyse
