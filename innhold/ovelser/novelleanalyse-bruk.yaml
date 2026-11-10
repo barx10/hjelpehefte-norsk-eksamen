@@ -26,7 +26,7 @@
   type: sortering
   kapittel: novelleanalyse
   mal: [m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Hvilket avsnitt i novelleanalysen hører setningen hjemme i?"
   kategorier: ["Innledning", "Handlingsreferat", "Oppbygging", "Synsvinkel", "Avslutning"]
   elementer:

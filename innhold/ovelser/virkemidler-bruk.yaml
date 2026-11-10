@@ -45,7 +45,7 @@
       hoyre: "Aktiverer leseren"
     - venstre: "Gjentakelse"
       hoyre: "Slår et poeng fast"
-    - venstre: "Understatement"
+    - venstre: "Underdrivelse"
       hoyre: "Gir ironi"
     - venstre: "Korte setninger"
       hoyre: "Gir tempo og trykk"
@@ -108,7 +108,7 @@
       kategori: 0
     - tekst: "Symbol"
       kategori: 1
-    - tekst: "Understatement"
+    - tekst: "Underdrivelse"
       kategori: 0
     - tekst: "Tema"
       kategori: 1
@@ -117,9 +117,9 @@
   type: flervalg
   kapittel: virkemidler
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilket virkemiddel er «Hun var en storm den dagen»?"
-  alternativer: ["Metafor", "Sammenligning", "Besjeling", "Understatement"]
+  alternativer: ["Metafor", "Sammenligning", "Besjeling", "Underdrivelse"]
   riktig: 0
   forklaring: "Hun kalles direkte en storm, uten «som». Det er en metafor."
   utdrag: "Hun var en storm den dagen. Hun feide gjennom gangene og kastet døren igjen."
@@ -127,7 +127,7 @@
   type: flervalg
   kapittel: virkemidler
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilket virkemiddel skaper den trykkende stemningen med «Tik. Tak. Tik. Tak.»?"
   alternativer: ["Gjentakelse", "Overdrivelse", "Allusjon", "Sammenligning"]
   riktig: 0
@@ -137,9 +137,9 @@
   type: flervalg
   kapittel: virkemidler
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilket virkemiddel er dette?"
-  alternativer: ["Overdrivelse", "Understatement", "Metafor", "Kontrast"]
+  alternativer: ["Overdrivelse", "Underdrivelse", "Metafor", "Kontrast"]
   riktig: 0
   forklaring: "Utsagnet sier mer enn det faktisk er, og gir humor."
   utdrag: "Jeg har ventet i hundre år på denne bussen."
@@ -147,9 +147,9 @@
   type: flervalg
   kapittel: virkemidler
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilket virkemiddel er «Det var ikke så galt»?"
-  alternativer: ["Understatement", "Overdrivelse", "Retorisk spørsmål", "Gjentakelse"]
+  alternativer: ["Underdrivelse", "Overdrivelse", "Retorisk spørsmål", "Gjentakelse"]
   riktig: 0
   forklaring: "Han sier mindre enn det faktisk er. Det skaper ironi."
   utdrag: "«Det var ikke så galt,» sa han og så på det som var igjen av huset etter brannen."
@@ -157,7 +157,7 @@
   type: flervalg
   kapittel: virkemidler
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilket virkemiddel er dette?"
   alternativer: ["Retorisk spørsmål", "Gjentakelse", "Allusjon", "Korte setninger"]
   riktig: 0
@@ -167,7 +167,7 @@
   type: flervalg
   kapittel: virkemidler
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilket virkemiddel er den siste setningen?"
   alternativer: ["Frampek", "Vendepunkt", "In medias res", "Høydepunkt"]
   riktig: 0
@@ -177,7 +177,7 @@
   type: flervalg
   kapittel: virkemidler
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hva er «trærne bøyde seg som for å høre bedre»?"
   alternativer: ["Besjeling", "Personifikasjon", "Metafor", "Overdrivelse"]
   riktig: 0
@@ -187,7 +187,7 @@
   type: flervalg
   kapittel: virkemidler
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hva er «Rettferdigheten sov»?"
   alternativer: ["Personifikasjon", "Besjeling", "Sammenligning", "Gjentakelse"]
   riktig: 0
@@ -197,7 +197,7 @@
   type: flervalg
   kapittel: virkemidler
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilket litterært virkemiddel er det når to handlinger skjer samtidig, som her?"
   alternativer: ["Parallellhandlinger", "Sirkelkomposisjon", "In medias res", "Høydepunkt"]
   riktig: 0
@@ -207,7 +207,7 @@
   type: flervalg
   kapittel: virkemidler
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hva er effekten av virkemiddelet i dette utdraget?"
   alternativer: ["Det gir humor og viser at ventetiden føles uendelig lang", "Det gir faktaopplysninger om busstider", "Det gjør teksten mer formell", "Det viser at forfatteren er upålitelig"]
   riktig: 0
@@ -217,8 +217,8 @@
   type: flervalg
   kapittel: virkemidler
   mal: [m10-06]
-  status: utkast
-  spm: "Hva er effekten av understatement i dette utdraget?"
+  status: godkjent
+  spm: "Hva er effekten av underdrivelsen i dette utdraget?"
   alternativer: ["Det skaper ironi og viser hvor stor kontrasten er til virkeligheten", "Det gjør teksten mer spennende fordi handlingen akselererer", "Det viser at personen er glad", "Det forklarer hva som har skjedd"]
   riktig: 0
   forklaring: "Når noen sier mindre enn det faktisk er, blir det ironisk. Brannen er en katastrofe, men han kaller det «ikke så galt»."
@@ -227,7 +227,7 @@
   type: flervalg
   kapittel: virkemidler
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hva gjør frampeket i dette utdraget med leseren?"
   alternativer: ["Det bygger spenning, siden vi aner at noe vil skje", "Det avslører hele slutten", "Det gjør teksten tørr og saklig", "Det forklarer hvem personen er"]
   riktig: 0

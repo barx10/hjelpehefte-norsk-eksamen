@@ -51,7 +51,7 @@
   type: flervalg
   kapittel: instruksjonsord
   mal: [m10-12]
-  status: utkast
+  status: godkjent
   spm: "Oppgaven sier «Drøft». Hva gjør du?"
   alternativer: ["Ser saken fra begge sider og kommer med argumenter for og mot", "Forteller hva du selv mener, uten å vise til andre synspunkter", "Gjengir handlingen i teksten", "Forklarer hva ordene i teksten betyr"]
   riktig: 0
@@ -60,7 +60,7 @@
   type: flervalg
   kapittel: instruksjonsord
   mal: [m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hva ber instruksjonsordet «Analyser» deg om å gjøre?"
   alternativer: ["Gå inn i teksten og se på virkemidler, formål, målgruppe og effekt", "Gjenfortelle teksten med egne ord", "Skrive en personlig opplevelse om temaet", "Si om du liker teksten eller ikke"]
   riktig: 0
@@ -69,7 +69,7 @@
   type: flervalg
   kapittel: instruksjonsord
   mal: [m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hvilket instruksjonsord ber deg om å forklare hva noe er og hvordan det fungerer?"
   alternativer: ["Gjør rede for", "Vurder", "Reflekter", "Argumenter"]
   riktig: 0
@@ -78,7 +78,7 @@
   type: flervalg
   kapittel: instruksjonsord
   mal: [m10-12]
-  status: utkast
+  status: godkjent
   spm: "Du skal ta stilling, si hva du mener og begrunne det. Hvilket instruksjonsord passer?"
   alternativer: ["Vurder", "Sammenlign", "Gjør rede for", "Analyser"]
   riktig: 0
@@ -87,7 +87,7 @@
   type: flervalg
   kapittel: instruksjonsord
   mal: [m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hva gjør du når oppgaven sier «Sammenlign»?"
   alternativer: ["Finner likheter og forskjeller mellom to tekster eller fenomener", "Velger den teksten du liker best", "Forklarer én tekst grundig", "Gjengir begge tekstene i sin helhet"]
   riktig: 0
@@ -96,7 +96,7 @@
   type: flervalg
   kapittel: instruksjonsord
   mal: [m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hva kjennetegner et godt svar på «Reflekter»?"
   alternativer: ["Temaet sees fra flere vinkler, og egne erfaringer brukes", "Det er kort og faktabasert uten egne tanker", "Det gjengir handlingen", "Det bare nevner virkemidler"]
   riktig: 0
@@ -105,7 +105,7 @@
   type: flervalg
   kapittel: instruksjonsord
   mal: [m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hva skal du gjøre når oppgaven sier «Argumenter»?"
   alternativer: ["Komme med saklige grunner for eller mot noe", "Se saken fra begge sider uten å velge", "Forklare hvordan noe fungerer", "Gjenfortelle teksten"]
   riktig: 0

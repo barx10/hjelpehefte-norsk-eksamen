@@ -18,7 +18,7 @@
   type: sortering
   kapittel: diktanalyse
   mal: [m10-01, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Er dette et motiv (det konkrete) eller et tema (det abstrakte)?"
   kategorier: ["Motiv", "Tema"]
   elementer:

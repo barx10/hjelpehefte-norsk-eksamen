@@ -3,7 +3,7 @@ tittel: "Eplejus og norsk natur"
 type: reklameanalyse
 kategori: modelltekst, forenklet for 10. trinn
 nivaa: ['10']
-status: utkast
+status: godkjent
 oppgave: "Analyse av en sammensatt reklametekst for Lerum eplejus i ny pakning"
 forfatter: "Åsa Abusland (bearbeidet og forenklet)"
 lisens: "CC BY-SA 4.0"

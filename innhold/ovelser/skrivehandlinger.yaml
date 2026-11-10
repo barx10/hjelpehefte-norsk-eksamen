@@ -44,7 +44,7 @@
   type: flervalg
   kapittel: skrivehandlinger
   mal: [m10-10]
-  status: utkast
+  status: godkjent
   spm: "Kåseri hører til en bestemt skrivehandling. Hvilken?"
   alternativer: ["Å reflektere", "Å overbevise", "Å forestille seg", "Å utforske"]
   riktig: 0
@@ -53,7 +53,7 @@
   type: flervalg
   kapittel: skrivehandlinger
   mal: [m10-10]
-  status: utkast
+  status: godkjent
   spm: "Du skal skrive en novelle. Hvilken skrivehandling er det?"
   alternativer: ["Å forestille seg", "Å beskrive", "Å samhandle", "Å utforske"]
   riktig: 0
@@ -62,7 +62,7 @@
   type: flervalg
   kapittel: skrivehandlinger
   mal: [m10-10]
-  status: utkast
+  status: godkjent
   spm: "Formålet er å argumentere, hevde meninger og overtale. Hvilken skrivehandling er det?"
   alternativer: ["Å overbevise", "Å beskrive", "Å reflektere", "Å samhandle"]
   riktig: 0
@@ -71,7 +71,7 @@
   type: flervalg
   kapittel: skrivehandlinger
   mal: [m10-10]
-  status: utkast
+  status: godkjent
   spm: "Hvilken skrivehandling hører rapport til?"
   alternativer: ["Å utforske", "Å forestille seg", "Å overbevise", "Å reflektere"]
   riktig: 0

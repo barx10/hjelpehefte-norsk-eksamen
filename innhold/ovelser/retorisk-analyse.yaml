@@ -65,7 +65,7 @@
   type: flervalg
   kapittel: retorisk-analyse
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilken appellform brukes i dette utsagnet? «Som sykepleier med tjue års erfaring har jeg sett hva ensomhet gjør med eldre.»"
   alternativer: ["Etos", "Logos", "Patos", "Ingen av dem"]
   riktig: 0
@@ -74,7 +74,7 @@
   type: flervalg
   kapittel: retorisk-analyse
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilken appellform brukes i dette utsagnet? «Fordi trafikken har økt med 20 prosent, må kollektivtilbudet bygges ut.»"
   alternativer: ["Logos", "Etos", "Patos", "Ingen av dem"]
   riktig: 0
@@ -83,7 +83,7 @@
   type: flervalg
   kapittel: retorisk-analyse
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilken appellform brukes i dette utsagnet? «Tenk deg å våkne alene hver eneste julemorgen.»"
   alternativer: ["Patos", "Logos", "Etos", "Ingen av dem"]
   riktig: 0
@@ -92,7 +92,7 @@
   type: flervalg
   kapittel: retorisk-analyse
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilken appellform brukes i dette utsagnet? «Vi i Foreningen for lokal mat har drevet gårdsbutikker i femti år.»"
   alternativer: ["Etos", "Logos", "Patos", "Ingen av dem"]
   riktig: 0
@@ -101,7 +101,7 @@
   type: flervalg
   kapittel: retorisk-analyse
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilken appellform brukes i dette utsagnet? «Undersøkelsen viser at 7 av 10 elever sover mindre enn åtte timer.»"
   alternativer: ["Logos", "Etos", "Patos", "Ingen av dem"]
   riktig: 0
@@ -110,7 +110,7 @@
   type: flervalg
   kapittel: retorisk-analyse
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Hvilken appellform brukes i dette utsagnet? «Det er uforståelig og skammelig at vi lar dem stå alene i kulden.»"
   alternativer: ["Patos", "Logos", "Etos", "Ingen av dem"]
   riktig: 0
@@ -119,7 +119,7 @@
   type: flervalg
   kapittel: retorisk-analyse
   mal: [m10-06, m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hva ser du etter i logos-avsnittet i en retorisk analyse?"
   alternativer: ["«Fordi», tall og fakta, og om argumentene er logiske", "Ord som vekker sterke følelser", "Hvem avsenderen er og hva de kan", "Rim og rytme"]
   riktig: 0

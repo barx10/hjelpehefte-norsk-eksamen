@@ -3,7 +3,7 @@ tittel: "En bekymret ung mann"
 type: retorisk-analyse
 kategori: modelltekst
 nivaa: ['10', 'vg3']
-status: utkast
+status: godkjent
 oppgave: "Retorisk analyse av leserinnlegget «Som ungdomsskoleelev traff «Kjønnskampen» meg hardt» (Aftenposten, Si ;D, 27. mai 2019)"
 forfatter: "Åsa Abusland"
 lisens: "CC BY-SA 4.0"

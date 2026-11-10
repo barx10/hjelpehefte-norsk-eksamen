@@ -30,7 +30,7 @@
   type: flervalg
   kapittel: sjekkliste
   mal: [m10-06, m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hvilket svar viser best virkemiddelanalyse?"
   alternativer: ["Forfatteren bruker metaforen «livet er en storm». Det gjør at vi forstår hvor kaotisk livet føles for karakteren.", "Forfatteren bruker metafor.", "Metaforer er vanlige i litteratur.", "Teksten har mange virkemidler, og det gjør den bra."]
   riktig: 0
@@ -39,7 +39,7 @@
   type: flervalg
   kapittel: sjekkliste
   mal: [m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hvor mange fagbegreper bør du minst bruke når oppgaven ber om analyse?"
   alternativer: ["Tre", "Ett", "Ingen", "Femti"]
   riktig: 0
@@ -48,7 +48,7 @@
   type: flervalg
   kapittel: sjekkliste
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   spm: "Hvilken skrivemåte er riktig?"
   alternativer: ["eksamensoppgave", "eksamen oppgave", "eksamens oppgave", "eksamen-oppgave"]
   riktig: 0
