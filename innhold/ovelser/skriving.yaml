@@ -2,7 +2,7 @@
   type: skriv
   kapittel: innledning-avslutning
   mal: [m10-10, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv innledningen til en retorisk analyse av debattinnlegget."
   utdrag: "Debattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
   ord: { min: 40, maks: 90 }
@@ -15,7 +15,7 @@
   type: skriv
   kapittel: innledning-avslutning
   mal: [m10-10, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv innledningen til en novelleanalyse av utdraget."
   utdrag: "Novelleutdrag «Paraplyen» (fiktiv tekst for øving):\n\nRegnet hadde falt siden morgenen. Mia stod alene ved busstoppet og så på paraplyen som lå igjen på benken. Ingen kom for å hente den. Da bussen endelig svingte inn, lot hun døren gli igjen og ble stående."
   ord: { min: 40, maks: 90 }
@@ -27,7 +27,7 @@
   type: skriv
   kapittel: innledning-avslutning
   mal: [m10-10, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv innledningen til en diktanalyse av diktet."
   utdrag: "Diktet «Havn» (fiktiv tekst for øving):\n\nHavna sover under tåka,\nskipene puster tungt.\nAlt jeg sa ble liggende igjen\npå kaia, kaldt og urørt.\n\nDu er en brygge uten båter.\nJeg står der likevel\nog venter, som om tiden\nkunne snu av seg selv."
   ord: { min: 40, maks: 90 }
@@ -39,7 +39,7 @@
   type: skriv
   kapittel: innledning-avslutning
   mal: [m10-10, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv innledningen til en reflekterende tekst med tittelen «Hva er en venn?»"
   ord: { min: 40, maks: 80 }
   kriterier: ["Jeg kommer raskt til poenget", "Jeg stiller et spørsmål eller sier hva jeg vil utforske", "Innledningen gjør leseren nysgjerrig"]
@@ -48,7 +48,7 @@
   type: skriv
   kapittel: innledning-avslutning
   mal: [m10-10, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv om avslutningen slik at den tar stilling i stedet for å oppsummere."
   starttekst: "Til slutt vil jeg oppsummere. Jeg har skrevet om vennskap, og jeg har tatt opp flere ting. Det er mange måter å se det på."
   ord: { min: 30, maks: 80 }
@@ -58,7 +58,7 @@
   type: skriv
   kapittel: innledning-avslutning
   mal: [m10-06, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv avslutningen på en retorisk analyse av debattinnlegget."
   utdrag: "Debattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
   ord: { min: 30, maks: 80 }
@@ -70,7 +70,7 @@
   type: skriv
   kapittel: innledning-avslutning
   mal: [m10-10, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv en tittel til en reflekterende tekst om hvorfor vi scroller."
   ord: { min: 5, maks: 15 }
   kriterier: ["Tittelen har mellom 5 og 15 ord", "Tittelen stiller et spørsmål eller gir en påstand", "Tittelen sier noe om temaet"]
@@ -79,7 +79,7 @@
   type: skriv
   kapittel: avsnitt
   mal: [m10-06, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv ett avsnitt om metaforen «Du er en brygge uten båter» med temasetning, sitat, forklaring og kobling."
   utdrag: "Diktet «Havn» (fiktiv tekst for øving):\n\nHavna sover under tåka,\nskipene puster tungt.\nAlt jeg sa ble liggende igjen\npå kaia, kaldt og urørt.\n\nDu er en brygge uten båter.\nJeg står der likevel\nog venter, som om tiden\nkunne snu av seg selv."
   ord: { min: 50, maks: 110 }
@@ -91,7 +91,7 @@
   type: skriv
   kapittel: avsnitt
   mal: [m10-06, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Gjør dette om til et godt analyseavsnitt om metaforen «Du er en brygge uten båter»."
   utdrag: "Diktet «Havn» (fiktiv tekst for øving):\n\nHavna sover under tåka,\nskipene puster tungt.\nAlt jeg sa ble liggende igjen\npå kaia, kaldt og urørt.\n\nDu er en brygge uten båter.\nJeg står der likevel\nog venter, som om tiden\nkunne snu av seg selv."
   starttekst: "Forfatteren bruker metafor. Det er bra."
@@ -105,7 +105,7 @@
   type: skriv
   kapittel: avsnitt
   mal: [m10-06, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv et avsnitt om gjentakelsen i dette utdraget fra en tekst: «Vi går. Vi går. Vi går videre.»"
   ord: { min: 40, maks: 90 }
   nokkelord: ["gjentakelse"]
@@ -116,7 +116,7 @@
   type: skriv
   kapittel: avsnitt
   mal: [m10-06, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv et logos-avsnitt om denne setningen i et debattinnlegg: «Elever som har mobilen i lomma, løser færre oppgaver fordi de blir avbrutt.»"
   ord: { min: 40, maks: 90 }
   nokkelord: ["logos", "fordi"]
@@ -127,7 +127,7 @@
   type: skriv
   kapittel: droftende-tekst
   mal: [m10-10, m10-09, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv innledningen til en drøftende tekst med tittelen «Bør skolen forby mobiltelefoner i timene?»"
   ord: { min: 40, maks: 90 }
   nokkelord: ["drøfte"]
@@ -137,7 +137,7 @@
   type: skriv
   kapittel: droftende-tekst
   mal: [m10-10, m10-09, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv ett avsnitt som tar opp et motargument mot mobilforbud, og svar på det."
   ord: { min: 60, maks: 120 }
   nokkelord: ["derimot", "likevel", "men", "på den andre siden"]
@@ -148,7 +148,7 @@
   type: skriv
   kapittel: droftende-tekst
   mal: [m10-10, m10-09, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv avslutningen på en drøfting av mobilforbud. Ta stilling."
   ord: { min: 40, maks: 90 }
   kriterier: ["Jeg tar stilling", "Jeg begrunner standpunktet", "Jeg oppsummerer ikke bare, jeg kommer fram til noe"]
@@ -157,7 +157,7 @@
   type: skriv
   kapittel: oppgave-1
   mal: [m10-01, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Hva er hovedpåstanden i innlegget? Svar i 1–2 setninger."
   utdrag: "Debattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
   ord: { min: 10, maks: 50 }
@@ -167,7 +167,7 @@
   type: skriv
   kapittel: oppgave-1
   mal: [m10-01, m10-12]
-  status: utkast
+  status: godkjent
   oppdrag: "Hvem er avsenderen, og hvem er mottakeren? Svar i 1–2 setninger."
   utdrag: "Debattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
   ord: { min: 10, maks: 50 }
@@ -179,7 +179,7 @@
   type: skriv
   kapittel: oppgave-1
   mal: [m10-06, m10-01]
-  status: utkast
+  status: godkjent
   oppdrag: "Finn ett eksempel på patos i innlegget og forklar hvorfor det er patos."
   utdrag: "Debattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
   ord: { min: 15, maks: 60 }
