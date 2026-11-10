@@ -1,6 +1,7 @@
 tittel: "Pakke 2: Mat, tid og venting"
 beskrivelse: "Denne pakken har et debattinnlegg om skolemat, et dikt og en kort undersøkelse. Alle tekstene er skrevet for øving."
 status: godkjent
+kjennetegnStatus: utkast
 vedlegg:
   - id: v1
     tittel: "Vedlegg 1: Gratis skolemat til alle"
@@ -31,6 +32,14 @@ oppgave2:
   valg:
     - id: dikt
       tittel: "A: Analyser diktet"
+      kjennetegn:
+        - "Innledningen nevner tittelen «Havn» og sier hva du skal analysere."
+        - "Du skiller mellom motiv (en havn i tåke og en som står på kaia og venter) og tema, for eksempel savn og venting på noen som ikke kommer."
+        - "Du beskriver formen: tre strofer med fire verselinjer hver, frie vers uten rim. Du sier hva formen gjør med stemningen."
+        - "Du analyserer minst to virkemidler med sitat, for eksempel metaforen «Du er en brygge uten båter» og besjelingen «Havna sover»."
+        - "Du forklarer hva hvert virkemiddel gjør i diktet, ikke bare hva det heter."
+        - "Du beskriver stemningen og peker på ord som skaper den, for eksempel «tåka», «kaldt» og «urørt»."
+        - "Avslutningen kobler tema og virkemidler, gjerne med en kommentar til siste linje."
       tekst: "Analyser diktet «Havn» i vedlegg 2. Gjør rede for tema, motiv, form og minst to virkemidler."
       mal: diktanalyse
       vedlegg: v2
@@ -40,6 +49,13 @@ oppgave2:
       sitat: true
     - id: retorikk
       tittel: "B: Retorisk analyse"
+      kjennetegn:
+        - "Innledningen sier hvem avsenderen er (en kantineleder), hvem mottakerne er, hva hun vil oppnå, og hva du skal analysere."
+        - "Etos: Du viser hvordan tolv års erfaring i kantina bygger troverdighet, og du vurderer om noe svekker den."
+        - "Logos: Du peker på tallet «3 av 10 elever» og årsaksforklaringen med «fordi». Du vurderer hvor sterkt det er at undersøkelsen er hennes egen."
+        - "Patos: Du peker på «Tenk deg å sitte gjennom en matteprøve mens magen rumler» eller ordet «urettferdig», og forklarer hvilke følelser det vekker."
+        - "Du setter sitatene i anførselstegn og forklarer hva hvert av dem gjør med leseren."
+        - "Avslutningen vurderer om innlegget fungerer for målgruppen, og begrunner det."
       tekst: "Analyser hvordan avsenderen forsøker å overbevise leserne i innlegget i vedlegg 1."
       mal: retorisk-analyse
       vedlegg: v1
@@ -49,6 +65,14 @@ oppgave2:
       sitat: true
 oppgave3:
   tekst: "Skriv et leserinnlegg der du argumenterer for eller mot gratis skolemat. Bruk opplysninger fra vedlegg 3, og kommenter gjerne vedlegg 1."
+  kjennetegn:
+    - "Standpunktet ditt kommer tydelig fram tidlig i teksten."
+    - "Du bruker minst to tall fra undersøkelsen i vedlegg 3, for eksempel at 31 prosent ofte hopper over frokost, og at 12 prosent ikke har råd til å kjøpe mat på skolen."
+    - "Du sier hvor tallene kommer fra: elevrådets undersøkelse blant 180 elever ved Åsen ungdomsskole."
+    - "Du kommenterer ett poeng fra kantinelederens innlegg i vedlegg 1 og sier om du er enig eller uenig."
+    - "Du tar opp ett motargument, for eksempel kostnaden, og svarer på det."
+    - "Innlegget har tittel og saklig tone, og det slutter med en konklusjon eller en oppfordring."
+    - "Teksten er mellom 250 og 350 ord."
   vedlegg: [v3, v1]
   ord: { min: 250, maks: 350 }
   nokkelord: ["prosent", "undersøkelse", "innlegg"]

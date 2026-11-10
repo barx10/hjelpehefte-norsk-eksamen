@@ -84,6 +84,8 @@ Modelltekster ligger i `innhold/besvarelser/`, én fil per tekst. Frontmatter ha
 
 Eksamenspakker ligger i `innhold/eksamen/`, én YAML-fil per pakke. En pakke har vedlegg, oppgave 1 (tre delspørsmål med modellsvar), oppgave 2 (ett eller flere valg, hvert knyttet til en mal i heftet) og oppgave 3. Byggingen stopper hvis en oppgave peker på et vedlegg eller en mal som ikke finnes. Tekstene skal være skrevet for øvingen. Pakker med `status: utkast` vises ikke på den publiserte siden.
 
+Hvert valg i oppgave 2 og oppgave 3 kan ha `kjennetegn`: en liste med punkter som viser hva et godt svar inneholder. Eleven ser dem i tilbakemeldingen etter levering og krysser av selv. Punktene vises bare når pakken har `kjennetegnStatus: godkjent`.
+
 Byggingen stopper med en feilmelding hvis en øvelse peker på et kapittel eller mål som ikke finnes, hvis en id er brukt to ganger, eller hvis `riktig` peker utenfor alternativene.
 
 ### Status

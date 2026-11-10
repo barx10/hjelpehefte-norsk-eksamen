@@ -1,6 +1,7 @@
 tittel: "Pakke 1: Mobil og konsentrasjon"
 beskrivelse: "Denne pakken handler om mobilbruk i skolen. Du får et debattinnlegg, et novelleutdrag og en kort undersøkelse. Alle tekstene er skrevet for øving."
 status: godkjent
+kjennetegnStatus: utkast
 vedlegg:
   - id: v1
     tittel: "Vedlegg 1: Legg bort telefonen i timene"
@@ -31,6 +32,14 @@ oppgave2:
   valg:
     - id: novelle
       tittel: "A: Analyser novellen"
+      kjennetegn:
+        - "Innledningen nevner tittelen «Paraplyen» og sier hva du skal analysere."
+        - "Du skiller mellom motiv (en jente som venter på bussen, men lar den kjøre) og tema, for eksempel oppbrudd og det å ta et eget valg."
+        - "Du peker på vendepunktet der Mia tar paraplyen og lar bussen kjøre, og du kommenterer den åpne slutten."
+        - "Du bestemmer synsvinkelen (personal 3. person) og begrunner den med et eksempel fra teksten."
+        - "Du analyserer minst to virkemidler med sitat, for eksempel paraplyen som symbol, regnet eller besjelingen «Døren åpnet seg med et sukk»."
+        - "Du forklarer hva hvert virkemiddel gjør i teksten, ikke bare hva det heter."
+        - "Avslutningen kobler tema og virkemidler og sier hva teksten vil vise."
       tekst: "Analyser novelleutdraget «Paraplyen» i vedlegg 2. Gjør rede for tema, oppbygging, synsvinkel og minst to virkemidler."
       mal: novelleanalyse
       vedlegg: v2
@@ -40,11 +49,26 @@ oppgave2:
       sitat: true
     - id: refleksjon
       tittel: "B: Reflekter over skjermen i hverdagen"
+      kjennetegn:
+        - "Tittelen stiller et spørsmål eller gir en påstand, og innledningen kommer raskt til poenget."
+        - "Hoveddelen har minst tre avsnitt med ulike vinkler, og hvert avsnitt starter med en temasetning."
+        - "Du bruker egne erfaringer som eksempler, ikke bare generelle påstander."
+        - "Du viser både hva skjermen gir deg og andre, og hva den tar."
+        - "Avsnittene er bundet sammen med overgangsord som «likevel», «derimot» og «for eksempel»."
+        - "Avslutningen tar stilling i stedet for å oppsummere."
       tekst: "Reflekter over hvordan mobilen og skjermen påvirker hverdagen din og de rundt deg. Bruk egne erfaringer og se saken fra flere sider."
       mal: reflekterende-tekst
       ord: { min: 450, maks: 900 }
 oppgave3:
   tekst: "Skriv et leserinnlegg der du argumenterer for eller mot et forbud mot mobil i timene på din skole. Bruk opplysninger fra vedlegg 3, og kommenter gjerne vedlegg 1."
+  kjennetegn:
+    - "Standpunktet ditt kommer tydelig fram tidlig i teksten."
+    - "Du bruker minst to tall fra undersøkelsen i vedlegg 3, for eksempel at 71 prosent ønsker klare regler, mens bare 29 prosent ønsker totalforbud."
+    - "Du sier hvor tallene kommer fra: en spørreundersøkelse blant 214 elever ved Fjellvang ungdomsskole."
+    - "Du kommenterer ett poeng fra lærerens innlegg i vedlegg 1 og sier om du er enig eller uenig."
+    - "Du tar opp ett motargument og svarer på det."
+    - "Innlegget har tittel og saklig tone, og det slutter med en konklusjon eller en oppfordring."
+    - "Teksten er mellom 250 og 350 ord."
   vedlegg: [v3, v1]
   ord: { min: 250, maks: 350 }
   nokkelord: ["prosent", "undersøkelse", "innlegg"]

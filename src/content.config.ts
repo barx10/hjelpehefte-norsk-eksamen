@@ -214,6 +214,8 @@ const eksamen = defineCollection({
       beskrivelse: z.string(),
       status,
       nivaa: nivaaliste,
+      // Kjennetegn på et godt svar i oppgave 2 og 3 vises bare når de er godkjent (eller i utkastmodus).
+      kjennetegnStatus: status.default('utkast'),
       vedlegg: z.array(z.object({ id: z.string(), tittel: z.string(), forfatter: z.string().optional(), tekst: z.string() })).min(1),
       oppgave1: z.object({
         vedlegg: z.string(),
@@ -233,6 +235,7 @@ const eksamen = defineCollection({
               nokkelord: z.array(z.string()).default([]),
               nokkelordMinst: z.number().int().min(1).optional(),
               sitat: z.boolean().default(false),
+              kjennetegn: z.array(z.string()).max(8).default([]),
             }),
           )
           .min(1),
@@ -244,6 +247,7 @@ const eksamen = defineCollection({
         nokkelord: z.array(z.string()).default([]),
         nokkelordMinst: z.number().int().min(1).optional(),
         sitat: z.boolean().default(false),
+        kjennetegn: z.array(z.string()).max(8).default([]),
       }),
     })
     .superRefine((e, ctx) => {
