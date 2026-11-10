@@ -2,7 +2,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Jeg leste eksamen oppgaven nøye."
   feil: "eksamen oppgaven"
   rettelse: "eksamensoppgaven"
@@ -11,7 +11,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Vi trenger en god skrive plan."
   feil: "skrive plan"
   rettelse: "skriveplan"
@@ -20,7 +20,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Hun leste en lang avis artikkel."
   feil: "avis artikkel"
   rettelse: "avisartikkel"
@@ -29,7 +29,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Teksten har en sterk språk bruk."
   feil: "språk bruk"
   rettelse: "språkbruk"
@@ -38,7 +38,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Dikt analysen var vanskelig."
   feil: "Dikt analysen"
   rettelse: "Diktanalysen"
@@ -47,7 +47,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Vi har eksamen imorgen."
   feil: "imorgen"
   rettelse: "i morgen"
@@ -56,7 +56,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Jeg leste novellen idag."
   feil: "idag"
   rettelse: "i dag"
@@ -65,7 +65,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Vi skrev en tekst igår."
   feil: "igår"
   rettelse: "i går"
@@ -74,7 +74,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Tilslutt oppsummerer jeg poengene."
   feil: "Tilslutt"
   rettelse: "Til slutt"
@@ -83,7 +83,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Mange bruker virkemidler, forexempel metaforer."
   feil: "forexempel"
   rettelse: "for eksempel"
@@ -92,7 +92,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Eksamen er på Mandag."
   feil: "Mandag"
   rettelse: "mandag"
@@ -101,7 +101,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Vi har prøve i Mai."
   feil: "Mai"
   rettelse: "mai"
@@ -110,7 +110,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Jeg liker å skrive på Norsk."
   feil: "Norsk"
   rettelse: "norsk"
@@ -119,7 +119,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "«Faderen» ble skrevet av Bjørnson, en Norsk forfatter."
   feil: "Norsk"
   rettelse: "norsk"
@@ -128,7 +128,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Vi bor i oslo."
   feil: "oslo"
   rettelse: "Oslo"
@@ -137,7 +137,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Det regnet. vi gikk hjem."
   feil: "vi"
   rettelse: "Vi"
@@ -146,7 +146,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Jeg liker og lese bøker."
   feil: "og"
   rettelse: "å"
@@ -155,7 +155,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Hun prøvde og skrive en novelle."
   feil: "og"
   rettelse: "å"
@@ -164,7 +164,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Hun leste novellen å skrev en analyse."
   feil: "å"
   rettelse: "og"
@@ -173,7 +173,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Jeg ser de hver dag."
   feil: "de"
   rettelse: "dem"
@@ -182,7 +182,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Dem kom for sent til timen."
   feil: "Dem"
   rettelse: "De"
@@ -191,7 +191,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   tekst: "Jeg leser hverdag før leggetid."
   feil: "hverdag"
   rettelse: "hver dag"
