@@ -39,7 +39,7 @@
   oppdrag: "Hvilken funksjon har setningen i avsnittet?"
   kategorier: ["Temasetning", "Belegg", "Forklaring", "Kobling"]
   elementer:
-    - tekst: "Gjentakelsen gir teksten rytme."
+    - tekst: "Forfatteren bruker gjentakelse for å framheve utholdenhet."
       kategori: 0
     - tekst: "Forfatteren skriver: «Vi går. Vi går. Vi går videre.»"
       kategori: 1

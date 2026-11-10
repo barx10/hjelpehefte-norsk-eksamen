@@ -86,7 +86,7 @@
   nokkelord: ["metafor"]
   sitat: true
   kriterier: ["Avsnittet starter med en temasetning", "Jeg bruker et sitat fra diktet i anførselstegn", "Jeg forklarer hva metaforen gjør", "Jeg avslutter med en kobling til temaet"]
-  modelltekst: "Metaforen gjør savnet konkret. Dikteren skriver: «Du er en brygge uten båter». En brygge er laget for å ta imot, men her er den tom, og det forteller at jeg-personen er klar til å møte noen som ikke kommer. På den måten får leseren kjenne tomrommet, og metaforen binder sammen diktets tema om å vente."
+  modelltekst: "Metaforen gjør savnet konkret. Dikteren skriver: «Du er en brygge uten båter». En brygge er laget for å ta imot, men her er den tom, og det forteller at jeg-personen er klar til å møte noen som ikke kommer. På den måten får leseren kjenne tomrommet, og metaforen knytter seg til diktets tema om å vente."
 - id: skriv-avs-forbedre
   type: skriv
   kapittel: avsnitt

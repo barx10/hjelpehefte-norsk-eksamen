@@ -2,7 +2,7 @@
 tittel: Innledning, avslutning og tittel
 nummer: '14'
 rekkefolge: 14
-status: utkast
+status: godkjent
 ---
 
 Innledningen og avslutningen er det leseren husker. Tittelen er det første de ser.

@@ -2,7 +2,7 @@
 tittel: "Sammensatt tekst: reklameanalyse"
 nummer: '4.6'
 rekkefolge: 4.6
-status: utkast
+status: godkjent
 ---
 
 En sammensatt tekst bruker flere uttrykksformer samtidig, for eksempel bilde og skrift. Reklame er et typisk eksempel. Når du analyserer en reklame, ser du på bildet, på teksten og på hvordan de virker sammen. Du bruker de samme verktøyene som i en retorisk analyse: etos, logos og patos.
@@ -32,7 +32,7 @@ En sammensatt tekst bruker flere uttrykksformer samtidig, for eksempel bilde og 
 
 > **Eksempel: innledning**
 >
-> Reklamen for «Fjordfrisk» havregryn er en sammensatt tekst med bilde og tekst. Avsenderen er produsenten, og mottakerne er norske familier. Formålet er å selge frokostblandingen ved å vise den som sunn og norsk. I denne teksten skal jeg analysere hvordan reklamen bruker patos og etos.
+> Reklamen for «Fjordfrisk» havregryn er en sammensatt tekst med bilde og tekst. Avsenderen er produsenten, og mottakerne er norske familier. Formålet er å selge havregrynet ved å vise den som sunn og norsk. I denne teksten skal jeg analysere hvordan reklamen bruker patos og etos.
 
 > **Eksempel: avsnitt om bildet**
 >

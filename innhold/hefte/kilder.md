@@ -2,7 +2,7 @@
 tittel: Kilder og sitering
 nummer: '9'
 rekkefolge: 9
-status: utkast
+status: godkjent
 ---
 
 Når du bruker tekster eller opplysninger fra andre, må du vise hvor de kommer fra. Det gjør teksten din mer troverdig, og det hindrer plagiat.

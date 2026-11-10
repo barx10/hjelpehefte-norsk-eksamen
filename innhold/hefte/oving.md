@@ -2,7 +2,7 @@
 tittel: Slik øver du til eksamen
 nummer: '16'
 rekkefolge: 16
-status: utkast
+status: godkjent
 ---
 
 Dette er et forslag. Tilpass det til hvor mye tid du har.

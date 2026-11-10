@@ -53,7 +53,7 @@
   mal: [m10-01]
   status: utkast
   spm: "I et dikt sitter en gammel mann alene ved vinduet mens regnet faller. Hva er dette?"
-  alternativer: ["Motivet", "Temaet", "Rimmønsteret", "Stemningen alene"]
+  alternativer: ["Motivet", "Temaet", "Rimmønsteret", "Stemningen"]
   riktig: 0
   forklaring: "Motivet er det konkrete vi ser i diktet. Temaet er det abstrakte, for eksempel ensomhet."
 - id: dikt-fv-tema

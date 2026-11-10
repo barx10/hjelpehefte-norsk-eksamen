@@ -2,7 +2,7 @@
 tittel: Drøftende tekst
 nummer: '4.5'
 rekkefolge: 4.5
-status: utkast
+status: godkjent
 ---
 
 I en drøftende tekst ser du en sak fra flere sider, veier argumentene mot hverandre og kommer fram til en konklusjon. Du bruker den når oppgaven sier «drøft», «vurder» eller «diskuter».

@@ -2,7 +2,7 @@
 tittel: Vanlige skrivefeil
 nummer: '11'
 rekkefolge: 11
-status: utkast
+status: godkjent
 ---
 
 Retteprogrammet fanger ikke alt. Her er feil som går igjen.

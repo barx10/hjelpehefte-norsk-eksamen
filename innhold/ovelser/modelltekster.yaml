@@ -383,7 +383,7 @@
   alternativer: ["En kilde som viser at opplysningene stemmer", "En tittel", "Et sitat", "En konklusjon"]
   riktig: 0
   forklaring: "Utdraget kommer med påstander om dødsfallet uten kilde. I en fagartikkel må opplysninger støttes av kilder."
-  utdrag: "Da han sovnet inn etter en feildosering av sovepiller i 2009, ble en hel verden rystet. Det ble spekulert mye rundt dødsfallet, og nye konspirasjonsteorier dukket opp."
+  utdrag: "Eleven skriver om artisten Michael Jackson: Da han sovnet inn etter en feildosering av sovepiller i 2009, ble en hel verden rystet. Det ble spekulert mye rundt dødsfallet, og nye konspirasjonsteorier dukket opp."
 - id: tekst-fag-svak-generalisering
   type: flervalg
   kapittel: fagartikkel

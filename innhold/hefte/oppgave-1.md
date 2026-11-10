@@ -2,7 +2,7 @@
 tittel: "Oppgave 1: korte svar"
 nummer: '15'
 rekkefolge: 15
-status: utkast
+status: godkjent
 ---
 
 Oppgave 1 tester om du har forstått teksten. Du får tre delspørsmål. Svarene skal være korte og presise. Her er det ikke plass til innledning og avslutning.
