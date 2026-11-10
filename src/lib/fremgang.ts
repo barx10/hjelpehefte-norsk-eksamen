@@ -3,7 +3,15 @@
 export type Post = { box: number; riktig: number; feil: number; sist: number };
 export type Fremgang = Record<string, Post>;
 
+import { nokkelForNivaa } from './nivaa.ts';
+
 export const NOKKEL = 'hjelpehefte-norsk:fremgang:v1';
+
+/** Fremgangen lagres per nivå. Nivået står på html-elementet (data-nivaa) på alle nivåsider. */
+export function aktivNokkel(): string {
+  const nivaa = typeof document === 'undefined' ? undefined : document.documentElement.dataset.nivaa;
+  return nokkelForNivaa(NOKKEL, nivaa);
+}
 export const MESTRET_FRA_BOKS = 4;
 export const MAKS_BOKS = 5;
 
@@ -78,27 +86,27 @@ export function importer(tekst: string): Fremgang | null {
 }
 
 // Lagring. Nettleseren kan blokkere lagring (privat modus), så alt er pakket i try/catch.
-export function les(lager: Pick<Storage, 'getItem'> | null = hentLager()): Fremgang {
+export function les(lager: Pick<Storage, 'getItem'> | null = hentLager(), nokkel: string = aktivNokkel()): Fremgang {
   try {
-    const tekst = lager?.getItem(NOKKEL);
+    const tekst = lager?.getItem(nokkel);
     return (tekst && importer(tekst)) || tom();
   } catch {
     return tom();
   }
 }
 
-export function lagre(f: Fremgang, lager: Pick<Storage, 'setItem'> | null = hentLager()): boolean {
+export function lagre(f: Fremgang, lager: Pick<Storage, 'setItem'> | null = hentLager(), nokkel: string = aktivNokkel()): boolean {
   try {
-    lager?.setItem(NOKKEL, eksporter(f));
+    lager?.setItem(nokkel, eksporter(f));
     return lager !== null;
   } catch {
     return false;
   }
 }
 
-export function nullstill(lager: Pick<Storage, 'removeItem'> | null = hentLager()): void {
+export function nullstill(lager: Pick<Storage, 'removeItem'> | null = hentLager(), nokkel: string = aktivNokkel()): void {
   try {
-    lager?.removeItem(NOKKEL);
+    lager?.removeItem(nokkel);
   } catch {
     /* ingen lagring tilgjengelig */
   }

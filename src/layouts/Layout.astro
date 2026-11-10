@@ -1,29 +1,35 @@
 ---
 import '../styles/global.css';
-import { url } from '../lib/url';
+import { url, nurl } from '../lib/url';
 import { visUtkast, hentBesvarelser, hentEksamen } from '../lib/innhold';
+import { NIVAAER, NIVAA_NOKKEL, type Nivaa } from '../lib/nivaa';
 
 interface Props {
   tittel: string;
   beskrivelse?: string;
   bredde?: 'smal' | 'bred';
+  // Sider uten nivå (forsiden og feilsiden) viser bare nivåvalget i menyen.
+  nivaa?: Nivaa;
 }
-const { tittel, beskrivelse = 'Øv til skriftlig eksamen i norsk med flashkort og flervalg basert på Hjelpehefte norsk eksamen.', bredde = 'smal' } = Astro.props;
+const { tittel, beskrivelse = 'Øv til skriftlig eksamen i norsk med flashkort og flervalg basert på Hjelpehefte norsk eksamen.', bredde = 'smal', nivaa } = Astro.props;
 const naa = Astro.url.pathname;
-const harTekster = (await hentBesvarelser()).length > 0;
-const harEksamen = (await hentEksamen()).length > 0;
-const lenker = [
-  { href: url(''), tekst: 'Øv', aktiv: naa === url('') || naa.startsWith(url('ovelser/')) },
-  ...(harTekster ? [{ href: url('tekster/'), tekst: 'Modelltekster', aktiv: naa.startsWith(url('tekster/')) }] : []),
-  ...(harEksamen ? [{ href: url('eksamen/'), tekst: 'Eksamenstrening', aktiv: naa.startsWith(url('eksamen/')) }] : []),
-  { href: url('hefte/'), tekst: 'Hefte', aktiv: naa.startsWith(url('hefte/')) },
-  { href: url('mal/'), tekst: 'Kompetansemål', aktiv: naa.startsWith(url('mal/')) },
-  { href: url('fremgang/'), tekst: 'Min fremgang', aktiv: naa.startsWith(url('fremgang/')) },
-];
+const harTekster = nivaa ? (await hentBesvarelser(nivaa)).length > 0 : false;
+const harEksamen = nivaa ? (await hentEksamen(nivaa)).length > 0 : false;
+const under = (sti: string) => naa.startsWith(nurl(nivaa!, sti));
+const lenker = nivaa
+  ? [
+      { href: nurl(nivaa), tekst: 'Øv', aktiv: naa === nurl(nivaa) || under('ovelser/') },
+      ...(harTekster ? [{ href: nurl(nivaa, 'tekster/'), tekst: 'Modelltekster', aktiv: under('tekster/') }] : []),
+      ...(harEksamen ? [{ href: nurl(nivaa, 'eksamen/'), tekst: 'Eksamenstrening', aktiv: under('eksamen/') }] : []),
+      { href: nurl(nivaa, 'hefte/'), tekst: 'Hefte', aktiv: under('hefte/') },
+      { href: nurl(nivaa, 'mal/'), tekst: 'Kompetansemål', aktiv: under('mal/') },
+      { href: nurl(nivaa, 'fremgang/'), tekst: 'Min fremgang', aktiv: under('fremgang/') },
+    ]
+  : [];
 const fulltTittel = tittel === 'Hjelpehefte norsk eksamen' ? tittel : `${tittel} | Hjelpehefte norsk eksamen`;
 ---
 <!doctype html>
-<html lang="nb">
+<html lang="nb" data-nivaa={nivaa?.id}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -31,20 +37,36 @@ const fulltTittel = tittel === 'Hjelpehefte norsk eksamen' ? tittel : `${tittel}
     <meta name="color-scheme" content="light dark" />
     <link rel="icon" type="image/svg+xml" href={url('favicon.svg')} />
     <title>{fulltTittel}</title>
+    {nivaa && (
+      <script is:inline define:vars={{ nokkel: NIVAA_NOKKEL, id: nivaa.id }}>
+        try { localStorage.setItem(nokkel, id); } catch { /* ingen lagring */ }
+      </script>
+    )}
   </head>
   <body>
     <a class="hopp" href="#innhold">Hopp til innhold</a>
     <header class="topp">
       <div class="rad">
-        <a class="logo" href={url('')}>Hjelpehefte norsk eksamen</a>
-        <nav aria-label="Hovedmeny">
+        <a class="logo" href={nivaa ? nurl(nivaa) : url('')}>Hjelpehefte norsk eksamen</a>
+        <nav aria-label="Nivå" class="nivaavalg">
           <ul>
-            {lenker.map((l) => (
-              <li><a href={l.href} aria-current={l.aktiv ? 'page' : undefined}>{l.tekst}</a></li>
+            {NIVAAER.map((n) => (
+              <li><a href={nurl(n)} aria-current={n.id === nivaa?.id ? 'true' : undefined}>{n.navn}</a></li>
             ))}
           </ul>
         </nav>
       </div>
+      {lenker.length > 0 && (
+        <div class="rad">
+          <nav aria-label="Hovedmeny">
+            <ul>
+              {lenker.map((l) => (
+                <li><a href={l.href} aria-current={l.aktiv ? 'page' : undefined}>{l.tekst}</a></li>
+              ))}
+            </ul>
+          </nav>
+        </div>
+      )}
     </header>
     {visUtkast && (
       <p class="utkastvarsel" role="note">Utkastmodus: øvelser med status «utkast» vises. Den publiserte siden viser bare godkjente øvelser.</p>

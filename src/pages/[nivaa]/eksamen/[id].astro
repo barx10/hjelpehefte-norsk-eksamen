@@ -1,13 +1,11 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import Eksamensrunner from '../../components/Eksamensrunner.astro';
-import { hentEksamen, hentKapitler, kapittelNavn } from '../../lib/innhold';
-import { url } from '../../lib/url';
+import Layout from '../../../layouts/Layout.astro';
+import Eksamensrunner from '../../../components/Eksamensrunner.astro';
+import { hentEksamen, hentKapitler, kapittelNavn } from '../../../lib/innhold';
+import { nurl } from '../../../lib/url';
+import { NIVAAER } from '../../../lib/nivaa';
 
 export async function getStaticPaths() {
-  const pakker = await hentEksamen();
-  const kapitler = await hentKapitler();
-  const synlige = new Map(kapitler.map((k) => [k.id, k]));
 
   // Sjekklisten er hentet fra kapittel 8 i heftet.
   const sjekkliste = [
@@ -16,6 +14,9 @@ export async function getStaticPaths() {
     { gruppe: 'Språk og form', punkter: ['Store bokstaver etter punktum?', 'Sammensatte ord skrevet som ett ord?', 'Kandidatnummer på plass, ikke navn?', 'Har du sjekket retteprogrammet på ord du er usikker på?', 'Oppfyller teksten lengdekravet som er oppgitt i oppgaven?'] },
   ];
 
+  const sider = await Promise.all(NIVAAER.map(async (nivaa) => {
+  const pakker = await hentEksamen(nivaa);
+  const synlige = new Map((await hentKapitler(nivaa)).map((k) => [k.id, k]));
   return pakker.map((p) => {
     const d = p.data;
     const data = {
@@ -33,21 +34,23 @@ export async function getStaticPaths() {
           ord: v.ord,
           nokkelord: v.nokkelord,
           sitat: v.sitat,
-          malUrl: url(`hefte/${v.mal.id}/`),
+          malUrl: nurl(nivaa, `hefte/${v.mal.id}/`),
           malTittel: synlige.has(v.mal.id) ? kapittelNavn(synlige.get(v.mal.id)!) : v.mal.id,
         })),
       },
       oppgave3: d.oppgave3,
       sjekkliste,
     };
-    return { params: { id: p.id }, props: { tittel: d.tittel, data } };
+    return { params: { nivaa: nivaa.id, id: p.id }, props: { nivaa, tittel: d.tittel, data } };
   });
+  }));
+  return sider.flat();
 }
 
-const { tittel, data } = Astro.props;
+const { nivaa, tittel, data } = Astro.props;
 ---
-<Layout tittel={`Eksamenstrening: ${tittel}`} bredde="bred">
-  <nav aria-label="Brødsmulesti"><a href={url('eksamen/')}>Eksamenstrening</a></nav>
+<Layout tittel={`Eksamenstrening: ${tittel}`} bredde="bred" nivaa={nivaa}>
+  <nav aria-label="Brødsmulesti"><a href={nurl(nivaa, 'eksamen/')}>Eksamenstrening</a></nav>
   <h1>{tittel}</h1>
   <Eksamensrunner data={data} />
 </Layout>

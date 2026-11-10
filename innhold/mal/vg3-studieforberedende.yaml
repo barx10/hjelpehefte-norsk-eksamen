@@ -1,0 +1,48 @@
+# Kompetansemål i norsk etter vg3 studieforberedende utdanningsprogram, hentet ordrett fra Udir (LK20, NOR01-08).
+# Kilde: https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1114
+# omfang: dekkes | delvis | senere | utenfor (se forklaring i 10-trinn.yaml)
+# Siden gjelder skriftlig eksamen i hovedmål. Innholdet for vg3 er ikke laget ennå, så målene står som planlagt.
+- id: mvg3-01
+  nivaa: vg3
+  tekst: analysere og tolke romaner, noveller, drama, lyrikk og sakprosa på bokmål og nynorsk fra 1850 til i dag og reflektere over tekstene i lys av den kulturhistoriske konteksten og egen samtid
+  omfang: senere
+- id: mvg3-02
+  nivaa: vg3
+  tekst: utforske og reflektere over hvordan tekster fra den realistiske og den modernistiske tradisjonen framstiller menneske, natur og samfunn
+  omfang: senere
+- id: mvg3-03
+  nivaa: vg3
+  tekst: skrive essay som utforsker og reflekterer over innhold i tekster
+  omfang: senere
+- id: mvg3-04
+  nivaa: vg3
+  tekst: skrive litterære tolkninger og sammenligninger
+  omfang: senere
+  merknad: Modelltekster i novelleanalyse og lyrikkanalyse kan leses. Øvelser er ikke laget ennå.
+- id: mvg3-05
+  nivaa: vg3
+  tekst: analysere uttrykksformer i sammensatte tekster i ulike medier og vurdere samspillet mellom dem
+  omfang: senere
+  merknad: En modelltekst i reklameanalyse kan leses. Øvelser er ikke laget ennå.
+- id: mvg3-06
+  nivaa: vg3
+  tekst: bruke fagkunnskap og presist fagspråk i utforskende samtaler, diskusjoner og muntlige presentasjoner om norskfaglige emner
+  omfang: utenfor
+- id: mvg3-07
+  nivaa: vg3
+  tekst: skrive retoriske analyser og tolkninger av sakprosatekster
+  omfang: senere
+  merknad: En modelltekst i retorisk analyse kan leses. Øvelser er ikke laget ennå.
+- id: mvg3-08
+  nivaa: vg3
+  tekst: mestre språklige formkrav på hovedmål og sidemål og skrive tekster med etterrettelig kildebruk og et presist og nyansert språk
+  omfang: senere
+  merknad: Siden gjelder hovedmål. Sidemål er ikke med.
+- id: mvg3-09
+  nivaa: vg3
+  tekst: orientere seg i faglitteratur, vurdere kilder kritisk og skrive fagartikler som greier ut om og drøfter norskfaglige emner
+  omfang: senere
+- id: mvg3-10
+  nivaa: vg3
+  tekst: gjøre rede for endringer i talespråk i Norge i dag og reflektere over sammenhenger mellom språk, kultur og identitet
+  omfang: senere

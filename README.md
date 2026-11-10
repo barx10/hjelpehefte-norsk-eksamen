@@ -21,8 +21,26 @@ Alt innhold ligger i `innhold/`. Du trenger ikke endre kode for å rette eller l
 | Mappe | Innhold |
 |---|---|
 | `innhold/hefte/` | Kapitlene i heftet, ett Markdown-dokument per kapittel. Hvert kapittel er også et øvingstema. |
-| `innhold/mal/` | Kompetansemål med id, nivå og omfang. |
+| `innhold/mal/` | Kompetansemål med id, nivå og omfang. Én YAML-fil per nivå. |
 | `innhold/ovelser/` | Øvelser. Hver YAML-fil er en liste. |
+| `innhold/besvarelser/` | Modelltekster og besvarelser med merknader. |
+| `innhold/eksamen/` | Eksamenspakker til eksamenstreningen. |
+
+### Nivå
+
+Siden har to nivåer: ungdomstrinn (`/ungdomstrinn/`) og videregående (`/vgs/`, vg3 studieforberedende hovedmål). Eleven velger nivå på forsiden eller øverst på siden. Valget huskes i nettleseren, og fremgangen lagres hver for seg per nivå.
+
+Feltet `nivaa` styrer hvor innholdet vises. Kodene er `'10'` og `'vg3'`.
+
+| Innhold | Uten `nivaa` | Eksempel |
+|---|---|---|
+| Kapittel i `innhold/hefte/` | Vises for 10. trinn | `nivaa: ['10', 'vg3']` |
+| Øvelse | Følger kapittelet sitt | `nivaa: 'vg3'` |
+| Modelltekst | Vises for 10. trinn | `nivaa: ['10', 'vg3']` |
+| Eksamenspakke | Vises for 10. trinn | `nivaa: 'vg3'` |
+| Kompetansemål | Må ha nivå | `nivaa: 'vg3'` |
+
+En øvelse vises bare når kapittelet den hører til, også vises på nivået. Nye nivåer legges til i `src/lib/nivaa.ts`.
 
 ### Legge til en øvelse
 
@@ -60,7 +78,7 @@ Alle typer kan ha `fraTekst: <id>` som peker på en tekst i `innhold/besvarelser
 
 ### Modelltekster
 
-Modelltekster ligger i `innhold/besvarelser/`, én fil per tekst. Frontmatter har metadata (se README i mappen) og `avsnitt`: en liste med `nr`, `funksjon`, `kommentar` og eventuelt `vurdering` (`styrke` eller `svakhet`) for hvert avsnitt. En test sjekker at merknadene stemmer med antall avsnitt. Siden `/tekster/` viser teksten med nummererte avsnitt og merknader som kan slås av og på. Tekster med `status: utkast` vises ikke på den publiserte siden.
+Modelltekster ligger i `innhold/besvarelser/`, én fil per tekst. Frontmatter har metadata (se README i mappen), blant annet `kategori` (merkelappen som vises ved teksten) og `nivaa`, og `avsnitt`: en liste med `nr`, `funksjon`, `kommentar` og eventuelt `vurdering` (`styrke` eller `svakhet`) for hvert avsnitt. En test sjekker at merknadene stemmer med antall avsnitt. Siden `/tekster/` viser teksten med nummererte avsnitt og merknader som kan slås av og på. Tekster med `status: utkast` vises ikke på den publiserte siden.
 
 ### Eksamenstrening
 
@@ -77,7 +95,7 @@ Sett `status: godkjent` først etter faglig gjennomgang.
 
 ### Kompetansemål
 
-`omfang` i `innhold/mal/10-trinn.yaml` styrer hvordan målet vises på siden Kompetansemål: `dekkes`, `delvis`, `senere` eller `utenfor`. Mål for nye nivåer (for eksempel vg1) legges til i samme fil med ny verdi i `nivaa`. Id-er bør følge mønsteret `m<nivå>-<nr>`.
+`omfang` styrer hvordan målet vises på siden Kompetansemål: `dekkes`, `delvis`, `senere` eller `utenfor`. Målene ligger i én fil per nivå i `innhold/mal/`, og siden viser bare målene for nivået eleven har valgt. Id-er følger mønsteret `m<nivå>-<nr>`, for eksempel `m10-01` og `mvg3-01`.
 
 ## Publisering
 

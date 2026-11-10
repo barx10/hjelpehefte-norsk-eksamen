@@ -1,7 +1,8 @@
 ---
 tittel: "Det er moren vi aldri ser"
 type: diktanalyse
-nivaa: modelltekst, forenklet for 10. trinn
+kategori: modelltekst, forenklet for 10. trinn
+nivaa: ['10']
 status: utkast
 oppgave: "Analyse av diktet «Hvem er det som ingen ser» av Gro Dahle (1994)"
 forfatter: "Åsa Abusland (bearbeidet og forenklet)"

@@ -1,11 +1,14 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import { hentMal, hentOvelser, hentKapitler } from '../lib/innhold';
-import { url } from '../lib/url';
+import Layout from '../../layouts/Layout.astro';
+import { hentMal, hentOvelser, hentKapitler, nivaaStier } from '../../lib/innhold';
+import { nurl } from '../../lib/url';
 
-const mal = await hentMal();
-const ovelser = await hentOvelser();
-const kapitler = new Map((await hentKapitler()).map((k) => [k.id, k]));
+export const getStaticPaths = nivaaStier;
+const { nivaa } = Astro.props;
+
+const mal = await hentMal(nivaa);
+const ovelser = await hentOvelser(nivaa);
+const kapitler = new Map((await hentKapitler(nivaa)).map((k) => [k.id, k]));
 
 const omfangTekst = {
   dekkes: 'Øves her',
@@ -26,11 +29,16 @@ const grupper = (['dekkes', 'delvis', 'senere', 'utenfor'] as const).map((o) => 
   rader: rader.filter((r) => r.m.data.omfang === o),
 })).filter((g) => g.rader.length > 0);
 ---
-<Layout tittel="Kompetansemål" beskrivelse="Hvilke kompetansemål etter 10. trinn i norsk siden øver, og hva som ikke er med." bredde="smal">
-  <h1>Kompetansemål etter 10. trinn</h1>
-  <p>Målene er hentet ordrett fra <a href="https://www.udir.no/lk20/nor01-08">læreplanen i norsk på udir.no</a>. Antall øvelser telles fra øvelsene som er synlige på siden.</p>
+<Layout tittel={nivaa.malTittel} beskrivelse={`${nivaa.malTittel} i norsk: hva siden øver, og hva som ikke er med.`} bredde="smal" nivaa={nivaa}>
+  <h1>{nivaa.malTittel}</h1>
+  <p>Målene er hentet ordrett fra <a href={nivaa.laereplan}>læreplanen i norsk på udir.no</a>. Antall øvelser telles fra øvelsene som er synlige på siden.</p>
+  {mal.length === 0 && <p>Kompetansemålene for dette nivået er ikke lagt inn ennå.</p>}
   <div class="merknad">
-    <p>Siden er laget for skriftlig eksamen. Muntlige mål og språkhistorie er bevisst holdt utenfor, men kan bygges ut senere.</p>
+    {nivaa.kode === '10' ? (
+      <p>Siden er laget for skriftlig eksamen. Muntlige mål og språkhistorie er bevisst holdt utenfor, men kan bygges ut senere.</p>
+    ) : (
+      <p>Siden er laget for skriftlig eksamen i hovedmål. Muntlige mål og sidemål er holdt utenfor. Innholdet for dette nivået er under arbeid.</p>
+    )}
   </div>
   {grupper.map((g) => (
     <section aria-labelledby={`g-${g.omfang}`}>
@@ -44,7 +52,7 @@ const grupper = (['dekkes', 'delvis', 'senere', 'utenfor'] as const).map((o) => 
             {antall > 0 && (
               <p class="info">
                 {antall} øvelser. Temaer:{' '}
-                {ks.map((k, i) => (<>{i > 0 && ', '}<a href={url(`ovelser/${k!.id}/`)}>{k!.data.tittel}</a></>))}
+                {ks.map((k, i) => (<>{i > 0 && ', '}<a href={nurl(nivaa, `ovelser/${k!.id}/`)}>{k!.data.tittel}</a></>))}
               </p>
             )}
           </li>

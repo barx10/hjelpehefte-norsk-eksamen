@@ -1,4 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { NIVAAER, type Nivaa } from './nivaa';
 import { deler, finnFeilIndekser, kommaOppsett, leseMarkering, rettTekst, utenKomma } from './tekstverktoy';
 
 /**
@@ -13,28 +14,43 @@ export type Ovelse = CollectionEntry<'ovelser'>;
 export type Eksamenspakke = CollectionEntry<'eksamen'>;
 export type Besvarelse = CollectionEntry<'besvarelser'>;
 
-export async function hentKapitler(): Promise<Kapittel[]> {
-  const alle = (await getCollection('hefte')).filter((k) => visUtkast || k.data.status === 'godkjent');
+/** Uten nivå hentes alt. Med nivå hentes bare innholdet som er merket for det nivået. */
+export async function hentKapitler(nivaa?: Nivaa): Promise<Kapittel[]> {
+  const alle = (await getCollection('hefte'))
+    .filter((k) => visUtkast || k.data.status === 'godkjent')
+    .filter((k) => !nivaa || k.data.nivaa.includes(nivaa.kode));
   return alle.sort((a, b) => a.data.rekkefolge - b.data.rekkefolge);
 }
 
-export async function hentMal(): Promise<Mal[]> {
-  const alle = await getCollection('mal');
+export async function hentMal(nivaa?: Nivaa): Promise<Mal[]> {
+  const alle = (await getCollection('mal')).filter((m) => !nivaa || m.data.nivaa === nivaa.kode);
   return alle.sort((a, b) => a.id.localeCompare(b.id));
 }
 
-export async function hentOvelser(): Promise<Ovelse[]> {
+export async function hentOvelser(nivaa?: Nivaa): Promise<Ovelse[]> {
   const alle = await getCollection('ovelser');
-  const synligeKapitler = new Set((await hentKapitler()).map((k) => k.id));
+  const kapitler = new Map((await hentKapitler(nivaa)).map((k) => [k.id, k]));
   return alle
     .filter((o) => visUtkast || o.data.status === 'godkjent')
-    .filter((o) => synligeKapitler.has(o.data.kapittel.id))
+    .filter((o) => {
+      const k = kapitler.get(o.data.kapittel.id);
+      if (!k) return false;
+      // En øvelse uten eget nivå følger kapittelet.
+      return !nivaa || (o.data.nivaa ?? k.data.nivaa).includes(nivaa.kode);
+    })
     .sort((a, b) => a.id.localeCompare(b.id, 'nb'));
 }
 
-export async function hentBesvarelser(): Promise<Besvarelse[]> {
-  const alle = (await getCollection('besvarelser')).filter((b) => visUtkast || b.data.status === 'godkjent');
+export async function hentBesvarelser(nivaa?: Nivaa): Promise<Besvarelse[]> {
+  const alle = (await getCollection('besvarelser'))
+    .filter((b) => visUtkast || b.data.status === 'godkjent')
+    .filter((b) => !nivaa || b.data.nivaa.includes(nivaa.kode));
   return alle.sort((a, b) => a.id.localeCompare(b.id, 'nb'));
+}
+
+/** Stier til alle nivåsider, brukt i getStaticPaths. */
+export function nivaaStier() {
+  return NIVAAER.map((n) => ({ params: { nivaa: n.id }, props: { nivaa: n } }));
 }
 
 export const typeTittel: Record<Besvarelse['data']['type'], string> = {
@@ -47,8 +63,10 @@ export const typeTittel: Record<Besvarelse['data']['type'], string> = {
   'droftende-tekst': 'Drøftende tekst',
 };
 
-export async function hentEksamen(): Promise<Eksamenspakke[]> {
-  const alle = (await getCollection('eksamen')).filter((e) => visUtkast || e.data.status === 'godkjent');
+export async function hentEksamen(nivaa?: Nivaa): Promise<Eksamenspakke[]> {
+  const alle = (await getCollection('eksamen'))
+    .filter((e) => visUtkast || e.data.status === 'godkjent')
+    .filter((e) => !nivaa || e.data.nivaa.includes(nivaa.kode));
   return alle.sort((a, b) => a.id.localeCompare(b.id, 'nb'));
 }
 

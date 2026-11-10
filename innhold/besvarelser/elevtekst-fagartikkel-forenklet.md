@@ -1,7 +1,8 @@
 ---
 tittel: "Konspirasjonsteorier: en fare for samfunnet?"
 type: fagartikkel
-nivaa: elevtekst, forenklet for 10. trinn
+kategori: elevtekst, forenklet for 10. trinn
+nivaa: ['10']
 status: utkast
 oppgave: "Fagartikkel om konspirasjonsteorier"
 forfatter: "Anniken Louise Møster (bearbeidet og forenklet)"

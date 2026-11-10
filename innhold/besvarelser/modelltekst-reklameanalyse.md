@@ -1,7 +1,8 @@
 ---
 tittel: "Frisk frukt på hjernen?"
 type: reklameanalyse
-nivaa: modelltekst
+kategori: modelltekst
+nivaa: ['10', 'vg3']
 status: utkast
 oppgave: "Analyse av en sammensatt reklametekst for Lerum eplejus i ny pakning"
 forfatter: "Åsa Abusland"

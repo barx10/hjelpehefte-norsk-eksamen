@@ -1,16 +1,17 @@
 import { defineCollection, reference, z } from 'astro:content';
-import { glob, file } from 'astro/loaders';
+import { glob } from 'astro/loaders';
 import type { Loader } from 'astro/loaders';
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import yaml from 'js-yaml';
 import { deler, finnFeilIndekser, kommaOppsett, leseMarkering } from './lib/tekstverktoy';
+import { NIVAAKODER, tilNivaaliste } from './lib/nivaa';
 
 /**
  * Leser alle YAML-filer i en mappe. Hver fil er en liste med øvelser, og hver øvelse har en unik id.
  * Dermed kan øvelser samles i filer etter tema uten at hver øvelse trenger en egen fil.
  */
-function yamlListeLoader(mappe: string): Loader {
+function yamlListeLoader(mappe: string, hva = 'øvelser'): Loader {
   return {
     name: 'yaml-liste',
     load: async ({ store, parseData, generateDigest, watcher, logger }) => {
@@ -23,14 +24,14 @@ function yamlListeLoader(mappe: string): Loader {
           if (!Array.isArray(liste)) throw new Error(`${sti}: filen må inneholde en liste.`);
           for (const rå of liste) {
             const id = typeof rå?.id === 'string' ? rå.id : undefined;
-            if (!id) throw new Error(`${sti}: en øvelse mangler id.`);
+            if (!id) throw new Error(`${sti}: en oppføring mangler id.`);
             if (store.has(id)) throw new Error(`${sti}: id «${id}» er brukt mer enn én gang.`);
             const { id: _id, ...resten } = rå;
             const data = await parseData({ id, data: resten, filePath: sti });
             store.set({ id, data, digest: generateDigest(resten), filePath: sti });
           }
         }
-        logger.info(`Leste ${store.keys().length} øvelser`);
+        logger.info(`Leste ${store.keys().length} ${hva}`);
       };
       await last();
       watcher?.add(mappe);
@@ -43,6 +44,9 @@ function yamlListeLoader(mappe: string): Loader {
 
 
 const status = z.enum(['utkast', 'godkjent']);
+const nivaakode = z.enum(NIVAAKODER);
+// Hvilke nivåer innholdet vises for. Kan skrives som én verdi eller en liste. Standard er 10. trinn.
+const nivaaliste = z.preprocess((v) => tilNivaaliste(v), z.array(nivaakode).min(1));
 
 // Kapitlene i heftet. Hvert kapittel er også et øvingstema.
 const hefte = defineCollection({
@@ -54,14 +58,15 @@ const hefte = defineCollection({
     ingress: z.string().optional(),
     // Kapitler som ikke er gjennomgått vises ikke på den publiserte siden.
     status: status.default('godkjent'),
+    nivaa: nivaaliste,
   }),
 });
 
 // Kompetansemål. Teksten er hentet ordrett fra Udir.
 const mal = defineCollection({
-  loader: file('innhold/mal/10-trinn.yaml'),
+  loader: yamlListeLoader('innhold/mal', 'kompetansemål'),
   schema: z.object({
-    nivaa: z.string(),
+    nivaa: nivaakode,
     tekst: z.string(),
     omfang: z.enum(['dekkes', 'delvis', 'senere', 'utenfor']),
     merknad: z.string().optional(),
@@ -73,7 +78,8 @@ const base = z.object({
   // Teksten øvelsen bygger på. Brukes til å vise kilde og lisens.
   fraTekst: reference('besvarelser').optional(),
   mal: z.array(reference('mal')).default([]),
-  nivaa: z.string().default('10'),
+  // Uten nivå følger øvelsen nivåene til kapittelet sitt.
+  nivaa: z.preprocess((v) => (v === undefined || v === null ? undefined : tilNivaaliste(v)), z.array(nivaakode).min(1).optional()),
   status,
   vanskegrad: z.number().int().min(1).max(3).default(1),
 });
@@ -207,6 +213,7 @@ const eksamen = defineCollection({
       tittel: z.string(),
       beskrivelse: z.string(),
       status,
+      nivaa: nivaaliste,
       vedlegg: z.array(z.object({ id: z.string(), tittel: z.string(), forfatter: z.string().optional(), tekst: z.string() })).min(1),
       oppgave1: z.object({
         vedlegg: z.string(),
@@ -256,7 +263,9 @@ const besvarelser = defineCollection({
   schema: z.object({
     tittel: z.string(),
     type: z.enum(['retorisk-analyse', 'novelleanalyse', 'diktanalyse', 'reklameanalyse', 'fagartikkel', 'reflekterende-tekst', 'droftende-tekst']),
-    nivaa: z.string(),
+    // Merkelapp som vises ved teksten, for eksempel «modelltekst, forenklet for 10. trinn».
+    kategori: z.string(),
+    nivaa: nivaaliste,
     status,
     oppgave: z.string(),
     forfatter: z.string().optional(),

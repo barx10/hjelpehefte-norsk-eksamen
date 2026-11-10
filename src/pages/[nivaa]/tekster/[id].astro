@@ -1,26 +1,33 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import { hentBesvarelser, hentKapitler, hentOvelser, typeTittel } from '../../lib/innhold';
-import { lesBlokker, tilHtml } from '../../lib/besvarelse';
-import { url } from '../../lib/url';
+import Layout from '../../../layouts/Layout.astro';
+import { hentBesvarelser, hentKapitler, hentOvelser, typeTittel } from '../../../lib/innhold';
+import { lesBlokker, tilHtml } from '../../../lib/besvarelse';
+import { nurl } from '../../../lib/url';
+import { NIVAAER } from '../../../lib/nivaa';
 
 export async function getStaticPaths() {
-  const alle = await hentBesvarelser();
-  const ovelser = await hentOvelser();
-  const kapitler = new Set((await hentKapitler()).map((k) => k.id));
-  return alle.map((b) => ({
-    params: { id: b.id },
-    props: {
-      tekst: b,
-      original: b.data.bearbeidetFra ? alle.find((x) => x.id === b.data.bearbeidetFra) ?? null : null,
-      forenklinger: alle.filter((x) => x.data.bearbeidetFra === b.id),
-      harKapittel: kapitler.has(b.data.type),
-      antallOvelser: ovelser.filter((o) => o.data.fraTekst?.id === b.id).length,
-    },
-  }));
+  const sider = await Promise.all(
+    NIVAAER.map(async (nivaa) => {
+      const alle = await hentBesvarelser(nivaa);
+      const ovelser = await hentOvelser(nivaa);
+      const kapitler = new Set((await hentKapitler(nivaa)).map((k) => k.id));
+      return alle.map((b) => ({
+        params: { nivaa: nivaa.id, id: b.id },
+        props: {
+          nivaa,
+          tekst: b,
+          original: b.data.bearbeidetFra ? alle.find((x) => x.id === b.data.bearbeidetFra) ?? null : null,
+          forenklinger: alle.filter((x) => x.data.bearbeidetFra === b.id),
+          harKapittel: kapitler.has(b.data.type),
+          antallOvelser: ovelser.filter((o) => o.data.fraTekst?.id === b.id).length,
+        },
+      }));
+    }),
+  );
+  return sider.flat();
 }
 
-const { tekst, original, forenklinger, harKapittel, antallOvelser } = Astro.props;
+const { nivaa, tekst, original, forenklinger, harKapittel, antallOvelser } = Astro.props;
 const d = tekst.data;
 const blokker = lesBlokker(tekst.body ?? '');
 const merknader = new Map(d.avsnitt.map((a) => [a.nr, a]));
@@ -30,10 +37,10 @@ const lenker = [
   d.analysertTekstUrl && { href: d.analysertTekstUrl, tekst: 'Les teksten som analyseres' },
 ].filter(Boolean) as { href: string; tekst: string }[];
 ---
-<Layout tittel={d.tittel} beskrivelse={`${typeTittel[d.type]}: ${d.oppgave}`}>
-  <nav aria-label="Brødsmulesti"><a href={url('tekster/')}>Modelltekster</a></nav>
+<Layout tittel={d.tittel} beskrivelse={`${typeTittel[d.type]}: ${d.oppgave}`} nivaa={nivaa}>
+  <nav aria-label="Brødsmulesti"><a href={nurl(nivaa, 'tekster/')}>Modelltekster</a></nav>
   <h1>{d.tittel}</h1>
-  <p class="tekst-meta">{typeTittel[d.type]}. {d.nivaa}.</p>
+  <p class="tekst-meta">{typeTittel[d.type]}. {d.kategori}.</p>
 
   {d.varsel && <p class="varsel-boks" role="note"><strong>Innholdsvarsel.</strong> {d.varsel}</p>}
 
@@ -44,15 +51,15 @@ const lenker = [
 
   {(original || forenklinger.length > 0) && (
     <p>
-      {original && <a href={url(`tekster/${original.id}/`)}>Se originalen ({original.data.nivaa})</a>}
-      {forenklinger.map((f) => <a href={url(`tekster/${f.id}/`)}>Se den forenklede versjonen</a>)}
+      {original && <a href={nurl(nivaa, `tekster/${original.id}/`)}>Se originalen ({original.data.kategori})</a>}
+      {forenklinger.map((f) => <a href={nurl(nivaa, `tekster/${f.id}/`)}>Se den forenklede versjonen</a>)}
     </p>
   )}
 
   <div class="kontroller">
     <label><input type="checkbox" id="vis-merknader" /> Vis merknader til avsnittene</label>
-    {antallOvelser > 0 && <a href={url(`ovelser/${d.type}/`)}>Øv med denne teksten ({antallOvelser} øvelser)</a>}
-    {harKapittel && <a href={url(`hefte/${d.type}/`)}>Les malen i heftet</a>}
+    {antallOvelser > 0 && <a href={nurl(nivaa, `ovelser/${d.type}/`)}>Øv med denne teksten ({antallOvelser} øvelser)</a>}
+    {harKapittel && <a href={nurl(nivaa, `hefte/${d.type}/`)}>Les malen i heftet</a>}
   </div>
 
   <article class="tekstflate" id="tekstflate">

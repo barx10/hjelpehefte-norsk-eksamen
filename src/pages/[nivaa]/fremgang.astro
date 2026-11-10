@@ -1,17 +1,19 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import { hentKapitler, hentOvelser } from '../lib/innhold';
-import { tilJson } from '../lib/innhold';
+import Layout from '../../layouts/Layout.astro';
+import { hentKapitler, hentOvelser, nivaaStier, tilJson } from '../../lib/innhold';
 
-const kapitler = await hentKapitler();
-const ovelser = await hentOvelser();
+export const getStaticPaths = nivaaStier;
+const { nivaa } = Astro.props;
+
+const kapitler = await hentKapitler(nivaa);
+const ovelser = await hentOvelser(nivaa);
 const temaer = kapitler
   .map((k) => ({ tittel: k.data.tittel, nummer: k.data.nummer, ider: ovelser.filter((o) => o.data.kapittel.id === k.id).map((o) => o.id) }))
   .filter((t) => t.ider.length > 0);
 ---
-<Layout tittel="Min fremgang" beskrivelse="Se, flytt og nullstill fremgangen din.">
+<Layout tittel="Min fremgang" beskrivelse="Se, flytt og nullstill fremgangen din." nivaa={nivaa}>
   <h1>Min fremgang</h1>
-  <p>Fremgangen lagres bare i nettleseren på denne enheten. Vil du bytte mellom mobil og PC, kan du eksportere og importere den her.</p>
+  <p>Fremgangen lagres bare i nettleseren på denne enheten. Vil du bytte mellom mobil og PC, kan du eksportere og importere den her. Denne siden gjelder {nivaa.navn.toLowerCase()}. Hvert nivå har sin egen fremgang.</p>
 
   <div class="stat" id="stat" aria-live="polite"></div>
   <h2>Per tema</h2>
@@ -35,14 +37,14 @@ const temaer = kapitler
   <p class="melding" id="melding" role="status"></p>
 
   <h2>Nullstill</h2>
-  <p>Sletter all fremgang på denne enheten.</p>
+  <p>Sletter all fremgang for {nivaa.navn.toLowerCase()} på denne enheten.</p>
   <div class="knapp-rad"><button class="knapp sekundar" type="button" id="nullstill">Nullstill fremgang</button></div>
 
   <script type="application/json" id="temaer" set:html={tilJson(temaer)} />
 </Layout>
 
 <script>
-  import { les, lagre, eksporter, importer, nullstill, antallMestret, tom } from '../lib/fremgang';
+  import { les, lagre, eksporter, importer, nullstill, antallMestret, tom } from '../../lib/fremgang';
 
   type Tema = { tittel: string; nummer: string; ider: string[] };
   const temaer: Tema[] = JSON.parse(document.getElementById('temaer')!.textContent ?? '[]');
@@ -97,7 +99,7 @@ const temaer = kapitler
     const blob = new Blob([eksporter(les())], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = 'fremgang-hjelpehefte-norsk.json';
+    a.download = `fremgang-hjelpehefte-norsk-${document.documentElement.dataset.nivaa ?? 'alle'}.json`;
     a.click();
     URL.revokeObjectURL(a.href);
   });
