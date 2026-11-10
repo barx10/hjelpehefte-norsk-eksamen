@@ -13,6 +13,24 @@ kildeTittel: "Elevtekst: Fagartikkel om konspirasjonsteorier (NDLA). Lenke til s
 bearbeidetFra: "elevtekst-fagartikkel-konspirasjonsteorier"
 varsel: "Teksten omtaler antisemittisme og pandemien. Vurder om temaet passer for klassen."
 endringer: "Teksten er kortet ned til under halvparten og skrevet om med enklere språk og kortere setninger. Den er bygd opp etter malen for fagartikkel i heftet, med problemstilling i innledningen, forklaring med kilder, drøfting av konsekvenser og et svar på problemstillingen til slutt. Eksemplene om Michael Jackson og presidentvalget i 2020 er tatt ut, og generaliseringene om at de som tror på konspirasjonsteorier «ofte ønsker å fornekte sannhet», er mykere formulert. Forfatternavnet i litteraturlisten er rettet til Dyrendal, slik det står i teksten. Kildehenvisningene er hentet fra originalen og ikke kontrollert mot kildene."
+styrkerStatus: godkjent
+styrker:
+  - tekst: "Innledningen fanger leseren og stiller en tydelig problemstilling."
+    avsnitt: [1]
+  - tekst: "Definerer fagbegrepet og viser til kilde med etternavn og årstall."
+    avsnitt: [2]
+  - tekst: "Hvert avsnitt har ett poeng: typer, årsaker, konsekvenser og hva vi kan gjøre."
+    avsnitt: [3, 4, 5, 7]
+  - tekst: "Avslutningen svarer på problemstillingen fra innledningen."
+    avsnitt: [8]
+forbedringerStatus: godkjent
+forbedringer:
+  - tekst: "Artikkelen har bare to kilder, og begge er fra samme leksikon. Flere og ulike kilder gir en sterkere fagartikkel."
+    avsnitt: []
+  - tekst: "Avsnittene om årsaker, pandemien og sosiale medier har ingen kildehenvisning."
+    avsnitt: [4, 5, 6]
+  - tekst: "Avslutningen svarer bare på det siste av de tre spørsmålene i innledningen."
+    avsnitt: [8]
 avsnitt:
   - nr: 1
     funksjon: "Innledning og problemstilling"

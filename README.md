@@ -78,11 +78,13 @@ Alle typer kan ha `fraTekst: <id>` som peker på en tekst i `innhold/besvarelser
 
 ### Modelltekster
 
-Modelltekster ligger i `innhold/besvarelser/`, én fil per tekst. Frontmatter har metadata (se README i mappen), blant annet `kategori` (merkelappen som vises ved teksten) og `nivaa`, og `avsnitt`: en liste med `nr`, `funksjon`, `kommentar` og eventuelt `vurdering` (`styrke` eller `svakhet`) for hvert avsnitt. En test sjekker at merknadene stemmer med antall avsnitt. Siden `/tekster/` viser teksten med nummererte avsnitt og merknader som kan slås av og på. Tekster med `status: utkast` vises ikke på den publiserte siden.
+Modelltekster ligger i `innhold/besvarelser/`, én fil per tekst. Frontmatter har metadata (se README i mappen), blant annet `kategori` (merkelappen som vises ved teksten) og `nivaa`, og `avsnitt`: en liste med `nr`, `funksjon`, `kommentar` og eventuelt `vurdering` (`styrke` eller `svakhet`) for hvert avsnitt. En test sjekker at merknadene stemmer med antall avsnitt. Feltet `styrker` er en liste med punkter som viser hva som gjør teksten god (`tekst` og eventuelt `avsnitt` med numrene punktet viser til). Punktene vises øverst på siden når teksten har `styrkerStatus: godkjent`. Elevtekster kan i tillegg ha `forbedringer` med samme oppbygging, som viser hva som kan løfte teksten. De vises når teksten har `forbedringerStatus: godkjent`. Siden `/tekster/` viser teksten med nummererte avsnitt og merknader som kan slås av og på. Tekster med `status: utkast` vises ikke på den publiserte siden.
 
 ### Eksamenstrening
 
 Eksamenspakker ligger i `innhold/eksamen/`, én YAML-fil per pakke. En pakke har vedlegg, oppgave 1 (tre delspørsmål med modellsvar), oppgave 2 (ett eller flere valg, hvert knyttet til en mal i heftet) og oppgave 3. Byggingen stopper hvis en oppgave peker på et vedlegg eller en mal som ikke finnes. Tekstene skal være skrevet for øvingen. Pakker med `status: utkast` vises ikke på den publiserte siden.
+
+Hvert valg i oppgave 2 og oppgave 3 kan ha `kjennetegn`: en liste med punkter som viser hva et godt svar inneholder. Eleven ser dem i tilbakemeldingen etter levering og krysser av selv. Punktene vises bare når pakken har `kjennetegnStatus: godkjent`.
 
 Byggingen stopper med en feilmelding hvis en øvelse peker på et kapittel eller mål som ikke finnes, hvis en id er brukt to ganger, eller hvis `riktig` peker utenfor alternativene.
 

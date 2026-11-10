@@ -33,3 +33,15 @@ test('besvarelser med lisens har forfatter og lisenslenke', () => {
     }
   }
 });
+
+test('styrker og forbedringer i modelltekstene viser til avsnitt som finnes', () => {
+  const filer = readdirSync('innhold/besvarelser').filter((f) => f.endsWith('.md') && f !== 'README.md');
+  for (const f of filer) {
+    const d = frontmatter(join('innhold/besvarelser', f));
+    const nr = new Set((d.avsnitt ?? []).map((a) => a.nr));
+    for (const s of [...(d.styrker ?? []), ...(d.forbedringer ?? [])]) {
+      assert.ok(typeof s.tekst === 'string' && s.tekst.length > 0, `${f}: styrke uten tekst`);
+      for (const n of s.avsnitt ?? []) assert.ok(nr.has(n), `${f}: styrken viser til avsnitt ${n}, som ikke har merknad`);
+    }
+  }
+});

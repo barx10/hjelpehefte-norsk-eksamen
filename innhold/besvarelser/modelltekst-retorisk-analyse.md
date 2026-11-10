@@ -12,6 +12,26 @@ kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-retorisk-analyse/3074631416"
 analysertTekstUrl: "https://www.aftenposten.no/meninger/sid/i/BRw9Vw/som-ungdomsskoleelev-traff-kjoennskampen-meg-hardt-oskar-macdonald-dunlop"
 endringer: "Ingen endringer i innholdet. Teksten er hentet ved automatisk lesing av nettsiden og kan avvike i små detaljer (anførselstegn, bindestreker, kursiv). Sjekk mot originalen før publisering."
 merknad: "Leserinnlegget som analyseres er skrevet av en navngitt 15-åring (2019) og omtaler en omstridt samfunnsdebatt om likestilling. Innlegget har Aftenposten som rettighetshaver og ligger ikke i repoet. Overskriften står som «Kjønnkampen» i ett sitat i originalen. Kildeoppgivelsen har «Kjønnskampen». Sitatene er ikke kontrollert mot innlegget."
+styrkerStatus: godkjent
+styrker:
+  - tekst: "Åpner med et spørsmål til leseren og presenterer deretter avsender, tekst og publiseringssted."
+    avsnitt: [2]
+  - tekst: "Vurderer etos nyansert: Avsenderen er ingen ekspert, men han er en av dem saken gjelder."
+    avsnitt: [4]
+  - tekst: "Viser hvordan appellformene virker sammen, for eksempel at følelsesladd språk også bygger etos."
+    avsnitt: [6, 9]
+  - tekst: "Vurderer om tidspunktet for innlegget var godt valgt, og tar med innvendinger mot teksten."
+    avsnitt: [10, 11]
+forbedringerStatus: godkjent
+forbedringer:
+  - tekst: "Tittelen på dokumentaren er skrevet på to måter, «Kjønnkampen» og «Kjønnskampen». Navn og titler må skrives likt hele veien."
+    avsnitt: [2, 5]
+  - tekst: "Fagordene «aptum» og «kairos» brukes uten å bli forklart."
+    avsnitt: [11]
+  - tekst: "Logos-avsnittet sier at avsenderen viser til statistikk, men ikke hvilke tall."
+    avsnitt: [8]
+  - tekst: "Avslutningen ender med et spørsmål i stedet for en tydelig konklusjon."
+    avsnitt: [12]
 avsnitt:
   - nr: 1
     funksjon: "Ingress"

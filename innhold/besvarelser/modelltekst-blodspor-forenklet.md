@@ -13,6 +13,26 @@ novelleUrl: "https://ndla.no/r/norsk-sf-vg1/blodspor/bbcc8ac6c5"
 bearbeidetFra: "modelltekst-blodspor-novelleanalyse"
 varsel: "Novellen handler om et barn som dør i krig. Vurder om temaet passer for klassen, og si fra på forhånd."
 endringer: "Teksten er kortet ned til omtrent en tredel og skrevet om med enklere språk og kortere setninger. Den er bygd opp etter malen for novelleanalyse i heftet, med innledning, tema og handling, oppbygging, synsvinkel og personskildring, virkemidler og avslutning. Hovedpoengene og de fleste sitatene er hentet fra originalen. Sitatene er kontrollert mot novellen. «Hjertet hamrer» er tatt ut, fordi det ikke står i novellen. Avsnittene om symbolikk og om metakommentaren er kortet kraftig ned."
+styrkerStatus: godkjent
+styrker:
+  - tekst: "Innledningen nevner novellen, forfatteren og årstallet, og sier hva analysen skal gjøre."
+    avsnitt: [1]
+  - tekst: "Bruker fagbegrepene presist: in medias res, vendepunkt og autoral allvitende forteller."
+    avsnitt: [3, 4]
+  - tekst: "Følger ordene «blod» og «hjerte» gjennom hele novellen og forklarer hva utviklingen viser."
+    avsnitt: [5]
+  - tekst: "Avslutningen forklarer tittelen og sier hva novellen vil vise."
+    avsnitt: [7]
+forbedringerStatus: godkjent
+forbedringer:
+  - tekst: "Avsnittet om synsvinkel tar også opp personskildring. To poeng i ett avsnitt kan deles i to."
+    avsnitt: [4]
+  - tekst: "Avsnittet om kontrast er kort. Et sitat som viser kontrasten, og en tydeligere forklaring, ville gjort det sterkere."
+    avsnitt: [6]
+  - tekst: "Analysen peker på in medias res og vendepunktet, men sier ikke om slutten er åpen eller lukket."
+    avsnitt: [3]
+  - tekst: "Teksten ligger helt på nedre grense for oppgave 2, som er 450 ord."
+    avsnitt: []
 avsnitt:
   - nr: 1
     funksjon: "Innledning"

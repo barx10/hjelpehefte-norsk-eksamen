@@ -1,7 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import Eksamensrunner from '../../../components/Eksamensrunner.astro';
-import { hentEksamen, hentKapitler, kapittelNavn } from '../../../lib/innhold';
+import { hentEksamen, hentKapitler, kapittelNavn, visUtkast } from '../../../lib/innhold';
 import { nurl } from '../../../lib/url';
 import { NIVAAER } from '../../../lib/nivaa';
 
@@ -19,6 +19,7 @@ export async function getStaticPaths() {
   const synlige = new Map((await hentKapitler(nivaa)).map((k) => [k.id, k]));
   return pakker.map((p) => {
     const d = p.data;
+    const visKjennetegn = visUtkast || d.kjennetegnStatus === 'godkjent';
     const data = {
       id: p.id,
       tittel: d.tittel,
@@ -34,11 +35,13 @@ export async function getStaticPaths() {
           ord: v.ord,
           nokkelord: v.nokkelord,
           sitat: v.sitat,
+          kjennetegn: visKjennetegn ? v.kjennetegn : [],
           malUrl: nurl(nivaa, `hefte/${v.mal.id}/`),
           malTittel: synlige.has(v.mal.id) ? kapittelNavn(synlige.get(v.mal.id)!) : v.mal.id,
         })),
       },
-      oppgave3: d.oppgave3,
+      oppgave3: { ...d.oppgave3, kjennetegn: visKjennetegn ? d.oppgave3.kjennetegn : [] },
+      kjennetegnUtkast: d.kjennetegnStatus === 'utkast',
       sjekkliste,
     };
     return { params: { nivaa: nivaa.id, id: p.id }, props: { nivaa, tittel: d.tittel, data } };

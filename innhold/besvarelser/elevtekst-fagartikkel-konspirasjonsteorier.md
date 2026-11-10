@@ -10,8 +10,26 @@ lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
 kilde: ""
 kildeTittel: "Elevtekst: Fagartikkel om konspirasjonsteorier (NDLA). Lenke til siden mangler. Sist oppdatert på NDLA 09.04.2026."
-endringer: "Ingen endringer i innholdet. Sidens menytekst («Vis kompetansemål», «Sitere eller gjenbruke?», «TekstInnbyggingslenke») er tatt bort."
-merknad: "Dette er en elevtekst, ikke en modelltekst. Den har svakheter som kan brukes i undervisning: noen generaliseringer om at de som tror på konspirasjonsteorier «ofte ønsker å fornekte sannhet» og «aldri lager teoriene selv», og noen påstander uten kilde (for eksempel om Michael Jackson og valget i 2020). I litteraturlisten står forfatteren som «Dyrendahl», mens teksten har «Dyrendal». Teksten omtaler antisemittisme og pandemien, og noen elever kan ha opplevd dette personlig."
+endringer: "Forfatternavnet i litteraturlisten er rettet fra «Dyrendahl» til «Dyrendal», slik det står i teksten og hos Store norske leksikon. Ellers ingen endringer i innholdet. Sidens menytekst («Vis kompetansemål», «Sitere eller gjenbruke?», «TekstInnbyggingslenke») er tatt bort."
+merknad: "Dette er en elevtekst, ikke en modelltekst. Den har svakheter som kan brukes i undervisning: noen generaliseringer om at de som tror på konspirasjonsteorier «ofte ønsker å fornekte sannhet» og «aldri lager teoriene selv», og noen påstander uten kilde (for eksempel om Michael Jackson og valget i 2020). Teksten omtaler antisemittisme og pandemien, og noen elever kan ha opplevd dette personlig."
+styrkerStatus: godkjent
+styrker:
+  - tekst: "Innledningen fanger leseren og stiller tre spørsmål som teksten skal svare på."
+    avsnitt: [1]
+  - tekst: "Forklarer fagbegreper og viser til kilder i teksten med etternavn og årstall."
+    avsnitt: [3, 4]
+  - tekst: "Bruker konkrete eksempler, som pandemien og «Sions vises protokoller», til å vise hva teoriene kan føre til."
+    avsnitt: [2, 4, 7]
+  - tekst: "Har en litteraturliste med forfatter, årstall, tittel og lenke."
+    avsnitt: []
+forbedringerStatus: godkjent
+forbedringer:
+  - tekst: "Påstandene om hva de som tror på konspirasjonsteorier «ofte» ønsker og «aldri» gjør, er for bastante. Skriv «noen» eller «mange», og vis til en kilde."
+    avsnitt: [6, 10]
+  - tekst: "Eksemplene om Michael Jackson og presidentvalget i 2020 mangler kilde. Opplysninger i en fagartikkel må kunne kontrolleres."
+    avsnitt: [6]
+  - tekst: "Avslutningen ender med et spørsmål. Den bør i stedet svare tydelig på de tre spørsmålene fra innledningen."
+    avsnitt: [10]
 avsnitt:
   - nr: 1
     funksjon: "Innledning og problemstilling"
@@ -64,7 +82,7 @@ Konspirasjonsteorier forsvinner ikke med det samme, men det er mulig å forhindr
 
 ## Litteraturliste
 
-Dyrendahl, A. (2020). Historievitenskap: Konspirasjonsteorier. I Store Norske Leksikon. https://snl.no/konspirasjonsteori
+Dyrendal, A. (2020). Historievitenskap: Konspirasjonsteorier. I Store Norske Leksikon. https://snl.no/konspirasjonsteori
 
 Simonsen, K. B. (2020). Konspirasjonsteorier: Sions vises protokoller. I Store Norske Leksikon. https://snl.no/Sions_vises_protokoller
 

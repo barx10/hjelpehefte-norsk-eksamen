@@ -19,12 +19,13 @@ const { data } = Astro.props;
 
   type Modus = 'hel' | 'o1' | 'o2' | 'o3';
   type Vedlegg = { id: string; tittel: string; forfatter?: string; tekst: string };
-  type Valg2 = { id: string; tittel: string; tekst: string; malUrl: string; malTittel: string; vedlegg?: string; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean };
+  type Valg2 = { id: string; tittel: string; tekst: string; malUrl: string; malTittel: string; vedlegg?: string; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean; kjennetegn: string[] };
   type Pakke = {
     id: string; tittel: string; beskrivelse: string; vedlegg: Vedlegg[];
     oppgave1: { vedlegg: string; innledning: string; delsporsmal: { tekst: string; ord: Ordkrav; modell: string }[] };
     oppgave2: { valg: Valg2[] };
-    oppgave3: { tekst: string; vedlegg: string[]; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean };
+    oppgave3: { tekst: string; vedlegg: string[]; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean; kjennetegn: string[] };
+    kjennetegnUtkast: boolean;
     sjekkliste: { gruppe: string; punkter: string[] }[];
   };
   type Tilstand = { versjon: 1; modus: Modus; start: number; slutt: number; skjulTid: boolean; valg2: string; svar: Record<string, string>; levert: boolean };
@@ -285,6 +286,18 @@ const { data } = Astro.props;
     return liste;
   }
 
+  /** Kjennetegn på et godt svar. Eleven krysser av for det teksten har. */
+  function kjennetegnListe(prefiks: string, punkter: string[]): Node {
+    if (!punkter.length) return document.createComment('');
+    const sett = el('fieldset', { class: 'egenvurdering' }, el('legend', {}, pakke.kjennetegnUtkast ? 'Dette kjennetegner et godt svar (utkast)' : 'Dette kjennetegner et godt svar'));
+    sett.append(el('p', { class: 'tastehint' }, 'Les svaret ditt en gang til, og kryss av for det du har fått med.'));
+    punkter.forEach((p, i) => {
+      const id = `kj-${prefiks}-${i}`;
+      sett.append(el('div', { class: 'kriterium' }, el('input', { type: 'checkbox', id }), el('label', { for: id }, p)));
+    });
+    return sett;
+  }
+
   function eksportTekst(): string {
     const t = tilstand!;
     const modus = MODUSER[t.modus];
@@ -324,12 +337,14 @@ const { data } = Astro.props;
       const svar = (t.svar['o2'] ?? '').trim();
       barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, 'Oppgave 2'), el('p', {}, el('strong', {}, v.tittel)),
         svar ? vurder(svar, v.ord, v.nokkelord, v.sitat, v.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
+        kjennetegnListe('o2', v.kjennetegn),
         el('p', {}, el('a', { href: v.malUrl, target: '_blank', rel: 'noopener' }, `Sammenlign med malen: ${v.malTittel}`))));
     }
     if (modus.oppgaver.includes(3)) {
       const svar = (t.svar['o3'] ?? '').trim();
       barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, 'Oppgave 3'),
-        svar ? vurder(svar, pakke.oppgave3.ord, pakke.oppgave3.nokkelord, pakke.oppgave3.sitat, pakke.oppgave3.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.')));
+        svar ? vurder(svar, pakke.oppgave3.ord, pakke.oppgave3.nokkelord, pakke.oppgave3.sitat, pakke.oppgave3.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
+        kjennetegnListe('o3', pakke.oppgave3.kjennetegn)));
     }
 
     const sjekk = el('section', { class: 'eks-kort' }, el('h3', {}, 'Sjekkliste før innlevering'));
