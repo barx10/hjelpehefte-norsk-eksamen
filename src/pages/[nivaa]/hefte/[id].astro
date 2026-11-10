@@ -1,0 +1,54 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { render } from 'astro:content';
+import { hentBesvarelser, hentKapitler, hentOvelser } from '../../../lib/innhold';
+import { nurl } from '../../../lib/url';
+import { NIVAAER } from '../../../lib/nivaa';
+
+export async function getStaticPaths() {
+  const sider = await Promise.all(
+    NIVAAER.map(async (nivaa) => {
+      const kapitler = await hentKapitler(nivaa);
+      const ovelser = await hentOvelser(nivaa);
+      const tekster = await hentBesvarelser(nivaa);
+      return kapitler.map((k, i) => ({
+        params: { nivaa: nivaa.id, id: k.id },
+        props: {
+          nivaa,
+          kapittel: k,
+          forrige: kapitler[i - 1],
+          neste: kapitler[i + 1],
+          harOvelser: ovelser.some((o) => o.data.kapittel.id === k.id),
+          tekster: tekster.filter((t) => t.data.type === k.id).map((t) => ({ id: t.id, tittel: t.data.tittel, kategori: t.data.kategori })),
+        },
+      }));
+    }),
+  );
+  return sider.flat();
+}
+
+const { nivaa, kapittel, forrige, neste, harOvelser, tekster } = Astro.props;
+const { Content } = await render(kapittel);
+---
+<Layout tittel={kapittel.data.tittel} nivaa={nivaa}>
+  <nav aria-label="Brødsmulesti"><a href={nurl(nivaa, 'hefte/')}>Hefte</a></nav>
+  <h1>{kapittel.data.nummer && `${kapittel.data.nummer} `}{kapittel.data.tittel}</h1>
+  {harOvelser && (
+    <div class="knapp-rad ikke-utskrift"><a class="knapp" href={nurl(nivaa, `ovelser/${kapittel.id}/`)}>Øv på dette kapittelet</a></div>
+  )}
+  <div class="innhold"><Content /></div>
+  {tekster.length > 0 && (
+    <section class="ikke-utskrift" aria-labelledby="modelltekster">
+      <h2 id="modelltekster">Les en modelltekst</h2>
+      <ul class="liste-kapitler">
+        {tekster.map((t) => (
+          <li><a class="tekstkort" href={nurl(nivaa, `tekster/${t.id}/`)}><strong>{t.tittel}</strong><span class="liten">{t.kategori}</span></a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+  <nav class="kapittelnav" aria-label="Bla mellom kapitler">
+    {forrige ? <a href={nurl(nivaa, `hefte/${forrige.id}/`)}>← {forrige.data.tittel}</a> : <span></span>}
+    {neste ? <a href={nurl(nivaa, `hefte/${neste.id}/`)}>{neste.data.tittel} →</a> : <span></span>}
+  </nav>
+</Layout>

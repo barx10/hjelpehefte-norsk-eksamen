@@ -1,7 +1,8 @@
 ---
 tittel: "Når en ung gutt vil bli hørt"
 type: retorisk-analyse
-nivaa: modelltekst, forenklet for 10. trinn
+kategori: modelltekst, forenklet for 10. trinn
+nivaa: ['10']
 status: utkast
 oppgave: "Retorisk analyse av leserinnlegget «Som ungdomsskoleelev traff «Kjønnskampen» meg hardt» (Aftenposten, Si ;D, 27. mai 2019)"
 forfatter: "Åsa Abusland (bearbeidet og forenklet)"

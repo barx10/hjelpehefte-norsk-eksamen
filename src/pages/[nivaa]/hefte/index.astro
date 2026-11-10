@@ -1,0 +1,31 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { hentKapitler, nivaaStier } from '../../../lib/innhold';
+import { nurl } from '../../../lib/url';
+
+export const getStaticPaths = nivaaStier;
+const { nivaa } = Astro.props;
+
+const kapitler = await hentKapitler(nivaa);
+---
+<Layout tittel="Hefte" beskrivelse="Hjelpeheftet til norsk eksamen, kapittel for kapittel." nivaa={nivaa}>
+  <h1>Hjelpehefte for norsk eksamen</h1>
+  <p>Heftet er skrevet for deg som skal ha skriftlig eksamen i norsk. Hvert kapittel har tilhørende øvelser.</p>
+  {kapitler.length === 0 ? (
+    <p>Det er ingen kapitler for {nivaa.navn.toLowerCase()} ennå. Innholdet er under arbeid.</p>
+  ) : (
+    <div class="knapp-rad">
+      <a class="knapp sekundar" href={nurl(nivaa, 'hefte/alle/')}>Alle kapitler på én side (for utskrift)</a>
+    </div>
+  )}
+  <ul class="liste-kapitler">
+    {kapitler.map((k) => (
+      <li>
+        <a href={nurl(nivaa, `hefte/${k.id}/`)}>
+          <span class="nr">{k.data.nummer}</span>
+          <span>{k.data.tittel}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Layout>

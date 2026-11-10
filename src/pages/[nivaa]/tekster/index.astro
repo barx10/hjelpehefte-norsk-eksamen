@@ -1,0 +1,46 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { hentBesvarelser, hentKapitler, hentOvelser, nivaaStier, typeTittel } from '../../../lib/innhold';
+import { nurl } from '../../../lib/url';
+
+export const getStaticPaths = nivaaStier;
+const { nivaa } = Astro.props;
+
+const alle = await hentBesvarelser(nivaa);
+const kapitler = new Set((await hentKapitler(nivaa)).map((k) => k.id));
+const medOvelser = new Set((await hentOvelser(nivaa)).map((o) => o.data.kapittel.id));
+const rekkefolge = ['diktanalyse', 'novelleanalyse', 'retorisk-analyse', 'reklameanalyse', 'fagartikkel', 'reflekterende-tekst', 'droftende-tekst'] as const;
+const grupper = rekkefolge
+  .map((type) => ({ type, tekster: alle.filter((b) => b.data.type === type) }))
+  .filter((g) => g.tekster.length > 0);
+---
+<Layout tittel="Modelltekster" beskrivelse="Gode eksempler på analyser og andre tekster, med merknader til hvert avsnitt." nivaa={nivaa}>
+  <h1>Modelltekster</h1>
+  <p>Her kan du lese gode eksempler på tekster du skal skrive selv. Hvert avsnitt har en merknad som viser hva det gjør. Les først, og slå så på merknadene.{nivaa.kode === '10' && ' Mange av tekstene finnes i en forenklet versjon som passer for 10. trinn, og i originalversjonen fra videregående.'}</p>
+  {grupper.length === 0 && <p>Det er ingen godkjente tekster ennå.</p>}
+  {grupper.map((g) => (
+    <section class="tekst-gruppe" aria-labelledby={`g-${g.type}`}>
+      <h2 id={`g-${g.type}`}>{typeTittel[g.type]}</h2>
+      <ul class="liste-kapitler">
+        {g.tekster.map((t) => (
+          <li>
+            <a class="tekstkort" href={nurl(nivaa, `tekster/${t.id}/`)}>
+              <strong>{t.data.tittel}</strong>
+              <span class="liten">{t.data.kategori}{t.data.forfatter ? `. ${t.data.forfatter}` : ''}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      {(medOvelser.has(g.type) || kapitler.has(g.type)) && (
+        <p>
+          {medOvelser.has(g.type) && <a href={nurl(nivaa, `ovelser/${g.type}/`)}>Øv på {typeTittel[g.type].toLowerCase()}</a>}
+          {medOvelser.has(g.type) && kapitler.has(g.type) && ' · '}
+          {kapitler.has(g.type) && <a href={nurl(nivaa, `hefte/${g.type}/`)}>Les kapittelet i heftet</a>}
+        </p>
+      )}
+    </section>
+  ))}
+  <div class="merknad">
+    <p>Tekstene er hentet fra NDLA og bruker lisensen CC BY-SA 4.0. Navn på forfatter, lisens og kilde står under hver tekst.</p>
+  </div>
+</Layout>

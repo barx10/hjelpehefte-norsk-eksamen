@@ -1,15 +1,19 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+import Layout from '../../../layouts/Layout.astro';
 import { render } from 'astro:content';
-import { hentKapitler } from '../../lib/innhold';
-import { url } from '../../lib/url';
+import { hentKapitler, nivaaStier } from '../../../lib/innhold';
+import { nurl } from '../../../lib/url';
 
-const kapitler = await hentKapitler();
+export const getStaticPaths = nivaaStier;
+const { nivaa } = Astro.props;
+
+const kapitler = await hentKapitler(nivaa);
 const innhold = await Promise.all(kapitler.map(async (k) => ({ k, Content: (await render(k)).Content })));
 ---
-<Layout tittel="Hele heftet" beskrivelse="Hele hjelpeheftet på én side, laget for utskrift eller lagring som PDF.">
-  <nav aria-label="Brødsmulesti" class="ikke-utskrift"><a href={url('hefte/')}>Hefte</a></nav>
+<Layout tittel="Hele heftet" beskrivelse="Hele hjelpeheftet på én side, laget for utskrift eller lagring som PDF." nivaa={nivaa}>
+  <nav aria-label="Brødsmulesti" class="ikke-utskrift"><a href={nurl(nivaa, 'hefte/')}>Hefte</a></nav>
   <h1>Hjelpehefte for norsk eksamen</h1>
+  <p class="nivaamerke">{nivaa.navn}: {nivaa.kort}</p>
   <div class="knapp-rad ikke-utskrift">
     <button class="knapp" type="button" id="skriv-ut">Skriv ut eller lagre som PDF</button>
   </div>
