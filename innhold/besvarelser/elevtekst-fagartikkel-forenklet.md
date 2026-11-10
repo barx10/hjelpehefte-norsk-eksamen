@@ -23,6 +23,14 @@ styrker:
     avsnitt: [3, 4, 5, 7]
   - tekst: "Avslutningen svarer på problemstillingen fra innledningen."
     avsnitt: [8]
+forbedringerStatus: utkast
+forbedringer:
+  - tekst: "Artikkelen har bare to kilder, og begge er fra samme leksikon. Flere og ulike kilder gir en sterkere fagartikkel."
+    avsnitt: []
+  - tekst: "Avsnittene om årsaker, pandemien og sosiale medier har ingen kildehenvisning."
+    avsnitt: [4, 5, 6]
+  - tekst: "Avslutningen svarer bare på det siste av de tre spørsmålene i innledningen."
+    avsnitt: [8]
 avsnitt:
   - nr: 1
     funksjon: "Innledning og problemstilling"

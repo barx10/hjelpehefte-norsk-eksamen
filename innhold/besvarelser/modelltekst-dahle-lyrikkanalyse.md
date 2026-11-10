@@ -22,6 +22,16 @@ styrker:
     avsnitt: [7, 8, 9]
   - tekst: "Drøfter det som er uklart, for eksempel hvem som er stemmen i diktet, i stedet for å late som om alt er opplagt."
     avsnitt: [2]
+forbedringerStatus: utkast
+forbedringer:
+  - tekst: "Innledningen sier ikke hva analysen skal ta for seg."
+    avsnitt: [1]
+  - tekst: "Hvem som er stemmen i diktet, blir stående uavklart. Analysen kunne landet på én tolkning og begrunnet den."
+    avsnitt: [2]
+  - tekst: "Noen sitater er ikke helt ordrette, for eksempel «bærer huset på ryggen». Et sitat skal gjengis nøyaktig slik det står."
+    avsnitt: [4]
+  - tekst: "Stemning og tone har ikke fått et eget avsnitt."
+    avsnitt: []
 avsnitt:
   - nr: 1
     funksjon: "Innledning"

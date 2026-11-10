@@ -23,6 +23,16 @@ styrker:
     avsnitt: [2, 3, 4]
   - tekst: "Avslutningen tar med en motforestilling før den konkluderer."
     avsnitt: [5]
+forbedringerStatus: utkast
+forbedringer:
+  - tekst: "Teksten er på omtrent 370 ord. I oppgave 2 skal svaret være 450 til 900 ord, så hvert avsnitt kan få et sitat til og mer forklaring."
+    avsnitt: []
+  - tekst: "Logos-avsnittet sier at avsenderen viser til statistikk, men ikke hvilke tall. Et konkret eksempel ville gjort analysen sterkere."
+    avsnitt: [3]
+  - tekst: "Analysen viser hvilke argumenter som brukes, men vurderer i liten grad om de holder."
+    avsnitt: [3, 4]
+  - tekst: "Avslutningen sier at innlegget fungerer godt. Den kunne begrunnet tydeligere hvorfor styrkene veier tyngre enn innvendingen."
+    avsnitt: [5]
 avsnitt:
   - nr: 1
     funksjon: "Innledning"

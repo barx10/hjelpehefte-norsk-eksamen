@@ -22,6 +22,16 @@ styrker:
     avsnitt: [6, 9]
   - tekst: "Vurderer om tidspunktet for innlegget var godt valgt, og tar med innvendinger mot teksten."
     avsnitt: [10, 11]
+forbedringerStatus: utkast
+forbedringer:
+  - tekst: "Tittelen på dokumentaren er skrevet på to måter, «Kjønnkampen» og «Kjønnskampen». Navn og titler må skrives likt hele veien."
+    avsnitt: [2, 5]
+  - tekst: "Fagordene «aptum» og «kairos» brukes uten å bli forklart."
+    avsnitt: [11]
+  - tekst: "Logos-avsnittet sier at avsenderen viser til statistikk, men ikke hvilke tall."
+    avsnitt: [8]
+  - tekst: "Avslutningen ender med et spørsmål i stedet for en tydelig konklusjon."
+    avsnitt: [12]
 avsnitt:
   - nr: 1
     funksjon: "Ingress"

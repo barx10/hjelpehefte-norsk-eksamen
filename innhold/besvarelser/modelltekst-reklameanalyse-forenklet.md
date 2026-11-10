@@ -23,6 +23,16 @@ styrker:
     avsnitt: [3, 4]
   - tekst: "Avslutningen kobler bilde og tekst og forklarer hvorfor reklamen virker."
     avsnitt: [5]
+forbedringerStatus: utkast
+forbedringer:
+  - tekst: "Teksten er på omtrent 340 ord. I oppgave 2 skal svaret være 450 til 900 ord, så hvert avsnitt kan få mer plass."
+    avsnitt: []
+  - tekst: "Ett avsnitt tar opp verdiladde ord, oppfordrende språk, humor og skrifttype. Det kan deles i to."
+    avsnitt: [4]
+  - tekst: "Logos er ikke nevnt. Analysen kunne sagt om reklamen bruker fakta, og hva det betyr at den gjør det lite."
+    avsnitt: []
+  - tekst: "Målgruppen er bare kalt «nordmenn». Analysen kunne vært mer presis om hvem reklamen er laget for."
+    avsnitt: [1, 5]
 avsnitt:
   - nr: 1
     funksjon: "Innledning"

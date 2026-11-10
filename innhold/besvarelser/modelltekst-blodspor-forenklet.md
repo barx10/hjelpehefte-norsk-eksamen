@@ -23,6 +23,16 @@ styrker:
     avsnitt: [5]
   - tekst: "Avslutningen forklarer tittelen og sier hva novellen vil vise."
     avsnitt: [7]
+forbedringerStatus: utkast
+forbedringer:
+  - tekst: "Avsnittet om synsvinkel tar også opp personskildring. To poeng i ett avsnitt kan deles i to."
+    avsnitt: [4]
+  - tekst: "Avsnittet om kontrast er kort. Et sitat som viser kontrasten, og en tydeligere forklaring, ville gjort det sterkere."
+    avsnitt: [6]
+  - tekst: "Analysen peker på in medias res og vendepunktet, men sier ikke om slutten er åpen eller lukket."
+    avsnitt: [3]
+  - tekst: "Teksten ligger helt på nedre grense for oppgave 2, som er 450 ord."
+    avsnitt: []
 avsnitt:
   - nr: 1
     funksjon: "Innledning"

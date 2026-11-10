@@ -22,6 +22,16 @@ styrker:
     avsnitt: [4, 6]
   - tekst: "Avslutningen kobler virkemidlene til temaet og svarer på spørsmålet i tittelen."
     avsnitt: [8]
+forbedringerStatus: utkast
+forbedringer:
+  - tekst: "Teksten er på omtrent 440 ord. I oppgave 2 skal svaret være 450 til 900 ord, så hvert virkemiddel kan få mer plass."
+    avsnitt: []
+  - tekst: "Stemning og tone har ikke fått et eget avsnitt, slik malen for diktanalyse legger opp til."
+    avsnitt: []
+  - tekst: "Avsnittet om form slår fast at diktet har frie vers og ulik strofelengde. Det kunne også sagt hva det gjør med diktet."
+    avsnitt: [3]
+  - tekst: "Innledningen kunne hatt én setning om forfatteren."
+    avsnitt: [1]
 avsnitt:
   - nr: 1
     funksjon: "Innledning"

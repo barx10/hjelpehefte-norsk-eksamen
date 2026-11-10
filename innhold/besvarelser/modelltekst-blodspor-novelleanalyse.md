@@ -25,6 +25,14 @@ styrker:
     avsnitt: [3, 9]
   - tekst: "Avslutningen forklarer tittelen og sier hva skjønnlitteratur kan gjøre."
     avsnitt: [16, 17]
+forbedringerStatus: utkast
+forbedringer:
+  - tekst: "Innledningen nevner ikke årstallet og sier ikke hva analysen skal ta for seg."
+    avsnitt: [1]
+  - tekst: "Vendepunkt og høydepunkt brukes som om de er det samme. De er to ulike begreper."
+    avsnitt: [6]
+  - tekst: "Teksten er på over 1700 ord, og poenget om at leseren får medfølelse med gutten, gjentas flere ganger. Den kunne vært strammere."
+    avsnitt: [8, 9, 15]
 avsnitt:
   - nr: 1
     funksjon: "Innledning"
