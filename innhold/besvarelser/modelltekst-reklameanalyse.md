@@ -13,7 +13,7 @@ kildeTittel: "Reklameanalyse: En modelltekst med tips (NDLA). Lenke til siden ma
 analysertTekstUrl: ""
 endringer: "Ingen endringer i innholdet. Sidens menytekst («Sitere eller gjenbruke?», «TekstH5PInnbyggingslenke») er tatt bort. Sist oppdatert på NDLA 16.12.2025."
 merknad: "Reklamen som analyseres, er en tekst og et bilde fra Lerum og ligger ikke i repoet. Eleven må kunne se reklamen for å ha nytte av analysen. Lenke til reklamen og til modellteksten mangler."
-styrkerStatus: utkast
+styrkerStatus: godkjent
 styrker:
   - tekst: "Analyserer bildet og verbalteksten hver for seg, og viser til slutt hvordan de virker sammen."
     avsnitt: [2, 3, 7]

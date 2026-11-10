@@ -12,7 +12,7 @@ kilde: ""
 kildeTittel: "Elevtekst: Fagartikkel om konspirasjonsteorier (NDLA). Lenke til siden mangler. Sist oppdatert på NDLA 09.04.2026."
 endringer: "Ingen endringer i innholdet. Sidens menytekst («Vis kompetansemål», «Sitere eller gjenbruke?», «TekstInnbyggingslenke») er tatt bort."
 merknad: "Dette er en elevtekst, ikke en modelltekst. Den har svakheter som kan brukes i undervisning: noen generaliseringer om at de som tror på konspirasjonsteorier «ofte ønsker å fornekte sannhet» og «aldri lager teoriene selv», og noen påstander uten kilde (for eksempel om Michael Jackson og valget i 2020). I litteraturlisten står forfatteren som «Dyrendahl», mens teksten har «Dyrendal». Teksten omtaler antisemittisme og pandemien, og noen elever kan ha opplevd dette personlig."
-styrkerStatus: utkast
+styrkerStatus: godkjent
 styrker:
   - tekst: "Innledningen fanger leseren og stiller tre spørsmål som teksten skal svare på."
     avsnitt: [1]
@@ -21,6 +21,16 @@ styrker:
   - tekst: "Bruker konkrete eksempler, som pandemien og «Sions vises protokoller», til å vise hva teoriene kan føre til."
     avsnitt: [2, 4, 7]
   - tekst: "Har en litteraturliste med forfatter, årstall, tittel og lenke."
+    avsnitt: []
+forbedringerStatus: utkast
+forbedringer:
+  - tekst: "Påstandene om hva de som tror på konspirasjonsteorier «ofte» ønsker og «aldri» gjør, er for bastante. Skriv «noen» eller «mange», og vis til en kilde."
+    avsnitt: [6, 10]
+  - tekst: "Eksemplene om Michael Jackson og presidentvalget i 2020 mangler kilde. Opplysninger i en fagartikkel må kunne kontrolleres."
+    avsnitt: [6]
+  - tekst: "Avslutningen ender med et spørsmål. Den bør i stedet svare tydelig på de tre spørsmålene fra innledningen."
+    avsnitt: [10]
+  - tekst: "Forfatteren heter «Dyrendal» i teksten og «Dyrendahl» i litteraturlisten. Navn må skrives likt begge steder."
     avsnitt: []
 avsnitt:
   - nr: 1

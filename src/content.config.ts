@@ -287,6 +287,9 @@ const besvarelser = defineCollection({
     // Punkter som viser hva som gjør teksten god. Vises øverst på siden når de er godkjent.
     styrkerStatus: status.default('utkast'),
     styrker: z.array(z.object({ tekst: z.string(), avsnitt: z.array(z.number().int().min(1)).default([]) })).max(6).default([]),
+    // Punkter som viser hva som kan løfte teksten. Brukes på elevtekster med kjente svakheter.
+    forbedringerStatus: status.default('utkast'),
+    forbedringer: z.array(z.object({ tekst: z.string(), avsnitt: z.array(z.number().int().min(1)).default([]) })).max(6).default([]),
     avsnitt: z
       .array(
         z.object({

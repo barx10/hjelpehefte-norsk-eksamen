@@ -13,7 +13,7 @@ analysertTekstUrl: "https://www.aftenposten.no/meninger/sid/i/BRw9Vw/som-ungdoms
 bearbeidetFra: "modelltekst-retorisk-analyse"
 varsel: "Innlegget handler om likestilling og er omstridt. Teksten omtaler avsenderen som en 15 år gammel gutt uten å bruke navnet hans."
 endringer: "Teksten er kortet ned og skrevet om med enklere språk og kortere setninger. Den er bygd opp etter malen for retorisk analyse i heftet, med innledning, etos, logos, patos og avslutning, i den rekkefølgen malen har. Begrepene aptum, kairos, retorisk situasjon og avledet etos er tatt bort, siden de ligger utenfor heftet. Navnene på avsenderen og på to kvinner som omtales, er tatt ut. Sitatene er hentet fra originalen og er ikke kontrollert mot leserinnlegget. Kritikken mot at det blir mye følelser, er beholdt."
-styrkerStatus: utkast
+styrkerStatus: godkjent
 styrker:
   - tekst: "Innledningen sier hvem avsenderen og mottakerne er, hva avsenderen vil, og hva analysen skal gjøre."
     avsnitt: [1]

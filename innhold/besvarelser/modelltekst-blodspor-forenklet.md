@@ -13,7 +13,7 @@ novelleUrl: "https://ndla.no/r/norsk-sf-vg1/blodspor/bbcc8ac6c5"
 bearbeidetFra: "modelltekst-blodspor-novelleanalyse"
 varsel: "Novellen handler om et barn som dør i krig. Vurder om temaet passer for klassen, og si fra på forhånd."
 endringer: "Teksten er kortet ned til omtrent en tredel og skrevet om med enklere språk og kortere setninger. Den er bygd opp etter malen for novelleanalyse i heftet, med innledning, tema og handling, oppbygging, synsvinkel og personskildring, virkemidler og avslutning. Hovedpoengene og de fleste sitatene er hentet fra originalen. Sitatene er kontrollert mot novellen. «Hjertet hamrer» er tatt ut, fordi det ikke står i novellen. Avsnittene om symbolikk og om metakommentaren er kortet kraftig ned."
-styrkerStatus: utkast
+styrkerStatus: godkjent
 styrker:
   - tekst: "Innledningen nevner novellen, forfatteren og årstallet, og sier hva analysen skal gjøre."
     avsnitt: [1]

@@ -31,7 +31,11 @@ const { nivaa, tekst, original, forenklinger, harKapittel, antallOvelser } = Ast
 const d = tekst.data;
 const blokker = lesBlokker(tekst.body ?? '');
 const merknader = new Map(d.avsnitt.map((a) => [a.nr, a]));
-const styrker = visUtkast || d.styrkerStatus === 'godkjent' ? d.styrker : [];
+const synlig = (status: string) => visUtkast || status === 'godkjent';
+const bokser = [
+  { id: 'gode', tittel: 'Dette gjør teksten god', punkter: synlig(d.styrkerStatus) ? d.styrker : [], utkast: d.styrkerStatus === 'utkast' },
+  { id: 'loft', tittel: 'Dette kan løfte teksten enda mer', punkter: synlig(d.forbedringerStatus) ? d.forbedringer : [], utkast: d.forbedringerStatus === 'utkast' },
+].filter((b) => b.punkter.length > 0);
 const lenker = [
   d.diktUrl && { href: d.diktUrl, tekst: 'Les diktet' },
   d.novelleUrl && { href: d.novelleUrl, tekst: 'Les novellen' },
@@ -57,11 +61,11 @@ const lenker = [
     </p>
   )}
 
-  {styrker.length > 0 && (
-    <section class="styrker" aria-labelledby="styrker-tittel">
-      <h2 id="styrker-tittel">Dette gjør teksten god{d.styrkerStatus === 'utkast' && ' (utkast)'}</h2>
+  {bokser.map((boks) => (
+    <section class={`styrker ${boks.id}`} aria-labelledby={`${boks.id}-tittel`}>
+      <h2 id={`${boks.id}-tittel`}>{boks.tittel}{boks.utkast && ' (utkast)'}</h2>
       <ul>
-        {styrker.map((s) => (
+        {boks.punkter.map((s) => (
           <li>
             {s.tekst}
             {s.avsnitt.length > 0 && (
@@ -71,7 +75,7 @@ const lenker = [
         ))}
       </ul>
     </section>
-  )}
+  ))}
 
   <div class="kontroller">
     <label><input type="checkbox" id="vis-merknader" /> Vis merknader til avsnittene</label>

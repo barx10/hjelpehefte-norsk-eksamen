@@ -13,7 +13,7 @@ kildeTittel: "Reklameanalyse: En modelltekst med tips (NDLA). Lenke til siden ma
 analysertTekstUrl: ""
 bearbeidetFra: "modelltekst-reklameanalyse"
 endringer: "Teksten er kortet ned til omtrent halvparten og skrevet om med enklere språk og kortere setninger. Den er bygd opp med innledning, bilde, etos, patos og avslutning, i samme rekkefølge som i kapittelet om reklameanalyse i heftet. Begrepet «skjult argumentasjon» og avsnittet om nasjonalromantikk er tatt ut. Sitatene fra reklamen er hentet fra originalen og ikke kontrollert mot reklamen."
-styrkerStatus: utkast
+styrkerStatus: godkjent
 styrker:
   - tekst: "Innledningen sier hva slags tekst det er, hvem avsender og mottaker er, og hva formålet er."
     avsnitt: [1]
