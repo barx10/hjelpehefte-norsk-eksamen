@@ -37,7 +37,7 @@
   type: flervalg
   kapittel: reflekterende-tekst
   mal: [m10-10, m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hva bør avslutningen i en reflekterende tekst gjøre?"
   alternativer: ["Ta stilling til det du har tenkt gjennom", "Oppsummere alle avsnittene på nytt", "Introdusere et helt nytt tema", "Be leseren finne svaret selv"]
   riktig: 0
@@ -46,7 +46,7 @@
   type: flervalg
   kapittel: reflekterende-tekst
   mal: [m10-10, m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hvor mange avsnitt med ulike vinkler bør hoveddelen minst ha?"
   alternativer: ["Tre", "Ett", "To", "Ti"]
   riktig: 0
@@ -55,7 +55,7 @@
   type: flervalg
   kapittel: reflekterende-tekst
   mal: [m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hva er en temasetning?"
   alternativer: ["Første setning i et avsnitt som sier hva avsnittet handler om", "Siste setning i teksten", "En setning som bare inneholder et sitat", "Tittelen på teksten"]
   riktig: 0
@@ -64,7 +64,7 @@
   type: flervalg
   kapittel: reflekterende-tekst
   mal: [m10-10, m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hvilken innledning følger rådene om å presentere temaet og komme raskt til poenget?"
   alternativer: ["Hva skjer egentlig med oss når vi aldri er alene med tankene våre? Jeg lurer på om vi glemmer å kjede oss.", "Mange mennesker har mobil. Mobil kom for lenge siden. Det finnes mange typer mobiler.", "Takk for at du leser teksten min. Nå skal du få lese den.", "I denne teksten skal jeg skrive en tekst."]
   riktig: 0

@@ -2,7 +2,7 @@
   type: marker
   kapittel: oppgavetolking
   mal: [m10-12, m10-10]
-  status: utkast
+  status: godkjent
   oppdrag: "Marker temaet oppgaven handler om."
   tekst: "Reflekter over hva [[ensomhet]] betyr for deg."
   forklaring: "Temaet er det du skal skrive om. Her er det ensomhet."
@@ -10,7 +10,7 @@
   type: marker
   kapittel: oppgavetolking
   mal: [m10-12, m10-10]
-  status: utkast
+  status: godkjent
   oppdrag: "Marker temaet oppgaven handler om."
   tekst: "Analyser hvordan [[klimaendringer]] omtales i debattinnlegget."
   forklaring: "Temaet er klimaendringer. «Analyser» er instruksjonsordet."
@@ -18,7 +18,7 @@
   type: marker
   kapittel: oppgavetolking
   mal: [m10-12, m10-10]
-  status: utkast
+  status: godkjent
   oppdrag: "Marker temaet oppgaven handler om."
   tekst: "Drøft om [[skolemat]] bør være gratis for alle elever."
   forklaring: "Temaet er skolemat. «Drøft» er instruksjonsordet."
@@ -26,7 +26,7 @@
   type: flervalg
   kapittel: oppgavetolking
   mal: [m10-12, m10-10]
-  status: utkast
+  status: godkjent
   spm: "Hvilken mal passer til oppgaven? «Analyser hvordan avsenderen forsøker å overbevise leserne i debattinnlegget.»"
   alternativer: ["Retorisk analyse", "Novelleanalyse", "Diktanalyse", "Reflekterende tekst"]
   riktig: 0
@@ -35,7 +35,7 @@
   type: flervalg
   kapittel: oppgavetolking
   mal: [m10-12, m10-10]
-  status: utkast
+  status: godkjent
   spm: "Hvilken mal passer til oppgaven? «Analyser hvordan novellen bygger opp spenning.»"
   alternativer: ["Novelleanalyse", "Retorisk analyse", "Diktanalyse", "Reflekterende tekst"]
   riktig: 0
@@ -44,7 +44,7 @@
   type: flervalg
   kapittel: oppgavetolking
   mal: [m10-12, m10-10]
-  status: utkast
+  status: godkjent
   spm: "Hvilken mal passer til oppgaven? «Analyser hvordan diktet bruker språklige virkemidler.»"
   alternativer: ["Diktanalyse", "Retorisk analyse", "Novelleanalyse", "Reflekterende tekst"]
   riktig: 0
@@ -53,7 +53,7 @@
   type: flervalg
   kapittel: oppgavetolking
   mal: [m10-12, m10-10]
-  status: utkast
+  status: godkjent
   spm: "Hvilken mal passer til oppgaven? «Skriv en personlig tekst der du reflekterer over hva vennskap betyr.»"
   alternativer: ["Reflekterende tekst", "Retorisk analyse", "Novelleanalyse", "Diktanalyse"]
   riktig: 0
@@ -62,7 +62,7 @@
   type: flervalg
   kapittel: oppgavetolking
   mal: [m10-12, m10-10]
-  status: utkast
+  status: godkjent
   spm: "Hvilken mal passer til oppgaven? «Analyser bruken av etos, logos og patos i teksten.»"
   alternativer: ["Retorisk analyse", "Novelleanalyse", "Diktanalyse", "Reflekterende tekst"]
   riktig: 0
@@ -71,7 +71,7 @@
   type: flervalg
   kapittel: oppgavetolking
   mal: [m10-12, m10-10]
-  status: utkast
+  status: godkjent
   spm: "Oppgaven sier: «Gjør rede for hva etos, logos og patos er.» Hva skal du gjøre?"
   alternativer: ["Forklare hva begrepene betyr", "Analysere en bestemt tekst", "Ta stilling til om de er viktige", "Skrive en personlig tekst om dem"]
   riktig: 0
@@ -80,7 +80,7 @@
   type: matching
   kapittel: oppgavetolking
   mal: [m10-12, m10-10]
-  status: utkast
+  status: godkjent
   oppdrag: "Koble oppgaveformuleringen til malen som passer."
   par:
     - venstre: "Analyser hvordan avsenderen overbeviser"
@@ -96,7 +96,7 @@
   type: rekkefolge
   kapittel: oppgavetolking
   mal: [m10-12, m10-10]
-  status: utkast
+  status: godkjent
   oppdrag: "Sett stegene i riktig rekkefølge når du leser en oppgave."
   elementer: ["Finn instruksjonsordet", "Finn temaet eller teksten oppgaven gjelder", "Sjekk lengdekrav og vedlegg", "Velg mal", "Lag en kort disposisjon"]
   forklaring: "Du må vite hva du skal gjøre før du velger mal og planlegger."

@@ -58,7 +58,7 @@
   type: flervalg
   kapittel: novelleanalyse
   mal: [m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hva skal handlingsreferatet i en novelleanalyse forklare?"
   alternativer: ["Hva som skjer, ikke hvorfor", "Hvorfor personene gjør det de gjør", "Hvilke virkemidler forfatteren bruker", "Hva du selv synes om slutten"]
   riktig: 0
@@ -67,7 +67,7 @@
   type: flervalg
   kapittel: novelleanalyse
   mal: [m10-01, m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hvilket avsnitt i novelleanalysen er et naturlig sted å ta opp frampek?"
   alternativer: ["Oppbygging", "Innledning", "Synsvinkel og personskildring", "Tittel"]
   riktig: 0
@@ -76,7 +76,7 @@
   type: flervalg
   kapittel: novelleanalyse
   mal: [m10-01, m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hvor i novelleanalysen tar du opp om karakteren er statisk eller dynamisk?"
   alternativer: ["Avsnittet om synsvinkel og personskildring", "Innledningen", "Avsnittet om tema og handlingsreferat", "Avslutningen"]
   riktig: 0
@@ -85,7 +85,7 @@
   type: flervalg
   kapittel: novelleanalyse
   mal: [m10-06, m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hvilken formulering er den beste analysen av et virkemiddel?"
   alternativer: ["Novellen bruker frampek tidlig. Det skaper uro hos leseren fordi vi aner at noe vil gå galt.", "Novellen bruker frampek.", "Frampek er et virkemiddel som brukes i mange noveller.", "Jeg synes frampeket i novellen er bra."]
   riktig: 0
@@ -94,7 +94,7 @@
   type: flervalg
   kapittel: novelleanalyse
   mal: [m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hva er hovedoppgaven til avslutningen i en novelleanalyse?"
   alternativer: ["Koble tema og virkemidler og si hva forfatteren vil", "Gjenfortelle hele handlingen", "Introdusere et nytt virkemiddel", "Skrive en ny innledning"]
   riktig: 0

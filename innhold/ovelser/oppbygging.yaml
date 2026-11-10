@@ -31,7 +31,7 @@
 - id: opp-fv-oppgave2-tid
   type: flervalg
   kapittel: oppbygging
-  status: utkast
+  status: godkjent
   spm: "Hvor mye tid er satt av til oppgave 2 i tidsplanen?"
   alternativer: ["Omtrent to timer (1:00 til 3:00)", "20 minutter", "40 minutter", "Hele eksamenstiden"]
   riktig: 0
@@ -39,7 +39,7 @@
 - id: opp-fv-oppgave3-lengde
   type: flervalg
   kapittel: oppbygging
-  status: utkast
+  status: godkjent
   spm: "Hvilken oppgave har en omtrentlig lengde på 250–350 ord?"
   alternativer: ["Oppgave 3", "Oppgave 1", "Oppgave 2", "Ingen av dem"]
   riktig: 0
@@ -47,7 +47,7 @@
 - id: opp-fv-oppgave2-lengde
   type: flervalg
   kapittel: oppbygging
-  status: utkast
+  status: godkjent
   spm: "Hvor lang skal besvarelsen på oppgave 2 omtrent være?"
   alternativer: ["450–900 ord", "100–150 ord", "250–350 ord", "1500–2000 ord"]
   riktig: 0
@@ -55,7 +55,7 @@
 - id: opp-fv-siste-time
   type: flervalg
   kapittel: oppbygging
-  status: utkast
+  status: godkjent
   spm: "Hva bruker du den siste timen på?"
   alternativer: ["Leser gjennom, retter feil og sjekker at du svarer på det som ble spurt", "Begynner på oppgave 2", "Skriver ferdig oppgave 1", "Leser oppgavene for første gang"]
   riktig: 0

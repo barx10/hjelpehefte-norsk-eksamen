@@ -31,7 +31,7 @@
 - id: prak-fv-navn
   type: flervalg
   kapittel: praktisk-informasjon
-  status: utkast
+  status: godkjent
   spm: "Hva skriver du på besvarelsen din?"
   alternativer: ["Kandidatnummer", "Fullt navn", "Fødselsnummer", "Navnet på skolen"]
   riktig: 0
@@ -39,7 +39,7 @@
 - id: prak-fv-ki
   type: flervalg
   kapittel: praktisk-informasjon
-  status: utkast
+  status: godkjent
   spm: "Hvilket av disse hjelpemidlene er ikke tillatt på eksamen?"
   alternativer: ["KI", "Ordbok", "Grammatikk", "Hjelpeheftet"]
   riktig: 0
@@ -47,7 +47,7 @@
 - id: prak-fv-tid
   type: flervalg
   kapittel: praktisk-informasjon
-  status: utkast
+  status: godkjent
   spm: "Hvordan er eksamenstiden lagt opp?"
   alternativer: ["Fem timer, uten forberedelsesdag", "Tre timer, uten forberedelsesdag", "Fem timer, med forberedelsesdag", "To dager"]
   riktig: 0

@@ -51,7 +51,7 @@
   type: flervalg
   kapittel: diktanalyse
   mal: [m10-01]
-  status: utkast
+  status: godkjent
   spm: "I et dikt sitter en gammel mann alene ved vinduet mens regnet faller. Hva er dette?"
   alternativer: ["Motivet", "Temaet", "Rimmønsteret", "Stemningen"]
   riktig: 0
@@ -60,7 +60,7 @@
   type: flervalg
   kapittel: diktanalyse
   mal: [m10-01]
-  status: utkast
+  status: godkjent
   spm: "Hvilket av disse er et tema, ikke et motiv?"
   alternativer: ["Ensomhet", "En benk i en park", "Et tre i regn", "En gammel mann ved et vindu"]
   riktig: 0
@@ -69,7 +69,7 @@
   type: flervalg
   kapittel: diktanalyse
   mal: [m10-01, m10-12]
-  status: utkast
+  status: godkjent
   spm: "Hvilke spørsmål hører hjemme i avsnittet om form og oppbygging?"
   alternativer: ["Fast form eller frie vers, rim, rytme og strofer", "Hva forfatteren gjorde som barn", "Hva diktet koster", "Om du liker diktet"]
   riktig: 0
@@ -78,7 +78,7 @@
   type: flervalg
   kapittel: diktanalyse
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   spm: "Forfatteren skriver «natten er en vegg mellom oss». Hvilket virkemiddel er dette?"
   alternativer: ["Metafor", "Sammenligning", "Retorisk spørsmål", "Gjentakelse"]
   riktig: 0
@@ -87,7 +87,7 @@
   type: flervalg
   kapittel: diktanalyse
   mal: [m10-01]
-  status: utkast
+  status: godkjent
   spm: "Hva handler avsnittet om stemning og tone om?"
   alternativer: ["Om diktet er trist, håpefullt, sint eller drømmende, og hvilke ord som skaper det", "Hvor mange strofer diktet har", "Når diktet ble utgitt", "Hvem som har illustrert diktet"]
   riktig: 0
