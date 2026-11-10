@@ -2,7 +2,7 @@
 tittel: Slik leser du en oppgave
 nummer: '12'
 rekkefolge: 12
-status: utkast
+status: godkjent
 ---
 
 Mange mister poeng fordi de svarer på noe annet enn det oppgaven spør om. Bruk to minutter på hver oppgave før du begynner å skrive.

@@ -2,7 +2,7 @@
 tittel: Tekstbinding
 nummer: '10'
 rekkefolge: 10
-status: utkast
+status: godkjent
 ---
 
 Tekstbinding er det som får setninger og avsnitt til å henge sammen. Uten tekstbinding blir teksten en samling løsrevne setninger.

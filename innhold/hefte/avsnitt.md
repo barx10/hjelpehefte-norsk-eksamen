@@ -2,7 +2,7 @@
 tittel: Slik bygger du et avsnitt
 nummer: '13'
 rekkefolge: 13
-status: utkast
+status: godkjent
 ---
 
 Et godt avsnitt har ett poeng og følger en fast rekkefølge. Det gjelder uansett om du analyserer, drøfter eller reflekterer.
