@@ -2,7 +2,7 @@
   type: sortering
   kapittel: retorisk-analyse
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   oppdrag: "Hvilken appellform brukes i utsagnet? (Debattinnlegg om gratis skolemat)"
   kategorier: ["Etos", "Logos", "Patos"]
   elementer:
@@ -23,7 +23,7 @@
   type: sortering
   kapittel: retorisk-analyse
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   oppdrag: "Hvilken appellform brukes i utsagnet? (Debattinnlegg om mobilfri skole)"
   kategorier: ["Etos", "Logos", "Patos"]
   elementer:
@@ -44,7 +44,7 @@
   type: marker
   kapittel: retorisk-analyse
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   oppdrag: "Marker pronomenene som trekker leseren inn (du, vi, deg)."
   tekst: "[[Vi]] vet alle hva som skjer når [[vi]] ikke gjør noe. Hva vil [[du]] velge? [[Du]] kan gjøre en forskjell, og [[vi]] trenger [[deg]]."
   forklaring: "«Du» og «vi» trekker leseren inn og styrker patos."
@@ -52,7 +52,7 @@
   type: marker
   kapittel: retorisk-analyse
   mal: [m10-06]
-  status: utkast
+  status: godkjent
   oppdrag: "Marker pronomenene som inkluderer leseren (vi, oss)."
   tekst: "Klimaet angår [[oss]] alle. Hvis [[vi]] venter, kommer regningen til å treffe barna våre."
   forklaring: "«Vi» og «oss» gjør leseren til en del av fellesskapet. Det er en vanlig patos-teknikk."

@@ -17,7 +17,7 @@ Ikke bare benevn virkemidlet. Forklar hva det gjør i teksten.
 | Retorisk spørsmål | Spørsmål der svaret er innebygd | Aktiverer leseren. «Er det ikke på tide å handle?» |
 | Gjentakelse | Et ord eller en frase gjentas | Slår et poeng fast. «Jeg er fri. Fri som aldri før.» |
 | Overdrivelse | Sier mer enn det faktisk er | Humor eller dramatikk. «Jeg lo meg i hjel.» |
-| Understatement | Sier mindre enn det faktisk er | Ironi. «Det gikk ikke helt etter planen» (om en katastrofe). |
+| Underdrivelse | Sier mindre enn det faktisk er | Ironi. «Det gikk ikke helt etter planen» (om en katastrofe). |
 | Allusjon | Hentydning til noe kjent (Bibelen, historien, litteratur) | Gir dybde for den som kjenner referansen. |
 | Korte setninger | Setninger med få ord | Tempo og trykk. «Jeg ga meg ikke. Skulle ikke gi meg.» |
 
