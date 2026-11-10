@@ -13,6 +13,18 @@ novelleUrl: "https://ndla.no/r/norsk-sf-vg1/blodspor/bbcc8ac6c5"
 varsel: "Novellen handler om et barn som dør i krig. Vurder om temaet passer for klassen, og si fra på forhånd."
 endringer: "Ingen endringer i innholdet. Teksten er hentet ved automatisk lesing av nettsiden og kan avvike i små detaljer (anførselstegn, bindestreker, kursiv). Sjekk mot originalen før publisering."
 merknad: "Originalen gjengir to ting unøyaktig sammenlignet med novellen: «Hjertet hamrer» står ikke i novellen (der står «Hjertet slår like raskt og like hardt»), og «hans lille hjerne skjønner ingenting» har stor H i novellen. Novellen har én hovedperson, men andre omtales kollektivt. Novellen er under begrenset gjenbruk (Bakir Ahmethodzic), så den ligger ikke i repoet. Blokksitatet om hjertet bygger på sitatretten og er ikke omfattet av CC-lisensen."
+styrkerStatus: utkast
+styrker:
+  - tekst: "Innledningen starter hos leseren, med hvordan vi i Norge møter krig gjennom nyhetene. Slik blir novellen aktuell fra første avsnitt."
+    avsnitt: [1]
+  - tekst: "Begrunner synsvinkelen med et sitat: «hans lille hjerne skjønner ingenting» kunne ikke gutten ha tenkt selv."
+    avsnitt: [4]
+  - tekst: "Hvert virkemiddel får et eget avsnitt, og hvert avsnitt forklarer hva virkemidlet gjør med leseren."
+    avsnitt: [10, 11, 12]
+  - tekst: "Spør hele veien hvorfor forfatteren har valgt som han har gjort, for eksempel hvorfor hovedpersonen er et barn."
+    avsnitt: [3, 9]
+  - tekst: "Avslutningen forklarer tittelen og sier hva skjønnlitteratur kan gjøre."
+    avsnitt: [16, 17]
 avsnitt:
   - nr: 1
     funksjon: "Innledning"

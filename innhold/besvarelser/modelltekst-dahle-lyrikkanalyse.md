@@ -12,6 +12,16 @@ kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-lyrikkanalyse/8c1ab237c1"
 diktUrl: "https://ndla.no/r/norsk-sf-vg1/hvem-er-det-som-ingen-ser/042379cd2b"
 merknad: "Originalen gjengir noen sitater unøyaktig sammenlignet med diktet: «bærer huset på ryggen» (diktet: «Slik bærer hun huset på ryggen»), «klipper øret av sønnen» (diktet: «Klipper ørene av sønnen»), «er støpt inn i kjøkkenbenken» (diktet: «Støpt inn i kjøkkenbenken»), «krones i smuler» (diktet: «Hun krones av smuler») og «Hvem er det som ingen ser? / Det er moren det» (første linje er tittelen). Teksten er ikke endret her."
 endringer: "Ingen. Teksten er limt inn uendret, uten sidens menytekst."
+styrkerStatus: utkast
+styrker:
+  - tekst: "Åpner med et sitat fra diktet og knytter det til tittelen, i stedet for en standardinnledning."
+    avsnitt: [1]
+  - tekst: "Finner en struktur i et dikt uten fast form: Tredelingen i motivet blir en ramme for hele analysen."
+    avsnitt: [4, 5]
+  - tekst: "Følger metaforene gjennom diktet, fra hverdagen til det kongelige og det religiøse, og forklarer hva utviklingen betyr."
+    avsnitt: [7, 8, 9]
+  - tekst: "Drøfter det som er uklart, for eksempel hvem som er stemmen i diktet, i stedet for å late som om alt er opplagt."
+    avsnitt: [2]
 avsnitt:
   - nr: 1
     funksjon: "Innledning"

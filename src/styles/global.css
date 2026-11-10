@@ -330,6 +330,14 @@ textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo,
 .kontroller { display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; align-items: center; margin: 1rem 0; }
 .kontroller label { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 44px; cursor: pointer; font-weight: 600; }
 .kontroller input { width: 1.2rem; height: 1.2rem; accent-color: var(--primar); }
+/* Punktene som viser hva som gjør modellteksten god. */
+.styrker { border: 1px solid var(--riktig); background: var(--riktig-bg); border-radius: var(--radius); padding: 0.2rem 1.1rem 0.6rem; margin: 1rem 0; }
+.styrker h2 { font-size: 1.1rem; margin: 0.7rem 0 0.4rem; }
+.styrker ul { margin: 0; padding-left: 1.2rem; }
+.styrker li { margin-bottom: 0.35rem; }
+.styrke-ref { font-size: 0.92rem; }
+.avsnitt-rad { scroll-margin-top: 1rem; }
+.avsnitt-rad:target { outline: 2px solid var(--riktig); outline-offset: 6px; border-radius: 6px; }
 .tekstflate { background: var(--flate); border: 1px solid var(--linje); border-radius: var(--radius); padding: 0.5rem 1rem 1rem; }
 .avsnitt-rad { display: grid; grid-template-columns: 2rem 1fr; column-gap: 0.5rem; margin-top: 1rem; }
 .avsnitt-nr { color: var(--aksent); font-weight: 800; padding-top: 0.15rem; }

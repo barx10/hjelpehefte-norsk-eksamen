@@ -12,6 +12,16 @@ kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-lyrikkanalyse/8c1ab237c1"
 diktUrl: "https://ndla.no/r/norsk-sf-vg1/hvem-er-det-som-ingen-ser/042379cd2b"
 bearbeidetFra: "modelltekst-dahle-lyrikkanalyse"
 endringer: "Teksten er kortet ned og skrevet om med enklere språk og kortere setninger. Avsnittet om hvem stemmen i diktet er, er tatt bort. Teksten er bygd opp etter malen for diktanalyse i heftet, med innledning, tema og motiv, form, virkemidler og avslutning. Sitatene og hovedpoengene er hentet fra originalen. Noen setninger er beholdt nesten ordrett. Tre sitater som var gjengitt unøyaktig i originalen, er rettet etter diktet (bærer hun huset på ryggen, klipper ørene av sønnen, krones av smuler)."
+styrkerStatus: utkast
+styrker:
+  - tekst: "Skiller tydelig mellom motiv og tema: Motivet er en mor i hverdagen, og temaet er at mødre gjør en uvurderlig jobb."
+    avsnitt: [2]
+  - tekst: "Avsnittet om metafor navngir virkemidlet, siterer fra diktet og forklarer hva det gjør. Slik bygger du et analyseavsnitt."
+    avsnitt: [5]
+  - tekst: "Viser en utvikling i diktet: Tredelingen og kontrasten mellom begynnelsen og slutten knyttes til temaet."
+    avsnitt: [4, 6]
+  - tekst: "Avslutningen kobler virkemidlene til temaet og svarer på spørsmålet i tittelen."
+    avsnitt: [8]
 avsnitt:
   - nr: 1
     funksjon: "Innledning"

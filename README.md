@@ -78,7 +78,7 @@ Alle typer kan ha `fraTekst: <id>` som peker på en tekst i `innhold/besvarelser
 
 ### Modelltekster
 
-Modelltekster ligger i `innhold/besvarelser/`, én fil per tekst. Frontmatter har metadata (se README i mappen), blant annet `kategori` (merkelappen som vises ved teksten) og `nivaa`, og `avsnitt`: en liste med `nr`, `funksjon`, `kommentar` og eventuelt `vurdering` (`styrke` eller `svakhet`) for hvert avsnitt. En test sjekker at merknadene stemmer med antall avsnitt. Siden `/tekster/` viser teksten med nummererte avsnitt og merknader som kan slås av og på. Tekster med `status: utkast` vises ikke på den publiserte siden.
+Modelltekster ligger i `innhold/besvarelser/`, én fil per tekst. Frontmatter har metadata (se README i mappen), blant annet `kategori` (merkelappen som vises ved teksten) og `nivaa`, og `avsnitt`: en liste med `nr`, `funksjon`, `kommentar` og eventuelt `vurdering` (`styrke` eller `svakhet`) for hvert avsnitt. En test sjekker at merknadene stemmer med antall avsnitt. Feltet `styrker` er en liste med punkter som viser hva som gjør teksten god (`tekst` og eventuelt `avsnitt` med numrene punktet viser til). Punktene vises øverst på siden når teksten har `styrkerStatus: godkjent`. Siden `/tekster/` viser teksten med nummererte avsnitt og merknader som kan slås av og på. Tekster med `status: utkast` vises ikke på den publiserte siden.
 
 ### Eksamenstrening
 

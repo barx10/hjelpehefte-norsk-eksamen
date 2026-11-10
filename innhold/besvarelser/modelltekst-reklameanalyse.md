@@ -13,6 +13,16 @@ kildeTittel: "Reklameanalyse: En modelltekst med tips (NDLA). Lenke til siden ma
 analysertTekstUrl: ""
 endringer: "Ingen endringer i innholdet. Sidens menytekst («Sitere eller gjenbruke?», «TekstH5PInnbyggingslenke») er tatt bort. Sist oppdatert på NDLA 16.12.2025."
 merknad: "Reklamen som analyseres, er en tekst og et bilde fra Lerum og ligger ikke i repoet. Eleven må kunne se reklamen for å ha nytte av analysen. Lenke til reklamen og til modellteksten mangler."
+styrkerStatus: utkast
+styrker:
+  - tekst: "Analyserer bildet og verbalteksten hver for seg, og viser til slutt hvordan de virker sammen."
+    avsnitt: [2, 3, 7]
+  - tekst: "Knytter hvert virkemiddel til en appellform: farger og natur til patos, tradisjon til etos."
+    avsnitt: [3, 4]
+  - tekst: "Forklarer hvorfor valgene passer avsenderen: Lerum er kjent fra før og viser derfor til tradisjon i stedet for nyhet."
+    avsnitt: [4]
+  - tekst: "Legger merke til detaljer som skrifttype, ordspill og målform, og sier hva de gjør."
+    avsnitt: [6, 7]
 avsnitt:
   - nr: 1
     funksjon: "Innledning"

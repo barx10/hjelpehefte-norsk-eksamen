@@ -1,6 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
-import { hentBesvarelser, hentKapitler, hentOvelser, typeTittel } from '../../../lib/innhold';
+import { hentBesvarelser, hentKapitler, hentOvelser, typeTittel, visUtkast } from '../../../lib/innhold';
 import { lesBlokker, tilHtml } from '../../../lib/besvarelse';
 import { nurl } from '../../../lib/url';
 import { NIVAAER } from '../../../lib/nivaa';
@@ -31,6 +31,7 @@ const { nivaa, tekst, original, forenklinger, harKapittel, antallOvelser } = Ast
 const d = tekst.data;
 const blokker = lesBlokker(tekst.body ?? '');
 const merknader = new Map(d.avsnitt.map((a) => [a.nr, a]));
+const styrker = visUtkast || d.styrkerStatus === 'godkjent' ? d.styrker : [];
 const lenker = [
   d.diktUrl && { href: d.diktUrl, tekst: 'Les diktet' },
   d.novelleUrl && { href: d.novelleUrl, tekst: 'Les novellen' },
@@ -56,6 +57,22 @@ const lenker = [
     </p>
   )}
 
+  {styrker.length > 0 && (
+    <section class="styrker" aria-labelledby="styrker-tittel">
+      <h2 id="styrker-tittel">Dette gjør teksten god{d.styrkerStatus === 'utkast' && ' (utkast)'}</h2>
+      <ul>
+        {styrker.map((s) => (
+          <li>
+            {s.tekst}
+            {s.avsnitt.length > 0 && (
+              <span class="styrke-ref"> Se {s.avsnitt.map((n, i) => (<>{i > 0 && (i === s.avsnitt.length - 1 ? ' og ' : ', ')}<a href={`#avsnitt-${n}`}>avsnitt {n}</a></>))}.</span>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
   <div class="kontroller">
     <label><input type="checkbox" id="vis-merknader" /> Vis merknader til avsnittene</label>
     {antallOvelser > 0 && <a href={nurl(nivaa, `ovelser/${d.type}/`)}>Øv med denne teksten ({antallOvelser} øvelser)</a>}
@@ -69,7 +86,7 @@ const lenker = [
       if (b.type === 'kilde') return <div class="kilde-liste"><p set:html={tilHtml(b.tekst)} /></div>;
       const m = merknader.get(b.nr);
       return (
-        <div class="avsnitt-rad">
+        <div class="avsnitt-rad" id={`avsnitt-${b.nr}`}>
           <span class="avsnitt-nr" aria-hidden="true">{b.nr}</span>
           <p set:html={tilHtml(b.tekst)} />
           {m && (

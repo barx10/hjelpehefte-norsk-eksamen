@@ -284,6 +284,9 @@ const besvarelser = defineCollection({
     endringer: z.string().optional(),
     merknad: z.string().optional(),
     varsel: z.string().optional(),
+    // Punkter som viser hva som gjør teksten god. Vises øverst på siden når de er godkjent.
+    styrkerStatus: status.default('utkast'),
+    styrker: z.array(z.object({ tekst: z.string(), avsnitt: z.array(z.number().int().min(1)).default([]) })).max(6).default([]),
     avsnitt: z
       .array(
         z.object({
