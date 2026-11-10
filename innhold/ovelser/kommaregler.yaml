@@ -44,7 +44,7 @@
   type: flervalg
   kapittel: kommaregler
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   spm: "Hvilken setning har riktig komma?"
   alternativer: ["Hun var sliten, men fornøyd.", "Hun var sliten men fornøyd.", "Hun var sliten men, fornøyd.", "Hun var, sliten men fornøyd."]
   riktig: 0
@@ -53,7 +53,7 @@
   type: flervalg
   kapittel: kommaregler
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   spm: "Hvilken setning har riktig komma?"
   alternativer: ["Når vi er ferdige, kan vi ta pause.", "Når vi er ferdige kan vi ta pause.", "Når, vi er ferdige kan vi ta pause.", "Når vi er ferdige kan, vi ta pause."]
   riktig: 0
@@ -62,7 +62,7 @@
   type: flervalg
   kapittel: kommaregler
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   spm: "Hvilken setning har riktig komma?"
   alternativer: ["Vi trenger kabel, klips, bryter og skruer.", "Vi trenger kabel klips bryter og skruer.", "Vi trenger kabel, klips, bryter, og skruer.", "Vi trenger, kabel, klips, bryter og skruer."]
   riktig: 0
@@ -71,7 +71,7 @@
   type: flervalg
   kapittel: kommaregler
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   spm: "Hvilken setning har riktig komma?"
   alternativer: ["Tore, den eldste sønnen, begynte på skolen.", "Tore den eldste sønnen, begynte på skolen.", "Tore, den eldste sønnen begynte på skolen.", "Tore den eldste sønnen begynte på skolen."]
   riktig: 0
@@ -80,7 +80,7 @@
   type: flervalg
   kapittel: kommaregler
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   spm: "Hvilken setning har riktig komma?"
   alternativer: ["Ja, det stemmer.", "Ja det stemmer.", "Ja det, stemmer.", "Ja, det, stemmer."]
   riktig: 0
@@ -89,7 +89,7 @@
   type: flervalg
   kapittel: kommaregler
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   spm: "Hvilken setning har riktig komma?"
   alternativer: ["Jan, kom og spis!", "Jan kom og spis!", "Jan kom, og spis!", "Jan, kom, og spis!"]
   riktig: 0
@@ -98,7 +98,7 @@
   type: flervalg
   kapittel: kommaregler
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   spm: "Hvilken kommaregel brukes her? «Når regnet stoppet, gikk vi ut.»"
   alternativer: ["Leddsetning først", "Oppramsing", "Svarord og tiltaleord", "Foran «men»"]
   riktig: 0
@@ -107,7 +107,7 @@
   type: flervalg
   kapittel: kommaregler
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   spm: "Hvilken kommaregel brukes her? «Hun kjøpte melk, egg, smør og brød.»"
   alternativer: ["Oppramsing", "Innskutte ledd", "Leddsetning først", "Svarord og tiltaleord"]
   riktig: 0
