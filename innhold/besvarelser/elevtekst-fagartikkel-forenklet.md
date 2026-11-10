@@ -23,7 +23,7 @@ styrker:
     avsnitt: [3, 4, 5, 7]
   - tekst: "Avslutningen svarer på problemstillingen fra innledningen."
     avsnitt: [8]
-forbedringerStatus: utkast
+forbedringerStatus: godkjent
 forbedringer:
   - tekst: "Artikkelen har bare to kilder, og begge er fra samme leksikon. Flere og ulike kilder gir en sterkere fagartikkel."
     avsnitt: []

@@ -22,7 +22,7 @@ styrker:
     avsnitt: [7, 8, 9]
   - tekst: "Drøfter det som er uklart, for eksempel hvem som er stemmen i diktet, i stedet for å late som om alt er opplagt."
     avsnitt: [2]
-forbedringerStatus: utkast
+forbedringerStatus: godkjent
 forbedringer:
   - tekst: "Innledningen sier ikke hva analysen skal ta for seg."
     avsnitt: [1]

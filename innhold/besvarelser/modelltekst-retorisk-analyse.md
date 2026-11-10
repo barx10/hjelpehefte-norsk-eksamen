@@ -22,7 +22,7 @@ styrker:
     avsnitt: [6, 9]
   - tekst: "Vurderer om tidspunktet for innlegget var godt valgt, og tar med innvendinger mot teksten."
     avsnitt: [10, 11]
-forbedringerStatus: utkast
+forbedringerStatus: godkjent
 forbedringer:
   - tekst: "Tittelen på dokumentaren er skrevet på to måter, «Kjønnkampen» og «Kjønnskampen». Navn og titler må skrives likt hele veien."
     avsnitt: [2, 5]

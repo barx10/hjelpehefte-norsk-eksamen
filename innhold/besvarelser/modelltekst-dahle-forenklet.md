@@ -22,7 +22,7 @@ styrker:
     avsnitt: [4, 6]
   - tekst: "Avslutningen kobler virkemidlene til temaet og svarer på spørsmålet i tittelen."
     avsnitt: [8]
-forbedringerStatus: utkast
+forbedringerStatus: godkjent
 forbedringer:
   - tekst: "Teksten er på omtrent 440 ord. I oppgave 2 skal svaret være 450 til 900 ord, så hvert virkemiddel kan få mer plass."
     avsnitt: []

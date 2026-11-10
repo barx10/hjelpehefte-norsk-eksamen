@@ -23,7 +23,7 @@ styrker:
     avsnitt: [4]
   - tekst: "Legger merke til detaljer som skrifttype, ordspill og målform, og sier hva de gjør."
     avsnitt: [6, 7]
-forbedringerStatus: utkast
+forbedringerStatus: godkjent
 forbedringer:
   - tekst: "«Nordmenn elsker norsk natur» er en påstand om alle i en gruppe, uten belegg."
     avsnitt: [1]

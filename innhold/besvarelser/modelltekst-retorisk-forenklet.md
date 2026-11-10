@@ -23,7 +23,7 @@ styrker:
     avsnitt: [2, 3, 4]
   - tekst: "Avslutningen tar med en motforestilling før den konkluderer."
     avsnitt: [5]
-forbedringerStatus: utkast
+forbedringerStatus: godkjent
 forbedringer:
   - tekst: "Teksten er på omtrent 370 ord. I oppgave 2 skal svaret være 450 til 900 ord, så hvert avsnitt kan få et sitat til og mer forklaring."
     avsnitt: []

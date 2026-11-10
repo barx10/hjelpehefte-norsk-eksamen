@@ -23,7 +23,7 @@ styrker:
     avsnitt: [5]
   - tekst: "Avslutningen forklarer tittelen og sier hva novellen vil vise."
     avsnitt: [7]
-forbedringerStatus: utkast
+forbedringerStatus: godkjent
 forbedringer:
   - tekst: "Avsnittet om synsvinkel tar også opp personskildring. To poeng i ett avsnitt kan deles i to."
     avsnitt: [4]

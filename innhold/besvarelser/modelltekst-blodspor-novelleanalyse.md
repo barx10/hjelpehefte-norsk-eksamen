@@ -25,7 +25,7 @@ styrker:
     avsnitt: [3, 9]
   - tekst: "Avslutningen forklarer tittelen og sier hva skjønnlitteratur kan gjøre."
     avsnitt: [16, 17]
-forbedringerStatus: utkast
+forbedringerStatus: godkjent
 forbedringer:
   - tekst: "Innledningen nevner ikke årstallet og sier ikke hva analysen skal ta for seg."
     avsnitt: [1]

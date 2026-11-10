@@ -23,7 +23,7 @@ styrker:
     avsnitt: [3, 4]
   - tekst: "Avslutningen kobler bilde og tekst og forklarer hvorfor reklamen virker."
     avsnitt: [5]
-forbedringerStatus: utkast
+forbedringerStatus: godkjent
 forbedringer:
   - tekst: "Teksten er på omtrent 340 ord. I oppgave 2 skal svaret være 450 til 900 ord, så hvert avsnitt kan få mer plass."
     avsnitt: []
