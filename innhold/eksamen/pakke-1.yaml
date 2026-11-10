@@ -1,7 +1,7 @@
 tittel: "Pakke 1: Mobil og konsentrasjon"
 beskrivelse: "Denne pakken handler om mobilbruk i skolen. Du får et debattinnlegg, et novelleutdrag og en kort undersøkelse. Alle tekstene er skrevet for øving."
 status: godkjent
-kjennetegnStatus: utkast
+kjennetegnStatus: godkjent
 vedlegg:
   - id: v1
     tittel: "Vedlegg 1: Legg bort telefonen i timene"
