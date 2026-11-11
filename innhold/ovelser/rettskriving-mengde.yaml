@@ -2,7 +2,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Vi skrev en lang fag artikkel om klima."
   feil: "fag artikkel"
@@ -12,7 +12,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Hovedpersonen bor i en liten fiske landsby."
   feil: "fiske landsby"
@@ -22,7 +22,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Jeg glemte skole sekken hjemme."
   feil: "skole sekken"
@@ -32,7 +32,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Han har tre kilder i kilde listen."
   feil: "kilde listen"
@@ -42,7 +42,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Hun fikk god tilbake melding på teksten."
   feil: "tilbake melding"
@@ -52,7 +52,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Vi ventet lenge på buss holdeplassen."
   feil: "buss holdeplassen"
@@ -62,7 +62,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Diktet har et tydelig jeg perspektiv."
   feil: "jeg perspektiv"
@@ -72,7 +72,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Novellen handler om en ung fotball spiller."
   feil: "fotball spiller"
@@ -82,7 +82,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Reklamen har et kort slag ord."
   feil: "slag ord"
@@ -92,7 +92,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Vi har norsk eksamen i mai."
   feil: "norsk eksamen"
@@ -102,7 +102,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Talen ble holdt på et folke møte."
   feil: "folke møte"
@@ -112,7 +112,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Hun tok med seg mobil laderen."
   feil: "mobil laderen"
@@ -122,7 +122,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Vi leste en kronikk om sosiale medier og skjerm tid."
   feil: "skjerm tid"
@@ -132,7 +132,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Han jobber som sykehus lege."
   feil: "sykehus lege"
@@ -142,7 +142,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Innledningen har en god tema setning."
   feil: "tema setning"
@@ -152,7 +152,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Vi bruker mye tid på lekse lesing."
   feil: "lekse lesing"
@@ -162,7 +162,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Novellen starter på en regnfull høst dag."
   feil: "høst dag"
@@ -172,7 +172,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Jeg fikk en ny sykkel i bursdags gave."
   feil: "bursdags gave"
@@ -182,7 +182,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Kampen ble spilt på en kunst gress bane."
   feil: "kunst gress bane"
@@ -192,7 +192,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Hovedpersonen føler seg ensom i klasse rommet."
   feil: "klasse rommet"
@@ -202,7 +202,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Vi skal ha prøve imorgen tidlig."
   feil: "imorgen"
@@ -212,7 +212,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Jeg så filmen igår kveld."
   feil: "igår"
@@ -222,7 +222,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Idag skal vi skrive novelle."
   feil: "Idag"
@@ -232,7 +232,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Itillegg bruker forfatteren mange metaforer."
   feil: "Itillegg"
@@ -242,7 +242,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Etterhvert forstår leseren hva som har skjedd."
   feil: "Etterhvert"
@@ -252,7 +252,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Han kommer ihvertfall ikke i dag."
   feil: "ihvertfall"
@@ -262,7 +262,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Kampen ble avlyst pågrunn av regnet."
   feil: "pågrunn"
@@ -272,7 +272,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Vi tok bussen istedet for å gå."
   feil: "istedet"
@@ -282,7 +282,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Tilslutt skjønner hun at han lyver."
   feil: "Tilslutt"
@@ -292,7 +292,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Forfatteren bruker forexempel gjentakelse."
   feil: "forexempel"
@@ -302,7 +302,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Vi møtes iallefall etter skolen."
   feil: "iallefall"
@@ -312,7 +312,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Novellen er skrevet ifjor."
   feil: "ifjor"
@@ -322,7 +322,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Vi har norsk på Tirsdag."
   feil: "Tirsdag"
@@ -332,7 +332,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Bursdagen min er i Oktober."
   feil: "Oktober"
@@ -342,7 +342,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Hun snakker Engelsk med moren sin."
   feil: "Engelsk"
@@ -352,7 +352,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Han er Svensk, men bor i Norge."
   feil: "Svensk"
@@ -362,7 +362,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Mange Nordmenn går på ski i påsken."
   feil: "Nordmenn"
@@ -372,7 +372,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Vi reiste til bergen i sommer."
   feil: "bergen"
@@ -382,7 +382,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Diktet er skrevet av inger Hagerup."
   feil: "inger"
@@ -392,7 +392,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Familien kommer fra syria."
   feil: "syria"
@@ -402,7 +402,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Eksamen er en Fredag i juni."
   feil: "Fredag"
@@ -412,7 +412,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Vi har ferie i Juli."
   feil: "Juli"
@@ -422,7 +422,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Jeg fikk en god karakter. det var deilig."
   feil: "det"
@@ -432,7 +432,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Novellen er oversatt fra Tysk."
   feil: "Tysk"
@@ -442,7 +442,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Hun bor ved glomma."
   feil: "glomma"
@@ -452,7 +452,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Det er gøy og spille fotball."
   feil: "og"
@@ -462,7 +462,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Jeg prøvde og forstå diktet."
   feil: "og"
@@ -472,7 +472,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Hun begynte og gråte."
   feil: "og"
@@ -482,7 +482,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Vi glemte og levere oppgaven."
   feil: "og"
@@ -492,7 +492,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Mor å far kom på besøk."
   feil: "å"
@@ -502,7 +502,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Jeg satt å leste hele kvelden."
   feil: "å"
@@ -512,7 +512,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Hun stod å ventet på bussen."
   feil: "å"
@@ -522,7 +522,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Det er viktig og bruke kilder."
   feil: "og"
@@ -532,7 +532,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Vi gikk ut å spiste is."
   feil: "å"
@@ -542,7 +542,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Jeg ga de en gave."
   feil: "de"
@@ -552,7 +552,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Har du sett de i dag?"
   feil: "de"
@@ -562,7 +562,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Dem bor i huset ved siden av."
   feil: "Dem"
@@ -572,7 +572,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Læreren ba de om å være stille."
   feil: "de"
@@ -582,7 +582,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Etter kampen var dem slitne."
   feil: "dem"
@@ -592,7 +592,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Vi hjalp de med leksene."
   feil: "de"
@@ -602,7 +602,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Det var en veldig interresant tekst."
   feil: "interresant"
@@ -612,7 +612,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Novellen var egentli ganske trist."
   feil: "egentli"
@@ -622,7 +622,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Hun ble forsjellig behandlet."
   feil: "forsjellig"
@@ -632,7 +632,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Det var akuratt det jeg mente."
   feil: "akuratt"
@@ -642,7 +642,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Selvfølgelig ville han være med, men han fik ikke lov."
   feil: "fik"
@@ -652,7 +652,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Vi kommer til å vinne absolut alt."
   feil: "absolut"
@@ -662,7 +662,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Han hadde en spessiell stil."
   feil: "spessiell"
@@ -672,7 +672,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Boka var lang, men den var spenene."
   feil: "spenene"
@@ -682,7 +682,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Hun var veldig dårli i matte før."
   feil: "dårli"
@@ -692,7 +692,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Jeg synes det er vikitg å lese."
   feil: "vikitg"
@@ -702,7 +702,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Det kom mange mennesker på konserten, kansje tusen."
   feil: "kansje"
@@ -712,7 +712,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Hovedpersonen er helt allene."
   feil: "allene"
@@ -722,7 +722,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Han trente hver dag for å bli bedere."
   feil: "bedere"
@@ -732,7 +732,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Jeg har aldrig sett noe lignende."
   feil: "aldrig"
@@ -742,7 +742,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Vi så en grusom film. Den var skummel å trist."
   feil: "å"
@@ -752,7 +752,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Jeg trener hverdag etter skolen."
   feil: "hverdag"
@@ -762,7 +762,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Til vanlig er det en rolig hver dag."
   feil: "hver dag"
@@ -772,7 +772,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Nå jeg kom hjem, var alle borte."
   feil: "Nå"
@@ -782,7 +782,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Vi må gå når, ellers kommer vi for sent."
   feil: "når"
@@ -792,7 +792,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Jeg vet ikke vem som skrev novellen."
   feil: "vem"
@@ -802,7 +802,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Vor er boka mi?"
   feil: "Vor"
@@ -812,7 +812,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Jeg vet ikke va jeg skal skrive om."
   feil: "va"
@@ -822,7 +822,7 @@
   type: finnfeil
   kapittel: rettskriving
   mal: [m10-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Han lurte på vorfor hun gråt."
   feil: "vorfor"
