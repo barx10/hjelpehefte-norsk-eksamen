@@ -1,5 +1,6 @@
 ---
 import { tilJson } from '../lib/innhold';
+import Illustrasjon from './Illustrasjon.astro';
 
 interface Props {
   ovelser: unknown[];
@@ -11,6 +12,8 @@ const { ovelser, tittel } = Astro.props;
   <p>Laster øvelser ...</p>
   <noscript><p>Øvelsene krever JavaScript. Du kan lese heftet uten.</p></noscript>
 </section>
+<template id="bilde-start"><Illustrasjon motiv="ov" class="runner-bilde" /></template>
+<template id="bilde-ferdig"><Illustrasjon motiv="ferdig" class="runner-bilde" /></template>
 <script type="application/json" id="ovelser-data" set:html={tilJson(ovelser)} />
 
 <script>
@@ -93,6 +96,11 @@ const { ovelser, tittel } = Astro.props;
     return e;
   }
 
+  function bilde(id: string): Node[] {
+    const mal = document.getElementById(id) as HTMLTemplateElement | null;
+    return mal ? [mal.content.cloneNode(true)] : [];
+  }
+
   function vis(...barn: Node[]) {
     tastHandler = null;
     rot.replaceChildren(...barn);
@@ -146,6 +154,7 @@ const { ovelser, tittel } = Astro.props;
     const mestret = antallMestret(fremgang, alle);
 
     const barn: Node[] = [
+      ...bilde('bilde-start'),
       el('h2', { tabindex: '-1' }, 'Klar til å øve?'),
       el('p', {}, `${data.length} øvelser i dette temaet. Du har mestret ${mestret}. De du kan minst kommer først i hver økt.`),
     ];
@@ -671,6 +680,7 @@ const { ovelser, tittel } = Astro.props;
     const ider = data.map((o) => o.id);
 
     const barn: Node[] = [
+      ...bilde('bilde-ferdig'),
       el('h2', { tabindex: '-1' }, 'Økten er ferdig'),
       el('p', { class: 'resultat-tall' }, `${riktige} av ${svar.length} riktige`),
       el('p', {}, `Du har nå mestret ${antallMestret(fremgang, ider)} av ${data.length} øvelser i dette temaet.`),

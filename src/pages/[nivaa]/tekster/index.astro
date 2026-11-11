@@ -1,4 +1,5 @@
 ---
+import Illustrasjon from '../../../components/Illustrasjon.astro';
 import Layout from '../../../layouts/Layout.astro';
 import { hentBesvarelser, hentKapitler, hentOvelser, nivaaStier, typeTittel } from '../../../lib/innhold';
 import { nurl } from '../../../lib/url';
@@ -15,8 +16,13 @@ const grupper = rekkefolge
   .filter((g) => g.tekster.length > 0);
 ---
 <Layout tittel="Modelltekster" beskrivelse="Gode eksempler på analyser og andre tekster, med merknader til hvert avsnitt." nivaa={nivaa}>
-  <h1>Modelltekster</h1>
-  <p>Her kan du lese gode eksempler på tekster du skal skrive selv. Hvert avsnitt har en merknad som viser hva det gjør. Les først, og slå så på merknadene.{nivaa.kode === '10' && ' Mange av tekstene finnes i en forenklet versjon som passer for 10. trinn, og i originalversjonen fra videregående.'}</p>
+  <div class="sidehode">
+    <div>
+      <h1>Modelltekster</h1>
+      <p>Her kan du lese gode eksempler på tekster du skal skrive selv. Hvert avsnitt har en merknad som viser hva det gjør. Les først, og slå så på merknadene.{nivaa.kode === '10' && ' Mange av tekstene finnes i en forenklet versjon som passer for 10. trinn, og i originalversjonen fra videregående.'}</p>
+    </div>
+    <Illustrasjon motiv="tekster" />
+  </div>
   {grupper.length === 0 && <p>Det er ingen godkjente tekster ennå.</p>}
   {grupper.map((g) => (
     <section class="tekst-gruppe" aria-labelledby={`g-${g.type}`}>

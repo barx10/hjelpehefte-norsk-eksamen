@@ -1,4 +1,5 @@
 ---
+import Illustrasjon from '../components/Illustrasjon.astro';
 import Layout from '../layouts/Layout.astro';
 import { hentKapitler, hentOvelser } from '../lib/innhold';
 import { NIVAAER, NIVAA_NOKKEL } from '../lib/nivaa';
@@ -13,9 +14,12 @@ const valg = await Promise.all(
 );
 ---
 <Layout tittel="Hjelpehefte norsk eksamen" bredde="bred">
-  <section class="hero">
-    <h1>Øv til skriftlig eksamen i norsk</h1>
-    <p class="ingress">Velg nivå. Øvelser, hefte og kompetansemål tilpasses valget ditt. Du kan bytte nivå øverst på siden når du vil.</p>
+  <section class="hero sidehode">
+    <div>
+      <h1>Øv til skriftlig eksamen i norsk</h1>
+      <p class="ingress">Velg nivå. Øvelser, hefte og kompetansemål tilpasses valget ditt. Du kan bytte nivå øverst på siden når du vil.</p>
+    </div>
+    <Illustrasjon motiv="skrivebord" />
   </section>
   <ul class="temaer nivaakort" id="nivaavalg" data-nokkel={NIVAA_NOKKEL}>
     {valg.map(({ n, kapitler, ovelser }) => (

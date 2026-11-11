@@ -1,0 +1,130 @@
+---
+/**
+ * Pyntebilder tegnet for siden. Fargene kommer fra variablene --ill-* i global.css,
+ * slik at bildene følger lys og mørk modus. Bildene er pynt og skjules for skjermlesere.
+ */
+interface Props {
+  motiv: 'skrivebord' | 'hefte' | 'ov' | 'eksamen' | 'tekster' | 'ferdig';
+  class?: string;
+}
+const { motiv, class: klasse = '' } = Astro.props;
+---
+<svg class={`illustrasjon ill-${motiv} ${klasse}`} viewBox="0 0 360 260" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  {motiv === 'skrivebord' && (
+    <g>
+      <path class="i-bg" d="M40 150C30 90 80 40 150 36c60-4 90 18 140 22 40 4 62 40 54 86-8 50-40 70-100 72H86c-30 0-42-30-46-66Z" />
+      <rect class="i-strek-fyll" x="20" y="214" width="320" height="6" rx="3" />
+      <!-- bøker -->
+      <rect class="i-mork" x="34" y="190" width="96" height="24" rx="3" />
+      <rect class="i-papir" x="38" y="194" width="88" height="4" rx="2" />
+      <rect class="i-oker" x="42" y="168" width="84" height="22" rx="3" />
+      <rect class="i-okerlys" x="48" y="175" width="40" height="5" rx="2.5" />
+      <rect class="i-lys" x="38" y="148" width="80" height="20" rx="3" transform="rotate(-4 78 158)" />
+      <rect class="i-mork" x="46" y="155" width="10" height="9" rx="1" transform="rotate(-4 78 158)" />
+      <!-- notatbok -->
+      <path class="i-mork" d="M138 214l10-74h86l10 74z" />
+      <path class="i-papir" d="M146 208l9-62h33v62z" />
+      <path class="i-papir" d="M190 208v-62h33l9 62z" />
+      <path class="i-strek" d="M156 160h26M155 172h27M154 184h28M153 196h20M197 160h24M197 172h26M197 184h27M197 196h15" />
+      <path class="i-oker-strek" d="M155 172h27" />
+      <!-- blyant -->
+      <g transform="rotate(-38 250 170)">
+        <rect class="i-oker" x="200" y="164" width="76" height="12" rx="2" />
+        <rect class="i-mork" x="276" y="164" width="12" height="12" rx="2" />
+        <path class="i-okerlys" d="M200 164l-16 6 16 6z" />
+        <path class="i-strek-fyll" d="M188 168.5l-4 1.5 4 1.5z" />
+      </g>
+      <!-- kopp -->
+      <rect class="i-lys" x="270" y="180" width="34" height="34" rx="5" />
+      <path class="i-lys-strek" d="M304 188c12 0 12 18 0 18" />
+      <path class="i-dempet-strek" d="M280 172c-4-6 4-8 0-14M292 172c-4-6 4-8 0-14" />
+      <!-- klokke -->
+      <circle class="i-papir i-kant" cx="276" cy="86" r="30" />
+      <path class="i-strek" d="M276 86V68M276 86l12 8" />
+      <circle class="i-oker" cx="276" cy="86" r="3.5" />
+      <!-- gnister -->
+      <path class="i-oker-strek" d="M110 70v14M103 77h14M318 140v10M313 145h10" />
+    </g>
+  )}
+  {motiv === 'hefte' && (
+    <g>
+      <path class="i-bg" d="M56 120c-6-56 40-92 112-94 76-2 132 30 138 86 6 60-34 104-120 110-80 6-124-40-130-102Z" />
+      <path class="i-mork" d="M60 206l14-132h106l106 0 14 132z" />
+      <path class="i-papir" d="M72 196l12-112h94v112z" />
+      <path class="i-papir" d="M182 196V84h94l12 112z" />
+      <rect class="i-oker" x="246" y="70" width="14" height="44" />
+      <path class="i-papir" d="M246 114l7-8 7 8z" />
+      <path class="i-strek" d="M96 104h60M94 120h66M92 136h70M90 152h56M88 168h66" />
+      <rect class="i-lys" x="196" y="100" width="70" height="30" rx="4" />
+      <path class="i-strek" d="M204 110h40M204 120h52M198 146h70M198 162h76M198 178h50" />
+      <path class="i-oker-strek" d="M300 60v14M293 67h14M48 80v10M43 85h10" />
+    </g>
+  )}
+  {motiv === 'ov' && (
+    <g>
+      <path class="i-bg" d="M50 130c0-60 52-100 124-100s136 36 136 96-50 104-128 104S50 190 50 130Z" />
+      <rect class="i-lys" x="86" y="70" width="150" height="104" rx="10" transform="rotate(-10 161 122)" />
+      <rect class="i-okerlys" x="104" y="74" width="150" height="104" rx="10" transform="rotate(-3 179 126)" />
+      <rect class="i-papir i-kant" x="122" y="82" width="150" height="104" rx="10" transform="rotate(4 197 134)" />
+      <g transform="rotate(4 197 134)">
+        <path class="i-strek" d="M140 106h70M140 122h96M140 138h84" />
+        <text class="i-tegn" x="214" y="128">,</text>
+        <circle class="i-mork" cx="244" cy="162" r="18" />
+        <path class="i-hvit-strek" d="M235 162l6 6 12-13" />
+      </g>
+      <path class="i-oker-strek" d="M74 60v14M67 67h14M296 202v10M291 207h10" />
+      <circle class="i-oker" cx="300" cy="80" r="5" />
+    </g>
+  )}
+  {motiv === 'eksamen' && (
+    <g>
+      <path class="i-bg" d="M46 140c-4-62 50-104 126-106 80-2 140 40 142 100 2 62-52 100-132 100S50 200 46 140Z" />
+      <rect class="i-papir i-kant" x="70" y="52" width="130" height="170" rx="8" />
+      <rect class="i-mork" x="70" y="52" width="130" height="26" rx="8" />
+      <rect class="i-mork" x="70" y="66" width="130" height="12" />
+      <rect class="i-okerlys" x="86" y="94" width="14" height="14" rx="3" />
+      <path class="i-mork-strek" d="M89 101l3 3 6-7" />
+      <path class="i-strek" d="M110 101h70" />
+      <rect class="i-okerlys" x="86" y="124" width="14" height="14" rx="3" />
+      <path class="i-mork-strek" d="M89 131l3 3 6-7" />
+      <path class="i-strek" d="M110 131h60" />
+      <rect class="i-okerlys" x="86" y="154" width="14" height="14" rx="3" />
+      <path class="i-strek" d="M110 161h66M86 192h96" />
+      <circle class="i-lys" cx="252" cy="118" r="50" />
+      <circle class="i-papir i-kant" cx="252" cy="118" r="38" />
+      <path class="i-oker" d="M252 118V80a38 38 0 0 1 33 57z" opacity="0.55" />
+      <path class="i-strek" d="M252 118V90M252 118l18 10" />
+      <circle class="i-mork" cx="252" cy="118" r="4" />
+      <rect class="i-mork" x="244" y="60" width="16" height="10" rx="3" />
+      <path class="i-oker-strek" d="M300 196v14M293 203h14M48 70v10M43 75h10" />
+    </g>
+  )}
+  {motiv === 'tekster' && (
+    <g>
+      <path class="i-bg" d="M52 128c-2-60 52-98 124-98 78 0 134 38 134 98s-52 104-130 104S54 190 52 128Z" />
+      <rect class="i-lys" x="78" y="58" width="128" height="164" rx="8" transform="rotate(-6 142 140)" />
+      <rect class="i-papir i-kant" x="104" y="50" width="132" height="170" rx="8" />
+      <rect class="i-okerlys" x="118" y="78" width="96" height="12" rx="3" />
+      <path class="i-strek" d="M120 84h88M120 104h100M120 120h92M120 136h100" />
+      <rect class="i-okerlys" x="118" y="146" width="70" height="12" rx="3" />
+      <path class="i-strek" d="M120 152h64M120 172h96M120 188h80" />
+      <path class="i-mork" d="M240 92h62a10 10 0 0 1 10 10v34a10 10 0 0 1-10 10h-40l-14 14v-14h-8a10 10 0 0 1-10-10v-34a10 10 0 0 1 10-10z" />
+      <path class="i-hvit-strek" d="M244 108h50M244 122h36" />
+      <path class="i-oker-strek" d="M296 196v14M289 203h14M70 60v10M65 65h10" />
+    </g>
+  )}
+  {motiv === 'ferdig' && (
+    <g>
+      <path class="i-bg" d="M60 130c0-58 50-96 120-96s120 38 120 96-50 100-120 100S60 188 60 130Z" />
+      <path class="i-oker" d="M140 66h80v40c0 26-18 44-40 44s-40-18-40-44z" />
+      <path class="i-oker-strek tykk" d="M140 78h-14c0 22 10 32 20 34M220 78h14c0 22-10 32-20 34" />
+      <rect class="i-oker" x="172" y="148" width="16" height="22" />
+      <rect class="i-mork" x="146" y="170" width="68" height="16" rx="4" />
+      <path class="i-papir" d="M180 82l6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2z" />
+      <path class="i-mork-strek" d="M96 72l8 8M262 70l-8 8M86 150h12M262 150h12" />
+      <circle class="i-lys" cx="104" cy="112" r="6" />
+      <circle class="i-mork" cx="258" cy="116" r="5" />
+      <path class="i-oker-strek" d="M120 200v12M114 206h12M244 196v12M238 202h12" />
+    </g>
+  )}
+</svg>
