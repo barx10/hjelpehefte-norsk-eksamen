@@ -2,6 +2,7 @@
 tittel: Tekstbinding
 nummer: '10'
 rekkefolge: 10
+gruppe: sprak
 status: godkjent
 ---
 

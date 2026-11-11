@@ -2,6 +2,7 @@
 tittel: Retorisk analyse
 nummer: '4.3'
 rekkefolge: 4.3
+gruppe: sjanger
 ---
 
 En retorisk analyse undersøker hvordan en tekst er laget for å overbevise. Du bruker appellformene etos, logos og patos som verktøy.
@@ -30,6 +31,10 @@ En retorisk analyse undersøker hvordan en tekst er laget for å overbevise. Du 
 >
 > I debattinnlegget «Kutt kjøttet, spar planeten» argumenterer en miljøorganisasjon for å redusere kjøttforbruket. Målgruppen er norske forbrukere, og formålet er å overbevise dem om at kostholdsendringer er nødvendig for klimaet. I denne teksten skal jeg analysere hvordan avsenderen bruker etos, logos og patos for å nå fram.
 
+<div class="bare-nett">
+
 > **Eksempel: logos-avsnitt**
 >
 > Naturvernforbundet bruker konkrete tall: de hevder at én kilo biff krever 15 000 liter vann å produsere. Slike fakta gjør det vanskelig å avvise argumentet. Det er ikke bare en mening, det er et regnestykke.
+
+</div>

@@ -2,6 +2,7 @@
 tittel: Vanlige skrivefeil
 nummer: '11'
 rekkefolge: 11
+gruppe: sprak
 status: godkjent
 ---
 

@@ -2,6 +2,7 @@
 tittel: Synsvinkel
 nummer: '6'
 rekkefolge: 6
+gruppe: virkemidler
 ---
 
 Synsvinkel forteller hvem som ser og opplever handlingen.

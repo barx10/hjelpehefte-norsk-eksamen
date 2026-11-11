@@ -2,6 +2,7 @@
 tittel: Slik bygger du et avsnitt
 nummer: '13'
 rekkefolge: 13
+gruppe: sprak
 status: godkjent
 ---
 

@@ -2,10 +2,13 @@
 tittel: Slik øver du til eksamen
 nummer: '16'
 rekkefolge: 16
+gruppe: eksamen
 status: godkjent
 ---
 
 Dette er et forslag. Tilpass det til hvor mye tid du har.
+
+<div class="bare-nett">
 
 ## Plan
 
@@ -15,6 +18,8 @@ Dette er et forslag. Tilpass det til hvor mye tid du har.
 | Uke 2 | Kjenn malene og se hvordan tekster er bygd opp. | Rekkefølge, sorter og marker |
 | Uke 3 | Skriv deler av tekster: innledning, avsnitt, avslutning. | Skriveoppgaver |
 | Uke 4 | Skriv hele oppgaver med tidtaker. | Eksamenstrening |
+
+</div>
 
 ## Dagen før
 

@@ -2,6 +2,7 @@
 tittel: Sjekkliste før innlevering
 nummer: '8'
 rekkefolge: 8
+gruppe: eksamen
 ---
 
 Bruk fem minutter på dette. Det er tid vel brukt.

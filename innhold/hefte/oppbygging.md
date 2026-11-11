@@ -2,6 +2,7 @@
 tittel: Slik er eksamen bygd opp
 nummer: '1'
 rekkefolge: 1
+gruppe: eksamen
 ---
 
 Eksamen består av tre oppgaver. Les alle tre før du begynner å skrive.

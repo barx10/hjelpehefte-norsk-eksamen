@@ -2,6 +2,7 @@
 tittel: Viktige begreper i oppgaveteksten
 nummer: '2'
 rekkefolge: 2
+gruppe: eksamen
 ---
 
 Les instruksjonsordet nøye. Det styrer hva du skal gjøre.

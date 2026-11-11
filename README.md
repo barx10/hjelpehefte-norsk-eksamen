@@ -42,6 +42,25 @@ Feltet `nivaa` styrer hvor innholdet vises. Kodene er `'10'` og `'vg3'`.
 
 En øvelse vises bare når kapittelet den hører til, også vises på nivået. Nye nivåer legges til i `src/lib/nivaa.ts`.
 
+### Heftet
+
+Siden `/hefte/last-ned/` lager heftet eleven kan skrive ut eller lagre som PDF. Eleven kan ta med hele heftet eller velge kapitler. Heftet bygges fra de samme kapittelfilene som nettsiden, så de kan ikke komme i utakt.
+
+- `gruppe` i kapittelet styrer hvor det står i valglisten: `eksamen`, `sjanger`, `virkemidler` eller `sprak`.
+- Heftet er en kortversjon. Det som bare skal stå på nettsiden, pakkes inn slik, med en tom linje før og etter innholdet:
+
+```markdown
+<div class="bare-nett">
+
+> **Eksempel**
+>
+> Teksten her vises på nettsiden, men ikke i kortversjonen av heftet.
+
+</div>
+```
+
+Eleven kan krysse av for «Ta med alle eksemplene» og får da også disse delene med.
+
 ### Legge til en øvelse
 
 Legg den til i en YAML-fil i `innhold/ovelser/`.

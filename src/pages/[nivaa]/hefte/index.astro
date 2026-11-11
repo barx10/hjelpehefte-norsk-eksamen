@@ -15,7 +15,7 @@ const kapitler = await hentKapitler(nivaa);
     <p>Det er ingen kapitler for {nivaa.navn.toLowerCase()} ennå. Innholdet er under arbeid.</p>
   ) : (
     <div class="knapp-rad">
-      <a class="knapp sekundar" href={nurl(nivaa, 'hefte/alle/')}>Alle kapitler på én side (for utskrift)</a>
+      <a class="knapp" href={nurl(nivaa, 'hefte/last-ned/')}>Lag ditt hefte (PDF eller utskrift)</a>
     </div>
   )}
   <ul class="liste-kapitler">
