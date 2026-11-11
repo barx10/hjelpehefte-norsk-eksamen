@@ -293,17 +293,31 @@ textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo,
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 
+/* Utskrift: samme farger som nettsiden, også når eleven bruker mørk modus. */
+@page { size: A4; margin: 14mm 14mm 16mm; }
+@page {
+  @bottom-left { content: 'Hjelpehefte for norsk eksamen · laererliv.no'; font: 8pt 'Source Sans 3 Variable', 'Segoe UI', sans-serif; color: #556264; }
+  @bottom-right { content: counter(page); font: 8pt 'Source Sans 3 Variable', 'Segoe UI', sans-serif; color: #556264; }
+}
 @media print {
-  :root { --bg: #fff; --flate: #fff; --flate-2: #f2f2f2; --tekst: #000; --dempet: #333; --linje: #999; --primar: #000; --primar-tekst: #fff; --aksent: #444; --band: #000; --band-tekst: #fff; }
-  body { font-size: 11pt; display: block; }
-  .topp, .bunn, .hopp, .utkastvarsel, .knapp, .knapp-rad, .kapittelnav, .ikke-utskrift { display: none !important; }
+  :root, :root:not([data-theme='light']) {
+    --bg: #ffffff; --flate: #ffffff; --flate-2: #eef4f3; --tekst: #1c2526; --dempet: #556264; --linje: #c3d1cf;
+    --primar: #1d5c63; --primar-tekst: #ffffff; --aksent: #946318; --band: #1d5c63; --band-tekst: #ffffff;
+    --riktig: #1c6b3b; --riktig-bg: #e6f3ea; --feil: #a3281f; --feil-bg: #fbe9e6;
+  }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-size: 11pt; display: block; background: #fff; }
+  .topp, .bunn, .hopp, .utkastvarsel, .knapp, .knapp-rad, .kapittelnav, .ikke-utskrift, nav.tilbake { display: none !important; }
   .side { max-width: none; padding: 0; }
-  .innhold table, .innhold blockquote { break-inside: avoid; display: table; }
-  .innhold th { background: #ddd; color: #000; }
-  h1, h2, h3 { break-after: avoid; }
+  /* Tabeller kan deles mellom sider, men ikke midt i en rad. Overskriftsraden gjentas. */
+  .innhold table { display: table; width: 100%; break-inside: auto; }
+  .innhold thead { display: table-header-group; }
+  .innhold tr { break-inside: avoid; }
+  .innhold blockquote { break-inside: avoid; }
+  h1, h2, h3, h4 { break-after: avoid; }
   .kapittel-blokk { break-before: page; }
   .kapittel-blokk:first-of-type { break-before: auto; }
-  a { color: #000; text-decoration: none; }
+  a { color: inherit; text-decoration: none; }
 }
 
 /* Marker-oppgaver skal ikke vise komma */
@@ -365,6 +379,8 @@ textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo,
 .valggrupper fieldset { margin: 0; }
 .hefte.kortversjon .bare-nett { display: none; }
 .hefte-tittel { font-size: clamp(1.6rem, 4.5vw, 2.2rem); font-weight: 800; line-height: 1.2; margin: 0.2rem 0 1rem; }
+.forside-under { margin: 0 0 1rem; color: var(--dempet); }
+.forside-avsender { color: var(--dempet); font-size: 0.95rem; }
 .hefte-innhold-tittel { font-size: 1.1rem; margin: 0 0 0.4rem; }
 .hefte-innhold { columns: 2 14rem; column-gap: 2rem; padding-left: 0; list-style: none; margin: 0 0 2rem; }
 .hefte-innhold li { break-inside: avoid; padding: 0.15rem 0; }
@@ -373,7 +389,21 @@ textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo,
 @media print {
   .hefte .kapittel-blokk { break-before: auto; margin-top: 1.2rem; }
   .hefte .kapittel-blokk h2 { margin-top: 0; }
-  .hefte-forside { break-after: page; }
+  /* Forsiden: tittel i farget felt, innholdsliste under og avsender nederst. */
+  .hefte-forside { break-after: page; display: flex; flex-direction: column; min-height: 262mm; }
+  .hefte-forside .forside-band { background: var(--band); color: var(--band-tekst); border-radius: var(--radius); padding: 14mm 12mm 12mm; margin-bottom: 10mm; }
+  .hefte-forside .nivaamerke { color: #f3d9ab; font-size: 10pt; }
+  .hefte-forside .hefte-tittel { color: #fff; font-family: var(--skrift-tittel); font-size: 32pt; margin: 3mm 0 0; }
+  .hefte-forside .forside-under { color: #fff; opacity: 0.9; font-size: 12pt; margin: 2mm 0 0; }
+  .hefte-forside .hefte-innhold-tittel { color: var(--primar); border-bottom: 1.5px solid var(--aksent); padding-bottom: 1mm; font-size: 13pt; }
+  .hefte-forside .hefte-innhold { font-size: 11pt; }
+  .hefte-forside .hefte-innhold li { padding: 1.2mm 0; border-bottom: 1px solid var(--linje); }
+  .hefte-forside .forside-avsender { margin-top: auto; color: var(--dempet); font-size: 10pt; }
+  .hefte-forside .forside-avsender strong { color: var(--primar); }
+  .hefte .kapittel-blokk > h2 { break-after: avoid; }
+  .hefte .kapittel-blokk > h2:not([id^='k-']) { font-size: 12pt; margin: 4mm 0 1.5mm; }
+  .hefte .innhold th { background: var(--primar); color: var(--primar-tekst); }
+  .hefte .innhold tr:nth-child(even) td { background: #f6f9f8; }
   .hefte .innhold p, .hefte .innhold li { orphans: 3; widows: 3; }
   /* Heftet skal være kompakt: mindre skrift, tettere tabeller, og lange bokser kan deles over to sider. */
   .hefte { font-size: 10pt; line-height: 1.45; }
@@ -490,7 +520,7 @@ h2, h3 { font-weight: 700; }
 /* Kapitteltekst: underoverskrift med okerstrek, tabeller med rødt hode */
 .innhold h2 { border-bottom: 1.5px solid var(--aksent); color: var(--primar); font-size: 1.25rem; }
 .innhold th, .innhold td { border-color: var(--linje); }
-.hefte .kapittel-blokk > h2 { background: var(--band); color: var(--band-tekst); border: 0; border-radius: var(--radius); padding: 0.3rem 0.7rem; font-size: 1.15rem; }
+.hefte .kapittel-blokk > h2[id^='k-'] { background: var(--band); color: var(--band-tekst); border: 0; border-radius: var(--radius); padding: 0.3rem 0.7rem; font-size: 1.15rem; }
 
 /* Lister med kapitler og tekster: linjer i stedet for bokser */
 .liste-kapitler { gap: 0; border-top: 1px solid var(--linje); }
@@ -507,5 +537,8 @@ h2, h3 { font-weight: 700; }
 .spm { font-size: 1.2rem; font-weight: 700; }
 
 @media print {
-  .topp-band, .hefte .kapittel-blokk > h2, .oversikt-hode { background: #000; color: #fff; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+
+@media print {
+  .varsel-boks, :root:not([data-theme='light']) .varsel-boks { background: #fff3cd; color: #4a3b00; border-left-color: #c79100; }
 }
