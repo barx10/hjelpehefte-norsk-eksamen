@@ -122,7 +122,9 @@ Sett `status: godkjent` først etter faglig gjennomgang.
 
 `.github/workflows/deploy.yml` bygger og publiserer til GitHub Pages når `main` oppdateres. Slå på Pages under Settings, Pages, Source: GitHub Actions.
 
-Standard adresse er `https://barx10.github.io/hjelpehefte-norsk-eksamen/`. Ved eget domene bygges det med miljøvariablene `SITE` og `BASE`, for eksempel `SITE=https://ovinger.laererliv.no BASE=/ npm run build`.
+Siden publiseres på `https://eksamenstrening.laererliv.no`. Adressen settes med miljøvariablene `SITE` og `BASE` i arbeidsflyten. Domenet legges inn under Settings, Pages, Custom domain, og hos domeneleverandøren peker en CNAME-oppføring for `eksamenstrening` til `barx10.github.io`.
+
+Uten disse variablene bygges siden for `https://barx10.github.io/hjelpehefte-norsk-eksamen/`, som brukes ved lokal kjøring.
 
 ## Personvern
 
