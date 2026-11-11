@@ -22,7 +22,7 @@ const grupper = (Object.keys(gruppeTittel) as (keyof typeof gruppeTittel)[])
 const navn = (k: (typeof kapitler)[number]) => `${k.data.nummer ? k.data.nummer + ' ' : ''}${k.data.tittel}`;
 ---
 <Layout tittel="Lag ditt hefte" beskrivelse="Last ned hele hjelpeheftet i kortversjon, eller velg kapitlene du vil ha med." nivaa={nivaa}>
-  <nav aria-label="Brødsmulesti" class="ikke-utskrift"><a href={nurl(nivaa, 'hefte/')}>Hefte</a></nav>
+  <nav aria-label="Brødsmulesti" class="tilbake ikke-utskrift"><a href={nurl(nivaa, 'hefte/')}>Tilbake til heftet</a></nav>
 
   {kapitler.length === 0 ? (
     <>
@@ -33,33 +33,49 @@ const navn = (k: (typeof kapitler)[number]) => `${k.data.nummer ? k.data.nummer 
     <>
       <section class="heftevalg ikke-utskrift" aria-labelledby="valg-tittel">
         <h1 id="valg-tittel">Lag ditt hefte</h1>
-        <p>Heftet er en kortversjon av det som står på nettsiden. Du kan ta med alt, eller velge kapitlene du trenger. Heftet er et tillatt hjelpemiddel på eksamen.</p>
+        <p class="ingress">Heftet er en kortversjon av det som står på nettsiden, og du kan ha det med på eksamen. Følg de tre stegene.</p>
 
-        <div class="knapp-rad">
-          <button class="knapp" type="button" id="skriv-ut">Skriv ut eller lagre som PDF</button>
-          <button class="knapp sekundar" type="button" id="velg-alle">Velg hele heftet</button>
-          <button class="knapp sekundar" type="button" id="velg-ingen">Fjern alle</button>
-        </div>
-        <p class="melding" id="valg-status" role="status"></p>
-
-        <div class="valggrupper">
-          {grupper.map((g) => (
-            <fieldset class="egenvurdering" data-gruppe={g.id}>
-              <legend>{g.tittel}</legend>
-              {g.kapitler.map((k) => (
-                <div class="kriterium">
-                  <input type="checkbox" id={`valg-${k.id}`} data-kapittel={k.id} checked />
-                  <label for={`valg-${k.id}`}>{navn(k)}</label>
-                </div>
+        <ol class="steg">
+          <li>
+            <h2>Velg kapitler</h2>
+            <p>Alt er valgt fra start. Fjern krysset for det du ikke trenger.</p>
+            <div class="knapp-rad">
+              <button class="knapp sekundar liten-knapp" type="button" id="velg-alle">Velg alle</button>
+              <button class="knapp sekundar liten-knapp" type="button" id="velg-ingen">Fjern alle</button>
+            </div>
+            <div class="valggrupper">
+              {grupper.map((g) => (
+                <fieldset class="egenvurdering" data-gruppe={g.id}>
+                  <legend>{g.tittel}</legend>
+                  {g.kapitler.map((k) => (
+                    <div class="kriterium">
+                      <input type="checkbox" id={`valg-${k.id}`} data-kapittel={k.id} checked />
+                      <label for={`valg-${k.id}`}>{navn(k)}</label>
+                    </div>
+                  ))}
+                </fieldset>
               ))}
-            </fieldset>
-          ))}
-        </div>
+            </div>
+          </li>
+          <li>
+            <h2>Velg lengde</h2>
+            <p>Kortversjonen har malene og ett eksempel per sjanger. Den lange har alle eksemplene.</p>
+            <div class="kontroller">
+              <label><input type="checkbox" id="med-eksempler" /> Ta med alle eksemplene</label>
+            </div>
+          </li>
+          <li>
+            <h2>Lagre eller skriv ut</h2>
+            <p class="melding" id="valg-status" role="status"></p>
+            <div class="knapp-rad">
+              <button class="knapp" type="button" id="skriv-ut">Skriv ut eller lagre som PDF</button>
+            </div>
+            <p class="tastehint">Vil du ha en PDF, velger du «Lagre som PDF» der du ellers velger skriver. Valgene dine huskes til neste gang.</p>
+          </li>
+        </ol>
 
-        <div class="kontroller">
-          <label><input type="checkbox" id="med-eksempler" /> Ta med alle eksemplene (lengre hefte)</label>
-        </div>
-        <p class="tastehint">Slik lagrer du som PDF: trykk på knappen, og velg «Lagre som PDF» der du ellers velger skriver. Valgene dine huskes i nettleseren.</p>
+        <h2 class="forhandsvisning-tittel">Slik blir heftet</h2>
+        <p class="tastehint">Dette er forhåndsvisningen. Den endrer seg når du endrer valgene over.</p>
       </section>
 
       <div class="hefte kortversjon" id="hefte">
@@ -79,6 +95,7 @@ const navn = (k: (typeof kapitler)[number]) => `${k.data.nummer ? k.data.nummer 
         ))}
         <p class="tastehint">© Lærerliv 2026</p>
       </div>
+      <nav class="tilbake ikke-utskrift" aria-label="Tilbake"><a href={nurl(nivaa, 'hefte/')}>Tilbake til heftet</a> <a href="#valg-tittel" class="til-toppen">Til valgene ↑</a></nav>
     </>
   )}
 </Layout>

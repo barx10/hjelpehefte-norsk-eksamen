@@ -43,7 +43,7 @@ const lenker = [
 ].filter(Boolean) as { href: string; tekst: string }[];
 ---
 <Layout tittel={d.tittel} beskrivelse={`${typeTittel[d.type]}: ${d.oppgave}`} nivaa={nivaa}>
-  <nav aria-label="Brødsmulesti"><a href={nurl(nivaa, 'tekster/')}>Modelltekster</a></nav>
+  <nav aria-label="Brødsmulesti" class="tilbake"><a href={nurl(nivaa, 'tekster/')}>Tilbake til modelltekstene</a></nav>
   <h1>{d.tittel}</h1>
   <p class="tekst-meta">{typeTittel[d.type]}. {d.kategori}.</p>
 
