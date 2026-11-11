@@ -1,4 +1,5 @@
 ---
+import Illustrasjon from '../../../components/Illustrasjon.astro';
 import Layout from '../../../layouts/Layout.astro';
 import { hentKapitler, nivaaStier } from '../../../lib/innhold';
 import { nurl } from '../../../lib/url';
@@ -9,12 +10,17 @@ const { nivaa } = Astro.props;
 const kapitler = await hentKapitler(nivaa);
 ---
 <Layout tittel="Hefte" beskrivelse="Hjelpeheftet til norsk eksamen, kapittel for kapittel." nivaa={nivaa}>
-  <h1>Hjelpehefte for norsk eksamen</h1>
+  <div class="sidehode">
+    <div>
+      <h1>Hjelpehefte for norsk eksamen</h1>
+      {kapitler.length > 0 && <p class="ingress">Heftet samler det du trenger til skriftlig eksamen i norsk. Du kan bruke det på to måter.</p>}
+    </div>
+    <Illustrasjon motiv="hefte" />
+  </div>
   {kapitler.length === 0 ? (
     <p>Det er ingen kapitler for {nivaa.navn.toLowerCase()} ennå. Innholdet er under arbeid.</p>
   ) : (
     <>
-      <p class="ingress">Heftet samler det du trenger til skriftlig eksamen i norsk. Du kan bruke det på to måter.</p>
       <div class="veivalg">
         <section class="vei" aria-labelledby="vei-les">
           <h2 id="vei-les">Les på nettsiden</h2>

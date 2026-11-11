@@ -542,3 +542,47 @@ h2, h3 { font-weight: 700; }
 @media print {
   .varsel-boks, :root:not([data-theme='light']) .varsel-boks { background: #fff3cd; color: #4a3b00; border-left-color: #c79100; }
 }
+
+/* Illustrasjoner. Fargene følger lys og mørk modus. */
+:root {
+  --ill-mork: #1d5c63; --ill-lys: #cfe3e1; --ill-oker: #d9a54a; --ill-okerlys: #f3e3c3;
+  --ill-papir: #ffffff; --ill-strek: #2b3a3c; --ill-bg: #eef4f3; --ill-dempet: #9fb0b2;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --ill-mork: #2f7d86; --ill-lys: #24474b; --ill-oker: #c9953c; --ill-okerlys: #b08a4e;
+    --ill-papir: #dfe6e5; --ill-strek: #1c2526; --ill-bg: #1c2728; --ill-dempet: #5f7173;
+  }
+}
+.illustrasjon { display: block; width: 100%; height: auto; }
+.illustrasjon .i-bg { fill: var(--ill-bg); }
+.illustrasjon .i-mork { fill: var(--ill-mork); }
+.illustrasjon .i-lys { fill: var(--ill-lys); }
+.illustrasjon .i-oker { fill: var(--ill-oker); }
+.illustrasjon .i-okerlys { fill: var(--ill-okerlys); }
+.illustrasjon .i-papir { fill: var(--ill-papir); }
+.illustrasjon .i-kant { stroke: var(--ill-mork); stroke-width: 3; }
+.illustrasjon .i-strek-fyll { fill: var(--ill-strek); }
+.illustrasjon [class*='-strek'] { fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 3; }
+.illustrasjon .i-strek { stroke: var(--ill-strek); stroke-width: 2.5; opacity: 0.55; }
+.illustrasjon .i-oker-strek { stroke: var(--ill-oker); stroke-width: 4; opacity: 1; }
+.illustrasjon .i-oker-strek.tykk { stroke-width: 7; }
+.illustrasjon .i-lys-strek { stroke: var(--ill-lys); stroke-width: 6; }
+.illustrasjon .i-mork-strek { stroke: var(--ill-mork); }
+.illustrasjon .i-hvit-strek { stroke: #fff; stroke-width: 4; }
+.illustrasjon .i-dempet-strek { stroke: var(--ill-dempet); }
+.illustrasjon .i-strek-fyll { stroke: none; }
+.illustrasjon .i-tegn { fill: var(--ill-oker); font: 700 64px var(--skrift-tittel); }
+
+/* Sidehode med tekst til venstre og bilde til høyre. På smal skjerm står bildet over teksten. */
+.sidehode { display: grid; grid-template-columns: minmax(0, 1fr) minmax(12rem, 20rem); gap: 1rem 2.5rem; align-items: center; margin-bottom: 1.5rem; }
+.sidehode > .illustrasjon { grid-column: 2; grid-row: 1; }
+.sidehode > :not(.illustrasjon) { grid-column: 1; }
+.sidehode h1 { margin-top: 0.25rem; }
+@media (max-width: 44rem) {
+  .sidehode { grid-template-columns: minmax(0, 1fr); }
+  .sidehode { gap: 0.25rem; }
+  .sidehode > .illustrasjon { grid-column: 1; max-width: 9rem; margin-left: -0.5rem; }
+}
+.runner-bilde { max-width: 11rem; margin: 0 0 0.5rem; }
+@media print { .illustrasjon { display: none !important; } }

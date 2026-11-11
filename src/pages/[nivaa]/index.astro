@@ -1,4 +1,5 @@
 ---
+import Illustrasjon from '../../components/Illustrasjon.astro';
 import Layout from '../../layouts/Layout.astro';
 import { hentBesvarelser, hentKapitler, hentOvelser, kapittelNavn, nivaaStier, typeNavn } from '../../lib/innhold';
 import type { Ovelsestype } from '../../lib/innhold';
@@ -26,7 +27,8 @@ const temaer = kapitler
   .filter((t) => t.ider.length > 0);
 ---
 <Layout tittel={`Øv til eksamen: ${nivaa.navn.toLowerCase()}`} beskrivelse={nivaa.beskrivelse} bredde="bred" nivaa={nivaa}>
-  <section class="hero">
+  <section class="hero sidehode">
+    <div>
     <p class="nivaamerke">{nivaa.navn}: {nivaa.kort}</p>
     <h1>Øv til skriftlig eksamen i norsk</h1>
     <p class="ingress">Korte økter med flashkort og flervalg, bygd på Hjelpehefte norsk eksamen. Du velger tema, og øvelsene du kan minst kommer først.</p>
@@ -34,6 +36,8 @@ const temaer = kapitler
       {temaer.length > 0 && <a class="knapp" href={nurl(nivaa, 'ovelser/alle/')}>Øv på alt</a>}
       {kapitler.length > 0 && <a class="knapp sekundar" href={nurl(nivaa, 'hefte/')}>Les heftet</a>}
     </div>
+    </div>
+    <Illustrasjon motiv="ov" />
   </section>
 
   <h2 id="temaer">Kapitler</h2>
