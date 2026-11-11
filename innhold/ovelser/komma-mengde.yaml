@@ -1,0 +1,1053 @@
+- id: komma-m-r1-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Sola skinte, og barna lekte ute."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «og». Da settes det komma foran."
+- id: komma-m-r1-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Jeg skrev innledningen, og Ali skrev avslutningen."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «og». Da settes det komma foran."
+- id: komma-m-r1-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Bussen var full, og vi måtte stå hele veien."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «og». Da settes det komma foran."
+- id: komma-m-r1-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Læreren delte ut oppgavene, og elevene begynte å lese."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «og». Da settes det komma foran."
+- id: komma-m-r1-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Vil du ha te, eller skal jeg lage kakao?"
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «eller». Da settes det komma foran."
+- id: komma-m-r1-6
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Du kan skrive en novelle, eller du kan skrive et dikt."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «eller». Da settes det komma foran."
+- id: komma-m-r1-7
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Hun gikk tidlig hjem, for hun var syk."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «for». Da settes det komma foran."
+- id: komma-m-r1-8
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Jeg tok med paraply, for meldingen lovet regn."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «for». Da settes det komma foran."
+- id: komma-m-r1-9
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Filmen var lang, og vi sovnet før slutten."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «og». Da settes det komma foran."
+- id: komma-m-r1-10
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Kampen startet klokken sju, og stadion var fullt."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «og». Da settes det komma foran."
+- id: komma-m-r1-11
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Mobilen ringte, og alle snudde seg."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «og». Da settes det komma foran."
+- id: komma-m-r1-12
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Teksten er kort, og språket er enkelt."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «og». Da settes det komma foran."
+- id: komma-m-r1-13
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Vi leste diktet høyt, og læreren spurte hva det handlet om."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «og». Da settes det komma foran."
+- id: komma-m-r1-14
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Kom du med toget, eller kjørte noen deg?"
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «eller». Da settes det komma foran."
+- id: komma-m-r1-15
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Han svarte ikke, for han hadde ikke hørt spørsmålet."
+  regler: [1]
+  forklaring: "To helsetninger med hvert sitt subjekt er bundet sammen med «for». Da settes det komma foran."
+- id: komma-m-r1-uten-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Hun pakket sekken og gikk til skolen."
+  regler: [1]
+  forklaring: "Samme subjekt hører til begge verbene, og det kommer ikke noe nytt subjekt etter «og». Da settes det ikke komma."
+- id: komma-m-r1-uten-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Vi leste oppgaven og laget en skriveplan."
+  regler: [1]
+  forklaring: "Samme subjekt hører til begge verbene, og det kommer ikke noe nytt subjekt etter «og». Da settes det ikke komma."
+- id: komma-m-r1-uten-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Jonas spiste frokost og løp til bussen."
+  regler: [1]
+  forklaring: "Samme subjekt hører til begge verbene, og det kommer ikke noe nytt subjekt etter «og». Da settes det ikke komma."
+- id: komma-m-r1-uten-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Eleven skrev innledningen og leste den høyt."
+  regler: [1]
+  forklaring: "Samme subjekt hører til begge verbene, og det kommer ikke noe nytt subjekt etter «og». Da settes det ikke komma."
+- id: komma-m-r1-uten-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Jeg kom hjem og la meg på sofaen."
+  regler: [1]
+  forklaring: "Samme subjekt hører til begge verbene, og det kommer ikke noe nytt subjekt etter «og». Da settes det ikke komma."
+- id: komma-m-r1-uten-6
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Forfatteren bruker metaforer og skaper sterke bilder."
+  regler: [1]
+  forklaring: "Samme subjekt hører til begge verbene, og det kommer ikke noe nytt subjekt etter «og». Da settes det ikke komma."
+- id: komma-m-r1-uten-7
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Hun åpnet vinduet og kikket ut."
+  regler: [1]
+  forklaring: "Samme subjekt hører til begge verbene, og det kommer ikke noe nytt subjekt etter «og». Da settes det ikke komma."
+- id: komma-m-r1-uten-8
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Vi kan gå nå eller vente til regnet gir seg."
+  regler: [1]
+  forklaring: "Samme subjekt hører til begge verbene, og det kommer ikke noe nytt subjekt etter «eller». Da settes det ikke komma."
+- id: komma-m-r2-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Oppgaven var vanskelig, men morsom."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Han prøvde, men han klarte det ikke."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Diktet er kort, men det sier mye."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Jeg ville gå på kino, men kinoen var stengt."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Hun er ung, men erfaren."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-6
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Vi øvde mye, men vi tapte likevel."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-7
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Novellen har en åpen slutt, men leseren kan ane hva som skjer."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-8
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Det var kaldt, men sola skinte."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-9
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Argumentet er godt, men det mangler kilde."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-10
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Jeg leste teksten to ganger, men forsto den ikke."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-11
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Huset var gammelt, men koselig."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-12
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Han sa unnskyld, men hun var fortsatt sint."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-13
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Reklamen er morsom, men budskapet er alvorlig."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r2-14
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Ikke i dag, men kanskje i morgen."
+  regler: [2]
+  forklaring: "Det er alltid komma rett foran «men»."
+- id: komma-m-r3-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Når klokka ringer, går vi inn."
+  regler: [3]
+  forklaring: "Leddsetningen «Når klokka ringer» står først. Da settes det komma etter den."
+- id: komma-m-r3-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Hvis det regner, blir kampen avlyst."
+  regler: [3]
+  forklaring: "Leddsetningen «Hvis det regner» står først. Da settes det komma etter den."
+- id: komma-m-r3-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Fordi bussen var sen, kom vi for sent."
+  regler: [3]
+  forklaring: "Leddsetningen «Fordi bussen var sen» står først. Da settes det komma etter den."
+- id: komma-m-r3-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Mens vi ventet, leste jeg oppgaven."
+  regler: [3]
+  forklaring: "Leddsetningen «Mens vi ventet» står først. Da settes det komma etter den."
+- id: komma-m-r3-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Før du begynner å skrive, bør du lage en plan."
+  regler: [3]
+  forklaring: "Leddsetningen «Før du begynner å skrive» står først. Da settes det komma etter den."
+- id: komma-m-r3-6
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Etter at vi hadde spist, gikk vi en tur."
+  regler: [3]
+  forklaring: "Leddsetningen «Etter at vi hadde spist» står først. Da settes det komma etter den."
+- id: komma-m-r3-7
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Da hun kom hjem, var huset tomt."
+  regler: [3]
+  forklaring: "Leddsetningen «Da hun kom hjem» står først. Da settes det komma etter den."
+- id: komma-m-r3-8
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Om du vil, kan du bli med."
+  regler: [3]
+  forklaring: "Leddsetningen «Om du vil» står først. Da settes det komma etter den."
+- id: komma-m-r3-9
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Selv om teksten er kort, inneholder den mange virkemidler."
+  regler: [3]
+  forklaring: "Leddsetningen «Selv om teksten er kort» står først. Da settes det komma etter den."
+- id: komma-m-r3-10
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Siden alle var enige, tok vi en avgjørelse."
+  regler: [3]
+  forklaring: "Leddsetningen «Siden alle var enige» står først. Da settes det komma etter den."
+- id: komma-m-r3-11
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "At han kom for sent, overrasket ingen."
+  regler: [3]
+  forklaring: "Leddsetningen «At han kom for sent» står først. Da settes det komma etter den."
+- id: komma-m-r3-12
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Hvis du bruker eksempler, blir teksten tydeligere."
+  regler: [3]
+  forklaring: "Leddsetningen «Hvis du bruker eksempler» står først. Da settes det komma etter den."
+- id: komma-m-r3-13
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Når du analyserer et dikt, må du se på språket."
+  regler: [3]
+  forklaring: "Leddsetningen «Når du analyserer et dikt» står først. Da settes det komma etter den."
+- id: komma-m-r3-14
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Fordi forfatteren bruker korte setninger, øker tempoet."
+  regler: [3]
+  forklaring: "Leddsetningen «Fordi forfatteren bruker korte setninger» står først. Da settes det komma etter den."
+- id: komma-m-r3-15
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Da novellen slutter, er hovedpersonen alene."
+  regler: [3]
+  forklaring: "Leddsetningen «Da novellen slutter» står først. Da settes det komma etter den."
+- id: komma-m-r3-sist-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Kampen blir avlyst hvis det regner."
+  regler: [3]
+  forklaring: "Leddsetningen står sist. Da settes det vanligvis ikke komma foran den."
+- id: komma-m-r3-sist-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Vi går inn når klokka ringer."
+  regler: [3]
+  forklaring: "Leddsetningen står sist. Da settes det vanligvis ikke komma foran den."
+- id: komma-m-r3-sist-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Jeg leste oppgaven mens vi ventet."
+  regler: [3]
+  forklaring: "Leddsetningen står sist. Da settes det vanligvis ikke komma foran den."
+- id: komma-m-r3-sist-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Huset var tomt da hun kom hjem."
+  regler: [3]
+  forklaring: "Leddsetningen står sist. Da settes det vanligvis ikke komma foran den."
+- id: komma-m-r3-sist-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Teksten blir tydeligere hvis du bruker eksempler."
+  regler: [3]
+  forklaring: "Leddsetningen står sist. Da settes det vanligvis ikke komma foran den."
+- id: komma-m-r3-sist-6
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Jeg tror at hun kommer i morgen."
+  regler: [3]
+  forklaring: "«at»-setningen står sist i setningen. Da settes det ikke komma foran den."
+- id: komma-m-r3-sist-7
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Han sa at boka var spennende."
+  regler: [3]
+  forklaring: "«at»-setningen står sist i setningen. Da settes det ikke komma foran den."
+- id: komma-m-r3-sist-8
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Vi kom for sent fordi bussen var sen."
+  regler: [3]
+  forklaring: "Leddsetningen står sist. Da settes det vanligvis ikke komma foran den."
+- id: komma-m-r4-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Vi kjøpte epler, bananer, pærer og druer."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Hun liker fotball, håndball og ski."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "I sekken hadde jeg bøker, penal, matboks og vannflaske."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Novellen har få personer, ett miljø og en kort handling."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Diktet bruker rim, rytme og gjentakelse."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-6
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Han snakker norsk, engelsk, spansk og arabisk."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-7
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "En fagartikkel har tittel, ingress, mellomtitler og kildeliste."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-8
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Vi så elg, rev, hare og ekorn på turen."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-9
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Reklamen bruker farger, humor og en kjent person."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-10
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Tor, Lise, Amir og Sara var med på prosjektet."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-11
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Jeg vasket opp, ryddet rommet og gikk ut med søpla."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-12
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Du kan skrive om vennskap, familie eller frihet."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «eller» før det siste leddet."
+- id: komma-m-r4-13
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Etos, patos og logos brukes i mange taler."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-14
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Hun var trøtt, sulten og lei."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-15
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "En god innledning vekker interesse, presenterer tema og sier hva teksten skal handle om."
+  regler: [4]
+  forklaring: "Komma mellom leddene i oppramsingen, men ikke foran «og» før det siste leddet."
+- id: komma-m-r4-uten-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Vi kjøpte brød og melk."
+  regler: [4]
+  forklaring: "Det er bare to ledd, bundet sammen med «og». Da trengs det ikke komma."
+- id: komma-m-r4-uten-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Hun liker å lese og skrive."
+  regler: [4]
+  forklaring: "Det er bare to ledd, bundet sammen med «og». Da trengs det ikke komma."
+- id: komma-m-r5-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Mona, søsteren min, går i niende klasse."
+  regler: [5]
+  forklaring: "«søsteren min» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Bergen, byen mellom de sju fjell, har mye regn."
+  regler: [5]
+  forklaring: "«byen mellom de sju fjell» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Rektor, Per Olsen, holdt tale på avslutningen."
+  regler: [5]
+  forklaring: "«Per Olsen» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Henrik Ibsen, en kjent dramatiker, skrev «Et dukkehjem»."
+  regler: [5]
+  forklaring: "«en kjent dramatiker» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Hunden vår, en gammel labrador, sover hele dagen."
+  regler: [5]
+  forklaring: "«en gammel labrador» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-6
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Diktet, som er skrevet på nynorsk, handler om havet."
+  regler: [5]
+  forklaring: "«som er skrevet på nynorsk» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-7
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Kronikken, som sto i avisen i går, har fått mye kritikk."
+  regler: [5]
+  forklaring: "«som sto i avisen i går» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-8
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Hovedpersonen, en ung jente, føler seg alene."
+  regler: [5]
+  forklaring: "«en ung jente» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-9
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Treneren vår, som er streng, ga oss fri i dag."
+  regler: [5]
+  forklaring: "«som er streng» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-10
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Vennen min, Jonas, flyttet til Tromsø."
+  regler: [5]
+  forklaring: "«Jonas» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-11
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Mount Everest, verdens høyeste fjell, ligger i Nepal."
+  regler: [5]
+  forklaring: "«verdens høyeste fjell» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-12
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Talen, som varte i ti minutter, fikk stor applaus."
+  regler: [5]
+  forklaring: "«som varte i ti minutter» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-13
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Novellen, som er svært kort, slutter brått."
+  regler: [5]
+  forklaring: "«som er svært kort» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r5-14
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Bestefar, som fyller nitti i år, går fortsatt tur hver dag."
+  regler: [5]
+  forklaring: "«som fyller nitti i år» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
+- id: komma-m-r6-svar-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Ja, jeg har gjort leksene."
+  regler: [6]
+  forklaring: "«Ja» er et svarord. Etter svarord settes det komma."
+- id: komma-m-r6-svar-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Nei, det var ikke meg."
+  regler: [6]
+  forklaring: "«Nei» er et svarord. Etter svarord settes det komma."
+- id: komma-m-r6-svar-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Jo, jeg har lest boka."
+  regler: [6]
+  forklaring: "«Jo» er et svarord. Etter svarord settes det komma."
+- id: komma-m-r6-svar-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Ja, det kan du gjerne."
+  regler: [6]
+  forklaring: "«Ja» er et svarord. Etter svarord settes det komma."
+- id: komma-m-r6-svar-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Nei, den oppgaven har jeg ikke valgt."
+  regler: [6]
+  forklaring: "«Nei» er et svarord. Etter svarord settes det komma."
+- id: komma-m-r6-svar-6
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Jo, det tror jeg."
+  regler: [6]
+  forklaring: "«Jo» er et svarord. Etter svarord settes det komma."
+- id: komma-m-r6-svar-7
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Nei takk, jeg er mett."
+  regler: [6]
+  forklaring: "«Nei takk» er et svarord. Etter svarord settes det komma."
+- id: komma-m-r6-tiltale-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Mamma, hvor er nøklene mine?"
+  regler: [6]
+  forklaring: "«Mamma» er et tiltaleord, altså navnet på den du snakker til. Det skilles fra resten med komma."
+- id: komma-m-r6-tiltale-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Hør her, Emil, nå må du rydde."
+  regler: [6]
+  forklaring: "«Emil» er et tiltaleord midt i setningen. Det får komma på begge sider."
+- id: komma-m-r6-tiltale-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Takk for hjelpen, Nora!"
+  regler: [6]
+  forklaring: "«Nora» er et tiltaleord, altså navnet på den du snakker til. Det skilles fra resten med komma."
+- id: komma-m-r6-tiltale-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Ida, kan du lese høyt?"
+  regler: [6]
+  forklaring: "«Ida» er et tiltaleord, altså navnet på den du snakker til. Det skilles fra resten med komma."
+- id: komma-m-r6-tiltale-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Vet du hva klokka er, pappa?"
+  regler: [6]
+  forklaring: "«pappa» er et tiltaleord, altså navnet på den du snakker til. Det skilles fra resten med komma."
+- id: komma-m-r6-tiltale-6
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "Kjære venner, velkommen til festen!"
+  regler: [6]
+  forklaring: "«Kjære venner» er tiltaleord, altså dem du snakker til. Det skilles fra resten med komma."
+- id: komma-m-r6-tiltale-7
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 2
+  setning: "Nå, Ahmed, er det din tur."
+  regler: [6]
+  forklaring: "«Ahmed» er et tiltaleord midt i setningen. Det får komma på begge sider."
+- id: komma-m-r6-tiltale-8
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 1
+  setning: "God morgen, alle sammen!"
+  regler: [6]
+  forklaring: "«alle sammen» er tiltaleord, altså dem du snakker til. Det skilles fra resten med komma."
+- id: komma-m-blandet-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 3
+  setning: "Når du er ferdig, kan du lese gjennom teksten, og så leverer du."
+  regler: [1, 3]
+  forklaring: "Komma etter leddsetningen som står først, og foran «og» mellom to helsetninger med hvert sitt subjekt."
+- id: komma-m-blandet-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 3
+  setning: "Ja, jeg har lest novellen, men jeg forsto ikke slutten."
+  regler: [2, 6]
+  forklaring: "Komma etter svarordet «Ja» og rett foran «men»."
+- id: komma-m-blandet-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 3
+  setning: "Hvis du har tid, kan du kjøpe melk, brød og egg."
+  regler: [3, 4]
+  forklaring: "Komma etter leddsetningen som står først, og mellom leddene i oppramsingen."
+- id: komma-m-blandet-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 3
+  setning: "Siri, venninnen min, liker å lese, men hun hater å skrive."
+  regler: [2, 5]
+  forklaring: "Komma rundt det innskutte «venninnen min» og foran «men»."
+- id: komma-m-blandet-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 3
+  setning: "Ola, kan du hente boka, eller skal jeg gjøre det?"
+  regler: [1, 6]
+  forklaring: "Komma etter tiltaleordet «Ola», og foran «eller» mellom to helsetninger."
+- id: komma-m-blandet-6
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 3
+  setning: "Fordi diktet er kort, må hvert ord telle, og poeten velger ordene nøye."
+  regler: [1, 3]
+  forklaring: "Komma etter leddsetningen som står først, og foran «og» mellom to helsetninger med hvert sitt subjekt."
+- id: komma-m-blandet-7
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 3
+  setning: "Novellen, som er skrevet i jeg-form, er spennende, men trist."
+  regler: [2, 5]
+  forklaring: "Komma rundt det innskutte «som er skrevet i jeg-form» og foran «men»."
+- id: komma-m-blandet-8
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 3
+  setning: "Nei, jeg har ikke tid i dag, for jeg skal på trening."
+  regler: [1, 6]
+  forklaring: "Komma etter svarordet «Nei», og foran «for» mellom to helsetninger."
+- id: komma-m-blandet-9
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 3
+  setning: "Da vi kom fram, var det mørkt, kaldt og stille."
+  regler: [3, 4]
+  forklaring: "Komma etter leddsetningen som står først, og mellom leddene i oppramsingen."
+- id: komma-m-blandet-10
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 3
+  setning: "Taleren bruker humor, statistikk og personlige historier, og publikum lytter."
+  regler: [1, 4]
+  forklaring: "Komma i oppramsingen, og foran «og» mellom to helsetninger med hvert sitt subjekt."
+- id: komma-m-blandet-11
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11]
+  status: godkjent
+  vanskegrad: 3
+  setning: "Selv om det regnet, spilte vi kampen, men vi tapte."
+  regler: [2, 3]
+  forklaring: "Komma etter leddsetningen som står først, og rett foran «men»."

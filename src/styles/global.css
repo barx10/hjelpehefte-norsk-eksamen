@@ -173,6 +173,7 @@ fieldset.valg legend { padding: 0; }
 .tilbakemelding.feil { background: var(--feil-bg); border-color: var(--feil); }
 .tilbakemelding strong { display: block; margin-bottom: 0.2rem; }
 .valgrekke { border: 0; padding: 0; margin: 1rem 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; }
+.valgrekke[hidden] { display: none; }
 .valgrekke legend { font-weight: 650; margin-bottom: 0.4rem; padding: 0; }
 .valgrekke label { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 44px; cursor: pointer; }
 .valgrekke input { width: 1.2rem; height: 1.2rem; accent-color: var(--primar); }

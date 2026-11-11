@@ -56,12 +56,24 @@ const { ovelser, tittel } = Astro.props;
   type Svar = { ovelse: Ovelse; riktig: boolean };
 
   const OKT_STORRELSE = 10;
+  const OKT_VALG = [10, 20, 40];
+  const KOMMAREGLER: [number, string][] = [
+    [1, 'Regel 1: mellom helsetninger'],
+    [2, 'Regel 2: foran «men»'],
+    [3, 'Regel 3: leddsetning først'],
+    [4, 'Regel 4: oppramsing'],
+    [5, 'Regel 5: innskutte ledd'],
+    [6, 'Regel 6: svarord og tiltaleord'],
+  ];
   const rot = document.getElementById('runner') as HTMLElement;
   const data: Ovelse[] = JSON.parse(document.getElementById('ovelser-data')!.textContent ?? '[]');
   const visKapittel = new Set(data.map((o) => o.kapittel)).size > 1;
 
   let fremgang: Fremgang = les();
   let filter: 'alle' | Ovelse['type'] = 'alle';
+  // 0 betyr alle regler. En valgt regel gir bare kommaoppgaver med den regelen.
+  let kommaregel = 0;
+  let oktStorrelse = OKT_STORRELSE;
   let okt: Ovelse[] = [];
   let svar: Svar[] = [];
   let tastHandler: ((e: KeyboardEvent) => void) | null = null;
@@ -89,7 +101,19 @@ const { ovelser, tittel } = Astro.props;
   }
 
   function filtrert(): Ovelse[] {
+    if (kommaregel) return data.filter((o) => o.type === 'komma' && o.regler.includes(kommaregel));
     return filter === 'alle' ? data : data.filter((o) => o.type === filter);
+  }
+
+  function radiogruppe<T extends string | number>(navn: string, legend: string, valg: [T, string][], aktiv: T, velg: (v: T) => void): HTMLElement {
+    const sett = el('fieldset', { class: 'valgrekke' }, el('legend', {}, legend));
+    for (const [verdi, tekst] of valg) {
+      const input = el('input', { type: 'radio', name: navn, value: String(verdi) });
+      input.checked = aktiv === verdi;
+      input.addEventListener('change', () => velg(verdi));
+      sett.append(el('label', {}, input, tekst));
+    }
+    return sett;
   }
 
   function lagreFremgang() {
@@ -123,19 +147,37 @@ const { ovelser, tittel } = Astro.props;
 
     const barn: Node[] = [
       el('h2', { tabindex: '-1' }, 'Klar til å øve?'),
-      el('p', {}, `${data.length} øvelser i dette temaet. Du har mestret ${mestret}. Hver økt tar for seg ${Math.min(OKT_STORRELSE, data.length)} øvelser, og de du kan minst kommer først.`),
+      el('p', {}, `${data.length} øvelser i dette temaet. Du har mestret ${mestret}. De du kan minst kommer først i hver økt.`),
     ];
 
+    const kommaoppgaver = data.filter((o): o is Komma => o.type === 'komma');
+    let kommaSett: HTMLElement | null = null;
+    if (kommaoppgaver.length > 0) {
+      const valg: [number, string][] = [[0, 'Alle regler'], ...KOMMAREGLER.filter(([nr]) => kommaoppgaver.some((o) => o.regler.includes(nr)))];
+      kommaSett = radiogruppe('kommaregel', 'Øv på én kommaregel', valg, kommaregel, (v) => { kommaregel = v; });
+      kommaSett.hidden = !(filter === 'alle' || filter === 'komma');
+    }
+
     if (typer.length > 1) {
-      const sett = el('fieldset', { class: 'valgrekke' }, el('legend', {}, 'Velg øvelsestype'));
       const valg: [typeof filter, string][] = [['alle', 'Alle'], ...typer.map((t): [typeof filter, string] => [t, TYPENAVN[t]])];
-      for (const [verdi, tekst] of valg) {
-        const input = el('input', { type: 'radio', name: 'filter', value: verdi });
-        input.checked = filter === verdi;
-        input.addEventListener('change', () => { filter = verdi; });
-        sett.append(el('label', {}, input, tekst));
-      }
-      barn.push(sett);
+      barn.push(radiogruppe('filter', 'Velg øvelsestype', valg, filter, (v) => {
+        filter = v;
+        if (!kommaSett) return;
+        kommaSett.hidden = !(v === 'alle' || v === 'komma');
+        if (kommaSett.hidden) {
+          kommaregel = 0;
+          const alle = kommaSett.querySelector<HTMLInputElement>('input[value="0"]');
+          if (alle) alle.checked = true;
+        }
+      }));
+    }
+    if (kommaSett) barn.push(kommaSett);
+
+    const storrelser = OKT_VALG.filter((n) => n < data.length);
+    if (data.length > OKT_STORRELSE) {
+      const valg: [number, string][] = [...storrelser.map((n): [number, string] => [n, `${n}`]), [data.length, `Alle (${data.length})`]];
+      if (!valg.some(([n]) => n === oktStorrelse)) oktStorrelse = OKT_STORRELSE;
+      barn.push(radiogruppe('storrelse', 'Antall øvelser i økten', valg, oktStorrelse, (v) => { oktStorrelse = v; }));
     }
 
     const start = el('button', { class: 'knapp', type: 'button' }, 'Start økt');
@@ -149,7 +191,7 @@ const { ovelser, tittel } = Astro.props;
 
   function startOkt() {
     const kilde = filtrert();
-    const ider = velgOkt(kilde.map((o) => o.id), fremgang, OKT_STORRELSE);
+    const ider = velgOkt(kilde.map((o) => o.id), fremgang, oktStorrelse);
     const perId = new Map(kilde.map((o) => [o.id, o]));
     okt = ider.map((id) => perId.get(id)!).filter(Boolean);
     svar = [];

@@ -1,0 +1,180 @@
+- id: bind-m-1
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Mange unge bruker mye tid på mobilen. ___ sover de mindre enn før.»"
+  alternativer: ["Dessuten", "Derimot", "Først", "Til slutt"]
+  riktig: 0
+  forklaring: "Setningen legger til et nytt poeng. «Dessuten» legger til."
+- id: bind-m-2
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Hovedpersonen virker glad. ___ er hun egentlig svært ensom.»"
+  alternativer: ["Derimot", "Derfor", "I tillegg", "Først"]
+  riktig: 0
+  forklaring: "Det er en motsetning mellom «glad» og «ensom». «Derimot» viser kontrast."
+- id: bind-m-3
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Det regnet hele dagen. ___ ble turen avlyst.»"
+  alternativer: ["Derfor", "Likevel", "For eksempel", "Dessuten"]
+  riktig: 0
+  forklaring: "At turen ble avlyst, er en følge av regnet. «Derfor» viser følge."
+- id: bind-m-4
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Teksten har mange virkemidler. ___ bruker forfatteren både metaforer og gjentakelser.»"
+  alternativer: ["Blant annet", "Likevel", "Derimot", "Til slutt"]
+  riktig: 0
+  forklaring: "Setningen gir eksempler på virkemidlene. «Blant annet» innleder eksempler."
+- id: bind-m-5
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «___ leser du oppgaven nøye. Deretter lager du en skriveplan.»"
+  alternativer: ["Først", "Derfor", "Likevel", "Dessuten"]
+  riktig: 0
+  forklaring: "Dette er det første steget i en rekkefølge. «Først» viser rekkefølge."
+- id: bind-m-6
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Vi har sett på argumentene for og imot. ___ mener jeg at skoledagen ikke bør bli lengre.»"
+  alternativer: ["Alt i alt", "For eksempel", "Først", "Derimot"]
+  riktig: 0
+  forklaring: "Setningen konkluderer etter drøftingen. «Alt i alt» innleder en konklusjon."
+- id: bind-m-7
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Mange mener at lekser er nyttig. Andre mener ___ at lekser skaper stress.»"
+  alternativer: ["derimot", "derfor", "først", "dermed"]
+  riktig: 0
+  forklaring: "To syn står mot hverandre. «Derimot» viser kontrast."
+- id: bind-m-8
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Talen er godt bygd opp. ___ bruker taleren effektive retoriske spørsmål.»"
+  alternativer: ["I tillegg", "Likevel", "Derimot", "Tvert imot"]
+  riktig: 0
+  forklaring: "Setningen legger til en styrke til. «I tillegg» legger til."
+- id: bind-m-9
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Han hadde øvd i flere uker. ___ gikk prøven dårlig.»"
+  alternativer: ["Likevel", "Derfor", "Dermed", "For eksempel"]
+  riktig: 0
+  forklaring: "Det er overraskende at prøven gikk dårlig etter mye øving. «Likevel» viser kontrast."
+- id: bind-m-10
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Skjermtid kan gi dårligere søvn. ___ bør mobilen ligge utenfor soverommet.»"
+  alternativer: ["Derfor", "Likevel", "Derimot", "Først"]
+  riktig: 0
+  forklaring: "Rådet er en følge av poenget før. «Derfor» viser følge."
+- id: bind-m-11
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Diktet er kort. ___ inneholder det mange sterke bilder.»"
+  alternativer: ["Likevel", "Derfor", "Dermed", "Til slutt"]
+  riktig: 0
+  forklaring: "Det er en motsetning mellom «kort» og «mange sterke bilder». «Likevel» viser kontrast."
+- id: bind-m-12
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Novellen starter i medias res. ___ blir leseren kastet rett inn i handlingen.»"
+  alternativer: ["Dermed", "Likevel", "Derimot", "Først"]
+  riktig: 0
+  forklaring: "Det å bli kastet inn i handlingen er en følge av starten. «Dermed» viser følge."
+- id: bind-m-13
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Han vant ikke kampen, ___ han var skadet.»"
+  alternativer: ["fordi", "derfor", "likevel", "dessuten"]
+  riktig: 0
+  forklaring: "Setningen forklarer hvorfor han ikke vant. «Fordi» gir årsak."
+- id: bind-m-14
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Reklamen bruker en kjent fotballspiller. ___ vil målgruppen stole på produktet.»"
+  alternativer: ["Slik", "Likevel", "Derimot", "Først"]
+  riktig: 0
+  forklaring: "Setningen viser hvordan virkemiddelet virker. «Slik» viser følge av det som står før."
+- id: bind-m-15
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Mange elever gruer seg til eksamen. Det er ___ lurt å forberede seg godt.»"
+  alternativer: ["derfor", "likevel", "derimot", "først"]
+  riktig: 0
+  forklaring: "Rådet er en følge av at elevene gruer seg. «Derfor» viser følge."
+- id: bind-m-16
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Klimaendringene påvirker hele verden. ___ smelter isen på polene.»"
+  alternativer: ["Blant annet", "Likevel", "Til slutt", "Derimot"]
+  riktig: 0
+  forklaring: "Setningen gir et eksempel. «Blant annet» innleder eksempler."
+- id: bind-m-17
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Jeg har drøftet saken fra flere sider. ___ vil jeg si at begge parter har gode argumenter.»"
+  alternativer: ["Oppsummert", "Først", "For eksempel", "Derimot"]
+  riktig: 0
+  forklaring: "Setningen samler trådene. «Oppsummert» innleder en konklusjon."
+- id: bind-m-18
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Hovedpersonen åpner døren. ___ ser hun at rommet er tomt.»"
+  alternativer: ["Deretter", "Derimot", "Dessuten", "Likevel"]
+  riktig: 0
+  forklaring: "Handlingene skjer etter hverandre. «Deretter» viser rekkefølge."
+- id: bind-m-19
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Mobilforbud kan gi mer ro i timene. ___ kan elevene lære mindre om nettvett.»"
+  alternativer: ["Imidlertid", "Derfor", "Dermed", "For eksempel"]
+  riktig: 0
+  forklaring: "Setningen viser en motsatt side av saken. «Imidlertid» viser kontrast."
+- id: bind-m-20
+  type: flervalg
+  kapittel: tekstbinding
+  mal: [m10-11]
+  status: godkjent
+  spm: "Velg riktig overgangsord: «Hun hadde ikke spist frokost, ___ hun var sulten i første time.»"
+  alternativer: ["så", "men", "eller", "for eksempel"]
+  riktig: 0
+  forklaring: "Det å være sulten er en følge av at hun ikke spiste. «Så» viser følge."

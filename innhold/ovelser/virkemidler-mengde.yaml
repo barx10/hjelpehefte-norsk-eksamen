@@ -1,0 +1,180 @@
+- id: virk-m-1
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Hun var rask som lynet.»"
+  alternativer: ["Sammenligning", "Metafor", "Overdrivelse", "Besjeling"]
+  riktig: 0
+  forklaring: "Utsagnet bruker «som» for å sammenligne."
+- id: virk-m-2
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Han er et oppslagsverk.»"
+  alternativer: ["Metafor", "Sammenligning", "Underdrivelse", "Allusjon"]
+  riktig: 0
+  forklaring: "Han kalles direkte et oppslagsverk, uten «som». Det er en metafor."
+- id: virk-m-3
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Bekken sang seg ned gjennom skogen.»"
+  alternativer: ["Besjeling", "Personifikasjon", "Metafor", "Sammenligning"]
+  riktig: 0
+  forklaring: "En konkret ting i naturen, bekken, får en menneskelig evne: å synge."
+- id: virk-m-4
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Frykten banket på døren.»"
+  alternativer: ["Personifikasjon", "Besjeling", "Sammenligning", "Kontrast"]
+  riktig: 0
+  forklaring: "Noe abstrakt, frykten, får en menneskelig handling."
+- id: virk-m-5
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Jeg er så sulten at jeg kunne spist en hest.»"
+  alternativer: ["Overdrivelse", "Underdrivelse", "Metafor", "Retorisk spørsmål"]
+  riktig: 0
+  forklaring: "Utsagnet sier mye mer enn det som er sant, for å vise hvor sulten personen er."
+- id: virk-m-6
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Det var litt kjølig, sa han, da det var tjue minusgrader.»"
+  alternativer: ["Underdrivelse", "Overdrivelse", "Kontrast", "Metafor"]
+  riktig: 0
+  forklaring: "Han sier mindre enn det som er sant. Det gir en ironisk effekt."
+- id: virk-m-7
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Skal vi virkelig la dette skje?»"
+  alternativer: ["Retorisk spørsmål", "Gjentakelse", "Allusjon", "Underdrivelse"]
+  riktig: 0
+  forklaring: "Spørsmålet har svaret innebygd: nei. Det skal få leseren til å tenke."
+- id: virk-m-8
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Aldri mer. Aldri mer. Aldri mer.»"
+  alternativer: ["Gjentakelse", "Kontrast", "Overdrivelse", "Frampek"]
+  riktig: 0
+  forklaring: "Samme ord gjentas for å slå fast poenget."
+- id: virk-m-9
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Han var en David mot en Goliat.»"
+  alternativer: ["Allusjon", "Sammenligning", "Besjeling", "Underdrivelse"]
+  riktig: 0
+  forklaring: "Utsagnet viser til fortellingen om David og Goliat i Bibelen."
+- id: virk-m-10
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Ute var det kaldt og mørkt. Inne var det varmt og lyst.»"
+  alternativer: ["Kontrast", "Gjentakelse", "Frampek", "Sammenligning"]
+  riktig: 0
+  forklaring: "Motsetninger settes opp mot hverandre: kaldt og mørkt mot varmt og lyst."
+- id: virk-m-11
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Hun visste ennå ikke at dette var den siste sommeren de skulle ha sammen.»"
+  alternativer: ["Frampek", "In medias res", "Kontrast", "Underdrivelse"]
+  riktig: 0
+  forklaring: "Setningen hinter om noe som skal skje senere. Det bygger spenning."
+- id: virk-m-12
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "En novelle begynner slik: «Skuddet smalt, og han løp for livet.» Hvilket virkemiddel er dette?"
+  alternativer: ["In medias res", "Frampek", "Sirkelkomposisjon", "Allusjon"]
+  riktig: 0
+  forklaring: "Novellen starter midt i handlingen, uten forklaring først."
+- id: virk-m-13
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Øynene hennes var to blanke speil.»"
+  alternativer: ["Metafor", "Sammenligning", "Personifikasjon", "Overdrivelse"]
+  riktig: 0
+  forklaring: "Øynene kalles direkte speil, uten «som». Det er en metafor."
+- id: virk-m-14
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Stormen raste som et sint dyr.»"
+  alternativer: ["Sammenligning", "Metafor", "Underdrivelse", "Allusjon"]
+  riktig: 0
+  forklaring: "Utsagnet bruker «som» for å sammenligne stormen med et dyr."
+- id: virk-m-15
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Bilen hostet og nektet å starte.»"
+  alternativer: ["Besjeling", "Personifikasjon", "Metafor", "Overdrivelse"]
+  riktig: 0
+  forklaring: "En konkret ting, bilen, får menneskelige egenskaper: den hoster og nekter."
+- id: virk-m-16
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Jeg har en million ting å gjøre.»"
+  alternativer: ["Overdrivelse", "Underdrivelse", "Gjentakelse", "Allusjon"]
+  riktig: 0
+  forklaring: "Ingen har en million ting å gjøre. Utsagnet overdriver."
+- id: virk-m-17
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Stille. Mørkt. Ingen der.»"
+  alternativer: ["Korte setninger", "Gjentakelse", "Retorisk spørsmål", "Kontrast"]
+  riktig: 0
+  forklaring: "Korte setninger gir tempo og trykk og skaper en spent stemning."
+- id: virk-m-18
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Hvem vil vel ikke ha en renere verden?»"
+  alternativer: ["Retorisk spørsmål", "Overdrivelse", "Metafor", "Frampek"]
+  riktig: 0
+  forklaring: "Svaret er innebygd i spørsmålet: alle vil det."
+- id: virk-m-19
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Ensomheten satte seg ved siden av ham på benken.»"
+  alternativer: ["Personifikasjon", "Besjeling", "Sammenligning", "In medias res"]
+  riktig: 0
+  forklaring: "Noe abstrakt, ensomheten, får en menneskelig handling."
+- id: virk-m-20
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06]
+  status: godkjent
+  spm: "Hvilket virkemiddel er dette? «Det gikk ikke helt etter planen, sa hun, da huset sto i flammer.»"
+  alternativer: ["Underdrivelse", "Overdrivelse", "Frampek", "Metafor"]
+  riktig: 0
+  forklaring: "Hun sier mye mindre enn det som er sant. Det gir en ironisk effekt."
