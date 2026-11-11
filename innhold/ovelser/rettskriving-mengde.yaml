@@ -1,0 +1,830 @@
+- id: feil-m-sammensatt-1
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi skrev en lang fag artikkel om klima."
+  feil: "fag artikkel"
+  rettelse: "fagartikkel"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-2
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Hovedpersonen bor i en liten fiske landsby."
+  feil: "fiske landsby"
+  rettelse: "fiskelandsby"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-3
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Jeg glemte skole sekken hjemme."
+  feil: "skole sekken"
+  rettelse: "skolesekken"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-4
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Han har tre kilder i kilde listen."
+  feil: "kilde listen"
+  rettelse: "kildelisten"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-5
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Hun fikk god tilbake melding på teksten."
+  feil: "tilbake melding"
+  rettelse: "tilbakemelding"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-6
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi ventet lenge på buss holdeplassen."
+  feil: "buss holdeplassen"
+  rettelse: "bussholdeplassen"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-7
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Diktet har et tydelig jeg perspektiv."
+  feil: "jeg perspektiv"
+  rettelse: "jeg-perspektiv"
+  forklaring: "Sammensatte ord skrives som ett ord. Når første ledd er et pronomen som «jeg», brukes bindestrek: jeg-perspektiv."
+- id: feil-m-sammensatt-8
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Novellen handler om en ung fotball spiller."
+  feil: "fotball spiller"
+  rettelse: "fotballspiller"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-9
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Reklamen har et kort slag ord."
+  feil: "slag ord"
+  rettelse: "slagord"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-10
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi har norsk eksamen i mai."
+  feil: "norsk eksamen"
+  rettelse: "norskeksamen"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-11
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Talen ble holdt på et folke møte."
+  feil: "folke møte"
+  rettelse: "folkemøte"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-12
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Hun tok med seg mobil laderen."
+  feil: "mobil laderen"
+  rettelse: "mobilladeren"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-13
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi leste en kronikk om sosiale medier og skjerm tid."
+  feil: "skjerm tid"
+  rettelse: "skjermtid"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-14
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Han jobber som sykehus lege."
+  feil: "sykehus lege"
+  rettelse: "sykehuslege"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-15
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Innledningen har en god tema setning."
+  feil: "tema setning"
+  rettelse: "temasetning"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-16
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi bruker mye tid på lekse lesing."
+  feil: "lekse lesing"
+  rettelse: "lekselesing"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-17
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Novellen starter på en regnfull høst dag."
+  feil: "høst dag"
+  rettelse: "høstdag"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-18
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Jeg fikk en ny sykkel i bursdags gave."
+  feil: "bursdags gave"
+  rettelse: "bursdagsgave"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-19
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Kampen ble spilt på en kunst gress bane."
+  feil: "kunst gress bane"
+  rettelse: "kunstgressbane"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-sammensatt-20
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Hovedpersonen føler seg ensom i klasse rommet."
+  feil: "klasse rommet"
+  rettelse: "klasserommet"
+  forklaring: "Sammensatte ord skrives som ett ord."
+- id: feil-m-to-ord-1
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi skal ha prøve imorgen tidlig."
+  feil: "imorgen"
+  rettelse: "i morgen"
+  forklaring: "«I morgen» skrives i to ord."
+- id: feil-m-to-ord-2
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Jeg så filmen igår kveld."
+  feil: "igår"
+  rettelse: "i går"
+  forklaring: "«I går» skrives i to ord."
+- id: feil-m-to-ord-3
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Idag skal vi skrive novelle."
+  feil: "Idag"
+  rettelse: "I dag"
+  forklaring: "«I dag» skrives i to ord."
+- id: feil-m-to-ord-4
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Itillegg bruker forfatteren mange metaforer."
+  feil: "Itillegg"
+  rettelse: "I tillegg"
+  forklaring: "«I tillegg» skrives i to ord."
+- id: feil-m-to-ord-5
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Etterhvert forstår leseren hva som har skjedd."
+  feil: "Etterhvert"
+  rettelse: "Etter hvert"
+  forklaring: "«Etter hvert» skrives i to ord."
+- id: feil-m-to-ord-6
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Han kommer ihvertfall ikke i dag."
+  feil: "ihvertfall"
+  rettelse: "i hvert fall"
+  forklaring: "«I hvert fall» skrives i tre ord."
+- id: feil-m-to-ord-7
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Kampen ble avlyst pågrunn av regnet."
+  feil: "pågrunn"
+  rettelse: "på grunn"
+  forklaring: "«På grunn av» skrives i tre ord."
+- id: feil-m-to-ord-8
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi tok bussen istedet for å gå."
+  feil: "istedet"
+  rettelse: "i stedet"
+  forklaring: "«I stedet» skrives i to ord."
+- id: feil-m-to-ord-9
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Tilslutt skjønner hun at han lyver."
+  feil: "Tilslutt"
+  rettelse: "Til slutt"
+  forklaring: "«Til slutt» skrives i to ord."
+- id: feil-m-to-ord-10
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Forfatteren bruker forexempel gjentakelse."
+  feil: "forexempel"
+  rettelse: "for eksempel"
+  forklaring: "«For eksempel» skrives i to ord, og eksempel har k og s."
+- id: feil-m-to-ord-11
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi møtes iallefall etter skolen."
+  feil: "iallefall"
+  rettelse: "i alle fall"
+  forklaring: "«I alle fall» skrives i tre ord."
+- id: feil-m-to-ord-12
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Novellen er skrevet ifjor."
+  feil: "ifjor"
+  rettelse: "i fjor"
+  forklaring: "«I fjor» skrives i to ord."
+- id: feil-m-forbokstav-1
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi har norsk på Tirsdag."
+  feil: "Tirsdag"
+  rettelse: "tirsdag"
+  forklaring: "Ukedager skrives med liten forbokstav."
+- id: feil-m-forbokstav-2
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Bursdagen min er i Oktober."
+  feil: "Oktober"
+  rettelse: "oktober"
+  forklaring: "Måneder skrives med liten forbokstav."
+- id: feil-m-forbokstav-3
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Hun snakker Engelsk med moren sin."
+  feil: "Engelsk"
+  rettelse: "engelsk"
+  forklaring: "Språk skrives med liten forbokstav."
+- id: feil-m-forbokstav-4
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Han er Svensk, men bor i Norge."
+  feil: "Svensk"
+  rettelse: "svensk"
+  forklaring: "Ord som angir nasjonalitet skrives med liten forbokstav."
+- id: feil-m-forbokstav-5
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Mange Nordmenn går på ski i påsken."
+  feil: "Nordmenn"
+  rettelse: "nordmenn"
+  forklaring: "Folkeslag skrives med liten forbokstav."
+- id: feil-m-forbokstav-6
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi reiste til bergen i sommer."
+  feil: "bergen"
+  rettelse: "Bergen"
+  forklaring: "Navn på steder skrives med stor forbokstav."
+- id: feil-m-forbokstav-7
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Diktet er skrevet av inger Hagerup."
+  feil: "inger"
+  rettelse: "Inger"
+  forklaring: "Navn på personer skrives med stor forbokstav."
+- id: feil-m-forbokstav-8
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Familien kommer fra syria."
+  feil: "syria"
+  rettelse: "Syria"
+  forklaring: "Navn på land skrives med stor forbokstav."
+- id: feil-m-forbokstav-9
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Eksamen er en Fredag i juni."
+  feil: "Fredag"
+  rettelse: "fredag"
+  forklaring: "Ukedager skrives med liten forbokstav."
+- id: feil-m-forbokstav-10
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi har ferie i Juli."
+  feil: "Juli"
+  rettelse: "juli"
+  forklaring: "Måneder skrives med liten forbokstav."
+- id: feil-m-forbokstav-11
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Jeg fikk en god karakter. det var deilig."
+  feil: "det"
+  rettelse: "Det"
+  forklaring: "Første ord i en ny setning skrives med stor forbokstav."
+- id: feil-m-forbokstav-12
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Novellen er oversatt fra Tysk."
+  feil: "Tysk"
+  rettelse: "tysk"
+  forklaring: "Språk skrives med liten forbokstav."
+- id: feil-m-forbokstav-13
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Hun bor ved glomma."
+  feil: "glomma"
+  rettelse: "Glomma"
+  forklaring: "Navn på elver og andre steder skrives med stor forbokstav."
+- id: feil-m-a-og-1
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Det er gøy og spille fotball."
+  feil: "og"
+  rettelse: "å"
+  forklaring: "Foran verb i infinitiv skriver du «å»."
+- id: feil-m-a-og-2
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Jeg prøvde og forstå diktet."
+  feil: "og"
+  rettelse: "å"
+  forklaring: "Foran verb i infinitiv skriver du «å»."
+- id: feil-m-a-og-3
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Hun begynte og gråte."
+  feil: "og"
+  rettelse: "å"
+  forklaring: "Foran verb i infinitiv skriver du «å»."
+- id: feil-m-a-og-4
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Vi glemte og levere oppgaven."
+  feil: "og"
+  rettelse: "å"
+  forklaring: "Foran verb i infinitiv skriver du «å»."
+- id: feil-m-a-og-5
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Mor å far kom på besøk."
+  feil: "å"
+  rettelse: "og"
+  forklaring: "«Og» binder sammen ord. «Å» står foran verb i infinitiv."
+- id: feil-m-a-og-6
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Jeg satt å leste hele kvelden."
+  feil: "å"
+  rettelse: "og"
+  forklaring: "Når verbet etter er i fortid (leste), skal det være «og». «Å» står bare foran infinitiv."
+- id: feil-m-a-og-7
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Hun stod å ventet på bussen."
+  feil: "å"
+  rettelse: "og"
+  forklaring: "Verbet «ventet» er i fortid. Da skal det være «og»."
+- id: feil-m-a-og-8
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Det er viktig og bruke kilder."
+  feil: "og"
+  rettelse: "å"
+  forklaring: "Foran verb i infinitiv skriver du «å»."
+- id: feil-m-a-og-9
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Vi gikk ut å spiste is."
+  feil: "å"
+  rettelse: "og"
+  forklaring: "«Spiste» er i fortid. Da binder «og» sammen to handlinger."
+- id: feil-m-de-dem-1
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Jeg ga de en gave."
+  feil: "de"
+  rettelse: "dem"
+  forklaring: "«Dem» er objekt (de som får noe). «De» er subjekt."
+- id: feil-m-de-dem-2
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Har du sett de i dag?"
+  feil: "de"
+  rettelse: "dem"
+  forklaring: "«Dem» er objekt (de som blir sett). «De» er subjekt."
+- id: feil-m-de-dem-3
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Dem bor i huset ved siden av."
+  feil: "Dem"
+  rettelse: "De"
+  forklaring: "«De» er subjekt (de som bor). «Dem» er objekt."
+- id: feil-m-de-dem-4
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Læreren ba de om å være stille."
+  feil: "de"
+  rettelse: "dem"
+  forklaring: "«Dem» er objekt (de læreren ber). «De» er subjekt."
+- id: feil-m-de-dem-5
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Etter kampen var dem slitne."
+  feil: "dem"
+  rettelse: "de"
+  forklaring: "«De» er subjekt (de som var slitne). «Dem» er objekt."
+- id: feil-m-de-dem-6
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Vi hjalp de med leksene."
+  feil: "de"
+  rettelse: "dem"
+  forklaring: "«Dem» står etter preposisjonen «med» og er ikke subjekt."
+- id: feil-m-stave-1
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Det var en veldig interresant tekst."
+  feil: "interresant"
+  rettelse: "interessant"
+  forklaring: "«Interessant» skrives med én r og dobbel s."
+- id: feil-m-stave-2
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Novellen var egentli ganske trist."
+  feil: "egentli"
+  rettelse: "egentlig"
+  forklaring: "«Egentlig» skrives med g til slutt."
+- id: feil-m-stave-3
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Hun ble forsjellig behandlet."
+  feil: "forsjellig"
+  rettelse: "forskjellig"
+  forklaring: "«Forskjellig» skrives med skj."
+- id: feil-m-stave-4
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Det var akuratt det jeg mente."
+  feil: "akuratt"
+  rettelse: "akkurat"
+  forklaring: "«Akkurat» skrives med dobbel k og én t."
+- id: feil-m-stave-5
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Selvfølgelig ville han være med, men han fik ikke lov."
+  feil: "fik"
+  rettelse: "fikk"
+  forklaring: "«Fikk» skrives med dobbel k."
+- id: feil-m-stave-6
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Vi kommer til å vinne absolut alt."
+  feil: "absolut"
+  rettelse: "absolutt"
+  forklaring: "«Absolutt» skrives med dobbel t til slutt."
+- id: feil-m-stave-7
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Han hadde en spessiell stil."
+  feil: "spessiell"
+  rettelse: "spesiell"
+  forklaring: "«Spesiell» skrives med én s i midten."
+- id: feil-m-stave-8
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Boka var lang, men den var spenene."
+  feil: "spenene"
+  rettelse: "spennende"
+  forklaring: "«Spennende» skrives med dobbel n i midten."
+- id: feil-m-stave-9
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Hun var veldig dårli i matte før."
+  feil: "dårli"
+  rettelse: "dårlig"
+  forklaring: "«Dårlig» skrives med g til slutt."
+- id: feil-m-stave-10
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Jeg synes det er vikitg å lese."
+  feil: "vikitg"
+  rettelse: "viktig"
+  forklaring: "«Viktig» skrives med k før t."
+- id: feil-m-stave-11
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Det kom mange mennesker på konserten, kansje tusen."
+  feil: "kansje"
+  rettelse: "kanskje"
+  forklaring: "«Kanskje» skrives med skj."
+- id: feil-m-stave-12
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Hovedpersonen er helt allene."
+  feil: "allene"
+  rettelse: "alene"
+  forklaring: "«Alene» skrives med én l."
+- id: feil-m-stave-13
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Han trente hver dag for å bli bedere."
+  feil: "bedere"
+  rettelse: "bedre"
+  forklaring: "«Bedre» skrives uten e mellom d og r."
+- id: feil-m-stave-14
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Jeg har aldrig sett noe lignende."
+  feil: "aldrig"
+  rettelse: "aldri"
+  forklaring: "«Aldri» skrives uten g på bokmål."
+- id: feil-m-stave-15
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Vi så en grusom film. Den var skummel å trist."
+  feil: "å"
+  rettelse: "og"
+  forklaring: "«Og» binder sammen to ord her. «Å» står foran verb i infinitiv."
+- id: feil-m-ord-1
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Jeg trener hverdag etter skolen."
+  feil: "hverdag"
+  rettelse: "hver dag"
+  forklaring: "«Hver dag» betyr alle dager. «Hverdag» er en dag som ikke er helg."
+- id: feil-m-ord-2
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Til vanlig er det en rolig hver dag."
+  feil: "hver dag"
+  rettelse: "hverdag"
+  forklaring: "Her menes en vanlig dag, ikke alle dager. Da skrives det i ett ord: «hverdag»."
+- id: feil-m-ord-3
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Nå jeg kom hjem, var alle borte."
+  feil: "Nå"
+  rettelse: "Når"
+  forklaring: "«Når» innleder en leddsetning om tid. «Nå» betyr akkurat nå."
+- id: feil-m-ord-4
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Vi må gå når, ellers kommer vi for sent."
+  feil: "når"
+  rettelse: "nå"
+  forklaring: "«Nå» betyr i dette øyeblikket. «Når» brukes i spørsmål og leddsetninger om tid."
+- id: feil-m-ord-5
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Jeg vet ikke vem som skrev novellen."
+  feil: "vem"
+  rettelse: "hvem"
+  forklaring: "Spørreordet «hvem» skrives med hv."
+- id: feil-m-ord-6
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Vor er boka mi?"
+  feil: "Vor"
+  rettelse: "Hvor"
+  forklaring: "Spørreordet «hvor» skrives med hv."
+- id: feil-m-ord-7
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Jeg vet ikke va jeg skal skrive om."
+  feil: "va"
+  rettelse: "hva"
+  forklaring: "Spørreordet «hva» skrives med hv."
+- id: feil-m-ord-8
+  type: finnfeil
+  kapittel: rettskriving
+  mal: [m10-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Han lurte på vorfor hun gråt."
+  feil: "vorfor"
+  rettelse: "hvorfor"
+  forklaring: "Spørreordet «hvorfor» skrives med hv."
