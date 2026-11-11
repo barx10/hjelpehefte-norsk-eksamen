@@ -1,4 +1,8 @@
 ---
+// Skriftene ligger på eget domene, så siden sender ingen forespørsler til andre.
+import '@fontsource-variable/source-sans-3/wght.css';
+import '@fontsource-variable/source-sans-3/wght-italic.css';
+import '@fontsource/archivo-narrow/latin-600.css';
 import '../styles/global.css';
 import { url, nurl } from '../lib/url';
 import { visUtkast, hentBesvarelser, hentEksamen } from '../lib/innhold';
@@ -46,7 +50,7 @@ const fulltTittel = tittel === 'Hjelpehefte norsk eksamen' ? tittel : `${tittel}
   <body>
     <a class="hopp" href="#innhold">Hopp til innhold</a>
     <header class="topp">
-      <div class="rad">
+      <div class="topp-band"><div class="rad">
         <a class="logo" href={nivaa ? nurl(nivaa) : url('')}>Hjelpehefte norsk eksamen</a>
         <nav aria-label="Nivå" class="nivaavalg">
           <ul>
@@ -55,9 +59,9 @@ const fulltTittel = tittel === 'Hjelpehefte norsk eksamen' ? tittel : `${tittel}
             ))}
           </ul>
         </nav>
-      </div>
+      </div></div>
       {lenker.length > 0 && (
-        <div class="rad">
+        <div class="rad topp-meny">
           <nav aria-label="Hovedmeny">
             <ul>
               {lenker.map((l) => (

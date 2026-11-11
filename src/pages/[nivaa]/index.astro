@@ -36,7 +36,7 @@ const temaer = kapitler
     </div>
   </section>
 
-  <h2 id="temaer">Velg tema</h2>
+  <h2 id="temaer">Kapitler</h2>
   {temaer.length === 0 ? (
     <div class="merknad">
       <p>Det er ingen øvelser for {nivaa.navn.toLowerCase()} ennå. Innholdet er under arbeid.</p>
@@ -46,20 +46,32 @@ const temaer = kapitler
       </p>
     </div>
   ) : (
-    <ul class="temaer" aria-labelledby="temaer">
+    <div class="oversikt" role="table" aria-labelledby="temaer">
+      <div class="oversikt-hode" role="row">
+        <span role="columnheader">Kapittel</span>
+        <span role="columnheader">Fremgang</span>
+        <span role="columnheader" class="visuelt-skjult">Lenker</span>
+      </div>
       {temaer.map((t) => (
-        <li class="tema" data-ider={JSON.stringify(t.ider)}>
-          <h3>{t.k.data.nummer && <span class="nr">{t.k.data.nummer}</span>}{t.k.data.tittel}</h3>
-          <p class="meta">{t.oversikt.length > 1 ? `${t.oversikt.slice(0, -1).join(', ')} og ${t.oversikt.at(-1)}` : t.oversikt.join('')}</p>
-          <div class="fremdrift-linje" aria-hidden="true"><span></span></div>
-          <p class="fremdrift-tekst" data-fremdrift></p>
-          <div class="lenker">
-            <a class="knapp" href={nurl(nivaa, `ovelser/${t.k.id}/`)} aria-label={`Øv på ${kapittelNavn(t.k)}`}>Øv</a>
-            <a href={nurl(nivaa, `hefte/${t.k.id}/`)} aria-label={`Les ${kapittelNavn(t.k)} i heftet`}>Les i heftet</a>
+        <div class="tema" role="row" data-ider={JSON.stringify(t.ider)}>
+          <div class="tema-tittel" role="cell">
+            <span class="nr">{t.k.data.nummer}</span>
+            <div>
+              <h3>{t.k.data.tittel}</h3>
+              <p class="meta">{t.ider.length} øvelser</p>
+            </div>
           </div>
-        </li>
+          <div class="tema-fremgang" role="cell">
+            <div class="fremdrift-linje" aria-hidden="true"><span></span></div>
+            <p class="fremdrift-tekst" data-fremdrift></p>
+          </div>
+          <div class="lenker" role="cell">
+            <a class="knapp liten-knapp" href={nurl(nivaa, `ovelser/${t.k.id}/`)} aria-label={`Øv på ${kapittelNavn(t.k)}`}>Øv</a>
+            <a href={nurl(nivaa, `hefte/${t.k.id}/`)} aria-label={`Les ${kapittelNavn(t.k)} i heftet`}>Les</a>
+          </div>
+        </div>
       ))}
-    </ul>
+    </div>
   )}
 
   <div class="merknad">

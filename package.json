@@ -11,6 +11,8 @@
     "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/source-sans-3": "^5.3.1",
+    "@fontsource/archivo-narrow": "^5.3.0",
     "astro": "5.18.2",
     "js-yaml": "^4.1.0"
   }
