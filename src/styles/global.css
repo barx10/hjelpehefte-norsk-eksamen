@@ -1,23 +1,23 @@
 :root {
-  /* Uttrykket følger det trykte heftet: hvitt ark, mørk rød stripe, oker linjer, rette kanter. */
+  /* Oppsettet følger det trykte heftet. Fargene er rolige: dempet petrol, lys kjølig tone og litt varm oker. */
   --bg: #ffffff;
   --flate: #ffffff;
-  --flate-2: #f7f1ec;
-  --tekst: #1b1a19;
-  --dempet: #57514b;
-  --linje: #d9d0c7;
-  --primar: #8b1a1a;
+  --flate-2: #eef4f3;
+  --tekst: #1c2526;
+  --dempet: #556264;
+  --linje: #d3dedc;
+  --primar: #1d5c63;
   --primar-tekst: #ffffff;
-  --primar-hover: #6d1313;
-  --aksent: #8a6516;
-  --band: #8b1a1a;
+  --primar-hover: #164950;
+  --aksent: #946318;
+  --band: #1d5c63;
   --band-tekst: #ffffff;
   --riktig: #1c6b3b;
   --riktig-bg: #e6f3ea;
   --feil: #a3281f;
   --feil-bg: #fbe9e6;
   --fokus: #1f5fbf;
-  --radius: 2px;
+  --radius: 8px;
   --skygge: none;
   --smal: 44rem;
   --bred: 64rem;
@@ -27,17 +27,17 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --bg: #161413;
-    --flate: #161413;
-    --flate-2: #25201d;
-    --tekst: #f1ece6;
-    --dempet: #b8afa5;
-    --linje: #40372f;
-    --primar: #e58a7b;
-    --primar-tekst: #1b0f0d;
-    --primar-hover: #f0a396;
-    --aksent: #d6b068;
-    --band: #6d1313;
+    --bg: #121819;
+    --flate: #121819;
+    --flate-2: #1c2728;
+    --tekst: #e9efee;
+    --dempet: #a9b7b8;
+    --linje: #334446;
+    --primar: #7fc7cf;
+    --primar-tekst: #0c2023;
+    --primar-hover: #a3d9df;
+    --aksent: #dcb471;
+    --band: #17494f;
     --band-tekst: #ffffff;
     --riktig: #7fd49b;
     --riktig-bg: #1b2e22;
@@ -327,6 +327,37 @@ textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo,
 
 .vedlegg p { white-space: pre-line; }
 
+/* Tilbakelenke øverst på undersider */
+.tilbake { margin: 0 0 0.75rem; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; align-items: center; }
+.tilbake a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; text-decoration: none; }
+.tilbake a:first-child::before { content: '←'; margin-right: 0.45rem; }
+.tilbake a:hover { text-decoration: underline; }
+
+/* Heftesiden: to veier inn, så listen over kapitler */
+.ingress { font-size: 1.1rem; color: var(--dempet); max-width: 40rem; }
+.veivalg { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); margin: 1.25rem 0 2rem; }
+.vei { border: 1px solid var(--linje); border-radius: var(--radius); background: var(--flate-2); padding: 1rem 1.2rem; display: flex; flex-direction: column; }
+.vei h2 { margin: 0 0 0.4rem; font-size: 1.2rem; }
+.vei p { margin: 0 0 0.75rem; }
+.vei p:last-child { margin: auto 0 0; padding-top: 0.25rem; }
+.liste-kapitler.med-pil a::after { content: '›'; margin-left: auto; color: var(--dempet); font-size: 1.4rem; line-height: 1; }
+.liste-kapitler.med-pil a:hover::after { color: var(--primar); }
+#kapitler { scroll-margin-top: 1rem; }
+
+/* Lag ditt hefte: tre steg */
+.steg { list-style: none; padding: 0; margin: 1.5rem 0; counter-reset: steg; display: grid; gap: 1.5rem; }
+.steg > li { counter-increment: steg; display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); column-gap: 0.75rem; }
+.steg > li::before { content: counter(steg); grid-row: 1 / span 20; width: 2.2rem; height: 2.2rem; display: grid; place-items: center; border-radius: 99px; background: var(--band); color: var(--band-tekst); font-weight: 700; }
+.steg > li > * { grid-column: 2; min-width: 0; }
+.steg h2 { margin: 0.2rem 0 0.3rem; font-size: 1.2rem; }
+.steg p { margin: 0 0 0.5rem; }
+.steg .knapp-rad { margin: 0.5rem 0; }
+.steg .valggrupper { margin: 0.5rem 0 0; }
+.steg .kontroller { margin: 0; }
+.steg .melding { font-weight: 700; }
+.forhandsvisning-tittel { margin-bottom: 0.2rem; }
+.til-toppen { font-weight: 400 !important; }
+
 /* Lag ditt hefte: valg av kapitler og selve heftet. Deler merket bare-nett er ikke med i kortversjonen. */
 .heftevalg { border-bottom: 2px solid var(--linje); padding-bottom: 1rem; margin-bottom: 1.5rem; }
 .valggrupper { display: grid; gap: 0.75rem 1rem; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); margin: 1rem 0; }
@@ -425,7 +456,7 @@ h2, h3 { font-weight: 700; }
 .nivaamerke { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.8rem; font-weight: 700; }
 
 /* Oversikt over kapitler, satt opp som tabellene i heftet */
-.oversikt { border: 1px solid var(--linje); margin: 0.75rem 0 2rem; }
+.oversikt { border: 1px solid var(--linje); border-radius: calc(var(--radius) + 2px); overflow: hidden; margin: 0.75rem 0 2rem; }
 .oversikt-hode, .oversikt .tema { display: grid; grid-template-columns: minmax(0, 1fr) 13rem 8.5rem; gap: 0.5rem 1.25rem; align-items: center; padding: 0.55rem 0.9rem; }
 .oversikt-hode { background: var(--band); color: var(--band-tekst); font-weight: 700; font-size: 0.9rem; }
 .oversikt .tema { background: var(--flate); border: 0; border-top: 1px solid var(--linje); box-shadow: none; flex-direction: row; }
@@ -435,7 +466,8 @@ h2, h3 { font-weight: 700; }
 .oversikt .tema h3 { font-size: 1.02rem; }
 .oversikt .tema .meta { font-size: 0.85rem; }
 .tema-fremgang { display: grid; gap: 0.2rem; }
-.fremdrift-linje { height: 6px; border: 0; background: var(--linje); }
+.fremdrift-linje { height: 6px; border: 0; background: var(--linje); border-radius: 99px; }
+.fremdrift-linje > span { border-radius: 99px; }
 .fremdrift-tekst { font-size: 0.82rem; min-height: 0; }
 .oversikt .tema .lenker { margin: 0; padding: 0; justify-content: flex-end; flex-wrap: nowrap; gap: 0.9rem; }
 @media (max-width: 44rem) {
@@ -447,7 +479,7 @@ h2, h3 { font-weight: 700; }
 
 /* Valg av nivå på forsiden: to spalter med rød strek, ikke kort */
 .nivaakort { gap: 2rem; }
-.nivaakort .tema { background: none; border: 0; border-top: 4px solid var(--band); box-shadow: none; padding: 0.9rem 0 0; }
+.nivaakort .tema { background: none; border: 0; border-top: 4px solid var(--band); border-radius: 0; box-shadow: none; padding: 0.9rem 0 0; }
 .nivaakort .tema h2 { font-family: var(--skrift-tittel); font-weight: 600; font-size: 1.7rem; }
 
 /* Bokser: tynn okerramme som eksempelboksene i heftet, ingen sidestripe */
@@ -457,16 +489,18 @@ h2, h3 { font-weight: 700; }
 /* Kapitteltekst: underoverskrift med okerstrek, tabeller med rødt hode */
 .innhold h2 { border-bottom: 1.5px solid var(--aksent); color: var(--primar); font-size: 1.25rem; }
 .innhold th, .innhold td { border-color: var(--linje); }
-.hefte .kapittel-blokk > h2 { background: var(--band); color: var(--band-tekst); border: 0; padding: 0.3rem 0.6rem; font-size: 1.15rem; }
+.hefte .kapittel-blokk > h2 { background: var(--band); color: var(--band-tekst); border: 0; border-radius: var(--radius); padding: 0.3rem 0.7rem; font-size: 1.15rem; }
 
 /* Lister med kapitler og tekster: linjer i stedet for bokser */
 .liste-kapitler { gap: 0; border-top: 1px solid var(--linje); }
-.liste-kapitler a, .tekstkort { background: none; border: 0; border-bottom: 1px solid var(--linje); padding: 0.6rem 0.25rem; }
+.liste-kapitler a, .tekstkort { background: none; border: 0; border-bottom: 1px solid var(--linje); border-radius: 0; padding: 0.6rem 0.4rem; }
 .liste-kapitler a:hover, .tekstkort:hover { background: var(--flate-2); }
 .liste-kapitler .nr { font-family: var(--skrift-tittel); font-size: 1.15rem; font-weight: 600; color: var(--primar); }
 
 /* Øvelser og eksamenstrening: flate med rød toppstrek */
 .runner { border-top: 4px solid var(--band); }
+.innhold table { border-radius: var(--radius); }
+.pille span { border-radius: 99px; }
 .pille span { border-width: 1px; }
 .alt, .kobling-rad select, button.liten { border-width: 1px; }
 .spm { font-size: 1.2rem; font-weight: 700; }

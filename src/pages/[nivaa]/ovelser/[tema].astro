@@ -34,7 +34,7 @@ export async function getStaticPaths() {
 const { nivaa, tittel, ingress, ovelser, kapittelId } = Astro.props;
 ---
 <Layout tittel={`Øv: ${tittel}`} nivaa={nivaa}>
-  <nav aria-label="Brødsmulesti"><a href={nurl(nivaa, '')}>Alle temaer</a></nav>
+  <nav aria-label="Brødsmulesti" class="tilbake"><a href={nurl(nivaa, '')}>Tilbake til kapitlene</a></nav>
   <h1>{tittel}</h1>
   {ingress && <p>{ingress}</p>}
   <Ovelsesrunner ovelser={ovelser} tittel={tittel} />

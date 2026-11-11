@@ -31,7 +31,7 @@ const { nivaa, kapittel, forrige, neste, harOvelser, tekster } = Astro.props;
 const { Content } = await render(kapittel);
 ---
 <Layout tittel={kapittel.data.tittel} nivaa={nivaa}>
-  <nav aria-label="Brødsmulesti"><a href={nurl(nivaa, 'hefte/')}>Hefte</a></nav>
+  <nav aria-label="Brødsmulesti" class="tilbake ikke-utskrift"><a href={nurl(nivaa, 'hefte/')}>Tilbake til heftet</a></nav>
   <h1>{kapittel.data.nummer && `${kapittel.data.nummer} `}{kapittel.data.tittel}</h1>
   {harOvelser && (
     <div class="knapp-rad ikke-utskrift"><a class="knapp" href={nurl(nivaa, `ovelser/${kapittel.id}/`)}>Øv på dette kapittelet</a></div>

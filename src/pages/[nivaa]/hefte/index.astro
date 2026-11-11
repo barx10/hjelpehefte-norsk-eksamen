@@ -10,22 +10,36 @@ const kapitler = await hentKapitler(nivaa);
 ---
 <Layout tittel="Hefte" beskrivelse="Hjelpeheftet til norsk eksamen, kapittel for kapittel." nivaa={nivaa}>
   <h1>Hjelpehefte for norsk eksamen</h1>
-  <p>Heftet er skrevet for deg som skal ha skriftlig eksamen i norsk. Hvert kapittel har tilhørende øvelser.</p>
   {kapitler.length === 0 ? (
     <p>Det er ingen kapitler for {nivaa.navn.toLowerCase()} ennå. Innholdet er under arbeid.</p>
   ) : (
-    <div class="knapp-rad">
-      <a class="knapp" href={nurl(nivaa, 'hefte/last-ned/')}>Lag ditt hefte (PDF eller utskrift)</a>
-    </div>
+    <>
+      <p class="ingress">Heftet samler det du trenger til skriftlig eksamen i norsk. Du kan bruke det på to måter.</p>
+      <div class="veivalg">
+        <section class="vei" aria-labelledby="vei-les">
+          <h2 id="vei-les">Les på nettsiden</h2>
+          <p>Trykk på et kapittel i listen under. Hvert kapittel har øvelser du kan gå rett til.</p>
+          <p><a href="#kapitler">Gå til kapitlene ↓</a></p>
+        </section>
+        <section class="vei" aria-labelledby="vei-lag">
+          <h2 id="vei-lag">Lag ditt eget hefte</h2>
+          <p>Ta med hele heftet, eller velg bare kapitlene du trenger. Lagre det som PDF eller skriv det ut.</p>
+          <p><a class="knapp" href={nurl(nivaa, 'hefte/last-ned/')}>Lag ditt hefte</a></p>
+        </section>
+      </div>
+
+      <h2 id="kapitler">Kapitler</h2>
+      <p class="tastehint">Trykk på et kapittel for å lese det.</p>
+      <ul class="liste-kapitler med-pil">
+        {kapitler.map((k) => (
+          <li>
+            <a href={nurl(nivaa, `hefte/${k.id}/`)}>
+              <span class="nr">{k.data.nummer}</span>
+              <span>{k.data.tittel}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </>
   )}
-  <ul class="liste-kapitler">
-    {kapitler.map((k) => (
-      <li>
-        <a href={nurl(nivaa, `hefte/${k.id}/`)}>
-          <span class="nr">{k.data.nummer}</span>
-          <span>{k.data.tittel}</span>
-        </a>
-      </li>
-    ))}
-  </ul>
 </Layout>
