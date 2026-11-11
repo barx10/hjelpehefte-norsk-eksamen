@@ -2,6 +2,7 @@
 tittel: "Oppgave 1: korte svar"
 nummer: '15'
 rekkefolge: 15
+gruppe: eksamen
 status: godkjent
 ---
 

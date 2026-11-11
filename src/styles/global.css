@@ -321,6 +321,32 @@ textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo,
 
 .vedlegg p { white-space: pre-line; }
 
+/* Lag ditt hefte: valg av kapitler og selve heftet. Deler merket bare-nett er ikke med i kortversjonen. */
+.heftevalg { border-bottom: 2px solid var(--linje); padding-bottom: 1rem; margin-bottom: 1.5rem; }
+.valggrupper { display: grid; gap: 0.75rem 1rem; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); margin: 1rem 0; }
+.valggrupper fieldset { margin: 0; }
+.hefte.kortversjon .bare-nett { display: none; }
+.hefte-tittel { font-size: clamp(1.6rem, 4.5vw, 2.2rem); font-weight: 800; line-height: 1.2; margin: 0.2rem 0 1rem; }
+.hefte-innhold-tittel { font-size: 1.1rem; margin: 0 0 0.4rem; }
+.hefte-innhold { columns: 2 14rem; column-gap: 2rem; padding-left: 0; list-style: none; margin: 0 0 2rem; }
+.hefte-innhold li { break-inside: avoid; padding: 0.15rem 0; }
+.hefte-innhold a { text-decoration: none; }
+.hefte .kapittel-blokk { scroll-margin-top: 1rem; }
+@media print {
+  .hefte .kapittel-blokk { break-before: auto; margin-top: 1.2rem; }
+  .hefte .kapittel-blokk h2 { margin-top: 0; }
+  .hefte-forside { break-after: page; }
+  .hefte .innhold p, .hefte .innhold li { orphans: 3; widows: 3; }
+  /* Heftet skal være kompakt: mindre skrift, tettere tabeller, og lange bokser kan deles over to sider. */
+  .hefte { font-size: 10pt; line-height: 1.45; }
+  .hefte .innhold th, .hefte .innhold td { padding: 0.3rem 0.5rem; }
+  .hefte .innhold table { margin: 0.5rem 0 0.8rem; }
+  .hefte .innhold blockquote { display: block; break-inside: auto; margin: 0.6rem 0; padding-top: 0.2rem; padding-bottom: 0.2rem; }
+  .hefte .innhold blockquote p { break-inside: avoid; margin: 0.35rem 0; }
+  .hefte .innhold h2 { font-size: 13pt; margin-bottom: 0.3rem; }
+  .hefte .innhold h3 { font-size: 11pt; margin: 0.8rem 0 0.3rem; }
+}
+
 /* Modelltekster */
 .runner-topp { flex-wrap: wrap; }
 .tekstkilde { flex-basis: 100%; margin: 0.25rem 0 0; font-size: 0.82rem; color: var(--dempet); }

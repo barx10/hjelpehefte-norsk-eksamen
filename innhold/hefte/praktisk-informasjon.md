@@ -2,6 +2,7 @@
 tittel: Praktisk informasjon om eksamen
 nummer: ''
 rekkefolge: 0
+gruppe: eksamen
 ---
 
 - Eksamenstid: 5 timer (kl. 09:00 til 14:00)

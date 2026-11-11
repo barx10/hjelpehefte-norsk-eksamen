@@ -2,6 +2,7 @@
 tittel: Skrivehandlinger og sjangre
 nummer: '3'
 rekkefolge: 3
+gruppe: sjanger
 ---
 
 | Skrivehandling | Formål | Aktuelle sjangre |

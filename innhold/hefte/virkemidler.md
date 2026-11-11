@@ -2,6 +2,7 @@
 tittel: Virkemidler
 nummer: '5'
 rekkefolge: 5
+gruppe: virkemidler
 ---
 
 Ikke bare benevn virkemidlet. Forklar hva det gjør i teksten.

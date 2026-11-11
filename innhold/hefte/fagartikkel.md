@@ -2,6 +2,7 @@
 tittel: "Fagartikkel"
 nummer: '4.7'
 rekkefolge: 4.7
+gruppe: sjanger
 status: godkjent
 ---
 
@@ -41,6 +42,10 @@ I tabellen over skrivehandlinger (kapittel 3) hører fagartikkel til å samhandl
 - Støtt påstander med kilder eller eksempler.
 - Forklar fagord første gang du bruker dem.
 
+<div class="bare-nett">
+
 > **Eksempel: innledning**
 >
 > Hvorfor sover vi dårligere når vi bruker mobilen om kvelden? Mange ungdommer tar telefonen med i sengen, og flere merker at de blir trøtte på skolen. I denne teksten skal jeg forklare hva forskere har funnet, og drøfte hva vi kan gjøre for å sove bedre.
+
+</div>

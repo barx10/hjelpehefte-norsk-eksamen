@@ -2,6 +2,7 @@
 tittel: De viktigste kommareglene
 nummer: '7'
 rekkefolge: 7
+gruppe: sprak
 ---
 
 Feil kommabruk trekker ned. Her er de seks reglene du trenger.

@@ -2,6 +2,7 @@
 tittel: Reflekterende tekst
 nummer: '4.2'
 rekkefolge: 4.2
+gruppe: sjanger
 ---
 
 En reflekterende tekst er personlig. Du tenker høyt om et tema, bruker egne erfaringer og ser saken fra ulike sider.
@@ -20,6 +21,10 @@ En reflekterende tekst er personlig. Du tenker høyt om et tema, bruker egne erf
 >
 > Hva skjer egentlig med oss når vi aldri er alene med tankene våre? Telefonen er alltid med, og stillheten har blitt noe vi fyller med scrolling. Jeg lurer på om vi er i ferd med å glemme å kjede oss, og om det er et problem.
 
+<div class="bare-nett">
+
 > **Eksempel: avsnitt med temasetning og personlig erfaring**
 >
 > Kjedsomhet er ikke sløsing med tid. Forskning viser at hjernen bearbeider inntrykk og løser problemer når vi ikke aktivt gjør noe. Jeg merker det selv: de beste ideene kommer i dusjen, ikke foran skjermen. Men det forutsetter at jeg faktisk lar det bli stille.
+
+</div>

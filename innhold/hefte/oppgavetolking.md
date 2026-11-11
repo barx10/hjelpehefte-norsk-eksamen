@@ -2,6 +2,7 @@
 tittel: Slik leser du en oppgave
 nummer: '12'
 rekkefolge: 12
+gruppe: eksamen
 status: godkjent
 ---
 
@@ -27,9 +28,13 @@ Mange mister poeng fordi de svarer på noe annet enn det oppgaven spør om. Bruk
 
 Bygg alle avsnitt på samme måte, med temasetning, belegg, forklaring og kobling (se kapittel 13).
 
+<div class="bare-nett">
+
 ## Oppgave 1
 
 Oppgave 1 har tre delspørsmål og tester at du har forstått teksten. Svar på det som spørres om, med egne ord, og hold deg til anbefalt lengde i oppgaven (for eksempel 1–2 setninger eller 100–150 ord). Her trenger du ikke innledning og avslutning.
+
+</div>
 
 > **Eksempel**
 >

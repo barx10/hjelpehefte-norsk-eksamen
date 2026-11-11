@@ -55,6 +55,8 @@ const hefte = defineCollection({
     tittel: z.string(),
     nummer: z.string().default(''),
     rekkefolge: z.number(),
+    // Styrer hvor kapittelet står når eleven velger kapitler til heftet.
+    gruppe: z.enum(['eksamen', 'sjanger', 'virkemidler', 'sprak']).default('eksamen'),
     ingress: z.string().optional(),
     // Kapitler som ikke er gjennomgått vises ikke på den publiserte siden.
     status: status.default('godkjent'),

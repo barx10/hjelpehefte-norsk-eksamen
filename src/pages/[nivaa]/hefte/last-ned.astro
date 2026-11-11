@@ -1,0 +1,122 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { render } from 'astro:content';
+import { hentKapitler, nivaaStier } from '../../../lib/innhold';
+import { nurl } from '../../../lib/url';
+
+export const getStaticPaths = nivaaStier;
+const { nivaa } = Astro.props;
+
+const kapitler = await hentKapitler(nivaa);
+const innhold = await Promise.all(kapitler.map(async (k) => ({ k, Content: (await render(k)).Content })));
+
+const gruppeTittel = {
+  eksamen: 'Om eksamen og oppgavene',
+  sjanger: 'Sjangre og maler',
+  virkemidler: 'Virkemidler og synsvinkel',
+  sprak: 'Språk og tekstbygging',
+} as const;
+const grupper = (Object.keys(gruppeTittel) as (keyof typeof gruppeTittel)[])
+  .map((id) => ({ id, tittel: gruppeTittel[id], kapitler: kapitler.filter((k) => k.data.gruppe === id) }))
+  .filter((g) => g.kapitler.length > 0);
+const navn = (k: (typeof kapitler)[number]) => `${k.data.nummer ? k.data.nummer + ' ' : ''}${k.data.tittel}`;
+---
+<Layout tittel="Lag ditt hefte" beskrivelse="Last ned hele hjelpeheftet i kortversjon, eller velg kapitlene du vil ha med." nivaa={nivaa}>
+  <nav aria-label="Brødsmulesti" class="ikke-utskrift"><a href={nurl(nivaa, 'hefte/')}>Hefte</a></nav>
+
+  {kapitler.length === 0 ? (
+    <>
+      <h1>Lag ditt hefte</h1>
+      <p>Det er ingen kapitler for {nivaa.navn.toLowerCase()} ennå. Innholdet er under arbeid.</p>
+    </>
+  ) : (
+    <>
+      <section class="heftevalg ikke-utskrift" aria-labelledby="valg-tittel">
+        <h1 id="valg-tittel">Lag ditt hefte</h1>
+        <p>Heftet er en kortversjon av det som står på nettsiden. Du kan ta med alt, eller velge kapitlene du trenger. Heftet er et tillatt hjelpemiddel på eksamen.</p>
+
+        <div class="knapp-rad">
+          <button class="knapp" type="button" id="skriv-ut">Skriv ut eller lagre som PDF</button>
+          <button class="knapp sekundar" type="button" id="velg-alle">Velg hele heftet</button>
+          <button class="knapp sekundar" type="button" id="velg-ingen">Fjern alle</button>
+        </div>
+        <p class="melding" id="valg-status" role="status"></p>
+
+        <div class="valggrupper">
+          {grupper.map((g) => (
+            <fieldset class="egenvurdering" data-gruppe={g.id}>
+              <legend>{g.tittel}</legend>
+              {g.kapitler.map((k) => (
+                <div class="kriterium">
+                  <input type="checkbox" id={`valg-${k.id}`} data-kapittel={k.id} checked />
+                  <label for={`valg-${k.id}`}>{navn(k)}</label>
+                </div>
+              ))}
+            </fieldset>
+          ))}
+        </div>
+
+        <div class="kontroller">
+          <label><input type="checkbox" id="med-eksempler" /> Ta med alle eksemplene (lengre hefte)</label>
+        </div>
+        <p class="tastehint">Slik lagrer du som PDF: trykk på knappen, og velg «Lagre som PDF» der du ellers velger skriver. Valgene dine huskes i nettleseren.</p>
+      </section>
+
+      <div class="hefte kortversjon" id="hefte">
+        <header class="hefte-forside">
+          <p class="nivaamerke">{nivaa.navn}: {nivaa.kort}</p>
+          <p class="hefte-tittel">Hjelpehefte for norsk eksamen</p>
+          <h2 class="hefte-innhold-tittel">Innhold</h2>
+          <ol class="hefte-innhold">
+            {kapitler.map((k) => (<li data-kapittel={k.id}><a href={`#k-${k.id}`}>{navn(k)}</a></li>))}
+          </ol>
+        </header>
+        {innhold.map(({ k, Content }) => (
+          <section class="kapittel-blokk innhold" data-kapittel={k.id} aria-labelledby={`k-${k.id}`}>
+            <h2 id={`k-${k.id}`}>{navn(k)}</h2>
+            <Content />
+          </section>
+        ))}
+        <p class="tastehint">© Lærerliv 2026</p>
+      </div>
+    </>
+  )}
+</Layout>
+
+<script>
+  import { lesJson, skrivJson } from '../../../lib/lager';
+
+  const hefte = document.getElementById('hefte');
+  if (hefte) {
+    const nokkel = `hjelpehefte-norsk:heftevalg:${document.documentElement.dataset.nivaa ?? ''}`;
+    const bokser = [...document.querySelectorAll<HTMLInputElement>('input[data-kapittel]')];
+    const eksempler = document.getElementById('med-eksempler') as HTMLInputElement;
+    const status = document.getElementById('valg-status')!;
+    const skrivUt = document.getElementById('skriv-ut') as HTMLButtonElement;
+
+    type Valg = { av: string[]; eksempler: boolean };
+    const lagret = lesJson<Valg>(nokkel, { av: [], eksempler: false });
+    for (const b of bokser) b.checked = !lagret.av.includes(b.dataset.kapittel!);
+    eksempler.checked = lagret.eksempler === true;
+
+    function oppdater() {
+      const valgt = new Set(bokser.filter((b) => b.checked).map((b) => b.dataset.kapittel!));
+      hefte!.querySelectorAll<HTMLElement>('[data-kapittel]').forEach((el) => { el.hidden = !valgt.has(el.dataset.kapittel!); });
+      hefte!.classList.toggle('kortversjon', !eksempler.checked);
+      hefte!.hidden = valgt.size === 0;
+      skrivUt.disabled = valgt.size === 0;
+      status.textContent = valgt.size === bokser.length
+        ? `Hele heftet er valgt: ${bokser.length} kapitler.`
+        : valgt.size === 0 ? 'Velg minst ett kapittel.' : `${valgt.size} av ${bokser.length} kapitler er valgt.`;
+      skrivJson(nokkel, { av: bokser.filter((b) => !b.checked).map((b) => b.dataset.kapittel!), eksempler: eksempler.checked });
+    }
+    const settAlle = (på: boolean) => { for (const b of bokser) b.checked = på; oppdater(); };
+
+    for (const b of bokser) b.addEventListener('change', oppdater);
+    eksempler.addEventListener('change', oppdater);
+    document.getElementById('velg-alle')!.addEventListener('click', () => settAlle(true));
+    document.getElementById('velg-ingen')!.addEventListener('click', () => settAlle(false));
+    skrivUt.addEventListener('click', () => window.print());
+    oppdater();
+  }
+</script>
