@@ -1,0 +1,210 @@
+- id: vgs-oppb-kort-tid
+  type: flashkort
+  kapittel: oppbygging-vgs
+  status: utkast
+  forside: "Hvor lang er eksamenstiden i norsk hovedmål vg3?"
+  bakside: "5 timer."
+- id: vgs-oppb-kort-kortsvar
+  type: flashkort
+  kapittel: oppbygging-vgs
+  status: utkast
+  forside: "Hvor mange ord bør kortsvaret (oppgave 1) være?"
+  bakside: "250 til 300 ord."
+- id: vgs-oppb-kort-langsvar
+  type: flashkort
+  kapittel: oppbygging-vgs
+  status: utkast
+  forside: "Hvor mange ord bør langsvaret være?"
+  bakside: "800 til 1300 ord."
+- id: vgs-oppb-flervalg-antall
+  type: flervalg
+  kapittel: oppbygging-vgs
+  status: utkast
+  spm: "Hvor mange langsvarsoppgaver skal du besvare?"
+  alternativer: ["Alle", "To", "Én", "Ingen, bare kortsvaret"]
+  riktig: 2
+  forklaring: "Alle svarer på kortsvaret (oppgave 1), og så velger du én av langsvarsoppgavene."
+- id: vgs-oppb-sort-oppgavetype
+  type: sortering
+  kapittel: oppbygging-vgs
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Hvilken sjanger passer formuleringen til?"
+  kategorier: ["Fagartikkel", "Essay", "Litterær tolkning"]
+  elementer:
+    - tekst: "Gjør rede for et faglig emne og drøft hvordan to tekster belyser det."
+      kategori: 0
+    - tekst: "Utforsk og reflekter over innholdet i vedleggene."
+      kategori: 1
+    - tekst: "Tolk novellen og begrunn tolkningen din."
+      kategori: 2
+    - tekst: "Bruk fagspråk og kilder, og vurder hvordan tekstene stemmer med emnet."
+      kategori: 0
+    - tekst: "Veksle mellom egne erfaringer og kunnskap fra vedleggene."
+      kategori: 1
+    - tekst: "Vis hvordan virkemidlene bidrar til temaet."
+      kategori: 2
+  forklaring: "Fagartikkel: gjøre rede for og drøfte. Essay: utforske og reflektere. Litterær tolkning: tolke og begrunne."
+- id: vgs-oppb-match-kriterier
+  type: matching
+  kapittel: oppbygging-vgs
+  status: utkast
+  oppdrag: "Koble hver vurderingsdel til riktig spørsmål."
+  par:
+    - { venstre: "Svar på oppgaven", hoyre: "Gjør du det oppgaven spør om?" }
+    - { venstre: "Struktur og sammenheng", hoyre: "Er teksten oversiktlig, og henger avsnittene sammen?" }
+    - { venstre: "Språkføring og formelle ferdigheter", hoyre: "Er språket presist, og er rettskriving og tegnsetting i orden?" }
+  forklaring: "Alle oppgaver vurderes på disse tre tingene."
+- id: vgs-oppb-rekke-tid
+  type: rekkefolge
+  kapittel: oppbygging-vgs
+  status: utkast
+  oppdrag: "Sett eksamensdagen i en fornuftig rekkefølge."
+  elementer: ["Les oppgavene og vedleggene, og velg langsvar", "Skriv kortsvaret (oppgave 1)", "Skriv langsvaret", "Les gjennom, sjekk kildene og last opp"]
+  forklaring: "Tidsplanen er et forslag, men du bør alltid lese alt først og avslutte med gjennomlesing."
+- id: vgs-prak-flervalg-hjelpemiddel
+  type: flervalg
+  kapittel: praktisk-informasjon-vgs
+  status: utkast
+  spm: "Hva er tillatt på eksamen?"
+  alternativer: ["En ordbok som ikke krever internett", "Chat med en medelev", "Et oversettelsesprogram", "KI som skriver deler av svaret"]
+  riktig: 0
+  forklaring: "Hjelpemidler uten internett er tillatt. Kommunikasjon, oversettelsesprogrammer og KI som lager innhold er ikke tillatt."
+- id: vgs-prak-flervalg-kilde
+  type: flervalg
+  kapittel: praktisk-informasjon-vgs
+  status: utkast
+  spm: "Hvordan oppgir du en internettkilde på eksamen?"
+  alternativer: ["Med nettadresse og lesedato", "Med bare nettstedets navn", "Du trenger ikke oppgi den", "Med forfatterens fødselsår"]
+  riktig: 0
+  forklaring: "Internettkilder føres opp med nettadresse og lesedato. For bøker oppgir du forfatter og tittel."
+- id: vgs-prak-kort-plagiat
+  type: flashkort
+  kapittel: praktisk-informasjon-vgs
+  status: utkast
+  forside: "Hva skjer med svaret ditt etter eksamen når det gjelder kilder?"
+  bakside: "Det blir undersøkt for plagiat. Mangler kildene, kan det påvirke vurderingen."
+- id: vgs-instr-match
+  type: matching
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  oppdrag: "Koble instruksjonsordet til hva det betyr."
+  par:
+    - { venstre: "Gjør rede for", hoyre: "Forklar og beskriv, uten å ta stilling" }
+    - { venstre: "Drøft", hoyre: "Vurder fra flere sider med argumenter og motargumenter" }
+    - { venstre: "Utforsk", hoyre: "Undersøk åpent, uten å måtte komme fram til ett svar" }
+    - { venstre: "Reflekter", hoyre: "Tenk høyt og veksle mellom erfaring og kunnskap" }
+    - { venstre: "Tolk", hoyre: "Si hva teksten handler om og begrunn det" }
+    - { venstre: "Sammenlign", hoyre: "Finn likheter og forskjeller" }
+  forklaring: "Instruksjonsordet styrer hva du skal gjøre og hvilken sjanger du skriver."
+- id: vgs-instr-flervalg-to
+  type: flervalg
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 2
+  spm: "Oppgaven sier: «Gjør rede for hva forfatteren mener, og drøft hvordan tekstene viser det.» Hva skal du gjøre?"
+  alternativer: ["Først forklare hva forfatteren mener, så vurdere hvordan tekstene viser det fra flere sider", "Bare gi din egen mening", "Bare gjengi tekstene", "Skrive en reklametekst"]
+  riktig: 0
+  forklaring: "Oppgaven har to ledd. Å gjøre rede for er å forklare. Å drøfte er å vurdere fra flere sider."
+- id: vgs-instr-marker-1
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  oppdrag: "Marker instruksjonsordene i oppgaven."
+  tekst: "Skriv en fagartikkel der du [[gjør rede for]] hva forfatteren mener, og [[drøfter]] hvordan to tekster viser dette."
+  forklaring: "«Gjør rede for» og «drøfter» er instruksjonsordene. Hvert av dem blir en egen del av svaret."
+- id: vgs-instr-marker-2
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  oppdrag: "Marker instruksjonsordene i oppgaven."
+  tekst: "[[Utforsk]] og [[reflekter]] over hvordan vedleggene beskriver hverdagen til unge. Bruk egne erfaringer."
+  forklaring: "«Utforsk» og «reflekter» peker på essay. Du veksler mellom erfaring og kunnskap."
+- id: vgs-instr-marker-3
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  oppdrag: "Marker instruksjonsordet i oppgaven."
+  tekst: "[[Tolk]] novellen."
+  forklaring: "«Tolk» betyr at du skal si hva teksten handler om og begrunne tolkningen med eksempler."
+- id: vgs-oppg-sort-sjanger
+  type: sortering
+  kapittel: oppgavetolking-vgs
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Hvilken sjanger skriver du når oppgaven lyder slik?"
+  kategorier: ["Fagartikkel", "Essay", "Litterær tolkning"]
+  elementer:
+    - tekst: "Skriv en fagartikkel om hvordan språk endrer seg."
+      kategori: 0
+    - tekst: "Skriv et essay om hva det vil si å høre til."
+      kategori: 1
+    - tekst: "Tolk diktet."
+      kategori: 2
+    - tekst: "Gjør rede for og drøft hvordan tekstene kan leses i lys av emnet."
+      kategori: 0
+    - tekst: "Utforsk innholdet i vedleggene og reflekter over temaet."
+      kategori: 1
+  forklaring: "Oppgaven sier ofte rett ut hvilken sjanger du skal skrive, og instruksjonsordene peker på sjangeren."
+- id: vgs-oppg-rekke-steg
+  type: rekkefolge
+  kapittel: oppgavetolking-vgs
+  status: utkast
+  oppdrag: "Sett stegene for å lese en oppgave i riktig rekkefølge."
+  elementer: ["Finn instruksjonsordene", "Finn sjangeren", "Finn temaet", "Sjekk lengde og vurdering", "Les vedleggene to ganger", "Lag en disposisjon"]
+  forklaring: "Du starter med oppgaven, så vedleggene, og lager en disposisjon før du skriver."
+- id: vgs-oppg-flervalg-velg
+  type: flervalg
+  kapittel: oppgavetolking-vgs
+  status: utkast
+  spm: "Hva er det lureste når du skal velge langsvar?"
+  alternativer: ["Velge etter hva du kan og forstår, etter å ha lest vedleggene", "Velge den første oppgaven uten å lese vedleggene", "Velge den med flest vedlegg", "Bruke en time på å bestemme seg"]
+  riktig: 0
+  forklaring: "Velg oppgaven du kan skrive best om, og les vedleggene før du bestemmer deg. Bruk ikke for lang tid."
+- id: vgs-kort-flervalg-ord
+  type: flervalg
+  kapittel: kortsvar-vgs
+  status: utkast
+  spm: "Hvilket avsnitt i kortsvaret viser best hva som skal til?"
+  alternativer: ["«Forfatteren bruker en sammenligning når han skriver at stemmen var «som is». Det viser at samtalen er kald og at personen er redd.»", "«Det er mange virkemidler i teksten.»", "«Teksten er fin og jeg likte den.»", "«Forfatteren bruker metaforer, sammenligninger og besjeling.»"]
+  riktig: 0
+  forklaring: "Avsnittet navngir virkemidlet, siterer og forklarer hva det gjør. Det er navn, eksempel og virkning."
+- id: vgs-kort-rekke-avsnitt
+  type: rekkefolge
+  kapittel: kortsvar-vgs
+  status: utkast
+  oppdrag: "Sett setningene i riktig rekkefølge i avsnittet."
+  elementer: ["Forfatteren bruker en personifikasjon når hun skriver at «huset holdt pusten».", "Det gjør at leseren merker spenningen før noe skjer.", "Rommet blir nesten levende og truende, og det forsterker uroen hos personen."]
+  forklaring: "Navngi virkemidlet og vis det, forklar virkningen, og knytt det til situasjonen."
+- id: vgs-kort-sort-ledd
+  type: sortering
+  kapittel: kortsvar-vgs
+  status: utkast
+  oppdrag: "Hvilken del av avsnittet er setningen?"
+  kategorier: ["Navn på virkemiddel", "Eksempel fra teksten", "Virkning"]
+  elementer:
+    - tekst: "Fortelleren bruker gjentakelse."
+      kategori: 0
+    - tekst: "«Hun ventet og ventet og ventet.»"
+      kategori: 1
+    - tekst: "Det viser hvor langt tiden blir for henne."
+      kategori: 2
+    - tekst: "Teksten bruker en sammenligning."
+      kategori: 0
+    - tekst: "Stemmen var «som is»."
+      kategori: 1
+  forklaring: "Et godt avsnitt navngir virkemidlet, sitérer et sted og forklarer hva det gjør."
+- id: vgs-kort-skriv-kortsvar
+  type: skriv
+  kapittel: kortsvar-vgs
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Gjør rede for hvordan virkemidler skaper stemning i utdraget. Bruk eksempler fra teksten og fagspråk."
+  utdrag: "Utdrag fra en novelle (fiktiv tekst for øving):\n\nNatten hadde lagt seg over fjorden som et teppe. Aud stod ved kaia og lyttet. Alt var stille, bare vannet slo svakt mot stolpene, som om det hvisket. Hun holdt kappen tett om seg. Hvor ble han av? Hun så på klokka, som tikket høyere enn før."
+  ord: { min: 80, maks: 150 }
+  nokkelord: ["personifikasjon", "sammenligning", "stemning", "virkemiddel"]
+  nokkelordMinst: 2
+  sitat: true
+  kriterier: ["Jeg navngir minst to virkemidler", "Jeg siterer fra teksten", "Jeg forklarer hva virkemidlene gjør med stemningen", "Jeg bruker fagspråk"]
+  modelltekst: "Utdraget bruker virkemidler som gjør stemningen urolig og ventende. Teksten bruker en sammenligning når den skriver at natten har lagt seg «som et teppe». Det gjør at fjorden virker tung og stille. Vannet «hvisket» mot stolpene, og det er en personifikasjon som får omgivelsene til å virke levende og følge med. Til slutt bruker teksten et spørsmål, «Hvor ble han av?», som viser tankene til Aud direkte og forsterker uroen."
+  modellkommentar: "Svaret navngir virkemidler, siterer og forklarer virkningen. Dette er også kortsvarets tre steg."

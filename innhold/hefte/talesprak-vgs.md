@@ -14,7 +14,7 @@ Talespråket forandrer seg hele tiden. Ordene vi bruker, måten vi uttaler dem p
 - **Dialekter jevnes ut.** Mange unge bruker et talemål som ligger nærmere et regionalt felles talemål enn den lokale dialekten til besteforeldrene. Folk flytter mer og møtes på nett.
 - **Nye ord kommer inn.** Mange av dem er lånt fra engelsk gjennom spill, film og sosiale medier.
 - **Ungdomsspråk.** Unge lager egne ord og uttrykk som viser tilhørighet. Mange av dem blir borte raskt, men noen blir værende.
-- **Flerkulturelt ungdomsspråk.** I enkelte byområder har unge med ulik språkbakgrunn utviklet en felles talemåte, også kalt multietnolekt. Den er blitt kalt «kebabnorsk», men fagfolk bruker helst multietnolekt.
+- **Flerkulturelt ungdomsspråk.** I enkelte byområder har unge med ulik språkbakgrunn utviklet en felles talemåte, også kalt multietnolekt. Den er blitt kalt «kebabnorsk», men det er en merkelapp satt utenfra. Fagfolk bruker helst multietnolekt, og de understreker at det er en stil og ikke dårlig norsk.
 - **Skrift og tale glir sammen.** Chat og meldinger ligger nær talespråket.
 
 ## Hvorfor forandrer språk seg?
