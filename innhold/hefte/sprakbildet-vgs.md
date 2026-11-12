@@ -23,13 +23,14 @@ Norge er et land med mange språk. Her ser vi på språkene som brukes, og hvord
 | Tid | Hva skjedde |
 |---|---|
 | Før 1350 | Norrønt: språket i Norge og på Island. Mer bøying enn i dag, med kasus og tre kjønn. |
-| 1350 til 1525 | Mellomnorsk: språket forenkles, og bøyingene forsvinner stadig mer. |
+| 1350 til omkring 1525 | Mellomnorsk: språket forenkles, og bøyingene forsvinner stadig mer. |
 | 1536 til 1814 | Dansketid: dansk blir skriftspråket i Norge. Folk snakker norsk, men skriver dansk. |
 | 1814 og utover | Norge får egen grunnlov, og språkdebatten tar til. Hva skal være det norske skriftspråket? |
 | 1840 til 1880 | Ivar Aasen lager landsmål av dialektene. Knud Knudsen vil norvegisere dansken, og det blir riksmål. |
-| 1885 | Stortinget gjør landsmål og riksmål likestilt. |
+| 1885 | Stortinget vedtar at landsmål og riksmål skal være likestilte (jamstillingsvedtaket, 12. mai). |
 | 1900 til 1960 | Flere rettskrivingsreformer. Samnorsk-politikken forsøker å føre målformene sammen. |
-| Siste del av 1900-tallet | Samnorsk møter motstand og forlates. Målformene får navnene bokmål og nynorsk. |
+| 1929 | Målformene får navnene bokmål og nynorsk. |
+| 1960-årene til 2002 | Samnorsk legges på is, og i 2002 fjernes målet om tilnærming offisielt. |
 | 2022 | Språkloven trer i kraft. Den slår fast at norsk er hovedspråk, og styrker de samiske språkene og tegnspråk. |
 
 Datoer og navn er forenklet. Sjekk alltid detaljene i en pålitelig kilde før du bruker dem i en tekst.

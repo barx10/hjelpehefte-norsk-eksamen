@@ -34,10 +34,11 @@ Konsekvensene var tap av språk, skam og brutte bånd mellom generasjoner. Mange
 
 | Når | Hva |
 |---|---|
-| 1987 | Sameloven fastslår at samisk og norsk er likestilte språk i et område som kalles forvaltningsområdet for samisk språk. |
-| 1989 | Sametinget åpner som folkevalgt organ for samene. |
-| 1990 | Norge ratifiserer ILO-konvensjon 169, som verner urfolks rettigheter. |
-| 2018 til 2023 | Sannhets- og forsoningskommisjonen undersøker fornorskingspolitikken og la fram sin rapport i 2023. |
+| 1987 | Sameloven blir vedtatt. Den trer i kraft i 1989 og danner grunnlaget for Sametinget. |
+| 1989 | Sametinget åpnes som folkevalgt organ for samene. |
+| 1990 | Norge ratifiserer ILO-konvensjon 169, som verner urfolks rettigheter, som første land. |
+| 1992 | Språkreglene i sameloven trer i kraft. Samisk og norsk er likestilte språk i forvaltningsområdet for samisk språk. |
+| 2018 til 2023 | Sannhets- og forsoningskommisjonen undersøker fornorskingspolitikken og legger fram rapporten sin 1. juni 2023. |
 | 2022 | Språkloven styrker de samiske språkenes stilling. |
 
 Grunnloven slår fast at staten skal legge til rette for at samene kan sikre og utvikle sitt språk, sin kultur og sitt samfunnsliv.
