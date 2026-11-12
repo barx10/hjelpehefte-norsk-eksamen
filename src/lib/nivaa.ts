@@ -12,6 +12,8 @@ export type Nivaa = {
   beskrivelse: string;
   malTittel: string;
   laereplan: string;
+  // Flere sider i læreplanen når målene hentes fra mer enn én. Første lenke er `laereplan`.
+  laereplanLenker: readonly { tekst: string; href: string }[];
 };
 
 export const NIVAAER: readonly Nivaa[] = [
@@ -23,15 +25,21 @@ export const NIVAAER: readonly Nivaa[] = [
     beskrivelse: 'Skriftlig eksamen i norsk etter 10. trinn.',
     malTittel: 'Kompetansemål etter 10. trinn',
     laereplan: 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110',
+    laereplanLenker: [{ tekst: 'etter 10. trinn', href: 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1110' }],
   },
   {
     id: 'vgs',
     kode: 'vg3',
     navn: 'Videregående',
-    kort: 'vg3 studieforberedende',
+    kort: 'vg1 til vg3 studieforberedende',
     beskrivelse: 'Skriftlig eksamen i norsk hovedmål etter vg3 studieforberedende.',
-    malTittel: 'Kompetansemål etter vg3 studieforberedende',
+    malTittel: 'Kompetansemål i videregående (vg1 til vg3)',
     laereplan: 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1114',
+    laereplanLenker: [
+      { tekst: 'etter vg1', href: 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1113' },
+      { tekst: 'etter vg2', href: 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1112' },
+      { tekst: 'etter vg3', href: 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1114' },
+    ],
   },
 ];
 

@@ -28,7 +28,7 @@ Alt innhold ligger i `innhold/`. Du trenger ikke endre kode for å rette eller l
 
 ### Nivå
 
-Siden har to nivåer: ungdomstrinn (`/ungdomstrinn/`) og videregående (`/vgs/`, vg3 studieforberedende hovedmål). Eleven velger nivå på forsiden eller øverst på siden. Valget huskes i nettleseren, og fremgangen lagres hver for seg per nivå.
+Siden har to nivåer: ungdomstrinn (`/ungdomstrinn/`) og videregående (`/vgs/`, studieforberedende hovedmål, med mål fra vg1, vg2 og vg3). Eleven velger nivå på forsiden eller øverst på siden. Valget huskes i nettleseren, og fremgangen lagres hver for seg per nivå.
 
 Feltet `nivaa` styrer hvor innholdet vises. Kodene er `'10'` og `'vg3'`.
 
