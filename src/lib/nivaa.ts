@@ -28,9 +28,9 @@ export const NIVAAER: readonly Nivaa[] = [
     id: 'vgs',
     kode: 'vg3',
     navn: 'Videregående',
-    kort: 'vg3 studieforberedende',
+    kort: 'vg1 til vg3 studieforberedende',
     beskrivelse: 'Skriftlig eksamen i norsk hovedmål etter vg3 studieforberedende.',
-    malTittel: 'Kompetansemål etter vg3 studieforberedende',
+    malTittel: 'Kompetansemål i videregående (vg1 til vg3)',
     laereplan: 'https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1114',
   },
 ];

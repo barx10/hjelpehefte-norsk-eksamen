@@ -1,7 +1,96 @@
-# Kompetansemål i norsk etter vg3 studieforberedende utdanningsprogram, hentet ordrett fra Udir (LK20, NOR01-08).
-# Kilde: https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1114
+# Kompetansemål i norsk for videregående, studieforberedende utdanningsprogram: målene etter vg1 (mvg1), vg2 (mvg2) og vg3 (mvg3).
+# De skilles ikke på siden, fordi eksamen bygger på alle tre årene. Id-en viser bare hvilket trinn målet kommer fra.
+# Kilde: Udir, LK20, NOR01-08. https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1114
 # omfang: dekkes | delvis | senere | utenfor (se forklaring i 10-trinn.yaml)
 # Siden gjelder skriftlig eksamen i hovedmål. Innholdet for vg3 er ikke laget ennå, så målene står som planlagt.
+- id: mvg1-01
+  nivaa: vg3
+  tekst: lese, analysere og tolke nyere skjønnlitteratur på bokmål og nynorsk og i oversettelse fra samiske og andre språk
+  omfang: senere
+- id: mvg1-02
+  nivaa: vg3
+  tekst: reflektere over hvordan tekster framstiller møter mellom ulike kulturer
+  omfang: senere
+- id: mvg1-03
+  nivaa: vg3
+  tekst: gjøre rede for og reflektere over bruken av retoriske appellformer og språklige virkemidler i sakprosatekster
+  omfang: senere
+- id: mvg1-04
+  nivaa: vg3
+  tekst: lytte til andre, bygge opp saklig argumentasjon og bruke retoriske appellformer i diskusjoner
+  omfang: senere
+- id: mvg1-05
+  nivaa: vg3
+  tekst: bruke ulike kilder på en kritisk, selvstendig og etterrettelig måte
+  omfang: senere
+- id: mvg1-06
+  nivaa: vg3
+  tekst: greie ut om og drøfte norskfaglige eller tverrfaglige temaer muntlig
+  omfang: senere
+- id: mvg1-07
+  nivaa: vg3
+  tekst: skrive fagartikler som greier ut om og drøfter norskfaglige eller tverrfaglige temaer
+  omfang: senere
+- id: mvg1-08
+  nivaa: vg3
+  tekst: bruke fagspråk til å beskrive setningsoppbygningen og sammenhengen mellom setninger i arbeid med tekster
+  omfang: senere
+- id: mvg1-09
+  nivaa: vg3
+  tekst: kombinere virkemidler og uttrykksformer kreativt i egen tekstskaping
+  omfang: senere
+- id: mvg1-10
+  nivaa: vg3
+  tekst: vurdere og bearbeide egne tekster ut fra tilbakemeldinger og faglige kriterier
+  omfang: senere
+- id: mvg1-11
+  nivaa: vg3
+  tekst: skrive tekster med god struktur og tekstbinding og mestre tegnsetting og rettskriving på hovedmål og sidemål
+  omfang: senere
+- id: mvg1-12
+  nivaa: vg3
+  tekst: sammenligne særtrekk ved norsk med andre språk og vise hvordan språklige møter kan skape språkendringer
+  omfang: senere
+- id: mvg1-13
+  nivaa: vg3
+  tekst: gjøre rede for utbredelsen av de samiske språkene i Norge, fornorskingspolitikken og de språklige rettighetene samer har som urfolk
+  omfang: senere
+- id: mvg2-01
+  nivaa: vg3
+  tekst: lese norrøne tekster i oversettelse og sammenligne dem med tekster fra nyere tid
+  omfang: senere
+- id: mvg2-02
+  nivaa: vg3
+  tekst: lese og tolke tekster fra 1500 til 1850 i kulturhistorisk kontekst og drøfte hvordan de er relevante i dag
+  omfang: senere
+- id: mvg2-03
+  nivaa: vg3
+  tekst: utforske og reflektere over hvordan tekster fra romantikken og nasjonalromantikken framstiller menneske, natur og samfunn, og sammenligne med tekster fra nyere tid
+  omfang: senere
+- id: mvg2-04
+  nivaa: vg3
+  tekst: reflektere over sakprosatekster og gjøre rede for den retoriske situasjonen de er blitt til i
+  omfang: senere
+- id: mvg2-05
+  nivaa: vg3
+  tekst: skrive fagartikler som gjør rede for og drøfter tekster i kontekst
+  omfang: senere
+- id: mvg2-06
+  nivaa: vg3
+  tekst: bruke tilbakemeldinger og kunnskap om språk, tekst og sjanger til å utvikle egne tekster
+  omfang: senere
+- id: mvg2-07
+  nivaa: vg3
+  tekst: bruke fagkunnskap og retoriske ferdigheter i norskfaglige diskusjoner og presentasjoner
+  omfang: senere
+- id: mvg2-08
+  nivaa: vg3
+  tekst: bruke fagspråk til å beskrive særtrekk ved norsk sammenlignet med svensk, dansk og norrønt
+  omfang: senere
+- id: mvg2-09
+  nivaa: vg3
+  tekst: gjøre rede for den historiske bakgrunnen for språksituasjonen i Norge i dag
+  omfang: senere
 - id: mvg3-01
   nivaa: vg3
   tekst: analysere og tolke romaner, noveller, drama, lyrikk og sakprosa på bokmål og nynorsk fra 1850 til i dag og reflektere over tekstene i lys av den kulturhistoriske konteksten og egen samtid
