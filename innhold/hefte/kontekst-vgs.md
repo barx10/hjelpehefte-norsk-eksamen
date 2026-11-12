@@ -3,7 +3,7 @@ tittel: Tekst og kontekst
 nummer: '5.1'
 rekkefolge: 5.1
 gruppe: litteratur
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 

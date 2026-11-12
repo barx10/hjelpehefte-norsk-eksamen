@@ -3,7 +3,7 @@ tittel: Viktige begreper i oppgaveteksten
 nummer: '2'
 rekkefolge: 2
 gruppe: eksamen
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 

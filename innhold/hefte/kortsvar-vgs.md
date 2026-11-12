@@ -3,7 +3,7 @@ tittel: "Oppgave 1: kortsvar"
 nummer: '15'
 rekkefolge: 15
 gruppe: eksamen
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 

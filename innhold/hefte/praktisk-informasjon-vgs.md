@@ -3,7 +3,7 @@ tittel: Praktisk informasjon om eksamen
 nummer: ''
 rekkefolge: 0
 gruppe: eksamen
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 

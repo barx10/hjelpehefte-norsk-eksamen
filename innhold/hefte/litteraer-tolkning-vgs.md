@@ -3,7 +3,7 @@ tittel: Litterær tolkning
 nummer: '4.1'
 rekkefolge: 4.1
 gruppe: sjanger
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 tekstTyper: [novelleanalyse, diktanalyse]
 ---

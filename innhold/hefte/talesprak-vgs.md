@@ -3,7 +3,7 @@ tittel: Talespråk i endring
 nummer: '6.3'
 rekkefolge: 6.3
 gruppe: sprakNorge
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 
