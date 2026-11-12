@@ -31,7 +31,11 @@ const grupper = (['dekkes', 'delvis', 'senere', 'utenfor'] as const).map((o) => 
 ---
 <Layout tittel={nivaa.malTittel} beskrivelse={`${nivaa.malTittel} i norsk: hva siden øver, og hva som ikke er med.`} bredde="smal" nivaa={nivaa}>
   <h1>{nivaa.malTittel}</h1>
-  <p>Målene er hentet ordrett fra <a href={nivaa.laereplan}>læreplanen i norsk på udir.no</a>. Antall øvelser telles fra øvelsene som er synlige på siden.</p>
+  <p>
+    Målene er hentet ordrett fra læreplanen i norsk på udir.no:{' '}
+    {nivaa.laereplanLenker.map((l, i) => (<>{i > 0 && (i === nivaa.laereplanLenker.length - 1 ? ' og ' : ', ')}<a href={l.href}>{l.tekst}</a></>))}.
+    Antall øvelser telles fra øvelsene som er synlige på siden.
+  </p>
   {mal.length === 0 && <p>Kompetansemålene for dette nivået er ikke lagt inn ennå.</p>}
   <div class="merknad">
     {nivaa.kode === '10' ? (
