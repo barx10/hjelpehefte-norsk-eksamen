@@ -3,7 +3,7 @@ tittel: Retorisk analyse
 nummer: '4.4'
 rekkefolge: 4.4
 gruppe: sjanger
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 tekstTyper: [retorisk-analyse]
 ---

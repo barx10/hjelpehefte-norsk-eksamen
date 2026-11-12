@@ -3,7 +3,7 @@ tittel: Samiske språk og fornorskning
 nummer: '6.2'
 rekkefolge: 6.2
 gruppe: sprakNorge
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 

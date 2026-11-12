@@ -3,7 +3,7 @@ tittel: Slik er eksamen bygd opp
 nummer: '1'
 rekkefolge: 1
 gruppe: eksamen
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 

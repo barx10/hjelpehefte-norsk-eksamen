@@ -3,7 +3,7 @@ tittel: Slik leser du en oppgave
 nummer: '12'
 rekkefolge: 12
 gruppe: eksamen
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 

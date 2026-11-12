@@ -3,7 +3,7 @@ tittel: Setningsoppbygging
 nummer: '17'
 rekkefolge: 17
 gruppe: sprak
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 

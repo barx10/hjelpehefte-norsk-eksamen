@@ -3,7 +3,7 @@ tittel: Essay
 nummer: '4.2'
 rekkefolge: 4.2
 gruppe: sjanger
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 

@@ -3,7 +3,7 @@ tittel: Fagartikkel
 nummer: '4.3'
 rekkefolge: 4.3
 gruppe: sjanger
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 tekstTyper: [fagartikkel]
 ---
