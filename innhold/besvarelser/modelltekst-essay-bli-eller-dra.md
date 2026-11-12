@@ -3,7 +3,7 @@ tittel: "Der noen vet hvem jeg er"
 type: essay
 kategori: modelltekst
 nivaa: ['vg3']
-status: utkast
+status: godkjent
 oppgave: "Essay som utforsker og reflekterer over vedleggene i vgs pakke 1, oppgave B («Å bli eller dra»)"
 forfatter: "Skrevet for øvingen (fiktiv modelltekst)"
 merknad: "Vedleggene teksten svarer på, ligger i eksamenstreningen. Les vedleggene først, og deretter modellteksten."

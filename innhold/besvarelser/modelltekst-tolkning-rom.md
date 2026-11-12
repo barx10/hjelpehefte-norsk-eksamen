@@ -3,7 +3,7 @@ tittel: "Døren som har lært navnet mitt"
 type: diktanalyse
 kategori: modelltekst
 nivaa: ['vg3']
-status: utkast
+status: godkjent
 oppgave: "Tolkning av diktet «Rom» (vedlegg 8 i vgs pakke 2, oppgave C)"
 forfatter: "Skrevet for øvingen (fiktiv modelltekst)"
 merknad: "Vedleggene teksten svarer på, ligger i eksamenstreningen. Les vedleggene først, og deretter modellteksten."

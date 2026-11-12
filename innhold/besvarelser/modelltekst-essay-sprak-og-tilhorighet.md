@@ -3,7 +3,7 @@ tittel: "Ord som bor flere steder"
 type: essay
 kategori: modelltekst
 nivaa: ['vg3']
-status: utkast
+status: godkjent
 oppgave: "Essay som utforsker og reflekterer over vedleggene i vgs pakke 2, oppgave B («Språk og tilhørighet»)"
 forfatter: "Skrevet for øvingen (fiktiv modelltekst)"
 merknad: "Vedleggene teksten svarer på, ligger i eksamenstreningen. Les vedleggene først, og deretter modellteksten."
