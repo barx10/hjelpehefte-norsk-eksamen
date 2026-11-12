@@ -111,6 +111,8 @@ Modelltekster ligger i `innhold/besvarelser/`, én fil per tekst. Frontmatter ha
 
 Eksamenspakker ligger i `innhold/eksamen/`, én YAML-fil per pakke. En pakke har vedlegg, oppgave 1 (tre delspørsmål med modellsvar), oppgave 2 (ett eller flere valg, hvert knyttet til en mal i heftet) og oppgave 3. Byggingen stopper hvis en oppgave peker på et vedlegg eller en mal som ikke finnes. Tekstene skal være skrevet for øvingen. Pakker med `status: utkast` vises ikke på den publiserte siden.
 
+Feltet `oppsett` styrer formatet. Uten feltet (`ungdomstrinn`) har pakken oppgave 1 med tre delspørsmål, oppgave 2 og oppgave 3. Med `oppsett: vgs` har pakken et kortsvar (ett delspørsmål på 250 til 300 ord) og ett langsvar der eleven velger mellom flere oppgaver, hver med ett eller flere vedlegg (`vedlegg: [v2, v3, v4]`). Oppgave 3 utelates. Se `innhold/eksamen/vgs-pakke-1.yaml`.
+
 Hvert valg i oppgave 2 og oppgave 3 kan ha `kjennetegn`: en liste med punkter som viser hva et godt svar inneholder. Eleven ser dem i tilbakemeldingen etter levering og krysser av selv. Punktene vises bare når pakken har `kjennetegnStatus: godkjent`.
 
 Byggingen stopper med en feilmelding hvis en øvelse peker på et kapittel eller mål som ikke finnes, hvis en id er brukt to ganger, eller hvis `riktig` peker utenfor alternativene.

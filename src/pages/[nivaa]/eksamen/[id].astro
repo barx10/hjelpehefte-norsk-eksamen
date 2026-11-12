@@ -14,6 +14,13 @@ export async function getStaticPaths() {
     { gruppe: 'Språk og form', punkter: ['Store bokstaver etter punktum?', 'Sammensatte ord skrevet som ett ord?', 'Kandidatnummer på plass, ikke navn?', 'Har du sjekket retteprogrammet på ord du er usikker på?', 'Oppfyller teksten lengdekravet som er oppgitt i oppgaven?'] },
   ];
 
+  // Sjekkliste for vgs. Samme oppbygning som over, men med kilder og vedlegg.
+  const sjekklisteVgs = [
+    { gruppe: 'Svar på oppgaven', punkter: ['Har du gjort det instruksjonsordene ber om (gjør rede for, drøft, utforsk, tolk)?', 'Har du skrevet i riktig sjanger?', 'Har du brukt vedleggene aktivt, med eksempler og sitater?'] },
+    { gruppe: 'Struktur og sammenheng', punkter: ['Har du tittel, innledning, hoveddel og avslutning (kortsvar: innledning, to eller tre avsnitt og kort avslutning)?', 'Starter hvert avsnitt med en tydelig påstand eller temasetning?', 'Henger avsnittene sammen med bindeord og overganger?'] },
+    { gruppe: 'Språk og kilder', punkter: ['Har du brukt fagspråk presist?', 'Er rettskriving og tegnsetting kontrollert?', 'Har du oppgitt alle kilder, også vedleggene (forfatter og tittel, eller nettadresse og lesedato)?', 'Er lengden innenfor målet i oppgaven?'] },
+  ];
+
   const sider = await Promise.all(NIVAAER.map(async (nivaa) => {
   const pakker = await hentEksamen(nivaa);
   const synlige = new Map((await hentKapitler(nivaa)).map((k) => [k.id, k]));
@@ -24,6 +31,7 @@ export async function getStaticPaths() {
       id: p.id,
       tittel: d.tittel,
       beskrivelse: d.beskrivelse,
+      oppsett: d.oppsett,
       vedlegg: d.vedlegg,
       oppgave1: d.oppgave1,
       oppgave2: {
@@ -31,7 +39,7 @@ export async function getStaticPaths() {
           id: v.id,
           tittel: v.tittel,
           tekst: v.tekst,
-          vedlegg: v.vedlegg,
+          vedlegg: [v.vedlegg ?? []].flat(),
           ord: v.ord,
           nokkelord: v.nokkelord,
           sitat: v.sitat,
@@ -40,9 +48,9 @@ export async function getStaticPaths() {
           malTittel: synlige.has(v.mal.id) ? kapittelNavn(synlige.get(v.mal.id)!) : v.mal.id,
         })),
       },
-      oppgave3: { ...d.oppgave3, kjennetegn: visKjennetegn ? d.oppgave3.kjennetegn : [] },
+      oppgave3: d.oppgave3 ? { ...d.oppgave3, kjennetegn: visKjennetegn ? d.oppgave3.kjennetegn : [] } : undefined,
       kjennetegnUtkast: d.kjennetegnStatus === 'utkast',
-      sjekkliste,
+      sjekkliste: d.oppsett === 'vgs' ? sjekklisteVgs : sjekkliste,
     };
     return { params: { nivaa: nivaa.id, id: p.id }, props: { nivaa, tittel: d.tittel, data } };
   });

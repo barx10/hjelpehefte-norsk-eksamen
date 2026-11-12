@@ -2,14 +2,14 @@
   type: flashkort
   kapittel: kontekst-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   forside: "Hvilke tre slags kontekst kan du bruke når du tolker en tekst?"
   bakside: "Tekstens tid, forfatteren og din egen samtid."
 - id: vgs-kont-flervalg-feil
   type: flervalg
   kapittel: kontekst-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   spm: "Hva er den vanligste feilen når man bruker kontekst i en tolkning?"
   alternativer: ["Å fortelle periodens historie uten å knytte den til teksten", "Å sitere fra teksten", "Å nevne forfatteren", "Å bruke fagspråk"]
   riktig: 0
@@ -18,7 +18,7 @@
   type: rekkefolge
   kapittel: kontekst-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   oppdrag: "Sett periodene i kronologisk rekkefølge, fra tidligst til senest."
   elementer: ["Realisme", "Naturalisme", "Nyromantikk og symbolisme", "Modernisme", "Postmodernisme og samtid"]
   forklaring: "Periodene glir over i hverandre, men denne rekkefølgen viser hovedlinjen fra 1850 til i dag."
@@ -26,7 +26,7 @@
   type: sortering
   kapittel: kontekst-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   oppdrag: "Hører utsagnet til tekstens tid, forfatteren eller din samtid?"
   kategorier: ["Tekstens tid", "Forfatteren", "Din egen samtid"]
   elementer:
@@ -43,7 +43,7 @@
   type: skriv
   kapittel: kontekst-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv et avsnitt der du bruker kontekst riktig i tolkningen av utdraget."
   utdrag: "Utdrag fra en novelle fra 1880-årene (fiktiv tekst for øving):\n\nDatteren stod i døren med hendene foldet. «Far, jeg vil gjerne bli i byen et år til.» Faren leste videre i avisen. «Det får vi snakke om,» sa han. Hun visste at samtalen var over."
@@ -57,14 +57,14 @@
   type: flashkort
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   forside: "Hva mente Georg Brandes at litteraturen skulle gjøre da han holdt forelesningene sine i 1871?"
   bakside: "Sette problemer under debatt. Dette ble startskuddet for det moderne gjennombrudd."
 - id: vgs-real-match-verk
   type: matching
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Koble forfatteren til verket."
   par:
@@ -77,7 +77,7 @@
   type: sortering
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Hører trekket til realismen eller naturalismen?"
   kategorier: ["Realisme", "Naturalisme"]
@@ -95,7 +95,7 @@
   type: marker
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   oppdrag: "Marker setningen som viser et samfunnsproblem uten å si det rett ut."
   tekst: "De satt ved frokostbordet. Moren skjenket kaffe. [[Når datteren bare svarte «ja, far», satte faren fra seg koppen og leste videre.]] Ute hadde det begynt å regne."
   forklaring: "Språket viser hvordan makten er fordelt i familien uten at fortelleren kommenterer det."
@@ -103,7 +103,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvordan framstilles samfunnet typisk i realismen?"
   alternativer: ["Som noe som skal kritiseres og forbedres", "Som uforståelig og fremmed", "Som en drøm", "Som uten betydning for menneskene"]
@@ -113,21 +113,21 @@
   type: flashkort
   kapittel: modernisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   forside: "Nevn tre kjennetegn ved modernismen."
   bakside: "For eksempel indre liv, fragmentering, subjektiv synsvinkel, åpen slutt, symbol, frie vers og fremmedgjøring."
 - id: vgs-mod-kort-bevisst
   type: flashkort
   kapittel: modernisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   forside: "Hva er bevissthetsstrøm?"
   bakside: "En teknikk der teksten gjengir tanker i den rekkefølgen de kommer, uten å ordne dem."
 - id: vgs-mod-sort-periode
   type: sortering
   kapittel: modernisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Er trekket mest typisk for realisme eller modernisme?"
   kategorier: ["Realisme", "Modernisme"]
@@ -149,7 +149,7 @@
   type: marker
   kapittel: modernisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Marker linjen som viser fremmedgjøring gjennom et bilde."
   tekst: "Jeg gikk gjennom byen i går. [[Byen er et rom uten dør.]] Folk gikk forbi meg som skip i tåke."
@@ -158,7 +158,7 @@
   type: flervalg
   kapittel: modernisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilket verk regnes som en tidlig modernistisk lyrikksamling i norsk litteratur?"
   alternativer: ["Jord og jern (1933) av Rolf Jacobsen", "Fra Kristiania-Bohêmen (1885) av Hans Jæger", "Bondestudentar (1883) av Arne Garborg", "Amtmandens Døttre (1854 til 1855) av Camilla Collett"]
@@ -168,7 +168,7 @@
   type: matching
   kapittel: modernisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   oppdrag: "Koble begrepet til forklaringen."
   par:
     - { venstre: "Fremmedgjøring", hoyre: "Følelsen av å stå utenfor og ikke høre til" }
@@ -180,7 +180,7 @@
   type: skriv
   kapittel: modernisme-vgs
   mal: [mvg3-02, mvg3-04]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Sammenlign de to utdragene. Bruk synsvinkel og slutt som sammenligningspunkter."
   utdrag: "Tekst A (fiktiv, i realistisk stil):\n\nDet var en torsdag i oktober. Fru Berg gikk inn i kontoret til direktøren og bad om lønnsopplysning for mannen sin. «Det er ikke vanlig,» svarte han. Hun gikk hjem, og samme kveld sa hun til sønnen at han måtte lære seg å stå på egne ben.\n\nTekst B (fiktiv, i modernistisk stil):\n\nTorsdag. Eller var det onsdag. Jeg går, og gaten går med meg, og alle ansiktene har glemt navnet mitt. Kanskje jeg aldri hadde et. Døren står åpen, men det er ikke dit jeg skal."

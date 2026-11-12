@@ -19,26 +19,39 @@ const { data } = Astro.props;
 
   type Modus = 'hel' | 'o1' | 'o2' | 'o3';
   type Vedlegg = { id: string; tittel: string; forfatter?: string; tekst: string };
-  type Valg2 = { id: string; tittel: string; tekst: string; malUrl: string; malTittel: string; vedlegg?: string; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean; kjennetegn: string[] };
+  type Valg2 = { id: string; tittel: string; tekst: string; malUrl: string; malTittel: string; vedlegg: string[]; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean; kjennetegn: string[] };
   type Pakke = {
-    id: string; tittel: string; beskrivelse: string; vedlegg: Vedlegg[];
+    id: string; tittel: string; beskrivelse: string; oppsett: 'ungdomstrinn' | 'vgs'; vedlegg: Vedlegg[];
     oppgave1: { vedlegg: string; innledning: string; delsporsmal: { tekst: string; ord: Ordkrav; modell: string }[] };
     oppgave2: { valg: Valg2[] };
-    oppgave3: { tekst: string; vedlegg: string[]; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean; kjennetegn: string[] };
+    oppgave3?: { tekst: string; vedlegg: string[]; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean; kjennetegn: string[] };
     kjennetegnUtkast: boolean;
     sjekkliste: { gruppe: string; punkter: string[] }[];
   };
   type Tilstand = { versjon: 1; modus: Modus; start: number; slutt: number; skjulTid: boolean; valg2: string; svar: Record<string, string>; levert: boolean };
 
-  const MODUSER: Record<Modus, { navn: string; minutter: number; oppgaver: (1 | 2 | 3)[] }> = {
-    hel: { navn: 'Hel eksamen: oppgave 1, 2 og 3', minutter: 300, oppgaver: [1, 2, 3] },
-    o1: { navn: 'Bare oppgave 1', minutter: 40, oppgaver: [1] },
-    o2: { navn: 'Bare oppgave 2', minutter: 120, oppgaver: [2] },
-    o3: { navn: 'Bare oppgave 3', minutter: 60, oppgaver: [3] },
-  };
-
   const rot = document.getElementById('eksamen') as HTMLElement;
   const pakke: Pakke = JSON.parse(document.getElementById('eksamen-data')!.textContent ?? '{}');
+  const vgs = pakke.oppsett === 'vgs';
+  const MODUSER: Record<Modus, { navn: string; minutter: number; oppgaver: (1 | 2 | 3)[] }> = vgs
+    ? {
+        hel: { navn: 'Hel eksamen: kortsvar og langsvar', minutter: 300, oppgaver: [1, 2] },
+        o1: { navn: 'Bare kortsvaret (oppgave 1)', minutter: 45, oppgaver: [1] },
+        o2: { navn: 'Bare langsvaret', minutter: 180, oppgaver: [2] },
+        o3: { navn: '', minutter: 0, oppgaver: [] },
+      }
+    : {
+        hel: { navn: 'Hel eksamen: oppgave 1, 2 og 3', minutter: 300, oppgaver: [1, 2, 3] },
+        o1: { navn: 'Bare oppgave 1', minutter: 40, oppgaver: [1] },
+        o2: { navn: 'Bare oppgave 2', minutter: 120, oppgaver: [2] },
+        o3: { navn: 'Bare oppgave 3', minutter: 60, oppgaver: [3] },
+      };
+  const modusListe = (Object.keys(MODUSER) as Modus[]).filter((m) => MODUSER[m].oppgaver.length > 0);
+  const navn1 = vgs ? 'Oppgave 1: kortsvar' : 'Oppgave 1';
+  const navn2 = vgs ? 'Langsvar' : 'Oppgave 2';
+  const etikett1 = (i: number) => (pakke.oppgave1.delsporsmal.length > 1 ? `${String.fromCharCode(97 + i)}) ` : '');
+  const vedleggNavn = (ider: string[]) => ider.map((id) => pakke.vedlegg.find((x) => x.id === id)?.tittel).filter(Boolean).join(', ');
+
   const NOKKEL = eksamenNokkel(pakke.id);
   let tilstand: Tilstand | null = lesJson<Tilstand | null>(NOKKEL, null);
   if (tilstand && tilstand.versjon !== 1) tilstand = null;
@@ -106,7 +119,8 @@ const { data } = Astro.props;
 
     const modusSett = el('fieldset', { class: 'valgrekke' }, el('legend', {}, 'Hva vil du øve på?'));
     const tidInput = el('input', { type: 'number', id: 'eks-tid', min: '5', max: '360', step: '5', value: String(minutter) });
-    for (const [verdi, m] of Object.entries(MODUSER) as [Modus, (typeof MODUSER)[Modus]][]) {
+    for (const verdi of modusListe) {
+      const m = MODUSER[verdi];
       const radio = el('input', { type: 'radio', name: 'modus', value: verdi });
       radio.checked = verdi === valgt;
       radio.addEventListener('change', () => {
@@ -186,23 +200,23 @@ const { data } = Astro.props;
     const panes: { id: string; navn: string; el: HTMLElement }[] = [{ id: 'vedlegg', navn: 'Vedlegg', el: vedleggPane }];
 
     if (modus.oppgaver.includes(1)) {
-      const p = el('div', { class: 'eks-pane', id: 'pane-o1' }, el('h3', {}, 'Oppgave 1'), el('p', {}, pakke.oppgave1.innledning));
+      const p = el('div', { class: 'eks-pane', id: 'pane-o1' }, el('h3', {}, navn1), el('p', {}, pakke.oppgave1.innledning));
       const v = pakke.vedlegg.find((x) => x.id === pakke.oppgave1.vedlegg);
       if (v) p.append(el('p', { class: 'tastehint' }, `Se vedlegg: ${v.tittel}`));
-      pakke.oppgave1.delsporsmal.forEach((d, i) => p.append(skrivefelt(`o1-${i}`, `${String.fromCharCode(97 + i)}) ${d.tekst}`, d.ord, 3)));
-      panes.push({ id: 'o1', navn: 'Oppgave 1', el: p });
+      pakke.oppgave1.delsporsmal.forEach((d, i) => p.append(skrivefelt(`o1-${i}`, `${etikett1(i)}${d.tekst}`, d.ord, d.ord.maks > 150 ? 12 : 3)));
+      panes.push({ id: 'o1', navn: navn1, el: p });
     }
     if (modus.oppgaver.includes(2)) {
-      const p = el('div', { class: 'eks-pane', id: 'pane-o2' }, el('h3', {}, 'Oppgave 2'), el('p', {}, 'Velg én av oppgavene.'));
+      const p = el('div', { class: 'eks-pane', id: 'pane-o2' }, el('h3', {}, navn2), el('p', {}, 'Velg én av oppgavene.'));
       const oppgaveBoks = el('div', {});
       const tegn2 = () => {
         const valg = pakke.oppgave2.valg.find((x) => x.id === t.valg2) ?? pakke.oppgave2.valg[0]!;
-        const v = valg.vedlegg ? pakke.vedlegg.find((x) => x.id === valg.vedlegg) : undefined;
+        const vnavn = vedleggNavn(valg.vedlegg);
         oppgaveBoks.replaceChildren(
           el('p', {}, el('strong', {}, valg.tekst)),
-          v ? el('p', { class: 'tastehint' }, `Se vedlegg: ${v.tittel}`) : document.createComment(''),
+          vnavn ? el('p', { class: 'tastehint' }, `Se vedlegg: ${vnavn}`) : document.createComment(''),
           el('p', { class: 'tastehint' }, 'Hjelp: ', el('a', { href: valg.malUrl, target: '_blank', rel: 'noopener' }, `${valg.malTittel} i heftet (åpnes i ny fane)`)),
-          skrivefelt('o2', 'Svaret ditt', valg.ord, 18),
+          skrivefelt('o2', 'Svaret ditt', valg.ord, vgs ? 24 : 18),
         );
       };
       if (pakke.oppgave2.valg.length > 1) {
@@ -217,9 +231,9 @@ const { data } = Astro.props;
       }
       p.append(oppgaveBoks);
       tegn2();
-      panes.push({ id: 'o2', navn: 'Oppgave 2', el: p });
+      panes.push({ id: 'o2', navn: navn2, el: p });
     }
-    if (modus.oppgaver.includes(3)) {
+    if (modus.oppgaver.includes(3) && pakke.oppgave3) {
       const p = el('div', { class: 'eks-pane', id: 'pane-o3' }, el('h3', {}, 'Oppgave 3'), el('p', {}, el('strong', {}, pakke.oppgave3.tekst)));
       const navn = pakke.oppgave3.vedlegg.map((id) => pakke.vedlegg.find((x) => x.id === id)?.tittel).filter(Boolean);
       p.append(el('p', { class: 'tastehint' }, `Se vedlegg: ${navn.join(', ')}`), skrivefelt('o3', 'Svaret ditt', pakke.oppgave3.ord, 12));
@@ -303,14 +317,14 @@ const { data } = Astro.props;
     const modus = MODUSER[t.modus];
     const deler: string[] = [`${pakke.tittel}`, new Date().toLocaleDateString('nb-NO'), ''];
     if (modus.oppgaver.includes(1)) {
-      deler.push('OPPGAVE 1');
-      pakke.oppgave1.delsporsmal.forEach((d, i) => deler.push(`${String.fromCharCode(97 + i)}) ${d.tekst}`, t.svar[`o1-${i}`] ?? '', ''));
+      deler.push(navn1.toUpperCase());
+      pakke.oppgave1.delsporsmal.forEach((d, i) => deler.push(`${etikett1(i)}${d.tekst}`, t.svar[`o1-${i}`] ?? '', ''));
     }
     if (modus.oppgaver.includes(2)) {
       const v = pakke.oppgave2.valg.find((x) => x.id === t.valg2) ?? pakke.oppgave2.valg[0]!;
-      deler.push('OPPGAVE 2', v.tekst, '', t.svar['o2'] ?? '', '');
+      deler.push(navn2.toUpperCase(), v.tekst, '', t.svar['o2'] ?? '', '');
     }
-    if (modus.oppgaver.includes(3)) deler.push('OPPGAVE 3', pakke.oppgave3.tekst, '', t.svar['o3'] ?? '', '');
+    if (modus.oppgaver.includes(3) && pakke.oppgave3) deler.push('OPPGAVE 3', pakke.oppgave3.tekst, '', t.svar['o3'] ?? '', '');
     return deler.join('\n');
   }
 
@@ -320,11 +334,11 @@ const { data } = Astro.props;
     const barn: Node[] = [el('h2', { tabindex: '-1' }, 'Tilbakemelding'), el('p', {}, 'Dette er en automatisk sjekk av lengde og form. Den sier ingenting om innholdet. Les gjennom teksten din og bruk sjekklisten under.')];
 
     if (modus.oppgaver.includes(1)) {
-      const kort = el('section', { class: 'eks-kort' }, el('h3', {}, 'Oppgave 1'));
+      const kort = el('section', { class: 'eks-kort' }, el('h3', {}, navn1));
       pakke.oppgave1.delsporsmal.forEach((d, i) => {
         const svar = (t.svar[`o1-${i}`] ?? '').trim();
         kort.append(
-          el('h4', {}, `${String.fromCharCode(97 + i)}) ${d.tekst}`),
+          el('h4', {}, `${etikett1(i)}${d.tekst}`),
           svar ? el('blockquote', { class: 'utdrag' }, svar) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
           vurder(svar, d.ord, [], false),
           el('details', { class: 'modell' }, el('summary', {}, 'Se et eksempel på et godt svar'), el('p', {}, d.modell)),
@@ -335,12 +349,12 @@ const { data } = Astro.props;
     if (modus.oppgaver.includes(2)) {
       const v = pakke.oppgave2.valg.find((x) => x.id === t.valg2) ?? pakke.oppgave2.valg[0]!;
       const svar = (t.svar['o2'] ?? '').trim();
-      barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, 'Oppgave 2'), el('p', {}, el('strong', {}, v.tittel)),
+      barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, navn2), el('p', {}, el('strong', {}, v.tittel)),
         svar ? vurder(svar, v.ord, v.nokkelord, v.sitat, v.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
         kjennetegnListe('o2', v.kjennetegn),
         el('p', {}, el('a', { href: v.malUrl, target: '_blank', rel: 'noopener' }, `Sammenlign med malen: ${v.malTittel}`))));
     }
-    if (modus.oppgaver.includes(3)) {
+    if (modus.oppgaver.includes(3) && pakke.oppgave3) {
       const svar = (t.svar['o3'] ?? '').trim();
       barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, 'Oppgave 3'),
         svar ? vurder(svar, pakke.oppgave3.ord, pakke.oppgave3.nokkelord, pakke.oppgave3.sitat, pakke.oppgave3.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),

@@ -218,13 +218,15 @@ const eksamen = defineCollection({
       beskrivelse: z.string(),
       status,
       nivaa: nivaaliste,
+      // ungdomstrinn: oppgave 1 med tre delspørsmål, oppgave 2 med valg og oppgave 3. vgs: kortsvar og ett langsvar med valg.
+      oppsett: z.enum(['ungdomstrinn', 'vgs']).default('ungdomstrinn'),
       // Kjennetegn på et godt svar i oppgave 2 og 3 vises bare når de er godkjent (eller i utkastmodus).
       kjennetegnStatus: status.default('utkast'),
       vedlegg: z.array(z.object({ id: z.string(), tittel: z.string(), forfatter: z.string().optional(), tekst: z.string() })).min(1),
       oppgave1: z.object({
         vedlegg: z.string(),
         innledning: z.string(),
-        delsporsmal: z.array(z.object({ tekst: z.string(), ord: ordkrav, modell: z.string() })).length(3),
+        delsporsmal: z.array(z.object({ tekst: z.string(), ord: ordkrav, modell: z.string() })).min(1).max(3),
       }),
       oppgave2: z.object({
         valg: z
@@ -234,7 +236,7 @@ const eksamen = defineCollection({
               tittel: z.string(),
               tekst: z.string(),
               mal: reference('hefte'),
-              vedlegg: z.string().optional(),
+              vedlegg: z.union([z.string(), z.array(z.string()).min(1)]).optional(),
               ord: ordkrav,
               nokkelord: z.array(z.string()).default([]),
               nokkelordMinst: z.number().int().min(1).optional(),
@@ -252,16 +254,20 @@ const eksamen = defineCollection({
         nokkelordMinst: z.number().int().min(1).optional(),
         sitat: z.boolean().default(false),
         kjennetegn: z.array(z.string()).max(8).default([]),
-      }),
+      }).optional(),
     })
     .superRefine((e, ctx) => {
       const ider = new Set(e.vedlegg.map((v) => v.id));
       const sjekk = (id: string | undefined, hvor: string) => {
         if (id && !ider.has(id)) ctx.addIssue({ code: 'custom', message: `${hvor}: vedlegget «${id}» finnes ikke` });
       };
+      if (e.oppsett === 'ungdomstrinn') {
+        if (!e.oppgave3) ctx.addIssue({ code: 'custom', message: 'oppgave 3 mangler' });
+        if (e.oppgave1.delsporsmal.length !== 3) ctx.addIssue({ code: 'custom', message: 'oppgave 1 må ha tre delspørsmål' });
+      }
       sjekk(e.oppgave1.vedlegg, 'oppgave 1');
-      e.oppgave2.valg.forEach((v) => sjekk(v.vedlegg, `oppgave 2 (${v.id})`));
-      e.oppgave3.vedlegg.forEach((v) => sjekk(v, 'oppgave 3'));
+      e.oppgave2.valg.forEach((v) => [v.vedlegg ?? []].flat().forEach((id) => sjekk(id, `oppgave 2 (${v.id})`)));
+      e.oppgave3?.vedlegg.forEach((v) => sjekk(v, 'oppgave 3'));
     }),
 });
 

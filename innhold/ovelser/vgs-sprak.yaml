@@ -2,21 +2,21 @@
   type: flashkort
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   forside: "Hva vedtok Stortinget i 1885?"
   bakside: "At landsmål og riksmål skulle være likestilte (jamstillingsvedtaket, 12. mai 1885)."
 - id: vgs-spr-kort-navn
   type: flashkort
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   forside: "Når fikk målformene navnene bokmål og nynorsk?"
   bakside: "I 1929."
 - id: vgs-spr-rekke-tid
   type: rekkefolge
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   oppdrag: "Sett hendelsene i språkhistorien i kronologisk rekkefølge."
   elementer: ["Norrønt", "Mellomnorsk", "Dansketid", "Jamstillingsvedtaket (1885)", "Bokmål og nynorsk får navn (1929)", "Språkloven trer i kraft (2022)"]
   forklaring: "Fra norrønt via dansketiden til målstriden og språkloven."
@@ -24,7 +24,7 @@
   type: matching
   kapittel: sprakbildet-vgs
   mal: [mvg2-09, mvg1-12]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Koble begrepet til forklaringen."
   par:
@@ -37,7 +37,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-08]
-  status: utkast
+  status: godkjent
   spm: "Hva kalles ord som ser like ut på to språk, men har ulik betydning?"
   alternativer: ["Falske venner", "Lånord", "Dialektord", "Sammensatte ord"]
   riktig: 0
@@ -46,7 +46,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva betyr «grine» på dansk?"
   alternativer: ["Le", "Gråte", "Rope", "Hviske"]
@@ -56,7 +56,7 @@
   type: sortering
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   oppdrag: "Hører språket til urfolksspråk, nasjonale minoritetsspråk eller skriftspråk?"
   kategorier: ["Urfolksspråk", "Nasjonale minoritetsspråk", "Skriftspråk (målformer)"]
   elementer:
@@ -77,7 +77,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   spm: "Hvilke samiske språk brukes i Norge?"
   alternativer: ["Nordsamisk, lulesamisk og sørsamisk", "Bare nordsamisk", "Nordsamisk og kvensk", "Sørsamisk og finsk"]
   riktig: 0
@@ -86,14 +86,14 @@
   type: flashkort
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   forside: "Hva var fornorskingspolitikken?"
   bakside: "En statlig politikk fra omkring 1850 som skulle gjøre samer og kvener til nordmenn, blant annet gjennom skole og internat. De siste sporene var synlige til 1960-årene."
 - id: vgs-sam-rekke-rett
   type: rekkefolge
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   oppdrag: "Sett hendelsene i kronologisk rekkefølge."
   elementer: ["Sameloven vedtas (1987)", "Sametinget åpnes (1989)", "Norge ratifiserer ILO-konvensjon 169 (1990)", "Samelovens språkregler trer i kraft (1992)", "Sannhets- og forsoningskommisjonen legger fram rapport (2023)"]
   forklaring: "Fra loven som la grunnlaget for Sametinget til kommisjonens oppgjør med fornorskingen."
@@ -101,7 +101,7 @@
   type: matching
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Koble institusjonen til hva den er."
   par:
@@ -114,7 +114,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13, mvg3-10]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvorfor er språk viktig for identiteten til mange samer?"
   alternativer: ["Språket bærer kunnskap, historie og tilhørighet", "Språket er bare et kommunikasjonsmiddel", "Språket har ingen betydning for kulturen", "Språket brukes bare av eldre"]
@@ -124,21 +124,21 @@
   type: flashkort
   kapittel: talesprak-vgs
   mal: [mvg3-10]
-  status: utkast
+  status: godkjent
   forside: "Hva er forskjellen på dialekt og sosiolekt?"
   bakside: "Dialekt knyttes til sted. Sosiolekt knyttes til gruppe, for eksempel alder, yrke eller interesse."
 - id: vgs-tale-kort-kodeveksling
   type: flashkort
   kapittel: talesprak-vgs
   mal: [mvg3-10]
-  status: utkast
+  status: godkjent
   forside: "Hva er kodeveksling?"
   bakside: "Å bytte språk eller stil etter situasjonen, for eksempel mellom dialekt hjemme og mer formelt språk på skolen."
 - id: vgs-tale-match-begrep
   type: matching
   kapittel: talesprak-vgs
   mal: [mvg3-10]
-  status: utkast
+  status: godkjent
   oppdrag: "Koble begrepet til forklaringen."
   par:
     - { venstre: "Dialekt", hoyre: "Talemål knyttet til sted" }
@@ -151,7 +151,7 @@
   type: flervalg
   kapittel: talesprak-vgs
   mal: [mvg3-10]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken formulering beskriver språkendring uten å vurdere den?"
   alternativer: ["Mange unge bruker flere engelske lånord enn tidligere.", "Unge ødelegger språket.", "Språket forfaller.", "Den nye måten å snakke på er dårlig."]
@@ -161,7 +161,7 @@
   type: marker
   kapittel: talesprak-vgs
   mal: [mvg3-10]
-  status: utkast
+  status: godkjent
   oppdrag: "Marker setningen som er en vurdering, ikke en beskrivelse."
   tekst: "Mange unge bruker lånord fra engelsk i hverdagen. [[Dette er et tydelig tegn på at språket forfaller.]] Lånord har kommet inn i norsk i hele historien."
   forklaring: "Den midterste setningen er en vurdering uten begrunnelse. De to andre beskriver."
@@ -169,7 +169,7 @@
   type: skriv
   kapittel: talesprak-vgs
   mal: [mvg3-10]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv et avsnitt som drøfter påstanden. Bruk fagbegreper og vis begge sider."
   utdrag: "Påstand fra et innlegg (fiktiv tekst for øving):\n\n«Ungdomsspråket truer det norske språket. Når unge mikser engelske ord inn i norsken, mister vi det vi har.»"
@@ -183,7 +183,7 @@
   type: matching
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   oppdrag: "Koble leddet til forklaringen."
   par:
     - { venstre: "Subjekt", hoyre: "Den eller det som gjør noe" }
@@ -196,7 +196,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   oppdrag: "Marker subjektet i setningen."
   tekst: "I går leste [[Maria]] en spennende bok på biblioteket."
   forklaring: "Verbalet er «leste». Spør «hvem leste?» og få svaret «Maria»."
@@ -204,7 +204,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Marker objektet i setningen."
   tekst: "Læreren delte ut [[oppgavene]] i begynnelsen av timen."
@@ -213,7 +213,7 @@
   type: sortering
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   oppdrag: "Er delen en hovedsetning eller en leddsetning?"
   kategorier: ["Hovedsetning", "Leddsetning"]
   elementer:
@@ -234,7 +234,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen."
   elementer: ["I dag", "leser", "jeg", "en roman"]
   forklaring: "I en hovedsetning står verbalet på andre plass: «I dag leser jeg en roman»."
@@ -242,7 +242,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   spm: "Hvilket ord binder sammen to setninger som sier det motsatte av hverandre?"
   alternativer: ["men", "og", "fordi", "når"]
   riktig: 0
@@ -251,7 +251,7 @@
   type: skriv
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   oppdrag: "Skriv om avsnittet slik at setningene varierer og henger bedre sammen."
   starttekst: "Teksten har en avsender. Avsenderen er en lege. Hun bruker mange fagord. Det gir troverdighet. Teksten har en mottaker. Mottakeren er politikerne."
   ord: { min: 25, maks: 60 }

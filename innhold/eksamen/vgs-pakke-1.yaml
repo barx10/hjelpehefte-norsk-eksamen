@@ -1,0 +1,194 @@
+tittel: "Vgs pakke 1: Kysten og de som blir igjen"
+beskrivelse: "Denne pakken har et romanutdrag til kortsvaret og tre langsvarsoppgaver: en fagartikkel om litteraturens oppgave, et essay om å bli eller dra, og en novelletolkning. Alle tekstene er skrevet for øving."
+status: utkast
+nivaa: vg3
+oppsett: vgs
+kjennetegnStatus: utkast
+vedlegg:
+  - id: v1
+    tittel: "Vedlegg 1: Fyrvokteren (romanutdrag)"
+    forfatter: "Utdrag fra en roman (fiktiv tekst for øving)"
+    tekst: |-
+      Båten la fra land før Marit rakk å snu seg. Hun ble stående på kaia med sekken i hånden, og fyret reiste seg over henne, hvitt og tungt som en gammel tanke.
+
+      Bestemor satt i kjøkkenvinduet. Hun løftet ikke hånden. Hun løftet bare blikket, og det var nok til at Marit visste at alt var som før, og at ingenting var det.
+
+      «Du kom,» sa bestemor.
+
+      «Ja.»
+
+      «Du ble lenge borte.»
+
+      «Ja.»
+
+      Stuen luktet av tang og kaffe. Klokken på veggen gikk, men den gikk feil, og ingen hadde rettet den på mange år. På kommoden lå en nøkkel. Den var rusten og stor, og den lå der som om den ventet på noen som aldri kom.
+
+      Marit satte seg på kanten av stolen. Hun hadde vært her hver sommer da hun var liten, og da hadde huset vært fullt av lyd. Nå var det stille. Vinden presset mot ruta, og fyret blunket, blunket, blunket over havet, som et øye som ikke fikk sove.
+
+      «Du har ikke spist,» sa bestemor og reiste seg langsomt. Hun gikk som en som bærer noe tungt, selv om hendene var tomme.
+  - id: v2
+    tittel: "Vedlegg 2: «Om litteraturens oppgave» av Emil Ravn (1884)"
+    forfatter: "Utdrag fra foredrag (fiktiv tekst for øving)"
+    tekst: |-
+      Mine herrer og damer. Man spør oss forfattere hva vi vil. Jeg svarer: vi vil se. Vi vil se mennesket slik det lever, i stuen og i fjøset, ved kontorpulten og ved vaskebaljen, og vi vil si hva vi ser.
+
+      Litteraturen skal ikke pynte. Den skal ikke fortelle at fattigdom er en lykke, eller at lydighet alltid belønnes. Den som skriver pene løgner, svikter sin tid.
+
+      Litteraturen skal heller ikke bare underholde. Den skal sette problemer under debatt. Hvorfor har kvinnen så få rettigheter? Hvorfor er arbeideren fattig mens fabrikken blir rik? Hvorfor taler vi om moral, men gjør lite?
+
+      Forfatteren er en iakttaker, ikke en prest. Han skal ikke preke, men vise. Når leseren har sett hvordan et menneske knuses av forholdene, trenger forfatteren ikke å si at det er urett.
+
+      Og språket skal være ærlig. Folk snakker ikke i vers. Derfor skal heller ikke bøkene våre gjøre det. La en arbeidskone si det en arbeidskone ville sagt, og la leseren kjenne at han hører en virkelig stemme.
+  - id: v3
+    tittel: "Vedlegg 3: Sjøboden av Hanna Dahl (1886)"
+    forfatter: "Utdrag fra roman (fiktiv tekst for øving)"
+    tekst: |-
+      Tidlig om morgenen stod Randi og sorterte fisk i sjøboden. Hendene var røde av kulde, og hun hadde sluttet å kjenne dem for lenge siden. På loftet sov de tre minste, tett sammen under ett eneste teppe.
+
+      Hennes mann kom inn og satte seg på en tønne. «Handelsmannen vil ikke gi mer kreditt,» sa han.
+
+      «Da får vi klare oss uten,» sa Randi.
+
+      «Vi har ikke mel til mandag.»
+
+      Hun svarte ikke. Hun tok en torsk, åpnet den med ett snitt og la den i tønnen. Det var den femtiende i dag. For hver fisk fikk hun tre øre, og tre øre var mindre enn en brødskive kostet i byen.
+
+      «Pastoren sier at Gud lar de arbeidsomme få sitt,» sa mannen.
+
+      «Pastoren har aldri stått her,» sa Randi og tørket hendene i forklestoffet. «Og Gud har aldri vært i handelsmannens bok.»
+
+      Han så på henne. Så reiste han seg, tok garnene på skulderen og gikk ut i den grå morgenen uten å si noe mer.
+  - id: v4
+    tittel: "Vedlegg 4: Åtte timer av Selma Haug (2021)"
+    forfatter: "Utdrag fra novelle (fiktiv tekst for øving)"
+    tekst: |-
+      Alex har fått ekstravakt, igjen. Telefonen lyser på nattbordet klokka halv seks om morgenen: Kan du ta lørdagen også? Hun skriver ja før hun har rukket å tenke.
+
+      På kafeen smiler hun til alle. Hun smiler til mannen som klager på kaffen, og til kvinnen som legger fra seg et tomt glass på gulvet. Sjefen har sagt at gjestene er viktigst, og at hun er heldig som har jobb i en tid som denne.
+
+      I pausen sitter hun på en veltet vinkasse bak kjøleromsdøra og regner. Husleien er elleve tusen. Lønna er litt over tjue, og hun får bare betalt for timene hun står på. Hvis hun er syk, får hun ingenting.
+
+      «Det går jo fint,» sier hun høyt til ingen.
+
+      Det er det samme hun sa til moren i går. Moren hadde spurt om hun hadde nok mat, og Alex hadde ledd og sagt at hun spiste som en dronning. På kjøkkenet hjemme ligger det en halv pakke knekkebrød og en tube kaviar.
+
+      Hun åpner døren og går ut igjen. «Hei,» sier hun til neste gjest. «Hva kan jeg hjelpe deg med i dag?»
+  - id: v5
+    tittel: "Vedlegg 5: «Tomt på butikken» (Nordkyst-avisa, 2024)"
+    forfatter: "Avisartikkel (fiktiv tekst for øving)"
+    tekst: |-
+      Da Brattvåg Landhandel stengte dørene i vår, mistet bygda ikke bare en butikk. Den mistet et sted der folk møttes.
+
+      Etter at skolen ble nedlagt for ti år siden, har innbyggertallet falt fra 340 til 218. Mange unge flytter for å studere, og få kommer tilbake. De som blir igjen, er stadig eldre.
+
+      «Det var her jeg fikk vite hvem som var syk og hvem som hadde fått barn,» sier Gunnvor Strand (79). «Nå må jeg ta bussen en time for å kjøpe melk.»
+
+      Ordfører Terje Lund sier at kommunen jobber med å få på plass en nærbutikk drevet av frivillige. «Vi har sett at det kan fungere andre steder. Men det krever at folk vil.»
+
+      Ungdomslagets leder, Ida Sæther (19), er enig i at bygda trenger mer enn en butikk. «Jeg har ikke planer om å bli. Men jeg vil at det skal finnes et sted å komme hjem til.»
+  - id: v6
+    tittel: "Vedlegg 6: Hjem er et verb av Lars Eide (2019)"
+    forfatter: "Utdrag fra sakprosabok (fiktiv tekst for øving)"
+    tekst: |-
+      Vi snakker om hjem som om det var et sted, noe med en adresse og en dør. Men jeg har truffet mennesker som har bodd i samme hus i femti år og aldri følt seg hjemme, og andre som har flyttet tolv ganger og alltid funnet noe som kunne kalles det.
+
+      Jeg tror at hjem er mer et verb enn et substantiv. Man hjemmer ikke bare der man bor, men der man gjør noe sammen med noen. Hjem blir til når vi lager mat til hverandre, når vi hører navnene våre sagt på en bestemt måte, når noen venter på oss uten å si at de venter.
+
+      Det betyr også at hjemmet kan flyttes. Det kan lages på nytt, i en by som var fremmed, i et språk man ennå ikke kan. Det betyr at de som drar, ikke nødvendigvis svikter dem som blir. Men det betyr også at de som blir, ikke bare forvalter noe gammelt. De lager hjem hver dag.
+  - id: v7
+    tittel: "Vedlegg 7: «Jeg dro, og savner ikke det jeg trodde» (2023)"
+    forfatter: "Leserinnlegg (fiktiv tekst for øving)"
+    tekst: |-
+      Jeg vokste opp på en liten plass der alle kjente alle. Som tenåring ville jeg bare vekk. Alt jeg ønsket meg, lå i byen.
+
+      Nå bor jeg i en leilighet på fjerde etasje, og jeg kjenner ikke naboene. Det første året var jeg ensom på en måte jeg ikke hadde regnet med. Jeg savnet ikke fjellene. Jeg savnet at noen visste hvem jeg var.
+
+      Så begynte jeg å spille i et korps. Det tok to år før jeg fikk venner, men nå har jeg et sted jeg går til hver tirsdag, og folk som spør hvordan jeg har det.
+
+      Jeg tror ikke jeg kommer til å flytte tilbake. Men jeg forstår at de som blir, ikke blir fordi de ikke tør noe annet. De blir fordi de vet hva de har.
+  - id: v8
+    tittel: "Vedlegg 8: Stolen (novelle)"
+    forfatter: "Novelle (fiktiv tekst for øving)"
+    tekst: |-
+      Ole åpnet døren med nøkkelen han hadde hatt i lommen i tre år uten å bruke. Leiligheten luktet av gammel røyk og støv. På kjøkkenet stod to kopper på avdråpet, som om faren bare hadde gått ut en tur.
+
+      Han begynte med soverommet. Klærne la han i sekker, fordi det var det man gjorde. Han fant ingen brev. Han fant ingen bilder av seg selv.
+
+      I stua stod stolen. Det var den store, den brune, den han ikke hadde fått sitte i som barn. «Den er min,» hadde faren sagt. Ole hadde alltid tenkt at han skulle gjøre narr av den en dag, om han noen gang fikk lov.
+
+      Nå satte han seg ned. Setet var slitt etter ett menneske, og dypet passet ikke helt til ham. Gjennom vinduet kom lyset skrått inn, og støvet svevde i det som små, rolige skip.
+
+      Han ble sittende lenge. Så oppdaget han at lenet på armen var glattere enn resten, akkurat der en hånd ville hvile. Han la sin egen hånd der, og trakk den bort igjen.
+
+      Da han reiste seg, stod stolen igjen med en kurve etter ham.
+oppgave1:
+  vedlegg: v1
+  innledning: "Les vedlegg 1 og svar på oppgaven. Skriv 250 til 300 ord."
+  delsporsmal:
+    - tekst: "Gjør rede for hvordan virkemidler blir brukt for å skildre stemningen i møtet mellom Marit og bestemoren. Bruk eksempler fra teksten og relevant fagspråk."
+      ord: { min: 250, maks: 300 }
+      modell: |-
+        Utdraget skildrer et møte som er preget av ting som ikke blir sagt, og virkemidlene bidrar til å gjøre stemningen både stille og tung.
+
+        Det første som slår en, er bruken av sammenligninger. Fyret beskrives som «hvitt og tungt som en gammel tanke». Sammenligningen gjør fyret til noe mer enn en bygning: det blir et symbol på alt som har ligget lenge og tynget. På samme måte beskrives bestemors gange «som en som bærer noe tungt, selv om hendene var tomme». Her får leseren et bilde av en sorg eller et savn som ikke kan ses, men som kjennes.
+
+        Dialogen er et annet viktig virkemiddel. Replikkene er korte og gjentatte, med «Ja.» som eneste svar fra Marit. Gjentakelsen viser at de to har lite å si hverandre, og at begge unngår det som er vanskelig. Leseren forstår at det finnes en undertekst: avstanden mellom dem har blitt stor.
+
+        Fortelleren bruker også symboler. Klokken «gikk feil» og er ikke rettet på mange år, og nøkkelen ligger «som om den ventet på noen som aldri kom». Begge viser at tiden har stoppet i huset og at noe er uavklart. I tillegg personifiseres fyret, som «blunket, blunket, blunket». Gjentakelsen og bildet av et øye som ikke fikk sove skaper en urolig og våken stemning.
+
+        Samlet gir virkemidlene et stillferdig, men ladet møte. Sammenligningene og symbolene gir leseren bilder å forstå situasjonen med, mens dialogen og gjentakelsene viser at begge vegrer seg for å si det viktigste. Det som ikke sies, blir dermed like viktig som det som sies, og stemningen blir en blanding av savn, uro og ømhet.
+oppgave2:
+  valg:
+    - id: fagartikkel
+      tittel: "A: Fagartikkel om litteraturens oppgave"
+      tekst: "Skriv en fagartikkel der du gjør rede for hva Emil Ravn mener er litteraturens oppgave, og drøfter hvordan tekstene til Hanna Dahl og Selma Haug oppfyller denne oppgaven. Bruk fagspråk, og vis til eksempler fra vedleggene."
+      mal: fagartikkel-vgs
+      vedlegg: [v2, v3, v4]
+      ord: { min: 800, maks: 1300 }
+      nokkelord: ["realisme", "samfunnsdebatt", "hverdagsmiljø", "synsvinkel", "virkemiddel", "kontekst", "tema", "sosial urett"]
+      nokkelordMinst: 4
+      sitat: true
+      kjennetegn:
+        - "Innledningen presenterer emnet og stiller en problemstilling om litteraturens oppgave."
+        - "Du gjør rede for Ravns syn: litteraturen skal se, sette problemer under debatt, ikke pynte og ikke preke."
+        - "Du skiller tydelig mellom redegjørelsen og drøftingen."
+        - "Du drøfter begge tekstene mot Ravns krav, med minst ett sitat fra hver."
+        - "Du bruker fagspråk som realisme, hverdagsmiljø, synsvinkel, samfunnsproblem og undertekst."
+        - "Du setter tekstene i kontekst: 1880-årene og 2020-årene."
+        - "Du har med motforestillinger, for eksempel at Haugs novelle er mindre direkte enn Ravn krever."
+        - "Avslutningen svarer på problemstillingen, og alle vedlegg står i kildelisten."
+    - id: essay
+      tittel: "B: Essay om å bli eller dra"
+      tekst: "Skriv et essay der du utforsker og reflekterer over innholdet i de vedlagte tekstene."
+      mal: essay-vgs
+      vedlegg: [v5, v6, v7]
+      ord: { min: 800, maks: 1300 }
+      nokkelord: []
+      sitat: false
+      kjennetegn:
+        - "Inngangen er konkret, for eksempel en scene, en erfaring eller en setning fra et vedlegg."
+        - "Du har en rød tråd, og hvert avsnitt tar tanken ett skritt videre."
+        - "Du bruker alle tre vedleggene og lar dem si noe ulikt."
+        - "Du veksler mellom egne erfaringer og kunnskap fra tekstene."
+        - "Du stiller spørsmål og utforsker, i stedet for å konkludere for tidlig."
+        - "Du bruker virkemidler som passer til sjangeren, for eksempel bilder, kontrast eller humor."
+        - "Slutten peker framover og gir leseren noe å tenke på."
+        - "Du har oppgitt kildene."
+    - id: tolkning
+      tittel: "C: Tolk novellen"
+      tekst: "Tolk novellen."
+      mal: litteraer-tolkning-vgs
+      vedlegg: [v8]
+      ord: { min: 800, maks: 1300 }
+      nokkelord: ["tema", "symbol", "undertekst", "synsvinkel", "kontrast", "virkemiddel", "tolkning", "personifikasjon"]
+      nokkelordMinst: 4
+      sitat: true
+      kjennetegn:
+        - "Innledningen presenterer novellen og en tydelig tolkningstese."
+        - "Du gjør kort rede for handlingen og temaet i egne ord."
+        - "Du analyserer virkemidler som symbol (stolen), undertekst og synsvinkel, med sitat."
+        - "Du forklarer hva hvert virkemiddel gjør, ikke bare hva det heter."
+        - "Du begrunner tolkningen med eksempler fra teksten."
+        - "Du kommenterer slutten og hva den betyr for tolkningen."
+        - "Du er forsiktig med påstander som teksten ikke gir grunnlag for."
+        - "Avslutningen svarer på hva novellen sier om temaet."
