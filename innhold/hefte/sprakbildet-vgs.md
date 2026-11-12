@@ -46,7 +46,7 @@ Norsk, svensk og dansk er nære slektninger, og vi forstår hverandre ganske god
 | Ord | På norsk | På det andre språket |
 |---|---|---|
 | rolig | stille | svensk: morsom |
-| frokost | første måltid | dansk: lunsj |
+| grine | gråte | dansk: le |
 
 Slike ord kalles falske venner. Skriftlig er dansk og norsk bokmål nærmest hverandre fordi bokmål er utviklet fra dansk. Talemålet er nærmere svensk i uttale og melodi.
 

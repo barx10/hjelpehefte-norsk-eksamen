@@ -1,0 +1,261 @@
+- id: vgs-spr-kort-mal
+  type: flashkort
+  kapittel: sprakbildet-vgs
+  mal: [mvg2-09]
+  status: utkast
+  forside: "Hva vedtok Stortinget i 1885?"
+  bakside: "At landsmål og riksmål skulle være likestilte (jamstillingsvedtaket, 12. mai 1885)."
+- id: vgs-spr-kort-navn
+  type: flashkort
+  kapittel: sprakbildet-vgs
+  mal: [mvg2-09]
+  status: utkast
+  forside: "Når fikk målformene navnene bokmål og nynorsk?"
+  bakside: "I 1929."
+- id: vgs-spr-rekke-tid
+  type: rekkefolge
+  kapittel: sprakbildet-vgs
+  mal: [mvg2-09]
+  status: utkast
+  oppdrag: "Sett hendelsene i språkhistorien i kronologisk rekkefølge."
+  elementer: ["Norrønt", "Mellomnorsk", "Dansketid", "Jamstillingsvedtaket (1885)", "Bokmål og nynorsk får navn (1929)", "Språkloven trer i kraft (2022)"]
+  forklaring: "Fra norrønt via dansketiden til målstriden og språkloven."
+- id: vgs-spr-match-begrep
+  type: matching
+  kapittel: sprakbildet-vgs
+  mal: [mvg2-09, mvg1-12]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Koble begrepet til forklaringen."
+  par:
+    - { venstre: "Landsmål", hoyre: "Skriftspråk bygd på dialektene, laget av Ivar Aasen" }
+    - { venstre: "Riksmål", hoyre: "Dansk-norsk skriftspråk som ble norvegisert" }
+    - { venstre: "Dansketid", hoyre: "Perioden da dansk var skriftspråket i Norge" }
+    - { venstre: "Samnorsk", hoyre: "Forsøk på å føre bokmål og nynorsk sammen" }
+  forklaring: "Begrepene er sentrale i historien om hvorfor Norge har to målformer."
+- id: vgs-spr-flervalg-venn
+  type: flervalg
+  kapittel: sprakbildet-vgs
+  mal: [mvg2-08]
+  status: utkast
+  spm: "Hva kalles ord som ser like ut på to språk, men har ulik betydning?"
+  alternativer: ["Falske venner", "Lånord", "Dialektord", "Sammensatte ord"]
+  riktig: 0
+  forklaring: "Et eksempel er at «rolig» betyr «morsom» på svensk."
+- id: vgs-spr-flervalg-grine
+  type: flervalg
+  kapittel: sprakbildet-vgs
+  mal: [mvg2-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hva betyr «grine» på dansk?"
+  alternativer: ["Le", "Gråte", "Rope", "Hviske"]
+  riktig: 0
+  forklaring: "På norsk betyr «grine» å gråte. På dansk betyr det å le. Det er en av de mest kjente falske vennene."
+- id: vgs-spr-sort-sprak
+  type: sortering
+  kapittel: sprakbildet-vgs
+  mal: [mvg2-09]
+  status: utkast
+  oppdrag: "Hører språket til urfolksspråk, nasjonale minoritetsspråk eller skriftspråk?"
+  kategorier: ["Urfolksspråk", "Nasjonale minoritetsspråk", "Skriftspråk (målformer)"]
+  elementer:
+    - tekst: "Nordsamisk"
+      kategori: 0
+    - tekst: "Kvensk"
+      kategori: 1
+    - tekst: "Nynorsk"
+      kategori: 2
+    - tekst: "Sørsamisk"
+      kategori: 0
+    - tekst: "Romani"
+      kategori: 1
+    - tekst: "Bokmål"
+      kategori: 2
+  forklaring: "Samiske språk er urfolksspråk. Kvensk, romani og romanes er nasjonale minoritetsspråk. Bokmål og nynorsk er de to norske målformene."
+- id: vgs-sam-flervalg-antall
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  spm: "Hvilke samiske språk brukes i Norge?"
+  alternativer: ["Nordsamisk, lulesamisk og sørsamisk", "Bare nordsamisk", "Nordsamisk og kvensk", "Sørsamisk og finsk"]
+  riktig: 0
+  forklaring: "Tre samiske språk brukes i Norge. Nordsamisk er det største."
+- id: vgs-sam-kort-forn
+  type: flashkort
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  forside: "Hva var fornorskingspolitikken?"
+  bakside: "En statlig politikk fra omkring 1850 som skulle gjøre samer og kvener til nordmenn, blant annet gjennom skole og internat. De siste sporene var synlige til 1960-årene."
+- id: vgs-sam-rekke-rett
+  type: rekkefolge
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  oppdrag: "Sett hendelsene i kronologisk rekkefølge."
+  elementer: ["Sameloven vedtas (1987)", "Sametinget åpnes (1989)", "Norge ratifiserer ILO-konvensjon 169 (1990)", "Samelovens språkregler trer i kraft (1992)", "Sannhets- og forsoningskommisjonen legger fram rapport (2023)"]
+  forklaring: "Fra loven som la grunnlaget for Sametinget til kommisjonens oppgjør med fornorskingen."
+- id: vgs-sam-match-rettigheter
+  type: matching
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Koble institusjonen til hva den er."
+  par:
+    - { venstre: "Sametinget", hoyre: "Folkevalgt organ for samene" }
+    - { venstre: "Sameloven", hoyre: "Lov som la grunnlaget for Sametinget og siden språkregler" }
+    - { venstre: "ILO-konvensjon 169", hoyre: "Konvensjon som verner urfolks rettigheter" }
+    - { venstre: "Sannhets- og forsoningskommisjonen", hoyre: "Undersøkte fornorskingspolitikken og la fram rapport i 2023" }
+  forklaring: "Disse institusjonene hører til rettighetene og oppgjøret med fornorskingen."
+- id: vgs-sam-flervalg-identitet
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13, mvg3-10]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvorfor er språk viktig for identiteten til mange samer?"
+  alternativer: ["Språket bærer kunnskap, historie og tilhørighet", "Språket er bare et kommunikasjonsmiddel", "Språket har ingen betydning for kulturen", "Språket brukes bare av eldre"]
+  riktig: 0
+  forklaring: "Språk er mer enn kommunikasjon. Det knytter folk til historie og fellesskap."
+- id: vgs-tale-kort-sosiolekt
+  type: flashkort
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  forside: "Hva er forskjellen på dialekt og sosiolekt?"
+  bakside: "Dialekt knyttes til sted. Sosiolekt knyttes til gruppe, for eksempel alder, yrke eller interesse."
+- id: vgs-tale-kort-kodeveksling
+  type: flashkort
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  forside: "Hva er kodeveksling?"
+  bakside: "Å bytte språk eller stil etter situasjonen, for eksempel mellom dialekt hjemme og mer formelt språk på skolen."
+- id: vgs-tale-match-begrep
+  type: matching
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  oppdrag: "Koble begrepet til forklaringen."
+  par:
+    - { venstre: "Dialekt", hoyre: "Talemål knyttet til sted" }
+    - { venstre: "Sosiolekt", hoyre: "Talemål knyttet til gruppe" }
+    - { venstre: "Ungdomsspråk", hoyre: "Ord og uttrykk unge bruker for å vise tilhørighet" }
+    - { venstre: "Lånord", hoyre: "Ord tatt inn fra et annet språk" }
+    - { venstre: "Multietnolekt", hoyre: "Felles talemåte blant unge med ulik språkbakgrunn" }
+  forklaring: "Fagbegrepene gjør at du kan beskrive språkendring presist."
+- id: vgs-tale-flervalg-endring
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken formulering beskriver språkendring uten å vurdere den?"
+  alternativer: ["Mange unge bruker flere engelske lånord enn tidligere.", "Unge ødelegger språket.", "Språket forfaller.", "Den nye måten å snakke på er dårlig."]
+  riktig: 0
+  forklaring: "Første alternativ beskriver. De andre vurderer uten å begrunne."
+- id: vgs-tale-marker-vurdering
+  type: marker
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  oppdrag: "Marker setningen som er en vurdering, ikke en beskrivelse."
+  tekst: "Mange unge bruker lånord fra engelsk i hverdagen. [[Dette er et tydelig tegn på at språket forfaller.]] Lånord har kommet inn i norsk i hele historien."
+  forklaring: "Den midterste setningen er en vurdering uten begrunnelse. De to andre beskriver."
+- id: vgs-tale-skriv-avsnitt
+  type: skriv
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 3
+  oppdrag: "Skriv et avsnitt som drøfter påstanden. Bruk fagbegreper og vis begge sider."
+  utdrag: "Påstand fra et innlegg (fiktiv tekst for øving):\n\n«Ungdomsspråket truer det norske språket. Når unge mikser engelske ord inn i norsken, mister vi det vi har.»"
+  ord: { min: 80, maks: 150 }
+  nokkelord: ["ungdomsspråk", "lånord", "identitet", "samtidig", "tilhørighet"]
+  nokkelordMinst: 3
+  sitat: true
+  kriterier: ["Jeg bruker fagbegreper", "Jeg ser saken fra to sider", "Jeg siterer fra påstanden", "Jeg konkluderer med en vurdering"]
+  modelltekst: "Innlegget hevder at ungdomsspråket truer norsken fordi unge blander inn engelske ord. Det er riktig at mange unge bruker lånord fra engelsk, men språk har alltid tatt opp ord utenfra, slik dansketiden og mellomnorsken viser. Ungdomsspråket kan også leses som et uttrykk for tilhørighet og identitet, ikke som en trussel. Samtidig kan hastigheten sosiale medier gir, gjøre at endringene oppleves som mer dramatiske enn før. Totalt er det vanskelig å si at språket «mister» noe, siden det endrer seg i stedet for å forsvinne."
+- id: vgs-setn-match-ledd
+  type: matching
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: utkast
+  oppdrag: "Koble leddet til forklaringen."
+  par:
+    - { venstre: "Subjekt", hoyre: "Den eller det som gjør noe" }
+    - { venstre: "Verbal", hoyre: "Verbet i setningen" }
+    - { venstre: "Objekt", hoyre: "Den eller det handlingen går ut over" }
+    - { venstre: "Adverbial", hoyre: "Sier når, hvor, hvordan eller hvorfor" }
+    - { venstre: "Predikativ", hoyre: "Sier noe om subjektet eller objektet" }
+  forklaring: "Finn alltid verbalet først, og spør «hvem eller hva» foran det for å finne subjektet."
+- id: vgs-setn-marker-subjekt
+  type: marker
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: utkast
+  oppdrag: "Marker subjektet i setningen."
+  tekst: "I går leste [[Maria]] en spennende bok på biblioteket."
+  forklaring: "Verbalet er «leste». Spør «hvem leste?» og få svaret «Maria»."
+- id: vgs-setn-marker-objekt
+  type: marker
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Marker objektet i setningen."
+  tekst: "Læreren delte ut [[oppgavene]] i begynnelsen av timen."
+  forklaring: "Handlingen går ut over «oppgavene». Det er objektet."
+- id: vgs-setn-sort-setning
+  type: sortering
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: utkast
+  oppdrag: "Er delen en hovedsetning eller en leddsetning?"
+  kategorier: ["Hovedsetning", "Leddsetning"]
+  elementer:
+    - tekst: "Hun gikk hjem"
+      kategori: 0
+    - tekst: "fordi det regnet"
+      kategori: 1
+    - tekst: "Jeg vet"
+      kategori: 0
+    - tekst: "at han ikke kommer"
+      kategori: 1
+    - tekst: "Boka er spennende"
+      kategori: 0
+    - tekst: "selv om den er lang"
+      kategori: 1
+  forklaring: "Hovedsetninger kan stå alene. Leddsetninger begynner med en subjunksjon og kan ikke stå alene."
+- id: vgs-setn-rekke-ordstilling
+  type: rekkefolge
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: utkast
+  oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen."
+  elementer: ["I dag", "leser", "jeg", "en roman"]
+  forklaring: "I en hovedsetning står verbalet på andre plass: «I dag leser jeg en roman»."
+- id: vgs-setn-flervalg-bindeord
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: utkast
+  spm: "Hvilket ord binder sammen to setninger som sier det motsatte av hverandre?"
+  alternativer: ["men", "og", "fordi", "når"]
+  riktig: 0
+  forklaring: "«Men» binder sammen motsetninger. «Og» binder sammen likeverdige ledd."
+- id: vgs-setn-skriv-forbedre
+  type: skriv
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: utkast
+  oppdrag: "Skriv om avsnittet slik at setningene varierer og henger bedre sammen."
+  starttekst: "Teksten har en avsender. Avsenderen er en lege. Hun bruker mange fagord. Det gir troverdighet. Teksten har en mottaker. Mottakeren er politikerne."
+  ord: { min: 25, maks: 60 }
+  nokkelord: ["fordi", "og", "derfor", "som"]
+  nokkelordMinst: 2
+  kriterier: ["Jeg slår sammen korte setninger med bindeord", "Jeg bruker minst en leddsetning", "Jeg varierer setningsstart"]
+  modelltekst: "Avsenderen er en lege, og de mange fagordene hun bruker, gir teksten troverdighet. Mottakeren er politikerne, som skal ta stilling til saken."
