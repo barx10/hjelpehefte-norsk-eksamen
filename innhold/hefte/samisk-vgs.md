@@ -14,8 +14,8 @@ Samene er Norges urfolk. De samiske språkene er eldre enn staten Norge, men de 
 Det finnes flere samiske språk i Norden. Tre brukes i Norge:
 
 - **Nordsamisk** er det største og brukes av de fleste.
-- **Lulesamisk** brukes rundt Tysfjord.
-- **Sørsamisk** brukes i Trøndelag og sørover, og er et lite språk.
+- **Lulesamisk** brukes i Nordland, blant annet i Tysfjord og Hamarøy.
+- **Sørsamisk** brukes fra Nordland sørover gjennom Trøndelag til Innlandet, og er et lite og truet språk.
 
 Samisk blir skrevet med egne bokstaver, for eksempel á, š, ŧ og ŋ. Slike bokstaver finner du i navnet Iŋgá. Samiske språk har også mange ord for natur, dyr og reindrift.
 
