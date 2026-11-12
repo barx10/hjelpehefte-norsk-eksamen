@@ -59,7 +59,7 @@ const hefte = defineCollection({
     gruppe: z.enum(['eksamen', 'sjanger', 'litteratur', 'sprakNorge', 'virkemidler', 'sprak']).default('eksamen'),
     ingress: z.string().optional(),
     // Typer modelltekster som vises i kapittelet. Uten feltet vises tekster med samme type som kapittelets id.
-    tekstTyper: z.array(z.enum(['retorisk-analyse', 'novelleanalyse', 'diktanalyse', 'reklameanalyse', 'fagartikkel', 'reflekterende-tekst', 'droftende-tekst'])).optional(),
+    tekstTyper: z.array(z.enum(['retorisk-analyse', 'novelleanalyse', 'diktanalyse', 'reklameanalyse', 'fagartikkel', 'essay', 'reflekterende-tekst', 'droftende-tekst'])).optional(),
     // Kapitler som ikke er gjennomgått vises ikke på den publiserte siden.
     status: status.default('godkjent'),
     nivaa: nivaaliste,
@@ -276,7 +276,7 @@ const besvarelser = defineCollection({
   loader: glob({ pattern: ['*.md', '!README.md'], base: './innhold/besvarelser' }),
   schema: z.object({
     tittel: z.string(),
-    type: z.enum(['retorisk-analyse', 'novelleanalyse', 'diktanalyse', 'reklameanalyse', 'fagartikkel', 'reflekterende-tekst', 'droftende-tekst']),
+    type: z.enum(['retorisk-analyse', 'novelleanalyse', 'diktanalyse', 'reklameanalyse', 'fagartikkel', 'essay', 'reflekterende-tekst', 'droftende-tekst']),
     // Merkelapp som vises ved teksten, for eksempel «modelltekst, forenklet for 10. trinn».
     kategori: z.string(),
     nivaa: nivaaliste,

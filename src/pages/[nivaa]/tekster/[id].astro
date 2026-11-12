@@ -1,6 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
-import { hentBesvarelser, hentKapitler, hentOvelser, typeTittel, visUtkast } from '../../../lib/innhold';
+import { hentBesvarelser, hentKapitler, hentOvelser, kapittelForType, typeTittel, visUtkast } from '../../../lib/innhold';
 import { lesBlokker, tilHtml } from '../../../lib/besvarelse';
 import { nurl } from '../../../lib/url';
 import { NIVAAER } from '../../../lib/nivaa';
@@ -10,7 +10,7 @@ export async function getStaticPaths() {
     NIVAAER.map(async (nivaa) => {
       const alle = await hentBesvarelser(nivaa);
       const ovelser = await hentOvelser(nivaa);
-      const kapitler = new Set((await hentKapitler(nivaa)).map((k) => k.id));
+      const kapitler = await hentKapitler(nivaa);
       return alle.map((b) => ({
         params: { nivaa: nivaa.id, id: b.id },
         props: {
@@ -18,7 +18,7 @@ export async function getStaticPaths() {
           tekst: b,
           original: b.data.bearbeidetFra ? alle.find((x) => x.id === b.data.bearbeidetFra) ?? null : null,
           forenklinger: alle.filter((x) => x.data.bearbeidetFra === b.id),
-          harKapittel: kapitler.has(b.data.type),
+          kapittelId: kapittelForType(kapitler, b.data.type),
           antallOvelser: ovelser.filter((o) => o.data.fraTekst?.id === b.id).length,
         },
       }));
@@ -27,7 +27,7 @@ export async function getStaticPaths() {
   return sider.flat();
 }
 
-const { nivaa, tekst, original, forenklinger, harKapittel, antallOvelser } = Astro.props;
+const { nivaa, tekst, original, forenklinger, kapittelId, antallOvelser } = Astro.props;
 const d = tekst.data;
 const blokker = lesBlokker(tekst.body ?? '');
 const merknader = new Map(d.avsnitt.map((a) => [a.nr, a]));
@@ -79,8 +79,8 @@ const lenker = [
 
   <div class="kontroller">
     <label><input type="checkbox" id="vis-merknader" /> Vis merknader til avsnittene</label>
-    {antallOvelser > 0 && <a href={nurl(nivaa, `ovelser/${d.type}/`)}>Øv med denne teksten ({antallOvelser} øvelser)</a>}
-    {harKapittel && <a href={nurl(nivaa, `hefte/${d.type}/`)}>Les malen i heftet</a>}
+    {antallOvelser > 0 && <a href={nurl(nivaa, `ovelser/${kapittelId ?? d.type}/`)}>Øv med denne teksten ({antallOvelser} øvelser)</a>}
+    {kapittelId && <a href={nurl(nivaa, `hefte/${kapittelId}/`)}>Les malen i heftet</a>}
   </div>
 
   <article class="tekstflate" id="tekstflate">
