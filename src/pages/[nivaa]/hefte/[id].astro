@@ -19,7 +19,7 @@ export async function getStaticPaths() {
           forrige: kapitler[i - 1],
           neste: kapitler[i + 1],
           harOvelser: ovelser.some((o) => o.data.kapittel.id === k.id),
-          tekster: tekster.filter((t) => t.data.type === k.id).map((t) => ({ id: t.id, tittel: t.data.tittel, kategori: t.data.kategori })),
+          tekster: tekster.filter((t) => (k.data.tekstTyper ?? [k.id]).includes(t.data.type)).map((t) => ({ id: t.id, tittel: t.data.tittel, kategori: t.data.kategori })),
         },
       }));
     }),

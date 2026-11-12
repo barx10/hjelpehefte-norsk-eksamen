@@ -58,6 +58,8 @@ const hefte = defineCollection({
     // Styrer hvor kapittelet står når eleven velger kapitler til heftet.
     gruppe: z.enum(['eksamen', 'sjanger', 'virkemidler', 'sprak']).default('eksamen'),
     ingress: z.string().optional(),
+    // Typer modelltekster som vises i kapittelet. Uten feltet vises tekster med samme type som kapittelets id.
+    tekstTyper: z.array(z.enum(['retorisk-analyse', 'novelleanalyse', 'diktanalyse', 'reklameanalyse', 'fagartikkel', 'reflekterende-tekst', 'droftende-tekst'])).optional(),
     // Kapitler som ikke er gjennomgått vises ikke på den publiserte siden.
     status: status.default('godkjent'),
     nivaa: nivaaliste,
