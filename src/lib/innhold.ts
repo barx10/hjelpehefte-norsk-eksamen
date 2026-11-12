@@ -59,6 +59,7 @@ export const typeTittel: Record<Besvarelse['data']['type'], string> = {
   diktanalyse: 'Diktanalyse',
   reklameanalyse: 'Reklameanalyse',
   fagartikkel: 'Fagartikkel',
+  essay: 'Essay',
   'reflekterende-tekst': 'Reflekterende tekst',
   'droftende-tekst': 'Drøftende tekst',
 };
@@ -68,6 +69,11 @@ export async function hentEksamen(nivaa?: Nivaa): Promise<Eksamenspakke[]> {
     .filter((e) => visUtkast || e.data.status === 'godkjent')
     .filter((e) => !nivaa || e.data.nivaa.includes(nivaa.kode));
   return alle.sort((a, b) => a.id.localeCompare(b.id, 'nb'));
+}
+
+/** Kapittelet som hører til en teksttype: kapittelet med samme id, eller et som velger typen med tekstTyper. */
+export function kapittelForType(kapitler: Kapittel[], type: string): string | undefined {
+  return (kapitler.find((k) => k.id === type) ?? kapitler.find((k) => (k.data.tekstTyper as string[] | undefined)?.includes(type)))?.id;
 }
 
 export function kapittelNavn(k: Kapittel): string {

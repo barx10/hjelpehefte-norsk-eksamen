@@ -5,6 +5,7 @@ rekkefolge: 4.2
 gruppe: sjanger
 status: godkjent
 nivaa: ['vg3']
+tekstTyper: [essay]
 ---
 
 Et essay er en tekst der du utforsker et tema og tenker høyt med leseren. Du skal ikke bevise at du har rett. Du skal vise at du tenker, og at du har noe å bidra med.

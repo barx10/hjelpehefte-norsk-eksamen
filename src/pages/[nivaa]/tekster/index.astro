@@ -1,18 +1,18 @@
 ---
 import Illustrasjon from '../../../components/Illustrasjon.astro';
 import Layout from '../../../layouts/Layout.astro';
-import { hentBesvarelser, hentKapitler, hentOvelser, nivaaStier, typeTittel } from '../../../lib/innhold';
+import { hentBesvarelser, hentKapitler, hentOvelser, kapittelForType, nivaaStier, typeTittel } from '../../../lib/innhold';
 import { nurl } from '../../../lib/url';
 
 export const getStaticPaths = nivaaStier;
 const { nivaa } = Astro.props;
 
 const alle = await hentBesvarelser(nivaa);
-const kapitler = new Set((await hentKapitler(nivaa)).map((k) => k.id));
+const kapitlerListe = await hentKapitler(nivaa);
 const medOvelser = new Set((await hentOvelser(nivaa)).map((o) => o.data.kapittel.id));
-const rekkefolge = ['diktanalyse', 'novelleanalyse', 'retorisk-analyse', 'reklameanalyse', 'fagartikkel', 'reflekterende-tekst', 'droftende-tekst'] as const;
+const rekkefolge = ['diktanalyse', 'novelleanalyse', 'retorisk-analyse', 'reklameanalyse', 'fagartikkel', 'essay', 'reflekterende-tekst', 'droftende-tekst'] as const;
 const grupper = rekkefolge
-  .map((type) => ({ type, tekster: alle.filter((b) => b.data.type === type) }))
+  .map((type) => ({ type, kapittelId: kapittelForType(kapitlerListe, type), tekster: alle.filter((b) => b.data.type === type) }))
   .filter((g) => g.tekster.length > 0);
 ---
 <Layout tittel="Modelltekster" beskrivelse="Gode eksempler på analyser og andre tekster, med merknader til hvert avsnitt." nivaa={nivaa}>
@@ -37,11 +37,11 @@ const grupper = rekkefolge
           </li>
         ))}
       </ul>
-      {(medOvelser.has(g.type) || kapitler.has(g.type)) && (
+      {g.kapittelId && (
         <p>
-          {medOvelser.has(g.type) && <a href={nurl(nivaa, `ovelser/${g.type}/`)}>Øv på {typeTittel[g.type].toLowerCase()}</a>}
-          {medOvelser.has(g.type) && kapitler.has(g.type) && ' · '}
-          {kapitler.has(g.type) && <a href={nurl(nivaa, `hefte/${g.type}/`)}>Les kapittelet i heftet</a>}
+          {medOvelser.has(g.kapittelId) && <a href={nurl(nivaa, `ovelser/${g.kapittelId}/`)}>Øv på {typeTittel[g.type].toLowerCase()}</a>}
+          {medOvelser.has(g.kapittelId) && ' · '}
+          <a href={nurl(nivaa, `hefte/${g.kapittelId}/`)}>Les kapittelet i heftet</a>
         </p>
       )}
     </section>
