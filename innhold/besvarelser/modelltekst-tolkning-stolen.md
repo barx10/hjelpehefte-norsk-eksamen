@@ -3,7 +3,7 @@ tittel: "Det som blir igjen i stolen"
 type: novelleanalyse
 kategori: modelltekst
 nivaa: ['vg3']
-status: utkast
+status: godkjent
 oppgave: "Tolkning av novellen «Stolen» (vedlegg 8 i vgs pakke 1, oppgave C)"
 forfatter: "Skrevet for øvingen (fiktiv modelltekst)"
 merknad: "Vedleggene teksten svarer på, ligger i eksamenstreningen. Les vedleggene først, og deretter modellteksten."
