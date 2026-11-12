@@ -40,7 +40,9 @@ Feltet `nivaa` styrer hvor innholdet vises. Kodene er `'10'` og `'vg3'`.
 | Eksamenspakke | Vises for 10. trinn | `nivaa: 'vg3'` |
 | Kompetansemål | Må ha nivå | `nivaa: 'vg3'` |
 
-En øvelse vises bare når kapittelet den hører til, også vises på nivået. Nye nivåer legges til i `src/lib/nivaa.ts`.
+En øvelse vises bare når kapittelet den hører til, også vises på nivået.
+
+Modelltekster vises i kapittelet som har samme id som tekstens `type`. Et kapittel med en annen id kan velge typer selv med `tekstTyper: [novelleanalyse, diktanalyse]` i toppen av kapittelet. Nye nivåer legges til i `src/lib/nivaa.ts`.
 
 ### Heftet
 
