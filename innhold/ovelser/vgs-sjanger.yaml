@@ -2,21 +2,21 @@
   type: flashkort
   kapittel: litteraer-tolkning-vgs
   mal: [mvg3-04]
-  status: utkast
+  status: godkjent
   forside: "Hva er forskjellen på analyse og tolkning?"
   bakside: "Analyse undersøker hvordan teksten er laget. Tolkning sier hva teksten betyr og begrunner det med funnene fra analysen."
 - id: vgs-tolk-kort-belegg
   type: flashkort
   kapittel: litteraer-tolkning-vgs
   mal: [mvg3-04]
-  status: utkast
+  status: godkjent
   forside: "Hvilke fire ledd har en begrunnet tolkning?"
   bakside: "Påstand, belegg, forklaring og kobling til helheten."
 - id: vgs-tolk-flervalg-tese
   type: flervalg
   kapittel: litteraer-tolkning-vgs
   mal: [mvg3-04]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken setning fungerer best som tolkningstese i innledningen?"
   alternativer: ["Jeg mener at novellen viser hvordan det usagte skaper avstand mellom to mennesker.", "Novellen handler om en mor og en datter.", "Novellen er skrevet i 2014.", "Jeg likte novellen."]
@@ -26,7 +26,7 @@
   type: sortering
   kapittel: litteraer-tolkning-vgs
   mal: [mvg3-04]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Er utsagnet beskrivelse, analyse eller tolkning?"
   kategorier: ["Beskrivelse", "Analyse", "Tolkning"]
@@ -48,7 +48,7 @@
   type: matching
   kapittel: litteraer-tolkning-vgs
   mal: [mvg3-04]
-  status: utkast
+  status: godkjent
   oppdrag: "Koble virkemidlet til forklaringen."
   par:
     - { venstre: "Undertekst", hoyre: "Det som ikke sies direkte, men antydes" }
@@ -61,7 +61,7 @@
   type: marker
   kapittel: litteraer-tolkning-vgs
   mal: [mvg3-04]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Marker påstanden i avsnittet."
   tekst: "[[Novellen viser at moren ikke tør snakke om det som har skjedd.]] Hun legger hele tiden fra seg koppen uten å drikke, og rommet beskrives som «stille som et ventende ansikt». Den lille handlingen og bildet viser at spenningen er større enn replikkene sier."
@@ -70,7 +70,7 @@
   type: rekkefolge
   kapittel: litteraer-tolkning-vgs
   mal: [mvg3-04]
-  status: utkast
+  status: godkjent
   oppdrag: "Sett setningene i et tolkende avsnitt i riktig rekkefølge."
   elementer: ["Diktet viser ensomhet som en tilstand i personen.", "Linjen «jeg er en øy» er en metafor som setter personen på avstand fra andre.", "Metaforen gjør ensomheten fysisk, nesten som et sted man bor.", "Derfor kan diktet leses som et portrett av det å være alene midt i verden."]
   forklaring: "Påstand, belegg, forklaring og kobling til helheten."
@@ -78,7 +78,7 @@
   type: skriv
   kapittel: litteraer-tolkning-vgs
   mal: [mvg3-04]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv et tolkende avsnitt om diktet. Bruk påstand, belegg, forklaring og kobling."
   utdrag: "Diktet «Havn» (fiktiv tekst for øving):\n\nHavna sover under tåka,\nskipene puster tungt.\nAlt jeg sa ble liggende igjen\npå kaia, kaldt og urørt.\n\nDu er en brygge uten båter.\nJeg står der likevel\nog venter, som om tiden\nkunne snu av seg selv."
@@ -92,14 +92,14 @@
   type: flashkort
   kapittel: essay-vgs
   mal: [mvg3-03]
-  status: utkast
+  status: godkjent
   forside: "Nevn tre kjennetegn ved et essay."
   bakside: "For eksempel personlig stemme, utforsking, veksling mellom erfaring og kunnskap, rød tråd og virkemidler som passer sjangeren."
 - id: vgs-essay-flervalg-slutt
   type: flervalg
   kapittel: essay-vgs
   mal: [mvg3-03]
-  status: utkast
+  status: godkjent
   spm: "Hvordan avslutter du best et essay?"
   alternativer: ["Med en tanke som peker framover eller en vending som gir leseren noe å tenke på", "Med en lang oppsummering av alt du har sagt", "Med «Dette var mitt essay»", "Med en liste over kildene"]
   riktig: 0
@@ -108,7 +108,7 @@
   type: sortering
   kapittel: essay-vgs
   mal: [mvg3-03]
-  status: utkast
+  status: godkjent
   oppdrag: "Hører utsagnet til essay eller fagartikkel?"
   kategorier: ["Essay", "Fagartikkel"]
   elementer:
@@ -129,7 +129,7 @@
   type: marker
   kapittel: essay-vgs
   mal: [mvg3-03]
-  status: utkast
+  status: godkjent
   oppdrag: "Marker setningene som bygger på egen erfaring."
   tekst: "Forfatteren hevder at fellesskap krever tid. [[Jeg gjenkjenner det fra fotballaget, der vennskapene ikke ble til på treningene, men i bilen hjem.]] Samtidig minner den andre teksten om at tid alene ikke er nok. [[Jeg husker en høst da jeg tilbrakte hver dag med de samme menneskene uten å si noe som betydde noe.]]"
   forklaring: "De to markerte setningene er egne erfaringer. De andre henviser til vedleggene. Et godt essay veksler mellom dem."
@@ -137,7 +137,7 @@
   type: skriv
   kapittel: essay-vgs
   mal: [mvg3-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Skriv en inngang til et essay om stillhet. Start konkret og led over til et spørsmål du vil utforske."
   ord: { min: 60, maks: 120 }
@@ -149,14 +149,14 @@
   type: flashkort
   kapittel: fagartikkel-vgs
   mal: [mvg3-09, mvg2-05]
-  status: utkast
+  status: godkjent
   forside: "Hva er forskjellen på å «gjøre rede for» og å «drøfte»?"
   bakside: "Å gjøre rede for er å forklare uten å ta stilling. Å drøfte er å vurdere fra flere sider og komme fram til en konklusjon."
 - id: vgs-fag-rekke-avsnitt
   type: rekkefolge
   kapittel: fagartikkel-vgs
   mal: [mvg3-09, mvg2-05]
-  status: utkast
+  status: godkjent
   oppdrag: "Sett leddene i et drøftende avsnitt i riktig rekkefølge."
   elementer: ["Påstand (temasetning)", "Belegg fra teksten", "Forklaring av hvordan belegget viser påstanden", "Motforestilling", "Vurdering"]
   forklaring: "Et drøftende avsnitt bygger fra påstand til vurdering, med en motforestilling på veien."
@@ -164,7 +164,7 @@
   type: flervalg
   kapittel: fagartikkel-vgs
   mal: [mvg3-09, mvg1-05]
-  status: utkast
+  status: godkjent
   spm: "Hva gjelder for vedleggene på eksamen når du skriver fagartikkel?"
   alternativer: ["De regnes som kilder og skal føres opp", "De trenger ikke oppgis", "De kan siteres uten å vise til dem", "Bare det første vedlegget skal oppgis"]
   riktig: 0
@@ -173,7 +173,7 @@
   type: sortering
   kapittel: fagartikkel-vgs
   mal: [mvg3-09, mvg2-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Hører setningen til redegjørelsen eller drøftingen?"
   kategorier: ["Redegjørelse", "Drøfting"]
@@ -193,7 +193,7 @@
   type: marker
   kapittel: fagartikkel-vgs
   mal: [mvg3-09]
-  status: utkast
+  status: godkjent
   oppdrag: "Marker setningen som er motforestillingen."
   tekst: "Teksten framstiller mobilbruk som en trussel mot samtalen. Det støttes av formuleringen «vi sitter sammen, men er likevel alene». [[Samtidig kan formuleringen virke overdrevet, siden den ikke tar hensyn til at mobilen også gjør det mulig å holde kontakt over avstand.]] Det svekker tekstens troverdighet, men ikke poenget om oppmerksomhet."
   forklaring: "Motforestillingen viser en annen side av saken. Den gjør drøftingen mer troverdig."
@@ -201,7 +201,7 @@
   type: skriv
   kapittel: fagartikkel-vgs
   mal: [mvg3-09, mvg2-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv et drøftende avsnitt om hvordan ordet «aldri» virker i innlegget. Bruk påstand, belegg, motforestilling og vurdering."
   utdrag: "Utdrag fra et debattinnlegg (fiktiv tekst for øving):\n\nUngdom leser aldri bøker lenger. De sitter med telefonen hele dagen og scroller. Skal vi redde lesingen, må vi ta telefonen fra dem."
@@ -215,21 +215,21 @@
   type: flashkort
   kapittel: retorisk-analyse-vgs
   mal: [mvg3-07, mvg2-04]
-  status: utkast
+  status: godkjent
   forside: "Hva er den retoriske situasjonen?"
   bakside: "Avsender, mottaker, tema, formål og kontekst, blant annet tidspunktet (kairos), som tekstene blir til i."
 - id: vgs-ret-kort-kairos
   type: flashkort
   kapittel: retorisk-analyse-vgs
   mal: [mvg3-07]
-  status: utkast
+  status: godkjent
   forside: "Hva betyr kairos?"
   bakside: "Det rette øyeblikket. Om teksten kommer på et tidspunkt som gjør at den treffer."
 - id: vgs-ret-match-appell
   type: matching
   kapittel: retorisk-analyse-vgs
   mal: [mvg3-07, mvg1-03]
-  status: utkast
+  status: godkjent
   oppdrag: "Koble appellformen til spørsmålet den svarer på."
   par:
     - { venstre: "Etos", hoyre: "Er avsenderen troverdig?" }
@@ -240,7 +240,7 @@
   type: sortering
   kapittel: retorisk-analyse-vgs
   mal: [mvg3-07, mvg1-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Hvilken appellform brukes i eksemplet?"
   kategorier: ["Etos", "Logos", "Patos"]
@@ -262,7 +262,7 @@
   type: flervalg
   kapittel: retorisk-analyse-vgs
   mal: [mvg3-07, mvg1-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilket retorisk virkemiddel brukes her?"
   utdrag: "Dette sparer tid, sparer penger og sparer miljøet."
@@ -273,7 +273,7 @@
   type: flervalg
   kapittel: retorisk-analyse-vgs
   mal: [mvg3-07]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   spm: "Hva er en stråmann i argumentasjon?"
   alternativer: ["Å angripe en forenklet utgave av motstanderens syn", "Å vise til en ekspert", "Å bruke tall for å støtte en påstand", "Å stille et retorisk spørsmål"]
@@ -283,7 +283,7 @@
   type: marker
   kapittel: retorisk-analyse-vgs
   mal: [mvg3-07]
-  status: utkast
+  status: godkjent
   oppdrag: "Marker setningen som først og fremst appellerer til følelser."
   tekst: "Tiltaket kommer til å koste 40 millioner kroner over fem år. [[Tenk på alle de eldre som sitter alene i kveld og venter på at noen skal ringe.]] Analysen er laget av en uavhengig forsker."
   forklaring: "Den midterste setningen vekker medfølelse og er patos. Tallet er logos, og den siste setningen støtter etos."
@@ -291,7 +291,7 @@
   type: skriv
   kapittel: retorisk-analyse-vgs
   mal: [mvg3-07]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv en kort retorisk analyse av innlegget. Bruk etos, logos og patos, og vurder om teksten virker."
   utdrag: "Debattinnlegg «Gi oss åpne bibliotek» (fiktiv tekst for øving), skrevet av en biblioteksjef:\n\nHver kveld sitter 30 ungdommer og gjør lekser på biblioteket vårt, fordi det er stedet de kan være uten at noen spør hvorfor. Likevel vil kommunen redusere åpningstiden med to dager. Det vil koste oss noen hundre tusen kroner å holde åpent. Det vil koste samfunnet mye mer å la dem miste stedet. Vi må ikke la dørene lukke seg for dem."

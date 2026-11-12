@@ -1,0 +1,184 @@
+tittel: "Vgs pakke 2: Språk og nye former"
+beskrivelse: "Denne pakken har et romanutdrag til kortsvaret og tre langsvarsoppgaver: en fagartikkel om modernistisk diktning, et essay om språk og tilhørighet, og en diktetolkning. Alle tekstene er skrevet for øving."
+status: utkast
+nivaa: vg3
+oppsett: vgs
+kjennetegnStatus: utkast
+vedlegg:
+  - id: v1
+    tittel: "Vedlegg 1: Ordene vi ikke bruker (romanutdrag)"
+    forfatter: "Utdrag fra en roman (fiktiv tekst for øving)"
+    tekst: |-
+      Første skoledag i den nye klassen. Ida satt ytterst i rekken og holdt blyanten som om den kunne forsvinne.
+
+      «Hvor kommer du fra?» spurte jenta ved siden av henne.
+
+      Ida åpnet munnen. Ordene lå klare, men de var feil. Hjemme sa man «ikkje» og «æ», her sa alle «ikke» og «jeg». Hun kjente at ørene ble varme.
+
+      «Fra nord,» sa hun, og hørte at stemmen hennes ikke lød som hennes egen. Den var glattere, nesten fremmed, som en frakk lånt av en annen.
+
+      Jenta nikket og smilte. «Du snakker så fint.»
+
+      Fint, tenkte Ida. Det var det verste ordet hun kunne ha sagt. Fint betydde at det gamle var feil, at moren hjemme, som alltid sa «æ» og «kjære deg», snakket stygt.
+
+      Etter timen satt hun alene på toalettet og øvde. Jeg. Ikke. Jeg. Ikke. Hun gjentok ordene til de mistet mening og bare var lyder, som steiner i munnen.
+
+      Da hun gikk ut, hadde hun bestemt seg for å si så lite som mulig. Det var tryggest.
+  - id: v2
+    tittel: "Vedlegg 2: «Dikt i betong» av Johan Rød (1934)"
+    forfatter: "Utdrag fra programartikkel (fiktiv tekst for øving)"
+    tekst: |-
+      Diktningen har for lenge bodd i skogen. Den har sunget om bekker og bjørker mens verden utenfor har fått tog, kraftlinjer og kontorer. Det er tid for å flytte diktet til byen.
+
+      Vi skal skrive om det som er der: jern, betong, hastighet, støy. Vi skal ikke beskrive dem som et pent bakteppe, men som noe som forandrer hvordan mennesket tenker og føler.
+
+      Rimet har tjent oss lenge, men det tvinger tanken inn i en form den ikke har. Vi vil ha fritt vers, som følger pusten og tanken. Vi vil ha brudd, tomrom og overraskende bilder.
+
+      Diktet skal ikke forklare. Det skal vise, og så la leseren fullføre. Det finnes ingen fasit, bare et møte mellom to mennesker, den som skriver og den som leser.
+
+      Og diktet skal være ærlig om det moderne menneskets ensomhet. Vi er flere enn noen gang, og likevel alene. Det er et sant tema, og det fortjener nye ord.
+  - id: v3
+    tittel: "Vedlegg 3: «Stasjon» av Karen Vik (1936)"
+    forfatter: "Dikt (fiktiv tekst for øving)"
+    tekst: |-
+      Toget kommer uten å ta ordet.
+      Folk går av som tanker.
+
+      Jeg står med hendene
+      i et vær som ikke er mitt.
+
+      Under klokka
+      leser noen en avis
+      om et sted de aldri har vært.
+
+      Det er ikke ensomhet.
+      Det er bare at alle
+      har med seg sin egen by.
+  - id: v4
+    tittel: "Vedlegg 4: «Pendling» av Nora Hvam (2019)"
+    forfatter: "Prosadikt (fiktiv tekst for øving)"
+    tekst: |-
+      Tretti minutter til Lysaker. Tretti minutter med øreproppene i, hvor ingen snakker og alle hører. Jeg ser hendene deres: tommelen som skroller, tommelen som sletter, tommelen som sender hjerter til noen som er på samme tog, men ikke i samme vogn.
+
+      Utenfor løper husene forbi som slettede meldinger. Jeg tenker at vi aldri har vært så nær hverandre og så langt unna.
+
+      Så åpner døren, og vi strømmer ut, hver for oss, med samme blå skjerm i ansiktet.
+  - id: v5
+    tittel: "Vedlegg 5: «Hva sier dialekten din om deg?» (2023)"
+    forfatter: "Avisreportasje (fiktiv tekst for øving)"
+    tekst: |-
+      Jonas Berg (17) snakker bergensk hjemme, og noe som ligner østnorsk på skolen i Oslo. «Jeg merker ikke engang at jeg bytter,» sier han. «Det skjer av seg selv.»
+
+      Han er ikke alene. En ny rapport fra et språkmiljø viser at mange unge tilpasser dialekten etter hvem de snakker med. Forskerne kaller det kodeveksling, og de mener det viser språklig styrke, ikke usikkerhet.
+
+      Samtidig sier flere at de har opplevd å bli rettet på. «Læreren sa jeg måtte snakke ordentlig,» forteller Amina Haddad (16). «Men dialekten min er jo ordentlig. Den er min.»
+
+      Språkforsker Kari Moen mener holdningene har blitt bedre. «For tjue år siden skammet mange seg over dialekten sin. Nå er det mer stolthet. Men vi er ikke i mål.»
+  - id: v6
+    tittel: "Vedlegg 6: Ord på reise av Mina Aas (2020)"
+    forfatter: "Utdrag fra sakprosabok (fiktiv tekst for øving)"
+    tekst: |-
+      Ord er reisende. De krysser grenser uten pass, setter seg i nye munner og blir værende, eller drar videre. Norsk er full av ord som har kommet fra et annet sted: «skole» fra gresk, «kaffe» fra arabisk via flere språk, «sjekke» fra engelsk.
+
+      Når vi sier at et ord «ikke er norsk», glemmer vi at ingen språk har vært rene. Norsk har lånt fra tysk, fransk, latin og engelsk i hundrevis av år. Det har ikke gjort språket svakere. Det har gjort det rikere.
+
+      Likevel er det noe i oss som reagerer når språket endrer seg raskt. Vi kjenner igjen vårt eget språk i det gamle, og det nye minner oss om at tiden går.
+
+      Kanskje handler bekymringen sjeldnere om språket enn om oss selv: Hva skjer med det vi kan, når verden begynner å snakke annerledes?
+  - id: v7
+    tittel: "Vedlegg 7: «Jeg snakker to språk, og ingen er riktig» (2024)"
+    forfatter: "Leserinnlegg (fiktiv tekst for øving)"
+    tekst: |-
+      Hjemme snakker vi somali. På skolen snakker jeg norsk. Med vennene mine snakker jeg en blanding, med ord fra begge og noen som vi har laget selv.
+
+      Noen ganger sier lærere at jeg må snakke «ordentlig norsk». Noen ganger sier familien min at jeg har glemt hvem jeg er. Jeg lurer på hvem som bestemmer hva som er riktig.
+
+      Jeg tror at språket mitt er en bro, ikke en feil. Når jeg bytter mellom språk midt i en setning, tenker jeg på to steder samtidig. Det er ikke dårlig norsk. Det er et språk som har plass til meg.
+  - id: v8
+    tittel: "Vedlegg 8: «Rom» (dikt)"
+    forfatter: "Dikt (fiktiv tekst for øving)"
+    tekst: |-
+      Du sier at det finnes et rom
+      i huset vi aldri åpner.
+      Jeg har gått forbi det
+      så mange ganger at døren
+      har lært navnet mitt.
+
+      I går la jeg øret mot treet.
+      Det var ikke stille.
+      Det var som å lytte til noen
+      som holder pusten
+      og venter på at jeg skal gå først.
+oppgave1:
+  vedlegg: v1
+  innledning: "Les vedlegg 1 og svar på oppgaven. Skriv 250 til 300 ord."
+  delsporsmal:
+    - tekst: "Gjør rede for hvordan virkemidler blir brukt for å skildre Idas usikkerhet. Bruk eksempler fra teksten og relevant fagspråk."
+      ord: { min: 250, maks: 300 }
+      modell: |-
+        Utdraget bruker flere virkemidler for å vise at Ida er usikker på hvem hun er i møte med et nytt språk og et nytt sted.
+
+        Et viktig virkemiddel er sammenligning. Idas nye stemme beskrives som «en frakk lånt av en annen». Bildet viser at hun opplever det nye språket som noe ytre, ikke noe som hører til henne. Senere gjentas ordene «Jeg. Ikke.» til de blir «som steiner i munnen». Sammenligningen gjør det nye språket tungt og vanskelig å bære.
+
+        Gjentakelsen av «Jeg. Ikke. Jeg. Ikke.» fungerer også som et virkemiddel i seg selv. Den korte, hakkete rytmen viser at Ida øver, nesten desperat, på å bli noen andre. Når ordene til slutt mister mening, forsterker det følelsen av å miste noe av seg selv.
+
+        Teksten bruker kontrast mellom dialekten hjemme og språket på skolen. Ordene «ikkje» og «æ» settes opp mot «ikke» og «jeg». Kontrasten gjør forskjellen konkret og viser at språk er knyttet til tilhørighet.
+
+        Fortelleren viser også Idas indre gjennom kroppen: «ørene ble varme». Dette er et indirekte virkemiddel som viser skam uten at fortelleren sier det rett ut. Ordet «fint» gir leseren et blikk inn i hennes tanker og viser at et enkelt kompliment kan oppleves som et hugg.
+
+        Slutten, «Det var tryggest», er kort og avslutter med et valg om å tie. Samlet viser virkemidlene en jente som mister trygghet. Sammenligninger, gjentakelse og kontrast gjør språket til mer enn ord: det blir et spørsmål om hvem hun får lov til å være, og om hva hun må gi fra seg for å høre til.
+oppgave2:
+  valg:
+    - id: fagartikkel
+      tittel: "A: Fagartikkel om modernistisk diktning"
+      tekst: "Skriv en fagartikkel der du gjør rede for hva Johan Rød mener at diktningen skal gjøre, og drøfter hvordan tekstene til Karen Vik og Nora Hvam følger eller bryter med dette. Bruk fagspråk, og vis til eksempler fra vedleggene."
+      mal: fagartikkel-vgs
+      vedlegg: [v2, v3, v4]
+      ord: { min: 800, maks: 1300 }
+      nokkelord: ["modernisme", "fritt vers", "bilde", "fremmedgjøring", "kontekst", "virkemiddel", "tema", "undertekst"]
+      nokkelordMinst: 4
+      sitat: true
+      kjennetegn:
+        - "Innledningen presenterer emnet og stiller en problemstilling om hva moderne diktning skal gjøre."
+        - "Du gjør rede for Røds syn: byen og det moderne som tema, fritt vers, brudd, bilder og ensomhet."
+        - "Du skiller mellom redegjørelsen og drøftingen."
+        - "Du drøfter begge tekstene mot Røds krav, med minst ett sitat fra hver."
+        - "Du bruker fagspråk som modernisme, fritt vers, bilde, fremmedgjøring og undertekst."
+        - "Du setter tekstene i kontekst: 1930-årene og 2010-årene, og nevner at teknologien er ny i begge tidene."
+        - "Du har motforestillinger, for eksempel at Hvams tekst er prosa og ikke vers, men likevel følger Røds ånd."
+        - "Avslutningen svarer på problemstillingen, og alle vedlegg står i kildelisten."
+    - id: essay
+      tittel: "B: Essay om språk og tilhørighet"
+      tekst: "Skriv et essay der du utforsker og reflekterer over innholdet i de vedlagte tekstene."
+      mal: essay-vgs
+      vedlegg: [v5, v6, v7]
+      ord: { min: 800, maks: 1300 }
+      nokkelord: []
+      sitat: false
+      kjennetegn:
+        - "Inngangen er konkret, for eksempel en språkopplevelse eller en setning fra et vedlegg."
+        - "Du har en rød tråd om språk og tilhørighet, og hvert avsnitt tar tanken videre."
+        - "Du bruker alle tre vedleggene og lar dem si noe ulikt."
+        - "Du veksler mellom egne erfaringer med språk og kunnskap fra tekstene."
+        - "Du bruker begreper som dialekt, kodeveksling, lånord og identitet."
+        - "Du utforsker spørsmål som hvem som bestemmer hva som er riktig."
+        - "Slutten gir leseren noe å tenke på."
+        - "Du har oppgitt kildene."
+    - id: tolkning
+      tittel: "C: Tolk diktet"
+      tekst: "Tolk diktet."
+      mal: litteraer-tolkning-vgs
+      vedlegg: [v8]
+      ord: { min: 800, maks: 1300 }
+      nokkelord: ["tema", "metafor", "personifikasjon", "lyrisk jeg", "fritt vers", "undertekst", "virkemiddel", "tolkning"]
+      nokkelordMinst: 4
+      sitat: true
+      kjennetegn:
+        - "Innledningen presenterer diktet og en tydelig tolkningstese."
+        - "Du skiller mellom motiv (et lukket rom) og tema."
+        - "Du analyserer form: frie vers, strofer og brudd."
+        - "Du analyserer bilder som personifikasjonen «døren har lært navnet mitt» og lyttingen ved døren."
+        - "Du forklarer hva hvert virkemiddel gjør, og begrunner tolkningen med sitat."
+        - "Du kommenterer slutten og hva den sier om forholdet mellom jeg og du."
+        - "Du er forsiktig med påstander diktet ikke gir grunnlag for."
+        - "Avslutningen svarer på hva diktet sier."
