@@ -48,7 +48,7 @@ Modelltekster vises i kapittelet som har samme id som tekstens `type`. Et kapitt
 
 Siden `/hefte/last-ned/` lager heftet eleven kan skrive ut eller lagre som PDF. Eleven kan ta med hele heftet eller velge kapitler. Heftet bygges fra de samme kapittelfilene som nettsiden, så de kan ikke komme i utakt.
 
-- `gruppe` i kapittelet styrer hvor det står i valglisten: `eksamen`, `sjanger`, `litteratur`, `virkemidler` eller `sprak`.
+- `gruppe` i kapittelet styrer hvor det står i valglisten: `eksamen`, `sjanger`, `litteratur`, `sprakNorge`, `virkemidler` eller `sprak`.
 - Heftet er en kortversjon. Det som bare skal stå på nettsiden, pakkes inn slik, med en tom linje før og etter innholdet:
 
 ```markdown
