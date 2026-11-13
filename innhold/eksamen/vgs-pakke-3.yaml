@@ -1,0 +1,187 @@
+tittel: "Vgs pakke 3: Norrønt og språkhistorie"
+beskrivelse: "Denne pakken har en kronikk til kortsvaret og tre langsvarsoppgaver: en fagartikkel om strofer fra Håvamål og et moderne dikt, et essay om hva vi arver gjennom språket, og en retorisk analyse av et debattinnlegg. Tekstene er skrevet for øving. Oversettelsen av Håvamål er laget for øvingen."
+status: godkjent
+nivaa: vg3
+oppsett: vgs
+kjennetegnStatus: godkjent
+vedlegg:
+  - id: v1
+    tittel: "Vedlegg 1: «Du snakker allerede norrønt» (kronikk, 2024)"
+    forfatter: "Marte Lunde, språkforsker (fiktiv tekst for øving)"
+    tekst: |-
+      Hver gang du åpner et vindu, bruker du et norrønt ord. «Vindu» kommer av vindauga, som betyr «vindøye». Det samme gjelder «ski», «bonde» og «fe». Vi snakker altså norrønt oftere enn vi tror.
+
+      Jeg har undervist i språkhistorie i femten år. Det første jeg lærer elevene, er at et språk ikke forsvinner. Det endrer seg. Norrønt ble ikke borte en dag i 1350. Det ble til mellomnorsk, og mellomnorsk ble til det vi snakker i dag, ett ord om gangen.
+
+      Hvorfor skal ungdom bry seg om dette? Fordi det gir oss en forklaring på hvorfor språket vårt er som det er. Islendinger kan i dag lese sagaer fra 1200-tallet nesten uten hjelp. Det kan ikke vi. Spør du meg hva vi har mistet, er svaret at vi har mistet en gammel samtalepartner.
+
+      Noen mener at dette bare er nostalgi. Det er det ikke. Tenk på ukedagene. Tirsdag er Tyrs dag, onsdag er Odins dag, torsdag er Tors dag og fredag er Friggs dag. Hver eneste uke bruker et helt land navn på norrøne guder, og de færreste vet det.
+
+      Det er ikke for sent. Jeg foreslår at alle elever i videregående får lese minst én norrøn tekst i oversettelse, og at vi bruker noen timer på å se hvordan språket vokste ut av den. Det koster lite og kan gi mye: litt stolthet, litt nysgjerrighet og en følelse av at ordene våre har en historie. La oss ikke la dem stå som museumsgjenstander. La oss bruke dem.
+  - id: v2
+    tittel: "Vedlegg 2: Strofer fra Håvamål"
+    forfatter: "Håvamål er et norrønt dikt fra Den eldre Edda, bevart i en islandsk håndskrift fra 1200-tallet. Prosaoversettelsen er laget for øvingen. Nummereringen av strofene varierer mellom utgavene, og derfor er den ikke tatt med."
+    tekst: |-
+      Alle dører bør man granske før man går inn, og se seg godt om og lytte. For man kan ikke vite hvor fiendene sitter i stuen.
+
+      Ild trenger den som er kommet inn og er kald helt ned i knærne. Mat og klær trenger den som har reist over fjellet.
+
+      Hver mann bør være middels klok, aldri for klok. Den som ikke vet hva som venter, har det best med et lett sinn.
+
+      Fe dør, frender dør, selv dør du også. (Norrønt: «Deyr fé, deyja frændr, deyr sjalfr it sama.») Men ett vet jeg som aldri dør: dommen over hver døde.
+
+      Fe dør, frender dør, selv dør du også. Men ryktet dør aldri for den som får seg et godt.
+  - id: v3
+    tittel: "Vedlegg 3: «Det som ikke dør» av Even Sand (2018)"
+    forfatter: "Dikt (fiktiv tekst for øving)"
+    tekst: |-
+      Bestemor la hendene på bordet
+      som om hun la fra seg noe.
+      Jeg skal ikke ha noe, sa hun,
+      men jeg skal ha at dere husker.
+
+      Hun telte opp det som går:
+      sofaen, sølvet, huset ved elva.
+      Alt som kan veies
+      skal veies av andre.
+
+      Jeg skrev opp ordene hun brukte
+      på kjøkkenet, mens hun enda levde:
+      skrubbe, klinke, glo, dra.
+      Hun lo av at jeg skrev.
+      Hun lo som en som vet.
+
+      Nå henger lappen
+      over senga mi.
+      Fe dør. Frender dør.
+      Men jeg sier ordene hennes høyt
+      når jeg er alene,
+      og noen ganger kommer de tilbake
+      fra et sted jeg ikke visste at jeg hadde.
+  - id: v4
+    tittel: "Vedlegg 4: Fra norrønt til norsk (2022)"
+    forfatter: "Faktatekst (fiktiv tekst for øving)"
+    tekst: |-
+      Fra omkring år 800 til 1350 snakket folk i Norge, på Island, på Færøyene og i de norrøne bosetningene på Grønland norrønt. Språket hadde fire kasus, tre kjønn og verb som ble bøyd etter person og tall. Det finnes ikke lenger i norsk, men setningene i sagaene og i diktene viser hvordan det lød.
+
+      Så skjedde det noe. Svartedauen kom til Norge i 1349, og mange historikere mener at omkring halvparten av befolkningen døde. Det ble færre som skrev, og færre som kunne bruke det gamle skriftspråket. Norge kom etter hvert i union med Danmark, og etter 1536 var dansk skriftspråket her. Folk snakket fortsatt norsk, men de skrev dansk.
+
+      I mellomtiden endret talespråket seg. Kasusendingene falt bort, og ordene fikk enklere former. Mellomnorsk, omtrent fra 1350 til 1525, er navnet på denne overgangen. Mange tyske ord kom inn gjennom handelen i Bergen.
+
+      Island har gått en annen vei. Øya lå langt unna, og språket har endret seg mindre. Islandsk har beholdt kasus og mye av ordforrådet. Islendingene bruker heller gamle røtter enn lånord når de trenger nye ord. Datamaskin heter for eksempel «tölva», laget av ordene for tall og for en spåkvinne.
+
+      Norsk har likevel beholdt mye. Mange dialekter har trekk som riksspråket mistet, for eksempel infinitiv på -a (å kasta) og tjukk l. Og mange ord, som «vindu», «ski» og «bonde», kommer rett fra norrønt.
+  - id: v5
+    tittel: "Vedlegg 5: «Norrønt i pensum? Nei takk» (debattinnlegg, 2024)"
+    forfatter: "Sofie Brandt, vg2 (fiktiv tekst for øving)"
+    tekst: |-
+      Hver gang noen sier at ungdom må lære om norrønt, får jeg lyst til å legge meg ned. Ikke fordi jeg ikke liker historie, men fordi jeg er lei av at voksne bestemmer hva vi trenger å kunne.
+
+      Jeg går i andre klasse på videregående, og i høst har vi brukt åtte uker på Edda og sagaer. Jeg har lest, og jeg har fått karakteren tre. Jeg kan ikke si at jeg har lært noe jeg har brukt siden.
+
+      I klassen min er vi 28 elever. Jeg spurte dem alle om de så nytten av norrønt, og 21 sa nei. Det er tre av fire. Da må det være et poeng.
+
+      Tilhengerne sier at vi må kjenne røttene våre. Men jeg kjenner røttene mine. De bor i en leilighet i Drammen og lager middag klokka fem. De heter bestemor og bestefar, og de har aldri brukt ordet «orðstírr».
+
+      Er det virkelig slik at man bare kan bli en god nordmann hvis man har lest et gammelt dikt? Jeg tror ikke det.
+
+      Jeg sier ikke at norrønt er dårlig. Jeg sier at timene kunne vært brukt på noe vi faktisk trenger: kildekritikk, kunstig intelligens og hvordan man skriver en jobbsøknad. Når voksne sier at «dette er viktig», er det som oftest fordi de selv lærte det.
+
+      Så til dere som bestemmer: Spør oss. Vi er de som skal bruke det vi lærer. Og til dere som mener at norrønt gjør oss til bedre mennesker: Har dere selv lest Håvamål i det siste?
+  - id: v6
+    tittel: "Vedlegg 6: Sagaer i klasserommet (reportasje, 2023)"
+    forfatter: "Avisreportasje (fiktiv tekst for øving)"
+    tekst: |-
+      I et klasserom i Akureyri, nord på Island, sitter femten 15-åringer med hver sin bok. På tavla står en setning fra en saga som er skrevet ned for rundt åtte hundre år siden. Læreren, Guðrún Árnadóttir, ber en av elevene lese høyt.
+
+      Eleven leser uten å stoppe. Så ber læreren dem fortelle hva som står der, med egne ord. «Det handler om en mann som ikke vil gi seg,» sier en gutt. «Og som kommer til å angre.»
+
+      «De trenger litt hjelp med enkelte ord,» sier Árnadóttir etterpå. «Men de skjønner setningene. Det er det som er så rart. De leser en bok som er skrevet lenge før bestemor og bestemors bestemor ble født, og så forstår de den.»
+
+      Det betyr ikke at alt er likt. Skrivemåten er moderne i utgavene elevene bruker, og noen ord har skiftet betydning. Men språket er nær nok til at det fortsatt snakker. «Jeg vet ikke om jeg vil kalle det en gave,» sier Árnadóttir. «Men det er noe vi har.»
+
+      Norske elever får ikke samme erfaring. Tilsvarende tekster kommer i oversettelse, og mange sier at de kjennes langt unna. Kaja Berg (16) har lest utdrag av Håvamål i norsk skole. «Det var fint, men det var som å se et bilde av noe i stedet for å se selve tingen,» sier hun. «Jeg skulle ønske vi hadde det som de har.»
+  - id: v7
+    tittel: "Vedlegg 7: «Bestemors ord» (leserinnlegg, 2024)"
+    forfatter: "Leserinnlegg (fiktiv tekst for øving)"
+    tekst: |-
+      Min bestemor sier «å kasta», «ei jente» og «ein gut». Jeg sier «å kaste», «en jente» og «en gutt». Vi har ikke tenkt over det før denne høsten, da læreren vår viste oss at bestemor bruker former som norrønt også hadde.
+
+      Jeg ble litt flau. Jeg trodde dialekten hennes var gammeldags, men den viser seg å være en slags nøkkel. Hun bruker ord som gjør at jeg kan høre hvordan språket var før mine foreldre ble født, og før deres foreldre ble født.
+
+      Jeg vet ikke om jeg skal lære meg å snakke slik. Jeg er redd for å høres ut som jeg later som. Men jeg har begynt å spørre henne om ordene hun bruker. Hun forklarer, og noen ganger glemmer hun at jeg skal skrive dem ned, og så snakker hun bare.
+
+      Det er kanskje det jeg savner mest ved skolen vår: at den ikke har noe sted for det. Vi lærer om språket, men ikke av dem som snakker det.
+
+      Så hva er det vi arver? Er det ordene, eller er det måten noen fortalte dem på? Jeg tror jeg vet hva bestemor vil svare. Hun vil si at man må bruke dem, ellers dør de.
+oppgave1:
+  vedlegg: v1
+  innledning: "Les vedlegg 1 og svar på oppgaven. Skriv 250 til 300 ord."
+  delsporsmal:
+    - tekst: "Gjør rede for hvordan forfatteren bruker retoriske appellformer for å overbevise leseren om at elever bør lære om norrønt. Bruk eksempler fra teksten og relevant fagspråk."
+      ord: { min: 250, maks: 300 }
+      modell: |-
+        I kronikken «Du snakker allerede norrønt» prøver språkforskeren Marte Lunde å overbevise leserne om at elever bør lære om norrønt. Hun bruker alle de tre appellformene.
+
+        Etos bygger hun først og fremst ved å presentere seg som en som kan feltet. Hun skriver at hun har «undervist i språkhistorie i femten år». Det gjør at leseren stoler på at hun vet hva hun snakker om. Hun fremstår også som jordnær, siden hun ikke bruker vanskelige ord og viser til noe alle kjenner igjen.
+
+        Logos finner vi i de konkrete eksemplene. Hun viser at «vindu», «ski» og «bonde» kommer fra norrønt, og at ukedagene har navn etter guder: «Tirsdag er Tyrs dag». Eksemplene er fakta leseren kan kontrollere, og de underbygger påstanden hennes om at vi allerede bruker norrønt. Sammenligningen med Island, der elever kan lese sagaer «nesten uten hjelp», er et argument for at noe er gått tapt.
+
+        Patos bruker hun særlig mot slutten. Uttrykket «en gammel samtalepartner» gjør språket til en person vi har mistet, og det vekker sorg og nysgjerrighet. Hun appellerer også til stolthet når hun skriver om «litt stolthet» og at ordene har «en historie». Setningen «La oss ikke la dem stå som museumsgjenstander. La oss bruke dem» er en oppfordring der gjentakelsen og «oss» skaper et fellesskap mellom avsender og leser.
+
+        Samlet bruker Lunde etos til å gjøre seg troverdig, logos til å vise at hun har gode grunner, og patos til å få leseren til å føle at saken angår dem selv. Appellformene virker sammen og gjør kronikken både saklig og engasjerende.
+oppgave2:
+  valg:
+    - id: fagartikkel
+      tittel: "A: Fagartikkel om Håvamål og et moderne dikt"
+      tekst: "Skriv en fagartikkel der du gjør rede for hva strofene fra Håvamål sier om liv, død og omdømme, og drøfter hvordan diktet «Det som ikke dør» kan leses sammen med dem. Bruk gjerne opplysninger fra vedlegg 4. Bruk fagspråk, og vis til eksempler fra vedleggene."
+      mal: fagartikkel-vgs
+      vedlegg: [v2, v3, v4]
+      ord: { min: 800, maks: 1300 }
+      nokkelord: ["norrønt", "kontekst", "tema", "motiv", "fritt vers", "metafor", "gjentakelse", "kulturarv", "omdømme"]
+      nokkelordMinst: 4
+      sitat: true
+      kjennetegn:
+        - "Innledningen presenterer emnet og stiller en problemstilling om hva som overlever døden."
+        - "Du gjør rede for Håvamål-strofene og setter dem i en kontekst: norrønt, vikingtid og at de er skrevet ned på 1200-tallet."
+        - "Du skiller mellom redegjørelsen og drøftingen."
+        - "Du sammenligner Håvamål og diktet på tema: det som dør, og det som blir igjen."
+        - "Du viser at diktet siterer og endrer linjen «Fe dør. Frender dør», og forklarer hva det gjør."
+        - "Du bruker fagspråk som tema, motiv, fritt vers, gjentakelse og kulturarv."
+        - "Du har en motforestilling, for eksempel forskjellen på rykte og ord."
+        - "Avslutningen svarer på problemstillingen, og alle vedlegg står i kildelisten."
+    - id: essay
+      tittel: "B: Essay om hva vi arver gjennom språket"
+      tekst: "Skriv et essay der du utforsker og reflekterer over innholdet i de vedlagte tekstene."
+      mal: essay-vgs
+      vedlegg: [v4, v6, v7]
+      ord: { min: 800, maks: 1300 }
+      nokkelord: []
+      sitat: false
+      kjennetegn:
+        - "Inngangen er konkret, for eksempel et ord, en dialekt eller en setning fra et vedlegg."
+        - "Du har en rød tråd om hva vi arver gjennom språket, og hvert avsnitt tar tanken videre."
+        - "Du bruker alle tre vedleggene og lar dem si noe ulikt."
+        - "Du veksler mellom egne erfaringer med språk og kunnskap fra tekstene."
+        - "Du bruker begreper som norrønt, dialekt og lånord."
+        - "Du utforsker spørsmål som om et språk kan gå tapt, og hvem som har ansvar for å ta vare på det."
+        - "Slutten gir leseren noe å tenke på."
+        - "Du har oppgitt kildene."
+    - id: retorisk
+      tittel: "C: Retorisk analyse av et debattinnlegg"
+      tekst: "Skriv en retorisk analyse av vedlegg 5. Vurder også om teksten er overbevisende."
+      mal: retorisk-analyse-vgs
+      vedlegg: [v5]
+      ord: { min: 800, maks: 1300 }
+      nokkelord: ["etos", "logos", "patos", "retorisk situasjon", "kairos", "avsender", "mottaker", "formål", "appell", "retorisk spørsmål", "ironi", "generalisering"]
+      nokkelordMinst: 5
+      sitat: true
+      kjennetegn:
+        - "Innledningen presenterer teksten, avsender og en tese om hvor godt den overbeviser."
+        - "Du beskriver den retoriske situasjonen: avsender, mottaker, tema, formål og kontekst."
+        - "Du analyserer etos: elev, personlig erfaring, og hva som svekker troverdigheten."
+        - "Du analyserer logos og peker på svakheter, for eksempel at 21 av 28 elever ikke er et representativt utvalg."
+        - "Du analyserer patos, humor og retoriske spørsmål, og forklarer hva de gjør."
+        - "Du bruker sitater og forklarer hva sitatene gjør."
+        - "Du vurderer om teksten er overbevisende, og for hvem."
+        - "Avslutningen samler vurderingen."
