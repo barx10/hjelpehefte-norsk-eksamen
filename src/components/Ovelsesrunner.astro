@@ -21,7 +21,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
 <script>
   import { les, lagre, oppdater, velgOkt, stokk, antallMestret } from '../lib/fremgang';
   import { stokkForskjellig, ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus } from '../lib/tekstverktoy';
-  import { lagTilbakemelding, type KapittelLenker } from '../lib/tilbakemelding';
+  import { lagTilbakemelding, lagEgenvurdering, lagOmskriving, type KapittelLenker } from '../lib/tilbakemelding';
   import { sjangerFor } from '../lib/tekstsjekk';
   import { lesSkriveutkast, lagreSkriveutkast } from '../lib/lager';
   import type { Fremgang } from '../lib/fremgang';
@@ -650,9 +650,29 @@ const { ovelser, tittel, skrivedata } = Astro.props;
       if (o.sitat) punkt(harSitat(tekst), harSitat(tekst) ? 'Du har brukt sitat i anførselstegn.' : 'Du har ikke brukt sitat i anførselstegn.');
       if (o.ord.maks > 150) punkt(antallAvsnitt(tekst) >= 2, `Avsnitt: ${antallAvsnitt(tekst)}. Hopp over en linje mellom avsnittene.`);
 
-      const krysser: HTMLInputElement[] = o.kriterier.map((_, i) => el('input', { type: 'checkbox', id: `${id}-k${i}` }));
-      const egenvurdering = el('fieldset', { class: 'egenvurdering' }, el('legend', {}, 'Vurder deg selv: stemmer dette med teksten din?'));
-      o.kriterier.forEach((k, i) => egenvurdering.append(el('div', { class: 'kriterium' }, krysser[i]!, el('label', { for: `${id}-k${i}` }, k))));
+      // Egenvurdering med belegg og omskriving. Bygges på nytt når eleven bytter inn et omskrevet avsnitt.
+      const revisjonsflate = el('div', {});
+      let vurderinger: () => Record<number, { ok: boolean; belegg: string }> = () => ({});
+      const byggRevisjon = (svar: string) => {
+        const forrige = vurderinger();
+        const tilbake = lagTilbakemelding({
+          tekst: svar, sjanger: sjangerFor(o.kapittelId), oppgave: o.utdrag ? `${o.oppdrag}\n\n${o.utdrag}` : o.oppdrag,
+          kjennetegn: o.kriterier, trinn: skrivedata.trinn, kapitler: skrivedata.kapitler, skrivefeil: skrivedata.skrivefeil, visOversikt: o.ord.maks > 150,
+        });
+        const ev = lagEgenvurdering({ kjennetegn: o.kriterier, tekst: svar, prefiks: id, overskrift: 'Vurder deg selv: stemmer dette med teksten din?', lagret: forrige, vedEndring: () => {} });
+        vurderinger = ev.vurdering;
+        const om = lagOmskriving({
+          tekst: svar, prefiks: id, kjennetegn: o.kriterier, vurdering: ev.vurdering,
+          vedBytt: (ny) => {
+            felt.value = ny;
+            oppdaterTeller();
+            byggRevisjon(ny);
+            revisjonsflate.querySelector('.omskriving h4')?.after(el('p', { class: 'melding', role: 'status' }, 'Avsnittet er byttet inn, og tilbakemeldingen er oppdatert.'));
+          },
+        });
+        revisjonsflate.replaceChildren(tilbake, el('h3', {}, 'Egenvurdering'), ev.el, om);
+      };
+      byggRevisjon(tekst);
 
       const modell = el('details', { class: 'modell' },
         el('summary', {}, 'Se et eksempel på et godt svar'),
@@ -661,21 +681,16 @@ const { ovelser, tittel, skrivedata } = Astro.props;
 
       const fullfor = el('button', { class: 'knapp', type: 'button' }, indeks + 1 < okt.length ? 'Fullfør og gå videre' : 'Fullfør og se resultat');
       fullfor.addEventListener('click', () => {
-        const alleKrysset = krysser.every((k) => k.checked);
+        const v = vurderinger();
+        const alleKrysset = o.kriterier.every((_, i) => v[i]?.ok);
         window.clearTimeout(timer);
         lagreSkriveutkast(o.id, '');
         registrer(o, alleKrysset);
         neste(indeks);
       });
 
-      const tilbakemelding = lagTilbakemelding({
-        tekst, sjanger: sjangerFor(o.kapittelId), oppgave: o.utdrag ? `${o.oppdrag}\n\n${o.utdrag}` : o.oppdrag,
-        kjennetegn: o.kriterier, trinn: skrivedata.trinn, kapitler: skrivedata.kapitler, skrivefeil: skrivedata.skrivefeil, visOversikt: o.ord.maks > 150,
-      });
-
       flate.append(
-        el('h3', {}, 'Automatisk sjekk'), auto, tilbakemelding,
-        el('h3', {}, 'Egenvurdering'), egenvurdering,
+        el('h3', {}, 'Automatisk sjekk'), auto, revisjonsflate,
         modell,
         el('p', { class: 'tastehint' }, 'Du får regnet øvelsen som mestret når du har krysset av for alle punktene. Vær ærlig, det er deg selv du lurer.'),
         el('div', { class: 'knapp-rad' }, fullfor),

@@ -16,7 +16,8 @@ const { data } = Astro.props;
   import { lesJson, skrivJson, slettJson, eksamenNokkel } from '../lib/lager';
   import { ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus } from '../lib/tekstverktoy';
   import type { Ordkrav } from '../lib/tekstverktoy';
-  import { lagTilbakemelding, type KapittelLenker } from '../lib/tilbakemelding';
+  import { lagTilbakemelding, lagEgenvurdering, lagOmskriving, type KapittelLenker } from '../lib/tilbakemelding';
+  import type { Vurdering } from '../lib/revisjon';
   import type { Sjanger } from '../lib/tekstsjekk';
 
   type Modus = 'hel' | 'o1' | 'o2' | 'o3';
@@ -33,7 +34,7 @@ const { data } = Astro.props;
     kapitler: KapittelLenker;
     skrivefeil: { feil: string; rettelse: string }[];
   };
-  type Tilstand = { versjon: 1; modus: Modus; start: number; slutt: number; skjulTid: boolean; valg2: string; svar: Record<string, string>; levert: boolean };
+  type Tilstand = { versjon: 1; modus: Modus; start: number; slutt: number; skjulTid: boolean; valg2: string; svar: Record<string, string>; levert: boolean; egen?: Record<string, Record<number, Vurdering>> };
 
   const rot = document.getElementById('eksamen') as HTMLElement;
   const pakke: Pakke = JSON.parse(document.getElementById('eksamen-data')!.textContent ?? '{}');
@@ -334,6 +335,27 @@ const { data } = Astro.props;
     return deler.join('\n');
   }
 
+  /** Egenvurdering med belegg og omskriving av ett avsnitt. Bytter eleven inn et nytt avsnitt, lagres svaret og tilbakemeldingen bygges på nytt. */
+  function revisjon(nokkel: string, svar: string, kjennetegn: string[]): Node[] {
+    const t = tilstand!;
+    t.egen ??= {};
+    const ev = kjennetegn.length
+      ? lagEgenvurdering({ kjennetegn, tekst: svar, prefiks: nokkel, overskrift: pakke.kjennetegnUtkast ? 'Dette kjennetegner et godt svar (utkast)' : 'Dette kjennetegner et godt svar', lagret: t.egen[nokkel] ?? {}, vedEndring: (v) => { t.egen![nokkel] = v; lagre(); } })
+      : null;
+    const om = lagOmskriving({
+      tekst: svar, prefiks: nokkel, kjennetegn, vurdering: () => ev?.vurdering() ?? {},
+      vedBytt: (ny) => {
+        t.svar[nokkel] = ny;
+        lagre();
+        visResultat();
+        const valg = document.getElementById(`om-${nokkel}-punkt`);
+        valg?.closest('.omskriving')?.querySelector('h4')?.after(el('p', { class: 'melding', role: 'status' }, 'Avsnittet er byttet inn, og tilbakemeldingen er oppdatert.'));
+        valg?.scrollIntoView({ block: 'center' });
+      },
+    });
+    return ev ? [ev.el, om] : [om];
+  }
+
   function visResultat() {
     const t = tilstand!;
     const modus = MODUSER[t.modus];
@@ -349,6 +371,7 @@ const { data } = Astro.props;
           vurder(svar, d.ord, [], false),
           svar ? lagTilbakemelding({ tekst: svar, sjanger: 'kortsvar', vedlegg: vedleggListe([pakke.oppgave1.vedlegg]), oppgave: `${pakke.oppgave1.innledning}\n\n${d.tekst}`, kjennetegn: [], trinn: pakke.trinn, kapitler: pakke.kapitler, skrivefeil: pakke.skrivefeil, visOversikt: false }) : document.createComment(''),
           el('details', { class: 'modell' }, el('summary', {}, 'Se et eksempel på et godt svar'), el('p', {}, d.modell)),
+          ...(svar ? revisjon(`o1-${i}`, svar, []) : []),
         );
       });
       barn.push(kort);
@@ -359,7 +382,7 @@ const { data } = Astro.props;
       barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, navn2), el('p', {}, el('strong', {}, v.tittel)),
         svar ? vurder(svar, v.ord, v.nokkelord, v.sitat, v.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
         svar ? lagTilbakemelding({ tekst: svar, sjanger: v.sjanger, vedlegg: vedleggListe(v.vedlegg), oppgave: v.tekst, kjennetegn: v.kjennetegn, trinn: pakke.trinn, kapitler: pakke.kapitler, skrivefeil: pakke.skrivefeil, visOversikt: true }) : document.createComment(''),
-        kjennetegnListe('o2', v.kjennetegn),
+        ...(svar ? revisjon('o2', svar, v.kjennetegn) : [kjennetegnListe('o2', v.kjennetegn)]),
         el('p', {}, el('a', { href: v.malUrl, target: '_blank', rel: 'noopener' }, `Sammenlign med malen: ${v.malTittel}`))));
     }
     if (modus.oppgaver.includes(3) && pakke.oppgave3) {
@@ -367,7 +390,7 @@ const { data } = Astro.props;
       barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, 'Oppgave 3'),
         svar ? vurder(svar, pakke.oppgave3.ord, pakke.oppgave3.nokkelord, pakke.oppgave3.sitat, pakke.oppgave3.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
         svar ? lagTilbakemelding({ tekst: svar, sjanger: 'annet', vedlegg: vedleggListe(pakke.oppgave3.vedlegg), oppgave: pakke.oppgave3.tekst, kjennetegn: pakke.oppgave3.kjennetegn, trinn: pakke.trinn, kapitler: pakke.kapitler, skrivefeil: pakke.skrivefeil, visOversikt: true }) : document.createComment(''),
-        kjennetegnListe('o3', pakke.oppgave3.kjennetegn)));
+        ...(svar ? revisjon('o3', svar, pakke.oppgave3.kjennetegn) : [kjennetegnListe('o3', pakke.oppgave3.kjennetegn)])));
     }
 
     const sjekk = el('section', { class: 'eks-kort' }, el('h3', {}, 'Sjekkliste før innlevering'));

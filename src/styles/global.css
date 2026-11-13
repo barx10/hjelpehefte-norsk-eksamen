@@ -595,3 +595,16 @@ h2, h3 { font-weight: 700; }
 .funn-utdrag { list-style: none; padding: 0 0 0 0.8rem; margin: 0.2rem 0; border-left: 3px solid var(--linje); color: var(--dempet); font-size: 0.95rem; overflow-wrap: anywhere; }
 .avsnittsoversikt { padding-left: 1.4rem; display: grid; gap: 0.4rem; }
 .ledetekst { width: 100%; font: inherit; font-size: 0.9rem; }
+
+/* Egenvurdering med belegg og omskriving */
+.kriterium-belegg { flex-wrap: wrap; }
+.kriterium-belegg label { flex: 1 1 0; }
+.kriterium input.belegg { flex: 1 1 100%; width: auto; height: auto; margin: 0.3rem 0 0 2rem; font: inherit; padding: 0.4rem 0.6rem; border: 1px solid var(--linje); border-radius: var(--radius); min-width: 0; }
+.kriterium-belegg .belegg-status { flex: 1 1 100%; margin: 0.1rem 0 0 2rem; }
+.omskriving { margin: 1rem 0; }
+.omskriving label { display: block; font-weight: 650; margin: 0.6rem 0 0.2rem; }
+.omskriving select, .omskriving textarea { width: 100%; font: inherit; max-width: 100%; }
+.for-etter { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.for-etter > div { border: 1px solid var(--linje); border-radius: var(--radius); padding: 0.4rem 0.8rem; background: var(--flate-2); overflow-wrap: anywhere; }
+.for-etter h5 { margin: 0.2rem 0; }
+@media (max-width: 600px) { .for-etter { grid-template-columns: 1fr; } }
