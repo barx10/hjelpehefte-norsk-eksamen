@@ -235,9 +235,9 @@
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
   status: godkjent
-  oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen."
+  oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med «I dag»."
   elementer: ["I dag", "leser", "jeg", "en roman"]
-  forklaring: "I en hovedsetning står verbalet på andre plass: «I dag leser jeg en roman»."
+  forklaring: "I en hovedsetning står verbalet på andre plass. Når setningen begynner med «I dag», kommer subjektet etter verbalet: «I dag leser jeg en roman»."
 - id: vgs-setn-flervalg-bindeord
   type: flervalg
   kapittel: setningsoppbygging-vgs
