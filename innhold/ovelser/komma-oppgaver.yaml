@@ -1,7 +1,7 @@
 - id: komma-sett-helsetninger-1
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Alle jobbet, og de fleste ble ferdige i tide."
   regler: [1]
@@ -9,7 +9,7 @@
 - id: komma-sett-helsetninger-2
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Eleven leste teksten, og læreren stilte spørsmål."
   regler: [1]
@@ -17,7 +17,7 @@
 - id: komma-sett-helsetninger-eller
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Skal vi lese teksten først, eller skal vi begynne å skrive?"
   regler: [1]
@@ -25,7 +25,7 @@
 - id: komma-sett-helsetninger-for
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Vi må øve nå, for eksamen nærmer seg."
   regler: [1]
@@ -33,7 +33,7 @@
 - id: komma-sett-helsetninger-uten-1
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Mia leste novellen og skrev analysen samme kveld."
   regler: [1]
@@ -41,7 +41,7 @@
 - id: komma-sett-helsetninger-uten-2
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Han åpnet døren og gikk inn."
   regler: [1]
@@ -49,7 +49,7 @@
 - id: komma-sett-men-1
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Hun var sliten, men fornøyd."
   regler: [2]
@@ -57,7 +57,7 @@
 - id: komma-sett-men-2
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Novellen er kort, men sterk."
   regler: [2]
@@ -65,7 +65,7 @@
 - id: komma-sett-men-3
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Vi ventet lenge, men bussen kom aldri."
   regler: [1, 2]
@@ -73,7 +73,7 @@
 - id: komma-sett-leddsetning-1
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Når vi er ferdige, kan vi ta pause."
   regler: [3]
@@ -81,7 +81,7 @@
 - id: komma-sett-leddsetning-2
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Hvis du leser teksten nøye, forstår du oppgaven bedre."
   regler: [3]
@@ -89,7 +89,7 @@
 - id: komma-sett-leddsetning-3
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Fordi det regnet, ble vi hjemme."
   regler: [3]
@@ -97,7 +97,7 @@
 - id: komma-sett-leddsetning-4
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Etter at eksamen var over, gikk vi på kafé."
   regler: [3]
@@ -105,7 +105,7 @@
 - id: komma-sett-leddsetning-5
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Selv om han var trett, fortsatte han å skrive."
   regler: [3]
@@ -113,7 +113,7 @@
 - id: komma-sett-leddsetning-6
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Da hun åpnet brevet, skjønte hun alt."
   regler: [3]
@@ -121,7 +121,7 @@
 - id: komma-sett-leddsetning-7
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Siden temaet er viktig, bør du bruke tid på innledningen."
   regler: [3]
@@ -129,7 +129,7 @@
 - id: komma-sett-leddsetning-sist-1
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Vi ble hjemme fordi det regnet."
   regler: [3]
@@ -137,7 +137,7 @@
 - id: komma-sett-leddsetning-sist-2
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Du forstår oppgaven bedre hvis du leser teksten nøye."
   regler: [3]
@@ -145,7 +145,7 @@
 - id: komma-sett-leddsetning-sist-3
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Hun skjønte alt da hun åpnet brevet."
   regler: [3]
@@ -153,7 +153,7 @@
 - id: komma-sett-leddsetning-sist-4
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Vi kan ta pause når vi er ferdige."
   regler: [3]
@@ -161,7 +161,7 @@
 - id: komma-sett-oppramsing-1
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Vi trenger kabel, klips, bryter og skruer."
   regler: [4]
@@ -169,7 +169,7 @@
 - id: komma-sett-oppramsing-2
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Teksten bruker metafor, sammenligning, gjentakelse og kontrast."
   regler: [4]
@@ -177,7 +177,7 @@
 - id: komma-sett-oppramsing-3
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Hun kjøpte melk, egg, smør og brød."
   regler: [4]
@@ -185,7 +185,7 @@
 - id: komma-sett-oppramsing-4
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Etos, logos og patos er de tre appellformene."
   regler: [4]
@@ -193,7 +193,7 @@
 - id: komma-sett-oppramsing-5
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Jeg har lest novellen, diktet og kronikken."
   regler: [4]
@@ -201,7 +201,7 @@
 - id: komma-sett-innskutt-1
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Tore, den eldste sønnen, begynte på skolen."
   regler: [5]
@@ -209,7 +209,7 @@
 - id: komma-sett-innskutt-2
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Læreren vår, Kari Hansen, har rettet prøvene."
   regler: [5]
@@ -217,7 +217,7 @@
 - id: komma-sett-innskutt-3
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Oslo, hovedstaden i Norge, er Norges største by."
   regler: [5]
@@ -225,7 +225,7 @@
 - id: komma-sett-innskutt-4
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Eksamen, som varer i fem timer, starter klokken ni."
   regler: [5]
@@ -233,7 +233,7 @@
 - id: komma-sett-innskutt-5
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Novellen «Faderen», som er skrevet av Bjørnson, handler om sorg."
   regler: [5]
@@ -241,7 +241,7 @@
 - id: komma-sett-svarord-1
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Ja, det stemmer."
   regler: [6]
@@ -249,7 +249,7 @@
 - id: komma-sett-svarord-2
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Nei, jeg har ikke lest den."
   regler: [6]
@@ -257,7 +257,7 @@
 - id: komma-sett-tiltale-1
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Jan, kom og spis!"
   regler: [6]
@@ -265,7 +265,7 @@
 - id: komma-sett-tiltale-2
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Kan du hjelpe meg, Maria?"
   regler: [6]
@@ -273,7 +273,7 @@
 - id: komma-sett-tiltale-3
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Hei, Sofie!"
   regler: [6]
@@ -281,7 +281,7 @@
 - id: komma-sett-blandet-1
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Fordi temaet var vanskelig, brukte jeg mye tid, men jeg ble fornøyd."
   regler: [2, 3]
@@ -289,7 +289,7 @@
 - id: komma-sett-blandet-2
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Når eksamen starter, må du lese alle oppgavene, og så må du velge tema."
   regler: [1, 3]
@@ -297,7 +297,7 @@
 - id: komma-sett-blandet-3
   type: komma
   kapittel: kommaregler
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   setning: "Hvis du er usikker, spør læreren."
   regler: [3]

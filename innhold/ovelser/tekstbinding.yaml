@@ -1,70 +1,70 @@
 - id: bind-fk-hva
   type: flashkort
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Hva er tekstbinding?"
   bakside: "Det som får setninger og avsnitt til å henge sammen, for eksempel overgangsord, henvisninger og temasetninger."
 - id: bind-fk-legge-til
   type: flashkort
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som legger til noe"
   bakside: "Dessuten, i tillegg, også."
 - id: bind-fk-kontrast
   type: flashkort
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som viser kontrast"
   bakside: "Men, derimot, likevel, imidlertid."
 - id: bind-fk-arsak
   type: flashkort
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som gir årsak"
   bakside: "Fordi, siden."
 - id: bind-fk-folge
   type: flashkort
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som viser følge"
   bakside: "Derfor, dermed."
 - id: bind-fk-eksempel
   type: flashkort
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som innleder et eksempel"
   bakside: "For eksempel, blant annet."
 - id: bind-fk-rekkefolge
   type: flashkort
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som viser rekkefølge"
   bakside: "Først, deretter, til slutt."
 - id: bind-fk-konklusjon
   type: flashkort
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som innleder en konklusjon"
   bakside: "Alt i alt, oppsummert."
 - id: bind-fk-henvisning
   type: flashkort
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Hvordan kan du binde setninger sammen uten overgangsord?"
   bakside: "Ved å henvise tilbake («Denne utviklingen bekymrer mange»), ved å starte avsnittet med en temasetning som knytter seg til forrige avsnitt, og ved å variere setningsstarten."
 - id: bind-fv-kontrast
   type: flervalg
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Novellen er kort. ___ rommer den store følelser.»"
   alternativer: ["Likevel", "Derfor", "Først", "For eksempel"]
@@ -73,7 +73,7 @@
 - id: bind-fv-folge
   type: flervalg
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Han glemte å lese oppgaven. ___ misforsto han hva som ble spurt om.»"
   alternativer: ["Derfor", "Likevel", "For eksempel", "Tvert imot"]
@@ -82,7 +82,7 @@
 - id: bind-fv-eksempel
   type: flervalg
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Metaforer gjør teksten levende. ___ gir «natten er en vegg» en følelse av avstand.»"
   alternativer: ["For eksempel", "Men", "Derfor", "Til slutt"]
@@ -91,7 +91,7 @@
 - id: bind-fv-rekkefolge
   type: flervalg
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «___ leser du alle oppgavene. Deretter velger du oppgave.»"
   alternativer: ["Først", "Til slutt", "Likevel", "For eksempel"]
@@ -100,7 +100,7 @@
 - id: bind-fv-konklusjon
   type: flervalg
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Vi har sett på språk, form og tema. ___ kan vi konkludere med at diktet handler om ensomhet.»"
   alternativer: ["Alt i alt", "For eksempel", "Først", "Likevel"]
@@ -109,7 +109,7 @@
 - id: bind-fv-arsak
   type: flervalg
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig ord: «Vi ble hjemme, ___ det regnet.»"
   alternativer: ["fordi", "derfor", "likevel", "dessuten"]
@@ -118,7 +118,7 @@
 - id: bind-fv-men
   type: flervalg
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig ord: «Hun var sliten, ___ hun fortsatte å skrive.»"
   alternativer: ["men", "fordi", "derfor", "dermed"]
@@ -127,7 +127,7 @@
 - id: bind-fv-henvisning
   type: flervalg
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken tekst er best bundet sammen?"
   alternativer: ["Klimaendringene øker. Denne utviklingen bekymrer mange.", "Klimaendringene øker. Klimaendringene øker. Klimaendringene øker.", "Klimaendringene øker. Mange spiser frokost. Det er onsdag.", "Klimaendringene øker. Bekymrer mange."]
@@ -136,7 +136,7 @@
 - id: bind-fv-derimot
   type: flervalg
   kapittel: tekstbinding
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hva gjør overgangsordet «derimot»?"
   alternativer: ["Viser kontrast", "Gir et eksempel", "Viser rekkefølge", "Innleder en konklusjon"]
