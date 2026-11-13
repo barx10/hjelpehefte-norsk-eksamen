@@ -3,6 +3,8 @@ tittel: Virkemidler
 nummer: '5'
 rekkefolge: 5
 gruppe: virkemidler
+nivaa: ['10', 'vg3']
+perNivaa: { vg3: { nummer: '3.1', rekkefolge: 3.1 } }
 ---
 
 Ikke bare benevn virkemidlet. Forklar hva det gjør i teksten.

@@ -1,0 +1,220 @@
+- id: vgs-essay-m-sjanger-1
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken sjanger passer utdraget best til?"
+  utdrag: "Jeg husker første gang jeg kjedet meg uten telefon. Kanskje var det da jeg begynte å tenke."
+  alternativer: ["Essay", "Fagartikkel", "Drøftende tekst"]
+  riktig: 0
+  forklaring: "Personlig stemme, en konkret erfaring og undring peker mot essay."
+- id: vgs-essay-m-sjanger-2
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken sjanger passer utdraget best til?"
+  utdrag: "Denne artikkelen gjør rede for begrepet multietnolekt og drøfter hvordan to tekster framstiller det."
+  alternativer: ["Fagartikkel", "Essay", "Drøftende tekst"]
+  riktig: 0
+  forklaring: "Saklig stemme, fagbegrep og «gjør rede for og drøfter» peker mot fagartikkel."
+- id: vgs-essay-m-sjanger-3
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken sjanger passer utdraget best til?"
+  utdrag: "Et argument for skoleuniform er at det kan redusere kjøpepress. På den andre siden kan uniform begrense ytringsfriheten."
+  alternativer: ["Drøftende tekst", "Essay", "Fagartikkel"]
+  riktig: 0
+  forklaring: "Argument og motargument som veies mot hverandre, peker mot drøftende tekst."
+- id: vgs-essay-m-sjanger-4
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken sjanger passer utdraget best til?"
+  utdrag: "Hva betyr det egentlig å høre til et sted? Jeg er ikke sikker, men jeg vet at jeg kjenner det når jeg går av ferja."
+  alternativer: ["Essay", "Fagartikkel", "Drøftende tekst"]
+  riktig: 0
+  forklaring: "Et åpent spørsmål og en personlig erfaring peker mot essay."
+- id: vgs-essay-m-sjanger-5
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken sjanger passer utdraget best til?"
+  utdrag: "Ifølge Store norske leksikon er kodeveksling å veksle mellom språk eller varieteter i samme samtale."
+  alternativer: ["Fagartikkel", "Essay", "Drøftende tekst"]
+  riktig: 0
+  forklaring: "En definisjon med kildehenvisning peker mot fagartikkel."
+- id: vgs-essay-m-sjanger-6
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken sjanger passer utdraget best til?"
+  utdrag: "Etter å ha vurdert begge sider mener jeg at fordelene veier tyngst, og at forslaget bør innføres."
+  alternativer: ["Drøftende tekst", "Essay", "Fagartikkel"]
+  riktig: 0
+  forklaring: "En konklusjon etter at sidene er veid, peker mot drøftende tekst."
+- id: vgs-essay-m-sjanger-7
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken sjanger passer utdraget best til?"
+  utdrag: "Mormor sa alltid at havet ga og havet tok. Jeg forsto det ikke før nå."
+  alternativer: ["Essay", "Fagartikkel", "Drøftende tekst"]
+  riktig: 0
+  forklaring: "En konkret scene og en tanke som utvikler seg, peker mot essay."
+- id: vgs-essay-m-sjanger-8
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken sjanger passer utdraget best til?"
+  utdrag: "Tekstene viser to ulike syn på dialekt. Vedlegg 1 framstiller dialekt som identitet, mens vedlegg 2 ser den som et hinder."
+  alternativer: ["Fagartikkel", "Essay", "Drøftende tekst"]
+  riktig: 0
+  forklaring: "Saklig sammenligning av tekster peker mot fagartikkel."
+- id: vgs-essay-m-sjanger-9
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken sjanger passer utdraget best til?"
+  utdrag: "Kanskje tar jeg feil. Kanskje er det ikke ensomheten som er problemet, men at vi har sluttet å tåle den."
+  alternativer: ["Essay", "Fagartikkel", "Drøftende tekst"]
+  riktig: 0
+  forklaring: "Motsvar til egen tanke og undring peker mot essay."
+- id: vgs-essay-m-sjanger-10
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken sjanger passer utdraget best til?"
+  utdrag: "Motstanderne hevder at forbudet er for strengt. Det er et godt poeng, men det veier ikke opp for sikkerheten."
+  alternativer: ["Drøftende tekst", "Essay", "Fagartikkel"]
+  riktig: 0
+  forklaring: "Et motargument som blir vurdert, peker mot drøftende tekst."
+- id: vgs-essay-m-grep-1
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket essaygrep er brukt?"
+  utdrag: "Hvorfor er det så vanskelig å si unnskyld når det er så lett å si det til en fremmed?"
+  alternativer: ["Undring", "Konkret scene", "Gjenkomst", "Kontrast"]
+  riktig: 0
+  forklaring: "Et åpent spørsmål uten fasitsvar er undring."
+- id: vgs-essay-m-grep-2
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket essaygrep er brukt?"
+  utdrag: "Klokka var halv sju, og kjøkkenet luktet brent toast. Pappa sto med ryggen til."
+  alternativer: ["Konkret scene", "Undring", "Motsvar", "Kontrast"]
+  riktig: 0
+  forklaring: "Teksten starter i en bestemt situasjon. Det er en konkret scene."
+- id: vgs-essay-m-grep-3
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket essaygrep er brukt?"
+  utdrag: "Men er det egentlig så enkelt? Kanskje er ensomhet noe vi trenger."
+  alternativer: ["Motsvar", "Undring", "Konkret scene", "Gjenkomst"]
+  riktig: 0
+  forklaring: "Skribenten utfordrer sin egen tanke. Det er et motsvar."
+- id: vgs-essay-m-grep-4
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket essaygrep er brukt?"
+  utdrag: "Og så tenker jeg på brent toast igjen, og på pappa som sto med ryggen til."
+  alternativer: ["Gjenkomst", "Konkret scene", "Kontrast", "Undring"]
+  riktig: 0
+  forklaring: "Et bilde fra inngangen kommer tilbake. Det er gjenkomst."
+- id: vgs-essay-m-grep-5
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket essaygrep er brukt?"
+  utdrag: "Før var kjedsomhet noe vi flyktet fra. Nå er den nesten en luksus."
+  alternativer: ["Kontrast", "Motsvar", "Gjenkomst", "Undring"]
+  riktig: 0
+  forklaring: "Før og nå settes opp mot hverandre. Det er kontrast."
+- id: vgs-essay-m-grep-6
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket essaygrep er brukt?"
+  utdrag: "Jeg trodde jeg visste hva frihet var. Etter å ha lest vedlegg 2 er jeg ikke så sikker lenger."
+  alternativer: ["Motsvar", "Konkret scene", "Gjenkomst", "Kontrast"]
+  riktig: 0
+  forklaring: "Skribenten stiller spørsmål ved sitt eget syn. Det er et motsvar."
+- id: vgs-essay-m-feil-1
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva er problemet med essayet?"
+  utdrag: "Essayet lister tre argumenter for og tre imot og ender med «Derfor mener jeg at ...»."
+  alternativer: ["Essayet er blitt en drøfting", "Essayet er blitt en dagbok", "Tråden er blitt borte", "Slutten oppsummerer"]
+  riktig: 0
+  forklaring: "Essayet skal utforske, ikke veie argumenter mot hverandre og konkludere."
+- id: vgs-essay-m-feil-2
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva er problemet med essayet?"
+  utdrag: "Essayet handler bare om skribentens sommerferie og nevner ikke vedleggene."
+  alternativer: ["Essayet er blitt en dagbok", "Essayet er blitt en drøfting", "Slutten oppsummerer", "Tråden er blitt borte"]
+  riktig: 0
+  forklaring: "Et essay skal veksle mellom erfaring og kunnskap og bruke vedleggene."
+- id: vgs-essay-m-feil-3
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva er problemet med essayet?"
+  utdrag: "Essayet starter med vennskap, går over til klima og ender med fotball."
+  alternativer: ["Tråden er blitt borte", "Essayet er blitt en drøfting", "Essayet er blitt en dagbok", "Slutten oppsummerer"]
+  riktig: 0
+  forklaring: "Assosiasjonene har tatt over, og det finnes ikke lenger én tanke som binder teksten sammen."
+- id: vgs-essay-m-feil-4
+  type: flervalg
+  kapittel: essay-vgs
+  mal: [mvg3-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva er problemet med essayet?"
+  utdrag: "Siste avsnitt gjentar punkt for punkt det som står i de andre avsnittene."
+  alternativer: ["Slutten oppsummerer", "Tråden er blitt borte", "Essayet er blitt en dagbok", "Essayet er blitt en drøfting"]
+  riktig: 0
+  forklaring: "En god slutt gir leseren noe nytt å tenke på."

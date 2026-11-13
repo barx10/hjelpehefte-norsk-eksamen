@@ -1,7 +1,7 @@
 ---
 tittel: Realisme og naturalisme
-nummer: '5.2'
-rekkefolge: 5.2
+nummer: '5.5'
+rekkefolge: 5.5
 gruppe: litteratur
 status: godkjent
 nivaa: ['vg3']

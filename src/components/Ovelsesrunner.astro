@@ -5,8 +5,9 @@ import Illustrasjon from './Illustrasjon.astro';
 interface Props {
   ovelser: unknown[];
   tittel: string;
+  skrivedata: unknown;
 }
-const { ovelser, tittel } = Astro.props;
+const { ovelser, tittel, skrivedata } = Astro.props;
 ---
 <section class="runner" id="runner" aria-label={`Øvelser: ${tittel}`}>
   <p>Laster øvelser ...</p>
@@ -15,10 +16,13 @@ const { ovelser, tittel } = Astro.props;
 <template id="bilde-start"><Illustrasjon motiv="ov" class="runner-bilde" /></template>
 <template id="bilde-ferdig"><Illustrasjon motiv="ferdig" class="runner-bilde" /></template>
 <script type="application/json" id="ovelser-data" set:html={tilJson(ovelser)} />
+<script type="application/json" id="skrive-data" set:html={tilJson(skrivedata)} />
 
 <script>
   import { les, lagre, oppdater, velgOkt, stokk, antallMestret } from '../lib/fremgang';
   import { stokkForskjellig, ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus } from '../lib/tekstverktoy';
+  import { lagTilbakemelding, lagEgenvurdering, lagOmskriving, type KapittelLenker } from '../lib/tilbakemelding';
+  import { sjangerFor } from '../lib/tekstsjekk';
   import { lesSkriveutkast, lagreSkriveutkast } from '../lib/lager';
   import type { Fremgang } from '../lib/fremgang';
 
@@ -41,7 +45,7 @@ const { ovelser, tittel } = Astro.props;
   };
   type Marker = Felles & { type: 'marker'; oppdrag: string; ord: string[]; riktig: boolean[]; forklaring: string; fasitTekst: string };
   type Skriv = Felles & {
-    type: 'skriv'; oppdrag: string; utdrag: string | null; starttekst: string; ord: { min: number; maks: number };
+    type: 'skriv'; kapittelId: string; oppdrag: string; utdrag: string | null; starttekst: string; ord: { min: number; maks: number };
     nokkelord: string[]; nokkelordMinst: number; sitat: boolean; kriterier: string[]; modelltekst: string; modellkommentar: string; fasitTekst: string; forklaring: string;
   };
   type Ovelse = Flashkort | Flervalg | Komma | FinnFeil | Sortering | Rekkefolge | Matching | Marker | Skriv;
@@ -67,9 +71,15 @@ const { ovelser, tittel } = Astro.props;
     [4, 'Regel 4: oppramsing'],
     [5, 'Regel 5: innskutte ledd'],
     [6, 'Regel 6: svarord og tiltaleord'],
+    [7, 'Regel 7: leddsetning inne i setningen'],
+    [8, 'Regel 8: som-setning som ikke er nødvendig'],
+    [9, 'Regel 9: etterstilt tillegg'],
+    [10, 'Regel 10: flere adjektiver'],
+    [11, 'Regel 11: når det ikke skal være komma'],
   ];
   const rot = document.getElementById('runner') as HTMLElement;
   const data: Ovelse[] = JSON.parse(document.getElementById('ovelser-data')!.textContent ?? '[]');
+  const skrivedata: { trinn: string; kapitler: KapittelLenker; skrivefeil: { feil: string; rettelse: string }[] } = JSON.parse(document.getElementById('skrive-data')!.textContent ?? '{}');
   const visKapittel = new Set(data.map((o) => o.kapittel)).size > 1;
 
   let fremgang: Fremgang = les();
@@ -640,9 +650,29 @@ const { ovelser, tittel } = Astro.props;
       if (o.sitat) punkt(harSitat(tekst), harSitat(tekst) ? 'Du har brukt sitat i anførselstegn.' : 'Du har ikke brukt sitat i anførselstegn.');
       if (o.ord.maks > 150) punkt(antallAvsnitt(tekst) >= 2, `Avsnitt: ${antallAvsnitt(tekst)}. Hopp over en linje mellom avsnittene.`);
 
-      const krysser: HTMLInputElement[] = o.kriterier.map((_, i) => el('input', { type: 'checkbox', id: `${id}-k${i}` }));
-      const egenvurdering = el('fieldset', { class: 'egenvurdering' }, el('legend', {}, 'Vurder deg selv: stemmer dette med teksten din?'));
-      o.kriterier.forEach((k, i) => egenvurdering.append(el('div', { class: 'kriterium' }, krysser[i]!, el('label', { for: `${id}-k${i}` }, k))));
+      // Egenvurdering med belegg og omskriving. Bygges på nytt når eleven bytter inn et omskrevet avsnitt.
+      const revisjonsflate = el('div', {});
+      let vurderinger: () => Record<number, { ok: boolean; belegg: string }> = () => ({});
+      const byggRevisjon = (svar: string) => {
+        const forrige = vurderinger();
+        const tilbake = lagTilbakemelding({
+          tekst: svar, sjanger: sjangerFor(o.kapittelId), oppgave: o.utdrag ? `${o.oppdrag}\n\n${o.utdrag}` : o.oppdrag,
+          kjennetegn: o.kriterier, trinn: skrivedata.trinn, kapitler: skrivedata.kapitler, skrivefeil: skrivedata.skrivefeil, visOversikt: o.ord.maks > 150,
+        });
+        const ev = lagEgenvurdering({ kjennetegn: o.kriterier, tekst: svar, prefiks: id, overskrift: 'Vurder deg selv: stemmer dette med teksten din?', lagret: forrige, vedEndring: () => {} });
+        vurderinger = ev.vurdering;
+        const om = lagOmskriving({
+          tekst: svar, prefiks: id, kjennetegn: o.kriterier, vurdering: ev.vurdering,
+          vedBytt: (ny) => {
+            felt.value = ny;
+            oppdaterTeller();
+            byggRevisjon(ny);
+            revisjonsflate.querySelector('.omskriving h4')?.after(el('p', { class: 'melding', role: 'status' }, 'Avsnittet er byttet inn, og tilbakemeldingen er oppdatert.'));
+          },
+        });
+        revisjonsflate.replaceChildren(tilbake, el('h3', {}, 'Egenvurdering'), ev.el, om);
+      };
+      byggRevisjon(tekst);
 
       const modell = el('details', { class: 'modell' },
         el('summary', {}, 'Se et eksempel på et godt svar'),
@@ -651,7 +681,8 @@ const { ovelser, tittel } = Astro.props;
 
       const fullfor = el('button', { class: 'knapp', type: 'button' }, indeks + 1 < okt.length ? 'Fullfør og gå videre' : 'Fullfør og se resultat');
       fullfor.addEventListener('click', () => {
-        const alleKrysset = krysser.every((k) => k.checked);
+        const v = vurderinger();
+        const alleKrysset = o.kriterier.every((_, i) => v[i]?.ok);
         window.clearTimeout(timer);
         lagreSkriveutkast(o.id, '');
         registrer(o, alleKrysset);
@@ -659,8 +690,7 @@ const { ovelser, tittel } = Astro.props;
       });
 
       flate.append(
-        el('h3', {}, 'Automatisk sjekk'), auto,
-        el('h3', {}, 'Egenvurdering'), egenvurdering,
+        el('h3', {}, 'Automatisk sjekk'), auto, revisjonsflate,
         modell,
         el('p', { class: 'tastehint' }, 'Du får regnet øvelsen som mestret når du har krysset av for alle punktene. Vær ærlig, det er deg selv du lurer.'),
         el('div', { class: 'knapp-rad' }, fullfor),

@@ -63,6 +63,36 @@ Oppgaven ber deg utforske innholdet i vedleggene. Det betyr at du møter dem i t
 
 </div>
 
+## Hvor kommer essayet fra?
+
+Ordet essay kommer fra fransk «essai», som betyr forsøk. Den franske forfatteren Michel de Montaigne ga ut boka Essais i 1580. Han skrev om seg selv og om store spørsmål, og han prøvde ut tanker uten å påstå at han hadde det endelige svaret. Det er fortsatt kjernen i sjangeren.
+
+## Essaygrep
+
+| Grep | Hva det er | Slik kan det lyde |
+|---|---|---|
+| Undring | Du stiller spørsmål du ikke har svaret på. | «Hvorfor er det så vanskelig å si unnskyld?» |
+| Konkret scene | Du starter i en situasjon og tenker videre fra den. | «Mormor holdt alltid koppen med begge hender.» |
+| Motsvar | Du utfordrer din egen tanke. | «Men kanskje tar jeg feil.» |
+| Assosiasjon | En tanke fører til en annen, men tråden holdes. | «Det minner meg om noe vedlegg 2 sier.» |
+| Gjenkomst | Et bilde fra inngangen kommer tilbake i slutten. | Bussen fra inngangen dukker opp igjen i siste avsnitt. |
+| Kontrast | Du setter to ting opp mot hverandre. | «Før var kjedsomhet et problem. Nå er den en luksus.» |
+
+## Essay om litterære tekster
+
+Oppgaven kan be deg skrive et essay som utforsker innholdet i én eller flere tekster, også skjønnlitterære. Da er tekstene ikke bare eksempler. De er det du tenker gjennom.
+
+- Les tekstene og finn et spørsmål de reiser, for eksempel om ensomhet eller frihet.
+- La tekstene belyse spørsmålet fra ulike sider.
+- Bruk fagbegreper når du viser til tekstene, men behold den personlige stemmen.
+
+## Vanlige feil
+
+- **Essayet blir en drøfting.** Du lister argumenter for og imot og konkluderer, i stedet for å utforske.
+- **Essayet blir en dagbok.** Du skriver bare om deg selv og bruker ikke vedleggene.
+- **Tråden blir borte.** Assosiasjonene tar over, og leseren skjønner ikke hvor du vil.
+- **Slutten oppsummerer.** En god slutt gir leseren noe nytt å tenke på.
+
 ## Før du leverer
 
 - Er det en rød tråd fra første til siste avsnitt?

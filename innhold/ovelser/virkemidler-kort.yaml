@@ -1,140 +1,140 @@
 - id: virk-sammenligning
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Sammenligning. Hva er det, og hva gjør det?"
   bakside: "Sammenligner ved hjelp av «som», «lik» eller «minne om». Skaper et bilde. «Han var sterk som en okse» og vi ser styrken."
 - id: virk-metafor
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Metafor. Hva er det, og hva gjør det?"
   bakside: "Sammenligning uten «som». Noe kalles noe annet direkte. Mer slående enn sammenligning. «Livet er en berg-og-dal-bane»"
 - id: virk-personifikasjon
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Personifikasjon. Hva er det, og hva gjør det?"
   bakside: "Abstrakte ting får menneskelige egenskaper. «Tiden flyr» og vi forstår at livet går fort."
 - id: virk-besjeling
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Besjeling. Hva er det, og hva gjør det?"
   bakside: "Konkrete ting (dyr, planter) får menneskelig sjel. «Sola smiler» og teksten får varme og glede."
 - id: virk-retorisk-sporsmal
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Retorisk spørsmål. Hva er det, og hva gjør det?"
   bakside: "Spørsmål der svaret er innebygd. Aktiverer leseren. «Er det ikke på tide å handle?»"
 - id: virk-gjentakelse
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Gjentakelse. Hva er det, og hva gjør det?"
   bakside: "Et ord eller en frase gjentas. Slår et poeng fast. «Jeg er fri. Fri som aldri før.»"
 - id: virk-overdrivelse
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Overdrivelse. Hva er det, og hva gjør det?"
   bakside: "Sier mer enn det faktisk er. Humor eller dramatikk. «Jeg lo meg i hjel.»"
 - id: virk-understatement
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Underdrivelse. Hva er det, og hva gjør det?"
   bakside: "Sier mindre enn det faktisk er. Ironi. «Det gikk ikke helt etter planen» (om en katastrofe)."
 - id: virk-allusjon
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Allusjon. Hva er det, og hva gjør det?"
   bakside: "Hentydning til noe kjent (Bibelen, historien, litteratur). Gir dybde for den som kjenner referansen."
 - id: virk-korte-setninger
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Korte setninger. Hva er det, og hva gjør det?"
   bakside: "Setninger med få ord. Tempo og trykk. «Jeg ga meg ikke. Skulle ikke gi meg.»"
 - id: virk-kontrast
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Kontrast. Hva er det, og hva gjør det?"
   bakside: "Motsetninger settes opp mot hverandre. «Det var mørkt ute, men inni henne skinte lyset.»"
 - id: virk-symbol
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Symbol. Hva er det, og hva gjør det?"
   bakside: "En ting får en dypere, abstrakt betydning. En due = fred. Søvnen i «Du må ikke sove» = passivitet og likegyldighet overfor urett."
 - id: virk-motiv
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Motiv. Hva er det, og hva gjør det?"
   bakside: "Det konkrete handlingen handler om. «To kjærester på en benk» er motivet."
 - id: virk-tema
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Tema. Hva er det, og hva gjør det?"
   bakside: "Det abstrakte budskapet bak motivet. Temaet bak «to kjærester på en benk» kan være ensomhet."
 - id: virk-frampek
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Frampek. Hva er det, og hva gjør det?"
   bakside: "Hint om hva som skal skje. «Han ante ikke at dette var siste gang.» Bygger spenning."
 - id: virk-in-medias-res
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: In medias res. Hva er det, og hva gjør det?"
   bakside: "Teksten starter midt i handlingen. «Blodet piplet fra pannen da hun reiste seg.» Umiddelbar dramatikk."
 - id: virk-vendepunkt
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Vendepunkt. Hva er det, og hva gjør det?"
   bakside: "Et tydelig skifte i handlingen. «Da han åpnet brevet, skjønte han alt.»"
 - id: virk-hoydepunkt
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Høydepunkt. Hva er det, og hva gjør det?"
   bakside: "Det mest dramatiske øyeblikket. Det leseren har ventet på. Spenningen brister."
 - id: virk-sirkelkomposisjon
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Sirkelkomposisjon. Hva er det, og hva gjør det?"
   bakside: "Teksten starter og slutter likt. Gir en følelse av at lite har forandret seg."
 - id: virk-parallellhandlinger
   type: flashkort
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Parallellhandlinger. Hva er det, og hva gjør det?"
   bakside: "To handlinger skjer samtidig. Viser sammenheng eller kontrast mellom karakterer."

@@ -4,6 +4,7 @@ nummer: '13'
 rekkefolge: 13
 gruppe: sprak
 status: godkjent
+nivaa: ['10', 'vg3']
 ---
 
 Et godt avsnitt har ett poeng og følger en fast rekkefølge. Det gjelder uansett om du analyserer, drøfter eller reflekterer.

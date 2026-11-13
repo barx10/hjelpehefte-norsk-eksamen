@@ -1,7 +1,7 @@
 - id: avs-rekke-1
   type: rekkefolge
   kapittel: avsnitt
-  mal: [m10-12]
+  mal: [m10-12, mvg1-11]
   status: godkjent
   oppdrag: "Sett setningene i riktig rekkefølge i avsnittet."
   elementer: ["Metaforen gjør ensomheten konkret.", "Forfatteren skriver at «natten er en vegg mellom oss».", "Ordet «vegg» får oss til å se noe fast og kaldt som stenger noen ute.", "Dermed forstår leseren at avstanden mellom personene ikke er tilfeldig, men uoverstigelig."]
@@ -9,7 +9,7 @@
 - id: avs-rekke-2
   type: rekkefolge
   kapittel: avsnitt
-  mal: [m10-12]
+  mal: [m10-12, mvg1-11]
   status: godkjent
   oppdrag: "Sett setningene i riktig rekkefølge i avsnittet."
   elementer: ["Avsenderen bygger troverdighet ved å vise til egen erfaring.", "Hun skriver at hun har arbeidet som sykepleier i tjue år.", "Slik viser hun at hun vet hva hun snakker om.", "Dette gjør leseren mer mottakelig for resten av argumentasjonen."]
@@ -17,7 +17,7 @@
 - id: avs-sort-1
   type: sortering
   kapittel: avsnitt
-  mal: [m10-12]
+  mal: [m10-12, mvg1-11]
   status: godkjent
   oppdrag: "Hvilken funksjon har setningen i avsnittet?"
   kategorier: ["Temasetning", "Belegg", "Forklaring", "Kobling"]
@@ -34,7 +34,7 @@
 - id: avs-sort-2
   type: sortering
   kapittel: avsnitt
-  mal: [m10-12]
+  mal: [m10-12, mvg1-11]
   status: godkjent
   oppdrag: "Hvilken funksjon har setningen i avsnittet?"
   kategorier: ["Temasetning", "Belegg", "Forklaring", "Kobling"]
@@ -51,7 +51,7 @@
 - id: avs-fv-temasetning
   type: flervalg
   kapittel: avsnitt
-  mal: [m10-12]
+  mal: [m10-12, mvg1-11]
   status: godkjent
   spm: "Hvilken temasetning passer til resten av avsnittet?"
   alternativer: ["Novellen bruker kontrast for å vise hvor ensom hovedpersonen er.", "Novellen er skrevet i en bestemt tid.", "Det er mange mennesker i verden.", "Jeg skal nå skrive om noe annet."]
@@ -61,7 +61,7 @@
 - id: avs-fv-mangler
   type: flervalg
   kapittel: avsnitt
-  mal: [m10-12]
+  mal: [m10-12, mvg1-11]
   status: godkjent
   spm: "Hva mangler i dette avsnittet?"
   alternativer: ["Forklaring av hva sitatet viser", "Et sitat", "En tittel", "Et årstall"]
@@ -71,7 +71,7 @@
 - id: avs-fv-belegg
   type: flervalg
   kapittel: avsnitt
-  mal: [m10-12]
+  mal: [m10-12, mvg1-11]
   status: godkjent
   spm: "Hva mangler i dette avsnittet?"
   alternativer: ["Et sitat eller eksempel fra teksten som viser påstanden", "En forklaring", "En temasetning", "En avslutning med spørsmål"]

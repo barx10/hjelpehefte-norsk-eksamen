@@ -1,0 +1,278 @@
+- id: vgs-kont-m-type-1
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken slags kontekst bruker setningen?"
+  utdrag: "Novellen ble skrevet da kvinner ikke hadde stemmerett."
+  alternativer: ["Samfunnshistorisk", "Litteraturhistorisk", "Biografisk", "Publisering"]
+  riktig: 0
+  forklaring: "Setningen viser til hvordan samfunnet var da teksten ble skrevet."
+- id: vgs-kont-m-type-2
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken slags kontekst bruker setningen?"
+  utdrag: "Teksten er typisk for realismen, der litteraturen skulle sette problemer under debatt."
+  alternativer: ["Litteraturhistorisk", "Samfunnshistorisk", "Biografisk", "Publisering"]
+  riktig: 0
+  forklaring: "Setningen plasserer teksten i en litterær periode."
+- id: vgs-kont-m-type-3
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken slags kontekst bruker setningen?"
+  utdrag: "Forfatteren vokste selv opp i en fiskerfamilie i Lofoten."
+  alternativer: ["Biografisk", "Samfunnshistorisk", "Litteraturhistorisk", "Publisering"]
+  riktig: 0
+  forklaring: "Setningen sier noe om forfatterens liv."
+- id: vgs-kont-m-type-4
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken slags kontekst bruker setningen?"
+  utdrag: "Talen ble holdt på et folkemøte dagen før valget."
+  alternativer: ["Publisering", "Samfunnshistorisk", "Litteraturhistorisk", "Biografisk"]
+  riktig: 0
+  forklaring: "Setningen sier hvor og for hvem teksten ble framført."
+- id: vgs-kont-m-type-5
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken slags kontekst bruker setningen?"
+  utdrag: "Diktet bryter med rim og fast form, slik mange modernister gjorde."
+  alternativer: ["Litteraturhistorisk", "Samfunnshistorisk", "Biografisk", "Publisering"]
+  riktig: 0
+  forklaring: "Setningen knytter teksten til modernismen."
+- id: vgs-kont-m-type-6
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken slags kontekst bruker setningen?"
+  utdrag: "Innlegget sto i en lokalavis og var skrevet til folk i kommunen."
+  alternativer: ["Publisering", "Samfunnshistorisk", "Litteraturhistorisk", "Biografisk"]
+  riktig: 0
+  forklaring: "Setningen sier hvor teksten sto og hvem som leste den."
+- id: vgs-kont-m-type-7
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken slags kontekst bruker setningen?"
+  utdrag: "Teksten kom ut mens fornorskingspolitikken fortsatt preget skolen."
+  alternativer: ["Samfunnshistorisk", "Litteraturhistorisk", "Biografisk", "Publisering"]
+  riktig: 0
+  forklaring: "Setningen viser til hva som skjedde i samfunnet."
+- id: vgs-kont-m-type-8
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken slags kontekst bruker setningen?"
+  utdrag: "Forfatteren mistet faren sin tidlig, og sorg går igjen i flere av bøkene."
+  alternativer: ["Biografisk", "Samfunnshistorisk", "Litteraturhistorisk", "Publisering"]
+  riktig: 0
+  forklaring: "Setningen sier noe om forfatterens liv."
+- id: vgs-kont-m-type-9
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken slags kontekst bruker setningen?"
+  utdrag: "Diktet hyller naturen og nasjonen, slik nasjonalromantikerne gjorde."
+  alternativer: ["Litteraturhistorisk", "Samfunnshistorisk", "Biografisk", "Publisering"]
+  riktig: 0
+  forklaring: "Setningen plasserer teksten i nasjonalromantikken."
+- id: vgs-kont-m-type-10
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken slags kontekst bruker setningen?"
+  utdrag: "Teksten ble skrevet like etter at Norge fikk egen grunnlov i 1814."
+  alternativer: ["Samfunnshistorisk", "Litteraturhistorisk", "Biografisk", "Publisering"]
+  riktig: 0
+  forklaring: "Setningen viser til en hendelse i samfunnet."
+- id: vgs-kont-m-bruk-1
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er konteksten brukt godt eller dårlig?"
+  utdrag: "Teksten er skrevet i 1880, da realistene ville debattere samfunnsproblemer. Det forklarer hvorfor fortelleren lar leseren se hvor få valg Marie har."
+  alternativer: ["Godt brukt", "Dårlig brukt"]
+  riktig: 0
+  forklaring: "Konteksten blir brukt til å forklare noe i teksten."
+- id: vgs-kont-m-bruk-2
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er konteksten brukt godt eller dårlig?"
+  utdrag: "Teksten er skrevet i 1880. Da var realismen viktig. Ibsen og Kielland skrev også i denne perioden."
+  alternativer: ["Dårlig brukt", "Godt brukt"]
+  riktig: 0
+  forklaring: "Setningen forteller om perioden eller forfatteren uten å knytte det til teksten."
+- id: vgs-kont-m-bruk-3
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er konteksten brukt godt eller dårlig?"
+  utdrag: "Diktet bryter med rim, slik modernistene gjorde, og de brutte linjene speiler et jeg som er i oppløsning."
+  alternativer: ["Godt brukt", "Dårlig brukt"]
+  riktig: 0
+  forklaring: "Konteksten blir brukt til å forklare noe i teksten."
+- id: vgs-kont-m-bruk-4
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er konteksten brukt godt eller dårlig?"
+  utdrag: "Modernismen kom omkring 1900. Den preget litteraturen fram til 1980, og mange forfattere skrev i frie vers."
+  alternativer: ["Dårlig brukt", "Godt brukt"]
+  riktig: 0
+  forklaring: "Setningen forteller om perioden eller forfatteren uten å knytte det til teksten."
+- id: vgs-kont-m-bruk-5
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er konteksten brukt godt eller dårlig?"
+  utdrag: "Forfatteren er same, og det kan forklare hvorfor tausheten om språket i novellen får så stor vekt."
+  alternativer: ["Godt brukt", "Dårlig brukt"]
+  riktig: 0
+  forklaring: "Konteksten blir brukt til å forklare noe i teksten."
+- id: vgs-kont-m-bruk-6
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er konteksten brukt godt eller dårlig?"
+  utdrag: "Forfatteren er født i 1965 og har skrevet mange bøker. Hun bor i Tromsø."
+  alternativer: ["Dårlig brukt", "Godt brukt"]
+  riktig: 0
+  forklaring: "Setningen forteller om perioden eller forfatteren uten å knytte det til teksten."
+- id: vgs-kont-m-bruk-7
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er konteksten brukt godt eller dårlig?"
+  utdrag: "I dag leser vi datterens taushet som et tegn på hvor lite rom hun har, mer enn som lydighet."
+  alternativer: ["Godt brukt", "Dårlig brukt"]
+  riktig: 0
+  forklaring: "Konteksten blir brukt til å forklare noe i teksten."
+- id: vgs-kont-m-bruk-8
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er konteksten brukt godt eller dårlig?"
+  utdrag: "Romantikken varte fra omkring 1800 til 1850, og mange skrev om naturen."
+  alternativer: ["Dårlig brukt", "Godt brukt"]
+  riktig: 0
+  forklaring: "Setningen forteller om perioden eller forfatteren uten å knytte det til teksten."
+- id: vgs-kont-m-periode-1
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken periode kjennetegnes av «ære, ætt og skjebne»?"
+  alternativer: ["Norrøn tid", "Barokk", "Romantikk", "Naturalisme"]
+  riktig: 0
+  forklaring: "Se tabellen over periodene i kapittelet."
+- id: vgs-kont-m-periode-2
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken periode kjennetegnes av «forgjengelighet og sterke kontraster»?"
+  alternativer: ["Barokk", "Opplysningstid", "Realisme", "Modernisme"]
+  riktig: 0
+  forklaring: "Se tabellen over periodene i kapittelet."
+- id: vgs-kont-m-periode-3
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken periode kjennetegnes av «fornuft og satire»?"
+  alternativer: ["Opplysningstid", "Romantikk", "Naturalisme", "Postmodernisme"]
+  riktig: 0
+  forklaring: "Se tabellen over periodene i kapittelet."
+- id: vgs-kont-m-periode-4
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken periode kjennetegnes av «følelse, natur og nasjonen»?"
+  alternativer: ["Romantikk", "Realisme", "Modernisme", "Norrøn tid"]
+  riktig: 0
+  forklaring: "Se tabellen over periodene i kapittelet."
+- id: vgs-kont-m-periode-5
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken periode kjennetegnes av «samfunnsdebatt og virkelighetsnær skildring»?"
+  alternativer: ["Realisme", "Naturalisme", "Postmodernisme", "Barokk"]
+  riktig: 0
+  forklaring: "Se tabellen over periodene i kapittelet."
+- id: vgs-kont-m-periode-6
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken periode kjennetegnes av «arv og miljø, det harde og stygge»?"
+  alternativer: ["Naturalisme", "Modernisme", "Norrøn tid", "Opplysningstid"]
+  riktig: 0
+  forklaring: "Se tabellen over periodene i kapittelet."
+- id: vgs-kont-m-periode-7
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken periode kjennetegnes av «indre liv og fragmentering»?"
+  alternativer: ["Modernisme", "Postmodernisme", "Barokk", "Romantikk"]
+  riktig: 0
+  forklaring: "Se tabellen over periodene i kapittelet."
+- id: vgs-kont-m-periode-8
+  type: flervalg
+  kapittel: kontekst-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken periode kjennetegnes av «lek, ironi og blandete former»?"
+  alternativer: ["Postmodernisme", "Norrøn tid", "Opplysningstid", "Realisme"]
+  riktig: 0
+  forklaring: "Se tabellen over periodene i kapittelet."

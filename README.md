@@ -42,6 +42,8 @@ Feltet `nivaa` styrer hvor innholdet vises. Kodene er `'10'` og `'vg3'`.
 
 En øvelse vises bare når kapittelet den hører til, også vises på nivået.
 
+Et kapittel som brukes på flere nivåer, kan få eget nummer og egen plass på ett nivå med `perNivaa: { vg3: { nummer: '3.1', rekkefolge: 3.1 } }`.
+
 Modelltekster vises i kapittelet som har samme id som tekstens `type`. Et kapittel med en annen id kan velge typer selv med `tekstTyper: [novelleanalyse, diktanalyse]` i toppen av kapittelet. Nye nivåer legges til i `src/lib/nivaa.ts`.
 
 ### Heftet
@@ -87,7 +89,7 @@ Flashkort har `forside` og `bakside` i stedet for spørsmål, alternativer og fo
 |---|---|---|
 | `flashkort` | Vender kort | `forside`, `bakside` |
 | `flervalg` | Velger ett svar | `spm`, `alternativer`, `riktig`, `forklaring`, `utdrag` (valgfri) |
-| `komma` | Trykker på ordene der det skal være komma | `setning` (riktig setning med komma), `regler`, `forklaring` |
+| `komma` | Trykker på ordene der det skal være komma | `setning` (riktig setning med komma), `regler` (1 til 11), `forklaring` |
 | `finnfeil` | Trykker på ordet som er feil | `tekst`, `feil`, `rettelse`, `forklaring` |
 | `sortering` | Plasserer hvert element i en kategori | `oppdrag`, `kategorier`, `elementer` (`tekst`, `kategori` som tall fra 0), `forklaring` |
 | `rekkefolge` | Setter elementene i riktig rekkefølge | `oppdrag`, `elementer` (skriv dem i riktig rekkefølge), `forklaring` |
@@ -97,11 +99,15 @@ Flashkort har `forside` og `bakside` i stedet for spørsmål, alternativer og fo
 
 **Rekkefølge med ord og setningsledd:** Øvelsen godtar bare én fasit. Kan setningen bygges på flere korrekte måter, må `oppdrag` si hvilket setningsledd setningen begynner med (for eksempel tidsadverbial eller subjekt). Oppdraget skal ikke si hvor de andre leddene står, for det er det eleven skal øve på.
 
+### Tilbakemelding på skriving
+
+Skriveøvelser og eksamenstreningen viser automatiske sjekker etter levering (`src/lib/tekstsjekk.ts`), en oversikt over første setning i hvert avsnitt og en knapp som kopierer en ledetekst eleven kan bruke i et KI-verktøy skolen har godkjent. Visningen ligger i `src/lib/tilbakemelding.ts`. Sjekkene velges etter sjanger, som hentes fra kapittelet øvelsen eller malen hører til. Sjekker som oftere tar feil, som kommaskjøt, fortid i analyse og manglende motargument, er merket «Usikker» og vises etter de sikre. Ordlisten over skrivefeil hentes fra finn feilen-øvelsene i kapittelet om skrivefeil (`hentSkrivefeil` i `src/lib/innhold.ts`). Bare feilstavinger, ord som skal skrives i to ord, hv-ord og særskriving er med. Sjekkene skal heller la være å melde fra enn å gi feil alarm. Nye sjekker skal ha tester med både tekster som skal gi funn og tekster som ikke skal det, og de bør prøves mot modelltekstene. Etter sjekkene vurderer eleven seg selv mot kjennetegnene og limer inn setningen fra svaret som viser hvert av dem. Siden sjekker at setningen faktisk står i svaret. Kjennetegn uten belegg blir forbedringspunkter, og eleven kan velge ett av dem, skrive om ett avsnitt, se før og etter og bytte det nye avsnittet inn i svaret. Logikken ligger i `src/lib/revisjon.ts`. Ingen tekst sendes fra siden.
+
 ### Mengdetrening
 
 Eleven velger hvor mange øvelser økten skal ha (10, 20, 40 eller alle). I temaet med kommaoppgaver kan eleven også øve på én kommaregel om gangen. Valget bruker feltet `regler`.
 
-Filene som slutter på `-mengde.yaml`, har mange korte oppgaver av samme slag: komma, finn feilen, overgangsord og virkemidler. For vgs finnes mengdefiler for setningsoppbygging, retorisk analyse, talespråk, instruksjonsord og litteratur (`vgs-*-mengde.yaml`). De står som `utkast` til de er gjennomgått.
+Filene som slutter på `-mengde.yaml`, har mange korte oppgaver av samme slag: komma, finn feilen, overgangsord og virkemidler. For vgs finnes mengdefiler for setningsoppbygging, retorisk analyse, talespråk, instruksjonsord, litteratur, kortsvar, essay, kontekst, språksituasjon, samisk, fagartikkel og realisme (`vgs-*-mengde.yaml`). De står som `utkast` til de er gjennomgått.
 
 Alle typer kan ha `fraTekst: <id>` som peker på en tekst i `innhold/besvarelser/`. Da vises forfatter, lisens og kilde under øvelsen.
 

@@ -1,0 +1,256 @@
+- id: vgs-norr-kort-sjangre
+  type: flashkort
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  forside: "Hvilke tre hovedsjangre har norrøn litteratur?"
+  bakside: "Eddadikt, skaldedikt og sagaer."
+- id: vgs-norr-kort-sagastil
+  type: flashkort
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  forside: "Nevn fire kjennetegn ved sagastilen."
+  bakside: "Objektiv forteller, indirekte personskildring, underdrivelse og frampek. Også korte replikker og ættetavler."
+- id: vgs-norr-kort-kenning
+  type: flashkort
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  forside: "Hva er en kenning?"
+  bakside: "En omskrivning i skaldediktningen, for eksempel «havets hest» for skip."
+- id: vgs-norr-kort-verdier
+  type: flashkort
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  forside: "Hvilke verdier styrer handlingene i sagaene?"
+  bakside: "Ære, ætt og hevn, skjebnetro og ettermæle."
+- id: vgs-norr-fv-havamal
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva slags tekst er Håvamål?"
+  alternativer: ["Et eddadikt med råd om hvordan man skal leve", "En islendingesaga", "Et skaldedikt til en konge", "En kongesaga"]
+  riktig: 0
+  forklaring: "Håvamål er et eddadikt. Det gir råd om klokskap, gjestfrihet og ettermæle."
+- id: vgs-norr-fv-voluspa
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva handler Voluspå om?"
+  alternativer: ["Verdens skapelse og undergang", "En islandsk ættefeide", "Kongene i Norge", "Råd om gjestfrihet"]
+  riktig: 0
+  forklaring: "Voluspå forteller om hvordan verden ble skapt og hvordan den går under i ragnarok."
+- id: vgs-norr-fv-heimskringla
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvem skrev kongesagaene i Heimskringla?"
+  alternativer: ["Snorre Sturlason", "Egil Skallagrimsson", "Ivar Aasen", "Petter Dass"]
+  riktig: 0
+  forklaring: "Snorre Sturlason skrev Heimskringla på Island på 1200-tallet."
+- id: vgs-norr-fv-nedskrevet
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvor og når ble de fleste norrøne tekstene skrevet ned?"
+  alternativer: ["På Island på 1200-tallet", "I Norge på 1500-tallet", "I Danmark på 1700-tallet", "I Sverige på 1000-tallet"]
+  riktig: 0
+  forklaring: "Tekstene ble fortalt muntlig lenge og skrevet ned, mest på Island, på 1200-tallet."
+- id: vgs-norr-fv-forteller
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvordan er fortelleren i en saga?"
+  alternativer: ["Objektiv. Fortelleren sier hva som skjer, men ikke hva personene tenker.", "Allvitende og kommenterende", "En jeg-forteller med mange tanker", "En forteller som snakker direkte til leseren"]
+  riktig: 0
+  forklaring: "Sagafortelleren holder seg utenfor. Vi blir kjent med personene gjennom handling og replikk."
+- id: vgs-norr-m-grep-1
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn viser utdraget?"
+  utdrag: "Han så på såret og sa: «Det er ikke så farlig.» Neste morgen var han død."
+  alternativer: ["Underdrivelse", "Frampek", "Ættetavle", "Kenning"]
+  riktig: 0
+  forklaring: "Et dødelig sår omtales med rolige ord. Det er underdrivelse."
+- id: vgs-norr-m-grep-2
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn viser utdraget?"
+  utdrag: "Den natten drømte Gudrun at hun mistet en gullring i vannet."
+  alternativer: ["Frampek", "Underdrivelse", "Kenning", "Ættetavle"]
+  riktig: 0
+  forklaring: "Drømmen varsler at noe skal gå tapt. Det er et frampek."
+- id: vgs-norr-m-grep-3
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn viser utdraget?"
+  utdrag: "Torolv var sønn av Kveldulv, som var sønn av Bjalve."
+  alternativer: ["Ættetavle", "Frampek", "Underdrivelse", "Kenning"]
+  riktig: 0
+  forklaring: "Sagaen forteller hvem personen stammer fra. Det er en ættetavle."
+- id: vgs-norr-m-grep-4
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn viser utdraget?"
+  utdrag: "Skalden skrev om «havets hest» som stevnet ut fra land."
+  alternativer: ["Kenning", "Frampek", "Underdrivelse", "Ættetavle"]
+  riktig: 0
+  forklaring: "«Havets hest» betyr skip. Det er en kenning."
+- id: vgs-norr-m-grep-5
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn viser utdraget?"
+  utdrag: "Hallgerd svarte ikke. Hun gikk ut og ble stående ved døren lenge."
+  alternativer: ["Indirekte personskildring", "Kenning", "Ættetavle", "Direkte personskildring"]
+  riktig: 0
+  forklaring: "Vi får ikke vite hva hun føler, men handlingen viser det. Det er indirekte personskildring."
+- id: vgs-norr-m-grep-6
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn viser utdraget?"
+  utdrag: "«Det skal bli hevnet,» sa han, og han sa ikke mer den kvelden."
+  alternativer: ["Frampek", "Kenning", "Ættetavle", "Underdrivelse"]
+  riktig: 0
+  forklaring: "Replikken varsler hevn senere i sagaen. Det er et frampek."
+- id: vgs-norr-m-grep-7
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn viser utdraget?"
+  utdrag: "Etter slaget skrev skalden om «sårenes sjø» på marken."
+  alternativer: ["Kenning", "Underdrivelse", "Frampek", "Ættetavle"]
+  riktig: 0
+  forklaring: "«Sårenes sjø» betyr blod. Det er en kenning."
+- id: vgs-norr-m-grep-8
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn viser utdraget?"
+  utdrag: "Da huset sto i flammer, sa Njål bare at han var gammel og ville legge seg."
+  alternativer: ["Underdrivelse", "Kenning", "Ættetavle", "Frampek"]
+  riktig: 0
+  forklaring: "Han møter døden med få og rolige ord. Det er underdrivelse."
+- id: vgs-norr-m-verdi-1
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken norrøn verdi kommer fram i utdraget?"
+  utdrag: "Etter at broren ble drept, måtte Kåre ta hevn for å gjenopprette slektens ære."
+  alternativer: ["Ære og hevn", "Folkeopplysning", "Romantisk lengsel", "Fornuft og kritikk"]
+  riktig: 0
+  forklaring: "Hevnen skal gjenopprette æren. Det er en sentral verdi i sagaene."
+- id: vgs-norr-m-verdi-2
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken norrøn verdi kommer fram i utdraget?"
+  utdrag: "Han visste at han skulle dø i slaget, men gikk likevel fram i første rekke."
+  alternativer: ["Skjebnetro", "Folkeopplysning", "Fornuft og kritikk", "Naturdyrking"]
+  riktig: 0
+  forklaring: "Han møter en skjebne han ikke kan unngå. Det viser skjebnetro."
+- id: vgs-norr-m-verdi-3
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken norrøn verdi kommer fram i utdraget?"
+  utdrag: "Alt du eier, går tapt, men det folk sier om deg etter døden, lever videre."
+  alternativer: ["Ettermæle", "Skjebnetro", "Gjestfrihet", "Hevn"]
+  riktig: 0
+  forklaring: "Tanken om at omdømmet lever videre, kalles ettermæle. Den finnes i Håvamål."
+- id: vgs-norr-m-verdi-4
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken norrøn verdi kommer fram i utdraget?"
+  utdrag: "Den som kommer inn fra kulden, trenger ild, mat og tørre klær."
+  alternativer: ["Gjestfrihet", "Hevn", "Ettermæle", "Skjebnetro"]
+  riktig: 0
+  forklaring: "Rådet handler om å ta godt imot gjester. Det er gjestfrihet, en verdi i Håvamål."
+- id: vgs-norr-sort-nyere
+  type: sortering
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Er trekket typisk for sagaene eller for mye nyere prosa?"
+  kategorier: ["Sagaene", "Nyere prosa"]
+  elementer:
+    - { tekst: "Fortelleren viser ikke tanker og følelser", kategori: 0 }
+    - { tekst: "Langt innsyn i hovedpersonens tanker", kategori: 1 }
+    - { tekst: "Ætt og hevnplikt styrer handlingen", kategori: 0 }
+    - { tekst: "Individets frihet og egne valg står i sentrum", kategori: 1 }
+    - { tekst: "Drømmer og varsler peker fram mot slutten", kategori: 0 }
+    - { tekst: "Bevissthetsstrøm", kategori: 1 }
+  forklaring: "Sagaene har en objektiv forteller og verdier knyttet til ætt og ære. Mye nyere prosa går inn i hodet på personene og handler om individet."
+- id: vgs-norr-match-kenning
+  type: matching
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Koble kenningen til det den betyr."
+  par:
+    - { venstre: "havets hest", hoyre: "skip" }
+    - { venstre: "sårenes sjø", hoyre: "blod" }
+    - { venstre: "ormens leie", hoyre: "gull" }
+  forklaring: "Kenninger er omskrivninger som leseren må tolke."
+- id: vgs-norr-skriv-sammenlign
+  type: skriv
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: utkast
+  vanskegrad: 3
+  oppdrag: "Skriv et avsnitt der du sammenligner hvordan helten viser følelser i sagautdraget og i novelleutdraget. Bruk fagbegreper og sitat."
+  utdrag: "Sagaen: «Gunnar sa: Jeg rir ikke bort. Så snudde han hesten og red hjem igjen.»\n\nNovellen: «Pappa satt lenge ved kjøkkenbordet etter begravelsen. Han sa ingenting, men han tok på seg jakka, tok den av igjen og hengte den tilbake på knaggen.»"
+  ord: {"min": 80, "maks": 180}
+  nokkelord: ["underdrivelse", "indirekte", "sagaen", "novellen"]
+  nokkelordMinst: 3
+  sitat: True
+  kriterier: ["Avsnittet har en temasetning som sier hva som sammenlignes", "Begge tekstene blir sitert", "Fagbegreper som underdrivelse og indirekte personskildring blir brukt", "Avsnittet forklarer hva forskjellen eller likheten betyr"]
+  modelltekst: "Både sagaen og novellen viser følelser gjennom handling, ikke gjennom ord. Gunnar sier bare «Jeg rir ikke bort» og snur hesten, og det er alt fortelleren forteller. Leseren må selv forstå at han velger hjemstedet framfor livet. Faren i novellen sier heller ingenting, men han tar jakka på og av igjen. Den lille handlingen viser at han ikke vet hvor han skal gjøre av seg. Begge tekstene bruker indirekte personskildring og underdrivelse, men virkningen er ulik. Hos Gunnar viser det mot og ære, mens det hos faren viser en sorg han ikke har ord for."

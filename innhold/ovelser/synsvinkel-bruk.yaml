@@ -1,7 +1,7 @@
 - id: syn-match
   type: matching
   kapittel: synsvinkel
-  mal: [m10-01]
+  mal: [m10-01, mvg3-01]
   status: godkjent
   oppdrag: "Koble synsvinkelen til kjennetegnet."
   par:
@@ -17,7 +17,7 @@
 - id: syn-sort
   type: sortering
   kapittel: synsvinkel
-  mal: [m10-01]
+  mal: [m10-01, mvg3-01]
   status: godkjent
   oppdrag: "Er synsvinkelen personal eller autoral?"
   kategorier: ["Personal", "Autoral"]
