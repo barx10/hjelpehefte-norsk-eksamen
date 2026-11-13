@@ -143,7 +143,7 @@ Regler:
 - Tekster med `lisens` må ha `lisensUrl` og en `kilde` med lenke. En test sjekker det.
 - Opphavsrettsbeskyttede tekster som modellteksten analyserer (dikt, noveller, leserinnlegg), legges ikke i repoet. Bruk `diktUrl` eller `analysertTekstUrl` i stedet.
 - Elevtekster må være anonymisert og ha samtykke.
-- Innholdet i `innhold/` er delt under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.no). Lisensteksten ligger i `innhold/LICENSE.txt`. Det gjelder også tekstene som er skrevet for øvingen. Kildekoden (`src/`, `tests/`) har ikke fått noen lisens ennå. Tekster som står med egen lisens i frontmatter, beholder den.
+- Innholdet i `innhold/` er delt under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.no). Lisensteksten ligger i `innhold/LICENSE.txt`. Det gjelder også tekstene som er skrevet for øvingen. Kildekoden (`src/`, `tests/` og konfigurasjonsfilene) er delt under MIT-lisensen i `LICENSE`. Tekster som står med egen lisens i frontmatter, beholder den.
 
 ## Publisering
 
