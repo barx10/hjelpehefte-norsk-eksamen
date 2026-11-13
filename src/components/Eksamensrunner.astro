@@ -16,10 +16,12 @@ const { data } = Astro.props;
   import { lesJson, skrivJson, slettJson, eksamenNokkel } from '../lib/lager';
   import { ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus } from '../lib/tekstverktoy';
   import type { Ordkrav } from '../lib/tekstverktoy';
+  import { lagTilbakemelding, type KapittelLenker } from '../lib/tilbakemelding';
+  import type { Sjanger } from '../lib/tekstsjekk';
 
   type Modus = 'hel' | 'o1' | 'o2' | 'o3';
   type Vedlegg = { id: string; tittel: string; forfatter?: string; tekst: string };
-  type Valg2 = { id: string; tittel: string; tekst: string; malUrl: string; malTittel: string; vedlegg: string[]; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean; kjennetegn: string[] };
+  type Valg2 = { id: string; tittel: string; tekst: string; malUrl: string; malTittel: string; vedlegg: string[]; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean; kjennetegn: string[]; sjanger: Sjanger };
   type Pakke = {
     id: string; tittel: string; beskrivelse: string; oppsett: 'ungdomstrinn' | 'vgs'; vedlegg: Vedlegg[];
     oppgave1: { vedlegg: string; innledning: string; delsporsmal: { tekst: string; ord: Ordkrav; modell: string }[] };
@@ -27,6 +29,8 @@ const { data } = Astro.props;
     oppgave3?: { tekst: string; vedlegg: string[]; ord: Ordkrav; nokkelord: string[]; nokkelordMinst?: number; sitat: boolean; kjennetegn: string[] };
     kjennetegnUtkast: boolean;
     sjekkliste: { gruppe: string; punkter: string[] }[];
+    trinn: string;
+    kapitler: KapittelLenker;
   };
   type Tilstand = { versjon: 1; modus: Modus; start: number; slutt: number; skjulTid: boolean; valg2: string; svar: Record<string, string>; levert: boolean };
 
@@ -50,6 +54,7 @@ const { data } = Astro.props;
   const navn1 = vgs ? 'Oppgave 1: kortsvar' : 'Oppgave 1';
   const navn2 = vgs ? 'Langsvar' : 'Oppgave 2';
   const etikett1 = (i: number) => (pakke.oppgave1.delsporsmal.length > 1 ? `${String.fromCharCode(97 + i)}) ` : '');
+  const vedleggListe = (ider: string[]) => ider.map((id) => pakke.vedlegg.find((x) => x.id === id)).filter((v): v is Vedlegg => Boolean(v));
   const vedleggNavn = (ider: string[]) => ider.map((id) => pakke.vedlegg.find((x) => x.id === id)?.tittel).filter(Boolean).join(', ');
 
   const NOKKEL = eksamenNokkel(pakke.id);
@@ -331,7 +336,7 @@ const { data } = Astro.props;
   function visResultat() {
     const t = tilstand!;
     const modus = MODUSER[t.modus];
-    const barn: Node[] = [el('h2', { tabindex: '-1' }, 'Tilbakemelding'), el('p', {}, 'Dette er en automatisk sjekk av lengde og form. Den sier ingenting om innholdet. Les gjennom teksten din og bruk sjekklisten under.')];
+    const barn: Node[] = [el('h2', { tabindex: '-1' }, 'Tilbakemelding'), el('p', {}, 'Her får du en automatisk sjekk av lengde, form og språk, og hjelp til å se den røde tråden. Sjekkene sier lite om innholdet. Les gjennom teksten din og bruk sjekklisten under.')];
 
     if (modus.oppgaver.includes(1)) {
       const kort = el('section', { class: 'eks-kort' }, el('h3', {}, navn1));
@@ -341,6 +346,7 @@ const { data } = Astro.props;
           el('h4', {}, `${etikett1(i)}${d.tekst}`),
           svar ? el('blockquote', { class: 'utdrag' }, svar) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
           vurder(svar, d.ord, [], false),
+          svar ? lagTilbakemelding({ tekst: svar, sjanger: 'kortsvar', vedlegg: vedleggListe([pakke.oppgave1.vedlegg]), oppgave: `${pakke.oppgave1.innledning}\n\n${d.tekst}`, kjennetegn: [], trinn: pakke.trinn, kapitler: pakke.kapitler, visOversikt: false }) : document.createComment(''),
           el('details', { class: 'modell' }, el('summary', {}, 'Se et eksempel på et godt svar'), el('p', {}, d.modell)),
         );
       });
@@ -351,6 +357,7 @@ const { data } = Astro.props;
       const svar = (t.svar['o2'] ?? '').trim();
       barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, navn2), el('p', {}, el('strong', {}, v.tittel)),
         svar ? vurder(svar, v.ord, v.nokkelord, v.sitat, v.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
+        svar ? lagTilbakemelding({ tekst: svar, sjanger: v.sjanger, vedlegg: vedleggListe(v.vedlegg), oppgave: v.tekst, kjennetegn: v.kjennetegn, trinn: pakke.trinn, kapitler: pakke.kapitler, visOversikt: true }) : document.createComment(''),
         kjennetegnListe('o2', v.kjennetegn),
         el('p', {}, el('a', { href: v.malUrl, target: '_blank', rel: 'noopener' }, `Sammenlign med malen: ${v.malTittel}`))));
     }
@@ -358,6 +365,7 @@ const { data } = Astro.props;
       const svar = (t.svar['o3'] ?? '').trim();
       barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, 'Oppgave 3'),
         svar ? vurder(svar, pakke.oppgave3.ord, pakke.oppgave3.nokkelord, pakke.oppgave3.sitat, pakke.oppgave3.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
+        svar ? lagTilbakemelding({ tekst: svar, sjanger: 'annet', vedlegg: vedleggListe(pakke.oppgave3.vedlegg), oppgave: pakke.oppgave3.tekst, kjennetegn: pakke.oppgave3.kjennetegn, trinn: pakke.trinn, kapitler: pakke.kapitler, visOversikt: true }) : document.createComment(''),
         kjennetegnListe('o3', pakke.oppgave3.kjennetegn)));
     }
 

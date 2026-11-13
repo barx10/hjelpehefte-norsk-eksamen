@@ -12,6 +12,7 @@ export async function getStaticPaths() {
       const ovelser = await hentOvelser(nivaa);
       const tekster = new Map((await hentBesvarelser(nivaa)).map((b) => [b.id, b]));
       const tittelPerId = new Map(kapitler.map((k) => [k.id, kapittelNavn(k)]));
+      const lenker = Object.fromEntries(kapitler.map((k) => [k.id, { url: nurl(nivaa, `hefte/${k.id}/`), tittel: kapittelNavn(k) }]));
       const klient = (liste: typeof ovelser) => liste.map((o) => tilKlient(o, tittelPerId.get(o.data.kapittel.id) ?? '', tekster));
 
       const sider = kapitler
@@ -19,11 +20,11 @@ export async function getStaticPaths() {
         .filter(({ liste }) => liste.length > 0)
         .map(({ k, liste }) => ({
           params: { nivaa: nivaa.id, tema: k.id },
-          props: { nivaa, tittel: kapittelNavn(k), ingress: k.data.ingress, ovelser: klient(liste), kapittelId: k.id },
+          props: { nivaa, tittel: kapittelNavn(k), ingress: k.data.ingress, ovelser: klient(liste), kapittelId: k.id, lenker },
         }));
       if (ovelser.length === 0) return sider;
       return [
-        { params: { nivaa: nivaa.id, tema: 'alle' }, props: { nivaa, tittel: 'Alle temaer', ingress: 'Blandede øvelser fra hele heftet.', ovelser: klient(ovelser), kapittelId: null } },
+        { params: { nivaa: nivaa.id, tema: 'alle' }, props: { nivaa, tittel: 'Alle temaer', ingress: 'Blandede øvelser fra hele heftet.', ovelser: klient(ovelser), kapittelId: null, lenker } },
         ...sider,
       ];
     }),
@@ -31,13 +32,14 @@ export async function getStaticPaths() {
   return alle.flat();
 }
 
-const { nivaa, tittel, ingress, ovelser, kapittelId } = Astro.props;
+const { nivaa, tittel, ingress, ovelser, kapittelId, lenker } = Astro.props;
+const skrivedata = { trinn: nivaa.kode === 'vg3' ? 'vg3 studieforberedende' : '10. trinn', kapitler: lenker };
 ---
 <Layout tittel={`Øv: ${tittel}`} nivaa={nivaa}>
   <nav aria-label="Brødsmulesti" class="tilbake"><a href={nurl(nivaa, '')}>Tilbake til kapitlene</a></nav>
   <h1>{tittel}</h1>
   {ingress && <p>{ingress}</p>}
-  <Ovelsesrunner ovelser={ovelser} tittel={tittel} />
+  <Ovelsesrunner ovelser={ovelser} tittel={tittel} skrivedata={skrivedata} />
   <p class="tastehint">Eksempeltekstene i øvelsene er laget for øving.
     {kapittelId && <> <a href={nurl(nivaa, `hefte/${kapittelId}/`)}>Les kapittelet i heftet</a>.</>}
   </p>

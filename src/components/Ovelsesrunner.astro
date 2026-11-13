@@ -5,8 +5,9 @@ import Illustrasjon from './Illustrasjon.astro';
 interface Props {
   ovelser: unknown[];
   tittel: string;
+  skrivedata: unknown;
 }
-const { ovelser, tittel } = Astro.props;
+const { ovelser, tittel, skrivedata } = Astro.props;
 ---
 <section class="runner" id="runner" aria-label={`Øvelser: ${tittel}`}>
   <p>Laster øvelser ...</p>
@@ -15,10 +16,13 @@ const { ovelser, tittel } = Astro.props;
 <template id="bilde-start"><Illustrasjon motiv="ov" class="runner-bilde" /></template>
 <template id="bilde-ferdig"><Illustrasjon motiv="ferdig" class="runner-bilde" /></template>
 <script type="application/json" id="ovelser-data" set:html={tilJson(ovelser)} />
+<script type="application/json" id="skrive-data" set:html={tilJson(skrivedata)} />
 
 <script>
   import { les, lagre, oppdater, velgOkt, stokk, antallMestret } from '../lib/fremgang';
   import { stokkForskjellig, ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus } from '../lib/tekstverktoy';
+  import { lagTilbakemelding, type KapittelLenker } from '../lib/tilbakemelding';
+  import { sjangerFor } from '../lib/tekstsjekk';
   import { lesSkriveutkast, lagreSkriveutkast } from '../lib/lager';
   import type { Fremgang } from '../lib/fremgang';
 
@@ -41,7 +45,7 @@ const { ovelser, tittel } = Astro.props;
   };
   type Marker = Felles & { type: 'marker'; oppdrag: string; ord: string[]; riktig: boolean[]; forklaring: string; fasitTekst: string };
   type Skriv = Felles & {
-    type: 'skriv'; oppdrag: string; utdrag: string | null; starttekst: string; ord: { min: number; maks: number };
+    type: 'skriv'; kapittelId: string; oppdrag: string; utdrag: string | null; starttekst: string; ord: { min: number; maks: number };
     nokkelord: string[]; nokkelordMinst: number; sitat: boolean; kriterier: string[]; modelltekst: string; modellkommentar: string; fasitTekst: string; forklaring: string;
   };
   type Ovelse = Flashkort | Flervalg | Komma | FinnFeil | Sortering | Rekkefolge | Matching | Marker | Skriv;
@@ -75,6 +79,7 @@ const { ovelser, tittel } = Astro.props;
   ];
   const rot = document.getElementById('runner') as HTMLElement;
   const data: Ovelse[] = JSON.parse(document.getElementById('ovelser-data')!.textContent ?? '[]');
+  const skrivedata: { trinn: string; kapitler: KapittelLenker } = JSON.parse(document.getElementById('skrive-data')!.textContent ?? '{}');
   const visKapittel = new Set(data.map((o) => o.kapittel)).size > 1;
 
   let fremgang: Fremgang = les();
@@ -663,8 +668,13 @@ const { ovelser, tittel } = Astro.props;
         neste(indeks);
       });
 
+      const tilbakemelding = lagTilbakemelding({
+        tekst, sjanger: sjangerFor(o.kapittelId), oppgave: o.utdrag ? `${o.oppdrag}\n\n${o.utdrag}` : o.oppdrag,
+        kjennetegn: o.kriterier, trinn: skrivedata.trinn, kapitler: skrivedata.kapitler, visOversikt: o.ord.maks > 150,
+      });
+
       flate.append(
-        el('h3', {}, 'Automatisk sjekk'), auto,
+        el('h3', {}, 'Automatisk sjekk'), auto, tilbakemelding,
         el('h3', {}, 'Egenvurdering'), egenvurdering,
         modell,
         el('p', { class: 'tastehint' }, 'Du får regnet øvelsen som mestret når du har krysset av for alle punktene. Vær ærlig, det er deg selv du lurer.'),

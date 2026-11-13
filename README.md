@@ -99,6 +99,10 @@ Flashkort har `forside` og `bakside` i stedet for spørsmål, alternativer og fo
 
 **Rekkefølge med ord og setningsledd:** Øvelsen godtar bare én fasit. Kan setningen bygges på flere korrekte måter, må `oppdrag` si hvilket setningsledd setningen begynner med (for eksempel tidsadverbial eller subjekt). Oppdraget skal ikke si hvor de andre leddene står, for det er det eleven skal øve på.
 
+### Tilbakemelding på skriving
+
+Skriveøvelser og eksamenstreningen viser automatiske sjekker etter levering (`src/lib/tekstsjekk.ts`), en oversikt over første setning i hvert avsnitt og en knapp som kopierer en ledetekst eleven kan bruke i et KI-verktøy skolen har godkjent. Visningen ligger i `src/lib/tilbakemelding.ts`. Sjekkene velges etter sjanger, som hentes fra kapittelet øvelsen eller malen hører til. Sjekkene skal heller la være å melde fra enn å gi feil alarm. Nye sjekker skal ha tester med både tekster som skal gi funn og tekster som ikke skal det, og de bør prøves mot modelltekstene. Ingen tekst sendes fra siden.
+
 ### Mengdetrening
 
 Eleven velger hvor mange øvelser økten skal ha (10, 20, 40 eller alle). I temaet med kommaoppgaver kan eleven også øve på én kommaregel om gangen. Valget bruker feltet `regler`.

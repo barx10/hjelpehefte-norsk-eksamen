@@ -177,6 +177,7 @@ export function tilKlient(o: Ovelse, kapittelTittel: string, tekster: Map<string
       return {
         ...felles,
         type: 'skriv' as const,
+        kapittelId: o.data.kapittel.id,
         oppdrag: d.oppdrag,
         utdrag: d.utdrag ?? null,
         starttekst: d.starttekst ?? '',
