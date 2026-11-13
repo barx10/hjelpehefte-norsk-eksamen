@@ -119,3 +119,55 @@ test('vedleggstitler fra pakkene', () => {
   assert.deepEqual(vedleggKjennetegn({ tittel: 'Vedlegg 3: Sjøboden av Hanna Dahl (1886)' }), ['vedlegg 3', 'sjøboden', 'dahl']);
   assert.deepEqual(vedleggKjennetegn({ tittel: 'Vedlegg 2: «Du snakker allerede norrønt» (kronikk, 2024)', forfatter: 'Marte Lunde, språkforsker' }), ['vedlegg 2', 'du snakker allerede norrønt', 'lunde']);
 });
+
+test('kommaskjøt og ordstilling etter leddsetning', () => {
+  assert.ok(ids('Det regnet hele dagen, vi ble inne og leste bøker.' + fyll).includes('kommaskjot'));
+  assert.ok(ids('Når jeg kom hjem fra skolen, jeg spiste middag med familien.' + fyll).includes('ordstilling-etter-leddsetning'));
+  // Riktige setninger, oppramsing etter kolon og bindeord skal ikke gi funn.
+  const ok = [
+    'Når jeg kom hjem fra skolen, spiste jeg middag med familien.',
+    'Det regnet hele dagen, så vi ble inne og leste bøker.',
+    'Teksten viser frykt: «Hjertet hamrer», han er «redd» og skjelver.',
+    'Bestemor, som bor i Bodø, fyller nitti år i morgen.',
+    'Hun var sliten, men hun gikk likevel på trening.',
+  ];
+  for (const s of ok) {
+    const f = ids(s + fyll);
+    assert.ok(!f.includes('kommaskjot') && !f.includes('ordstilling-etter-leddsetning'), s);
+  }
+});
+
+test('fortid i analyse', () => {
+  const fortid = 'Hun gikk ut. Hun sa ingenting. Faren kom etter. Han tok jakka. Hun svarte ikke. De gikk hjem.' + fyll;
+  assert.ok(ider(fortid, { sjanger: 'analyse' }).includes('fortid'));
+  assert.ok(!ider(fortid, { sjanger: 'essay' }).includes('fortid'));
+  assert.ok(!ider('Hun går ut og sier ingenting. Faren sa en gang at stolen var hans.' + fyll, { sjanger: 'analyse' }).includes('fortid'));
+});
+
+test('forfatter og forteller', () => {
+  assert.ok(ider('I novellen tenker forfatteren tilbake på barndommen sin.' + fyll, { sjanger: 'analyse' }).includes('forfatter-forteller'));
+  assert.ok(!ider('Forfatteren bruker korte setninger for å vise uro.' + fyll, { sjanger: 'analyse' }).includes('forfatter-forteller'));
+});
+
+test('drøfting: motargument og konklusjon', () => {
+  const avsnittet = 'Sosiale medier gjør at unge bruker mer engelsk i hverdagen og i skolen.' + fyll.repeat(4);
+  const uten = ['Språk i endring', avsnittet, avsnittet, avsnittet, 'Mange unge bruker engelsk hver dag.' + fyll.repeat(4)].join('\n\n');
+  const f = ider(uten, { sjanger: 'fagartikkel' });
+  assert.ok(f.includes('motargument') && f.includes('konklusjon'));
+  const med = uten.replace('Mange unge bruker engelsk hver dag.', 'Samtidig er norsk fortsatt hovedspråket. Derfor mener jeg at norsk ikke er truet.');
+  const g = ider(med, { sjanger: 'fagartikkel' });
+  assert.ok(!g.includes('motargument') && !g.includes('konklusjon'));
+});
+
+test('skrivefeil fra ordlisten', () => {
+  const liste = [{ feil: 'imorgen', rettelse: 'i morgen' }, { feil: 'fag artikkel', rettelse: 'fagartikkel' }];
+  const f = sjekkTekst('Jeg skal skrive en fag artikkel imorgen om språk.' + fyll, { sjanger: 'annet', skrivefeil: liste }).find((x) => x.id === 'skrivefeil');
+  assert.ok(f && f.mulig);
+  assert.deepEqual(f.utdrag, ['«imorgen» skal være «i morgen»', '«fag artikkel» skal være «fagartikkel»']);
+  assert.ok(!ider('Jeg skal skrive en fagartikkel i morgen om språk.' + fyll, { sjanger: 'annet', skrivefeil: liste }).includes('skrivefeil'));
+});
+
+test('kildelisten regnes ikke som avslutning', () => {
+  const kropp = ['Tittel', ...Array(3).fill('Avsnitt med innhold om saken.' + fyll.repeat(4)), 'Samtidig er det slik. Derfor mener jeg dette.' + fyll.repeat(2), 'Kilder', 'Dyrendal, A. (2020). Tittel.'].join('\n\n');
+  assert.ok(!ider(kropp, { sjanger: 'fagartikkel' }).includes('konklusjon'));
+});

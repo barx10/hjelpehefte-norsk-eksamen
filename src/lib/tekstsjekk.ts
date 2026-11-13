@@ -12,12 +12,18 @@ export type Funn = {
   utdrag: string[];
   /** Kapitler som forklarer regelen. Den første som finnes på nivået, brukes som lenke. */
   kapitler: string[];
+  /** Sjekken er usikker. Visningen merker funnet slik at eleven vurderer det selv. */
+  mulig?: boolean;
 };
+
+export type Skrivefeil = { feil: string; rettelse: string };
 
 export type Sjekkvalg = {
   sjanger: Sjanger;
   /** Vedleggene oppgaven bygger på. Brukes til å sjekke at teksten presenterer dem. */
   vedlegg?: { tittel: string; forfatter?: string }[];
+  /** Vanlige skrivefeil fra finn feilen-øvelsene. */
+  skrivefeil?: Skrivefeil[];
 };
 
 const SJANGER_PER_KAPITTEL: Record<string, Sjanger> = {
@@ -97,9 +103,12 @@ export function harTittel(tekst: string): boolean {
   return ordTelling(forste) <= 15 && !/[.]$/.test(forste);
 }
 
+/** Avsnittene i selve teksten: uten tittel og uten kildelisten og det som står etter den. */
 function brodtekst(tekst: string): string[] {
   const a = avsnitt(tekst);
-  return harTittel(tekst) ? a.slice(1) : a;
+  const kropp = harTittel(tekst) ? a.slice(1) : a;
+  const kilde = kropp.findIndex((x) => ER_KILDELISTE.test(x));
+  return kilde >= 0 ? kropp.slice(0, kilde) : kropp;
 }
 
 /** Første setning i hvert avsnitt, uten tittel. Viser om teksten har en rød tråd. */
@@ -321,6 +330,120 @@ function ordbruk(tekst: string, sjanger: Sjanger): Funn | null {
   } : null;
 }
 
+// ---------- usikre sjekker (trinn 2) ----------
+
+const PRONOMEN = 'jeg|du|han|hun|vi|de|det|den|dette|man';
+const VANLIGE_VERB = 'er|var|har|hadde|kan|kunne|skal|skulle|vil|ville|må|måtte|gikk|kom|sa|så|fikk|ble|tok|ga|lå|sto|satt|dro|vet|visste|blir|får|går|kommer|ser|tar|gir';
+
+/** Etter et komma begynner en ny hovedsetning med pronomen og verb. Gir kommaskjøt eller feil ordstilling. */
+function kommaskjot(alle: string[]): Funn[] {
+  const skjot: string[] = [];
+  const ordstilling: string[] = [];
+  const verb = new RegExp(`^(${PRONOMEN})\\s+(${VANLIGE_VERB}|[a-zæøå]{2,}(er|te|de|et))\\b`, 'i');
+  for (const s of alle) {
+    const deler = s.split(/,\s+/);
+    for (let i = 1; i < deler.length; i++) {
+      const etter = deler[i]!;
+      const for_ = deler.slice(0, i).join(', ');
+      // Hopp over oppramsinger etter kolon og ledd som slutter med et sitat.
+      if (!verb.test(etter) || ordTelling(for_) < 3 || for_.includes(':') || /»$/.test(for_)) continue;
+      const forsteLedd = for_.toLowerCase();
+      if (SUBJUNKSJONER_FORST.some((sub) => forsteLedd.startsWith(sub + ' '))) ordstilling.push(kort(s));
+      else skjot.push(kort(s));
+    }
+  }
+  const ut: Funn[] = [];
+  if (ordstilling.length) ut.push({
+    id: 'ordstilling-etter-leddsetning',
+    melding: 'Etter en leddsetning først skal verbet komme før subjektet: «Når jeg kom hjem, spiste jeg», ikke «Når jeg kom hjem, jeg spiste».',
+    utdrag: [...new Set(ordstilling)],
+    kapitler: ['setningsoppbygging-vgs'],
+    mulig: true,
+  });
+  if (skjot.length) ut.push({
+    id: 'kommaskjot',
+    melding: 'Her ser det ut som to hele setninger er bundet sammen bare med komma. Bruk punktum, eller et bindeord som «og», «men» eller «så».',
+    utdrag: [...new Set(skjot)],
+    kapitler: ['komma-vgs', 'kommaregler'],
+    mulig: true,
+  });
+  return ut;
+}
+
+// Bare former som ikke også er partisipp («har satt», «har åpnet»).
+const FORTELLENDE_FORTID = ['gikk', 'sa', 'kom', 'tok', 'fikk', 'sto', 'lå', 'ga', 'dro', 'løp', 'gråt', 'svarte', 'spurte', 'ropte', 'smilte', 'snudde', 'så seg'];
+
+/** I analyse og tolkning skal handlingen gjengis i presens. Mange fortellende fortidsformer tyder på gjenfortelling i fortid. */
+function fortid(tekst: string): Funn | null {
+  const lav = ` ${utenSitater(tekst).toLowerCase().replace(/[.,;:!?()«»]/g, ' ')} `;
+  const treff = FORTELLENDE_FORTID.filter((o) => lav.includes(` ${o} `));
+  const antall = FORTELLENDE_FORTID.reduce((n, o) => n + (lav.split(` ${o} `).length - 1), 0);
+  return antall >= 6 ? {
+    id: 'fortid',
+    melding: 'Det ser ut som du gjenforteller handlingen i fortid. Skriv om teksten i presens: «Hun går ut», ikke «Hun gikk ut».',
+    utdrag: treff.map((o) => `«${o}»`),
+    kapitler: ['fagsprak-vgs'],
+    mulig: true,
+  } : null;
+}
+
+/** Forfatteren er den som skrev teksten. Det er fortelleren eller personen som tenker og føler i fortellingen. */
+function forfatterForteller(tekst: string): Funn | null {
+  const person = '(forfatteren|dikteren|poeten)';
+  const verb = '(tenker|tenkte|føler|følte|husker|lengter|savner|gråter|ler|går|sitter|står|våkner|drømmer)';
+  const treff = utenSitater(tekst).match(new RegExp(`\\b(${person}\\s+${verb}|${verb}\\s+${person})\\b`, 'gi')) ?? [];
+  return treff.length ? {
+    id: 'forfatter-forteller',
+    melding: 'Skill mellom forfatteren og fortelleren eller det lyriske jeget. Det er en person i teksten som tenker og føler, ikke forfatteren.',
+    utdrag: [...new Set(treff)],
+    kapitler: ['fagsprak-vgs'],
+    mulig: true,
+  } : null;
+}
+
+const MOTARGUMENT = ['på den andre siden', 'på den ene siden', 'samtidig', 'derimot', 'likevel', 'imot', 'motargument', 'innvende', 'innvending', 'kritikere', 'kritikken', 'tvert imot', 'riktignok', 'selv om', 'motsatt'];
+const KONKLUSJON = ['derfor', 'altså', 'dermed', 'alt i alt', 'samlet', 'oppsummert', 'konklusjon', 'konkluderer', 'mener jeg', 'min vurdering', 'jeg mener', 'etter min mening', 'svaret på'];
+
+/** En drøfting trenger motargumenter og en konklusjon. */
+function drofting(tekst: string): Funn[] {
+  const lav = utenSitater(tekst).toLowerCase();
+  const kropp = brodtekst(tekst).filter((a) => !ER_KILDELISTE.test(a));
+  const slutt = (kropp[kropp.length - 1] ?? '').toLowerCase();
+  const ut: Funn[] = [];
+  if (!MOTARGUMENT.some((o) => lav.includes(o))) ut.push({
+    id: 'motargument',
+    melding: 'Teksten ser ikke ut til å ha motargumenter. Når du drøfter, skal du vise flere sider av saken, for eksempel med «på den andre siden» eller «samtidig».',
+    utdrag: [],
+    kapitler: ['fagartikkel-vgs', 'droftende-tekst'],
+    mulig: true,
+  });
+  if (kropp.length >= 3 && !KONKLUSJON.some((o) => slutt.includes(o))) ut.push({
+    id: 'konklusjon',
+    melding: 'Avslutningen ser ikke ut til å konkludere. Svar på problemstillingen og si hva drøftingen viser.',
+    utdrag: [],
+    kapitler: ['fagartikkel-vgs', 'innledning-avslutning'],
+    mulig: true,
+  });
+  return ut;
+}
+
+/** Vanlige skrivefeil fra finn feilen-øvelsene. */
+function skrivefeil(tekst: string, liste: Skrivefeil[]): Funn | null {
+  const lav = ` ${utenSitater(tekst).toLowerCase().replace(/[.,;:!?()«»"]/g, ' ').replace(/\s+/g, ' ')} `;
+  const sett = new Map<string, string>();
+  for (const f of liste) {
+    const feil = f.feil.toLowerCase();
+    if (lav.includes(` ${feil} `)) sett.set(feil, f.rettelse.toLowerCase());
+  }
+  return sett.size ? {
+    id: 'skrivefeil',
+    melding: 'Disse ordene ser ut til å være skrevet feil.',
+    utdrag: [...sett].map(([f, r]) => `«${f}» skal være «${r}»`),
+    kapitler: ['rettskriving'],
+    mulig: true,
+  } : null;
+}
+
 /** Kjører sjekkene som passer for sjangeren. De viktigste kommer først. */
 export function sjekkTekst(tekst: string, valg: Sjekkvalg): Funn[] {
   const t = tekst.trim();
@@ -338,6 +461,11 @@ export function sjekkTekst(tekst: string, valg: Sjekkvalg): Funn[] {
   funn.push(leddsetningUtenKomma(alle), menUtenKomma(alle), kommaForanAt(renset), litenForbokstav(renset));
   if (lang) funn.push(...avsnittLengde(t));
   funn.push(likeStarter(alle, sjanger), langeSetninger(alle), ordbruk(t, sjanger));
+  // Usikre sjekker kommer etter de sikre.
+  if (valg.skrivefeil?.length) funn.push(skrivefeil(t, valg.skrivefeil));
+  funn.push(...kommaskjot(alle));
+  if (sjanger === 'analyse' || sjanger === 'kortsvar') funn.push(fortid(t), forfatterForteller(t));
+  if ((sjanger === 'fagartikkel' || sjanger === 'drofting') && lang) funn.push(...drofting(t));
   return funn.filter((f): f is Funn => f !== null);
 }
 

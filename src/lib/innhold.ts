@@ -52,6 +52,26 @@ export async function hentBesvarelser(nivaa?: Nivaa): Promise<Besvarelse[]> {
   return alle.sort((a, b) => a.id.localeCompare(b.id, 'nb'));
 }
 
+/**
+ * Vanlige skrivefeil hentet fra finn feilen-øvelsene i kapittelet om skrivefeil. Bare feil som nesten aldri er riktige
+ * i en annen sammenheng, er med: feilstavinger, ord som skal skrives i to ord, hv-ord og særskriving. Og/å, de/dem og
+ * stor forbokstav er ikke med, fordi de ofte er riktige.
+ */
+export async function hentSkrivefeil(nivaa?: Nivaa): Promise<{ feil: string; rettelse: string }[]> {
+  const sikre = /^feil-(m-)?(stave|to-ord|tid|sammensatt)-/;
+  const sett = new Map<string, { feil: string; rettelse: string }>();
+  for (const o of await hentOvelser(nivaa)) {
+    const d = o.data;
+    if (d.type !== 'finnfeil' || d.kapittel.id !== 'rettskriving') continue;
+    // Hv-ord skrevet uten h, som «vem» og «vorfor». Ikke «hverdag» og «hver dag», som begge kan være riktige.
+    const hvOrd = /^feil-m-ord-/.test(o.id) && /^hv/i.test(d.rettelse) && !/^hv/i.test(d.feil);
+    if (!sikre.test(o.id) && !hvOrd) continue;
+    if (['og', 'å'].includes(d.rettelse.toLowerCase())) continue;
+    sett.set(d.feil.toLowerCase(), { feil: d.feil, rettelse: d.rettelse });
+  }
+  return [...sett.values()];
+}
+
 /** Stier til alle nivåsider, brukt i getStaticPaths. */
 export function nivaaStier() {
   return NIVAAER.map((n) => ({ params: { nivaa: n.id }, props: { nivaa: n } }));

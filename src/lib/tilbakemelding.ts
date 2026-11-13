@@ -1,7 +1,7 @@
 // Felles visning av tilbakemelding på skriving: automatiske sjekker, oversikt over avsnittene og ledetekst til KI.
 // Brukes både i eksamenstreningen og i skriveøvelsene.
 
-import { sjekkTekst, avsnittsoversikt, lagLedetekst, type Sjanger } from './tekstsjekk.ts';
+import { sjekkTekst, avsnittsoversikt, lagLedetekst, type Sjanger, type Skrivefeil } from './tekstsjekk.ts';
 
 export type KapittelLenker = Record<string, { url: string; tittel: string }>;
 
@@ -14,6 +14,7 @@ export type Tilbakemeldingsvalg = {
   kjennetegn: string[];
   trinn: string;
   kapitler: KapittelLenker;
+  skrivefeil?: Skrivefeil[];
   /** Oversikt over avsnittene gir bare mening for tekster med flere avsnitt. */
   visOversikt: boolean;
 };
@@ -32,20 +33,20 @@ export function lagTilbakemelding(o: Tilbakemeldingsvalg): HTMLElement {
   const boks = el('div', { class: 'tilbakemelding-skriv' });
 
   // Automatiske sjekker
-  const funn = sjekkTekst(o.tekst, { sjanger: o.sjanger, vedlegg: o.vedlegg }).slice(0, 6);
+  const funn = sjekkTekst(o.tekst, { sjanger: o.sjanger, vedlegg: o.vedlegg, skrivefeil: o.skrivefeil }).slice(0, 6);
   const sjekker = el('div', { class: 'funn' }, el('h4', {}, 'Dette bør du sjekke'));
   if (funn.length === 0) {
     sjekker.append(el('p', {}, 'De automatiske sjekkene fant ingenting å peke på. Det betyr ikke at teksten er feilfri, så les den likevel en gang til.'));
   } else {
     const liste = el('ul', { class: 'funn-liste' });
     for (const f of funn) {
-      const li = el('li', {}, el('p', {}, f.melding));
+      const li = el('li', {}, f.mulig ? el('p', {}, el('span', { class: 'merke usikker' }, 'Usikker'), ' ', f.melding) : el('p', {}, f.melding));
       if (f.utdrag.length) li.append(el('ul', { class: 'funn-utdrag' }, ...f.utdrag.slice(0, 3).map((u) => el('li', {}, u))));
       const k = f.kapitler.map((id) => o.kapitler[id]).find(Boolean);
       if (k) li.append(el('p', { class: 'tastehint' }, 'Les mer: ', el('a', { href: k.url, target: '_blank', rel: 'noopener' }, k.tittel)));
       liste.append(li);
     }
-    sjekker.append(liste, el('p', { class: 'tastehint' }, 'Sjekkene er automatiske og kan ta feil. Vurder hvert punkt selv.'));
+    sjekker.append(liste, el('p', { class: 'tastehint' }, 'Sjekkene er automatiske og kan ta feil. Punkter merket «Usikker» treffer oftere feil enn de andre. Vurder hvert punkt selv.'));
   }
   boks.append(sjekker);
 

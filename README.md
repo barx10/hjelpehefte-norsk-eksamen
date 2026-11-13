@@ -101,7 +101,7 @@ Flashkort har `forside` og `bakside` i stedet for spørsmål, alternativer og fo
 
 ### Tilbakemelding på skriving
 
-Skriveøvelser og eksamenstreningen viser automatiske sjekker etter levering (`src/lib/tekstsjekk.ts`), en oversikt over første setning i hvert avsnitt og en knapp som kopierer en ledetekst eleven kan bruke i et KI-verktøy skolen har godkjent. Visningen ligger i `src/lib/tilbakemelding.ts`. Sjekkene velges etter sjanger, som hentes fra kapittelet øvelsen eller malen hører til. Sjekkene skal heller la være å melde fra enn å gi feil alarm. Nye sjekker skal ha tester med både tekster som skal gi funn og tekster som ikke skal det, og de bør prøves mot modelltekstene. Ingen tekst sendes fra siden.
+Skriveøvelser og eksamenstreningen viser automatiske sjekker etter levering (`src/lib/tekstsjekk.ts`), en oversikt over første setning i hvert avsnitt og en knapp som kopierer en ledetekst eleven kan bruke i et KI-verktøy skolen har godkjent. Visningen ligger i `src/lib/tilbakemelding.ts`. Sjekkene velges etter sjanger, som hentes fra kapittelet øvelsen eller malen hører til. Sjekker som oftere tar feil, som kommaskjøt, fortid i analyse og manglende motargument, er merket «Usikker» og vises etter de sikre. Ordlisten over skrivefeil hentes fra finn feilen-øvelsene i kapittelet om skrivefeil (`hentSkrivefeil` i `src/lib/innhold.ts`). Bare feilstavinger, ord som skal skrives i to ord, hv-ord og særskriving er med. Sjekkene skal heller la være å melde fra enn å gi feil alarm. Nye sjekker skal ha tester med både tekster som skal gi funn og tekster som ikke skal det, og de bør prøves mot modelltekstene. Ingen tekst sendes fra siden.
 
 ### Mengdetrening
 

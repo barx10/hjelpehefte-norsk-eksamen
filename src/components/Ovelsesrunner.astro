@@ -79,7 +79,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
   ];
   const rot = document.getElementById('runner') as HTMLElement;
   const data: Ovelse[] = JSON.parse(document.getElementById('ovelser-data')!.textContent ?? '[]');
-  const skrivedata: { trinn: string; kapitler: KapittelLenker } = JSON.parse(document.getElementById('skrive-data')!.textContent ?? '{}');
+  const skrivedata: { trinn: string; kapitler: KapittelLenker; skrivefeil: { feil: string; rettelse: string }[] } = JSON.parse(document.getElementById('skrive-data')!.textContent ?? '{}');
   const visKapittel = new Set(data.map((o) => o.kapittel)).size > 1;
 
   let fremgang: Fremgang = les();
@@ -670,7 +670,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
 
       const tilbakemelding = lagTilbakemelding({
         tekst, sjanger: sjangerFor(o.kapittelId), oppgave: o.utdrag ? `${o.oppdrag}\n\n${o.utdrag}` : o.oppdrag,
-        kjennetegn: o.kriterier, trinn: skrivedata.trinn, kapitler: skrivedata.kapitler, visOversikt: o.ord.maks > 150,
+        kjennetegn: o.kriterier, trinn: skrivedata.trinn, kapitler: skrivedata.kapitler, skrivefeil: skrivedata.skrivefeil, visOversikt: o.ord.maks > 150,
       });
 
       flate.append(
