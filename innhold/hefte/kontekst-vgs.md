@@ -27,7 +27,7 @@ Inndelingen i perioder er en forenkling. Perioder glir over i hverandre, og forf
 | Modernisme | 1900 til 1980 | Brudd med tradisjonen, indre liv, fragmentering |
 | Postmodernisme og samtid | 1980 til i dag | Lek, ironi, blandete former, mange stemmer |
 
-Realismen og modernismen er de to store tradisjonene i målene du skal kunne. Se kapittel 5.2 og 5.3.
+Realismen og modernismen er de to store tradisjonene i målene du skal kunne. Se kapittel 5.5 og 5.6.
 
 ## Slik bruker du konteksten
 

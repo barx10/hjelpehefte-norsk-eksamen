@@ -1,0 +1,224 @@
+- id: vgs-rom-kort-kjennetegn
+  type: flashkort
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 1
+  forside: "Nevn fire kjennetegn ved romantikken."
+  bakside: "Følelse og fantasi, naturen som levende og hellig, lengsel, geniet, dyrking av fortiden og folkediktning."
+- id: vgs-rom-kort-nasjonal
+  type: flashkort
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 1
+  forside: "Hva er nasjonalromantikken?"
+  bakside: "Den norske formen for romantikk fra omkring 1840. Den dyrket det som ble sett som ekte norsk: folkeeventyr, folkeviser, bonden, fjellet og dialektene."
+- id: vgs-rom-kort-reaksjon
+  type: flashkort
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 1
+  forside: "Hva var romantikken en reaksjon mot?"
+  bakside: "Opplysningstidens tro på fornuften."
+- id: vgs-rom-kort-stridd
+  type: flashkort
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 1
+  forside: "Hva handlet striden mellom Wergeland og Welhaven om?"
+  bakside: "Hva norsk kultur skulle være, og hvordan god diktning skulle se ut."
+- id: vgs-rom-fv-eventyr
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvem ga ut Norske Folkeeventyr?"
+  alternativer: ["Peter Christen Asbjørnsen og Jørgen Moe", "Henrik Wergeland og Johan Sebastian Welhaven", "Ivar Aasen og Knud Knudsen", "Henrik Ibsen og Bjørnstjerne Bjørnson"]
+  riktig: 0
+  forklaring: "Asbjørnsen og Moe ga ut Norske Folkeeventyr fra 1841."
+- id: vgs-rom-fv-steffens
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvem brakte romantikken til Danmark-Norge med forelesninger i 1802?"
+  alternativer: ["Henrik Steffens", "Ludvig Holberg", "Georg Brandes", "Ivar Aasen"]
+  riktig: 0
+  forklaring: "Henrik Steffens holdt forelesningene i København i 1802."
+- id: vgs-rom-fv-aasen
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva gjorde Ivar Aasen?"
+  alternativer: ["Samlet dialekter og laget landsmålet", "Samlet folkeeventyr", "Malte Brudeferden i Hardanger", "Skrev Til min Gyldenlak"]
+  riktig: 0
+  forklaring: "Aasen laget landsmålet ut fra dialektene. Det ble grunnlaget for nynorsk."
+- id: vgs-rom-fv-brudeferd
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva viser maleriet Brudeferden i Hardanger (1848)?"
+  alternativer: ["Et idyllisk bilde av norsk natur og bondekultur", "Fattigdom og slit i byen", "Et slag fra vikingtiden", "En fabrikk i Kristiania"]
+  riktig: 0
+  forklaring: "Maleriet av Tidemand og Gude er typisk nasjonalromantisk. Det viser et penere Norge enn virkeligheten."
+- id: vgs-rom-fv-realisme
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvorfor ville realistene bryte med nasjonalromantikken?"
+  alternativer: ["Nasjonalromantikken viste et Norge som var penere enn virkeligheten", "Nasjonalromantikken var for opptatt av fornuften", "Nasjonalromantikken handlet bare om byen", "Nasjonalromantikken brukte ikke bilder"]
+  riktig: 0
+  forklaring: "Fattigdom og slit ble sjelden skildret i nasjonalromantikken. Realistene ville vise virkeligheten slik den var."
+- id: vgs-rom-fv-wergeland
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken sak kjempet Henrik Wergeland for?"
+  alternativer: ["At jøder skulle få komme til Norge", "At Norge skulle bli en del av Sverige", "At landsmålet skulle forbys", "At kvinner skulle få stemmerett i 1913"]
+  riktig: 0
+  forklaring: "Wergeland kjempet for å oppheve forbudet mot at jøder kunne komme til Norge."
+- id: vgs-rom-m-periode-1
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Passer utdraget best til romantikken eller realismen?"
+  utdrag: "Fjellet reiser seg mot himmelen som et tempel, og her, alene, hører jeg Guds stemme."
+  alternativer: ["Romantikk", "Realisme"]
+  riktig: 0
+  forklaring: "Naturen er hellig, og ensomheten i naturen gir kontakt med det guddommelige. Det er romantisk."
+- id: vgs-rom-m-periode-2
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Passer utdraget best til romantikken eller realismen?"
+  utdrag: "Havet stormer, og min sjel stormer med det."
+  alternativer: ["Romantikk", "Realisme"]
+  riktig: 0
+  forklaring: "Naturen speiler følelsene til jeget. Det er romantisk."
+- id: vgs-rom-m-periode-3
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Passer utdraget best til romantikken eller realismen?"
+  utdrag: "Jeg lengter mot det fjerne blå, der fjellene møter himmelen og alt er fullkomment."
+  alternativer: ["Romantikk", "Realisme"]
+  riktig: 0
+  forklaring: "Lengsel mot noe fjernt og fullkomment er typisk for romantikken."
+- id: vgs-rom-m-periode-4
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Passer utdraget best til romantikken eller realismen?"
+  utdrag: "Fiskerne rodde ut i mørket klokka fire. De hadde ikke råd til å la være, selv om stormen var meldt."
+  alternativer: ["Realisme", "Romantikk"]
+  riktig: 0
+  forklaring: "Naturen er arbeidsplass og fare, og teksten viser fattigdom. Det er realistisk."
+- id: vgs-rom-m-periode-5
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Passer utdraget best til romantikken eller realismen?"
+  utdrag: "På setra sang budeia de gamle visene, og hele dalen lyttet."
+  alternativer: ["Romantikk", "Realisme"]
+  riktig: 0
+  forklaring: "Bildet av bondekultur og folkeviser er idyllisk. Det er nasjonalromantisk."
+- id: vgs-rom-m-periode-6
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Passer utdraget best til romantikken eller realismen?"
+  utdrag: "Jenta på gården måtte sende all lønna hjem, og hun hadde ikke sett familien sin på tre år."
+  alternativer: ["Realisme", "Romantikk"]
+  riktig: 0
+  forklaring: "Teksten skildrer et sosialt problem i hverdagen. Det er realistisk."
+- id: vgs-rom-m-periode-7
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Passer utdraget best til romantikken eller realismen?"
+  utdrag: "O, gamle Norge, ditt folk er sterkt som fjellet og stolt som de gamle kongene."
+  alternativer: ["Romantikk", "Realisme"]
+  riktig: 0
+  forklaring: "Teksten dyrker nasjonen, folket og fortiden. Det er nasjonalromantisk."
+- id: vgs-rom-m-periode-8
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Passer utdraget best til romantikken eller realismen?"
+  utdrag: "Blomsten ved vinduet var min eneste venn. Jeg talte til den som til en sjel."
+  alternativer: ["Romantikk", "Realisme"]
+  riktig: 0
+  forklaring: "Naturen er besjelet og nær jeget. Det er romantisk."
+- id: vgs-rom-sort-mns
+  type: sortering
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Hører synet til romantikken eller realismen?"
+  kategorier: ["Romantikken", "Realismen"]
+  elementer:
+    - { tekst: "Naturen er hellig og levende", kategori: 0 }
+    - { tekst: "Naturen er miljø og arbeidsplass", kategori: 1 }
+    - { tekst: "Mennesket er et følende geni", kategori: 0 }
+    - { tekst: "Mennesket er formet av samfunn og miljø", kategori: 1 }
+    - { tekst: "Folket og nasjonen idealiseres", kategori: 0 }
+    - { tekst: "Samfunnet skal kritiseres og forbedres", kategori: 1 }
+  forklaring: "Romantikken idealiserer natur, menneske og nasjon. Realismen viser samfunnet slik det er, for å forandre det."
+- id: vgs-rom-match-personer
+  type: matching
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Koble personen til det hen er kjent for."
+  par:
+    - { venstre: "Henrik Wergeland", hoyre: "Til min Gyldenlak og 17. mai" }
+    - { venstre: "Johan Sebastian Welhaven", hoyre: "Norges Dæmring og kritikk av Wergeland" }
+    - { venstre: "Asbjørnsen og Moe", hoyre: "Norske Folkeeventyr" }
+    - { venstre: "Ivar Aasen", hoyre: "Landsmålet" }
+    - { venstre: "Tidemand og Gude", hoyre: "Brudeferden i Hardanger" }
+  forklaring: "Se kapittelet om romantikken og nasjonalromantikken."
+- id: vgs-rom-skriv-sammenlign
+  type: skriv
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: utkast
+  vanskegrad: 3
+  oppdrag: "Skriv et avsnitt der du sammenligner hvordan naturen framstilles i diktutdraget og i reklameteksten."
+  utdrag: "Diktet: «Her på fjellet er jeg nær deg, Gud, / og alt det tunge blir igjen i dalen.» (Skrevet for øving i romantisk stil.)\n\nReklamen: «Finn roen. Finn deg selv. Opplev Norge.» Under står et bilde av en person alene på en fjelltopp i solnedgang."
+  ord: {"min": 80, "maks": 180}
+  nokkelord: ["romantikken", "naturen", "reklamen", "diktet"]
+  nokkelordMinst: 3
+  sitat: True
+  kriterier: ["Avsnittet viser hvordan naturen framstilles i begge tekstene", "Begge tekstene blir sitert eller beskrevet konkret", "Avsnittet knytter diktet til romantikken", "Avsnittet forklarer hva forskjellen i formål betyr"]
+  modelltekst: "Både diktet og reklamen viser fjellet som et sted der mennesket finner noe større enn seg selv. I diktet er fjellet et sted der jeget er «nær deg, Gud», og naturen får en hellig rolle, slik den ofte har i romantikken. Reklamen bruker det samme bildet: en person alene på en topp i solnedgang og ordene «Finn roen. Finn deg selv.» Forskjellen er formålet. Diktet uttrykker en religiøs lengsel, mens reklamen bruker den romantiske lengselen til å selge en reise. Slik viser reklamen at romantikkens syn på naturen fortsatt virker, men nå som en vare."
