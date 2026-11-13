@@ -1,0 +1,572 @@
+- id: vgs-ret-m-appell-1
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Som lege i tjue år har jeg sett hva røyking gjør med lungene.»"
+  alternativer: ["Etos", "Logos", "Patos"]
+  riktig: 0
+  forklaring: "Avsenderen viser til fagkunnskap og lang erfaring. Det bygger troverdighet."
+- id: vgs-ret-m-appell-2
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Jeg har forsket på søvn hos ungdom i femten år.»"
+  alternativer: ["Etos", "Logos", "Patos"]
+  riktig: 0
+  forklaring: "Avsenderen viser at hun eller han er fagperson. Det bygger troverdighet."
+- id: vgs-ret-m-appell-3
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Vår organisasjon har hjulpet flyktninger i over førti år.»"
+  alternativer: ["Etos", "Logos", "Patos"]
+  riktig: 0
+  forklaring: "Avsenderen viser til lang erfaring og hvem de representerer."
+- id: vgs-ret-m-appell-4
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Jeg skal være ærlig: Jeg tok feil i denne saken tidligere, og jeg har endret mening.»"
+  alternativer: ["Etos", "Logos", "Patos"]
+  riktig: 0
+  forklaring: "Avsenderen virker ærlig og redelig. Det styrker troverdigheten."
+- id: vgs-ret-m-appell-5
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Som tidligere rektor kjenner jeg skolehverdagen fra innsiden.»"
+  alternativer: ["Etos", "Logos", "Patos"]
+  riktig: 0
+  forklaring: "Avsenderen viser til erfaring fra skolen. Det bygger troverdighet."
+- id: vgs-ret-m-appell-6
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Jeg er selv bonde og har drevet gården min i tretti år.»"
+  alternativer: ["Etos", "Logos", "Patos"]
+  riktig: 0
+  forklaring: "Avsenderen viser at hun eller han kjenner saken fra eget arbeid."
+- id: vgs-ret-m-appell-7
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Ifølge undersøkelsen sover fire av ti elever mindre enn sju timer per natt.»"
+  alternativer: ["Logos", "Etos", "Patos"]
+  riktig: 0
+  forklaring: "Sitatet bruker tall fra en undersøkelse. Det appellerer til fornuften."
+- id: vgs-ret-m-appell-8
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Hvis skoledagen starter en time senere, får elevene mer søvn, og da lærer de mer.»"
+  alternativer: ["Logos", "Etos", "Patos"]
+  riktig: 0
+  forklaring: "Sitatet bygger et resonnement om årsak og virkning."
+- id: vgs-ret-m-appell-9
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Prisen på bussbilletten har økt med 30 prosent på fem år, mens lønningene har økt med 15.»"
+  alternativer: ["Logos", "Etos", "Patos"]
+  riktig: 0
+  forklaring: "Sitatet sammenligner tall. Det appellerer til fornuften."
+- id: vgs-ret-m-appell-10
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Byer som har innført bompenger, har fått mindre biltrafikk og renere luft.»"
+  alternativer: ["Logos", "Etos", "Patos"]
+  riktig: 0
+  forklaring: "Sitatet viser til erfaringer og følger. Det er et fornuftsargument."
+- id: vgs-ret-m-appell-11
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Tre kommuner prøvde ordningen i fjor, og alle tre fikk færre skader.»"
+  alternativer: ["Logos", "Etos", "Patos"]
+  riktig: 0
+  forklaring: "Sitatet bruker eksempler som belegg. Det appellerer til fornuften."
+- id: vgs-ret-m-appell-12
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Det koster mindre å forebygge sykdom enn å behandle den.»"
+  alternativer: ["Logos", "Etos", "Patos"]
+  riktig: 0
+  forklaring: "Sitatet er et økonomisk resonnement. Det appellerer til fornuften."
+- id: vgs-ret-m-appell-13
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Tenk deg at det er ditt barn som står alene i skolegården hver eneste dag.»"
+  alternativer: ["Patos", "Etos", "Logos"]
+  riktig: 0
+  forklaring: "Sitatet ber leseren se for seg sitt eget barn. Det vekker følelser."
+- id: vgs-ret-m-appell-14
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Havet vårt kveles sakte av plast, mens vi ser en annen vei.»"
+  alternativer: ["Patos", "Etos", "Logos"]
+  riktig: 0
+  forklaring: "Ordet «kveles» er sterkt og vekker følelser."
+- id: vgs-ret-m-appell-15
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Vi kan ikke svikte dem som trenger oss mest.»"
+  alternativer: ["Patos", "Etos", "Logos"]
+  riktig: 0
+  forklaring: "«Vi» og ordet «svikte» spiller på samvittighet og fellesskap."
+- id: vgs-ret-m-appell-16
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Hun var bare sju år da hun mistet hjemmet sitt i flommen.»"
+  alternativer: ["Patos", "Etos", "Logos"]
+  riktig: 0
+  forklaring: "En konkret historie om et barn vekker medfølelse."
+- id: vgs-ret-m-appell-17
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Skal vi virkelig la barnebarna våre arve en ødelagt planet?»"
+  alternativer: ["Patos", "Etos", "Logos"]
+  riktig: 0
+  forklaring: "Sitatet spiller på ansvar og frykt for framtiden. Det vekker følelser."
+- id: vgs-ret-m-appell-18
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken appellform er tydeligst i sitatet?"
+  utdrag: "«Kjære venner, i dag står vi sammen for noe som er større enn oss selv.»"
+  alternativer: ["Patos", "Etos", "Logos"]
+  riktig: 0
+  forklaring: "Tiltalen og «vi» skaper fellesskap og engasjement."
+- id: vgs-ret-m-virk-1
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Er det virkelig for mye å be om at alle barn får et varmt måltid?»"
+  alternativer: ["Retorisk spørsmål", "Kontrast", "Tretrinn", "Ironi"]
+  riktig: 0
+  forklaring: "Spørsmålet trenger ikke svar. Det presser leseren til å være enig."
+- id: vgs-ret-m-virk-2
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Hvem vil vel ikke ha renere luft?»"
+  alternativer: ["Retorisk spørsmål", "Gjentakelse", "Sammenligning eller bilde", "Direkte tale til leseren"]
+  riktig: 0
+  forklaring: "Svaret er gitt på forhånd. Spørsmålet presser fram enighet."
+- id: vgs-ret-m-virk-3
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Vi trenger handling nå. Vi trenger handling før det er for sent.»"
+  alternativer: ["Gjentakelse", "Kontrast", "Retorisk spørsmål", "Ironi"]
+  riktig: 0
+  forklaring: "«Vi trenger handling» gjentas. Gjentakelsen fremhever budskapet."
+- id: vgs-ret-m-virk-4
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Det handler om framtiden, om framtiden til barna våre, om framtiden til hele landet.»"
+  alternativer: ["Gjentakelse", "Kontrast", "Retorisk spørsmål", "Ironi"]
+  riktig: 0
+  forklaring: "Ordet «framtiden» gjentas flere ganger og blir fremhevet."
+- id: vgs-ret-m-virk-5
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Mens noen få blir rikere, blir mange fattigere.»"
+  alternativer: ["Kontrast", "Gjentakelse", "Tretrinn", "Direkte tale til leseren"]
+  riktig: 0
+  forklaring: "«Rikere» og «fattigere» står mot hverandre. Det er en kontrast."
+- id: vgs-ret-m-virk-6
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Før var sentrum fullt av liv. I dag står butikkene tomme.»"
+  alternativer: ["Kontrast", "Tretrinn", "Retorisk spørsmål", "Ironi"]
+  riktig: 0
+  forklaring: "Fortid og nåtid, liv og tomhet, settes mot hverandre."
+- id: vgs-ret-m-virk-7
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Det er ikke et problem for i morgen. Det er et problem for i dag.»"
+  alternativer: ["Kontrast", "Tretrinn", "Sammenligning eller bilde", "Retorisk spørsmål"]
+  riktig: 0
+  forklaring: "«I morgen» og «i dag» settes mot hverandre for å vise at saken haster."
+- id: vgs-ret-m-virk-8
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Dette tiltaket er billig, enkelt og effektivt.»"
+  alternativer: ["Tretrinn", "Kontrast", "Retorisk spørsmål", "Ironi"]
+  riktig: 0
+  forklaring: "Tre ledd på rad gir rytme og gjør påstanden lett å huske."
+- id: vgs-ret-m-virk-9
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Vi skal lytte, vi skal lære, og vi skal handle.»"
+  alternativer: ["Tretrinn", "Kontrast", "Sammenligning eller bilde", "Ironi"]
+  riktig: 0
+  forklaring: "Tre ledd på rad med økende styrke. Det siste leddet er sterkest."
+- id: vgs-ret-m-virk-10
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Skolen er som en fabrikk der alle elevene skal komme ut like.»"
+  alternativer: ["Sammenligning eller bilde", "Kontrast", "Tretrinn", "Retorisk spørsmål"]
+  riktig: 0
+  forklaring: "Skolen sammenlignes med en fabrikk. Bildet gjør kritikken konkret."
+- id: vgs-ret-m-virk-11
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Sosiale medier er et speil som bare viser det vakreste.»"
+  alternativer: ["Sammenligning eller bilde", "Gjentakelse", "Retorisk spørsmål", "Ironi"]
+  riktig: 0
+  forklaring: "Sosiale medier beskrives som et speil. Det er et bilde, en metafor."
+- id: vgs-ret-m-virk-12
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Byen er et dyr som aldri sover.»"
+  alternativer: ["Sammenligning eller bilde", "Kontrast", "Gjentakelse", "Direkte tale til leseren"]
+  riktig: 0
+  forklaring: "Byen beskrives som et dyr. Det er et bilde, en metafor."
+- id: vgs-ret-m-virk-13
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Så fint at vi har bygd en ny motorvei, slik at vi kan sitte i enda lengre køer.»"
+  alternativer: ["Ironi", "Kontrast", "Sammenligning eller bilde", "Retorisk spørsmål"]
+  riktig: 0
+  forklaring: "Avsenderen sier «så fint», men mener det motsatte. Det er ironi."
+- id: vgs-ret-m-virk-14
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Flott, enda et møte som kunne vært en e-post.»"
+  alternativer: ["Ironi", "Sammenligning eller bilde", "Gjentakelse", "Retorisk spørsmål"]
+  riktig: 0
+  forklaring: "«Flott» betyr det motsatte her. Det er ironi."
+- id: vgs-ret-m-virk-15
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Du vet selv hvordan det føles å bli oversett.»"
+  alternativer: ["Direkte tale til leseren", "Retorisk spørsmål", "Ironi", "Kontrast"]
+  riktig: 0
+  forklaring: "Avsenderen snakker rett til leseren med «du»."
+- id: vgs-ret-m-virk-16
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Kanskje er det nettopp du som kan gjøre en forskjell.»"
+  alternativer: ["Direkte tale til leseren", "Kontrast", "Sammenligning eller bilde", "Ironi"]
+  riktig: 0
+  forklaring: "Leseren blir tiltalt direkte med «du»."
+- id: vgs-ret-m-virk-17
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket retorisk virkemiddel brukes i sitatet?"
+  utdrag: "«Hvorfor skal vi betale for andres feil?»"
+  alternativer: ["Retorisk spørsmål", "Direkte tale til leseren", "Kontrast", "Sammenligning eller bilde"]
+  riktig: 0
+  forklaring: "Spørsmålet er ikke ment å bli besvart. Det skal få leseren til å være enig."
+- id: vgs-ret-m-svak-1
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken svakhet i argumentasjonen viser sitatet?"
+  utdrag: "«Alle ungdommer i dag er avhengige av mobilen.»"
+  alternativer: ["Generalisering", "Personangrep", "Stråmann", "Følelsesladde ord uten dekning"]
+  riktig: 0
+  forklaring: "Påstanden gjelder «alle». Den sier noe om en hel gruppe uten belegg."
+- id: vgs-ret-m-svak-2
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken svakhet i argumentasjonen viser sitatet?"
+  utdrag: "«Politikere bryr seg aldri om vanlige folk.»"
+  alternativer: ["Generalisering", "Personangrep", "Stråmann", "Følelsesladde ord uten dekning"]
+  riktig: 0
+  forklaring: "«Politikere» og «aldri» gjør påstanden altfor bred."
+- id: vgs-ret-m-svak-3
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken svakhet i argumentasjonen viser sitatet?"
+  utdrag: "«Folk som spiller dataspill, er late.»"
+  alternativer: ["Generalisering", "Personangrep", "Stråmann", "Følelsesladde ord uten dekning"]
+  riktig: 0
+  forklaring: "Påstanden sier noe om alle som spiller, uten belegg."
+- id: vgs-ret-m-svak-4
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken svakhet i argumentasjonen viser sitatet?"
+  utdrag: "«Hvorfor skal vi høre på henne? Hun har jo ikke engang fullført videregående.»"
+  alternativer: ["Personangrep", "Generalisering", "Stråmann", "Følelsesladde ord uten dekning"]
+  riktig: 0
+  forklaring: "Sitatet angriper personen i stedet for argumentet hennes."
+- id: vgs-ret-m-svak-5
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken svakhet i argumentasjonen viser sitatet?"
+  utdrag: "«Forslaget kommer fra en mann som ikke kan holde orden i sin egen hage.»"
+  alternativer: ["Personangrep", "Generalisering", "Stråmann", "Følelsesladde ord uten dekning"]
+  riktig: 0
+  forklaring: "Sitatet angriper personen, ikke forslaget."
+- id: vgs-ret-m-svak-6
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken svakhet i argumentasjonen viser sitatet?"
+  utdrag: "«Han som er imot nye boliger, bor selv i en stor villa. Hvorfor skal vi lytte til ham?»"
+  alternativer: ["Personangrep", "Generalisering", "Stråmann", "Følelsesladde ord uten dekning"]
+  riktig: 0
+  forklaring: "Sitatet angriper hvordan han bor, ikke det han mener."
+- id: vgs-ret-m-svak-7
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken svakhet i argumentasjonen viser sitatet?"
+  utdrag: "«Motstanderne av bompenger vil altså at barna våre skal puste inn giftig luft.»"
+  alternativer: ["Stråmann", "Generalisering", "Personangrep", "Følelsesladde ord uten dekning"]
+  riktig: 0
+  forklaring: "Motstandernes syn blir forvrengt til noe ingen mener. Det er en stråmann."
+- id: vgs-ret-m-svak-8
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken svakhet i argumentasjonen viser sitatet?"
+  utdrag: "«De som vil korte ned sommerferien, mener visst at barn ikke skal få leke.»"
+  alternativer: ["Stråmann", "Generalisering", "Personangrep", "Følelsesladde ord uten dekning"]
+  riktig: 0
+  forklaring: "Synet til motparten blir gjort enklere og verre enn det er."
+- id: vgs-ret-m-svak-9
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken svakhet i argumentasjonen viser sitatet?"
+  utdrag: "«De som vil ha flere sykkelveier, vil egentlig forby alle biler.»"
+  alternativer: ["Stråmann", "Generalisering", "Personangrep", "Følelsesladde ord uten dekning"]
+  riktig: 0
+  forklaring: "Motpartens forslag blir overdrevet slik at det blir lett å angripe."
+- id: vgs-ret-m-svak-10
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken svakhet i argumentasjonen viser sitatet?"
+  utdrag: "«Dette katastrofale, skandaløse forslaget vil ødelegge alt.»"
+  alternativer: ["Følelsesladde ord uten dekning", "Generalisering", "Personangrep", "Stråmann"]
+  riktig: 0
+  forklaring: "Ordene er sterke, men det kommer ikke noe belegg for at forslaget er så ille."
+- id: vgs-ret-m-svak-11
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken svakhet i argumentasjonen viser sitatet?"
+  utdrag: "«Den vanvittige nye timeplanen er et angrep på alle elever.»"
+  alternativer: ["Følelsesladde ord uten dekning", "Generalisering", "Personangrep", "Stråmann"]
+  riktig: 0
+  forklaring: "«Vanvittige» og «angrep» er sterke ord uten dekning i fakta."
+- id: vgs-ret-m-sit-1
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg2-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken del av den retoriske situasjonen beskriver setningen?"
+  utdrag: "Et innlegg om trafikksikkerhet blir publisert dagen etter en alvorlig ulykke."
+  alternativer: ["Kairos", "Avsender", "Mottaker", "Tema"]
+  riktig: 0
+  forklaring: "Tidspunktet gjør at teksten treffer. Det er kairos."
+- id: vgs-ret-m-sit-2
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg2-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken del av den retoriske situasjonen beskriver setningen?"
+  utdrag: "Teksten er skrevet av en barnelege."
+  alternativer: ["Avsender", "Mottaker", "Formål", "Kairos"]
+  riktig: 0
+  forklaring: "Hvem som skriver, er avsenderen."
+- id: vgs-ret-m-sit-3
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg2-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken del av den retoriske situasjonen beskriver setningen?"
+  utdrag: "Brosjyren er laget for foreldre med barn i barnehagen."
+  alternativer: ["Mottaker", "Avsender", "Formål", "Kairos"]
+  riktig: 0
+  forklaring: "De teksten er skrevet til, er mottakerne."
+- id: vgs-ret-m-sit-4
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg2-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken del av den retoriske situasjonen beskriver setningen?"
+  utdrag: "Innlegget skal få leserne til å stemme ved kommunevalget."
+  alternativer: ["Formål", "Tema", "Mottaker", "Avsender"]
+  riktig: 0
+  forklaring: "Det avsenderen vil oppnå, er formålet."
+- id: vgs-ret-m-sit-5
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg2-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken del av den retoriske situasjonen beskriver setningen?"
+  utdrag: "Artikkelen sto i en lokalavis i 1995, mens det var strid om en ny flyplass."
+  alternativer: ["Kontekst", "Avsender", "Mottaker", "Formål"]
+  riktig: 0
+  forklaring: "Når og hvor teksten kom ut, og hva som skjedde rundt, er konteksten."
+- id: vgs-ret-m-sit-6
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg2-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken del av den retoriske situasjonen beskriver setningen?"
+  utdrag: "Teksten handler om skjermtid hos barn."
+  alternativer: ["Tema", "Formål", "Kairos", "Avsender"]
+  riktig: 0
+  forklaring: "Det teksten handler om, er temaet."

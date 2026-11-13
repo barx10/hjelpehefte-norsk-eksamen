@@ -101,7 +101,7 @@ Flashkort har `forside` og `bakside` i stedet for spørsmål, alternativer og fo
 
 Eleven velger hvor mange øvelser økten skal ha (10, 20, 40 eller alle). I temaet med kommaoppgaver kan eleven også øve på én kommaregel om gangen. Valget bruker feltet `regler`.
 
-Filene som slutter på `-mengde.yaml`, har mange korte oppgaver av samme slag: komma, finn feilen, overgangsord og virkemidler. De står som `utkast` til de er gjennomgått.
+Filene som slutter på `-mengde.yaml`, har mange korte oppgaver av samme slag: komma, finn feilen, overgangsord og virkemidler. For vgs finnes mengdefiler for setningsoppbygging, retorisk analyse, talespråk, instruksjonsord og litteratur (`vgs-*-mengde.yaml`). De står som `utkast` til de er gjennomgått.
 
 Alle typer kan ha `fraTekst: <id>` som peker på en tekst i `innhold/besvarelser/`. Da vises forfatter, lisens og kilde under øvelsen.
 

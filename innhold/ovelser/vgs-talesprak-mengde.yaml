@@ -1,0 +1,286 @@
+- id: vgs-tale-m-begrep-1
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Ida snakker trøndersk hjemme, men et mer standardisert østnorsk når hun holder foredrag i Oslo."
+  alternativer: ["Kodeveksling", "Dialekt", "Sosiolekt", "Lånord"]
+  riktig: 0
+  forklaring: "Ida bytter talemål etter situasjonen. Det er kodeveksling."
+- id: vgs-tale-m-begrep-2
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Samira snakker arabisk med mormor og norsk med vennene sine."
+  alternativer: ["Kodeveksling", "Multietnolekt", "Lånord", "Dialekt"]
+  riktig: 0
+  forklaring: "Samira bytter språk etter hvem hun snakker med. Det er kodeveksling."
+- id: vgs-tale-m-begrep-3
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Kevin skriver formelt i jobbsøknaden, men bruker forkortelser og emojier i chat med venner."
+  alternativer: ["Kodeveksling", "Sosiolekt", "Ungdomsspråk", "Lånord"]
+  riktig: 0
+  forklaring: "Kevin tilpasser stilen til situasjonen. Det er kodeveksling."
+- id: vgs-tale-m-begrep-4
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Ordet «chille» er hentet fra engelsk og bøyd som et norsk verb."
+  alternativer: ["Lånord", "Sosiolekt", "Kodeveksling", "Dialekt"]
+  riktig: 0
+  forklaring: "Ordet er tatt inn fra et annet språk. Det er et lånord."
+- id: vgs-tale-m-begrep-5
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Ordene «weekend», «date» og «nerd» brukes i norsk med engelsk skrivemåte."
+  alternativer: ["Lånord", "Dialekt", "Ungdomsspråk", "Multietnolekt"]
+  riktig: 0
+  forklaring: "Ordene er hentet fra engelsk. De er lånord."
+- id: vgs-tale-m-begrep-6
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Ordet «kul» kommer fra engelsk «cool», men skrives nå på norsk måte."
+  alternativer: ["Lånord", "Dialekt", "Kodeveksling", "Multietnolekt"]
+  riktig: 0
+  forklaring: "Ordet er lånt fra engelsk og tilpasset norsk skrivemåte. Det er et lånord."
+- id: vgs-tale-m-begrep-7
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Legene på avdelingen bruker mange faguttrykk som andre ikke forstår."
+  alternativer: ["Sosiolekt", "Dialekt", "Lånord", "Kodeveksling"]
+  riktig: 0
+  forklaring: "Språket henger sammen med yrket. Det er en sosiolekt."
+- id: vgs-tale-m-begrep-8
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Fiskere har egne ord for redskaper og vær som folk i byen ikke kjenner."
+  alternativer: ["Sosiolekt", "Lånord", "Kodeveksling", "Multietnolekt"]
+  riktig: 0
+  forklaring: "Ordene henger sammen med yrket. Det er en sosiolekt."
+- id: vgs-tale-m-begrep-9
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Bestemor sier «æ» i stedet for «jeg», fordi det er slik man snakker der hun vokste opp."
+  alternativer: ["Dialekt", "Sosiolekt", "Kodeveksling", "Lånord"]
+  riktig: 0
+  forklaring: "Talemålet viser hvor hun kommer fra. Det er dialekt."
+- id: vgs-tale-m-begrep-10
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "En programleder fra Bergen bruker bergensk på riksdekkende tv."
+  alternativer: ["Dialekt", "Sosiolekt", "Kodeveksling", "Multietnolekt"]
+  riktig: 0
+  forklaring: "Talemålet viser hvor programlederen kommer fra. Det er dialekt."
+- id: vgs-tale-m-begrep-11
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Unge i byen bruker ord som «wolla» og «sjofe», som kommer fra flere språk."
+  alternativer: ["Multietnolekt", "Lånord", "Dialekt", "Kodeveksling"]
+  riktig: 0
+  forklaring: "Talemåten har trekk fra flere språk og har vokst fram blant unge med ulik bakgrunn. Det er multietnolekt."
+- id: vgs-tale-m-begrep-12
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Ungdom fra mange språkbakgrunner i samme bydel har utviklet en felles måte å snakke på."
+  alternativer: ["Multietnolekt", "Dialekt", "Kodeveksling", "Dialektutjevning"]
+  riktig: 0
+  forklaring: "En felles talemåte med trekk fra flere språk kalles multietnolekt."
+- id: vgs-tale-m-begrep-13
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Mange unge i små bygder snakker likere hverandre enn foreldrene gjorde, og lokale ord forsvinner."
+  alternativer: ["Dialektutjevning", "Kodeveksling", "Sosiolekt", "Multietnolekt"]
+  riktig: 0
+  forklaring: "Dialektene blir mer like hverandre. Det er dialektutjevning."
+- id: vgs-tale-m-begrep-14
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket fagbegrep passer best på eksempelet?"
+  utdrag: "Elevene sier «sjukt bra» og «helt texas», uttrykk som voksne sjelden bruker."
+  alternativer: ["Ungdomsspråk", "Dialekt", "Lånord", "Kodeveksling"]
+  riktig: 0
+  forklaring: "Uttrykkene brukes særlig av unge og viser tilhørighet. Det er ungdomsspråk."
+- id: vgs-tale-m-vurd-1
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen en beskrivelse eller en vurdering?"
+  utdrag: "Mange unge bruker engelske ord i chat."
+  alternativer: ["Beskrivelse", "Vurdering"]
+  riktig: 0
+  forklaring: "Setningen sier hvordan noe er, uten å si om det er bra eller dårlig. Det er en beskrivelse."
+- id: vgs-tale-m-vurd-2
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen en beskrivelse eller en vurdering?"
+  utdrag: "Det er trist at dialektene forsvinner."
+  alternativer: ["Vurdering", "Beskrivelse"]
+  riktig: 0
+  forklaring: "Setningen sier hva avsenderen mener er bra, dårlig eller riktig. Det er en vurdering."
+- id: vgs-tale-m-vurd-3
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen en beskrivelse eller en vurdering?"
+  utdrag: "Ungdomsspråk ødelegger norsken."
+  alternativer: ["Vurdering", "Beskrivelse"]
+  riktig: 0
+  forklaring: "Setningen sier hva avsenderen mener er bra, dårlig eller riktig. Det er en vurdering."
+- id: vgs-tale-m-vurd-4
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen en beskrivelse eller en vurdering?"
+  utdrag: "Flere byer har fått et flerkulturelt ungdomsspråk."
+  alternativer: ["Beskrivelse", "Vurdering"]
+  riktig: 0
+  forklaring: "Setningen sier hvordan noe er, uten å si om det er bra eller dårlig. Det er en beskrivelse."
+- id: vgs-tale-m-vurd-5
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen en beskrivelse eller en vurdering?"
+  utdrag: "Folk burde snakke dialekt også i Stortinget."
+  alternativer: ["Vurdering", "Beskrivelse"]
+  riktig: 0
+  forklaring: "Setningen sier hva avsenderen mener er bra, dårlig eller riktig. Det er en vurdering."
+- id: vgs-tale-m-vurd-6
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen en beskrivelse eller en vurdering?"
+  utdrag: "Norsk har tatt opp lånord fra tysk, dansk og engelsk."
+  alternativer: ["Beskrivelse", "Vurdering"]
+  riktig: 0
+  forklaring: "Setningen sier hvordan noe er, uten å si om det er bra eller dårlig. Det er en beskrivelse."
+- id: vgs-tale-m-vurd-7
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen en beskrivelse eller en vurdering?"
+  utdrag: "Engelske lånord gjør språket fattigere."
+  alternativer: ["Vurdering", "Beskrivelse"]
+  riktig: 0
+  forklaring: "Setningen sier hva avsenderen mener er bra, dårlig eller riktig. Det er en vurdering."
+- id: vgs-tale-m-vurd-8
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen en beskrivelse eller en vurdering?"
+  utdrag: "Mange unge bytter mellom dialekt og et mer standardisert talemål."
+  alternativer: ["Beskrivelse", "Vurdering"]
+  riktig: 0
+  forklaring: "Setningen sier hvordan noe er, uten å si om det er bra eller dårlig. Det er en beskrivelse."
+- id: vgs-tale-m-vurd-9
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen en beskrivelse eller en vurdering?"
+  utdrag: "Det er flott at multietnolekt får plass i film og musikk."
+  alternativer: ["Vurdering", "Beskrivelse"]
+  riktig: 0
+  forklaring: "Setningen sier hva avsenderen mener er bra, dårlig eller riktig. Det er en vurdering."
+- id: vgs-tale-m-vurd-10
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen en beskrivelse eller en vurdering?"
+  utdrag: "Chat og tekstmeldinger ligger nær talespråket."
+  alternativer: ["Beskrivelse", "Vurdering"]
+  riktig: 0
+  forklaring: "Setningen sier hvordan noe er, uten å si om det er bra eller dårlig. Det er en beskrivelse."
+- id: vgs-tale-m-vurd-11
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen en beskrivelse eller en vurdering?"
+  utdrag: "Unge snakker dårligere enn før."
+  alternativer: ["Vurdering", "Beskrivelse"]
+  riktig: 0
+  forklaring: "Setningen sier hva avsenderen mener er bra, dårlig eller riktig. Det er en vurdering."
+- id: vgs-tale-m-vurd-12
+  type: flervalg
+  kapittel: talesprak-vgs
+  mal: [mvg3-10]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen en beskrivelse eller en vurdering?"
+  utdrag: "Noen dialektord brukes nesten bare av eldre."
+  alternativer: ["Beskrivelse", "Vurdering"]
+  riktig: 0
+  forklaring: "Setningen sier hvordan noe er, uten å si om det er bra eller dårlig. Det er en beskrivelse."

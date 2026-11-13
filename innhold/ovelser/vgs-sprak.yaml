@@ -236,7 +236,7 @@
   mal: [mvg1-08]
   status: godkjent
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med tidsadverbialet."
-  elementer: ["I dag", "leser", "jeg", "en roman"]
+  elementer: ["i dag", "leser", "jeg", "en roman"]
   forklaring: "I en hovedsetning står verbalet på andre plass. Begynner setningen med et adverbial, må subjektet flytte bak verbalet: «I dag leser jeg en roman». Begynner den med subjektet, blir det «Jeg leser en roman i dag»."
 - id: vgs-setn-flervalg-bindeord
   type: flervalg

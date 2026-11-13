@@ -1,0 +1,510 @@
+- id: vgs-mod-m-periode-1
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "Fabrikkeieren telte pengene to ganger før han la dem i skuffen. Ute i gården sto arbeiderne og ventet på lønna, som hadde vært for lav i tre måneder."
+  alternativer: ["Realisme", "Modernisme"]
+  riktig: 0
+  forklaring: "Utdraget viser et samfunnsproblem i et hverdagsmiljø: makt, penger og lav lønn."
+- id: vgs-mod-m-periode-2
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "– Du skal gifte deg med handelsmannen, sa far og la avisen fra seg. – Han har penger, og det har ikke vi. Datteren så ned i bordet og svarte ikke."
+  alternativer: ["Realisme", "Modernisme"]
+  riktig: 0
+  forklaring: "Dialogen er troverdig, fortelleren kommenterer ikke, og teksten tar opp kvinnens begrensede valg."
+- id: vgs-mod-m-periode-3
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "Hver morgen klokka fem gikk Marie ned til fiskebrygga. Hun sløyde fisk til det ble mørkt, og lønna holdt akkurat til husleia."
+  alternativer: ["Realisme", "Modernisme"]
+  riktig: 0
+  forklaring: "Utdraget skildrer hverdagen og fattigdommen til en vanlig arbeider."
+- id: vgs-mod-m-periode-4
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "Presten talte om dyd og orden fra prekestolen, mens tjenestejenta som hadde fått barn utenfor ekteskapet, satt alene bakerst i kirken."
+  alternativer: ["Realisme", "Modernisme"]
+  riktig: 0
+  forklaring: "Utdraget stiller spørsmål ved moral og normer i samfunnet."
+- id: vgs-mod-m-periode-5
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "Familien flyttet inn i to små rom i bakgården. Faren var arbeidsløs, og moren tok inn vask for å skaffe mat til de fem barna."
+  alternativer: ["Realisme", "Modernisme"]
+  riktig: 0
+  forklaring: "Utdraget viser fattigdom i et konkret miljø og forklarer hvorfor familien har det slik."
+- id: vgs-mod-m-periode-6
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "Konsulen holdt en lang tale om byens framgang. Ingen nevnte at det var hans skip som hadde forlist med tolv mann om bord, og at enkene ikke fikk noen hjelp."
+  alternativer: ["Realisme", "Modernisme"]
+  riktig: 0
+  forklaring: "Utdraget kritiserer makt og dobbeltmoral i samfunnet."
+- id: vgs-mod-m-periode-7
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "– En kone skal ikke ha egne meninger om penger, sa ektemannen. Helene la fra seg strikketøyet og så på ham lenge."
+  alternativer: ["Realisme", "Modernisme"]
+  riktig: 0
+  forklaring: "Dialogen avslører maktforholdet i ekteskapet uten at fortelleren kommenterer."
+- id: vgs-mod-m-periode-8
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "Bondesønnen kom til byen for å studere. Med klærne og dialekten sin skilte han seg ut blant de andre studentene, og han merket at de lo av ham."
+  alternativer: ["Realisme", "Modernisme"]
+  riktig: 0
+  forklaring: "Utdraget tar opp klasseskiller og skildrer et troverdig miljø."
+- id: vgs-mod-m-periode-9
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "byen / et rom uten dør / jeg går / og går / ingen ser meg"
+  alternativer: ["Modernisme", "Realisme"]
+  riktig: 0
+  forklaring: "Frie vers, et bilde på et indre inntrykk og ensomhet i byen."
+- id: vgs-mod-m-periode-10
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "Hun sitter på toget. Regnet. Mors stemme, den gangen, nei. Hvorfor tenker hun på det nå. Stasjonen glir forbi, grå, grå."
+  alternativer: ["Modernisme", "Realisme"]
+  riktig: 0
+  forklaring: "Tankene kommer i den rekkefølgen de dukker opp. Det er bevissthetsstrøm."
+- id: vgs-mod-m-periode-11
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "Jeg vet ikke lenger hvem jeg er. Ansiktet i speilet er et annet ansikt hver morgen."
+  alternativer: ["Modernisme", "Realisme"]
+  riktig: 0
+  forklaring: "Utdraget handler om identitet og fremmedhet. Det er et eksistensielt spørsmål."
+- id: vgs-mod-m-periode-12
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "asfalten puster / lyktestolpene står / som stumme soldater / i natt / er jeg ingen"
+  alternativer: ["Modernisme", "Realisme"]
+  riktig: 0
+  forklaring: "Frie vers, bilder og en opplevelse av å forsvinne i byen."
+- id: vgs-mod-m-periode-13
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "Han husker plutselig sommeren da han var sju. Eller var det åtte. Lukten av tjære. Så er han tilbake på kontoret, og telefonen ringer, men han tar den ikke."
+  alternativer: ["Modernisme", "Realisme"]
+  riktig: 0
+  forklaring: "Teksten hopper i tid og følger personens indre liv."
+- id: vgs-mod-m-periode-14
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "Klokka på veggen har stoppet. Ingen har skrudd den opp igjen. Hun sitter ved vinduet og venter, men hun vet ikke lenger hva hun venter på."
+  alternativer: ["Modernisme", "Realisme"]
+  riktig: 0
+  forklaring: "Klokka er et symbol, og slutten er åpen. Leseren må selv fylle ut."
+- id: vgs-mod-m-periode-15
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "maskinene / synger sin jernsang / og vi / er tannhjul / i en vogn ingen styrer"
+  alternativer: ["Modernisme", "Realisme"]
+  riktig: 0
+  forklaring: "Frie vers og bilder av mennesket som en del av en maskin. Det viser fremmedgjøring."
+- id: vgs-mod-m-periode-16
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken tradisjon passer utdraget best inn i?"
+  utdrag: "Gatene var fulle av mennesker, men han kjente seg mer alene enn noen gang. Alt virket fjernt, som om han så verden gjennom en glassvegg."
+  alternativer: ["Modernisme", "Realisme"]
+  riktig: 0
+  forklaring: "Utdraget handler om ensomhet i mengden og en subjektiv opplevelse av verden."
+- id: vgs-mod-m-sort-1
+  type: sortering
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Er kjennetegnet typisk for realismen eller modernismen?"
+  kategorier: ["Realisme", "Modernisme"]
+  elementer:
+    - { tekst: "Samfunnsproblemer settes under debatt", kategori: 0 }
+    - { tekst: "Bevissthetsstrøm", kategori: 1 }
+    - { tekst: "Kronologisk fortelling", kategori: 0 }
+    - { tekst: "Frie vers", kategori: 1 }
+    - { tekst: "Troverdig, dagligdags dialog", kategori: 0 }
+    - { tekst: "Hopp i tid og sted", kategori: 1 }
+  forklaring: "Realismen skildrer samfunnet slik det er. Modernismen er opptatt av det indre livet og bryter med fast form."
+- id: vgs-mod-m-sort-2
+  type: sortering
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Er kjennetegnet typisk for realismen eller modernismen?"
+  kategorier: ["Realisme", "Modernisme"]
+  elementer:
+    - { tekst: "Fortelleren holder seg i bakgrunnen", kategori: 0 }
+    - { tekst: "Subjektiv og usikker synsvinkel", kategori: 1 }
+    - { tekst: "Mennesket formet av miljø og normer", kategori: 0 }
+    - { tekst: "Åpen slutt og undertekst", kategori: 1 }
+    - { tekst: "Romanen og samtidsdramaet er viktigst", kategori: 0 }
+    - { tekst: "Mennesket er fremmed og søkende", kategori: 1 }
+  forklaring: "Se tabellen som sammenligner realisme og modernisme i kapittelet."
+- id: vgs-real-m-forf-1
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvem skrev Et dukkehjem (1879)?"
+  alternativer: ["Henrik Ibsen", "Alexander Kielland", "Arne Garborg", "Camilla Collett"]
+  riktig: 0
+  forklaring: "Ibsen skrev Et dukkehjem om ekteskap og kvinnens frihet."
+- id: vgs-real-m-forf-2
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvem skrev Constance Ring (1885)?"
+  alternativer: ["Amalie Skram", "Arne Garborg", "Camilla Collett", "Hans Jæger"]
+  riktig: 0
+  forklaring: "Skram skrev Constance Ring om kvinnens stilling i ekteskapet."
+- id: vgs-real-m-forf-3
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvem skrev Garman & Worse (1880)?"
+  alternativer: ["Alexander Kielland", "Henrik Ibsen", "Amalie Skram", "Arne Garborg"]
+  riktig: 0
+  forklaring: "Kielland skrev Garman & Worse om makt og penger."
+- id: vgs-real-m-forf-4
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvem skrev Bondestudentar (1883)?"
+  alternativer: ["Arne Garborg", "Amalie Skram", "Alexander Kielland", "Camilla Collett"]
+  riktig: 0
+  forklaring: "Garborg skrev Bondestudentar på landsmål om klasse og utdanning."
+- id: vgs-real-m-forf-5
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvem skrev Amtmandens Døttre (1854 til 1855)?"
+  alternativer: ["Camilla Collett", "Alexander Kielland", "Arne Garborg", "Hans Jæger"]
+  riktig: 0
+  forklaring: "Collett skrev Amtmandens Døttre om kvinners begrensede valg."
+- id: vgs-real-m-forf-6
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvem skrev Fra Kristiania-Bohêmen (1885)?"
+  alternativer: ["Hans Jæger", "Henrik Ibsen", "Amalie Skram", "Alexander Kielland"]
+  riktig: 0
+  forklaring: "Jæger skrev Fra Kristiania-Bohêmen, en naturalistisk kritikk av moralen."
+- id: vgs-real-m-retning-1
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Passer beskrivelsen best på realismen eller naturalismen?"
+  utdrag: "Mennesket er bestemt av arv og miljø."
+  alternativer: ["Naturalisme", "Realisme"]
+  riktig: 0
+  forklaring: "Synet på mennesket som bestemt av arv og miljø er typisk for naturalismen."
+- id: vgs-real-m-retning-2
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Passer beskrivelsen best på realismen eller naturalismen?"
+  utdrag: "Forfatterne skildrer også det harde og stygge, og flere bøker blir forbudt."
+  alternativer: ["Naturalisme", "Realisme"]
+  riktig: 0
+  forklaring: "Naturalismen var mer radikal og skildret også det stygge."
+- id: vgs-real-m-retning-3
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Passer beskrivelsen best på realismen eller naturalismen?"
+  utdrag: "Georg Brandes vil at litteraturen skal «sette problemer under debatt»."
+  alternativer: ["Realisme", "Naturalisme"]
+  riktig: 0
+  forklaring: "Brandes sine forelesninger i 1871 ble startskuddet for realismen og det moderne gjennombrudd."
+- id: vgs-tolk-m-at-1
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen analyse eller tolkning?"
+  utdrag: "Novellen er fortalt i tredjeperson med synsvinkel hos datteren."
+  alternativer: ["Analyse", "Tolkning"]
+  riktig: 0
+  forklaring: "Setningen beskriver hvordan teksten er laget. Det er analyse."
+- id: vgs-tolk-m-at-2
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen analyse eller tolkning?"
+  utdrag: "Diktet har fire strofer og ingen faste rim."
+  alternativer: ["Analyse", "Tolkning"]
+  riktig: 0
+  forklaring: "Setningen beskriver hvordan teksten er laget. Det er analyse."
+- id: vgs-tolk-m-at-3
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen analyse eller tolkning?"
+  utdrag: "Forfatteren bruker mange korte setninger mot slutten av novellen."
+  alternativer: ["Analyse", "Tolkning"]
+  riktig: 0
+  forklaring: "Setningen beskriver hvordan teksten er laget. Det er analyse."
+- id: vgs-tolk-m-at-4
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen analyse eller tolkning?"
+  utdrag: "Ordet «kald» gjentas tre ganger i diktet."
+  alternativer: ["Analyse", "Tolkning"]
+  riktig: 0
+  forklaring: "Setningen beskriver hvordan teksten er laget. Det er analyse."
+- id: vgs-tolk-m-at-5
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen analyse eller tolkning?"
+  utdrag: "Rommet blir personifisert når det beskrives som «stille som et ventende ansikt»."
+  alternativer: ["Analyse", "Tolkning"]
+  riktig: 0
+  forklaring: "Setningen beskriver hvordan teksten er laget. Det er analyse."
+- id: vgs-tolk-m-at-6
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen analyse eller tolkning?"
+  utdrag: "Slutten er åpen."
+  alternativer: ["Analyse", "Tolkning"]
+  riktig: 0
+  forklaring: "Setningen beskriver hvordan teksten er laget. Det er analyse."
+- id: vgs-tolk-m-at-7
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen analyse eller tolkning?"
+  utdrag: "Novellen viser at det som ikke blir sagt, kan skille mennesker."
+  alternativer: ["Tolkning", "Analyse"]
+  riktig: 0
+  forklaring: "Setningen sier hva teksten betyr. Det er tolkning."
+- id: vgs-tolk-m-at-8
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen analyse eller tolkning?"
+  utdrag: "Diktet handler om at sorg kan forandre hvordan vi ser verden."
+  alternativer: ["Tolkning", "Analyse"]
+  riktig: 0
+  forklaring: "Setningen sier hva teksten betyr. Det er tolkning."
+- id: vgs-tolk-m-at-9
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen analyse eller tolkning?"
+  utdrag: "De korte setningene viser at hovedpersonen holder følelsene tilbake."
+  alternativer: ["Tolkning", "Analyse"]
+  riktig: 0
+  forklaring: "Setningen sier hva teksten betyr. Det er tolkning."
+- id: vgs-tolk-m-at-10
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen analyse eller tolkning?"
+  utdrag: "Den åpne slutten gir håp om at familien kan finne tilbake til hverandre."
+  alternativer: ["Tolkning", "Analyse"]
+  riktig: 0
+  forklaring: "Setningen sier hva teksten betyr. Det er tolkning."
+- id: vgs-tolk-m-at-11
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 1
+  spm: "Er setningen analyse eller tolkning?"
+  utdrag: "Teksten sier noe om hvor vanskelig det er å bryte med forventningene til familien."
+  alternativer: ["Tolkning", "Analyse"]
+  riktig: 0
+  forklaring: "Setningen sier hva teksten betyr. Det er tolkning."
+- id: vgs-tolk-m-pb-1
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et tolkningsavsnitt er setningen?"
+  utdrag: "Novellen viser at moren ikke tør snakke om det som har skjedd."
+  alternativer: ["Påstand", "Belegg", "Forklaring", "Kobling"]
+  riktig: 0
+  forklaring: "Setningen sier hva skribenten mener. Det er påstanden."
+- id: vgs-tolk-m-pb-2
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et tolkningsavsnitt er setningen?"
+  utdrag: "Hun «legger koppen fra seg uten å drikke»."
+  alternativer: ["Belegg", "Påstand", "Forklaring", "Kobling"]
+  riktig: 0
+  forklaring: "Setningen viser et sted i teksten. Det er belegget."
+- id: vgs-tolk-m-pb-3
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et tolkningsavsnitt er setningen?"
+  utdrag: "Den lille handlingen viser at hun er urolig, selv om hun ikke sier det."
+  alternativer: ["Forklaring", "Påstand", "Belegg", "Kobling"]
+  riktig: 0
+  forklaring: "Setningen viser hvordan stedet støtter påstanden. Det er forklaringen."
+- id: vgs-tolk-m-pb-4
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et tolkningsavsnitt er setningen?"
+  utdrag: "Slik støtter detaljen tolkningen av novellen som en tekst om det usagte."
+  alternativer: ["Kobling", "Påstand", "Belegg", "Forklaring"]
+  riktig: 0
+  forklaring: "Setningen knytter poenget til tolkningen som helhet. Det er koblingen."
+- id: vgs-tolk-m-pb-5
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et tolkningsavsnitt er setningen?"
+  utdrag: "Diktet uttrykker en sterk lengsel etter noe som er tapt."
+  alternativer: ["Påstand", "Belegg", "Forklaring", "Kobling"]
+  riktig: 0
+  forklaring: "Setningen sier hva skribenten mener. Det er påstanden."
+- id: vgs-tolk-m-pb-6
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et tolkningsavsnitt er setningen?"
+  utdrag: "Det lyriske jeget skriver: «huset står tomt / og vinduene ser ingen»."
+  alternativer: ["Belegg", "Påstand", "Forklaring", "Kobling"]
+  riktig: 0
+  forklaring: "Setningen viser et sted i teksten. Det er belegget."
+- id: vgs-tolk-m-pb-7
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et tolkningsavsnitt er setningen?"
+  utdrag: "Personifikasjonen av vinduene gjør at tomheten føles levende og vond."
+  alternativer: ["Forklaring", "Påstand", "Belegg", "Kobling"]
+  riktig: 0
+  forklaring: "Setningen viser hvordan stedet støtter påstanden. Det er forklaringen."
+- id: vgs-tolk-m-pb-8
+  type: flervalg
+  kapittel: litteraer-tolkning-vgs
+  mal: [mvg3-04]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et tolkningsavsnitt er setningen?"
+  utdrag: "Dermed forsterker bildet inntrykket av diktet som et dikt om savn."
+  alternativer: ["Kobling", "Påstand", "Belegg", "Forklaring"]
+  riktig: 0
+  forklaring: "Setningen knytter poenget til tolkningen som helhet. Det er koblingen."

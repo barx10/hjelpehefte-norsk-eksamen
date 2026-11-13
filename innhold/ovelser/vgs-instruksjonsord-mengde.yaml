@@ -1,0 +1,180 @@
+- id: vgs-instr-m-marker-1
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Marker instruksjonsordene i oppgaven."
+  tekst: "Skriv en fagartikkel der du [[gjør rede for]] synet på dialekt i vedlegg 1, og [[drøfter]] om dialektene er i ferd med å forsvinne."
+  forklaring: "«Gjør rede for» og «drøfter» er instruksjonsordene. Svaret får en forklarende og en drøftende del."
+- id: vgs-instr-m-marker-2
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Marker instruksjonsordene i oppgaven."
+  tekst: "[[Tolk]] diktet. [[Vis til]] eksempler fra teksten."
+  forklaring: "«Tolk» og «vis til» er instruksjonsordene. Du skal si hva diktet betyr og bruke eksempler fra det."
+- id: vgs-instr-m-marker-3
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Marker instruksjonsordene i oppgaven."
+  tekst: "[[Analyser]] hvordan avsenderen prøver å overbevise leserne, og [[vurder]] om teksten lykkes."
+  forklaring: "«Analyser» og «vurder» er instruksjonsordene. Først undersøker du virkemidlene, så tar du stilling."
+- id: vgs-instr-m-marker-4
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Marker instruksjonsordene i oppgaven."
+  tekst: "Skriv et essay der du [[utforsker]] hva vennskap betyr for unge i dag."
+  forklaring: "«Utforsker» er instruksjonsordet. Det peker mot et åpent essay."
+- id: vgs-instr-m-marker-5
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Marker instruksjonsordene i oppgaven."
+  tekst: "[[Sammenlign]] hvordan de to novellene framstiller ensomhet."
+  forklaring: "«Sammenlign» er instruksjonsordet. Du skal finne likheter og forskjeller."
+- id: vgs-instr-m-marker-6
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Marker instruksjonsordene i oppgaven."
+  tekst: "[[Reflekter]] over hvordan sosiale medier påvirker språket vårt. [[Bruk]] egne erfaringer og vedleggene."
+  forklaring: "«Reflekter» og «bruk» er instruksjonsordene. Du skal veksle mellom erfaring og kunnskap."
+- id: vgs-instr-m-marker-7
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Marker instruksjonsordene i oppgaven."
+  tekst: "Skriv en retorisk analyse av vedlegg 2. [[Bruk fagspråk]], og [[vurder]] hvor godt teksten treffer mottakeren."
+  forklaring: "«Bruk fagspråk» og «vurder» er instruksjonsordene. Du skal bruke retoriske begreper og ta stilling."
+- id: vgs-instr-m-marker-8
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Marker instruksjonsordene i oppgaven."
+  tekst: "[[Gjør rede for]] den retoriske situasjonen, og [[analyser]] hvordan teksten bruker appellformene."
+  forklaring: "«Gjør rede for» og «analyser» er instruksjonsordene. Svaret har to deler."
+- id: vgs-instr-m-marker-9
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Marker instruksjonsordene i oppgaven."
+  tekst: "Skriv en litterær tolkning der du [[sammenligner]] de to diktene. [[Vis til]] konkrete steder i tekstene."
+  forklaring: "«Sammenligner» og «vis til» er instruksjonsordene. Du sammenligner og bruker eksempler."
+- id: vgs-instr-m-marker-10
+  type: marker
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Marker instruksjonsordene i oppgaven."
+  tekst: "[[Drøft]] påstanden «Ungdom leser mindre enn før». [[Bruk]] minst to av vedleggene."
+  forklaring: "«Drøft» og «bruk» er instruksjonsordene. Du vurderer påstanden fra flere sider og bruker vedleggene."
+- id: vgs-instr-m-betyr-1
+  type: flervalg
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva ber oppgaven deg om å gjøre?"
+  utdrag: "Gjør rede for hvordan fornorskingspolitikken rammet samiske språk."
+  alternativer: ["Forklare og beskrive, uten å ta stilling", "Vurdere saken fra flere sider og konkludere", "Ta stilling og begrunne standpunktet", "Tenke høyt og veksle mellom erfaring og kunnskap"]
+  riktig: 0
+  forklaring: "«Gjør rede for» betyr at du forklarer, uten å ta stilling."
+- id: vgs-instr-m-betyr-2
+  type: flervalg
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva ber oppgaven deg om å gjøre?"
+  utdrag: "Drøft om sidemål bør være obligatorisk i skolen."
+  alternativer: ["Vurdere saken fra flere sider og konkludere", "Forklare og beskrive, uten å ta stilling", "Si hva teksten betyr, og begrunne det med eksempler", "Dele opp teksten og vise hvordan delene virker"]
+  riktig: 0
+  forklaring: "«Drøft» betyr at du ser saken fra flere sider og konkluderer til slutt."
+- id: vgs-instr-m-betyr-3
+  type: flervalg
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva ber oppgaven deg om å gjøre?"
+  utdrag: "Utforsk hva det vil si å være fri."
+  alternativer: ["Undersøke emnet åpent, uten å måtte komme fram til ett svar", "Forklare og beskrive, uten å ta stilling", "Ta stilling og begrunne standpunktet", "Finne likheter og forskjeller og si hva de betyr"]
+  riktig: 0
+  forklaring: "«Utforsk» betyr at du undersøker åpent. Det passer for essay."
+- id: vgs-instr-m-betyr-4
+  type: flervalg
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva ber oppgaven deg om å gjøre?"
+  utdrag: "Reflekter over hva hjemsted betyr for identiteten din."
+  alternativer: ["Tenke høyt og veksle mellom erfaring og kunnskap", "Forklare og beskrive, uten å ta stilling", "Dele opp teksten og vise hvordan delene virker", "Finne likheter og forskjeller og si hva de betyr"]
+  riktig: 0
+  forklaring: "«Reflekter» betyr at du tenker høyt og bruker både erfaring og kunnskap."
+- id: vgs-instr-m-betyr-5
+  type: flervalg
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva ber oppgaven deg om å gjøre?"
+  utdrag: "Tolk novellen «Ventetid»."
+  alternativer: ["Si hva teksten betyr, og begrunne det med eksempler", "Forklare og beskrive, uten å ta stilling", "Vurdere saken fra flere sider og konkludere", "Finne likheter og forskjeller og si hva de betyr"]
+  riktig: 0
+  forklaring: "«Tolk» betyr at du sier hva teksten betyr og begrunner det."
+- id: vgs-instr-m-betyr-6
+  type: flervalg
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva ber oppgaven deg om å gjøre?"
+  utdrag: "Analyser reklamefilmen i vedlegg 3."
+  alternativer: ["Dele opp teksten og vise hvordan delene virker", "Ta stilling og begrunne standpunktet", "Tenke høyt og veksle mellom erfaring og kunnskap", "Forklare og beskrive, uten å ta stilling"]
+  riktig: 0
+  forklaring: "«Analyser» betyr at du ser på delene og hvordan de virker."
+- id: vgs-instr-m-betyr-7
+  type: flervalg
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva ber oppgaven deg om å gjøre?"
+  utdrag: "Sammenlign synet på naturen i de to diktene."
+  alternativer: ["Finne likheter og forskjeller og si hva de betyr", "Dele opp teksten og vise hvordan delene virker", "Si hva teksten betyr, og begrunne det med eksempler", "Vurdere saken fra flere sider og konkludere"]
+  riktig: 0
+  forklaring: "«Sammenlign» betyr at du finner likheter og forskjeller."
+- id: vgs-instr-m-betyr-8
+  type: flervalg
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva ber oppgaven deg om å gjøre?"
+  utdrag: "Vurder om talen er overbevisende for unge lyttere."
+  alternativer: ["Ta stilling og begrunne standpunktet", "Forklare og beskrive, uten å ta stilling", "Undersøke emnet åpent, uten å måtte komme fram til ett svar", "Finne likheter og forskjeller og si hva de betyr"]
+  riktig: 0
+  forklaring: "«Vurder» betyr at du tar stilling og begrunner det."
+- id: vgs-instr-m-betyr-9
+  type: flervalg
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva ber oppgaven deg om å gjøre?"
+  utdrag: "Gjør rede for hva som kjennetegner modernismen."
+  alternativer: ["Forklare og beskrive, uten å ta stilling", "Vurdere saken fra flere sider og konkludere", "Si hva teksten betyr, og begrunne det med eksempler", "Ta stilling og begrunne standpunktet"]
+  riktig: 0
+  forklaring: "«Gjør rede for» betyr at du forklarer, uten å ta stilling."
+- id: vgs-instr-m-betyr-10
+  type: flervalg
+  kapittel: instruksjonsord-vgs
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva ber oppgaven deg om å gjøre?"
+  utdrag: "Drøft fordeler og ulemper ved at engelsk brukes mer i norsk hverdag."
+  alternativer: ["Vurdere saken fra flere sider og konkludere", "Forklare og beskrive, uten å ta stilling", "Tenke høyt og veksle mellom erfaring og kunnskap", "Dele opp teksten og vise hvordan delene virker"]
+  riktig: 0
+  forklaring: "«Drøft» betyr at du ser saken fra flere sider og konkluderer til slutt."
