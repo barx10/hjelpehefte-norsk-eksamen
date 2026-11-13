@@ -95,6 +95,8 @@ Flashkort har `forside` og `bakside` i stedet for spørsmål, alternativer og fo
 | `marker` | Trykker på riktige ord i en tekst | `oppdrag`, `tekst` (riktige ord i `[[dobbel hakeparentes]]`), `forklaring` |
 | `skriv` | Skriver en egen tekst, får automatisk sjekk og vurderer seg selv | `oppdrag`, `utdrag`, `starttekst`, `ord` (`min`, `maks`), `nokkelord`, `nokkelordMinst`, `sitat`, `kriterier`, `modelltekst` |
 
+**Rekkefølge med ord og setningsledd:** Øvelsen godtar bare én fasit. Kan setningen bygges på flere korrekte måter, må `oppdrag` si hvilket setningsledd setningen begynner med (for eksempel tidsadverbial eller subjekt) og hvor subjektet skal stå. Ellers kan eleven få feil for et riktig svar.
+
 ### Mengdetrening
 
 Eleven velger hvor mange øvelser økten skal ha (10, 20, 40 eller alle). I temaet med kommaoppgaver kan eleven også øve på én kommaregel om gangen. Valget bruker feltet `regler`.
