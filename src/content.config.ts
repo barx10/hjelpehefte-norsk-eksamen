@@ -110,7 +110,7 @@ const flervalg = base.extend({
 const komma = base.extend({
   type: z.literal('komma'),
   setning: z.string(),
-  regler: z.array(z.number().int().min(1).max(6)).default([]),
+  regler: z.array(z.number().int().min(1).max(11)).default([]),
   forklaring: z.string(),
 });
 

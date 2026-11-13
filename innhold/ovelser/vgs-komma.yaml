@@ -1,0 +1,493 @@
+- id: vgs-komma-r7-1
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Den boka jeg leste i fjor, var spennende."
+  regler: [7]
+  forklaring: "Leddsetningen står inne i hovedsetningen. Da skal det være komma etter leddsetningen."
+- id: vgs-komma-r7-2
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "At hun ikke kom, overrasket alle."
+  regler: [7]
+  forklaring: "Leddsetningen står inne i hovedsetningen. Da skal det være komma etter leddsetningen."
+- id: vgs-komma-r7-3
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Det du sier, stemmer."
+  regler: [7]
+  forklaring: "Leddsetningen står inne i hovedsetningen. Da skal det være komma etter leddsetningen."
+- id: vgs-komma-r7-4
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Eleven som kom for sent, fikk ikke være med."
+  regler: [7]
+  forklaring: "Leddsetningen står inne i hovedsetningen. Da skal det være komma etter leddsetningen."
+- id: vgs-komma-r7-5
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Alle som har levert oppgaven, kan gå hjem."
+  regler: [7]
+  forklaring: "Leddsetningen står inne i hovedsetningen. Da skal det være komma etter leddsetningen."
+- id: vgs-komma-r7-6
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Diktet hun skrev i sjuende klasse, vant en pris."
+  regler: [7]
+  forklaring: "Leddsetningen står inne i hovedsetningen. Da skal det være komma etter leddsetningen."
+- id: vgs-komma-r7-7
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Hvorfor han sluttet, vet ingen."
+  regler: [7]
+  forklaring: "Leddsetningen står inne i hovedsetningen. Da skal det være komma etter leddsetningen."
+- id: vgs-komma-r7-8
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Byen der jeg vokste opp, har forandret seg mye."
+  regler: [7]
+  forklaring: "Leddsetningen står inne i hovedsetningen. Da skal det være komma etter leddsetningen."
+- id: vgs-komma-r7-9
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Det forfatteren vil vise, er hvor ensomme menneskene er."
+  regler: [7]
+  forklaring: "Leddsetningen står inne i hovedsetningen. Da skal det være komma etter leddsetningen."
+- id: vgs-komma-r7-10
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Novellen vi leste i går, handler om sorg."
+  regler: [7]
+  forklaring: "Leddsetningen står inne i hovedsetningen. Da skal det være komma etter leddsetningen."
+- id: vgs-komma-r7-11
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Den som tier, samtykker."
+  regler: [7]
+  forklaring: "Leddsetningen står inne i hovedsetningen. Da skal det være komma etter leddsetningen."
+- id: vgs-komma-r7-12
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Om teksten er overbevisende, er et annet spørsmål."
+  regler: [7]
+  forklaring: "Leddsetningen står inne i hovedsetningen. Da skal det være komma etter leddsetningen."
+- id: vgs-komma-r8-1
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Bestemor, som bor i Bodø, fyller nitti år."
+  regler: [8]
+  forklaring: "Som-setningen gir en ekstra opplysning og er ikke nødvendig. Da skal den ha komma både foran og etter."
+- id: vgs-komma-r8-2
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Ibsen, som skrev Et dukkehjem, ble født i Skien."
+  regler: [8]
+  forklaring: "Som-setningen gir en ekstra opplysning og er ikke nødvendig. Da skal den ha komma både foran og etter."
+- id: vgs-komma-r8-3
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Romanen, som kom ut i 1885, skapte stor debatt."
+  regler: [8]
+  forklaring: "Som-setningen gir en ekstra opplysning og er ikke nødvendig. Da skal den ha komma både foran og etter."
+- id: vgs-komma-r8-4
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Oslo, som er hovedstaden, har over en halv million innbyggere."
+  regler: [8]
+  forklaring: "Som-setningen gir en ekstra opplysning og er ikke nødvendig. Da skal den ha komma både foran og etter."
+- id: vgs-komma-r8-5
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Læreren vår, som er fra Tromsø, snakker nordnorsk."
+  regler: [8]
+  forklaring: "Som-setningen gir en ekstra opplysning og er ikke nødvendig. Da skal den ha komma både foran og etter."
+- id: vgs-komma-r8-6
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Moren hennes, som var syk, kunne ikke komme."
+  regler: [8]
+  forklaring: "Som-setningen gir en ekstra opplysning og er ikke nødvendig. Da skal den ha komma både foran og etter."
+- id: vgs-komma-r8-7
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Diktet, som bare har åtte linjer, rommer mye."
+  regler: [8]
+  forklaring: "Som-setningen gir en ekstra opplysning og er ikke nødvendig. Da skal den ha komma både foran og etter."
+- id: vgs-komma-r8-8
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "Petter Dass, som var prest på Alstahaug, skrev om livet i Nordland."
+  regler: [8]
+  forklaring: "Som-setningen gir en ekstra opplysning og er ikke nødvendig. Da skal den ha komma både foran og etter."
+- id: vgs-komma-r9-1
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Vi møtte Siri, søsteren til Ola."
+  regler: [9]
+  forklaring: "Tillegget forklarer noe som står foran. Det skilles ut med komma."
+- id: vgs-komma-r9-2
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Han kom hjem i går, sent på kvelden."
+  regler: [9]
+  forklaring: "Tillegget forklarer noe som står foran. Det skilles ut med komma."
+- id: vgs-komma-r9-3
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Teksten bruker et virkemiddel som går igjen, nemlig gjentakelse."
+  regler: [9]
+  forklaring: "Tillegget forklarer noe som står foran. Det skilles ut med komma."
+- id: vgs-komma-r9-4
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Hun skrev om det hun kjente best, livet på gården."
+  regler: [9]
+  forklaring: "Tillegget forklarer noe som står foran. Det skilles ut med komma."
+- id: vgs-komma-r9-5
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Jeg leste den nyeste boka hans, en roman om krigen."
+  regler: [9]
+  forklaring: "Tillegget forklarer noe som står foran. Det skilles ut med komma."
+- id: vgs-komma-r9-6
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Vi skal analysere to tekster, et dikt og en novelle."
+  regler: [9]
+  forklaring: "Tillegget forklarer noe som står foran. Det skilles ut med komma."
+- id: vgs-komma-r9-7
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Talen ble holdt på 17. mai, nasjonaldagen."
+  regler: [9]
+  forklaring: "Tillegget forklarer noe som står foran. Det skilles ut med komma."
+- id: vgs-komma-r10-1
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Det ble en lang, kald vinter."
+  regler: [10]
+  forklaring: "Adjektivene er likestilte. Du kan sette «og» mellom dem, og da skal det være komma."
+- id: vgs-komma-r10-2
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Hun hadde på seg en tykk, varm genser."
+  regler: [10]
+  forklaring: "Adjektivene er likestilte. Du kan sette «og» mellom dem, og da skal det være komma."
+- id: vgs-komma-r10-3
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Det var en stille, klar morgen."
+  regler: [10]
+  forklaring: "Adjektivene er likestilte. Du kan sette «og» mellom dem, og da skal det være komma."
+- id: vgs-komma-r10-4
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Teksten har et enkelt, direkte språk."
+  regler: [10]
+  forklaring: "Adjektivene er likestilte. Du kan sette «og» mellom dem, og da skal det være komma."
+- id: vgs-komma-r10-5
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Han bodde i et lite, mørkt rom."
+  regler: [10]
+  forklaring: "Adjektivene er likestilte. Du kan sette «og» mellom dem, og da skal det være komma."
+- id: vgs-komma-r10-6
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Diktet har en sår, vemodig tone."
+  regler: [10]
+  forklaring: "Adjektivene er likestilte. Du kan sette «og» mellom dem, og da skal det være komma."
+- id: vgs-komma-r11-1
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Elevene i klassen likte filmen."
+  regler: [11]
+  forklaring: "Her skal det ikke være komma."
+- id: vgs-komma-r11-2
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Jeg kommer hvis det slutter å regne."
+  regler: [11]
+  forklaring: "Her skal det ikke være komma."
+- id: vgs-komma-r11-3
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Hun sa at hun var sliten."
+  regler: [11]
+  forklaring: "Her skal det ikke være komma."
+- id: vgs-komma-r11-4
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Hun åpnet døra og gikk ut."
+  regler: [11]
+  forklaring: "Her skal det ikke være komma."
+- id: vgs-komma-r11-5
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Alle elevene på trinnet skal ha eksamen i norsk."
+  regler: [11]
+  forklaring: "Her skal det ikke være komma."
+- id: vgs-komma-r11-6
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Vi ble inne fordi det regnet."
+  regler: [11]
+  forklaring: "Her skal det ikke være komma."
+- id: vgs-komma-r11-7
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Jeg vet at teksten er skrevet i 1885."
+  regler: [11]
+  forklaring: "Her skal det ikke være komma."
+- id: vgs-komma-r11-8
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 1
+  setning: "Forfatteren bruker mange bilder for å vise sorgen."
+  regler: [11]
+  forklaring: "Her skal det ikke være komma."
+- id: vgs-komma-som-1
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  spm: "Hva betyr setningen?"
+  utdrag: "Elevene som har levert, kan gå."
+  alternativer: ["Bare de elevene som har levert, kan gå.", "Alle elevene kan gå, og alle har levert.", "Ingen elever kan gå.", "Elevene har ikke levert."]
+  riktig: 0
+  forklaring: "Uten komma foran er som-setningen nødvendig. Den avgrenser hvilke elever det gjelder."
+- id: vgs-komma-som-2
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  spm: "Hva betyr setningen?"
+  utdrag: "Elevene, som har levert, kan gå."
+  alternativer: ["Alle elevene har levert, og alle kan gå.", "Bare noen av elevene kan gå.", "Ingen elever har levert.", "Bare de som ikke har levert, kan gå."]
+  riktig: 0
+  forklaring: "Med komma foran er som-setningen en ekstra opplysning om alle elevene."
+- id: vgs-komma-som-3
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  spm: "Hva betyr setningen?"
+  utdrag: "Søsteren min som bor i Oslo, kommer på besøk."
+  alternativer: ["Jeg har flere søstre, og det er hun i Oslo som kommer.", "Jeg har bare én søster.", "Ingen av søstrene mine bor i Oslo.", "Alle søstrene mine bor i Oslo."]
+  riktig: 0
+  forklaring: "Uten komma foran avgrenser som-setningen hvilken søster det gjelder."
+- id: vgs-komma-som-4
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  spm: "Hva betyr setningen?"
+  utdrag: "Søsteren min, som bor i Oslo, kommer på besøk."
+  alternativer: ["Jeg har én søster, og hun bor i Oslo.", "Jeg har flere søstre, og det er hun i Oslo som kommer.", "Søsteren min har flyttet fra Oslo.", "Jeg har ingen søster."]
+  riktig: 0
+  forklaring: "Med komma foran er bostedet en ekstra opplysning om den ene søsteren."
+- id: vgs-komma-riktig-1
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken setning har riktig tegnsetting?"
+  alternativer: ["Det regnet hele dagen. Vi ble inne.", "Det regnet hele dagen, vi ble inne.", "Det regnet, hele dagen vi ble inne.", "Det regnet hele dagen vi, ble inne."]
+  riktig: 0
+  forklaring: "To helsetninger skal ikke bindes sammen bare med komma. Det er kommaskjøt. Bruk punktum eller et bindeord."
+- id: vgs-komma-riktig-2
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken setning har riktig tegnsetting?"
+  alternativer: ["Teksten er kort, men den sier mye.", "Teksten er kort men, den sier mye.", "Teksten er kort, den sier mye.", "Teksten, er kort men den sier mye."]
+  riktig: 0
+  forklaring: "Det skal være komma foran «men». Uten «men» blir det kommaskjøt."
+- id: vgs-komma-riktig-3
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken setning har riktig tegnsetting?"
+  alternativer: ["Hun ville skrive mer, så hun ba om lengre tid.", "Hun ville skrive mer, hun ba om lengre tid.", "Hun ville, skrive mer så hun ba om lengre tid.", "Hun ville skrive mer så, hun ba om lengre tid."]
+  riktig: 0
+  forklaring: "Med bindeordet «så» og komma er setningen riktig. Uten bindeord blir det kommaskjøt."
+- id: vgs-komma-riktig-4
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken setning har riktig tegnsetting?"
+  alternativer: ["Elevene i klassen likte filmen.", "Elevene i klassen, likte filmen.", "Elevene, i klassen likte filmen.", "Elevene i klassen likte, filmen."]
+  riktig: 0
+  forklaring: "Det skal ikke være komma mellom subjektet «elevene i klassen» og verbalet «likte»."
+- id: vgs-komma-riktig-5
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken setning har riktig tegnsetting?"
+  alternativer: ["Den boka jeg leste i fjor, var spennende.", "Den boka, jeg leste i fjor var spennende.", "Den boka jeg leste i fjor var spennende.", "Den boka jeg leste, i fjor var spennende."]
+  riktig: 0
+  forklaring: "Leddsetningen «jeg leste i fjor» står inne i setningen. Da skal det være komma etter den."
+- id: vgs-komma-riktig-6
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken setning har riktig tegnsetting?"
+  alternativer: ["Jeg vet at hun kommer.", "Jeg vet, at hun kommer.", "Jeg, vet at hun kommer.", "Jeg vet at, hun kommer."]
+  riktig: 0
+  forklaring: "Det skal vanligvis ikke være komma foran en leddsetning som kommer etter hovedsetningen."
+- id: vgs-komma-riktig-7
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken setning har riktig tegnsetting?"
+  alternativer: ["Novellen er spennende. Slutten er åpen.", "Novellen er spennende, slutten er åpen.", "Novellen er, spennende slutten er åpen.", "Novellen, er spennende slutten er åpen."]
+  riktig: 0
+  forklaring: "To helsetninger uten bindeord skal skilles med punktum. Komma alene er kommaskjøt."
+- id: vgs-komma-riktig-8
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken setning har riktig tegnsetting?"
+  alternativer: ["Hvis du er usikker, bør du slå opp.", "Hvis du er usikker bør du slå opp.", "Hvis du, er usikker bør du slå opp.", "Hvis du er usikker bør, du slå opp."]
+  riktig: 0
+  forklaring: "Leddsetningen står først. Da skal det være komma etter den."
