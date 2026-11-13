@@ -1,0 +1,148 @@
+- id: vgs-real-m-kj-1
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
+  utdrag: "Kjøkkenet var trangt, og komfyren røk. Mor sto ved vasken som hun gjorde hver kveld."
+  alternativer: ["Hverdagsmiljø", "Samfunnsproblem", "Troverdig språk", "Årsak og virkning"]
+  riktig: 0
+  forklaring: "Utdraget skildrer et vanlig hjem og en vanlig kveld. Det er hverdagsmiljø."
+- id: vgs-real-m-kj-2
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
+  utdrag: "Arbeiderne fikk halve lønna, mens disponenten kjøpte en ny vogn."
+  alternativer: ["Samfunnsproblem", "Hverdagsmiljø", "Troverdig språk", "Årsak og virkning"]
+  riktig: 0
+  forklaring: "Utdraget viser urettferdighet mellom klassene. Det er et samfunnsproblem."
+- id: vgs-real-m-kj-3
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
+  utdrag: "– Æ veit itj, sa gutten og så ned. – Far sa æ skulle gå."
+  alternativer: ["Troverdig språk", "Hverdagsmiljø", "Samfunnsproblem", "Årsak og virkning"]
+  riktig: 0
+  forklaring: "Replikken ligger nær talespråket. Det er troverdig språk."
+- id: vgs-real-m-kj-4
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
+  utdrag: "Fordi faren drakk opp lønna, måtte Hans begynne å arbeide som tolvåring."
+  alternativer: ["Årsak og virkning", "Hverdagsmiljø", "Samfunnsproblem", "Troverdig språk"]
+  riktig: 0
+  forklaring: "Det som skjer, har en forklaring i miljøet. Det er årsak og virkning."
+- id: vgs-real-m-kj-5
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
+  utdrag: "Hun fikk ikke studere, for jenter skulle gifte seg og holde hus."
+  alternativer: ["Samfunnsproblem", "Hverdagsmiljø", "Troverdig språk", "Årsak og virkning"]
+  riktig: 0
+  forklaring: "Utdraget viser kvinnens begrensede valg. Det er et samfunnsproblem."
+- id: vgs-real-m-kj-6
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
+  utdrag: "I gata lekte ungene med en fillete ball, og fra vinduene hørtes krangling og barnegråt."
+  alternativer: ["Hverdagsmiljø", "Samfunnsproblem", "Troverdig språk", "Årsak og virkning"]
+  riktig: 0
+  forklaring: "Utdraget skildrer et vanlig bymiljø. Det er hverdagsmiljø."
+- id: vgs-real-m-kj-7
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
+  utdrag: "Etter at fabrikken stengte, flyttet familien til byen, og der ble sønnen syk av fukten i kjelleren."
+  alternativer: ["Årsak og virkning", "Hverdagsmiljø", "Samfunnsproblem", "Troverdig språk"]
+  riktig: 0
+  forklaring: "Hendelsene henger sammen og forklarer hverandre. Det er årsak og virkning."
+- id: vgs-real-m-kj-8
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
+  utdrag: "– Ja, far, sa hun. Mer sa hun ikke."
+  alternativer: ["Troverdig språk", "Hverdagsmiljø", "Samfunnsproblem", "Årsak og virkning"]
+  riktig: 0
+  forklaring: "Den korte, naturlige replikken viser maktforholdet uten at fortelleren kommenterer. Det er troverdig språk."
+- id: vgs-real-m-tema-1
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket tema tar Et dukkehjem opp?"
+  alternativer: ["Ekteskap og kvinnens frihet", "Fattigdom på landsbygda", "Studenter og landsmål", "Kristiania-bohemen"]
+  riktig: 0
+  forklaring: "Nora forlater mann og barn for å finne seg selv."
+- id: vgs-real-m-tema-2
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket tema tar Garman & Worse opp?"
+  alternativer: ["Makt, penger og samfunnskritikk", "Kvinnens stilling i ekteskapet", "Klasse og landsmål", "Kvinners begrensede valg på 1850-tallet"]
+  riktig: 0
+  forklaring: "Kielland skildrer et handelshus og kritiserer makt og dobbeltmoral."
+- id: vgs-real-m-tema-3
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket tema tar Bondestudentar opp?"
+  alternativer: ["Klasse, utdanning og landsmål", "Ekteskap og frihet", "Makt og penger i handelsbyen", "Naturalistisk kritikk av moral"]
+  riktig: 0
+  forklaring: "Garborg skildrer en bondesønn som studerer i byen."
+- id: vgs-real-m-tema-4
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket tema tar Amtmandens Døttre opp?"
+  alternativer: ["Kvinners liv og begrensede valg", "Klasse og landsmål", "Makt og penger", "Naturalistisk moralkritikk"]
+  riktig: 0
+  forklaring: "Collett viser hvordan unge kvinner ble giftet bort uten å få velge selv."
+- id: vgs-real-m-tema-5
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket tema tar Constance Ring opp?"
+  alternativer: ["Kvinnens stilling i ekteskapet", "Studenter og landsmål", "Handel og makt", "Livet i Nordland"]
+  riktig: 0
+  forklaring: "Skram skildrer et ulykkelig ekteskap og kvinnens mangel på frihet."
+- id: vgs-real-m-tema-6
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva var startskuddet for det moderne gjennombrudd?"
+  alternativer: ["Georg Brandes sine forelesninger i 1871", "Et dukkehjem i 1879", "Grunnloven i 1814", "Jamstillingsvedtaket i 1885"]
+  riktig: 0
+  forklaring: "Brandes mente at litteraturen skulle «sette problemer under debatt»."

@@ -1,0 +1,188 @@
+- id: vgs-sam-m-fakta-1
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket år ble sameloven vedtatt?"
+  alternativer: ["1987", "1814", "1905", "2022"]
+  riktig: 0
+  forklaring: "Sameloven ble vedtatt i 1987 og trådte i kraft i 1989."
+- id: vgs-sam-m-fakta-2
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket år ble Sametinget åpnet?"
+  alternativer: ["1989", "1987", "1999", "1968"]
+  riktig: 0
+  forklaring: "Sametinget ble åpnet i 1989 som folkevalgt organ for samene."
+- id: vgs-sam-m-fakta-3
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva er ILO-konvensjon 169?"
+  alternativer: ["En avtale som verner urfolks rettigheter", "En lov om dialekter", "En avtale om fiske i Barentshavet", "En lov om bokmål og nynorsk"]
+  riktig: 0
+  forklaring: "Norge ratifiserte konvensjonen i 1990, som første land."
+- id: vgs-sam-m-fakta-4
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva skjedde i 1992?"
+  alternativer: ["Språkreglene i sameloven trådte i kraft", "Sametinget ble åpnet", "Fornorskingen begynte", "Språkloven trådte i kraft"]
+  riktig: 0
+  forklaring: "Fra 1992 er samisk og norsk likestilte språk i forvaltningsområdet for samisk språk."
+- id: vgs-sam-m-fakta-5
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva undersøkte Sannhets- og forsoningskommisjonen?"
+  alternativer: ["Fornorskingspolitikken og virkningene av den", "Reindriften i Finnmark", "Rettskrivingen i nynorsk", "Sametingets budsjett"]
+  riktig: 0
+  forklaring: "Kommisjonen la fram rapporten sin 1. juni 2023."
+- id: vgs-sam-m-fakta-6
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Når begynte fornorskingspolitikken?"
+  alternativer: ["Omkring 1850", "Omkring 1500", "I 1814", "Etter 1950"]
+  riktig: 0
+  forklaring: "Fornorskingen begynte omkring 1850 og varte i mange tiår."
+- id: vgs-sam-m-fakta-7
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilket samisk språk brukes av flest i Norge?"
+  alternativer: ["Nordsamisk", "Lulesamisk", "Sørsamisk", "Kvensk"]
+  riktig: 0
+  forklaring: "Nordsamisk er det største samiske språket."
+- id: vgs-sam-m-fakta-8
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvor brukes lulesamisk?"
+  alternativer: ["I Nordland, blant annet i Tysfjord og Hamarøy", "I Finnmark og Troms", "Fra Trøndelag til Innlandet", "Bare i Sverige"]
+  riktig: 0
+  forklaring: "Lulesamisk brukes i Nordland."
+- id: vgs-sam-m-fakta-9
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvor brukes sørsamisk?"
+  alternativer: ["Fra Nordland sørover gjennom Trøndelag til Innlandet", "Bare i Kautokeino", "I Tysfjord og Hamarøy", "På Vestlandet"]
+  riktig: 0
+  forklaring: "Sørsamisk er et lite og truet språk i et stort område."
+- id: vgs-sam-m-fakta-10
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva står i Grunnloven om samene?"
+  alternativer: ["Staten skal legge til rette for at samene kan sikre og utvikle språk, kultur og samfunnsliv", "Samene skal bruke norsk i skolen", "Samisk skal være eneste språk i Finnmark", "Samene skal ha egen stat"]
+  riktig: 0
+  forklaring: "Grunnloven gir staten ansvar for å legge til rette."
+- id: vgs-sam-m-forn-1
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
+  utdrag: "Samiske barn fikk ikke bruke språket sitt på skolen."
+  alternativer: ["Fornorskingen", "Oppgjøret og rettighetene"]
+  riktig: 0
+  forklaring: "Dette var en del av fornorskingspolitikken fra omkring 1850."
+- id: vgs-sam-m-forn-2
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
+  utdrag: "Mange barn bodde på internat langt fra familien."
+  alternativer: ["Fornorskingen", "Oppgjøret og rettighetene"]
+  riktig: 0
+  forklaring: "Dette var en del av fornorskingspolitikken fra omkring 1850."
+- id: vgs-sam-m-forn-3
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
+  utdrag: "Samisk kultur og klesdrakt ble omtalt som lite verdt."
+  alternativer: ["Fornorskingen", "Oppgjøret og rettighetene"]
+  riktig: 0
+  forklaring: "Dette var en del av fornorskingspolitikken fra omkring 1850."
+- id: vgs-sam-m-forn-4
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
+  utdrag: "Sametinget ble opprettet."
+  alternativer: ["Oppgjøret og rettighetene", "Fornorskingen"]
+  riktig: 0
+  forklaring: "Dette er en del av rettighetene og oppgjøret fra 1980-tallet og framover."
+- id: vgs-sam-m-forn-5
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
+  utdrag: "Samisk ble likestilt med norsk i forvaltningsområdet."
+  alternativer: ["Oppgjøret og rettighetene", "Fornorskingen"]
+  riktig: 0
+  forklaring: "Dette er en del av rettighetene og oppgjøret fra 1980-tallet og framover."
+- id: vgs-sam-m-forn-6
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
+  utdrag: "Mange foreldre lærte ikke barna samisk for å skjerme dem."
+  alternativer: ["Fornorskingen", "Oppgjøret og rettighetene"]
+  riktig: 0
+  forklaring: "Dette var en del av fornorskingspolitikken fra omkring 1850."
+- id: vgs-sam-m-forn-7
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
+  utdrag: "Norge ratifiserte ILO-konvensjon 169."
+  alternativer: ["Oppgjøret og rettighetene", "Fornorskingen"]
+  riktig: 0
+  forklaring: "Dette er en del av rettighetene og oppgjøret fra 1980-tallet og framover."
+- id: vgs-sam-m-forn-8
+  type: flervalg
+  kapittel: samisk-vgs
+  mal: [mvg1-13]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
+  utdrag: "Undervisningen skulle foregå på norsk."
+  alternativer: ["Fornorskingen", "Oppgjøret og rettighetene"]
+  riktig: 0
+  forklaring: "Dette var en del av fornorskingspolitikken fra omkring 1850."

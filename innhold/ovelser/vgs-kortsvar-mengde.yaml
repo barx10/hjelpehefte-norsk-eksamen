@@ -1,0 +1,148 @@
+- id: vgs-kort-m-mangler-1
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hva mangler i avsnittet?"
+  utdrag: "Forfatteren bruker en metafor. Det gjør teksten mer levende."
+  alternativer: ["Eksempel fra teksten", "Navn på virkemidlet", "Forklaring av virkningen"]
+  riktig: 0
+  forklaring: "Avsnittet navngir virkemidlet, men viser ikke hvor det står. Et kort sitat mangler."
+- id: vgs-kort-m-mangler-2
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hva mangler i avsnittet?"
+  utdrag: "Teksten bruker en besjeling når den skriver at «vinden ropte på henne»."
+  alternativer: ["Forklaring av virkningen", "Navn på virkemidlet", "Eksempel fra teksten"]
+  riktig: 0
+  forklaring: "Avsnittet navngir og siterer, men sier ikke hva besjelingen gjør med leseren."
+- id: vgs-kort-m-mangler-3
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hva mangler i avsnittet?"
+  utdrag: "Når det står «alle dørene var låst», føler leseren at personen er fanget."
+  alternativer: ["Navn på virkemidlet", "Eksempel fra teksten", "Forklaring av virkningen"]
+  riktig: 0
+  forklaring: "Avsnittet har eksempel og virkning, men sier ikke hva slags virkemiddel det er."
+- id: vgs-kort-m-mangler-4
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hva mangler i avsnittet?"
+  utdrag: "Teksten har mange gjentakelser, for eksempel «vent, vent, vent»."
+  alternativer: ["Forklaring av virkningen", "Navn på virkemidlet", "Eksempel fra teksten"]
+  riktig: 0
+  forklaring: "Avsnittet navngir og viser eksempel, men forklarer ikke hva gjentakelsen gjør."
+- id: vgs-kort-m-mangler-5
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hva mangler i avsnittet?"
+  utdrag: "Forfatteren bruker kontrast. Det får leseren til å se forskjellen tydelig."
+  alternativer: ["Eksempel fra teksten", "Navn på virkemidlet", "Forklaring av virkningen"]
+  riktig: 0
+  forklaring: "Avsnittet sier hva og hvorfor, men viser ikke hvilke to ting som settes opp mot hverandre."
+- id: vgs-kort-m-mangler-6
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hva mangler i avsnittet?"
+  utdrag: "Ordene «kald, grå og stille» gjør at stemningen blir trist og tung."
+  alternativer: ["Navn på virkemidlet", "Eksempel fra teksten", "Forklaring av virkningen"]
+  riktig: 0
+  forklaring: "Avsnittet har eksempel og virkning, men navngir ikke virkemidlet, for eksempel ordvalg eller tretrinn."
+- id: vgs-kort-m-mangler-7
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hva mangler i avsnittet?"
+  utdrag: "Teksten bruker et retorisk spørsmål: «Hvem vil vel leve slik?»"
+  alternativer: ["Forklaring av virkningen", "Navn på virkemidlet", "Eksempel fra teksten"]
+  riktig: 0
+  forklaring: "Avsnittet navngir og siterer, men forklarer ikke at spørsmålet presser leseren til å være enig."
+- id: vgs-kort-m-mangler-8
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hva mangler i avsnittet?"
+  utdrag: "Forfatteren bruker en sammenligning for å vise hvor redd gutten er."
+  alternativer: ["Eksempel fra teksten", "Navn på virkemidlet", "Forklaring av virkningen"]
+  riktig: 0
+  forklaring: "Avsnittet navngir og antyder virkning, men siterer ikke sammenligningen."
+- id: vgs-kort-m-best-1
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken innledning passer best i et kortsvar?"
+  alternativer: ["Teksten skildrer en jente som venter på et svar. Gjennom korte setninger og bilder viser den hvor urolig hun er.", "Jeg har lest teksten, og jeg synes den var veldig bra og spennende å lese.", "I denne oppgaven skal jeg skrive om teksten. Den handler om mye forskjellig, og det er mange virkemidler.", "Forfatteren ble født i 1970 og har skrevet mange bøker om ungdom."]
+  riktig: 0
+  forklaring: "En god innledning er kort, sier hva teksten handler om, og hva svaret skal vise."
+- id: vgs-kort-m-best-2
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket avsnitt er en analyse, ikke et referat?"
+  alternativer: ["Når moren «setter koppen ned uten å drikke», viser det at hun er urolig, selv om hun ikke sier det.", "Moren setter koppen ned, og så går hun bort til vinduet og ser ut.", "Først kommer moren inn, og så kommer datteren, og de snakker sammen.", "Teksten handler om en mor og en datter som drikker kaffe."]
+  riktig: 0
+  forklaring: "Analysen forklarer hva detaljen viser. Referatet forteller bare hva som skjer."
+- id: vgs-kort-m-best-3
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilket sitat er best brukt?"
+  alternativer: ["Når fortelleren kaller byen «en maskin som aldri sover», blir byen noe kaldt og umenneskelig.", "«Byen var stor. Det var mange folk der. Alle gikk fort. Ingen så på hverandre. Bussene kjørte hele natten.»", "Teksten har sitater om byen.", "Byen beskrives på en spesiell måte i teksten."]
+  riktig: 0
+  forklaring: "Det beste sitatet er kort og blir forklart. Lange sitater uten forklaring viser ikke forståelse."
+- id: vgs-kort-m-best-4
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken avslutning passer best i et kortsvar?"
+  alternativer: ["Sammen viser bildene og de korte setningene at savnet er større enn personen klarer å si.", "Det var alt jeg hadde å si om denne teksten.", "Jeg håper du likte svaret mitt.", "Teksten har også mange andre virkemidler som jeg ikke har nevnt."]
+  riktig: 0
+  forklaring: "En god avslutning samler poengene og svarer på oppgaven."
+- id: vgs-kort-m-best-5
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Oppgaven sier «gjør rede for». Hvilken setning hører ikke hjemme i svaret?"
+  alternativer: ["Jeg synes teksten er for lang og burde vært kortere.", "Teksten bruker gjentakelse for å vise hvor lenge hun venter.", "Kontrasten mellom lys og mørke viser at stemningen endrer seg.", "Den korte siste setningen gir slutten tyngde."]
+  riktig: 0
+  forklaring: "Å gjøre rede for betyr å forklare. En personlig vurdering av teksten hører ikke hjemme her."
+- id: vgs-kort-m-best-6
+  type: flervalg
+  kapittel: kortsvar-vgs
+  mal: [mvg3-01]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken setning viser best virkningen av et virkemiddel?"
+  alternativer: ["Personifikasjonen «huset holdt pusten» får leseren til å merke spenningen før noe skjer.", "Teksten har en personifikasjon.", "Det står «huset holdt pusten» i teksten.", "Personifikasjoner er vanlige i litteraturen."]
+  riktig: 0
+  forklaring: "Virkningen forklarer hva virkemidlet gjør med leseren."

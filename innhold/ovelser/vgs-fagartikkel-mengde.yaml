@@ -1,0 +1,320 @@
+- id: vgs-fag-m-rd-1
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er setningen redegjørelse eller drøfting?"
+  utdrag: "Kodeveksling betyr at man bytter mellom språk eller stil etter situasjonen."
+  alternativer: ["Redegjørelse", "Drøfting"]
+  riktig: 0
+  forklaring: "Setningen forklarer hva noe er eller hva noen mener, uten å vurdere. Det er redegjørelse."
+- id: vgs-fag-m-rd-2
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er setningen redegjørelse eller drøfting?"
+  utdrag: "Vedlegg 1 framstiller dialekt som en del av identiteten."
+  alternativer: ["Redegjørelse", "Drøfting"]
+  riktig: 0
+  forklaring: "Setningen forklarer hva noe er eller hva noen mener, uten å vurdere. Det er redegjørelse."
+- id: vgs-fag-m-rd-3
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er setningen redegjørelse eller drøfting?"
+  utdrag: "Argumentet i vedlegg 2 er svakt fordi det bygger på ett eneste eksempel."
+  alternativer: ["Drøfting", "Redegjørelse"]
+  riktig: 0
+  forklaring: "Setningen vurderer, veier eller tar stilling. Det er drøfting."
+- id: vgs-fag-m-rd-4
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er setningen redegjørelse eller drøfting?"
+  utdrag: "Realismen var en periode fra omkring 1850 til 1890."
+  alternativer: ["Redegjørelse", "Drøfting"]
+  riktig: 0
+  forklaring: "Setningen forklarer hva noe er eller hva noen mener, uten å vurdere. Det er redegjørelse."
+- id: vgs-fag-m-rd-5
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er setningen redegjørelse eller drøfting?"
+  utdrag: "Likevel kan teksten også leses som en kritikk av den samme utviklingen."
+  alternativer: ["Drøfting", "Redegjørelse"]
+  riktig: 0
+  forklaring: "Setningen vurderer, veier eller tar stilling. Det er drøfting."
+- id: vgs-fag-m-rd-6
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er setningen redegjørelse eller drøfting?"
+  utdrag: "Det taler for at tekstene har ulikt syn på språkendring, men begge tar utgangspunkt i unge."
+  alternativer: ["Drøfting", "Redegjørelse"]
+  riktig: 0
+  forklaring: "Setningen vurderer, veier eller tar stilling. Det er drøfting."
+- id: vgs-fag-m-rd-7
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er setningen redegjørelse eller drøfting?"
+  utdrag: "Forfatteren mener at engelske lånord truer norsken."
+  alternativer: ["Redegjørelse", "Drøfting"]
+  riktig: 0
+  forklaring: "Setningen forklarer hva noe er eller hva noen mener, uten å vurdere. Det er redegjørelse."
+- id: vgs-fag-m-rd-8
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er setningen redegjørelse eller drøfting?"
+  utdrag: "Etter min vurdering er vedlegg 1 mer overbevisende, fordi det støtter seg på undersøkelser."
+  alternativer: ["Drøfting", "Redegjørelse"]
+  riktig: 0
+  forklaring: "Setningen vurderer, veier eller tar stilling. Det er drøfting."
+- id: vgs-fag-m-rd-9
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er setningen redegjørelse eller drøfting?"
+  utdrag: "Begrepet multietnolekt brukes om en talemåte som har vokst fram blant unge med ulik språkbakgrunn."
+  alternativer: ["Redegjørelse", "Drøfting"]
+  riktig: 0
+  forklaring: "Setningen forklarer hva noe er eller hva noen mener, uten å vurdere. Det er redegjørelse."
+- id: vgs-fag-m-rd-10
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Er setningen redegjørelse eller drøfting?"
+  utdrag: "Dette synet er likevel for enkelt, siden det ikke tar hensyn til at språk alltid har endret seg."
+  alternativer: ["Drøfting", "Redegjørelse"]
+  riktig: 0
+  forklaring: "Setningen vurderer, veier eller tar stilling. Det er drøfting."
+- id: vgs-fag-m-del-1
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et drøftende avsnitt er setningen?"
+  utdrag: "Vedlegg 1 framstiller ungdomsspråk som noe positivt."
+  alternativer: ["Påstand", "Belegg", "Forklaring", "Motforestilling"]
+  riktig: 0
+  forklaring: "Temasetningen sier hva avsnittet skal vise."
+- id: vgs-fag-m-del-2
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et drøftende avsnitt er setningen?"
+  utdrag: "Skribenten skriver at nye ord er «et tegn på et levende språk»."
+  alternativer: ["Belegg", "Påstand", "Forklaring", "Motforestilling"]
+  riktig: 0
+  forklaring: "Setningen viser til et sted i teksten."
+- id: vgs-fag-m-del-3
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et drøftende avsnitt er setningen?"
+  utdrag: "Ordet «levende» gir språket noe naturlig og sunt, og endringene blir noe å glede seg over."
+  alternativer: ["Forklaring", "Påstand", "Belegg", "Motforestilling"]
+  riktig: 0
+  forklaring: "Setningen forklarer hvordan belegget viser påstanden."
+- id: vgs-fag-m-del-4
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et drøftende avsnitt er setningen?"
+  utdrag: "Samtidig nevner ikke teksten at noen kan føle seg utestengt av slike ord."
+  alternativer: ["Motforestilling", "Påstand", "Belegg", "Forklaring"]
+  riktig: 0
+  forklaring: "Setningen viser noe som taler imot, eller en annen lesemåte."
+- id: vgs-fag-m-del-5
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et drøftende avsnitt er setningen?"
+  utdrag: "Teksten er derfor overbevisende om språkendring, men den viser bare én side av saken."
+  alternativer: ["Vurdering", "Påstand", "Belegg", "Forklaring"]
+  riktig: 0
+  forklaring: "Setningen veier sidene og sier hva som er mest holdbart."
+- id: vgs-fag-m-del-6
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et drøftende avsnitt er setningen?"
+  utdrag: "Novellen viser hvordan fornorskingen påvirket familien."
+  alternativer: ["Påstand", "Belegg", "Forklaring", "Motforestilling"]
+  riktig: 0
+  forklaring: "Temasetningen sier hva avsnittet skal vise."
+- id: vgs-fag-m-del-7
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et drøftende avsnitt er setningen?"
+  utdrag: "Bestemoren svarer bare «det er ikke for deg» når barnebarnet spør om samisk."
+  alternativer: ["Belegg", "Påstand", "Forklaring", "Motforestilling"]
+  riktig: 0
+  forklaring: "Setningen viser til et sted i teksten."
+- id: vgs-fag-m-del-8
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et drøftende avsnitt er setningen?"
+  utdrag: "Svaret viser at språket er blitt forbundet med skam, og at hun vil skjerme barnebarnet."
+  alternativer: ["Forklaring", "Påstand", "Belegg", "Motforestilling"]
+  riktig: 0
+  forklaring: "Setningen forklarer hvordan belegget viser påstanden."
+- id: vgs-fag-m-del-9
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et drøftende avsnitt er setningen?"
+  utdrag: "Man kan innvende at replikken også kan leses som sorg, ikke bare skam."
+  alternativer: ["Motforestilling", "Påstand", "Belegg", "Forklaring"]
+  riktig: 0
+  forklaring: "Setningen viser noe som taler imot, eller en annen lesemåte."
+- id: vgs-fag-m-del-10
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken del av et drøftende avsnitt er setningen?"
+  utdrag: "Begge lesningene viser likevel at språket er gått tapt i familien, og det styrker tolkningen."
+  alternativer: ["Vurdering", "Påstand", "Belegg", "Forklaring"]
+  riktig: 0
+  forklaring: "Setningen veier sidene og sier hva som er mest holdbart."
+- id: vgs-fag-m-saklig-1
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken setning passer best i en fagartikkel?"
+  alternativer: ["Mange unge bruker engelske ord når de chatter.", "Alle unge snakker bare engelsk nå.", "Ungdommen ødelegger språket totalt.", "Det er helt sykt hvor mye engelsk folk bruker."]
+  riktig: 0
+  forklaring: "Fagartikkelen krever saklig og presist språk. Unngå overdrivelser, slang og «alle» og «aldri»."
+- id: vgs-fag-m-saklig-2
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken setning passer best i en fagartikkel?"
+  alternativer: ["Teksten framstiller dialekt som en viktig del av identiteten.", "Teksten er kjempebra og viser at dialekt er det beste som finnes.", "Jeg elsker dialekter, og det gjør teksten også.", "Alle med dialekt er stolte."]
+  riktig: 0
+  forklaring: "Fagartikkelen krever saklig og presist språk. Unngå overdrivelser, slang og «alle» og «aldri»."
+- id: vgs-fag-m-saklig-3
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken setning passer best i en fagartikkel?"
+  alternativer: ["Argumentet blir svakere fordi det ikke er støttet av fakta.", "Argumentet er helt idiotisk.", "Skribenten aner ikke hva han snakker om.", "Dette er det dummeste jeg har lest."]
+  riktig: 0
+  forklaring: "Fagartikkelen krever saklig og presist språk. Unngå overdrivelser, slang og «alle» og «aldri»."
+- id: vgs-fag-m-saklig-4
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken setning passer best i en fagartikkel?"
+  alternativer: ["Flere av vedleggene peker på at dialektene blir mer like hverandre.", "Dialektene forsvinner helt om noen år.", "Ingen snakker dialekt lenger.", "Dialektene er døde."]
+  riktig: 0
+  forklaring: "Fagartikkelen krever saklig og presist språk. Unngå overdrivelser, slang og «alle» og «aldri»."
+- id: vgs-fag-m-saklig-5
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken setning passer best i en fagartikkel?"
+  alternativer: ["Begrepet sosiolekt viser til talemål som henger sammen med sosial gruppe.", "Sosiolekt er liksom hvordan folk snakker.", "Sosiolekt er når man snakker rart.", "Sosiolekt er dialekt, men annerledes."]
+  riktig: 0
+  forklaring: "Fagartikkelen krever saklig og presist språk. Unngå overdrivelser, slang og «alle» og «aldri»."
+- id: vgs-fag-m-saklig-6
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvilken setning passer best i en fagartikkel?"
+  alternativer: ["Det kan tyde på at forfatteren er kritisk til utviklingen.", "Forfatteren hater utviklingen.", "Forfatteren er garantert imot alt nytt.", "Forfatteren er bare sur."]
+  riktig: 0
+  forklaring: "Fagartikkelen krever saklig og presist språk. Unngå overdrivelser, slang og «alle» og «aldri»."
+- id: vgs-fag-m-kilde-1
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09, mvg1-05]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvordan viser du til en kilde i teksten?"
+  alternativer: ["Etternavn og årstall i parentes: (Dyrendal, 2020)", "Bare tittelen på boka i fet skrift", "Nettadressen midt i setningen uten parentes", "Ingen henvisning, bare i kildelista"]
+  riktig: 0
+  forklaring: "Henvisningen i teksten viser leseren hvor opplysningen kommer fra."
+- id: vgs-fag-m-kilde-2
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09, mvg1-05]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hva skal være med når du oppgir en internettkilde i kildelista?"
+  alternativer: ["Nettadresse og lesedato", "Bare navnet på nettstedet", "Bare søkeordet du brukte", "Navnet på læreren din"]
+  riktig: 0
+  forklaring: "Nettsider kan endre seg. Derfor skal lesedatoen være med."
+- id: vgs-fag-m-kilde-3
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09, mvg1-05]
+  status: utkast
+  vanskegrad: 1
+  spm: "Skal vedleggene føres i kildelista?"
+  alternativer: ["Ja, vedleggene er kilder", "Nei, de er en del av oppgaven", "Bare hvis du siterer mer enn tre linjer", "Bare i essay"]
+  riktig: 0
+  forklaring: "Alle kilder skal oppgis, også vedleggene."
+- id: vgs-fag-m-kilde-4
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09, mvg1-05]
+  status: utkast
+  vanskegrad: 1
+  spm: "Hvorfor er det viktig å oppgi kilder?"
+  alternativer: ["Leseren skal kunne finne og kontrollere kildene, og det viser hva som er dine egne tanker", "Det gjør teksten lengre", "Det er bare viktig i realfag", "Det erstatter drøftingen"]
+  riktig: 0
+  forklaring: "Kildebruk er en del av etterrettelig skriving. Svaret kontrolleres også for plagiat."
