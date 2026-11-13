@@ -1,49 +1,49 @@
 - id: rett-fk-to-ord
   type: flashkort
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Hvordan skrives «i dag», «i morgen», «i går», «til slutt» og «for eksempel»?"
   bakside: "Alle skrives i to ord (for eksempel i dag, ikke idag). «For eksempel» kan forkortes til f.eks."
 - id: rett-fk-sammensatt
   type: flashkort
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Hvordan skrives sammensatte ord?"
   bakside: "Som ett ord: eksamensoppgave, ikke «eksamen oppgave»."
 - id: rett-fk-liten
   type: flashkort
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Hvilke ord skrives med liten forbokstav?"
   bakside: "Ukedager (mandag), måneder (mai), språk (norsk, engelsk) og folkeslag (nordmann)."
 - id: rett-fk-stor
   type: flashkort
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Hvilke ord skrives med stor forbokstav?"
   bakside: "Navn på personer og steder (Oslo, Norge), og første ord etter punktum."
 - id: rett-fk-a-og
   type: flashkort
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Når skriver du «å», og når skriver du «og»?"
   bakside: "«Å» står foran verb i infinitiv (å lese). «Og» binder sammen ord og setninger. «Jeg liker å lese og skrive.»"
 - id: rett-fk-de-dem
   type: flashkort
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Når skriver du «de», og når skriver du «dem»?"
   bakside: "«De» er subjekt: «De ser meg.» «Dem» er objekt: «Jeg ser dem.»"
 - id: rett-fv-idag
   type: flervalg
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken skrivemåte er riktig?"
   alternativer: ["i dag", "idag", "i-dag"]
@@ -52,7 +52,7 @@
 - id: rett-fv-imorgen
   type: flervalg
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken skrivemåte er riktig?"
   alternativer: ["i morgen", "imorgen", "i-morgen"]
@@ -61,7 +61,7 @@
 - id: rett-fv-tilslutt
   type: flervalg
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken skrivemåte er riktig?"
   alternativer: ["til slutt", "tilslutt", "til-slutt"]
@@ -70,7 +70,7 @@
 - id: rett-fv-forexempel
   type: flervalg
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken skrivemåte er riktig?"
   alternativer: ["for eksempel", "forexempel", "for exempel", "foreksempel"]
@@ -79,7 +79,7 @@
 - id: rett-fv-bokstaver
   type: flervalg
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken setning har riktige små og store bokstaver?"
   alternativer: ["Vi har prøve på mandag i mai.", "Vi har prøve på Mandag i Mai.", "Vi har prøve på mandag i Mai.", "Vi har prøve på Mandag i mai."]
@@ -88,7 +88,7 @@
 - id: rett-fv-a-og
   type: flervalg
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken setning er riktig?"
   alternativer: ["Jeg liker å lese og skrive.", "Jeg liker og lese og skrive.", "Jeg liker å lese å skrive.", "Jeg liker og lese å skrive."]
@@ -97,7 +97,7 @@
 - id: rett-fv-de-dem
   type: flervalg
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken setning er riktig?"
   alternativer: ["Jeg ser dem, men de ser ikke meg.", "Jeg ser de, men dem ser ikke meg.", "Jeg ser dem, men dem ser ikke meg.", "Jeg ser de, men de ser ikke meg."]
@@ -106,7 +106,7 @@
 - id: rett-fv-liten-forbokstav
   type: flervalg
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilket av disse ordene skrives med liten forbokstav midt i en setning?"
   alternativer: ["norsk", "Oslo", "Norge", "Bjørnson"]

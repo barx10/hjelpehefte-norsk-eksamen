@@ -1,7 +1,7 @@
 - id: feil-sammensatt-eksamensoppgave
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Jeg leste eksamen oppgaven nøye."
   feil: "eksamen oppgaven"
@@ -10,7 +10,7 @@
 - id: feil-sammensatt-skriveplan
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Vi trenger en god skrive plan."
   feil: "skrive plan"
@@ -19,7 +19,7 @@
 - id: feil-sammensatt-avisartikkel
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Hun leste en lang avis artikkel."
   feil: "avis artikkel"
@@ -28,7 +28,7 @@
 - id: feil-sammensatt-sprakbruk
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Teksten har en sterk språk bruk."
   feil: "språk bruk"
@@ -37,7 +37,7 @@
 - id: feil-sammensatt-diktanalyse
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Dikt analysen var vanskelig."
   feil: "Dikt analysen"
@@ -46,7 +46,7 @@
 - id: feil-tid-imorgen
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Vi har eksamen imorgen."
   feil: "imorgen"
@@ -55,7 +55,7 @@
 - id: feil-tid-idag
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Jeg leste novellen idag."
   feil: "idag"
@@ -64,7 +64,7 @@
 - id: feil-tid-igar
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Vi skrev en tekst igår."
   feil: "igår"
@@ -73,7 +73,7 @@
 - id: feil-tid-tilslutt
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Tilslutt oppsummerer jeg poengene."
   feil: "Tilslutt"
@@ -82,7 +82,7 @@
 - id: feil-tid-forexempel
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Mange bruker virkemidler, forexempel metaforer."
   feil: "forexempel"
@@ -91,7 +91,7 @@
 - id: feil-bokstav-mandag
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Eksamen er på Mandag."
   feil: "Mandag"
@@ -100,7 +100,7 @@
 - id: feil-bokstav-mai
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Vi har prøve i Mai."
   feil: "Mai"
@@ -109,7 +109,7 @@
 - id: feil-bokstav-norsk
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Jeg liker å skrive på Norsk."
   feil: "Norsk"
@@ -118,7 +118,7 @@
 - id: feil-bokstav-norsk-forfatter
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "«Faderen» ble skrevet av Bjørnson, en Norsk forfatter."
   feil: "Norsk"
@@ -127,7 +127,7 @@
 - id: feil-bokstav-oslo
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Vi bor i oslo."
   feil: "oslo"
@@ -136,7 +136,7 @@
 - id: feil-bokstav-punktum
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Det regnet. vi gikk hjem."
   feil: "vi"
@@ -145,7 +145,7 @@
 - id: feil-a-og-1
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Jeg liker og lese bøker."
   feil: "og"
@@ -154,7 +154,7 @@
 - id: feil-a-og-2
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Hun prøvde og skrive en novelle."
   feil: "og"
@@ -163,7 +163,7 @@
 - id: feil-a-og-3
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Hun leste novellen å skrev en analyse."
   feil: "å"
@@ -172,7 +172,7 @@
 - id: feil-de-dem-1
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Jeg ser de hver dag."
   feil: "de"
@@ -181,7 +181,7 @@
 - id: feil-de-dem-2
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Dem kom for sent til timen."
   feil: "Dem"
@@ -190,7 +190,7 @@
 - id: feil-hver-dag
   type: finnfeil
   kapittel: rettskriving
-  mal: [m10-11]
+  mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Jeg leser hverdag før leggetid."
   feil: "hverdag"
