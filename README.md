@@ -95,7 +95,7 @@ Flashkort har `forside` og `bakside` i stedet for spørsmål, alternativer og fo
 | `marker` | Trykker på riktige ord i en tekst | `oppdrag`, `tekst` (riktige ord i `[[dobbel hakeparentes]]`), `forklaring` |
 | `skriv` | Skriver en egen tekst, får automatisk sjekk og vurderer seg selv | `oppdrag`, `utdrag`, `starttekst`, `ord` (`min`, `maks`), `nokkelord`, `nokkelordMinst`, `sitat`, `kriterier`, `modelltekst` |
 
-**Rekkefølge med ord og setningsledd:** Øvelsen godtar bare én fasit. Kan setningen bygges på flere korrekte måter, må `oppdrag` si hvilket setningsledd setningen begynner med (for eksempel tidsadverbial eller subjekt) og hvor subjektet skal stå. Ellers kan eleven få feil for et riktig svar.
+**Rekkefølge med ord og setningsledd:** Øvelsen godtar bare én fasit. Kan setningen bygges på flere korrekte måter, må `oppdrag` si hvilket setningsledd setningen begynner med (for eksempel tidsadverbial eller subjekt). Oppdraget skal ikke si hvor de andre leddene står, for det er det eleven skal øve på.
 
 ### Mengdetrening
 
