@@ -30,6 +30,7 @@ test('besvarelser med lisens har forfatter og lisenslenke', () => {
     if (d.lisens) {
       assert.ok(d.forfatter, `${f}: lisens uten forfatter`);
       assert.ok(d.lisensUrl, `${f}: lisens uten lisensUrl`);
+      assert.match(d.kilde ?? '', /^https?:\/\//, `${f}: lisens uten kilde med lenke`);
     }
   }
 });

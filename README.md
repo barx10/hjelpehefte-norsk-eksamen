@@ -128,6 +128,23 @@ Sett `status: godkjent` først etter faglig gjennomgang.
 
 `omfang` styrer hvordan målet vises på siden Kompetansemål: `dekkes`, `delvis`, `senere` eller `utenfor`. Målene ligger i én fil per nivå i `innhold/mal/`, og siden viser bare målene for nivået eleven har valgt. Id-er følger mønsteret `m<nivå>-<nr>`, for eksempel `m10-01` og `mvg3-01`.
 
+## Lisens og kilder
+
+Innholdet har tre opphav, og hver tekst i `innhold/besvarelser/` sier selv hvilket.
+
+| Opphav | Hvordan det merkes | Krav |
+|---|---|---|
+| Tekster fra NDLA (modelltekster og elevtekster, også de forenklede) | `lisens: "CC BY-SA 4.0"`, `forfatter`, `kilde` (lenke til NDLA-siden) og `endringer` | Oppgi forfatter, lisens og kilde, og si fra om endringer. Bearbeidelser, for eksempel forenklede tekster og øvelser som bruker teksten, må deles på samme lisens. |
+| Tekster skrevet for øvingen (vedlegg, modelltekster og kortsvar på vgs) | `forfatter: "Skrevet for øvingen (fiktiv ...)"`, ingen lisens | Fiktive tekster. De skal ikke utgis som ekte tekster. Faktaopplysninger i dem må kontrolleres før de godkjennes. |
+| Tekster uten opphavsrett (for eksempel norrøne kilder) | `forfatter` og `kilde` | Oversettelsen må være laget for øvingen, eller ha en fri lisens. |
+
+Regler:
+
+- Tekster med `lisens` må ha `lisensUrl` og en `kilde` med lenke. En test sjekker det.
+- Opphavsrettsbeskyttede tekster som modellteksten analyserer (dikt, noveller, leserinnlegg), legges ikke i repoet. Bruk `diktUrl` eller `analysertTekstUrl` i stedet.
+- Elevtekster må være anonymisert og ha samtykke.
+- Fordi bearbeidede NDLA-tekster ligger i repoet, må de delene av innholdet som bygger på dem, deles under CC BY-SA 4.0. Hele repoet har ennå ingen lisensfil.
+
 ## Publisering
 
 `.github/workflows/deploy.yml` bygger og publiserer til GitHub Pages når `main` oppdateres. Slå på Pages under Settings, Pages, Source: GitHub Actions.
