@@ -5,7 +5,7 @@ kategori: modelltekst, forenklet for 10. trinn
 nivaa: ['10']
 status: godkjent
 oppgave: "Retorisk analyse av leserinnlegget «Som ungdomsskoleelev traff «Kjønnskampen» meg hardt» (Aftenposten, Si ;D, 27. mai 2019)"
-forfatter: "Åsa Abusland (bearbeidet og forenklet)"
+forfatter: "NDLA (bearbeidet og forenklet)"
 lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
 kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-retorisk-analyse/3074631416"
