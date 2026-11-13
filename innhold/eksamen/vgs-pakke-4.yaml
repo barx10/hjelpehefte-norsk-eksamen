@@ -1,0 +1,180 @@
+tittel: "Vgs pakke 4: Natur og nasjon"
+beskrivelse: "Denne pakken har et novelleutdrag til kortsvaret og tre langsvarsoppgaver: en fagartikkel om naturbildet i nasjonalromantikken og i nyere tekster, et essay om natur og tilhørighet, og en diktetolkning. Alle tekstene er skrevet for øving."
+status: godkjent
+nivaa: vg3
+oppsett: vgs
+kjennetegnStatus: godkjent
+vedlegg:
+  - id: v1
+    tittel: "Vedlegg 1: Trappa (novelleutdrag)"
+    forfatter: "Utdrag fra en novelle (fiktiv tekst for øving)"
+    tekst: |-
+      Sigrid stod på trappa med kaffekoppen i begge hender. Tåka lå over vannet som et laken noen hadde glemt å brette sammen, og bak den skimtet hun fjellet, grått og stille.
+
+      Hun hadde ikke vært her siden pappa døde. Hytta luktet fortsatt av røyk og gammelt tre. Hun hadde åpnet vinduene så snart hun kom, men lukten ble hengende, som om huset ikke ville gi den fra seg.
+
+      En fugl ropte et sted i bjørkeskogen. Svaret kom fra den andre siden av vannet, tynt og langt unna. Sigrid lyttet. Hun hadde alltid trodd at skogen var stille, men nå hørte hun at den aldri var det. Den hvisket, knirket og tikket, som en klokke som gikk uten henne.
+
+      «Du må se opp av og til,» pleide pappa å si. Han sa det mens han stod på akkurat denne trappa med akkurat denne koppen. Hun hadde ment at det var en kommentar om mobilen. Nå forsto hun at det var noe annet.
+
+      Hun satte fra seg koppen og gikk ned til vannkanten. Vannet var så stille at hun så seg selv i det, mørk og uten ansikt. Hun la hånden i. Det var kaldere enn hun hadde trodd, og hun holdt den der til det gjorde vondt.
+
+      Da hun tok den opp igjen, lå tåka fortsatt over vannet. Men solen hadde kommet over fjellet, og i ett lite øyeblikk var hele innsjøen gull.
+  - id: v2
+    tittel: "Vedlegg 2: «Fjellets sønn» av Anders Holm (1848)"
+    forfatter: "Dikt (fiktiv tekst for øving, gjengitt med moderne rettskriving)"
+    tekst: |-
+      Jeg står på fjellets høye topp,
+      hvor luften er klar og kold.
+      Mitt hjerte løfter seg, op og op,
+      og brystet er frit og bold.
+
+      Der nede ligger mitt fedreland
+      med dal og skog og fjord.
+      Hver gård er et bånd fra mann til mann,
+      hver bekk bærer gamle ord.
+
+      La andre få byenes røyk og støy
+      og kjøpe seg lykke for gull.
+      Jeg eier et fjell og en fri, ren glede
+      og et hjerte som er fullt.
+  - id: v3
+    tittel: "Vedlegg 3: Brev fra en student (1850)"
+    forfatter: "Brev (fiktiv tekst for øving, gjengitt med moderne rettskriving)"
+    tekst: |-
+      Kjære venn,
+
+      Jeg skriver deg fra Valdres, hvor jeg har gått i tre uker med lommeboken i lommen og ingen planer. Du ville ikke kjent meg igjen. Jeg som kom fra byen med bleke kinn og stive krager, har nå brune hender og sover godt.
+
+      Det jeg har sett her, har rystet meg på en måte jeg ikke kan forklare. Det er ikke fjellene alene, selv om de er vakre. Det er folket som bor under dem. Bonden som viste meg veien, snakker et språk som ikke er dansk, og som ikke prøver å være det. Han fortalte meg eventyr jeg trodde jeg bare hadde lest hos Asbjørnsen og Moe. Han trodde på dem.
+
+      Jeg begynner å tro at Norges sjel ikke finnes i hovedstaden, men her. Vi i byen har tatt til oss dansk dannelse og glemt hva vi selv er. Fjellbonden har ikke glemt. I ham bor det gamle, rene folket, og vi har plikt til å lære av ham.
+
+      Jeg vil male det. Jeg vil skrive det. Jeg vil at alle i landet skal få se det jeg har sett: at vi eier noe som ingen andre eier.
+
+      Kom og se selv. Ta med deg noe varmt.
+
+      Din Johannes
+  - id: v4
+    tittel: "Vedlegg 4: «Fjellet vi trodde på» (kronikk, 2022)"
+    forfatter: "Eline Strand (fiktiv tekst for øving)"
+    tekst: |-
+      Vi har alltid fortalt at naturen er noe vi hører til. Det står i sangene, det henger på veggene i stua, og det er en forklaring på hvorfor vi kaller oss et friluftsfolk. Men noe har skjedd med forholdet.
+
+      I fjor tok jeg barna med på ski i påskeferien. Det var den første påsken jeg kan huske at jeg måtte kjøre to timer for å finne nok snø. Vi sto i kø foran en heis, omgitt av en hvit stripe som en maskin hadde laget, og med grønt gress på begge sider.
+
+      Det er lett å bli nostalgisk. Det er lett å skrive om hvordan det var, om kalde vintre og lange skiturer uten andre. Men jeg tror at vi trenger å bli uenige med oss selv. Vi har brukt natur som en identitet, og vi har kjørt dit med bil.
+
+      Det betyr ikke at vi må gi opp. Det betyr at fortellingen om oss selv ikke lenger kan være at vi er naturens barn. Den må være at vi er naturens ansvarlige. Det er et mye tyngre ord.
+
+      Fjellet vi trodde på, har endret seg. Spørsmålet er om vi har endret oss like mye.
+  - id: v5
+    tittel: "Vedlegg 5: «Snøkanon» av Tarjei Ness (2021)"
+    forfatter: "Dikt (fiktiv tekst for øving)"
+    tekst: |-
+      Fjellet har fått en maskin
+      som lager vinter.
+      Den hvisler hele natten
+      som en som holder oppe noe
+      som ikke vil bli.
+
+      I morgen kommer folk
+      med ski og termos
+      og står i kø for en hvit stripe
+      mellom grønt og grønt.
+
+      Bestefar sa at snøen kom
+      når den ville.
+      Vi sier at den kommer
+      når vi betaler.
+
+      Jeg tar en neve av det kunstige
+      og holder den til den smelter.
+      Den lukter ingenting.
+      Det er kanskje det som er med framtiden.
+  - id: v6
+    tittel: "Vedlegg 6: Hyttefeltet (reportasje, 2023)"
+    forfatter: "Avisreportasje (fiktiv tekst for øving)"
+    tekst: |-
+      På en fjellrygg i Innlandet står tre hundre hytter på rad. Noen har badestamp, noen har solcellepanel, og alle har bredbånd. «Vi drar til naturen,» sier Per Aas (54), som kjører fire timer hver fredag for å komme hit. «Her kan jeg slappe av.»
+
+      Feltet har brøytet vei, vann i kraner og et lite bibliotek i et gammelt sagbruk. Naturen er der, men den er pyntet. Stiene er merket, benkene står med jevne mellomrom, og hundene skal holdes i bånd.
+
+      «Mange tenker på natur som noe som er urørt,» sier forsker Ole Bakke. «Men det er sjelden slik. Det vi kaller natur i Norge, er ofte kulturlandskap som har vært brukt i hundrevis av år av bønder, seterjenter og gjetere. Vi har likevel lett for å tro at den har vært der uten oss.»
+
+      Marit Aas (17), Pers datter, er ikke enig. «For meg er dette ikke natur. Det er en slags park.» Hun savner å gå uten å vite hvor stien ender. «Pappa sier jeg overdriver. Men jeg tror han vil ha den samme følelsen som meg. Han vil bare ikke gi opp bredbåndet.»
+
+      Bakke mener at begge har rett. «Spørsmålet er ikke om dette er natur eller ikke. Spørsmålet er hva vi vil at det skal bety. Hvis natur er noe som hjelper oss å høre til, må vi også ta ansvar for den.»
+oppgave1:
+  vedlegg: v1
+  innledning: "Les vedlegg 1 og svar på oppgaven. Skriv 250 til 300 ord."
+  delsporsmal:
+    - tekst: "Gjør rede for hvordan naturen blir brukt for å skildre Sigrids sorg. Bruk eksempler fra teksten og relevant fagspråk."
+      ord: { min: 250, maks: 300 }
+      modell: |-
+        I utdraget brukes naturen til å gjøre Sigrids sorg synlig uten at den blir nevnt rett ut.
+
+        Tåka er et viktig bilde. Den «lå over vannet som et laken noen hadde glemt å brette sammen». Sammenligningen gir noe hverdagslig og ufullstendig, og det passer til Sigrid, som er alene på et sted der hun ikke har vært siden faren døde. Tåka skjuler fjellet, og det kan leses som at hun ikke ser klart.
+
+        Personifikasjon brukes om lukten i hytta, som «ville» ikke «gi den fra seg». Huset får en vilje, og det viser at minnene sitter igjen, selv om hun lufter. Skogen blir også levende når den «hvisket, knirket og tikket, som en klokke som gikk uten henne». Sammenligningen med klokken gir en følelse av tid som går videre uten faren.
+
+        Kontrasten mellom stille og lyd er et annet virkemiddel. Hun hadde trodd at skogen var stille, men oppdager at den «aldri» var det. Det viser at hun først nå hører det faren pleide å peke på: «Du må se opp av og til».
+
+        Vannet fungerer som et speil, og hun ser seg selv «mørk og uten ansikt». Det antyder at sorgen gjør henne til en skygge av seg selv. Kulden hun holder hånden i «til det gjorde vondt», viser at hun vil kjenne noe.
+
+        Slutten bryter med de mørke bildene. Solen gjør innsjøen til «gull», og det antyder at sorgen kan romme noe vakkert. Naturen skildrer dermed både tapet og en forsiktig trøst. Virkemidlene gjør at leseren forstår sorgen uten at fortelleren sier hva Sigrid føler, og det gir teksten en stille og troverdig tone.
+oppgave2:
+  valg:
+    - id: fagartikkel
+      tittel: "A: Fagartikkel om naturbildet i nasjonalromantikken og i nyere tekster"
+      tekst: "Skriv en fagartikkel der du gjør rede for hvordan naturen og nasjonen fremstilles i «Fjellets sønn» og i brevet fra studenten, og drøfter hvordan «Snøkanon» viderefører eller bryter med dette. Bruk gjerne opplysninger fra vedlegg 4. Bruk fagspråk, og vis til eksempler fra vedleggene."
+      mal: fagartikkel-vgs
+      vedlegg: [v2, v3, v5, v4]
+      ord: { min: 800, maks: 1300 }
+      nokkelord: ["nasjonalromantikk", "romantikken", "idealisering", "kontekst", "motiv", "tema", "personifikasjon", "kontrast", "klimaendringer", "virkemiddel"]
+      nokkelordMinst: 4
+      sitat: true
+      kjennetegn:
+        - "Innledningen presenterer emnet og stiller en problemstilling om hva naturen betyr for nasjonen, og om det har endret seg."
+        - "Du gjør rede for nasjonalromantikken som kontekst: 1840- og 1850-årene, nasjonsbygging og fokus på bondekultur og fjell."
+        - "Du skiller mellom redegjørelsen og drøftingen."
+        - "Du viser hvordan «Fjellets sønn» og brevet fremstiller naturen som ren, fri og sann, og bruker sitater."
+        - "Du drøfter hvordan «Snøkanon» bryter med dette, for eksempel ved at maskinen lager vinteren og bestefaren minner om noe annet."
+        - "Du bruker fagspråk som nasjonalromantikk, idealisering, kontrast og personifikasjon."
+        - "Du har en motforestilling, for eksempel at brevet også idealiserer folket, ikke bare naturen."
+        - "Avslutningen svarer på problemstillingen, og alle vedlegg står i kildelisten."
+    - id: essay
+      tittel: "B: Essay om natur og tilhørighet"
+      tekst: "Skriv et essay der du utforsker og reflekterer over innholdet i de vedlagte tekstene."
+      mal: essay-vgs
+      vedlegg: [v4, v5, v6]
+      ord: { min: 800, maks: 1300 }
+      nokkelord: []
+      sitat: false
+      kjennetegn:
+        - "Inngangen er konkret, for eksempel en tur du har gått eller en setning fra et vedlegg."
+        - "Du har en rød tråd om natur og tilhørighet, og hvert avsnitt tar tanken videre."
+        - "Du bruker alle tre vedleggene og lar dem si noe ulikt."
+        - "Du veksler mellom egne erfaringer med natur og kunnskap fra tekstene."
+        - "Du utforsker spørsmål som hva som egentlig er natur, og hvem som har ansvar for den."
+        - "Du tåler at tankene dine peker i flere retninger."
+        - "Slutten gir leseren noe å tenke på."
+        - "Du har oppgitt kildene."
+    - id: tolkning
+      tittel: "C: Tolk diktet"
+      tekst: "Tolk diktet."
+      mal: litteraer-tolkning-vgs
+      vedlegg: [v5]
+      ord: { min: 800, maks: 1300 }
+      nokkelord: ["tema", "metafor", "personifikasjon", "kontrast", "lyrisk jeg", "fritt vers", "undertekst", "virkemiddel", "tolkning"]
+      nokkelordMinst: 4
+      sitat: true
+      kjennetegn:
+        - "Innledningen presenterer diktet og en tydelig tolkningstese."
+        - "Du skiller mellom motiv (snøkanon, skisted) og tema (forholdet mellom natur, tid og det kunstige)."
+        - "Du analyserer form: frie vers, fire strofer og skiftet fra beskrivelse til jeg."
+        - "Du analyserer virkemidler som personifikasjonen «holder oppe noe som ikke vil bli» og kontrasten «grønt og grønt»."
+        - "Du forklarer hva hvert virkemiddel gjør, og begrunner tolkningen med sitat."
+        - "Du kommenterer bestefaren og de to måtene å snakke om snø på."
+        - "Du er forsiktig med påstander diktet ikke gir grunnlag for."
+        - "Avslutningen svarer på hva diktet sier."
