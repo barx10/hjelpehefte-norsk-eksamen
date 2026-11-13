@@ -1,7 +1,7 @@
 - id: virk-fv-sammenligning
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Hun løp som en gepard.»"
   alternativer: ["Sammenligning", "Metafor", "Personifikasjon", "Overdrivelse"]
@@ -10,7 +10,7 @@
 - id: virk-fv-metafor
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Han er en løve på banen.»"
   alternativer: ["Metafor", "Sammenligning", "Besjeling", "Allusjon"]
@@ -19,7 +19,7 @@
 - id: virk-fv-personifikasjon
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Tiden stjeler dagene våre.»"
   alternativer: ["Personifikasjon", "Besjeling", "Sammenligning", "Gjentakelse"]
@@ -28,7 +28,7 @@
 - id: virk-fv-besjeling
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Granene hvisket til hverandre i vinden.»"
   alternativer: ["Besjeling", "Personifikasjon", "Metafor", "Underdrivelse"]
@@ -37,7 +37,7 @@
 - id: virk-fv-forskjell
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hva er forskjellen på personifikasjon og besjeling, slik heftet skiller dem?"
   alternativer: ["Personifikasjon gjelder abstrakte ting, besjeling gjelder konkrete ting som dyr og planter", "Personifikasjon gjelder dyr, besjeling gjelder følelser", "Det er ingen forskjell", "Besjeling brukes bare i dikt"]
@@ -46,7 +46,7 @@
 - id: virk-fv-retorisk
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Hvem vil vel bo i et samfunn der ingen bryr seg?»"
   alternativer: ["Retorisk spørsmål", "Gjentakelse", "Underdrivelse", "Kontrast"]
@@ -55,7 +55,7 @@
 - id: virk-fv-gjentakelse
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Vi gir oss ikke. Vi gir oss aldri. Vi gir oss ikke nå.»"
   alternativer: ["Gjentakelse", "Overdrivelse", "Allusjon", "Metafor"]
@@ -64,7 +64,7 @@
 - id: virk-fv-overdrivelse
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Jeg har sagt det tusen ganger.»"
   alternativer: ["Overdrivelse", "Underdrivelse", "Sammenligning", "Frampek"]
@@ -73,7 +73,7 @@
 - id: virk-fv-understatement
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Under en orkan sier en person: «Det blåser litt.» Hvilket virkemiddel er dette?"
   alternativer: ["Underdrivelse", "Overdrivelse", "Kontrast", "Allusjon"]
@@ -82,7 +82,7 @@
 - id: virk-fv-allusjon
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Han ble en moderne Judas og sviktet vennene sine.»"
   alternativer: ["Allusjon", "Metafor", "Underdrivelse", "Gjentakelse"]
@@ -91,7 +91,7 @@
 - id: virk-fv-korte
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel gir tempo og trykk i denne teksten? «Han stoppet. Lyttet. Ingenting.»"
   alternativer: ["Korte setninger", "Retorisk spørsmål", "Sammenligning", "Allusjon"]
@@ -100,7 +100,7 @@
 - id: virk-fv-kontrast
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Rommet var fullt av folk, men hun følte seg helt alene.»"
   alternativer: ["Kontrast", "Gjentakelse", "Frampek", "Personifikasjon"]
@@ -109,7 +109,7 @@
 - id: virk-fv-frampek
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Hun lukket døren bak seg og ante ikke at hun aldri skulle åpne den igjen.»"
   alternativer: ["Frampek", "Vendepunkt", "In medias res", "Høydepunkt"]
@@ -118,7 +118,7 @@
 - id: virk-fv-in-medias-res
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "En novelle åpner slik: «Døren sprakk opp, og alarmen gikk.» Hvilket virkemiddel er dette?"
   alternativer: ["In medias res", "Sirkelkomposisjon", "Parallellhandlinger", "Symbol"]
@@ -127,7 +127,7 @@
 - id: virk-fv-sirkel
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "En novelle begynner og slutter med at hovedpersonen står alene ved bussholdeplassen i regnet. Hvilket virkemiddel er dette?"
   alternativer: ["Sirkelkomposisjon", "Parallellhandlinger", "Vendepunkt", "Allusjon"]

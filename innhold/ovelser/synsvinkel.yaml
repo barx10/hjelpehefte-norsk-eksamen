@@ -1,35 +1,35 @@
 - id: syn-personal1
   type: flashkort
   kapittel: synsvinkel
-  mal: [m10-01]
+  mal: [m10-01, mvg3-01]
   status: godkjent
   forside: "Personal 1. person (jeg/vi): hva kjennetegner den?"
   bakside: "Fortelleren deltar og forteller fra sitt eget ståsted. Vi kommer tett på. Eksempel: Helga Flatland, Vingebelastning."
 - id: syn-personal3
   type: flashkort
   kapittel: synsvinkel
-  mal: [m10-01]
+  mal: [m10-01, mvg3-01]
   status: godkjent
   forside: "Personal 3. person (han/hun): hva kjennetegner den?"
   bakside: "Fortelleren deltar via en av personene, men omtaler dem som «han/hun». Eksempel: Rakel Helmsdal, Spedalsk."
 - id: syn-refererende
   type: flashkort
   kapittel: synsvinkel
-  mal: [m10-01]
+  mal: [m10-01, mvg3-01]
   status: godkjent
   forside: "Autoral refererende: hva kjennetegner den?"
   bakside: "Fortelleren står utenfor og beskriver bare det vi kan observere. Eksempel: Bjørnstjerne Bjørnson, Faderen."
 - id: syn-allvitende
   type: flashkort
   kapittel: synsvinkel
-  mal: [m10-01]
+  mal: [m10-01, mvg3-01]
   status: godkjent
   forside: "Autoral allvitende: hva kjennetegner den?"
   bakside: "Fortelleren har full oversikt og vet hva personene tenker og føler. Eksempel: Rolf Losnegård, Hemnaren."
 - id: syn-fv-jeg
   type: flervalg
   kapittel: synsvinkel
-  mal: [m10-01]
+  mal: [m10-01, mvg3-01]
   status: godkjent
   spm: "Hvilken synsvinkel har denne teksten? «Jeg løftet blikket og så at han gikk.»"
   alternativer: ["Personal 1. person", "Personal 3. person", "Autoral refererende", "Autoral allvitende"]
@@ -38,7 +38,7 @@
 - id: syn-fv-personal3
   type: flervalg
   kapittel: synsvinkel
-  mal: [m10-01]
+  mal: [m10-01, mvg3-01]
   status: godkjent
   spm: "Hvilken synsvinkel har denne teksten? «Mia løftet blikket. Hun visste ikke hva hun skulle si, og hun var redd for at han skulle merke det.»"
   alternativer: ["Personal 3. person", "Personal 1. person", "Autoral refererende", "Autoral allvitende"]
@@ -47,7 +47,7 @@
 - id: syn-fv-refererende
   type: flervalg
   kapittel: synsvinkel
-  mal: [m10-01]
+  mal: [m10-01, mvg3-01]
   status: godkjent
   spm: "Hvilken synsvinkel har denne teksten? «Mannen reiste seg. Kvinnen sa ingenting. Utenfor begynte det å regne.»"
   alternativer: ["Autoral refererende", "Autoral allvitende", "Personal 1. person", "Personal 3. person"]
@@ -56,7 +56,7 @@
 - id: syn-fv-allvitende
   type: flervalg
   kapittel: synsvinkel
-  mal: [m10-01]
+  mal: [m10-01, mvg3-01]
   status: godkjent
   spm: "Hvilken synsvinkel har denne teksten? «Anna håpet han ville ringe, men Jonas hadde allerede bestemt seg for aldri å gjøre det.»"
   alternativer: ["Autoral allvitende", "Autoral refererende", "Personal 3. person", "Personal 1. person"]
@@ -65,7 +65,7 @@
 - id: syn-fv-observere
   type: flervalg
   kapittel: synsvinkel
-  mal: [m10-01]
+  mal: [m10-01, mvg3-01]
   status: godkjent
   spm: "Hvilken fortellertype beskriver bare det vi kan observere utenfra?"
   alternativer: ["Autoral refererende", "Autoral allvitende", "Personal 1. person", "Personal 3. person"]
@@ -74,7 +74,7 @@
 - id: syn-fv-tett-paa
   type: flervalg
   kapittel: synsvinkel
-  mal: [m10-01]
+  mal: [m10-01, mvg3-01]
   status: godkjent
   spm: "Hvilken synsvinkel kommer oss tettest på fortelleren, fordi fortelleren deltar og bruker «jeg»?"
   alternativer: ["Personal 1. person", "Autoral allvitende", "Autoral refererende", "Personal 3. person"]

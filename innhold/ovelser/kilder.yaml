@@ -1,56 +1,56 @@
 - id: kilde-fk-sitat
   type: flashkort
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   forside: "Hva er et direkte sitat, og hvordan markerer du det?"
   bakside: "En ordrett gjengivelse av en tekst. Det settes i anførselstegn, for eksempel «natten er en vegg mellom oss», og må gjengis helt nøyaktig."
 - id: kilde-fk-parafrase
   type: flashkort
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   forside: "Hva er et referat (en parafrase)?"
   bakside: "At du gjengir innholdet med egne ord. Du må fortsatt oppgi kilden."
 - id: kilde-fk-plagiat
   type: flashkort
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   forside: "Hva er plagiat?"
   bakside: "Å bruke andres tekst eller ideer som om de var dine egne, uten å oppgi kilden. Det gjelder også tekst som bare er litt omskrevet."
 - id: kilde-fk-utelatelse
   type: flashkort
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   forside: "Hvordan markerer du at du har hoppet over en del av et sitat?"
   bakside: "Med [...] der den utelatte delen stod."
 - id: kilde-fk-forklar
   type: flashkort
   kapittel: kilder
-  mal: [m10-07, m10-12]
+  mal: [m10-07, m10-12, mvg3-09]
   status: godkjent
   forside: "Hva gjør du etter at du har satt inn et sitat i en analyse?"
   bakside: "Du forklarer hva sitatet viser eller hva virkemidlet gjør. Et sitat uten forklaring er ikke en analyse."
 - id: kilde-fk-kildekritikk
   type: flashkort
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   forside: "Hvilke fire spørsmål stiller du for å vurdere en kilde?"
   bakside: "Hvem er avsenderen? Hva er formålet med teksten? Når ble den skrevet? Støttes opplysningene av andre kilder?"
 - id: kilde-fk-eksamen
   type: flashkort
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   forside: "Hvordan viser du at du bruker et tekstvedlegg på eksamen?"
   bakside: "Du nevner teksten eller forfatteren, og setter ordrette sitater i anførselstegn. Følg anvisningene i oppgaven."
 - id: kilde-fv-markering
   type: flervalg
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   spm: "Hvilken setning har et direkte sitat som er riktig markert?"
   alternativer: ["Forfatteren skriver at «natten er en vegg mellom oss».", "Forfatteren skriver at natten er en vegg mellom oss, og det er et sitat.", "Forfatteren skriver at «natten er en vegg mellom oss.", "Forfatteren skriver at natten, er en vegg mellom oss."]
@@ -59,7 +59,7 @@
 - id: kilde-fv-parafrase
   type: flervalg
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   spm: "I en tekst står det: «Vi må handle nå, før det er for sent.» Hvilken setning er et referat med egne ord?"
   alternativer: ["Teksten oppfordrer til å handle raskt.", "Teksten sier: «Vi må handle nå, før det er for sent.»", "Vi må handle nå, før det er for sent.", "Teksten handler om noe annet."]
@@ -68,7 +68,7 @@
 - id: kilde-fv-plagiat
   type: flervalg
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   spm: "Du limer inn tre setninger fra en nettside uten å si hvor de kommer fra. Hva er dette?"
   alternativer: ["Plagiat", "Referat", "Sitat", "Kildekritikk"]
@@ -77,7 +77,7 @@
 - id: kilde-fv-egne-ord
   type: flervalg
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   spm: "Du bruker en idé fra en tekst, men skriver den med egne ord. Må du oppgi kilden?"
   alternativer: ["Ja, ideen kommer fortsatt fra kilden", "Nei, det er dine egne ord", "Bare hvis teksten er lang", "Bare hvis du bruker anførselstegn"]
@@ -86,7 +86,7 @@
 - id: kilde-fv-etter-sitat
   type: flervalg
   kapittel: kilder
-  mal: [m10-07, m10-12]
+  mal: [m10-07, m10-12, mvg3-09]
   status: godkjent
   spm: "Hvilken formulering bruker et sitat best i en analyse?"
   alternativer: ["Forfatteren bruker en metafor: «natten er en vegg mellom oss». Metaforen gjør ensomheten konkret.", "«natten er en vegg mellom oss»", "Det er en metafor i teksten.", "Teksten har mange fine setninger, blant annet den om natten."]
@@ -95,7 +95,7 @@
 - id: kilde-fv-utelatelse
   type: flervalg
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   spm: "Hva betyr [...] midt i et sitat?"
   alternativer: ["At en del av sitatet er utelatt", "At sitatet er feil", "At det kommer mer tekst etter sitatet", "At sitatet er en parafrase"]
@@ -104,7 +104,7 @@
 - id: kilde-fv-kildekritikk
   type: flervalg
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   spm: "Hvilket av disse er et kildekritisk spørsmål?"
   alternativer: ["Hvem har skrevet teksten, og hvorfor?", "Hvor lang er teksten?", "Hvilken farge har overskriften?", "Hvor mange avsnitt har teksten?"]
@@ -113,7 +113,7 @@
 - id: kilde-fv-ssb
   type: flervalg
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   spm: "Du trenger tall om befolkningen i Norge. Hvilken kilde er mest pålitelig?"
   alternativer: ["Statistisk sentralbyrå (SSB)", "En anonym blogg", "En reklameplakat", "Et innlegg i et kommentarfelt"]
@@ -122,7 +122,7 @@
 - id: kilde-fv-vedlegg
   type: flervalg
   kapittel: kilder
-  mal: [m10-07]
+  mal: [m10-07, mvg3-09]
   status: godkjent
   spm: "På eksamen bruker du en opplysning fra et tekstvedlegg. Hva gjør du?"
   alternativer: ["Viser tydelig til teksten og setter ordrette sitater i anførselstegn", "Kopierer setningene uten å si noe", "Omskriver uten å nevne hvor det kommer fra", "Unngår å bruke vedlegget"]

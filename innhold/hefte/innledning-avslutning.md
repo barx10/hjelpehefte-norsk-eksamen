@@ -4,6 +4,7 @@ nummer: '14'
 rekkefolge: 14
 gruppe: sprak
 status: godkjent
+nivaa: ['10', 'vg3']
 ---
 
 Innledningen og avslutningen er det leseren husker. Tittelen er det første de ser.

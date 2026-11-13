@@ -63,6 +63,8 @@ const hefte = defineCollection({
     // Kapitler som ikke er gjennomgått vises ikke på den publiserte siden.
     status: status.default('godkjent'),
     nivaa: nivaaliste,
+    // Eget nummer og egen plass for et nivå, når kapittelet brukes på flere nivåer.
+    perNivaa: z.record(nivaakode, z.object({ nummer: z.string().optional(), rekkefolge: z.number().optional() })).optional(),
   }),
 });
 

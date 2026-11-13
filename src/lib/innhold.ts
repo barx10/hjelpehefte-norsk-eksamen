@@ -18,7 +18,11 @@ export type Besvarelse = CollectionEntry<'besvarelser'>;
 export async function hentKapitler(nivaa?: Nivaa): Promise<Kapittel[]> {
   const alle = (await getCollection('hefte'))
     .filter((k) => visUtkast || k.data.status === 'godkjent')
-    .filter((k) => !nivaa || k.data.nivaa.includes(nivaa.kode));
+    .filter((k) => !nivaa || k.data.nivaa.includes(nivaa.kode))
+    .map((k) => {
+      const eget = nivaa && k.data.perNivaa?.[nivaa.kode];
+      return eget ? { ...k, data: { ...k.data, ...eget } } : k;
+    });
   return alle.sort((a, b) => a.data.rekkefolge - b.data.rekkefolge);
 }
 

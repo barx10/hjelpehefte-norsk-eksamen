@@ -4,6 +4,7 @@ nummer: '9'
 rekkefolge: 9
 gruppe: sprak
 status: godkjent
+nivaa: ['10', 'vg3']
 ---
 
 Når du bruker tekster eller opplysninger fra andre, må du vise hvor de kommer fra. Det gjør teksten din mer troverdig, og det hindrer plagiat.

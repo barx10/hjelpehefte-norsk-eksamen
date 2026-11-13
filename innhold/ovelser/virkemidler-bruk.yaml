@@ -1,7 +1,7 @@
 - id: virk-match-1
   type: matching
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   oppdrag: "Koble virkemiddelet til eksempelet."
   par:
@@ -19,7 +19,7 @@
 - id: virk-match-2
   type: matching
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   oppdrag: "Koble det litterære virkemiddelet til beskrivelsen."
   par:
@@ -37,7 +37,7 @@
 - id: virk-match-3
   type: matching
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   oppdrag: "Koble virkemiddelet til hva det gjør."
   par:
@@ -53,7 +53,7 @@
 - id: virk-sort-1
   type: sortering
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   oppdrag: "Er virkemiddelet språklig eller litterært?"
   kategorier: ["Språklig virkemiddel", "Litterært virkemiddel"]
@@ -74,7 +74,7 @@
 - id: virk-sort-2
   type: sortering
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   oppdrag: "Er virkemiddelet språklig eller litterært?"
   kategorier: ["Språklig virkemiddel", "Litterært virkemiddel"]
@@ -95,7 +95,7 @@
 - id: virk-sort-3
   type: sortering
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   oppdrag: "Er virkemiddelet språklig eller litterært?"
   kategorier: ["Språklig virkemiddel", "Litterært virkemiddel"]
@@ -116,7 +116,7 @@
 - id: virk-fv-utdrag-metafor
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er «Hun var en storm den dagen»?"
   alternativer: ["Metafor", "Sammenligning", "Besjeling", "Underdrivelse"]
@@ -126,7 +126,7 @@
 - id: virk-fv-utdrag-gjentakelse
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel skaper den trykkende stemningen med «Tik. Tak. Tik. Tak.»?"
   alternativer: ["Gjentakelse", "Overdrivelse", "Allusjon", "Sammenligning"]
@@ -136,7 +136,7 @@
 - id: virk-fv-utdrag-overdrivelse
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette?"
   alternativer: ["Overdrivelse", "Underdrivelse", "Metafor", "Kontrast"]
@@ -146,7 +146,7 @@
 - id: virk-fv-utdrag-understatement
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er «Det var ikke så galt»?"
   alternativer: ["Underdrivelse", "Overdrivelse", "Retorisk spørsmål", "Gjentakelse"]
@@ -156,7 +156,7 @@
 - id: virk-fv-utdrag-retorisk
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette?"
   alternativer: ["Retorisk spørsmål", "Gjentakelse", "Allusjon", "Korte setninger"]
@@ -166,7 +166,7 @@
 - id: virk-fv-utdrag-frampek
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er den siste setningen?"
   alternativer: ["Frampek", "Vendepunkt", "In medias res", "Høydepunkt"]
@@ -176,7 +176,7 @@
 - id: virk-fv-utdrag-besjeling
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hva er «trærne bøyde seg som for å høre bedre»?"
   alternativer: ["Besjeling", "Personifikasjon", "Metafor", "Overdrivelse"]
@@ -186,7 +186,7 @@
 - id: virk-fv-utdrag-personifikasjon
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hva er «Rettferdigheten sov»?"
   alternativer: ["Personifikasjon", "Besjeling", "Sammenligning", "Gjentakelse"]
@@ -196,7 +196,7 @@
 - id: virk-fv-utdrag-parallell
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket litterært virkemiddel er det når to handlinger skjer samtidig, som her?"
   alternativer: ["Parallellhandlinger", "Sirkelkomposisjon", "In medias res", "Høydepunkt"]
@@ -206,7 +206,7 @@
 - id: virk-fv-effekt-overdrivelse
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hva er effekten av virkemiddelet i dette utdraget?"
   alternativer: ["Det gir humor og viser at ventetiden føles uendelig lang", "Det gir faktaopplysninger om busstider", "Det gjør teksten mer formell", "Det viser at forfatteren er upålitelig"]
@@ -216,7 +216,7 @@
 - id: virk-fv-effekt-understatement
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hva er effekten av underdrivelsen i dette utdraget?"
   alternativer: ["Det skaper ironi og viser hvor stor kontrasten er til virkeligheten", "Det gjør teksten mer spennende fordi handlingen akselererer", "Det viser at personen er glad", "Det forklarer hva som har skjedd"]
@@ -226,7 +226,7 @@
 - id: virk-fv-effekt-frampek
   type: flervalg
   kapittel: virkemidler
-  mal: [m10-06]
+  mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hva gjør frampeket i dette utdraget med leseren?"
   alternativer: ["Det bygger spenning, siden vi aner at noe vil skje", "Det avslører hele slutten", "Det gjør teksten tørr og saklig", "Det forklarer hvem personen er"]

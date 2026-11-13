@@ -3,6 +3,8 @@ tittel: Synsvinkel
 nummer: '6'
 rekkefolge: 6
 gruppe: virkemidler
+nivaa: ['10', 'vg3']
+perNivaa: { vg3: { nummer: '3.2', rekkefolge: 3.2 } }
 ---
 
 Synsvinkel forteller hvem som ser og opplever handlingen.

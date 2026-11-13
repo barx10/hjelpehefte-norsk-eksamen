@@ -42,6 +42,8 @@ Feltet `nivaa` styrer hvor innholdet vises. Kodene er `'10'` og `'vg3'`.
 
 En øvelse vises bare når kapittelet den hører til, også vises på nivået.
 
+Et kapittel som brukes på flere nivåer, kan få eget nummer og egen plass på ett nivå med `perNivaa: { vg3: { nummer: '3.1', rekkefolge: 3.1 } }`.
+
 Modelltekster vises i kapittelet som har samme id som tekstens `type`. Et kapittel med en annen id kan velge typer selv med `tekstTyper: [novelleanalyse, diktanalyse]` i toppen av kapittelet. Nye nivåer legges til i `src/lib/nivaa.ts`.
 
 ### Heftet
