@@ -2,7 +2,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken ordklasse er «frihet» i setningen «Kampen for frihet var lang»?"
   alternativer: ["Substantiv", "Verb", "Adjektiv", "Pronomen"]
@@ -12,7 +12,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken ordklasse er «tenker» i setningen «Hun tenker på det hele tiden»?"
   alternativer: ["Verb", "Adjektiv", "Adverb", "Preposisjon"]
@@ -22,7 +22,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken ordklasse er «vemodig» i setningen «Diktet har en vemodig tone»?"
   alternativer: ["Adjektiv", "Adverb", "Pronomen", "Konjunksjon"]
@@ -32,7 +32,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken ordklasse er «aldri» i setningen «Han svarer aldri på spørsmålet»?"
   alternativer: ["Adverb", "Pronomen", "Preposisjon", "Subjunksjon"]
@@ -42,7 +42,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken ordklasse er «de» i setningen «Elevene leste teksten, og de likte den»?"
   alternativer: ["Pronomen", "Preposisjon", "Konjunksjon", "Substantiv"]
@@ -52,7 +52,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken ordklasse er «under» i setningen «Katten gjemte seg under senga»?"
   alternativer: ["Preposisjon", "Konjunksjon", "Subjunksjon", "Verb"]
@@ -62,7 +62,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken ordklasse er «men» i setningen «Hun var sliten, men glad»?"
   alternativer: ["Konjunksjon", "Subjunksjon", "Substantiv", "Adjektiv"]
@@ -72,7 +72,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken ordklasse er «fordi» i setningen «Vi ble inne fordi det regnet»?"
   alternativer: ["Subjunksjon", "Substantiv", "Verb", "Adverb"]
@@ -82,7 +82,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken ordklasse er «fort» i setningen «Bilen kjørte fort gjennom byen»?"
   alternativer: ["Adverb", "Pronomen", "Preposisjon", "Subjunksjon"]
@@ -92,7 +92,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken ordklasse er «mørket» i setningen «Hun gikk ut i mørket»?"
   alternativer: ["Substantiv", "Verb", "Adjektiv", "Pronomen"]
@@ -102,7 +102,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken ordklasse er «hvis» i setningen «Ring meg hvis du blir sen»?"
   alternativer: ["Subjunksjon", "Substantiv", "Verb", "Adverb"]
@@ -112,7 +112,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken ordklasse er «ensom» i setningen «Hovedpersonen virker ensom»?"
   alternativer: ["Adjektiv", "Adverb", "Pronomen", "Konjunksjon"]
@@ -122,7 +122,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags binding er «de» et eksempel på?"
   utdrag: "Forfatteren bruker mange metaforer. De gjør teksten konkret."
@@ -133,7 +133,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags binding er «derfor» et eksempel på?"
   utdrag: "Det regnet hele uka. Derfor ble turen avlyst."
@@ -155,7 +155,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags binding er «han toget» et eksempel på?"
   utdrag: "Hun tok bussen, og han toget."
@@ -177,7 +177,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags binding er «likevel» et eksempel på?"
   utdrag: "Teksten er kort. Likevel sier den mye."
@@ -199,7 +199,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags binding er «hun» et eksempel på?"
   utdrag: "Moren ringte. Hun ville vite når vi kom."
@@ -210,7 +210,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags binding er «deretter» et eksempel på?"
   utdrag: "Først leste vi diktet. Deretter skrev vi en analyse."
@@ -221,7 +221,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags binding er «andre diktet» et eksempel på?"
   utdrag: "Noen elever valgte novellen, andre diktet."
@@ -232,7 +232,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "I diktet sier en stemme: «Jeg venter ved vinduet hver natt.» Hvem er «jeg»?"
   alternativer: ["Det lyriske jeget", "Forfatteren", "Fortelleren"]
@@ -242,7 +242,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "I romanen forteller en jente om sommeren hun fylte tolv. Hvem forteller?"
   alternativer: ["Fortelleren", "Forfatteren", "Det lyriske jeget"]
@@ -252,7 +252,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvem valgte å bruke korte setninger i novellen?"
   alternativer: ["Forfatteren", "Fortelleren", "Det lyriske jeget"]
@@ -262,7 +262,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "«Jeg gikk ut i regnet», står det i novellen. Hvem er «jeg»?"
   alternativer: ["Fortelleren", "Forfatteren", "Det lyriske jeget"]
@@ -272,7 +272,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvem bestemte at diktet skulle ha fire strofer?"
   alternativer: ["Forfatteren", "Fortelleren", "Det lyriske jeget"]
@@ -282,7 +282,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "«Jeg er et tre som mistet bladene», står det i diktet. Hvem snakker?"
   alternativer: ["Det lyriske jeget", "Forfatteren", "Fortelleren"]
@@ -292,7 +292,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken setning er mest presis i en analyse?"
   alternativer: ["Gjentakelsen forsterker følelsen av å vente.", "Gjentakelsen gjør teksten bedre.", "Gjentakelsen er fin.", "Det er en gjentakelse her."]
@@ -302,7 +302,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken setning er mest presis i en analyse?"
   alternativer: ["Metaforen gjør savnet konkret.", "Metaforen er veldig fin.", "Det er en metafor i teksten.", "Metaforen gjør at teksten blir bra."]
@@ -312,7 +312,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken setning er mest presis i en analyse?"
   alternativer: ["Kontrasten understreker avstanden mellom dem.", "Det er en kontrast.", "Kontrasten er interessant.", "Kontrasten gjør noe med teksten."]
@@ -322,17 +322,17 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken setning er mest presis i en analyse?"
-  alternativer: ["De korte setningene viser at hun holder følelsene tilbake.", "Man ser at hun er trist.", "Setningene er korte.", "Det er mange korte setninger, og det er bra."]
+  alternativer: ["De korte setningene viser at hun holder følelsene tilbake.", "Man ser veldig tydelig at hun er trist i hele teksten.", "Setningene i teksten er korte, og det er mange av dem.", "Det er mange korte setninger, og det er veldig bra."]
   riktig: 0
   forklaring: "Den presise setningen navngir virkemidlet og bruker et verb som sier hva det gjør."
 - id: vgs-fag-presis-5
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken setning er mest presis i en analyse?"
   alternativer: ["Personifikasjonen skaper en truende stemning.", "Personifikasjonen er kul.", "Det står en personifikasjon.", "Personifikasjonen er et virkemiddel."]
@@ -342,7 +342,7 @@
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken setning er mest presis i en analyse?"
   alternativer: ["Hovedpersonen går ut og ser seg ikke tilbake.", "Hovedpersonen gikk ut og så seg ikke tilbake.", "Hovedpersonen hadde gått ut og hadde ikke sett seg tilbake.", "Hovedpersonen skulle gå ut og ikke se seg tilbake."]
@@ -366,7 +366,7 @@
   type: marker
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker alle adjektivene."
   tekst: "Den [[gamle]] mannen bodde i et [[lite]], [[grått]] hus ved den [[kalde]] fjorden."
@@ -375,7 +375,7 @@
   type: marker
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker alle verbene."
   tekst: "Hun [[åpner]] døra, [[ser]] ut og [[lukker]] den igjen."
@@ -384,7 +384,7 @@
   type: marker
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Marker alle subjunksjonene."
   tekst: "Vi ble hjemme [[fordi]] det regnet, men [[når]] det klarnet opp, gikk vi ut [[selv om]] det var kaldt."

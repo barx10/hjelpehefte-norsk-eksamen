@@ -2,7 +2,7 @@
   type: flashkort
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   forside: "Nevn fire kjennetegn ved romantikken."
   bakside: "Følelse og fantasi, naturen som levende og hellig, lengsel, geniet, dyrking av fortiden og folkediktning."
@@ -10,7 +10,7 @@
   type: flashkort
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   forside: "Hva er nasjonalromantikken?"
   bakside: "Den norske formen for romantikk fra omkring 1840. Den dyrket det som ble sett som ekte norsk: folkeeventyr, folkeviser, bonden, fjellet og dialektene."
@@ -18,7 +18,7 @@
   type: flashkort
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   forside: "Hva var romantikken en reaksjon mot?"
   bakside: "Opplysningstidens tro på fornuften."
@@ -26,7 +26,7 @@
   type: flashkort
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   forside: "Hva handlet striden mellom Wergeland og Welhaven om?"
   bakside: "Hva norsk kultur skulle være, og hvordan god diktning skulle se ut."
@@ -34,7 +34,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvem ga ut Norske Folkeeventyr?"
   alternativer: ["Peter Christen Asbjørnsen og Jørgen Moe", "Henrik Wergeland og Johan Sebastian Welhaven", "Ivar Aasen og Knud Knudsen", "Henrik Ibsen og Bjørnstjerne Bjørnson"]
@@ -44,7 +44,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvem brakte romantikken til Danmark-Norge med forelesninger i 1802?"
   alternativer: ["Henrik Steffens", "Ludvig Holberg", "Georg Brandes", "Ivar Aasen"]
@@ -54,7 +54,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva gjorde Ivar Aasen?"
   alternativer: ["Samlet dialekter og laget landsmålet", "Samlet folkeeventyr", "Malte Brudeferden i Hardanger", "Skrev Til min Gyldenlak"]
@@ -64,7 +64,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva viser maleriet Brudeferden i Hardanger (1848)?"
   alternativer: ["Et idyllisk bilde av norsk natur og bondekultur", "Fattigdom og slit i byen", "Et slag fra vikingtiden", "En fabrikk i Kristiania"]
@@ -74,7 +74,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvorfor ville realistene bryte med nasjonalromantikken?"
   alternativer: ["Nasjonalromantikken viste et Norge som var penere enn virkeligheten", "Nasjonalromantikken var for opptatt av fornuften", "Nasjonalromantikken handlet bare om byen", "Nasjonalromantikken brukte ikke bilder"]
@@ -84,7 +84,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilken sak kjempet Henrik Wergeland for?"
   alternativer: ["At jøder skulle få komme til Norge", "At Norge skulle bli en del av Sverige", "At landsmålet skulle forbys", "At kvinner skulle få stemmerett i 1913"]
@@ -94,7 +94,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Passer utdraget best til romantikken eller realismen?"
   utdrag: "Fjellet reiser seg mot himmelen som et tempel, og her, alene, hører jeg Guds stemme."
@@ -105,7 +105,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Passer utdraget best til romantikken eller realismen?"
   utdrag: "Havet stormer, og min sjel stormer med det."
@@ -116,7 +116,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Passer utdraget best til romantikken eller realismen?"
   utdrag: "Jeg lengter mot det fjerne blå, der fjellene møter himmelen og alt er fullkomment."
@@ -127,7 +127,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Passer utdraget best til romantikken eller realismen?"
   utdrag: "Fiskerne rodde ut i mørket klokka fire. De hadde ikke råd til å la være, selv om stormen var meldt."
@@ -138,7 +138,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Passer utdraget best til romantikken eller realismen?"
   utdrag: "På setra sang budeia de gamle visene, og hele dalen lyttet."
@@ -149,7 +149,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Passer utdraget best til romantikken eller realismen?"
   utdrag: "Jenta på gården måtte sende all lønna hjem, og hun hadde ikke sett familien sin på tre år."
@@ -160,7 +160,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Passer utdraget best til romantikken eller realismen?"
   utdrag: "O, gamle Norge, ditt folk er sterkt som fjellet og stolt som de gamle kongene."
@@ -171,7 +171,7 @@
   type: flervalg
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Passer utdraget best til romantikken eller realismen?"
   utdrag: "Blomsten ved vinduet var min eneste venn. Jeg talte til den som til en sjel."
@@ -182,7 +182,7 @@
   type: sortering
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Hører synet til romantikken eller realismen?"
   kategorier: ["Romantikken", "Realismen"]
@@ -198,7 +198,7 @@
   type: matching
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Koble personen til det hen er kjent for."
   par:
@@ -212,7 +212,7 @@
   type: skriv
   kapittel: romantikken-vgs
   mal: [mvg2-03]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv et avsnitt der du sammenligner hvordan naturen framstilles i diktutdraget og i reklameteksten."
   utdrag: "Diktet: «Her på fjellet er jeg nær deg, Gud, / og alt det tunge blir igjen i dalen.» (Skrevet for øving i romantisk stil.)\n\nReklamen: «Finn roen. Finn deg selv. Opplev Norge.» Under står et bilde av en person alene på en fjelltopp i solnedgang."

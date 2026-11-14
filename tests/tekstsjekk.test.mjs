@@ -183,6 +183,7 @@ test('komma etter replikk', () => {
     '«Kom hit nå!» ropte hun fra kjøkkenet.',
     'I debattinnlegget «Legg bort telefonen» skriver en lærer til foreldrene.',
     'Forfatteren skriver at «huset holdt pusten», og det skaper spenning.',
+    '«I går» sier når noe skjedde i fortellingen.',
   ];
   for (const s of ok) assert.ok(!ids(s + fyll).includes('komma-sitat'), s);
 });

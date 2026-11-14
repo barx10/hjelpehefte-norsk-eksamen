@@ -3,7 +3,7 @@ tittel: Sammensatte tekster
 nummer: '4.5'
 rekkefolge: 4.5
 gruppe: sjanger
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 
@@ -25,7 +25,8 @@ En sammensatt tekst bruker flere uttrykksformer samtidig: skrift, bilde, lyd, fa
 **Utsnitt** sier hvor mye av motivet vi ser.
 
 - **Totalbilde:** Hele personen og omgivelsene. Viser sted og situasjon.
-- **Halvtotal:** Personen fra knærne eller livet og opp. Viser handling og kroppsspråk.
+- **Halvtotal:** Personen fra knærne og opp. Viser handling og kroppsspråk.
+- **Halvnært:** Personen fra livet og opp. Viser både ansiktsuttrykk og noe av kroppsspråket.
 - **Nærbilde:** Ansiktet. Viser følelser og skaper nærhet.
 - **Ultranært:** En detalj, for eksempel et øye. Gir sterk virkning.
 

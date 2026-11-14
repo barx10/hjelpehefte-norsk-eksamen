@@ -3,7 +3,7 @@ tittel: Romantikken og nasjonalromantikken
 nummer: '5.4'
 rekkefolge: 5.4
 gruppe: litteratur
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 

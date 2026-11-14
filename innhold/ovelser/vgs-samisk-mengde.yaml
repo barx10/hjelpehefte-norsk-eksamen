@@ -2,7 +2,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket år ble sameloven vedtatt?"
   alternativer: ["1987", "1814", "1905", "2022"]
@@ -12,7 +12,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket år ble Sametinget åpnet?"
   alternativer: ["1989", "1987", "1999", "1968"]
@@ -22,7 +22,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva er ILO-konvensjon 169?"
   alternativer: ["En avtale som verner urfolks rettigheter", "En lov om dialekter", "En avtale om fiske i Barentshavet", "En lov om bokmål og nynorsk"]
@@ -32,7 +32,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva skjedde i 1992?"
   alternativer: ["Språkreglene i sameloven trådte i kraft", "Sametinget ble åpnet", "Fornorskingen begynte", "Språkloven trådte i kraft"]
@@ -42,7 +42,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva undersøkte Sannhets- og forsoningskommisjonen?"
   alternativer: ["Fornorskingspolitikken og virkningene av den", "Reindriften i Finnmark", "Rettskrivingen i nynorsk", "Sametingets budsjett"]
@@ -52,7 +52,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Når begynte fornorskingspolitikken?"
   alternativer: ["Omkring 1850", "Omkring 1500", "I 1814", "Etter 1950"]
@@ -62,7 +62,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket samisk språk brukes av flest i Norge?"
   alternativer: ["Nordsamisk", "Lulesamisk", "Sørsamisk", "Kvensk"]
@@ -72,7 +72,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvor brukes lulesamisk?"
   alternativer: ["I Nordland, blant annet i Tysfjord og Hamarøy", "I Finnmark og Troms", "Fra Trøndelag til Innlandet", "Bare i Sverige"]
@@ -82,27 +82,27 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvor brukes sørsamisk?"
-  alternativer: ["Fra Nordland sørover gjennom Trøndelag til Innlandet", "Bare i Kautokeino", "I Tysfjord og Hamarøy", "På Vestlandet"]
+  alternativer: ["Fra Nordland sørover gjennom Trøndelag til Innlandet", "Bare i Kautokeino og Karasjok i indre Finnmark", "I Tysfjord og Hamarøy i den nordlige delen av Nordland", "Langs kysten av Vestlandet fra Bergen til Ålesund"]
   riktig: 0
   forklaring: "Sørsamisk er et lite og truet språk i et stort område."
 - id: vgs-sam-m-fakta-10
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva står i Grunnloven om samene?"
-  alternativer: ["Staten skal legge til rette for at samene kan sikre og utvikle språk, kultur og samfunnsliv", "Samene skal bruke norsk i skolen", "Samisk skal være eneste språk i Finnmark", "Samene skal ha egen stat"]
+  alternativer: ["Staten skal legge til rette for at samene kan sikre og utvikle språk, kultur og samfunnsliv", "Samene skal bruke norsk i skolen, slik at alle elever lærer det samme språket i hele landet", "Samisk skal være det eneste offisielle språket i Finnmark, og norsk skal brukes bare unntaksvis", "Samene skal ha sin egen stat i nord, med egen grunnlov, egen hær og egne grenser mot Norge"]
   riktig: 0
   forklaring: "Grunnloven gir staten ansvar for å legge til rette."
 - id: vgs-sam-m-forn-1
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
   utdrag: "Samiske barn fikk ikke bruke språket sitt på skolen."
@@ -113,7 +113,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
   utdrag: "Mange barn bodde på internat langt fra familien."
@@ -124,7 +124,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
   utdrag: "Samisk kultur og klesdrakt ble omtalt som lite verdt."
@@ -135,7 +135,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
   utdrag: "Sametinget ble opprettet."
@@ -146,7 +146,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
   utdrag: "Samisk ble likestilt med norsk i forvaltningsområdet."
@@ -157,7 +157,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
   utdrag: "Mange foreldre lærte ikke barna samisk for å skjerme dem."
@@ -168,7 +168,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
   utdrag: "Norge ratifiserte ILO-konvensjon 169."
@@ -179,7 +179,7 @@
   type: flervalg
   kapittel: samisk-vgs
   mal: [mvg1-13]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hører dette til fornorskingen eller til oppgjøret og rettighetene?"
   utdrag: "Undervisningen skulle foregå på norsk."

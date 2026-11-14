@@ -2,7 +2,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
   utdrag: "Kjøkkenet var trangt, og komfyren røk. Mor sto ved vasken som hun gjorde hver kveld."
@@ -13,7 +13,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
   utdrag: "Arbeiderne fikk halve lønna, mens disponenten kjøpte en ny vogn."
@@ -24,7 +24,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
   utdrag: "– Æ veit itj, sa gutten og så ned. – Far sa æ skulle gå."
@@ -35,7 +35,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
   utdrag: "Fordi faren drakk opp lønna, måtte Hans begynne å arbeide som tolvåring."
@@ -46,21 +46,21 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
-  utdrag: "Hun fikk ikke studere, for jenter skulle gifte seg og holde hus."
+  utdrag: "Kvinner kunne ikke stemme, og gifte kvinner fikk ikke bestemme over sine egne penger."
   alternativer: ["Samfunnsproblem", "Hverdagsmiljø", "Troverdig språk", "Årsak og virkning"]
   riktig: 0
-  forklaring: "Utdraget viser kvinnens begrensede valg. Det er et samfunnsproblem."
+  forklaring: "Utdraget viser at kvinner hadde færre rettigheter enn menn. Det er et samfunnsproblem."
 - id: vgs-real-m-kj-6
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
-  utdrag: "I gata lekte ungene med en fillete ball, og fra vinduene hørtes krangling og barnegråt."
+  utdrag: "I gata lekte ungene, og fra vinduene hørtes radioen og noen som vasket opp etter middagen."
   alternativer: ["Hverdagsmiljø", "Samfunnsproblem", "Troverdig språk", "Årsak og virkning"]
   riktig: 0
   forklaring: "Utdraget skildrer et vanlig bymiljø. Det er hverdagsmiljø."
@@ -68,7 +68,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
   utdrag: "Etter at fabrikken stengte, flyttet familien til byen, og der ble sønnen syk av fukten i kjelleren."
@@ -79,7 +79,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilket kjennetegn ved realismen er tydeligst i utdraget?"
   utdrag: "– Ja, far, sa hun. Mer sa hun ikke."
@@ -90,7 +90,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket tema tar Et dukkehjem opp?"
   alternativer: ["Ekteskap og kvinnens frihet", "Fattigdom på landsbygda", "Studenter og landsmål", "Kristiania-bohemen"]
@@ -100,7 +100,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket tema tar Garman & Worse opp?"
   alternativer: ["Makt, penger og samfunnskritikk", "Kvinnens stilling i ekteskapet", "Klasse og landsmål", "Kvinners begrensede valg på 1850-tallet"]
@@ -110,7 +110,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket tema tar Bondestudentar opp?"
   alternativer: ["Klasse, utdanning og landsmål", "Ekteskap og frihet", "Makt og penger i handelsbyen", "Naturalistisk kritikk av moral"]
@@ -120,7 +120,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket tema tar Amtmandens Døttre opp?"
   alternativer: ["Kvinners liv og begrensede valg", "Klasse og landsmål", "Makt og penger", "Naturalistisk moralkritikk"]
@@ -130,7 +130,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket tema tar Constance Ring opp?"
   alternativer: ["Kvinnens stilling i ekteskapet", "Studenter og landsmål", "Handel og makt", "Livet i Nordland"]
@@ -140,7 +140,7 @@
   type: flervalg
   kapittel: realisme-vgs
   mal: [mvg3-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva var startskuddet for det moderne gjennombrudd?"
   alternativer: ["Georg Brandes sine forelesninger i 1871", "Et dukkehjem i 1879", "Grunnloven i 1814", "Jamstillingsvedtaket i 1885"]

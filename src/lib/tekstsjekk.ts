@@ -163,10 +163,12 @@ const SI_ORD = 'sa|sier|spurte|spør|svarte|svarer|ropte|roper|tenkte|tenker|hvi
 /** En replikk som står først, skal ha komma etter anførselstegnet, med mindre den slutter med ? eller !. Titler midt i setningen regnes ikke med. */
 function kommaEtterSitat(tekst: string): Funn | null {
   const treff = tekst.match(new RegExp(`(?:^|[.!?]\\s+|\\n)«[^»]*[^?!,]»\\s+(?:${SI_ORD})\\b[^.!?\\n]*`, 'g')) ?? [];
-  return treff.length ? {
+  // Et kort sitat som etterfølges av «sier noe», «sier når» og lignende, er et ord det snakkes om, ikke en replikk: «I går» sier når.
+  const ekte = treff.filter((t) => !/«[^»]{1,25}»\s+sier\s+(noe|når|hvor|hvordan|hvorfor|hvem|hva|at)\b/.test(t));
+  return ekte.length ? {
     id: 'komma-sitat',
     melding: 'Når en replikk står først, skal det være komma etter anførselstegnet: «Jeg kommer», sa han. Slutter replikken med spørsmålstegn eller utropstegn, skal det ikke være komma.',
-    utdrag: treff.map((s) => kort(s.replace(/^[.!?\s]+/, ''))),
+    utdrag: ekte.map((s) => kort(s.replace(/^[.!?\s]+/, ''))),
     kapitler: ['kommaregler', 'komma-vgs'],
   } : null;
 }

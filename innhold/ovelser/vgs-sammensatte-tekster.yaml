@@ -2,7 +2,7 @@
   type: flashkort
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   forside: "Hva er en sammensatt tekst?"
   bakside: "En tekst som bruker flere uttrykksformer samtidig, for eksempel skrift, bilde, lyd og farger."
@@ -18,15 +18,15 @@
   type: flashkort
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
-  forside: "Hvilke fire bildeutsnitt bør du kjenne?"
-  bakside: "Totalbilde, halvtotal, nærbilde og ultranært."
+  forside: "Hvilke bildeutsnitt bør du kjenne?"
+  bakside: "Totalbilde, halvtotal, halvnært, nærbilde og ultranært."
 - id: vgs-sams-kort-feil
   type: flashkort
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   forside: "Hva er den vanligste feilen i en analyse av en sammensatt tekst?"
   bakside: "Å beskrive skrift og bilde hver for seg uten å vise samspillet og uten å vurdere."
@@ -81,10 +81,10 @@
   status: utkast
   vanskegrad: 2
   spm: "Hva slags samspill mellom skrift og bilde er det?"
-  utdrag: "En plakat viser en smilende familie rundt et middagsbord. Teksten: «Ingen visste at hun ikke hadde spist på to dager.»"
+  utdrag: "Et bilde av en familie rundt middagsbordet der alle stirrer ned i hver sin mobil. Teksten: «Verdens mest sosiale familie»."
   alternativer: ["Motspill", "Forankring", "Utfylling", "Forsterkning"]
   riktig: 0
-  forklaring: "Det glade bildet og den alvorlige teksten trekker i hver sin retning. Kontrasten gir sjokkvirkning."
+  forklaring: "Teksten sier det motsatte av det bildet viser. Motspillet skaper ironi."
 - id: vgs-sams-m-samspill-6
   type: flervalg
   kapittel: sammensatte-tekster-vgs
@@ -125,10 +125,10 @@
   status: utkast
   vanskegrad: 2
   spm: "Hva slags samspill mellom skrift og bilde er det?"
-  utdrag: "En reklame viser en rolig skog i morgenlys. Teksten: «Kjør elektrisk. Hør stillheten.»"
+  utdrag: "En reklame viser en rolig skog i morgenlys. Teksten: «Finn roen i skogen.»"
   alternativer: ["Forsterkning", "Forankring", "Utfylling", "Motspill"]
   riktig: 0
-  forklaring: "Den rolige skogen og ordet «stillheten» forsterker hverandre."
+  forklaring: "Den rolige skogen og ordet «roen» sier det samme og forsterker hverandre."
 - id: vgs-sams-m-samspill-10
   type: flervalg
   kapittel: sammensatte-tekster-vgs
@@ -144,7 +144,7 @@
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket utsnitt er brukt?"
   utdrag: "Vi ser bare øyet til jenta, med en tåre i øyekroken."
@@ -155,7 +155,7 @@
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket utsnitt er brukt?"
   utdrag: "Vi ser ansiktet til mannen fra haken og opp til håret."
@@ -166,18 +166,18 @@
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket utsnitt er brukt?"
-  utdrag: "Vi ser kvinnen fra livet og opp mens hun løfter en kasse."
+  utdrag: "Vi ser kvinnen fra knærne og opp mens hun løfter en kasse."
   alternativer: ["Halvtotal", "Nærbilde", "Totalbilde", "Ultranært"]
   riktig: 0
-  forklaring: "Vi ser overkroppen og handlingen. Det er halvtotal."
+  forklaring: "Vi ser personen fra knærne og opp, og handlingen kommer tydelig fram. Det er halvtotal."
 - id: vgs-sams-m-utsnitt-4
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket utsnitt er brukt?"
   utdrag: "Vi ser hele gutten stå midt på en stor, tom parkeringsplass."
@@ -188,7 +188,7 @@
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket perspektiv er brukt?"
   utdrag: "Kameraet står på bakken og filmer opp mot politikeren på talerstolen."
@@ -199,7 +199,7 @@
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket perspektiv er brukt?"
   utdrag: "Kameraet filmer ned på et lite barn som sitter alene på gulvet."
@@ -210,7 +210,7 @@
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket perspektiv er brukt?"
   utdrag: "Kameraet er i øyehøyde med de to vennene som snakker sammen."
@@ -221,7 +221,7 @@
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket perspektiv er brukt?"
   utdrag: "Bildet er tatt fra et høyt vindu ned mot en folkemengde på torget."
@@ -232,7 +232,7 @@
   type: sortering
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Hvilken uttrykksform hører virkemidlet til?"
   kategorier: ["Bilde", "Skrift", "Lyd"]

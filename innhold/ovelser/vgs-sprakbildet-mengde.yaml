@@ -2,7 +2,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Når ble Stortinget enig om at landsmål og riksmål skulle være likestilte?"
   alternativer: ["1885", "1814", "1929", "2002"]
@@ -12,7 +12,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Når fikk målformene navnene bokmål og nynorsk?"
   alternativer: ["1929", "1885", "1907", "1938"]
@@ -22,7 +22,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Når trådte språkloven i kraft?"
   alternativer: ["2022", "1992", "2002", "2014"]
@@ -32,27 +32,27 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "I hvilken periode var dansk skriftspråket i Norge?"
-  alternativer: ["Fra 1500-tallet til 1814 og utover", "I norrøn tid", "Bare etter 1905", "Fra 1929"]
+  alternativer: ["Fra 1500-tallet og langt inn på 1800-tallet", "I norrøn tid", "Bare etter 1905", "Fra 1929"]
   riktig: 0
   forklaring: "Dansk ble skriftspråket i dansketiden. Mange skrev dansk lenge etter 1814."
 - id: vgs-spr-m-hist-5
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva kalles språket i Norge og på Island før 1350?"
   alternativer: ["Norrønt", "Mellomnorsk", "Landsmål", "Riksmål"]
   riktig: 0
-  forklaring: "Norrønt hadde mer bøying enn i dag, med kasus og tre kjønn."
+  forklaring: "Norrønt hadde mer bøying enn i dag, blant annet fire kasus."
 - id: vgs-spr-m-hist-6
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva skjedde med språket i mellomnorsk tid?"
   alternativer: ["Det ble forenklet, og bøyingene forsvant mer og mer", "Det fikk flere kasus", "Det ble erstattet av svensk", "Det ble skrevet med runer igjen"]
@@ -62,7 +62,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvem laget landsmålet?"
   alternativer: ["Ivar Aasen", "Knud Knudsen", "Henrik Wergeland", "Bjørnstjerne Bjørnson"]
@@ -72,7 +72,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvem ville norvegisere dansken og la grunnlaget for riksmålet?"
   alternativer: ["Knud Knudsen", "Ivar Aasen", "Henrik Ibsen", "Ludvig Holberg"]
@@ -82,7 +82,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva var målet med samnorskpolitikken?"
   alternativer: ["Å føre bokmål og nynorsk sammen til ett språk", "Å innføre svensk som skriftspråk", "Å forby dialekter", "Å gjøre engelsk til andrespråk"]
@@ -92,7 +92,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Når ble målet om samnorsk fjernet offisielt?"
   alternativer: ["2002", "1929", "1885", "2022"]
@@ -102,7 +102,7 @@
   type: rekkefolge
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett hendelsene i kronologisk rekkefølge, fra tidligst til senest."
   elementer: ["Norrønt språk", "Mellomnorsk", "Dansketiden", "Jamstillingsvedtaket", "Navnene bokmål og nynorsk", "Språkloven"]
@@ -111,7 +111,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva slags språk er nordsamisk?"
   alternativer: ["Urfolksspråk", "Nasjonalt minoritetsspråk", "Offisielt skriftspråk"]
@@ -121,7 +121,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva slags språk er kvensk?"
   alternativer: ["Nasjonalt minoritetsspråk", "Urfolksspråk", "Offisielt skriftspråk"]
@@ -131,7 +131,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva slags språk er nynorsk?"
   alternativer: ["Offisielt skriftspråk", "Urfolksspråk", "Nasjonalt minoritetsspråk"]
@@ -141,7 +141,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva slags språk er romani?"
   alternativer: ["Nasjonalt minoritetsspråk", "Urfolksspråk", "Offisielt skriftspråk"]
@@ -151,7 +151,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva slags språk er sørsamisk?"
   alternativer: ["Urfolksspråk", "Nasjonalt minoritetsspråk", "Offisielt skriftspråk"]
@@ -161,7 +161,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva slags språk er bokmål?"
   alternativer: ["Offisielt skriftspråk", "Urfolksspråk", "Nasjonalt minoritetsspråk"]
@@ -171,7 +171,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva slags språk er romanes?"
   alternativer: ["Nasjonalt minoritetsspråk", "Urfolksspråk", "Offisielt skriftspråk"]
@@ -181,7 +181,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-09]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva slags språk er lulesamisk?"
   alternativer: ["Urfolksspråk", "Nasjonalt minoritetsspråk", "Offisielt skriftspråk"]
@@ -191,7 +191,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva betyr «rolig» på svensk?"
   alternativer: ["Morsom", "Stille", "Trist", "Sint"]
@@ -201,7 +201,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva betyr «grine» på dansk?"
   alternativer: ["Le", "Gråte", "Sove", "Rope"]
@@ -211,7 +211,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvorfor er dansk og bokmål nær hverandre skriftlig?"
   alternativer: ["Bokmål er utviklet fra dansk", "Dansk er utviklet fra bokmål", "Begge kommer fra svensk", "De ble laget samtidig i 1929"]
@@ -221,7 +221,7 @@
   type: flervalg
   kapittel: sprakbildet-vgs
   mal: [mvg2-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket nabospråk ligger nærmest norsk talemål i uttale og melodi?"
   alternativer: ["Svensk", "Dansk", "Islandsk", "Finsk"]
