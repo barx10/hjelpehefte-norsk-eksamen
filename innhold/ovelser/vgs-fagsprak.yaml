@@ -124,110 +124,88 @@
   mal: [mvg1-08]
   status: godkjent
   vanskegrad: 2
-  spm: "Hva slags binding er «de» et eksempel på?"
+  spm: "Hva slags sammenheng skaper «de»?"
   utdrag: "Forfatteren bruker mange metaforer. De gjør teksten konkret."
-  alternativer: ["Referansebinding", "Konnektiv", "Leksikalsk binding", "Ellipse"]
+  alternativer: ["Pekeord", "Tekstbinder", "Gjentakelse eller synonym"]
   riktig: 0
-  forklaring: "«De» viser tilbake til «metaforer». Det er referansebinding."
+  forklaring: "«De» viser tilbake til «metaforer». Det er et pekeord."
 - id: vgs-fag-bind-2
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
   status: godkjent
   vanskegrad: 2
-  spm: "Hva slags binding er «derfor» et eksempel på?"
+  spm: "Hva slags sammenheng skaper «derfor»?"
   utdrag: "Det regnet hele uka. Derfor ble turen avlyst."
-  alternativer: ["Konnektiv", "Referansebinding", "Leksikalsk binding", "Ellipse"]
+  alternativer: ["Tekstbinder", "Pekeord", "Gjentakelse eller synonym"]
   riktig: 0
-  forklaring: "«Derfor» viser forholdet mellom setningene: årsak og følge. Det er en konnektiv."
+  forklaring: "«Derfor» viser at den andre setningen er en følge av den første. Det er en tekstbinder som uttrykker årsaksforhold."
 - id: vgs-fag-bind-3
-  type: flervalg
-  kapittel: fagsprak-vgs
-  mal: [mvg1-08]
-  status: utkast
-  vanskegrad: 2
-  spm: "Hva slags binding er «dyret» et eksempel på?"
-  utdrag: "Hunden bjeffet hele natten. Dyret var tydelig redd."
-  alternativer: ["Leksikalsk binding", "Referansebinding", "Konnektiv", "Ellipse"]
-  riktig: 0
-  forklaring: "«Dyret» er et overbegrep for «hunden». Det er leksikalsk binding."
-- id: vgs-fag-bind-4
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
   status: godkjent
   vanskegrad: 2
-  spm: "Hva slags binding er «han toget» et eksempel på?"
-  utdrag: "Hun tok bussen, og han toget."
-  alternativer: ["Ellipse", "Referansebinding", "Konnektiv", "Leksikalsk binding"]
+  spm: "Hva slags sammenheng skaper «bikkja»?"
+  utdrag: "Hunden bjeffet hele natten. Bikkja var tydelig redd."
+  alternativer: ["Gjentakelse eller synonym", "Tekstbinder", "Pekeord"]
   riktig: 0
-  forklaring: "Verbet «tok» er utelatt i andre del fordi leseren forstår det. Det er ellipse."
+  forklaring: "«Bikkja» betyr det samme som «hunden». Det er et synonym."
 - id: vgs-fag-bind-5
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
-  spm: "Hva slags binding er «bruddet» et eksempel på?"
+  spm: "Hva slags sammenheng skaper «bruddet»?"
   utdrag: "Novellen handler om et brudd. Bruddet skjer på første side."
-  alternativer: ["Leksikalsk binding", "Referansebinding", "Konnektiv", "Ellipse"]
+  alternativer: ["Gjentakelse eller synonym", "Tekstbinder", "Pekeord"]
   riktig: 0
-  forklaring: "Samme ord går igjen. Det er leksikalsk binding."
+  forklaring: "Samme ord går igjen. Det er gjentakelse."
 - id: vgs-fag-bind-6
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
   status: godkjent
   vanskegrad: 2
-  spm: "Hva slags binding er «likevel» et eksempel på?"
+  spm: "Hva slags sammenheng skaper «likevel»?"
   utdrag: "Teksten er kort. Likevel sier den mye."
-  alternativer: ["Konnektiv", "Referansebinding", "Leksikalsk binding", "Ellipse"]
+  alternativer: ["Tekstbinder", "Pekeord", "Gjentakelse eller synonym"]
   riktig: 0
-  forklaring: "«Likevel» viser motsetning mellom setningene. Det er en konnektiv."
+  forklaring: "«Likevel» viser motsetning mellom setningene. Det er en tekstbinder."
 - id: vgs-fag-bind-7
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
-  spm: "Hva slags binding er «stykket» et eksempel på?"
-  utdrag: "Ibsen skrev Et dukkehjem i 1879. Stykket vakte stor debatt."
-  alternativer: ["Leksikalsk binding", "Referansebinding", "Konnektiv", "Ellipse"]
+  spm: "Hva slags sammenheng skaper «stykket»?"
+  utdrag: "Ibsen skrev skuespillet Et dukkehjem i 1879. Stykket vakte stor debatt."
+  alternativer: ["Gjentakelse eller synonym", "Tekstbinder", "Pekeord"]
   riktig: 0
-  forklaring: "«Stykket» viser til «Et dukkehjem» med et annet ord. Det er leksikalsk binding."
+  forklaring: "«Stykket» betyr det samme som «skuespillet». Det er et synonym."
 - id: vgs-fag-bind-8
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
   status: godkjent
   vanskegrad: 2
-  spm: "Hva slags binding er «hun» et eksempel på?"
+  spm: "Hva slags sammenheng skaper «hun»?"
   utdrag: "Moren ringte. Hun ville vite når vi kom."
-  alternativer: ["Referansebinding", "Konnektiv", "Leksikalsk binding", "Ellipse"]
+  alternativer: ["Pekeord", "Tekstbinder", "Gjentakelse eller synonym"]
   riktig: 0
-  forklaring: "«Hun» viser tilbake til «moren». Det er referansebinding."
+  forklaring: "«Hun» viser tilbake til «moren». Det er et pekeord."
 - id: vgs-fag-bind-9
   type: flervalg
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
   status: godkjent
   vanskegrad: 2
-  spm: "Hva slags binding er «deretter» et eksempel på?"
+  spm: "Hva slags sammenheng skaper «deretter»?"
   utdrag: "Først leste vi diktet. Deretter skrev vi en analyse."
-  alternativer: ["Konnektiv", "Referansebinding", "Leksikalsk binding", "Ellipse"]
+  alternativer: ["Tekstbinder", "Pekeord", "Gjentakelse eller synonym"]
   riktig: 0
-  forklaring: "«Deretter» viser rekkefølge i tid. Det er en konnektiv."
-- id: vgs-fag-bind-10
-  type: flervalg
-  kapittel: fagsprak-vgs
-  mal: [mvg1-08]
-  status: godkjent
-  vanskegrad: 2
-  spm: "Hva slags binding er «andre diktet» et eksempel på?"
-  utdrag: "Noen elever valgte novellen, andre diktet."
-  alternativer: ["Ellipse", "Referansebinding", "Konnektiv", "Leksikalsk binding"]
-  riktig: 0
-  forklaring: "Verbet «valgte» er utelatt i andre del. Det er ellipse."
+  forklaring: "«Deretter» viser rekkefølge i tid. Det er en tekstbinder."
 - id: vgs-fag-stemme-1
   type: flervalg
   kapittel: fagsprak-vgs
@@ -352,16 +330,16 @@
   type: matching
   kapittel: fagsprak-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Koble begrepet til forklaringen."
   par:
-    - { venstre: "Kohesjon", hoyre: "Sammenhengen du kan se i språket" }
-    - { venstre: "Koherens", hoyre: "Sammenhengen i innholdet" }
-    - { venstre: "Referansebinding", hoyre: "Et ord viser tilbake til noe som er nevnt" }
-    - { venstre: "Konnektiv", hoyre: "Bindeord som viser forholdet mellom setninger" }
-    - { venstre: "Ellipse", hoyre: "Noe er utelatt fordi leseren forstår det" }
-  forklaring: "Se tabellen om sammenheng i teksten."
+    - { venstre: "Tekstbinder", hoyre: "Ord som viser hvordan setningene henger sammen logisk" }
+    - { venstre: "Pekeord", hoyre: "Ord som viser tilbake til noe som er nevnt" }
+    - { venstre: "Synonym", hoyre: "Et ord med lik betydning som et annet ord" }
+    - { venstre: "Kohesjon", hoyre: "Sammenhengen du kan se i ordene" }
+    - { venstre: "Koherens", hoyre: "At tankene følger logisk etter hverandre" }
+  forklaring: "Se tabellen om sammenheng i teksten i kapittelet."
 - id: vgs-fag-marker-adj
   type: marker
   kapittel: fagsprak-vgs
@@ -389,3 +367,113 @@
   oppdrag: "Marker alle subjunksjonene."
   tekst: "Vi ble hjemme [[fordi]] det regnet, men [[når]] det klarnet opp, gikk vi ut [[selv om]] det var kaldt."
   forklaring: "Fordi, når og selv om innleder leddsetninger. Men er en konjunksjon."
+- id: vgs-fag-tb-1
+  type: flervalg
+  kapittel: fagsprak-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva uttrykker tekstbinderen «dessuten»?"
+  utdrag: "Teksten bruker mange tall. Dessuten siterer den flere forskere."
+  alternativer: ["Oppregning", "Alternativ", "Motsetning", "Årsaksforhold"]
+  riktig: 0
+  forklaring: "«Dessuten» er en tekstbinder som uttrykker oppregning."
+- id: vgs-fag-tb-2
+  type: flervalg
+  kapittel: fagsprak-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva uttrykker tekstbinderen «enten … eller»?"
+  utdrag: "Enten må skolen kutte i timene, eller så må den finne mer penger."
+  alternativer: ["Alternativ", "Motsetning", "Likhet", "Rekkefølge i tid"]
+  riktig: 0
+  forklaring: "«Enten … eller» er en tekstbinder som uttrykker alternativ."
+- id: vgs-fag-tb-3
+  type: flervalg
+  kapittel: fagsprak-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva uttrykker tekstbinderen «derimot»?"
+  utdrag: "Diktet er lyst i starten. I siste strofe er stemningen derimot mørk."
+  alternativer: ["Motsetning", "Likhet", "Årsaksforhold", "Oppregning"]
+  riktig: 0
+  forklaring: "«Derimot» er en tekstbinder som uttrykker motsetning."
+- id: vgs-fag-tb-4
+  type: flervalg
+  kapittel: fagsprak-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva uttrykker tekstbinderen «i likhet med»?"
+  utdrag: "I likhet med novellen handler diktet om savn."
+  alternativer: ["Likhet", "Årsaksforhold", "Rekkefølge i tid", "Alternativ"]
+  riktig: 0
+  forklaring: "«I likhet med» er en tekstbinder som uttrykker likhet."
+- id: vgs-fag-tb-5
+  type: flervalg
+  kapittel: fagsprak-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva uttrykker tekstbinderen «fører til»?"
+  utdrag: "Mye skjermtid om kvelden fører til at mange sover for lite."
+  alternativer: ["Årsaksforhold", "Rekkefølge i tid", "Oppregning", "Motsetning"]
+  riktig: 0
+  forklaring: "«Fører til» er en tekstbinder som uttrykker årsaksforhold."
+- id: vgs-fag-tb-6
+  type: flervalg
+  kapittel: fagsprak-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva uttrykker tekstbinderen «etterpå»?"
+  utdrag: "Først leser du oppgaven nøye. Etterpå lager du en disposisjon."
+  alternativer: ["Rekkefølge i tid", "Oppregning", "Alternativ", "Likhet"]
+  riktig: 0
+  forklaring: "«Etterpå» er en tekstbinder som uttrykker rekkefølge i tid."
+- id: vgs-fag-tb-7
+  type: flervalg
+  kapittel: fagsprak-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva uttrykker tekstbinderen «for det første»?"
+  utdrag: "For det første er tiltaket billig. For det andre er det enkelt å innføre."
+  alternativer: ["Oppregning", "Alternativ", "Motsetning", "Årsaksforhold"]
+  riktig: 0
+  forklaring: "«For det første» er en tekstbinder som uttrykker oppregning."
+- id: vgs-fag-tb-8
+  type: flervalg
+  kapittel: fagsprak-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva uttrykker tekstbinderen «til tross for»?"
+  utdrag: "Til tross for regnet gikk hele klassen på tur."
+  alternativer: ["Motsetning", "Likhet", "Årsaksforhold", "Oppregning"]
+  riktig: 0
+  forklaring: "«Til tross for» er en tekstbinder som uttrykker motsetning."
+- id: vgs-fag-tb-9
+  type: flervalg
+  kapittel: fagsprak-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva uttrykker tekstbinderen «gjennomgående i begge tekstene»?"
+  utdrag: "Gjennomgående i begge tekstene er at naturen speiler følelsene."
+  alternativer: ["Likhet", "Årsaksforhold", "Rekkefølge i tid", "Alternativ"]
+  riktig: 0
+  forklaring: "«Gjennomgående i begge tekstene» er en tekstbinder som uttrykker likhet."
+- id: vgs-fag-tb-10
+  type: flervalg
+  kapittel: fagsprak-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva uttrykker tekstbinderen «av denne grunn»?"
+  utdrag: "Bussen var forsinket. Av denne grunn kom elevene for sent."
+  alternativer: ["Årsaksforhold", "Rekkefølge i tid", "Oppregning", "Motsetning"]
+  riktig: 0
+  forklaring: "«Av denne grunn» er en tekstbinder som uttrykker årsaksforhold."

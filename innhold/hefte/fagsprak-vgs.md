@@ -28,19 +28,28 @@ I en analyse kan ordklassene vise noe om stilen. Mange adjektiver gir en beskriv
 
 ## Sammenheng i teksten
 
-To fagbegreper beskriver hvordan en tekst henger sammen.
+En tekst henger sammen når leseren forstår hvordan setningene og avsnittene hører sammen. Det kalles også **kohesjon** når sammenhengen synes i ordene, og **koherens** når tankene følger logisk etter hverandre. En tekst kan ha mange bindeord og likevel mangle sammenheng hvis tankene hopper.
 
-- **Kohesjon** er sammenhengen du kan se i språket: bindeord, pronomen og ord som går igjen.
-- **Koherens** er sammenhengen i innholdet: at tankene følger logisk etter hverandre.
+Du skaper sammenheng på tre måter:
 
-En tekst kan ha mange bindeord og likevel mangle koherens hvis tankene hopper.
-
-| Type binding | Hva det er | Eksempel |
+| Måte | Hva det er | Eksempel |
 |---|---|---|
-| Referansebinding | Et pronomen eller et annet ord viser tilbake til noe som er nevnt. | «Forfatteren bruker metaforer. **De** gjør teksten konkret.» |
-| Konnektiv | Bindeord som viser forholdet mellom setninger. | **derfor** (årsak), **men** (motsetning), **dessuten** (tillegg), **deretter** (tid) |
-| Leksikalsk binding | Samme ord, synonymer eller over- og underbegreper går igjen. | «Hunden bjeffet. **Dyret** var redd.» |
-| Ellipse | Noe er utelatt fordi leseren forstår det fra før. | «Hun tok bussen, og han [tok] toget.» |
+| Tekstbindere | Ord og uttrykk som viser hvordan setningene henger sammen logisk. | **derfor**, **likevel**, **dessuten**, **deretter** |
+| Pekeord | Ord som viser tilbake til noe som er nevnt. | «Forfatteren bruker metaforer. **De** gjør teksten konkret.» |
+| Gjentakelse og synonymer | Samme ord eller et ord med lik betydning går igjen. | «Ibsen skrev skuespillet i 1879. **Stykket** vakte stor debatt.» |
+
+### Seks typer tekstbindere
+
+| Tekstbinderen uttrykker | Eksempler |
+|---|---|
+| Oppregning | videre, i tillegg, dessuten, for det første, sist, men ikke minst |
+| Alternativ | eller, enten … eller, verken … eller |
+| Motsetning | men, derimot, likevel, tvert imot, til tross for, på den ene siden … på den andre siden |
+| Likhet | i likhet med, felles for … er at, det samme ser vi i, gjennomgående i begge tekstene |
+| Årsaksforhold | derfor, fordi, altså, av denne grunn, slik at, fører til, gjør at |
+| Rekkefølge i tid | først, deretter, etterpå, til slutt, seinere, etter at, før |
+
+Inndelingen følger NDLA sin oversikt over tekstbindere. Tekstbindere gir også flyt og fører leseren videre i teksten.
 
 ## Forfatter, forteller og lyrisk jeg
 
