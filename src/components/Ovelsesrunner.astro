@@ -74,9 +74,11 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     [6, 'Regel 6: svarord og tiltaleord'],
     [7, 'Regel 7: leddsetning inne i setningen'],
     [8, 'Regel 8: som-setning som ikke er nødvendig'],
-    [9, 'Regel 9: etterstilt tillegg'],
+    [9, 'Regel 9: forklarende tillegg'],
     [10, 'Regel 10: flere adjektiver'],
     [11, 'Regel 11: når det ikke skal være komma'],
+    [12, 'Regel 12: sitat og replikk'],
+    [13, 'Regel 13: sidestilte leddsetninger'],
   ];
   const rot = document.getElementById('runner') as HTMLElement;
   const data: Ovelse[] = JSON.parse(document.getElementById('ovelser-data')!.textContent ?? '[]');

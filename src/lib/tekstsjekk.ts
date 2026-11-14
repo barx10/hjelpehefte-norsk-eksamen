@@ -148,12 +148,26 @@ function kommaForanAt(tekst: string): Funn | null {
 }
 
 function menUtenKomma(alle: string[]): Funn | null {
-  const treff = alle.filter((s) => /[^\s,;:–—-]\s+men\s/.test(s) && !/\bikke\b[^,]*\smen\s/i.test(s));
+  // Språkrådet: alltid komma foran «men», også etter «ikke», med mindre det står et sterkere skilletegn.
+  const treff = alle.filter((s) => /[^\s,;:–—-]\s+men\s/.test(s));
   return treff.length ? {
     id: 'komma-men',
     melding: 'Det skal alltid være komma foran «men».',
     utdrag: treff.map((s) => kort(s)),
     kapitler: ['kommaregler'],
+  } : null;
+}
+
+const SI_ORD = 'sa|sier|spurte|spør|svarte|svarer|ropte|roper|tenkte|tenker|hvisket|hvisker|mumlet|mumler|sukket|sukker|lo|ler|skrek|skriker';
+
+/** En replikk som står først, skal ha komma etter anførselstegnet, med mindre den slutter med ? eller !. Titler midt i setningen regnes ikke med. */
+function kommaEtterSitat(tekst: string): Funn | null {
+  const treff = tekst.match(new RegExp(`(?:^|[.!?]\\s+|\\n)«[^»]*[^?!,]»\\s+(?:${SI_ORD})\\b[^.!?\\n]*`, 'g')) ?? [];
+  return treff.length ? {
+    id: 'komma-sitat',
+    melding: 'Når en replikk står først, skal det være komma etter anførselstegnet: «Jeg kommer», sa han. Slutter replikken med spørsmålstegn eller utropstegn, skal det ikke være komma.',
+    utdrag: treff.map((s) => kort(s.replace(/^[.!?\s]+/, ''))),
+    kapitler: ['komma-vgs', 'kommaregler'],
   } : null;
 }
 
@@ -458,7 +472,7 @@ export function sjekkTekst(tekst: string, valg: Sjekkvalg): Funn[] {
   if (valg.vedlegg?.length && lang && sjanger !== 'essay') funn.push(vedleggNevnt(t, valg.vedlegg));
   if (sjanger === 'fagartikkel' && lang) funn.push(kilder(t));
   if (sjanger === 'analyse' || sjanger === 'kortsvar') funn.push(...sitater(t, sjanger));
-  funn.push(leddsetningUtenKomma(alle), menUtenKomma(alle), kommaForanAt(renset), litenForbokstav(renset));
+  funn.push(leddsetningUtenKomma(alle), menUtenKomma(alle), kommaForanAt(renset), kommaEtterSitat(t), litenForbokstav(renset));
   if (lang) funn.push(...avsnittLengde(t));
   funn.push(likeStarter(alle, sjanger), langeSetninger(alle), ordbruk(t, sjanger));
   // Usikre sjekker kommer etter de sikre.

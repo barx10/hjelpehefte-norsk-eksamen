@@ -491,3 +491,131 @@
   alternativer: ["Hvis du er usikker, bør du slå opp.", "Hvis du er usikker bør du slå opp.", "Hvis du, er usikker bør du slå opp.", "Hvis du er usikker bør, du slå opp."]
   riktig: 0
   forklaring: "Leddsetningen står først. Da skal det være komma etter den."
+- id: vgs-komma-r12-1
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Jeg kommer på fredag», sa han."
+  regler: [12]
+  forklaring: "Sitatet står først og slutter ikke med spørsmålstegn eller utropstegn. Da skal det være komma etter anførselstegnet."
+- id: vgs-komma-r12-2
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Dette er ikke for deg», svarer bestemoren."
+  regler: [12]
+  forklaring: "Sitatet står først og slutter ikke med spørsmålstegn eller utropstegn. Da skal det være komma etter anførselstegnet."
+- id: vgs-komma-r12-3
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Vi må snakke sammen», sier moren."
+  regler: [12]
+  forklaring: "Sitatet står først og slutter ikke med spørsmålstegn eller utropstegn. Da skal det være komma etter anførselstegnet."
+- id: vgs-komma-r12-4
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Det er for sent nå», tenkte hun."
+  regler: [12]
+  forklaring: "Sitatet står først og slutter ikke med spørsmålstegn eller utropstegn. Da skal det være komma etter anførselstegnet."
+- id: vgs-komma-r12-5
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Kommer du på fredag?» spurte hun."
+  regler: [12]
+  forklaring: "Sitatet slutter med spørsmålstegn eller utropstegn. Da skal det ikke være komma etter anførselstegnet."
+- id: vgs-komma-r12-6
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Kom hit med en gang!» ropte faren."
+  regler: [12]
+  forklaring: "Sitatet slutter med spørsmålstegn eller utropstegn. Da skal det ikke være komma etter anførselstegnet."
+- id: vgs-komma-r12-7
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Hvorfor sa du ingenting?» spør Ole."
+  regler: [12]
+  forklaring: "Sitatet slutter med spørsmålstegn eller utropstegn. Da skal det ikke være komma etter anførselstegnet."
+- id: vgs-komma-r13-1
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  setning: "Hvis helsa holder, og hvis økonomien er i orden, drar vi på ferie."
+  regler: [13]
+  forklaring: "Subjunksjonen gjentas foran den andre leddsetningen. Da skal det være komma mellom leddsetningene, og komma etter dem fordi de står først."
+- id: vgs-komma-r13-2
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  setning: "Når teksten er kort, og når den har mange bilder, må du lese den flere ganger."
+  regler: [13]
+  forklaring: "Subjunksjonen gjentas foran den andre leddsetningen. Da skal det være komma mellom leddsetningene, og komma etter dem fordi de står først."
+- id: vgs-komma-r13-3
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  setning: "Fordi bussen var sen, og fordi det regnet, kom vi for sent."
+  regler: [13]
+  forklaring: "Subjunksjonen gjentas foran den andre leddsetningen. Da skal det være komma mellom leddsetningene, og komma etter dem fordi de står først."
+- id: vgs-komma-r13-4
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  setning: "Hvis helsa holder og økonomien er i orden, drar vi på ferie."
+  regler: [13]
+  forklaring: "Subjunksjonen gjentas ikke. Da skal det ikke være komma mellom leddsetningene, bare etter dem fordi de står først."
+- id: vgs-komma-r13-5
+  type: komma
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  setning: "Når du har lest oppgaven og funnet sjangeren, kan du lage en disposisjon."
+  regler: [13]
+  forklaring: "Subjunksjonen gjentas ikke. Da skal det ikke være komma mellom leddsetningene, bare etter dem fordi de står først."
+- id: vgs-komma-riktig-men
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken setning har riktig tegnsetting?"
+  alternativer: ["Ordet betyr her ikke «riktig», men «ekte».", "Ordet betyr her ikke «riktig» men «ekte».", "Ordet betyr her ikke, «riktig» men «ekte».", "Ordet betyr, her ikke «riktig» men «ekte»."]
+  riktig: 0
+  forklaring: "Det skal alltid være komma foran «men», også når setningen har «ikke»."
+- id: vgs-komma-riktig-sitat
+  type: flervalg
+  kapittel: komma-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Hvilken setning har riktig tegnsetting?"
+  alternativer: ["«Kommer du i morgen?» spurte hun.", "«Kommer du i morgen?», spurte hun.", "«Kommer du i morgen», spurte hun?", "«Kommer du i morgen?» spurte, hun."]
+  riktig: 0
+  forklaring: "Når sitatet slutter med spørsmålstegn, skal det ikke være komma etter anførselstegnet."

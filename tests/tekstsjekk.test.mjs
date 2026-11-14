@@ -43,7 +43,9 @@ test('komma foran at og men', () => {
   assert.ok(ids('Teksten er kort men den sier mye om livet.' + fyll).includes('komma-men'));
   assert.ok(!ids('Teksten er kort, men den sier mye om livet.' + fyll).includes('komma-men'));
   assert.ok(!ids('Men det er ikke hele sannheten om saken.' + fyll).includes('komma-men'));
-  assert.ok(!ids('Det er ikke bare trist men også vakkert.' + fyll).includes('komma-men'));
+  // Språkrådet: alltid komma foran «men», også etter «ikke».
+  assert.ok(ids('Det er ikke bare trist men også vakkert.' + fyll).includes('komma-men'));
+  assert.ok(!ids('Det er ikke bare trist, men også vakkert.' + fyll).includes('komma-men'));
 });
 
 test('liten forbokstav etter punktum', () => {
@@ -170,4 +172,17 @@ test('skrivefeil fra ordlisten', () => {
 test('kildelisten regnes ikke som avslutning', () => {
   const kropp = ['Tittel', ...Array(3).fill('Avsnitt med innhold om saken.' + fyll.repeat(4)), 'Samtidig er det slik. Derfor mener jeg dette.' + fyll.repeat(2), 'Kilder', 'Dyrendal, A. (2020). Tittel.'].join('\n\n');
   assert.ok(!ider(kropp, { sjanger: 'fagartikkel' }).includes('konklusjon'));
+});
+
+test('komma etter replikk', () => {
+  assert.ok(ids('«Jeg kommer på fredag» sa han og gikk ut av rommet.' + fyll).includes('komma-sitat'));
+  assert.ok(ids('Hun ventet. «Det er for sent nå.» sa hun stille til seg selv.' + fyll).includes('komma-sitat'));
+  const ok = [
+    '«Jeg kommer på fredag», sa han og gikk ut av rommet.',
+    '«Kommer du på fredag?» spurte hun og så på ham.',
+    '«Kom hit nå!» ropte hun fra kjøkkenet.',
+    'I debattinnlegget «Legg bort telefonen» skriver en lærer til foreldrene.',
+    'Forfatteren skriver at «huset holdt pusten», og det skaper spenning.',
+  ];
+  for (const s of ok) assert.ok(!ids(s + fyll).includes('komma-sitat'), s);
 });

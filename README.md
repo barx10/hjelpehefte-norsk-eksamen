@@ -89,7 +89,7 @@ Flashkort har `forside` og `bakside` i stedet for spørsmål, alternativer og fo
 |---|---|---|
 | `flashkort` | Vender kort | `forside`, `bakside` |
 | `flervalg` | Velger ett svar | `spm`, `alternativer`, `riktig`, `forklaring`, `utdrag` (valgfri) |
-| `komma` | Trykker på ordene der det skal være komma | `setning` (riktig setning med komma), `regler` (1 til 11), `forklaring` |
+| `komma` | Trykker på ordene der det skal være komma | `setning` (riktig setning med komma), `regler` (1 til 13), `forklaring` |
 | `finnfeil` | Trykker på ordet som er feil | `tekst`, `feil`, `rettelse`, `forklaring` |
 | `sortering` | Plasserer hvert element i en kategori | `oppdrag`, `kategorier`, `elementer` (`tekst`, `kategori` som tall fra 0), `forklaring` |
 | `rekkefolge` | Setter elementene i riktig rekkefølge | `oppdrag`, `elementer` (skriv dem i riktig rekkefølge), `forklaring` |
