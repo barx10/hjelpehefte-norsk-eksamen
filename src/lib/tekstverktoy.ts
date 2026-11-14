@@ -121,7 +121,7 @@ export type Tabellcelle = { start: string; fasit: string | null };
 export function leseTabellcelle(celle: string): Tabellcelle {
   const i = celle.indexOf('|');
   if (i === -1) return { start: celle.trim(), fasit: null };
-  return { start: celle.slice(0, i).trim(), fasit: celle.slice(i + 1).trim() };
+  return { start: celle.slice(0, i).trimStart(), fasit: celle.slice(i + 1).trim() };
 }
 
 /** Sjekker svaret i en celle. Eleven kan skrive bare endingen (med eller uten bindestrek) eller hele ordet. */

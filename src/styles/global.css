@@ -205,7 +205,7 @@ fieldset.valg legend { padding: 0; }
 .boyning-rad { display: grid; grid-template-columns: repeat(var(--kol, 4), minmax(0, 1fr)); gap: 0.5rem; border: 1px solid var(--linje); border-radius: var(--radius); padding: 0.7rem 0.9rem; background: var(--flate); }
 .boyning-celle { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.1rem 0; padding: 0.3rem 0.4rem; border-radius: var(--radius); border: 2px solid transparent; min-width: 0; }
 .boyning-kol { flex-basis: 100%; font-size: 0.8rem; font-weight: 700; color: var(--aksent); }
-.boyning-ord { font-size: 1.1rem; }
+.boyning-ord { font-size: 1.1rem; white-space: pre; }
 .boyning-felt { font: inherit; font-size: 1.1rem; width: 4.5rem; min-height: 44px; padding: 0.2rem 0.4rem; border-radius: var(--radius); border: 2px solid var(--linje); background: var(--flate); color: var(--tekst); }
 .boyning-felt:focus-visible { outline: 3px solid var(--fokus); outline-offset: 2px; }
 .boyning-celle.rett { border-color: var(--riktig); background: var(--riktig-bg); }

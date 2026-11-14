@@ -1,0 +1,277 @@
+# Øvingar til kapittelet Nynorsk, verb. Utkast til gjennomgang.
+# Bygd på NDLA «Vanlege nynorskfeil 2: verb» av Åsa Abusland og Marion Federl, CC BY-SA 4.0. Same lisens her.
+- id: nn-verb-a-1
+  type: boyingstabell
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Skriv inn endingane. Alle verba er a-verb."
+  kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
+  rader:
+    - ["å kaste", "kast|ar", "kast|a", "har kast|a"]
+    - ["å hoppe", "hopp|ar", "hopp|a", "har hopp|a"]
+    - ["å danse", "dans|ar", "dans|a", "har dans|a"]
+    - ["å vaske", "vask|ar", "vask|a", "har vask|a"]
+    - ["å vente", "vent|ar", "vent|a", "har vent|a"]
+  forklaring: "A-verb får -ar i presens og -a i preteritum og perfektum."
+- id: nn-verb-e-1
+  type: boyingstabell
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Skriv inn endingane. Alle verba er e-verb."
+  kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
+  rader:
+    - ["å kjøpe", "kjøp|er", "kjøp|te", "har kjøp|t"]
+    - ["å leve", "lev|er", "lev|de", "har lev|d"]
+    - ["å lyse", "lys|er", "lys|te", "har lys|t"]
+    - ["å lære", "lær|er", "lær|te", "har lær|t"]
+    - ["å reise", "reis|er", "reis|te", "har reis|t"]
+  forklaring: "E-verb får -er i presens og -te eller -de i preteritum. I perfektum får dei -t eller -d."
+- id: nn-verb-sterke-1
+  type: boyingstabell
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Skriv inn heile verbforma. Alle verba er sterke."
+  kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
+  rader:
+    - ["å finne", "|finn", "|fann", "har |funne"]
+    - ["å skrive", "|skriv", "|skreiv", "har |skrive"]
+    - ["å synge", "|syng", "|song", "har |sunge"]
+    - ["å drikke", "|drikk", "|drakk", "har |drukke"]
+    - ["å komme", "|kjem", "|kom", "har |komme"]
+  forklaring: "Sterke verb får inga ending i presens og preteritum, og ofte skiftar vokalen."
+- id: nn-verb-blanding-1
+  type: boyingstabell
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 3
+  oppdrag: "Skriv inn det som manglar. Verba er a-verb, e-verb og sterke verb."
+  kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
+  rader:
+    - ["å kaste", "kast|ar", "kast|a", "har kast|a"]
+    - ["å kjøpe", "kjøp|er", "kjøp|te", "har kjøp|t"]
+    - ["å skrive", "|skriv", "|skreiv", "har |skrive"]
+    - ["å vente", "vent|ar", "vent|a", "har vent|a"]
+    - ["å lyse", "lys|er", "lys|te", "har lys|t"]
+    - ["å synge", "|syng", "|song", "har |sunge"]
+  forklaring: "Finn først ut kva slag verb det er. A-verb får -ar og -a, e-verb får -er og -te eller -de, og sterke verb får inga ending."
+- id: nn-verb-vrange-1
+  type: boyingstabell
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 3
+  oppdrag: "Skriv inn heile verbforma."
+  kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
+  rader:
+    - ["å lese", "|les", "|las", "har |lese"]
+    - ["å vere", "|er", "|var", "har |vore"]
+    - ["å gjere", "|gjer", "|gjorde", "har |gjort"]
+    - ["å seie", "|seier", "|sa", "har |sagt"]
+    - ["å bu", "|bur", "|budde", "har |budd"]
+  forklaring: "Dette er verb med uregelrett bøying. Dei må lærast kvart for seg."
+- id: nn-verb-st-1
+  type: boyingstabell
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 3
+  oppdrag: "Skriv inn heile verbforma. Verba sluttar på -st i alle tider."
+  kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
+  rader:
+    - ["å finnast", "det |finst", "det |fanst", "det har |funnest"]
+    - ["å synast", "eg |synest", "eg |syntest", "eg har |synst"]
+  forklaring: "Finnast og synast sluttar på -st i alle tider."
+- id: nn-verb-feil-1
+  type: finnfeil
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Eg kaster ballen til deg."
+  feil: "kaster"
+  rettelse: "kastar"
+  forklaring: "Å kaste er eit a-verb, og a-verb får -ar i presens."
+- id: nn-verb-feil-2
+  type: finnfeil
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 1
+  tekst: "I går kastet eg ballen over gjerdet."
+  feil: "kastet"
+  rettelse: "kasta"
+  forklaring: "A-verb får -a i preteritum, ikkje -et."
+- id: nn-verb-feil-3
+  type: finnfeil
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Ho har hoppet heile dagen."
+  feil: "hoppet"
+  rettelse: "hoppa"
+  forklaring: "A-verb får -a i perfektum."
+- id: nn-verb-feil-4
+  type: finnfeil
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Han finner ikkje sokkane sine."
+  feil: "finner"
+  rettelse: "finn"
+  forklaring: "Å finne er eit sterkt verb, og sterke verb får inga ending i presens."
+- id: nn-verb-feil-5
+  type: finnfeil
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Eg skrivar ein stil no."
+  feil: "skrivar"
+  rettelse: "skriv"
+  forklaring: "Å skrive er eit sterkt verb. Sterke verb får inga ending i presens, og -ar høyrer til a-verb."
+- id: nn-verb-feil-6
+  type: finnfeil
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 2
+  tekst: "I går skrev eg eit langt brev."
+  feil: "skrev"
+  rettelse: "skreiv"
+  forklaring: "Preteritum av å skrive er skreiv på nynorsk."
+- id: nn-verb-feil-7
+  type: finnfeil
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Vi har skreve ein lang tekst."
+  feil: "skreve"
+  rettelse: "skrive"
+  forklaring: "Perfektum av å skrive er skrive."
+- id: nn-verb-feil-8
+  type: finnfeil
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Eg har kjøpa ei ny bok."
+  feil: "kjøpa"
+  rettelse: "kjøpt"
+  forklaring: "Å kjøpe er eit e-verb, og perfektum er kjøpt."
+- id: nn-verb-feil-9
+  type: finnfeil
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 3
+  tekst: "Eg synes boka var god."
+  feil: "synes"
+  rettelse: "synest"
+  forklaring: "På nynorsk heiter presens av å synast synest."
+- id: nn-verb-feil-10
+  type: finnfeil
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 3
+  tekst: "Trappa må vaskes kvar veke."
+  feil: "vaskes"
+  rettelse: "vaskast"
+  forklaring: "Nynorsk har ikkje s-passiv. Etter eit hjelpeverb brukar vi st-passiv: vaskast."
+- id: nn-verb-valg-1
+  type: flervalg
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 1
+  spm: "Kva er rett presens av å kaste på nynorsk?"
+  alternativer:
+    - "eg kastar"
+    - "eg kaster"
+    - "eg kasta"
+    - "eg kastet"
+  riktig: 0
+  forklaring: "A-verb får -ar i presens."
+- id: nn-verb-valg-2
+  type: flervalg
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 1
+  spm: "Du seier «I går hoppa eg». Kva slags verb er å hoppe?"
+  alternativer:
+    - "a-verb"
+    - "e-verb"
+    - "sterkt verb"
+  riktig: 0
+  forklaring: "Får verbet -a i preteritum, er det eit a-verb."
+- id: nn-verb-valg-3
+  type: flervalg
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 2
+  spm: "Kva kjenneteiknar eit sterkt verb?"
+  alternativer:
+    - "Det får inga ending i presens og preteritum, og ofte skiftar vokalen"
+    - "Det får alltid -ar i presens"
+    - "Det får -te eller -de i preteritum"
+    - "Det får -a i perfektum"
+  riktig: 0
+  forklaring: "Sterke verb får inga ending i presens og preteritum."
+- id: nn-verb-valg-4
+  type: flervalg
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 2
+  spm: "Kva setning er rett nynorsk?"
+  alternativer:
+    - "Trappa må vaskast kvar veke."
+    - "Trappa må vaskes kvar veke."
+    - "Trappa må vaska kvar veke."
+    - "Trappa må vasket kvar veke."
+  riktig: 0
+  forklaring: "Etter eit hjelpeverb som må brukar nynorsk st-passiv."
+- id: nn-verb-valg-5
+  type: flervalg
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 3
+  spm: "Kva er rett bøying av å finnast?"
+  alternativer:
+    - "det finst – det fanst – det har funnest"
+    - "det finnes – det fantes – det har funnes"
+    - "det finn – det fann – det har funne"
+    - "det finnest – det finnaste – det har finnest"
+  riktig: 0
+  forklaring: "Finnast bøyer slik: finst, fanst, funnest."
+- id: nn-verb-sorter-1
+  type: sortering
+  kapittel: nynorsk-verb
+  mal: [m10-11, m10-12]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Kva slags verb er dette? Bruk preteritumstesten."
+  kategorier: ["a-verb", "e-verb", "sterkt verb"]
+  elementer:
+    - { tekst: "å hoppe", kategori: 0 }
+    - { tekst: "å kjøpe", kategori: 1 }
+    - { tekst: "å skrive", kategori: 2 }
+    - { tekst: "å vaske", kategori: 0 }
+    - { tekst: "å lære", kategori: 1 }
+    - { tekst: "å synge", kategori: 2 }
+    - { tekst: "å vente", kategori: 0 }
+    - { tekst: "å lyse", kategori: 1 }
+  forklaring: "A-verb får -a i preteritum, e-verb får -te eller -de, og sterke verb får inga ending og skiftar ofte vokal."

@@ -98,7 +98,7 @@ Flashkort har `forside` og `bakside` i stedet for spørsmål, alternativer og fo
 | `boyingstabell` | Fyller ut endingene i en bøyingstabell | `oppdrag`, `kolonner`, `rader`, `forklaring` |
 | `skriv` | Skriver en egen tekst, får automatisk sjekk og vurderer seg selv | `oppdrag`, `utdrag`, `starttekst`, `ord` (`min`, `maks`), `nokkelord`, `nokkelordMinst`, `sitat`, `kriterier`, `modelltekst` |
 
-**Bøyingstabell:** Hver rad er ett ord, og hver rad har like mange celler som det er kolonner. En celle som `lærar|ar` viser «lærar» og lar eleven skrive «ar». En celle uten `|` er gitt. Eleven kan også skrive hele ordet, og bindestrek foran endingen går bra.
+**Bøyingstabell:** Hver rad er ett ord, og hver rad har like mange celler som det er kolonner. En celle som `lærar|ar` viser «lærar» og lar eleven skrive «ar». En celle uten `|` er gitt. Skriv `|fann` for at eleven skal skrive hele ordet. Eleven kan også skrive hele ordet, og bindestrek foran endingen går bra.
 
 **Rekkefølge med ord og setningsledd:** Øvelsen godtar bare én fasit. Kan setningen bygges på flere korrekte måter, må `oppdrag` si hvilket setningsledd setningen begynner med (for eksempel tidsadverbial eller subjekt). Oppdraget skal ikke si hvor de andre leddene står, for det er det eleven skal øve på.
 

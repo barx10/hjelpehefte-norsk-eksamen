@@ -110,3 +110,10 @@ test('riktigTabellsvar godtar ending, ending med bindestrek og helt ord', () => 
   assert.equal(riktigTabellsvar('ene', c), false);
   assert.equal(riktigTabellsvar('', c), false);
 });
+
+test('leseTabellcelle beholder mellomrom foran feltet og godtar tomt startled', () => {
+  assert.deepEqual(leseTabellcelle('har |funne'), { start: 'har ', fasit: 'funne' });
+  assert.equal(riktigTabellsvar('funne', leseTabellcelle('har |funne')), true);
+  assert.equal(riktigTabellsvar('har funne', leseTabellcelle('har |funne')), true);
+  assert.deepEqual(leseTabellcelle('|fann'), { start: '', fasit: 'fann' });
+});

@@ -641,7 +641,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
       sjekkResultat(o, indeks, antallFeil === 0, antallFeil ? [`${antallFeil} av ${felt.length} er feil.`] : [], o.forklaring, flate, handlinger);
     });
 
-    vis(...framdrift(indeks), merker(o), overskrift, el('p', {}, 'Skriv bare endinga som mangler.'), tabell, flate, handlinger);
+    vis(...framdrift(indeks), merker(o), overskrift, el('p', {}, 'Fyll ut feltene som er tomme.'), tabell, flate, handlinger);
     felt[0]?.input.focus();
   }
 
