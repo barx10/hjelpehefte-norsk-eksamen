@@ -2,7 +2,7 @@
 - id: nn-subst-hankjonn-1
   type: boyingstabell
   kapittel: nynorsk-substantiv
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   oppdrag: "Skriv inn endingane. Alle orda er hankjønn."
@@ -17,7 +17,7 @@
 - id: nn-subst-hokjonn-1
   type: boyingstabell
   kapittel: nynorsk-substantiv
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   oppdrag: "Skriv inn endingane. Alle orda er hokjønn."
@@ -32,7 +32,7 @@
 - id: nn-subst-inkjekjonn-1
   type: boyingstabell
   kapittel: nynorsk-substantiv
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   oppdrag: "Skriv inn endingane. Alle orda er inkjekjønn."
@@ -47,7 +47,7 @@
 - id: nn-subst-blanding-1
   type: boyingstabell
   kapittel: nynorsk-substantiv
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   oppdrag: "Skriv inn endingane. Orda har ulikt kjønn, så sjå på artikkelen."

@@ -4,7 +4,7 @@ nummer: '20'
 rekkefolge: 20
 gruppe: sprak
 status: utkast
-nivaa: ['10']
+nivaa: ['10', 'vg3']
 ingress: Dei fleste verb på nynorsk er a-verb, og dei får -ar i presens. Her lærer du å skilje a-verb, e-verb og sterke verb, og å bruke passiv på nynorsk.
 ---
 

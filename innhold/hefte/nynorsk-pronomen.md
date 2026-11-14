@@ -4,7 +4,7 @@ nummer: '21'
 rekkefolge: 21
 gruppe: sprak
 status: utkast
-nivaa: ['10']
+nivaa: ['10', 'vg3']
 ingress: Pronomen og eigedomsord skil seg frå bokmål på nokre få, men viktige punkt. Her lærer du dei, og du lærer å plassere eigedomsordet rett.
 ---
 

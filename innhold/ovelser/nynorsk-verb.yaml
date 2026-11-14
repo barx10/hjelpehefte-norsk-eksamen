@@ -3,7 +3,7 @@
 - id: nn-verb-a-1
   type: boyingstabell
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   oppdrag: "Skriv inn endingane. Alle verba er a-verb."
@@ -18,7 +18,7 @@
 - id: nn-verb-e-1
   type: boyingstabell
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   oppdrag: "Skriv inn endingane. Alle verba er e-verb."
@@ -33,7 +33,7 @@
 - id: nn-verb-sterke-1
   type: boyingstabell
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   oppdrag: "Skriv inn heile verbforma. Alle verba er sterke."
@@ -48,7 +48,7 @@
 - id: nn-verb-blanding-1
   type: boyingstabell
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 3
   oppdrag: "Skriv inn det som manglar. Verba er a-verb, e-verb og sterke verb."
@@ -64,7 +64,7 @@
 - id: nn-verb-vrange-1
   type: boyingstabell
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 3
   oppdrag: "Skriv inn heile verbforma."
@@ -79,7 +79,7 @@
 - id: nn-verb-st-1
   type: boyingstabell
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 3
   oppdrag: "Skriv inn heile verbforma. Verba sluttar på -st i alle tider."
@@ -91,7 +91,7 @@
 - id: nn-verb-feil-1
   type: finnfeil
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   tekst: "Eg kaster ballen til deg."
@@ -101,7 +101,7 @@
 - id: nn-verb-feil-2
   type: finnfeil
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   tekst: "I går kastet eg ballen over gjerdet."
@@ -111,7 +111,7 @@
 - id: nn-verb-feil-3
   type: finnfeil
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   tekst: "Ho har hoppet heile dagen."
@@ -121,7 +121,7 @@
 - id: nn-verb-feil-4
   type: finnfeil
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   tekst: "Han finner ikkje sokkane sine."
@@ -131,7 +131,7 @@
 - id: nn-verb-feil-5
   type: finnfeil
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   tekst: "Eg skrivar ein stil no."
@@ -141,7 +141,7 @@
 - id: nn-verb-feil-6
   type: finnfeil
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   tekst: "I går skrev eg eit langt brev."
@@ -151,7 +151,7 @@
 - id: nn-verb-feil-7
   type: finnfeil
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   tekst: "Vi har skreve ein lang tekst."
@@ -161,7 +161,7 @@
 - id: nn-verb-feil-8
   type: finnfeil
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   tekst: "Eg har kjøpa ei ny bok."
@@ -171,7 +171,7 @@
 - id: nn-verb-feil-9
   type: finnfeil
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 3
   tekst: "Eg synes boka var god."
@@ -181,7 +181,7 @@
 - id: nn-verb-feil-10
   type: finnfeil
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 3
   tekst: "Trappa må vaskes kvar veke."
@@ -191,7 +191,7 @@
 - id: nn-verb-valg-1
   type: flervalg
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   spm: "Kva er rett presens av å kaste på nynorsk?"
@@ -205,7 +205,7 @@
 - id: nn-verb-valg-2
   type: flervalg
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   spm: "Du seier «I går hoppa eg». Kva slags verb er å hoppe?"
@@ -218,7 +218,7 @@
 - id: nn-verb-valg-3
   type: flervalg
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   spm: "Kva kjenneteiknar eit sterkt verb?"
@@ -232,7 +232,7 @@
 - id: nn-verb-valg-4
   type: flervalg
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   spm: "Kva setning er rett nynorsk?"
@@ -246,7 +246,7 @@
 - id: nn-verb-valg-5
   type: flervalg
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 3
   spm: "Kva er rett bøying av å finnast?"
@@ -260,7 +260,7 @@
 - id: nn-verb-sorter-1
   type: sortering
   kapittel: nynorsk-verb
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   oppdrag: "Kva slags verb er dette? Bruk preteritumstesten."

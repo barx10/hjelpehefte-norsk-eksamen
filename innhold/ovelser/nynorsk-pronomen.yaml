@@ -3,7 +3,7 @@
 - id: nn-pron-personlege-1
   type: boyingstabell
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   oppdrag: "Skriv inn pronomena."
@@ -17,7 +17,7 @@
 - id: nn-pron-eigedom-1
   type: boyingstabell
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   oppdrag: "Skriv inn rett form av eigedomsordet."
@@ -31,7 +31,7 @@
 - id: nn-pron-nokon-1
   type: boyingstabell
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   oppdrag: "Skriv inn rett form av «nokon»."
@@ -42,7 +42,7 @@
 - id: nn-pron-feil-1
   type: finnfeil
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   tekst: "Man skal ikkje lyge."
@@ -52,7 +52,7 @@
 - id: nn-pron-feil-2
   type: finnfeil
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   tekst: "Eg har kjøpt ei ny jakke. Den er raud."
@@ -62,7 +62,7 @@
 - id: nn-pron-feil-3
   type: finnfeil
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   tekst: "Har du sett sekken min? Den er blå."
@@ -72,7 +72,7 @@
 - id: nn-pron-feil-4
   type: finnfeil
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   tekst: "Avsendaren reklamerer for sitt produkt."
@@ -82,7 +82,7 @@
 - id: nn-pron-feil-5
   type: finnfeil
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   tekst: "Kvar er syklane deres, gutar?"
@@ -92,7 +92,7 @@
 - id: nn-pron-feil-6
   type: finnfeil
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   tekst: "Emil og Henrik må vere heime. Syklane dykkar står utanfor."
@@ -102,7 +102,7 @@
 - id: nn-pron-feil-7
   type: finnfeil
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   tekst: "Eg har ikkje gløymt bøkene hennes."
@@ -112,7 +112,7 @@
 - id: nn-pron-feil-8
   type: finnfeil
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 3
   tekst: "Har du nokre pengar å låne meg?"
@@ -122,7 +122,7 @@
 - id: nn-pron-valg-1
   type: flervalg
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   spm: "Kva setning er rett nynorsk?"
@@ -136,7 +136,7 @@
 - id: nn-pron-valg-2
   type: flervalg
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   spm: "Kva pronomen brukar du om ein stol (hankjønn) på nynorsk?"
@@ -150,7 +150,7 @@
 - id: nn-pron-valg-3
   type: flervalg
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 1
   spm: "Kva ord manglar? «___ skal ikkje lyge.»"
@@ -164,7 +164,7 @@
 - id: nn-pron-valg-4
   type: flervalg
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   spm: "Kva ord manglar? «Anna og Mia er heime. Syklane ___ står ute.»"
@@ -178,7 +178,7 @@
 - id: nn-pron-valg-5
   type: flervalg
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   spm: "Kva er rett? «Kva vil ___ to gjere, Jonas og Aisha? Eg spør ___ no.»"
@@ -192,7 +192,7 @@
 - id: nn-pron-valg-6
   type: flervalg
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 3
   spm: "Kva setning er rett nynorsk?"
@@ -206,7 +206,7 @@
 - id: nn-pron-kobling-1
   type: matching
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   oppdrag: "Kva heiter ordet på nynorsk?"
@@ -221,7 +221,7 @@
 - id: nn-pron-rekkefolge-1
   type: rekkefolge
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   oppdrag: "Set orda i rett rekkefølge. Setninga byrjar med «Kvar»."
@@ -234,7 +234,7 @@
 - id: nn-pron-rekkefolge-2
   type: rekkefolge
   kapittel: nynorsk-pronomen
-  mal: [m10-11, m10-12]
+  mal: [m10-11, m10-12, mvg1-11]
   status: utkast
   vanskegrad: 2
   oppdrag: "Set orda i rett rekkefølge. Setninga byrjar med «Eg»."
