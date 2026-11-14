@@ -10,10 +10,10 @@
   type: flashkort
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
-  forside: "Hvilke fire former for samspill mellom skrift og bilde finnes?"
-  bakside: "Forankring, utfylling, forsterkning og motspill."
+  forside: "Hvordan kan skrift og bilde spille sammen?"
+  bakside: "De kan forsterke hverandre (si det samme), utfylle hverandre (gi ulik informasjon som til sammen gir budskapet) eller stå i kontrast (si noe ulikt)."
 - id: vgs-sams-kort-utsnitt
   type: flashkort
   kapittel: sammensatte-tekster-vgs
@@ -34,112 +34,112 @@
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags samspill mellom skrift og bilde er det?"
   utdrag: "Et bilde av en eldre mann som ser ut av et vindu. Teksten under: «Han har ikke snakket med noen på ni dager.»"
-  alternativer: ["Forankring", "Utfylling", "Forsterkning", "Motspill"]
+  alternativer: ["Utfyller hverandre", "Forsterker hverandre", "Kontrast"]
   riktig: 0
-  forklaring: "Teksten styrer hvordan vi tolker bildet. Uten teksten kunne mannen bare sett ut på været."
+  forklaring: "Bildet viser en mann ved et vindu, og teksten forteller at han er ensom. Sammen gir de budskapet. Skrift og bilde utfyller hverandre."
 - id: vgs-sams-m-samspill-2
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags samspill mellom skrift og bilde er det?"
   utdrag: "Et bilde av en ny elsparkesykkel. Ved siden av står pris, rekkevidde og toppfart."
-  alternativer: ["Utfylling", "Forankring", "Forsterkning", "Motspill"]
+  alternativer: ["Utfyller hverandre", "Forsterker hverandre", "Kontrast"]
   riktig: 0
-  forklaring: "Bildet viser hvordan sykkelen ser ut, og teksten gir opplysninger bildet ikke kan gi."
+  forklaring: "Bildet viser hvordan sykkelen ser ut, og teksten gir opplysninger bildet ikke kan gi. Skrift og bilde utfyller hverandre."
 - id: vgs-sams-m-samspill-3
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags samspill mellom skrift og bilde er det?"
   utdrag: "Et bilde av en stor skogbrann. Overskriften: «Brannen sprer seg»."
-  alternativer: ["Forsterkning", "Forankring", "Utfylling", "Motspill"]
+  alternativer: ["Forsterker hverandre", "Utfyller hverandre", "Kontrast"]
   riktig: 0
-  forklaring: "Skrift og bilde sier det samme og forsterker hverandre."
+  forklaring: "Skrift og bilde sier det samme. De forsterker hverandre."
 - id: vgs-sams-m-samspill-4
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags samspill mellom skrift og bilde er det?"
   utdrag: "Et bilde av en strand dekket av plast. Teksten: «Velkommen til paradis»."
-  alternativer: ["Motspill", "Forankring", "Utfylling", "Forsterkning"]
+  alternativer: ["Kontrast", "Forsterker hverandre", "Utfyller hverandre"]
   riktig: 0
-  forklaring: "Skriften sier det motsatte av bildet. Det skaper ironi."
+  forklaring: "Skriften sier det motsatte av bildet. Kontrasten skaper ironi."
 - id: vgs-sams-m-samspill-5
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags samspill mellom skrift og bilde er det?"
   utdrag: "Et bilde av en familie rundt middagsbordet der alle stirrer ned i hver sin mobil. Teksten: «Verdens mest sosiale familie»."
-  alternativer: ["Motspill", "Forankring", "Utfylling", "Forsterkning"]
+  alternativer: ["Kontrast", "Forsterker hverandre", "Utfyller hverandre"]
   riktig: 0
-  forklaring: "Teksten sier det motsatte av det bildet viser. Motspillet skaper ironi."
+  forklaring: "Teksten sier det motsatte av det bildet viser. Kontrasten skaper ironi."
 - id: vgs-sams-m-samspill-6
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags samspill mellom skrift og bilde er det?"
   utdrag: "Et bilde av en tom stol i et klasserom. Teksten: «Amir begynte aldri på skolen i høst.»"
-  alternativer: ["Forankring", "Utfylling", "Forsterkning", "Motspill"]
+  alternativer: ["Utfyller hverandre", "Forsterker hverandre", "Kontrast"]
   riktig: 0
-  forklaring: "Teksten forteller hva den tomme stolen betyr. Den styrer tolkningen av bildet."
+  forklaring: "Teksten forteller hva den tomme stolen betyr. Skrift og bilde utfyller hverandre."
 - id: vgs-sams-m-samspill-7
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags samspill mellom skrift og bilde er det?"
   utdrag: "En nettavis viser et kart over regionen. Under står det hvor mange som er uten strøm i hver kommune."
-  alternativer: ["Utfylling", "Forankring", "Forsterkning", "Motspill"]
+  alternativer: ["Utfyller hverandre", "Forsterker hverandre", "Kontrast"]
   riktig: 0
   forklaring: "Kartet viser hvor, og teksten viser hvor mange. De gir ulik informasjon som utfyller hverandre."
 - id: vgs-sams-m-samspill-8
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags samspill mellom skrift og bilde er det?"
   utdrag: "Et bilde av en jubelende fotballspiller. Overskriften: «Seier i siste minutt!»"
-  alternativer: ["Forsterkning", "Forankring", "Utfylling", "Motspill"]
+  alternativer: ["Forsterker hverandre", "Utfyller hverandre", "Kontrast"]
   riktig: 0
-  forklaring: "Bildet og overskriften sier det samme: glede og seier."
+  forklaring: "Bildet og overskriften sier det samme: glede og seier. De forsterker hverandre."
 - id: vgs-sams-m-samspill-9
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags samspill mellom skrift og bilde er det?"
   utdrag: "En reklame viser en rolig skog i morgenlys. Teksten: «Finn roen i skogen.»"
-  alternativer: ["Forsterkning", "Forankring", "Utfylling", "Motspill"]
+  alternativer: ["Forsterker hverandre", "Utfyller hverandre", "Kontrast"]
   riktig: 0
-  forklaring: "Den rolige skogen og ordet «roen» sier det samme og forsterker hverandre."
+  forklaring: "Den rolige skogen og ordet «roen» sier det samme. De forsterker hverandre."
 - id: vgs-sams-m-samspill-10
   type: flervalg
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva slags samspill mellom skrift og bilde er det?"
   utdrag: "Et bilde av en hund som sitter i regnet. Teksten: «Han ventet på eieren sin i tre uker.»"
-  alternativer: ["Forankring", "Utfylling", "Forsterkning", "Motspill"]
+  alternativer: ["Utfyller hverandre", "Forsterker hverandre", "Kontrast"]
   riktig: 0
-  forklaring: "Teksten gir bildet en bestemt betydning. Uten den ville vi bare sett en våt hund."
+  forklaring: "Bildet viser en hund i regnet, og teksten forteller hvorfor den sitter der. Skrift og bilde utfyller hverandre."
 - id: vgs-sams-m-utsnitt-1
   type: flervalg
   kapittel: sammensatte-tekster-vgs
@@ -248,12 +248,99 @@
   type: skriv
   kapittel: sammensatte-tekster-vgs
   mal: [mvg3-05]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv et avsnitt der du analyserer og vurderer samspillet mellom skrift og bilde i kampanjeplakaten."
   utdrag: "Plakaten viser en ung jente i nærbilde. Hun ser rett på oss, og ansiktet er alvorlig. Bakgrunnen er grå. Nederst står det med store hvite bokstaver: «Jeg sa ifra. Ingen hørte.» Under står logoen til en hjelpetelefon for barn og unge."
   ord: {"min": 80, "maks": 180}
-  nokkelord: ["nærbilde", "forankring", "blikk", "patos", "samspill"]
+  nokkelord: ["nærbilde", "utfyller", "blikk", "patos", "samspill"]
   nokkelordMinst: 3
   kriterier: ["Avsnittet beskriver bildet med fagbegreper", "Avsnittet viser hvordan skriften styrer tolkningen av bildet", "Avsnittet forklarer virkningen på mottakeren", "Avsnittet vurderer om samspillet fungerer"]
-  modelltekst: "Plakaten bruker nærbilde og direkte blikk for å skape kontakt med oss som ser på. Jentas alvorlige ansikt og den grå bakgrunnen gir en tung stemning. Teksten «Jeg sa ifra. Ingen hørte.» forankrer bildet, slik at blikket ikke bare virker alvorlig, men anklagende. Vi blir selv en av dem som ikke hørte. Samspillet gir en sterk appell til patos, og logoen nederst viser hva vi kan gjøre. Jeg mener plakaten fungerer godt, fordi den gjør et stort problem personlig på et lite øyeblikk."
+  modelltekst: "Plakaten bruker nærbilde og direkte blikk for å skape kontakt med oss som ser på. Jentas alvorlige ansikt og den grå bakgrunnen gir en tung stemning. Teksten «Jeg sa ifra. Ingen hørte.» utfyller bildet, slik at blikket ikke bare virker alvorlig, men anklagende. Vi blir selv en av dem som ikke hørte. Samspillet gir en sterk appell til patos, og logoen nederst viser hva vi kan gjøre. Jeg mener plakaten fungerer godt, fordi den gjør et stort problem personlig på et lite øyeblikk."
+- id: vgs-sams-m-funksjon-1
+  type: flervalg
+  kapittel: sammensatte-tekster-vgs
+  mal: [mvg3-05]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken tekstfunksjon er viktigst i teksten?"
+  utdrag: "En plakat fra kommunen viser åpningstidene til biblioteket i julen."
+  alternativer: ["Informativ", "Appellativ", "Ekspressiv"]
+  riktig: 0
+  forklaring: "Plakaten gir opplysninger. Den er informativ."
+- id: vgs-sams-m-funksjon-2
+  type: flervalg
+  kapittel: sammensatte-tekster-vgs
+  mal: [mvg3-05]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken tekstfunksjon er viktigst i teksten?"
+  utdrag: "En kampanjefilm viser en bilulykke og slutter med teksten «Legg bort mobilen når du kjører»."
+  alternativer: ["Appellativ", "Informativ", "Ekspressiv"]
+  riktig: 0
+  forklaring: "Teksten vil få oss til å endre atferd. Den er appellativ."
+- id: vgs-sams-m-funksjon-3
+  type: flervalg
+  kapittel: sammensatte-tekster-vgs
+  mal: [mvg3-05]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken tekstfunksjon er viktigst i teksten?"
+  utdrag: "En artist legger ut et svart-hvitt bilde av et tomt rom og skriver «Savner deg hver dag»."
+  alternativer: ["Ekspressiv", "Informativ", "Appellativ"]
+  riktig: 0
+  forklaring: "Innlegget uttrykker følelser. Det er ekspressivt."
+- id: vgs-sams-m-funksjon-4
+  type: flervalg
+  kapittel: sammensatte-tekster-vgs
+  mal: [mvg3-05]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken tekstfunksjon er viktigst i teksten?"
+  utdrag: "En reklame for en ny mobil viser telefonen i gull og teksten «Bli den første som har den»."
+  alternativer: ["Appellativ", "Informativ", "Ekspressiv"]
+  riktig: 0
+  forklaring: "Reklamen vil få oss til å kjøpe. Den er appellativ."
+- id: vgs-sams-m-balanse-1
+  type: flervalg
+  kapittel: sammensatte-tekster-vgs
+  mal: [mvg3-05]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Er balansen symmetrisk eller asymmetrisk?"
+  utdrag: "Plakaten har logoen midt øverst, et bilde midt på og teksten sentrert under, likt fordelt på begge sider."
+  alternativer: ["Symmetrisk", "Asymmetrisk"]
+  riktig: 0
+  forklaring: "Elementene er fordelt likt på begge sider av en midtlinje. Balansen er symmetrisk, og det gir et rolig og formelt inntrykk."
+- id: vgs-sams-m-balanse-2
+  type: flervalg
+  kapittel: sammensatte-tekster-vgs
+  mal: [mvg3-05]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Er balansen symmetrisk eller asymmetrisk?"
+  utdrag: "Et stort bilde fyller venstre side, mens en kort tekst og logoen står nede i høyre hjørne."
+  alternativer: ["Asymmetrisk", "Symmetrisk"]
+  riktig: 0
+  forklaring: "Elementene er ikke speilet om en midtlinje. Balansen er asymmetrisk, og det gir mer liv og bevegelse."
+- id: vgs-sams-m-luft-1
+  type: flervalg
+  kapittel: sammensatte-tekster-vgs
+  mal: [mvg3-05]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilket inntrykk gir mye luft rundt tekst og bilder oftest?"
+  alternativer: ["Ryddig og eksklusivt", "Rotete og stressende", "Morsomt og barnslig", "Gammeldags og kjedelig"]
+  riktig: 0
+  forklaring: "Mye tom flate gjør at det viktigste kommer fram. Det virker ofte ryddig og eksklusivt."
+- id: vgs-sams-m-stopp-1
+  type: flervalg
+  kapittel: sammensatte-tekster-vgs
+  mal: [mvg3-05]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er stoppeffekten i plakaten?"
+  utdrag: "På en grå plakat med liten svart tekst står det ett stort, knallrødt ord: «STOPP»."
+  alternativer: ["Det store, røde ordet som skiller seg ut fra den grå flaten", "Den lille svarte teksten nederst på plakaten", "Den grå bakgrunnen som dekker hele flaten", "Plasseringen av logoen i hjørnet"]
+  riktig: 0
+  forklaring: "Stoppeffekten er det som får oss til å stoppe og se. Her er det kontrasten mellom det røde ordet og den grå flaten."
