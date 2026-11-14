@@ -40,6 +40,13 @@
   status: godkjent
   forside: "Regel 6: svarord og tiltaleord"
   bakside: "Komma etter svarord, og rundt tiltaleord. Eksempel: «Ja, det stemmer.» / «Jan, kom og spis!»"
+- id: komma-kort-r7
+  type: flashkort
+  kapittel: kommaregler
+  mal: [m10-11, mvg1-11]
+  status: utkast
+  forside: "Regel 7: replikk og sitat"
+  bakside: "Komma etter anførselstegnet når replikken står først: «Jeg kommer på fredag», sa han. Ikke komma hvis replikken slutter med spørsmålstegn eller utropstegn: «Kommer du?» spurte hun."
 - id: komma-fv-men
   type: flervalg
   kapittel: kommaregler

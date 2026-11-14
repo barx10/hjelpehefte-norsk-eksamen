@@ -167,7 +167,7 @@ function kommaEtterSitat(tekst: string): Funn | null {
     id: 'komma-sitat',
     melding: 'Når en replikk står først, skal det være komma etter anførselstegnet: «Jeg kommer», sa han. Slutter replikken med spørsmålstegn eller utropstegn, skal det ikke være komma.',
     utdrag: treff.map((s) => kort(s.replace(/^[.!?\s]+/, ''))),
-    kapitler: ['komma-vgs', 'kommaregler'],
+    kapitler: ['kommaregler', 'komma-vgs'],
   } : null;
 }
 

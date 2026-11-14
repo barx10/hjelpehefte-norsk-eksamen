@@ -1051,3 +1051,66 @@
   setning: "Selv om det regnet, spilte vi kampen, men vi tapte."
   regler: [2, 3]
   forklaring: "Komma etter leddsetningen som står først, og rett foran «men»."
+- id: komma-m-r7-1
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Jeg kommer på fredag», sa han."
+  regler: [7]
+  forklaring: "Sitatet står først og slutter ikke med spørsmålstegn eller utropstegn. Da skal det være komma etter anførselstegnet."
+- id: komma-m-r7-2
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Dette er ikke for deg», svarer bestemoren."
+  regler: [7]
+  forklaring: "Sitatet står først og slutter ikke med spørsmålstegn eller utropstegn. Da skal det være komma etter anførselstegnet."
+- id: komma-m-r7-3
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Vi må snakke sammen», sier moren."
+  regler: [7]
+  forklaring: "Sitatet står først og slutter ikke med spørsmålstegn eller utropstegn. Da skal det være komma etter anførselstegnet."
+- id: komma-m-r7-4
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Det er for sent nå», tenkte hun."
+  regler: [7]
+  forklaring: "Sitatet står først og slutter ikke med spørsmålstegn eller utropstegn. Da skal det være komma etter anførselstegnet."
+- id: komma-m-r7-5
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Kommer du på fredag?» spurte hun."
+  regler: [7]
+  forklaring: "Sitatet slutter med spørsmålstegn eller utropstegn. Da skal det ikke være komma etter anførselstegnet."
+- id: komma-m-r7-6
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Kom hit med en gang!» ropte faren."
+  regler: [7]
+  forklaring: "Sitatet slutter med spørsmålstegn eller utropstegn. Da skal det ikke være komma etter anførselstegnet."
+- id: komma-m-r7-7
+  type: komma
+  kapittel: kommaregler
+  mal: [m10-11, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  setning: "«Hvorfor sa du ingenting?» spør Ole."
+  regler: [7]
+  forklaring: "Sitatet slutter med spørsmålstegn eller utropstegn. Da skal det ikke være komma etter anførselstegnet."

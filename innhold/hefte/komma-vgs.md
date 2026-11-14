@@ -7,9 +7,9 @@ status: utkast
 nivaa: ['vg3']
 ---
 
-Kapittel 7 viser de seks grunnreglene. På vgs blir setningene lengre, og da trenger du flere regler. Det som oftest skiller et godt svar fra et middels, er komma rundt leddsetninger inne i setningen, komma ved som-setninger og sitater, og at du unngår komma der det ikke skal være.
+Kapittel 7 viser de sju grunnreglene, også regelen om komma etter replikk. På vgs blir setningene lengre, og da trenger du flere regler. Det som oftest skiller et godt svar fra et middels, er komma rundt leddsetninger inne i setningen, komma ved som-setninger og sitater, og at du unngår komma der det ikke skal være.
 
-## Regel 7: Leddsetning inne i setningen
+## Regel 8: Leddsetning inne i setningen
 
 Når en leddsetning står inne i hovedsetningen, skal det være komma etter leddsetningen.
 
@@ -22,7 +22,7 @@ Ordet «som» kan noen ganger utelates. Kommaet skal være med likevel: «Filmen
 
 Tips: Finn verbalet i hovedsetningen. Setter du komma rett foran det, ser du ofte hvor leddsetningen slutter.
 
-## Regel 8: Som-setning som ikke er nødvendig
+## Regel 9: Som-setning som ikke er nødvendig
 
 En som-setning kan være nødvendig eller ikke nødvendig for å forstå hvem eller hva det gjelder.
 
@@ -36,7 +36,7 @@ Prøv å ta bort som-setningen. Hvis setningen fortsatt sier hvem det gjelder, e
 - «Bestemor, som bor i Bodø, fyller nitti år.»
 - «Ibsen, som skrev Et dukkehjem, ble født i Skien.»
 
-## Regel 9: Forklarende tillegg
+## Regel 10: Forklarende tillegg
 
 Et forklarende tillegg skal ha komma foran, og etter hvis setningen fortsetter. Tillegget kan stå inne i setningen eller til slutt.
 
@@ -46,7 +46,7 @@ Et forklarende tillegg skal ha komma foran, og etter hvis setningen fortsetter. 
 - «Han kom hjem i går, sent på kvelden.»
 - «Teksten bruker et virkemiddel som går igjen, nemlig gjentakelse.»
 
-## Regel 10: Flere adjektiver
+## Regel 11: Flere adjektiver
 
 Når to eller flere adjektiver står likestilt foran et substantiv, skal det være komma mellom dem. Du kan teste med «og»: Kan du sette «og» mellom dem, skal det være komma.
 
@@ -62,7 +62,7 @@ Hvis det første adjektivet sier noe om resten av uttrykket, skal det ikke være
 
 - «en ny norsk roman» (ikke «ny og norsk roman», men en norsk roman som er ny)
 
-## Regel 11: Når det ikke skal være komma
+## Regel 12: Når det ikke skal være komma
 
 Like viktig som å sette komma er å la være.
 
@@ -74,19 +74,9 @@ Like viktig som å sette komma er å la være.
 - **Ikke mellom to leddsetninger når subjunksjonen ikke gjentas.** «Hvis helsa holder og økonomien er i orden, drar vi på ferie.»
 - **Ikke etter et sitat som slutter med spørsmålstegn eller utropstegn.** «Kommer du på fredag?» spurte hun.
 
-## Regel 12: Sitat og replikk
+## Sitat i analyse
 
-Når et ordrett sitat eller en replikk står først, skal det være komma etter anførselstegnet.
-
-- «Jeg kommer på fredag», sa han.
-- «Dette er ikke for deg», svarer bestemoren.
-
-Slutter sitatet med spørsmålstegn eller utropstegn, skal det ikke være komma.
-
-- «Kommer du på fredag?» spurte hun.
-- «Kom hit nå med en gang!» ropte hun.
-
-I en analyse siterer du ofte inne i din egen setning. Da følger kommaet de vanlige reglene: «Forfatteren skriver at «huset holdt pusten», og det skaper spenning.»
+Regel 7 i kapittel 7 gjelder replikker som står først: «Jeg kommer på fredag», sa han. I en analyse siterer du oftere inne i din egen setning. Da følger kommaet de vanlige reglene: «Forfatteren skriver at «huset holdt pusten», og det skaper spenning.»
 
 En tittel i anførselstegn er ikke en replikk. «I diktet «Til min Gyldenlak» skriver Wergeland …» skal ikke ha komma etter tittelen.
 
