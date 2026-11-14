@@ -20,7 +20,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
 
 <script>
   import { les, lagre, oppdater, velgOkt, stokk, antallMestret } from '../lib/fremgang';
-  import { stokkForskjellig, ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus } from '../lib/tekstverktoy';
+  import { stokkForskjellig, ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus, riktigTabellsvar } from '../lib/tekstverktoy';
   import { lagTilbakemelding, lagEgenvurdering, lagOmskriving, type KapittelLenker } from '../lib/tilbakemelding';
   import { sjangerFor } from '../lib/tekstsjekk';
   import { beleggFinnes } from '../lib/revisjon';
@@ -45,11 +45,14 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     type: 'matching'; oppdrag: string; par: { venstre: string; hoyre: string }[]; forklaring: string; fasitTekst: string;
   };
   type Marker = Felles & { type: 'marker'; oppdrag: string; ord: string[]; riktig: boolean[]; forklaring: string; fasitTekst: string };
+  type Boyingstabell = Felles & {
+    type: 'boyingstabell'; oppdrag: string; kolonner: string[]; rader: { start: string; fasit: string | null }[][]; forklaring: string; fasitTekst: string;
+  };
   type Skriv = Felles & {
     type: 'skriv'; kapittelId: string; oppdrag: string; utdrag: string | null; starttekst: string; ord: { min: number; maks: number };
     nokkelord: string[]; nokkelordMinst: number; sitat: boolean; kriterier: string[]; modelltekst: string; modellkommentar: string; fasitTekst: string; forklaring: string;
   };
-  type Ovelse = Flashkort | Flervalg | Komma | FinnFeil | Sortering | Rekkefolge | Matching | Marker | Skriv;
+  type Ovelse = Flashkort | Flervalg | Komma | FinnFeil | Sortering | Rekkefolge | Matching | Marker | Boyingstabell | Skriv;
   const TYPENAVN: Record<Ovelse['type'], string> = {
     flashkort: 'Flashkort',
     flervalg: 'Flervalg',
@@ -59,6 +62,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     rekkefolge: 'Rekkefølge',
     matching: 'Koble',
     marker: 'Marker i teksten',
+    boyingstabell: 'Bøyingstabell',
     skriv: 'Skriv',
   };
   type Svar = { ovelse: Ovelse; riktig: boolean };
@@ -242,6 +246,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     else if (o.type === 'rekkefolge') visRekkefolge(o, indeks);
     else if (o.type === 'matching') visMatching(o, indeks);
     else if (o.type === 'marker') visMarker(o, indeks);
+    else if (o.type === 'boyingstabell') visBoyingstabell(o, indeks);
     else visSkriv(o, indeks);
   }
 
@@ -592,6 +597,52 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     });
 
     vis(...framdrift(indeks), merker(o), overskrift, hjelp, setning, flate, handlinger);
+  }
+
+  function visBoyingstabell(o: Boyingstabell, indeks: number) {
+    const overskrift = el('h2', { class: 'spm', tabindex: '-1' }, o.oppdrag);
+    const tabell = el('div', { class: 'boyning' });
+    const felt: { input: HTMLInputElement; celle: { start: string; fasit: string | null }; boks: HTMLElement }[] = [];
+    o.rader.forEach((rad) => {
+      const gruppe = el('div', { class: 'boyning-rad', style: `--kol:${o.kolonner.length}`, role: 'group', 'aria-label': rad[0]!.start + (rad[0]!.fasit ?? '') });
+      rad.forEach((celle, j) => {
+        const boks = el('div', { class: 'boyning-celle' }, el('span', { class: 'boyning-kol' }, o.kolonner[j]!));
+        if (celle.fasit === null) {
+          boks.append(el('span', { class: 'boyning-ord' }, celle.start));
+        } else {
+          const input = el('input', {
+            type: 'text', class: 'boyning-felt', size: String(Math.max(celle.fasit.length + 2, 4)), maxlength: '30',
+            autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', lang: 'nn',
+            'aria-label': `${o.kolonner[j]}: ${celle.start}, skriv endinga`,
+          });
+          input.addEventListener('keydown', (e) => { if (e.key === 'Enter') sjekk.click(); });
+          boks.append(el('span', { class: 'boyning-ord' }, celle.start), input);
+          felt.push({ input, celle, boks });
+        }
+        gruppe.append(boks);
+      });
+      tabell.append(gruppe);
+    });
+
+    const flate = el('div', { 'aria-live': 'polite' });
+    const sjekk = el('button', { class: 'knapp', type: 'button' }, 'Sjekk svaret');
+    const handlinger = el('div', { class: 'knapp-rad' }, sjekk);
+    sjekk.addEventListener('click', () => {
+      let antallFeil = 0;
+      for (const f of felt) {
+        f.input.disabled = true;
+        const riktig = riktigTabellsvar(f.input.value, f.celle);
+        if (!riktig) {
+          antallFeil++;
+          f.boks.append(el('span', { class: 'rad-status' }, `Riktig: ${f.celle.start}${f.celle.fasit}`));
+        }
+        f.boks.classList.add(riktig ? 'rett' : 'feil');
+      }
+      sjekkResultat(o, indeks, antallFeil === 0, antallFeil ? [`${antallFeil} av ${felt.length} er feil.`] : [], o.forklaring, flate, handlinger);
+    });
+
+    vis(...framdrift(indeks), merker(o), overskrift, el('p', {}, 'Skriv bare endinga som mangler.'), tabell, flate, handlinger);
+    felt[0]?.input.focus();
   }
 
   function visSkriv(o: Skriv, indeks: number) {

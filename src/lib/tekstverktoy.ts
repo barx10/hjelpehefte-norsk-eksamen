@@ -114,3 +114,21 @@ export type Ordkrav = { min: number; maks: number };
 export function ordStatus(antall: number, krav: Ordkrav): 'for-kort' | 'ok' | 'for-lang' {
   return antall < krav.min ? 'for-kort' : antall > krav.maks ? 'for-lang' : 'ok';
 }
+
+export type Tabellcelle = { start: string; fasit: string | null };
+
+/** Leser en celle i en bøyingstabell. «lærar|ar» gir stammen «lærar» og ordet eleven skal skrive, «ar». En celle uten | er gitt. */
+export function leseTabellcelle(celle: string): Tabellcelle {
+  const i = celle.indexOf('|');
+  if (i === -1) return { start: celle.trim(), fasit: null };
+  return { start: celle.slice(0, i).trim(), fasit: celle.slice(i + 1).trim() };
+}
+
+/** Sjekker svaret i en celle. Eleven kan skrive bare endingen (med eller uten bindestrek) eller hele ordet. */
+export function riktigTabellsvar(svar: string, celle: Tabellcelle): boolean {
+  if (celle.fasit === null) return true;
+  const rent = svar.trim().toLocaleLowerCase('nn').replace(/^[-–]\s*/, '');
+  if (!rent) return false;
+  const fasit = celle.fasit.toLocaleLowerCase('nn');
+  return rent === fasit || rent === `${celle.start}${celle.fasit}`.toLocaleLowerCase('nn');
+}

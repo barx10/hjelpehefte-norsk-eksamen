@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { deler, rensk, kommaOppsett, finnFeilIndekser, rettTekst, utenKomma, leseMarkering, stokkForskjellig } from '../src/lib/tekstverktoy.ts';
+import { deler, rensk, kommaOppsett, finnFeilIndekser, rettTekst, utenKomma, leseMarkering, stokkForskjellig, leseTabellcelle, riktigTabellsvar } from '../src/lib/tekstverktoy.ts';
 
 test('deler og rensk', () => {
   assert.deepEqual(deler('  a  b\nc '), ['a', 'b', 'c']);
@@ -95,4 +95,18 @@ test('ordStatus', () => {
   assert.equal(ordStatus(10, { min: 10, maks: 20 }), 'ok');
   assert.equal(ordStatus(20, { min: 10, maks: 20 }), 'ok');
   assert.equal(ordStatus(21, { min: 10, maks: 20 }), 'for-lang');
+});
+
+test('leseTabellcelle skiller gitt tekst fra felt som skal fylles ut', () => {
+  assert.deepEqual(leseTabellcelle('ein lærar'), { start: 'ein lærar', fasit: null });
+  assert.deepEqual(leseTabellcelle('lærar|ar'), { start: 'lærar', fasit: 'ar' });
+});
+
+test('riktigTabellsvar godtar ending, ending med bindestrek og helt ord', () => {
+  const c = leseTabellcelle('lærar|ane');
+  assert.equal(riktigTabellsvar('ane', c), true);
+  assert.equal(riktigTabellsvar(' -Ane ', c), true);
+  assert.equal(riktigTabellsvar('lærarane', c), true);
+  assert.equal(riktigTabellsvar('ene', c), false);
+  assert.equal(riktigTabellsvar('', c), false);
 });

@@ -1,6 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { NIVAAER, type Nivaa } from './nivaa';
-import { deler, finnFeilIndekser, kommaOppsett, leseMarkering, rettTekst, utenKomma } from './tekstverktoy';
+import { deler, finnFeilIndekser, kommaOppsett, leseMarkering, leseTabellcelle, rettTekst, utenKomma } from './tekstverktoy';
 
 /**
  * Utkast vises bare under utvikling, eller når siden bygges med `npm run build:utkast`.
@@ -117,6 +117,7 @@ export const typeNavn: Record<Ovelsestype, string> = {
   rekkefolge: 'rekkefølgeoppgaver',
   matching: 'koblingsoppgaver',
   marker: '«marker i teksten»-oppgaver',
+  boyingstabell: 'bøyingstabeller',
   skriv: 'skriveoppgaver',
 };
 
@@ -182,6 +183,18 @@ export function tilKlient(o: Ovelse, kapittelTittel: string, tekster: Map<string
         forklaring: d.forklaring,
         fasitTekst: d.par.map((p) => `${p.venstre} = ${p.hoyre}`).join('. '),
       };
+    case 'boyingstabell': {
+      const rader = d.rader.map((rad) => rad.map(leseTabellcelle));
+      return {
+        ...felles,
+        type: 'boyingstabell' as const,
+        oppdrag: d.oppdrag,
+        kolonner: d.kolonner,
+        rader,
+        forklaring: d.forklaring,
+        fasitTekst: rader.map((rad) => rad.map((c) => `${c.start}${c.fasit ?? ''}`).join(' – ')).join('. '),
+      };
+    }
     case 'marker': {
       const ord = leseMarkering(d.tekst);
       return {
