@@ -86,6 +86,7 @@ export const typeTittel: Record<Besvarelse['data']['type'], string> = {
   essay: 'Essay',
   'reflekterende-tekst': 'Reflekterende tekst',
   'droftende-tekst': 'Drøftende tekst',
+  debattinnlegg: 'Debattinnlegg',
 };
 
 export async function hentEksamen(nivaa?: Nivaa): Promise<Eksamenspakke[]> {
