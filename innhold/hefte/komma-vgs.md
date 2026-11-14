@@ -3,7 +3,7 @@ tittel: Flere kommaregler
 nummer: '7.1'
 rekkefolge: 7.1
 gruppe: sprak
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 
