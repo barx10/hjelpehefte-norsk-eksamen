@@ -1,0 +1,607 @@
+- id: ordkl-marker-1
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker substantivene."
+  tekst: "[[Jenta]] kjøpte en ny [[sykkel]] i [[byen]]."
+  forklaring: "Substantiv er navn på personer, steder, ting og ideer. Du kan sette «en», «ei» eller «et» foran dem."
+- id: ordkl-marker-2
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker substantivene."
+  tekst: "[[Mormor]] bakte [[boller]] til [[bursdagen]] min."
+  forklaring: "Substantiv er navn på personer, steder, ting og ideer. Du kan sette «en», «ei» eller «et» foran dem."
+- id: ordkl-marker-3
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker substantivene."
+  tekst: "Etter [[skolen]] går vi til [[stranden]] med [[ballen]]."
+  forklaring: "Substantiv er navn på personer, steder, ting og ideer. Du kan sette «en», «ei» eller «et» foran dem."
+- id: ordkl-marker-4
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker substantivene."
+  tekst: "[[Diktet]] handler om [[savn]] og [[håp]]."
+  forklaring: "Substantiv er navn på personer, steder, ting og ideer. Du kan sette «en», «ei» eller «et» foran dem."
+- id: ordkl-marker-5
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker substantivene."
+  tekst: "[[Frihet]] er viktig for alle [[mennesker]]."
+  forklaring: "Substantiv er navn på personer, steder, ting og ideer. Du kan sette «en», «ei» eller «et» foran dem."
+- id: ordkl-marker-6
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker substantivene."
+  tekst: "[[Kari]] og [[Ola]] bor i et gammelt [[hus]] ved [[sjøen]]."
+  forklaring: "Substantiv er navn på personer, steder, ting og ideer. Du kan sette «en», «ei» eller «et» foran dem."
+- id: ordkl-marker-7
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker verbene."
+  tekst: "Hun [[løper]] ut og [[roper]] på hunden."
+  forklaring: "Verb er handlinger eller tilstander. Du kan bøye dem i tid."
+- id: ordkl-marker-8
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker verbene."
+  tekst: "Vi [[har]] [[lest]] boka og [[skrevet]] en analyse."
+  forklaring: "Verb er handlinger eller tilstander. Du kan bøye dem i tid."
+- id: ordkl-marker-9
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker verbene."
+  tekst: "[[Kom]] hit og [[se]] på dette!"
+  forklaring: "Verb er handlinger eller tilstander. Du kan bøye dem i tid."
+- id: ordkl-marker-10
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker verbene."
+  tekst: "Gutten [[var]] sliten, men han [[ville]] [[spille]] mer."
+  forklaring: "Verb er handlinger eller tilstander. Du kan bøye dem i tid."
+- id: ordkl-marker-11
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker verbene."
+  tekst: "Det [[regnet]] hele dagen, så vi [[ble]] inne."
+  forklaring: "Verb er handlinger eller tilstander. Du kan bøye dem i tid."
+- id: ordkl-marker-12
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker adjektivene."
+  tekst: "Den [[gamle]] mannen hadde en [[rød]] lue."
+  forklaring: "Adjektiv beskriver et substantiv eller et pronomen. De kan gradbøyes."
+- id: ordkl-marker-13
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker adjektivene."
+  tekst: "Huset var [[stort]] og [[kaldt]]."
+  forklaring: "Adjektiv beskriver et substantiv eller et pronomen. De kan gradbøyes."
+- id: ordkl-marker-14
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker adjektivene."
+  tekst: "Hun er [[flinkere]] enn broren, men han er [[raskest]]."
+  forklaring: "Adjektiv beskriver et substantiv eller et pronomen. De kan gradbøyes."
+- id: ordkl-marker-15
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker adjektivene."
+  tekst: "Novellen har en [[åpen]] slutt og et [[enkelt]] språk."
+  forklaring: "Adjektiv beskriver et substantiv eller et pronomen. De kan gradbøyes."
+- id: ordkl-marker-16
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker adjektivene."
+  tekst: "[[Lange]], [[mørke]] kvelder gjør meg [[trøtt]]."
+  forklaring: "Adjektiv beskriver et substantiv eller et pronomen. De kan gradbøyes."
+- id: ordkl-marker-17
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker adverbene."
+  tekst: "Hun kommer [[ikke]] [[hjem]] [[nå]]."
+  forklaring: "Adverb sier noe om hvordan, hvor, når eller i hvilken grad."
+- id: ordkl-marker-18
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker adverbene."
+  tekst: "Han løp [[fort]] og kom [[aldri]] [[tilbake]]."
+  forklaring: "Adverb sier noe om hvordan, hvor, når eller i hvilken grad."
+- id: ordkl-marker-19
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker adverbene."
+  tekst: "Det var [[veldig]] kaldt [[ute]]."
+  forklaring: "Adverb sier noe om hvordan, hvor, når eller i hvilken grad."
+- id: ordkl-marker-20
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker preposisjonene."
+  tekst: "Katten satt [[på]] taket [[i]] regnet."
+  forklaring: "Preposisjoner viser forhold i tid eller rom, og står foran et substantiv eller pronomen."
+- id: ordkl-marker-21
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker preposisjonene."
+  tekst: "[[Etter]] middagen gikk vi [[til]] butikken [[med]] mormor."
+  forklaring: "Preposisjoner viser forhold i tid eller rom, og står foran et substantiv eller pronomen."
+- id: ordkl-marker-22
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker preposisjonene."
+  tekst: "Boka ligger [[under]] senga [[ved]] vinduet."
+  forklaring: "Preposisjoner viser forhold i tid eller rom, og står foran et substantiv eller pronomen."
+- id: ordkl-marker-23
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker pronomenene."
+  tekst: "[[Jeg]] ga [[ham]] en bok, og [[han]] takket [[meg]]."
+  forklaring: "Pronomen står i stedet for et substantiv."
+- id: ordkl-marker-24
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker pronomenene."
+  tekst: "[[Vi]] så [[dem]] i byen, men [[de]] så ikke [[oss]]."
+  forklaring: "Pronomen står i stedet for et substantiv."
+- id: ordkl-marker-25
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker pronomenene."
+  tekst: "[[Hun]] vasket [[seg]] før [[hun]] gikk ut."
+  forklaring: "Pronomen står i stedet for et substantiv."
+- id: ordkl-marker-26
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker determinativene."
+  tekst: "[[Denne]] boka og [[den]] jakka ligger på [[mitt]] rom."
+  forklaring: "Determinativer står foran substantivet og bestemmer det nærmere: påpekende ord, eiendomsord, mengdeord og tallord."
+- id: ordkl-marker-27
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker determinativene."
+  tekst: "[[Alle]] elevene fikk [[tre]] oppgaver."
+  forklaring: "Determinativer står foran substantivet og bestemmer det nærmere: påpekende ord, eiendomsord, mengdeord og tallord."
+- id: ordkl-marker-28
+  type: marker
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker determinativene."
+  tekst: "[[Hans]] søster har [[mange]] venner i [[denne]] byen."
+  forklaring: "Determinativer står foran substantivet og bestemmer det nærmere: påpekende ord, eiendomsord, mengdeord og tallord."
+- id: ordkl-hvilken-1
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken ordklasse er «lyset» i setningen?"
+  utdrag: "Lyset var svakt."
+  alternativer: ["Substantiv", "Verb", "Adverb", "Preposisjon"]
+  riktig: 0
+  forklaring: "Du kan si «et lys». Det er et substantiv."
+- id: ordkl-hvilken-2
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken ordklasse er «svakt» i setningen?"
+  utdrag: "Lyset var svakt."
+  alternativer: ["Adjektiv", "Adverb", "Determinativ", "Subjunksjon"]
+  riktig: 0
+  forklaring: "«Svakt» beskriver lyset og kan gradbøyes: svak, svakere, svakest."
+- id: ordkl-hvilken-3
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken ordklasse er «hjem» i setningen?"
+  utdrag: "Vi går hjem."
+  alternativer: ["Adverb", "Pronomen", "Preposisjon", "Interjeksjon"]
+  riktig: 0
+  forklaring: "«Hjem» sier hvor. Det er et adverb."
+- id: ordkl-hvilken-4
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken ordklasse er «au» i setningen?"
+  utdrag: "Au, det gjorde vondt!"
+  alternativer: ["Interjeksjon", "Substantiv", "Adjektiv", "Determinativ"]
+  riktig: 0
+  forklaring: "«Au» er et utrop. Det er en interjeksjon."
+- id: ordkl-hvilken-5
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken ordklasse er «denne» i setningen?"
+  utdrag: "Denne filmen er lang."
+  alternativer: ["Determinativ", "Preposisjon", "Subjunksjon", "Verb"]
+  riktig: 0
+  forklaring: "«Denne» står foran substantivet og peker det ut. Det er et determinativ."
+- id: ordkl-hvilken-6
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken ordklasse er «seg» i setningen?"
+  utdrag: "Han skynder seg."
+  alternativer: ["Pronomen", "Determinativ", "Konjunksjon", "Substantiv"]
+  riktig: 0
+  forklaring: "«Seg» viser tilbake til subjektet. Det er et pronomen."
+- id: ordkl-hvilken-7
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken ordklasse er «at» i setningen?"
+  utdrag: "Hun sa at hun var sliten."
+  alternativer: ["Subjunksjon", "Interjeksjon", "Verb", "Pronomen"]
+  riktig: 0
+  forklaring: "«At» innleder en leddsetning. Det er en subjunksjon."
+- id: ordkl-hvilken-8
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken ordklasse er «eller» i setningen?"
+  utdrag: "Vil du ha te eller kaffe?"
+  alternativer: ["Konjunksjon", "Subjunksjon", "Substantiv", "Adverb"]
+  riktig: 0
+  forklaring: "«Eller» binder sammen to ledd av samme slag. Det er en konjunksjon."
+- id: ordkl-hvilken-9
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken ordklasse er «gjennom» i setningen?"
+  utdrag: "Vi gikk gjennom skogen."
+  alternativer: ["Preposisjon", "Konjunksjon", "Interjeksjon", "Adjektiv"]
+  riktig: 0
+  forklaring: "«Gjennom» viser et forhold i rommet. Det er en preposisjon."
+- id: ordkl-hvilken-10
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken ordklasse er «sang» i setningen?"
+  utdrag: "Hun sang hele kvelden."
+  alternativer: ["Verb", "Adjektiv", "Pronomen", "Konjunksjon"]
+  riktig: 0
+  forklaring: "Her er «sang» en handling i fortid. Det er et verb."
+- id: ordkl-hvilken-11
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken ordklasse er «sang» i setningen?"
+  utdrag: "En sang kan endre alt."
+  alternativer: ["Substantiv", "Verb", "Adverb", "Preposisjon"]
+  riktig: 0
+  forklaring: "Her står «en» foran «sang». Det er et substantiv."
+- id: ordkl-hvilken-12
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken ordklasse er «snart» i setningen?"
+  utdrag: "Vi kommer snart."
+  alternativer: ["Adverb", "Pronomen", "Preposisjon", "Interjeksjon"]
+  riktig: 0
+  forklaring: "«Snart» sier når. Det er et adverb."
+- id: ordkl-boy-1
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er preteritum av «skrive»?"
+  alternativer: ["skrev", "skrivde", "skrevet", "skriver"]
+  riktig: 0
+  forklaring: "«Skrive» er et sterkt verb. Preteritum er «skrev»."
+- id: ordkl-boy-2
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er preteritum av «kaste»?"
+  alternativer: ["kastet", "kastde", "kaster", "kastene"]
+  riktig: 0
+  forklaring: "«Kaste» er et svakt verb og får endelse i preteritum: «kastet». «Kasta» er også riktig på bokmål."
+- id: ordkl-boy-3
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er preteritum av «gå»?"
+  alternativer: ["gikk", "gådde", "gått", "går"]
+  riktig: 0
+  forklaring: "«Gå» er et sterkt verb. Preteritum er «gikk»."
+- id: ordkl-boy-4
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er presens av «å lese»?"
+  alternativer: ["leser", "leste", "lest", "les"]
+  riktig: 0
+  forklaring: "Presens er formen for nå: «leser»."
+- id: ordkl-boy-5
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken verbform er «har spist»?"
+  alternativer: ["Presens perfektum", "Preteritum", "Infinitiv", "Imperativ"]
+  riktig: 0
+  forklaring: "«Har» og en perfektumsform av verbet er presens perfektum."
+- id: ordkl-boy-6
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken verbform er «spis» i «Spis maten!»?"
+  alternativer: ["Imperativ", "Infinitiv", "Presens", "Preteritum"]
+  riktig: 0
+  forklaring: "En oppfordring eller ordre står i imperativ."
+- id: ordkl-boy-7
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er bestemt form flertall av «en bil»?"
+  alternativer: ["bilene", "bilen", "biler", "bilenes"]
+  riktig: 0
+  forklaring: "Bestemt form flertall av hankjønnsord ender på «-ene»: bilene."
+- id: ordkl-boy-8
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er bestemt form entall av «et hus»?"
+  alternativer: ["huset", "husen", "husene", "husa"]
+  riktig: 0
+  forklaring: "Intetkjønnsord får «-et» i bestemt form entall: huset."
+- id: ordkl-boy-9
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er ubestemt form flertall av «et eple»?"
+  alternativer: ["epler", "eplene", "eplet", "eple"]
+  riktig: 0
+  forklaring: "Ubestemt form flertall er «epler»."
+- id: ordkl-boy-10
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilket kjønn har «et hus»?"
+  alternativer: ["Intetkjønn", "Hankjønn", "Hunkjønn", "Flertall"]
+  riktig: 0
+  forklaring: "Ord med «et» foran er intetkjønn."
+- id: ordkl-boy-11
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er komparativ av «stor»?"
+  alternativer: ["større", "storere", "størst", "stort"]
+  riktig: 0
+  forklaring: "Komparativ av «stor» er «større»."
+- id: ordkl-boy-12
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er superlativ av «god»?"
+  alternativer: ["best", "godest", "bedre", "godt"]
+  riktig: 0
+  forklaring: "«God» gradbøyes uregelmessig: god, bedre, best."
+- id: ordkl-boy-13
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er komparativ av «fin»?"
+  alternativer: ["finere", "finest", "fint", "fine"]
+  riktig: 0
+  forklaring: "Komparativ av «fin» er «finere»."
+- id: ordkl-boy-14
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Velg riktig form: «et ___ hus» (stor)"
+  alternativer: ["stort", "stor", "store", "større"]
+  riktig: 0
+  forklaring: "Adjektivet retter seg etter intetkjønnsordet «hus» og får -t: et stort hus."
+- id: ordkl-boy-15
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Velg riktig form: «de ___ bilene» (rød)"
+  alternativer: ["røde", "rød", "rødt", "rødere"]
+  riktig: 0
+  forklaring: "I bestemt form står adjektivet med -e: de røde bilene."
+- id: ordkl-boy-16
+  type: flervalg
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Velg riktig form: «Jeg ga boka til ___» (han)"
+  alternativer: ["ham", "hans", "hennes", "seg"]
+  riktig: 0
+  forklaring: "Etter preposisjon brukes objektsformen. På bokmål kan du skrive både «ham» og «han»."
+- id: ordkl-sort-1
+  type: sortering
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Hvilken ordklasse hører ordet til?"
+  kategorier: ["Substantiv", "Verb", "Adjektiv"]
+  elementer:
+    - { tekst: "løpe", kategori: 1 }
+    - { tekst: "bord", kategori: 0 }
+    - { tekst: "glad", kategori: 2 }
+    - { tekst: "tenke", kategori: 1 }
+    - { tekst: "vennskap", kategori: 0 }
+    - { tekst: "sterk", kategori: 2 }
+  forklaring: "Substantiv kan få «en», «ei» eller «et» foran seg. Verb kan få «å» foran seg. Adjektiv kan gradbøyes."
+- id: ordkl-sort-2
+  type: sortering
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Hvilken ordklasse hører ordet til?"
+  kategorier: ["Substantiv", "Verb", "Adjektiv"]
+  elementer:
+    - { tekst: "skrive", kategori: 1 }
+    - { tekst: "skole", kategori: 0 }
+    - { tekst: "rask", kategori: 2 }
+    - { tekst: "hoppe", kategori: 1 }
+    - { tekst: "Bergen", kategori: 0 }
+    - { tekst: "trist", kategori: 2 }
+  forklaring: "Substantiv kan få «en», «ei» eller «et» foran seg. Verb kan få «å» foran seg. Adjektiv kan gradbøyes."
+- id: ordkl-sort-3
+  type: sortering
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Hvilken ordklasse hører ordet til?"
+  kategorier: ["Substantiv", "Verb", "Adjektiv"]
+  elementer:
+    - { tekst: "drømme", kategori: 1 }
+    - { tekst: "stillhet", kategori: 0 }
+    - { tekst: "mørk", kategori: 2 }
+    - { tekst: "ser", kategori: 1 }
+    - { tekst: "vindu", kategori: 0 }
+    - { tekst: "vakker", kategori: 2 }
+  forklaring: "Substantiv kan få «en», «ei» eller «et» foran seg. Verb kan få «å» foran seg. Adjektiv kan gradbøyes."
+- id: ordkl-match
+  type: matching
+  kapittel: ordklasser
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Koble ordklassen til det den gjør."
+  par:
+    - { venstre: "Substantiv", hoyre: "Navn på personer, steder, ting og ideer" }
+    - { venstre: "Verb", hoyre: "Handling eller tilstand" }
+    - { venstre: "Adjektiv", hoyre: "Beskriver et substantiv" }
+    - { venstre: "Preposisjon", hoyre: "Viser forhold i tid eller rom" }
+    - { venstre: "Subjunksjon", hoyre: "Innleder en leddsetning" }
+    - { venstre: "Interjeksjon", hoyre: "Utrop og lydord" }
+  forklaring: "Se tabellen over de ti ordklassene i kapittelet."
