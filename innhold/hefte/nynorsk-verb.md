@@ -28,7 +28,7 @@ E-verb bøyer ofte likt som på bokmål. Dei får *-er* i presens og *-te* eller
 | infinitiv | presens | preteritum | presens perfektum |
 |---|---|---|---|
 | å kjøpe | eg kjøper | eg kjøpte | eg har kjøpt |
-| å leve | eg lever | eg levde | eg har levd |
+| å hjelpe | eg hjelper | eg hjelpte | eg har hjelpt |
 
 ## Slik finn du ut om verbet er a-verb eller e-verb
 

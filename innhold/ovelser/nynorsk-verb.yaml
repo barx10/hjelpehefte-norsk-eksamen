@@ -13,7 +13,7 @@
     - ["å hoppe", "hopp|ar", "hopp|a", "har hopp|a"]
     - ["å danse", "dans|ar", "dans|a", "har dans|a"]
     - ["å vaske", "vask|ar", "vask|a", "har vask|a"]
-    - ["å vente", "vent|ar", "vent|a", "har vent|a"]
+    - ["å sykle", "sykl|ar", "sykl|a", "har sykl|a"]
   forklaring: "A-verb får -ar i presens og -a i preteritum og perfektum."
 - id: nn-verb-e-1
   type: boyingstabell
@@ -25,7 +25,7 @@
   kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
   rader:
     - ["å kjøpe", "kjøp|er", "kjøp|te", "har kjøp|t"]
-    - ["å leve", "lev|er", "lev|de", "har lev|d"]
+    - ["å hjelpe", "hjelp|er", "hjelp|te", "har hjelp|t"]
     - ["å lyse", "lys|er", "lys|te", "har lys|t"]
     - ["å lære", "lær|er", "lær|te", "har lær|t"]
     - ["å reise", "reis|er", "reis|te", "har reis|t"]
@@ -57,7 +57,7 @@
     - ["å kaste", "kast|ar", "kast|a", "har kast|a"]
     - ["å kjøpe", "kjøp|er", "kjøp|te", "har kjøp|t"]
     - ["å skrive", "|skriv", "|skreiv", "har |skrive"]
-    - ["å vente", "vent|ar", "vent|a", "har vent|a"]
+    - ["å sykle", "sykl|ar", "sykl|a", "har sykl|a"]
     - ["å lyse", "lys|er", "lys|te", "har lys|t"]
     - ["å synge", "|syng", "|song", "har |sunge"]
   forklaring: "Finn først ut kva slag verb det er. A-verb får -ar og -a, e-verb får -er og -te eller -de, og sterke verb får inga ending."
@@ -74,7 +74,7 @@
     - ["å vere", "|er", "|var", "har |vore"]
     - ["å gjere", "|gjer", "|gjorde", "har |gjort"]
     - ["å seie", "|seier", "|sa", "har |sagt"]
-    - ["å bu", "|bur", "|budde", "har |budd"]
+    - ["å vite", "|veit", "|visste", "har |visst"]
   forklaring: "Dette er verb med uregelrett bøying. Dei må lærast kvart for seg."
 - id: nn-verb-st-1
   type: boyingstabell
@@ -272,6 +272,6 @@
     - { tekst: "å vaske", kategori: 0 }
     - { tekst: "å lære", kategori: 1 }
     - { tekst: "å synge", kategori: 2 }
-    - { tekst: "å vente", kategori: 0 }
+    - { tekst: "å sykle", kategori: 0 }
     - { tekst: "å lyse", kategori: 1 }
   forklaring: "A-verb får -a i preteritum, e-verb får -te eller -de, og sterke verb får inga ending og skiftar ofte vokal."
