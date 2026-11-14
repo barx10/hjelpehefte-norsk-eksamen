@@ -5,7 +5,7 @@ Hver fil er en besvarelse eller modelltekst. Metadata står øverst i filen.
 | Felt | Betydning |
 |---|---|
 | `tittel` | Tittel på teksten |
-| `type` | `retorisk-analyse`, `novelleanalyse`, `diktanalyse`, `reklameanalyse`, `fagartikkel`, `essay`, `reflekterende-tekst` eller `droftende-tekst` |
+| `type` | `retorisk-analyse`, `novelleanalyse`, `diktanalyse`, `reklameanalyse`, `fagartikkel`, `essay`, `reflekterende-tekst`, `droftende-tekst` eller `debattinnlegg` |
 | `kategori` | Merkelapp som vises ved teksten: `modelltekst`, eller karakter/nivå for en elevbesvarelse |
 | `nivaa` | Hvor teksten vises: `['10']`, `['vg3']` eller begge. Uten feltet vises den for 10. trinn. En forenklet tekst må vises på et nivå der originalen også vises. |
 | `status` | `utkast` eller `godkjent` |

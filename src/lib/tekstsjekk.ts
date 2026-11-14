@@ -41,6 +41,7 @@ const SJANGER_PER_KAPITTEL: Record<string, Sjanger> = {
   'essay-vgs': 'essay',
   'reflekterende-tekst': 'essay',
   'droftende-tekst': 'drofting',
+  debattinnlegg: 'drofting',
 };
 
 export function sjangerFor(kapittelId: string | undefined | null): Sjanger {
@@ -430,7 +431,7 @@ function drofting(tekst: string): Funn[] {
     id: 'motargument',
     melding: 'Teksten ser ikke ut til å ha motargumenter. Når du drøfter, skal du vise flere sider av saken, for eksempel med «på den andre siden» eller «samtidig».',
     utdrag: [],
-    kapitler: ['fagartikkel-vgs', 'droftende-tekst'],
+    kapitler: ['fagartikkel-vgs', 'droftende-tekst', 'debattinnlegg'],
     mulig: true,
   });
   if (kropp.length >= 3 && !KONKLUSJON.some((o) => slutt.includes(o))) ut.push({

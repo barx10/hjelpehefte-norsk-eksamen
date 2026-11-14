@@ -10,7 +10,7 @@ const { nivaa } = Astro.props;
 const alle = await hentBesvarelser(nivaa);
 const kapitlerListe = await hentKapitler(nivaa);
 const medOvelser = new Set((await hentOvelser(nivaa)).map((o) => o.data.kapittel.id));
-const rekkefolge = ['diktanalyse', 'novelleanalyse', 'retorisk-analyse', 'reklameanalyse', 'fagartikkel', 'essay', 'reflekterende-tekst', 'droftende-tekst'] as const;
+const rekkefolge = ['diktanalyse', 'novelleanalyse', 'retorisk-analyse', 'reklameanalyse', 'fagartikkel', 'essay', 'reflekterende-tekst', 'droftende-tekst', 'debattinnlegg'] as const;
 const grupper = rekkefolge
   .map((type) => ({ type, kapittelId: kapittelForType(kapitlerListe, type), tekster: alle.filter((b) => b.data.type === type) }))
   .filter((g) => g.tekster.length > 0);

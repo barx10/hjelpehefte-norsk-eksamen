@@ -1,0 +1,331 @@
+- id: debatt-kort-hva
+  type: flashkort
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  forside: "Hva er et debattinnlegg?"
+  bakside: "En kort argumenterende tekst der du tar stilling i en sak og prøver å overbevise leseren."
+- id: debatt-kort-begreper
+  type: flashkort
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  forside: "Hva er standpunkt, argument og premiss?"
+  bakside: "Standpunkt: det du mener. Argument: en begrunnelse for standpunktet. Premiss: noe du går ut fra at leseren er enig i, og som du ikke begrunner."
+- id: debatt-kort-godt
+  type: flashkort
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  forside: "Hvilke tre spørsmål stiller du til et argument?"
+  bakside: "Er det holdbart? Er det relevant? Er det sterkt nok mot motargumentene?"
+- id: debatt-kort-skjult
+  type: flashkort
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  forside: "Hva er forskjellen på åpen og skjult argumentasjon?"
+  bakside: "Åpen argumentasjon bygger på fakta og logikk (logos). Skjult argumentasjon påvirker følelser og tillit (patos og etos)."
+- id: debatt-spa-1
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Er setningen et standpunkt, et argument eller et premiss?"
+  utdrag: "Skolen bør innføre gratis frukt hver dag."
+  alternativer: ["Standpunkt", "Argument", "Premiss"]
+  riktig: 0
+  forklaring: "Setningen sier hva skribenten mener. Det er standpunktet."
+- id: debatt-spa-2
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Er setningen et standpunkt, et argument eller et premiss?"
+  utdrag: "Elever som spiser frukt, holder konsentrasjonen bedre gjennom dagen."
+  alternativer: ["Argument", "Standpunkt", "Premiss"]
+  riktig: 0
+  forklaring: "Setningen begrunner hvorfor skolen bør innføre gratis frukt. Det er et argument."
+- id: debatt-spa-3
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Er setningen et standpunkt, et argument eller et premiss?"
+  utdrag: "Det er viktig at elevene klarer å følge med i timene."
+  alternativer: ["Premiss", "Standpunkt", "Argument"]
+  riktig: 0
+  forklaring: "Skribenten tar for gitt at leseren er enig i dette, og begrunner det ikke. Det er et premiss."
+- id: debatt-spa-4
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Er setningen et standpunkt, et argument eller et premiss?"
+  utdrag: "Mobilen bør være forbudt i skoletiden."
+  alternativer: ["Standpunkt", "Argument", "Premiss"]
+  riktig: 0
+  forklaring: "Setningen sier hva skribenten mener. Det er standpunktet."
+- id: debatt-spa-5
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Er setningen et standpunkt, et argument eller et premiss?"
+  utdrag: "Uten mobil snakker elevene mer med hverandre i friminuttene."
+  alternativer: ["Argument", "Standpunkt", "Premiss"]
+  riktig: 0
+  forklaring: "Setningen begrunner hvorfor mobilen bør forbys. Det er et argument."
+- id: debatt-spa-6
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Er setningen et standpunkt, et argument eller et premiss?"
+  utdrag: "Det er bra at elevene snakker sammen ansikt til ansikt."
+  alternativer: ["Premiss", "Standpunkt", "Argument"]
+  riktig: 0
+  forklaring: "Skribenten går ut fra at dette er bra, uten å begrunne det. Det er et premiss."
+- id: debatt-spa-7
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Er setningen et standpunkt, et argument eller et premiss?"
+  utdrag: "Kommunen må bygge en ny skatehall."
+  alternativer: ["Standpunkt", "Argument", "Premiss"]
+  riktig: 0
+  forklaring: "Setningen sier hva skribenten mener. Det er standpunktet."
+- id: debatt-spa-8
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Er setningen et standpunkt, et argument eller et premiss?"
+  utdrag: "En skatehall gir unge et trygt sted å være om kvelden."
+  alternativer: ["Argument", "Standpunkt", "Premiss"]
+  riktig: 0
+  forklaring: "Setningen begrunner hvorfor kommunen bør bygge skatehallen. Det er et argument."
+- id: debatt-apen-1
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Er dette åpen eller skjult argumentasjon?"
+  utdrag: "Ifølge en undersøkelse fra Ungdata sover mange ungdommer mindre enn anbefalt."
+  alternativer: ["Åpen argumentasjon", "Skjult argumentasjon"]
+  riktig: 0
+  forklaring: "Setningen viser til en undersøkelse som kan etterprøves. Det er åpen argumentasjon."
+- id: debatt-apen-2
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Er dette åpen eller skjult argumentasjon?"
+  utdrag: "Tenk deg at det er lillesøsteren din som står alene i skolegården."
+  alternativer: ["Skjult argumentasjon", "Åpen argumentasjon"]
+  riktig: 0
+  forklaring: "Setningen spiller på følelser. Det er skjult argumentasjon."
+- id: debatt-apen-3
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Er dette åpen eller skjult argumentasjon?"
+  utdrag: "Bussbilletten koster 40 kroner, og mange elever tar bussen to ganger om dagen."
+  alternativer: ["Åpen argumentasjon", "Skjult argumentasjon"]
+  riktig: 0
+  forklaring: "Setningen bygger på tall som kan kontrolleres. Det er åpen argumentasjon."
+- id: debatt-apen-4
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Er dette åpen eller skjult argumentasjon?"
+  utdrag: "Vil du virkelig at barna dine skal puste inn forurenset luft?"
+  alternativer: ["Skjult argumentasjon", "Åpen argumentasjon"]
+  riktig: 0
+  forklaring: "Det retoriske spørsmålet spiller på frykt og ansvar. Det er skjult argumentasjon."
+- id: debatt-apen-5
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Er dette åpen eller skjult argumentasjon?"
+  utdrag: "Som lege har jeg sett hva røyking gjør med kroppen."
+  alternativer: ["Skjult argumentasjon", "Åpen argumentasjon"]
+  riktig: 0
+  forklaring: "Setningen bygger troverdighet (etos). Det regnes som skjult argumentasjon."
+- id: debatt-apen-6
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Er dette åpen eller skjult argumentasjon?"
+  utdrag: "Hvis bussen går hver halvtime i stedet for hver time, kan flere la bilen stå."
+  alternativer: ["Åpen argumentasjon", "Skjult argumentasjon"]
+  riktig: 0
+  forklaring: "Setningen er et logisk resonnement. Det er åpen argumentasjon."
+- id: debatt-godt-1
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva er svakheten ved argumentet?"
+  utdrag: "Standpunkt: Skoledagen bør starte klokka ni. Argument: Alle elever i Norge sover bare fem timer om natten."
+  alternativer: ["Det er ikke holdbart", "Det er ikke relevant", "Det er ikke sterkt nok mot motargumentet"]
+  riktig: 0
+  forklaring: "Påstanden om at alle sover fem timer er ikke sann. Argumentet er ikke holdbart."
+- id: debatt-godt-2
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva er svakheten ved argumentet?"
+  utdrag: "Standpunkt: Kantina bør selge sunnere mat. Argument: Kantinedamen er veldig hyggelig."
+  alternativer: ["Det er ikke relevant", "Det er ikke holdbart", "Det er ikke sterkt nok mot motargumentet"]
+  riktig: 0
+  forklaring: "At kantinedamen er hyggelig, har ingen betydning for hva kantina bør selge. Argumentet er ikke relevant."
+- id: debatt-godt-3
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva er svakheten ved argumentet?"
+  utdrag: "Standpunkt: Vi bør ha lengre sommerferie. Argument: Elevene vil like det. Motargument: Elevene vil glemme mye av det de har lært."
+  alternativer: ["Det er ikke sterkt nok mot motargumentet", "Det er ikke holdbart", "Det er ikke relevant"]
+  riktig: 0
+  forklaring: "At elevene liker det, veier lite mot at de glemmer det de har lært. Argumentet er ikke sterkt nok."
+- id: debatt-godt-4
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva er svakheten ved argumentet?"
+  utdrag: "Standpunkt: Kommunen bør bygge sykkelvei. Argument: Sykler er laget av metall."
+  alternativer: ["Det er ikke relevant", "Det er ikke holdbart", "Det er ikke sterkt nok mot motargumentet"]
+  riktig: 0
+  forklaring: "Hva sykler er laget av, har ingen betydning for om kommunen bør bygge sykkelvei. Argumentet er ikke relevant."
+- id: debatt-godt-5
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva er svakheten ved argumentet?"
+  utdrag: "Standpunkt: Alle skoler bør ha skolemat. Argument: Ingen elever spiser frokost hjemme."
+  alternativer: ["Det er ikke holdbart", "Det er ikke relevant", "Det er ikke sterkt nok mot motargumentet"]
+  riktig: 0
+  forklaring: "Det er ikke sant at ingen elever spiser frokost. Argumentet er ikke holdbart."
+- id: debatt-ord-1
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Er «sjarmerende» brukt som plussord eller minusord?"
+  utdrag: "Det sjarmerende huset ligger ved sjøen."
+  alternativer: ["Plussord", "Minusord"]
+  riktig: 0
+  forklaring: "«Sjarmerende» gir en positiv følelse. Det er et plussord."
+- id: debatt-ord-2
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Er «rønne» brukt som plussord eller minusord?"
+  utdrag: "Den gamle rønna ligger ved sjøen."
+  alternativer: ["Minusord", "Plussord"]
+  riktig: 0
+  forklaring: "«Rønne» gir en negativ følelse. Det er et minusord."
+- id: debatt-ord-3
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Er «mas» brukt som plussord eller minusord?"
+  utdrag: "Foreldrene har drevet med mas om leggetid i flere uker."
+  alternativer: ["Minusord", "Plussord"]
+  riktig: 0
+  forklaring: "«Mas» gir en negativ følelse. Det er et minusord."
+- id: debatt-ord-4
+  type: flervalg
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Er «engasjement» brukt som plussord eller minusord?"
+  utdrag: "Foreldrene har vist stort engasjement for leggetiden."
+  alternativer: ["Plussord", "Minusord"]
+  riktig: 0
+  forklaring: "«Engasjement» gir en positiv følelse. Det er et plussord."
+- id: debatt-rekke-oppbygging
+  type: rekkefolge
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Sett delene i et debattinnlegg i riktig rekkefølge."
+  elementer: ["Tittel med standpunktet", "Innledning med sak og standpunkt", "Første argument", "Andre argument", "Motargument og svar på det", "Avslutning med oppsummering og oppfordring"]
+  forklaring: "Se malen for debattinnlegg i kapittelet."
+- id: debatt-sort-sjanger
+  type: sortering
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Hører kjennetegnet til debattinnlegget eller fagartikkelen?"
+  kategorier: ["Debattinnlegg", "Fagartikkel"]
+  elementer:
+    - { tekst: "Standpunktet kommer fram med en gang", kategori: 0 }
+    - { tekst: "Saklig stemme og fagbegreper", kategori: 1 }
+    - { tekst: "Avslutter gjerne med en oppfordring", kategori: 0 }
+    - { tekst: "Gjør rede for et faglig emne", kategori: 1 }
+    - { tekst: "Personlig og engasjert stemme", kategori: 0 }
+    - { tekst: "Kildeliste til slutt", kategori: 1 }
+  forklaring: "Debattinnlegget vil overbevise og tar stilling fra starten. Fagartikkelen gjør rede for og drøfter et emne saklig."
+- id: debatt-marker-tekstbindere
+  type: marker
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker tekstbinderne som viser at et nytt argument kommer."
+  tekst: "[[For det første]] får du egne penger. [[En annen fordel]] er at du får arbeidserfaring. [[I tillegg]] kan jobben gi deg motivasjon."
+  forklaring: "Tekstbindere som «for det første», «en annen fordel» og «i tillegg» viser at et nytt argument kommer, og gjør oppbygningen tydelig."
+- id: debatt-skriv-avsnitt
+  type: skriv
+  kapittel: debattinnlegg
+  mal: [m10-10, mvg1-04]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Skriv ett argumentavsnitt til et debattinnlegg med standpunktet «Skolen bør ha mobilfri skoledag». Begynn med argumentet, utdyp med et eksempel, og vis hvordan det støtter standpunktet."
+  ord: {"min": 60, "maks": 130}
+  nokkelord: ["for det første", "for eksempel", "derfor"]
+  nokkelordMinst: 2
+  kriterier: ["Avsnittet begynner med et tydelig argument", "Argumentet er utdypet med et konkret eksempel", "Avsnittet viser hvordan argumentet støtter standpunktet", "Argumentet er holdbart og relevant"]
+  modelltekst: "For det første gir en mobilfri skoledag elevene mer tid til å snakke sammen. I dag sitter mange med hver sin skjerm i friminuttene, også de som egentlig vil være med i et fellesskap. Når mobilen ligger i skapet, blir det lettere å spille kort, prate eller bare henge sammen. For eksempel merket vi det da klassen prøvde en uke uten mobil: Flere ble med i fotballen, og ingen satt alene i hjørnet. Derfor er en mobilfri skoledag et enkelt grep som kan gjøre skolen til et bedre sted å være."
