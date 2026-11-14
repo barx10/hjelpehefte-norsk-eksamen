@@ -1,0 +1,234 @@
+# Øvingar til kapittelet Nynorsk, adjektiv. Utkast til gjennomgang.
+- id: nn-adj-samsvar-1
+  type: boyingstabell
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Skriv inn rett form av adjektivet."
+  kolonner: ["hankjønn og hokjønn", "inkjekjønn", "fleirtal"]
+  rader:
+    - ["stor", "|stort", "|store"]
+    - ["fin", "|fint", "|fine"]
+    - ["sterk", "|sterkt", "|sterke"]
+    - ["varm", "|varmt", "|varme"]
+    - ["god", "|godt", "|gode"]
+    - ["rask", "|raskt", "|raske"]
+  forklaring: "Adjektiv får -t i inkjekjønn og -e i fleirtal."
+- id: nn-adj-grad-1
+  type: boyingstabell
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Skriv inn komparativ og superlativ."
+  kolonner: ["positiv", "komparativ", "superlativ"]
+  rader:
+    - ["fin", "|finare", "|finast"]
+    - ["farleg", "|farlegare", "|farlegast"]
+    - ["kald", "|kaldare", "|kaldast"]
+    - ["billig", "|billigare", "|billigast"]
+    - ["snill", "|snillare", "|snillast"]
+  forklaring: "Dei fleste adjektiv får -are og -ast. Nynorsk har full form i superlativ."
+- id: nn-adj-uregelrett-1
+  type: boyingstabell
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 3
+  oppdrag: "Skriv inn komparativ og superlativ. Adjektiva bøyer uregelrett."
+  kolonner: ["positiv", "komparativ", "superlativ"]
+  rader:
+    - ["god", "|betre", "|best"]
+    - ["mange", "|fleire", "|flest"]
+    - ["mykje", "|meir", "|mest"]
+    - ["liten", "|mindre", "|minst"]
+    - ["stor", "|større", "|størst"]
+  forklaring: "Desse adjektiva må du lære kvart for seg."
+- id: nn-adj-feil-1
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi såg eit fin hus langs vegen."
+  feil: "fin"
+  rettelse: "fint"
+  forklaring: "Adjektiv får -t i inkjekjønn, og hus er eit inkjekjønnsord."
+- id: nn-adj-feil-2
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Vi har sett mange fin hus."
+  feil: "fin"
+  rettelse: "fine"
+  forklaring: "Adjektiv får -e i fleirtal."
+- id: nn-adj-feil-3
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Eit norskt skip låg i hamna."
+  feil: "norskt"
+  rettelse: "norsk"
+  forklaring: "Nasjonalitetsord på -sk får ikkje -t i inkjekjønn."
+- id: nn-adj-feil-4
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Fotball er farligere enn tennis."
+  feil: "farligere"
+  rettelse: "farlegare"
+  forklaring: "Nynorsk har -leg og -are."
+- id: nn-adj-feil-5
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Av alle idrettane er klatring farligst."
+  feil: "farligst"
+  rettelse: "farlegast"
+  forklaring: "Nynorsk har full form i superlativ: farlegast."
+- id: nn-adj-feil-6
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Boka var mer interessant enn filmen."
+  feil: "mer"
+  rettelse: "meir"
+  forklaring: "Nynorsk har meir og mest."
+- id: nn-adj-feil-7
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Ho er flinkere enn meg."
+  feil: "flinkere"
+  rettelse: "flinkare"
+  forklaring: "Komparativ får -are på nynorsk."
+- id: nn-adj-valg-1
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  spm: "Kva er rett? «Eg har kjøpt eit ___ hus.»"
+  alternativer:
+    - "stort"
+    - "stor"
+    - "store"
+    - "storet"
+  riktig: 0
+  forklaring: "Hus er eit inkjekjønnsord, så adjektivet får -t."
+- id: nn-adj-valg-2
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  spm: "Kva er rett? «Vi såg to ___ bilar.»"
+  alternativer:
+    - "raude"
+    - "raud"
+    - "raudt"
+    - "raudar"
+  riktig: 0
+  forklaring: "Adjektiv får -e i fleirtal."
+- id: nn-adj-valg-3
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  spm: "Kva er komparativ av «farleg»?"
+  alternativer:
+    - "farlegare"
+    - "farligere"
+    - "meir farleg"
+    - "farlegere"
+  riktig: 0
+  forklaring: "Dei fleste adjektiv får -are."
+- id: nn-adj-valg-4
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  spm: "Kva er superlativ av «god»?"
+  alternativer:
+    - "best"
+    - "godast"
+    - "godest"
+    - "betst"
+  riktig: 0
+  forklaring: "God bøyer uregelrett: god, betre, best."
+- id: nn-adj-valg-5
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  spm: "Kva er rett? «Kokken laga eit ___ måltid.»"
+  alternativer:
+    - "herleg"
+    - "herlegt"
+    - "herlege"
+    - "herlegare"
+  riktig: 0
+  forklaring: "Adjektiv på -leg får ikkje -t i inkjekjønn."
+- id: nn-adj-valg-6
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  spm: "Kva er rett? «Boka var ___ interessant enn filmen.»"
+  alternativer:
+    - "meir"
+    - "mer"
+    - "meire"
+    - "mere"
+  riktig: 0
+  forklaring: "Lange adjektiv blir gradbøygde med meir og mest."
+- id: nn-adj-kobling-1
+  type: matching
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Kva heiter adjektivet på nynorsk?"
+  par:
+    - { venstre: "rød", hoyre: "raud" }
+    - { venstre: "åpen", hoyre: "open" }
+    - { venstre: "trett", hoyre: "trøytt" }
+    - { venstre: "mye", hoyre: "mykje" }
+    - { venstre: "sen", hoyre: "sein" }
+    - { venstre: "høy", hoyre: "høg" }
+  forklaring: "Dette er adjektiv som skil seg frå bokmål."
+- id: nn-adj-sorter-1
+  type: sortering
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 3
+  oppdrag: "Får adjektivet -t i inkjekjønn? Tenk på eit hus."
+  kategorier: ["får -t", "får ikkje -t"]
+  elementer:
+    - { tekst: "fin", kategori: 0 }
+    - { tekst: "herleg", kategori: 1 }
+    - { tekst: "norsk", kategori: 1 }
+    - { tekst: "stor", kategori: 0 }
+    - { tekst: "spansk", kategori: 1 }
+    - { tekst: "varm", kategori: 0 }
+    - { tekst: "farleg", kategori: 1 }
+    - { tekst: "rask", kategori: 0 }
+  forklaring: "Adjektiv på -leg og nasjonalitetsord på -sk får ikkje -t. Adjektiv med éi staving på -sk, som rask, får -t: raskt."

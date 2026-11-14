@@ -200,6 +200,20 @@ fieldset.valg legend { padding: 0; }
 .ord.mangler::after { content: ','; font-weight: 800; color: var(--riktig); }
 .ord-siste { padding: 0.35rem 0.15rem; }
 
+/* Bøyingstabell */
+.boyning { display: grid; gap: 0.75rem; margin-bottom: 1rem; }
+.boyning-rad { display: grid; grid-template-columns: repeat(var(--kol, 4), minmax(0, 1fr)); gap: 0.5rem; border: 1px solid var(--linje); border-radius: var(--radius); padding: 0.7rem 0.9rem; background: var(--flate); }
+.boyning-celle { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.1rem 0; padding: 0.3rem 0.4rem; border-radius: var(--radius); border: 2px solid transparent; min-width: 0; }
+.boyning-kol { flex-basis: 100%; font-size: 0.8rem; font-weight: 700; color: var(--aksent); }
+.boyning-ord { font-size: 1.1rem; white-space: pre; }
+.boyning-felt { font: inherit; font-size: 1.1rem; width: 4.5rem; min-height: 44px; padding: 0.2rem 0.4rem; border-radius: var(--radius); border: 2px solid var(--linje); background: var(--flate); color: var(--tekst); }
+.boyning-felt:focus-visible { outline: 3px solid var(--fokus); outline-offset: 2px; }
+.boyning-celle.rett { border-color: var(--riktig); background: var(--riktig-bg); }
+.boyning-celle.feil { border-color: var(--feil); background: var(--feil-bg); }
+.boyning-celle .rad-status { flex-basis: 100%; margin: 0.2rem 0 0; }
+
+@media (max-width: 640px) { .boyning-rad { grid-template-columns: 1fr; } }
+
 /* Sortering, rekkefølge, kobling, marker */
 .utdrag { margin: 0 0 1rem; padding: 0.8rem 1rem; background: var(--flate-2); border-left: 5px solid var(--aksent); border-radius: var(--radius); font-style: normal; }
 .visuelt-skjult { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

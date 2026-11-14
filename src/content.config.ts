@@ -4,7 +4,7 @@ import type { Loader } from 'astro/loaders';
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import yaml from 'js-yaml';
-import { deler, finnFeilIndekser, kommaOppsett, leseMarkering } from './lib/tekstverktoy';
+import { deler, finnFeilIndekser, kommaOppsett, leseMarkering, leseTabellcelle } from './lib/tekstverktoy';
 import { NIVAAKODER, tilNivaaliste } from './lib/nivaa';
 
 /**
@@ -156,6 +156,16 @@ const marker = base.extend({
   forklaring: z.string(),
 });
 
+// Eleven fyller ut en bøyingstabell. Hver rad er ett ord. En celle som «lærar|ar» viser «lærar» og lar eleven skrive «ar».
+// En celle uten | er gitt. Hver rad må ha like mange celler som det er kolonner.
+const boyingstabell = base.extend({
+  type: z.literal('boyingstabell'),
+  oppdrag: z.string(),
+  kolonner: z.array(z.string()).min(2).max(5),
+  rader: z.array(z.array(z.string())).min(1).max(6),
+  forklaring: z.string(),
+});
+
 const ordkrav = z.object({ min: z.number().int().min(1), maks: z.number().int().min(1) }).refine((o) => o.min <= o.maks, {
   message: 'min kan ikke være større enn maks',
 });
@@ -177,7 +187,7 @@ const skriv = base.extend({
 
 const ovelser = defineCollection({
   loader: yamlListeLoader('innhold/ovelser'),
-  schema: z.discriminatedUnion('type', [flashkort, flervalg, komma, finnfeil, sortering, rekkefolge, matching, marker, skriv]).superRefine((o, ctx) => {
+  schema: z.discriminatedUnion('type', [flashkort, flervalg, komma, finnfeil, sortering, rekkefolge, matching, marker, boyingstabell, skriv]).superRefine((o, ctx) => {
     if (o.type === 'flervalg' && o.riktig >= o.alternativer.length) {
       ctx.addIssue({ code: 'custom', message: 'riktig peker utenfor alternativene' });
     }
@@ -196,6 +206,17 @@ const ovelser = defineCollection({
     if (o.type === 'matching') {
       const hoyre = o.par.map((p) => p.hoyre);
       if (new Set(hoyre).size !== hoyre.length) ctx.addIssue({ code: 'custom', message: 'høyre side må være unik for hvert par' });
+    }
+    if (o.type === 'boyingstabell') {
+      o.rader.forEach((rad, i) => {
+        if (rad.length !== o.kolonner.length) ctx.addIssue({ code: 'custom', message: `rad ${i + 1} har ${rad.length} celler, men det er ${o.kolonner.length} kolonner` });
+        rad.forEach((c, j) => {
+          const { start, fasit } = leseTabellcelle(c);
+          if (!start && !fasit) ctx.addIssue({ code: 'custom', message: `rad ${i + 1}, celle ${j + 1} er tom` });
+          if (fasit === '') ctx.addIssue({ code: 'custom', message: `rad ${i + 1}, celle ${j + 1} har | uten ending` });
+        });
+      });
+      if (!o.rader.some((rad) => rad.some((c) => leseTabellcelle(c).fasit))) ctx.addIssue({ code: 'custom', message: 'ingen celler å fylle ut' });
     }
     if (o.type === 'marker') {
       const ord = leseMarkering(o.tekst);
