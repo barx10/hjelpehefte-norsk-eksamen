@@ -5,7 +5,7 @@ kategori: modelltekst
 nivaa: ['10', 'vg3']
 status: godkjent
 oppgave: "Analyse av diktet «Hvem er det som ingen ser» av Gro Dahle (1994)"
-forfatter: "Åsa Abusland"
+forfatter: "NDLA"
 lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
 kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-lyrikkanalyse/8c1ab237c1"

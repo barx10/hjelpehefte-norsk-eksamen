@@ -2,7 +2,7 @@
   type: flashkort
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   forside: "Hvilke tre strømninger preger litteraturen mellom 1500 og 1800?"
   bakside: "Reformasjon og humanisme, barokk og opplysningstid."
@@ -10,7 +10,7 @@
   type: flashkort
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   forside: "Nevn tre kjennetegn ved barokken."
   bakside: "Forgjengelighet, sterke kontraster, et rikt og pyntet språk og religiøse tekster."
@@ -18,7 +18,7 @@
   type: flashkort
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   forside: "Hva setter opplysningstiden i sentrum?"
   bakside: "Fornuften. Tekstene kritiserer overtro, fordommer og falsk lærdom, ofte med satire."
@@ -26,7 +26,7 @@
   type: flashkort
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   forside: "Hva fikk reformasjonen å si for språket i Norge?"
   bakside: "Bibelen og kirken brukte dansk, og dansk ble skriftspråket i Norge."
@@ -34,7 +34,7 @@
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvem skrev Erasmus Montanus?"
   alternativer: ["Ludvig Holberg", "Petter Dass", "Henrik Wergeland", "Johan Herman Wessel"]
@@ -44,7 +44,7 @@
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvem skrev Nordlands Trompet?"
   alternativer: ["Petter Dass", "Ludvig Holberg", "Dorothe Engelbretsdatter", "Absalon Pederssøn Beyer"]
@@ -54,7 +54,7 @@
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvem regnes som den første kjente kvinnelige forfatteren i Norge?"
   alternativer: ["Dorothe Engelbretsdatter", "Camilla Collett", "Amalie Skram", "Magdalene Thoresen"]
@@ -64,7 +64,7 @@
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Når kom reformasjonen til Danmark-Norge?"
   alternativer: ["1536 og 1537", "1814", "1350", "1905"]
@@ -74,17 +74,17 @@
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva gjør Holberg narr av i Erasmus Montanus?"
-  alternativer: ["Hovmod og folk som heller vil vinne en diskusjon enn finne sannheten", "Kongen og adelen", "Naturen og bondelivet", "Kirken og presten"]
+  alternativer: ["Hovmod og folk som heller vil vinne en diskusjon enn finne sannheten", "Kongen og adelen, som tar fra bøndene både jord og penger", "Naturen og bondelivet, som han mener er bedre enn byen", "Kirken og presten, som han mener lurer folk i bygda"]
   riktig: 0
   forklaring: "Erasmus vil vise hvor lærd han er, og bygda vil heller ha rett enn lære noe."
 - id: vgs-tid-fv-wessel
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva slags tekst er Kierlighed uden Strømper av Johan Herman Wessel?"
   alternativer: ["En parodi på tragedien", "En salme", "En saga", "Et folkeeventyr"]
@@ -94,7 +94,7 @@
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken periode passer utdraget best inn i?"
   utdrag: "Hva er vel livet? En røyk som forsvinner, en blomst som visner før kvelden."
@@ -105,7 +105,7 @@
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken periode passer utdraget best inn i?"
   utdrag: "I dag står jeg i silke og gull, i morgen ligger jeg i kisten kald."
@@ -116,10 +116,10 @@
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken periode passer utdraget best inn i?"
-  utdrag: "Tenk selv, og tro ikke på noe bare fordi presten eller naboen sier det."
+  utdrag: "Bruk fornuften din, og tro ikke på noe bare fordi presten eller naboen sier det."
   alternativer: ["Opplysningstid", "Barokk", "Romantikk", "Realisme"]
   riktig: 0
   forklaring: "Oppfordringen til å bruke fornuften er typisk for opplysningstiden."
@@ -127,10 +127,10 @@
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken periode passer utdraget best inn i?"
-  utdrag: "Studenten kom hjem fra byen og ville bevise for alle at han kunne latin, men ingen forsto et ord."
+  utdrag: "Studenten kom hjem fra byen og beviste på latin at moren hans var en stein, og ingen i bygda klarte å motsi ham."
   alternativer: ["Opplysningstid", "Barokk", "Romantikk", "Realisme"]
   riktig: 0
   forklaring: "Satiren gjør narr av falsk lærdom. Det er typisk for opplysningstiden."
@@ -138,7 +138,7 @@
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken periode passer utdraget best inn i?"
   utdrag: "O Gud, du som er lyset i min mørke natt, la meg ikke falle når døden kommer."
@@ -149,29 +149,29 @@
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken periode passer utdraget best inn i?"
-  utdrag: "Kunnskap gjør folket fritt. Lær barna å lese, og samfunnet blir bedre."
+  utdrag: "Fornuften er menneskets beste veileder. Den som lærer å tenke selv, slipper å frykte spøkelser og varsler."
   alternativer: ["Opplysningstid", "Barokk", "Romantikk", "Realisme"]
   riktig: 0
-  forklaring: "Troen på kunnskap og folkeopplysning er typisk for opplysningstiden."
+  forklaring: "Troen på fornuften og kampen mot overtro er typisk for opplysningstiden."
 - id: vgs-tid-m-periode-7
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken periode passer utdraget best inn i?"
-  utdrag: "Mens han snakket om alle bøkene han hadde lest, gikk huset hans i forfall."
+  utdrag: "Magisteren kunne disputere på latin om alt mellom himmel og jord, men han visste ikke hva en ku spiste."
   alternativer: ["Opplysningstid", "Barokk", "Romantikk", "Realisme"]
   riktig: 0
-  forklaring: "Teksten bruker satire mot tom lærdom. Det er typisk for opplysningstiden."
+  forklaring: "Teksten gjør narr av lærdom som ikke er til nytte. Slik satire er typisk for opplysningstiden."
 - id: vgs-tid-m-periode-8
   type: flervalg
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken periode passer utdraget best inn i?"
   utdrag: "Den fagre rosen, rød som blod, blir støv og aske, så hvorfor er du stolt?"
@@ -182,7 +182,7 @@
   type: rekkefolge
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett periodene i kronologisk rekkefølge, fra tidligst til senest."
   elementer: ["Norrøn tid", "Reformasjon og humanisme", "Barokk", "Opplysningstid", "Romantikk", "Realisme"]
@@ -191,7 +191,7 @@
   type: sortering
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Er trekket typisk for barokken eller opplysningstiden?"
   kategorier: ["Barokk", "Opplysningstid"]
@@ -207,7 +207,7 @@
   type: skriv
   kapittel: tidlig-nytid-vgs
   mal: [mvg2-02]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv et avsnitt der du drøfter hvordan utdraget er relevant i dag."
   utdrag: "«Alle i bygda var enige om at jorden var flat. Studenten visste bedre, men da han så at ingen ville høre, sa han det de ville høre, for han ville gifte seg og få fred.» (Gjenfortalt for øving etter Holbergs Erasmus Montanus.)"

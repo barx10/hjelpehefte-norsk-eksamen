@@ -5,7 +5,7 @@ kategori: modelltekst
 nivaa: ['10', 'vg3']
 status: godkjent
 oppgave: "Analyse av en sammensatt reklametekst for Lerum eplejus i ny pakning"
-forfatter: "Åsa Abusland"
+forfatter: "NDLA"
 lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
 kilde: ""

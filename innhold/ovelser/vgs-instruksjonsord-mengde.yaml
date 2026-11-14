@@ -1,7 +1,7 @@
 - id: vgs-instr-m-marker-1
   type: marker
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker instruksjonsordene i oppgaven."
   tekst: "Skriv en fagartikkel der du [[gjør rede for]] synet på dialekt i vedlegg 1, og [[drøfter]] om dialektene er i ferd med å forsvinne."
@@ -9,7 +9,7 @@
 - id: vgs-instr-m-marker-2
   type: marker
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker instruksjonsordene i oppgaven."
   tekst: "[[Tolk]] diktet. [[Vis til]] eksempler fra teksten."
@@ -17,7 +17,7 @@
 - id: vgs-instr-m-marker-3
   type: marker
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker instruksjonsordene i oppgaven."
   tekst: "[[Analyser]] hvordan avsenderen prøver å overbevise leserne, og [[vurder]] om teksten lykkes."
@@ -25,7 +25,7 @@
 - id: vgs-instr-m-marker-4
   type: marker
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker instruksjonsordene i oppgaven."
   tekst: "Skriv et essay der du [[utforsker]] hva vennskap betyr for unge i dag."
@@ -33,7 +33,7 @@
 - id: vgs-instr-m-marker-5
   type: marker
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker instruksjonsordene i oppgaven."
   tekst: "[[Sammenlign]] hvordan de to novellene framstiller ensomhet."
@@ -41,15 +41,15 @@
 - id: vgs-instr-m-marker-6
   type: marker
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker instruksjonsordene i oppgaven."
-  tekst: "[[Reflekter]] over hvordan sosiale medier påvirker språket vårt. [[Bruk]] egne erfaringer og vedleggene."
-  forklaring: "«Reflekter» og «bruk» er instruksjonsordene. Du skal veksle mellom erfaring og kunnskap."
+  tekst: "[[Reflekter]] over hvordan sosiale medier påvirker språket vårt. [[Vis til]] egne erfaringer og vedleggene."
+  forklaring: "«Reflekter» og «vis til» er instruksjonsordene. Du skal veksle mellom erfaring og kunnskap og bruke eksempler."
 - id: vgs-instr-m-marker-7
   type: marker
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker instruksjonsordene i oppgaven."
   tekst: "Skriv en retorisk analyse av vedlegg 2. [[Bruk fagspråk]], og [[vurder]] hvor godt teksten treffer mottakeren."
@@ -57,7 +57,7 @@
 - id: vgs-instr-m-marker-8
   type: marker
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker instruksjonsordene i oppgaven."
   tekst: "[[Gjør rede for]] den retoriske situasjonen, og [[analyser]] hvordan teksten bruker appellformene."
@@ -65,7 +65,7 @@
 - id: vgs-instr-m-marker-9
   type: marker
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker instruksjonsordene i oppgaven."
   tekst: "Skriv en litterær tolkning der du [[sammenligner]] de to diktene. [[Vis til]] konkrete steder i tekstene."
@@ -73,15 +73,15 @@
 - id: vgs-instr-m-marker-10
   type: marker
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker instruksjonsordene i oppgaven."
-  tekst: "[[Drøft]] påstanden «Ungdom leser mindre enn før». [[Bruk]] minst to av vedleggene."
-  forklaring: "«Drøft» og «bruk» er instruksjonsordene. Du vurderer påstanden fra flere sider og bruker vedleggene."
+  tekst: "[[Drøft]] påstanden «Ungdom leser mindre enn før». [[Vis til]] minst to av vedleggene."
+  forklaring: "«Drøft» og «vis til» er instruksjonsordene. Du vurderer påstanden fra flere sider og bruker eksempler fra vedleggene."
 - id: vgs-instr-m-betyr-1
   type: flervalg
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva ber oppgaven deg om å gjøre?"
   utdrag: "Gjør rede for hvordan fornorskingspolitikken rammet samiske språk."
@@ -91,7 +91,7 @@
 - id: vgs-instr-m-betyr-2
   type: flervalg
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva ber oppgaven deg om å gjøre?"
   utdrag: "Drøft om sidemål bør være obligatorisk i skolen."
@@ -101,7 +101,7 @@
 - id: vgs-instr-m-betyr-3
   type: flervalg
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva ber oppgaven deg om å gjøre?"
   utdrag: "Utforsk hva det vil si å være fri."
@@ -111,7 +111,7 @@
 - id: vgs-instr-m-betyr-4
   type: flervalg
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva ber oppgaven deg om å gjøre?"
   utdrag: "Reflekter over hva hjemsted betyr for identiteten din."
@@ -121,7 +121,7 @@
 - id: vgs-instr-m-betyr-5
   type: flervalg
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva ber oppgaven deg om å gjøre?"
   utdrag: "Tolk novellen «Ventetid»."
@@ -131,7 +131,7 @@
 - id: vgs-instr-m-betyr-6
   type: flervalg
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva ber oppgaven deg om å gjøre?"
   utdrag: "Analyser reklamefilmen i vedlegg 3."
@@ -141,7 +141,7 @@
 - id: vgs-instr-m-betyr-7
   type: flervalg
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva ber oppgaven deg om å gjøre?"
   utdrag: "Sammenlign synet på naturen i de to diktene."
@@ -151,7 +151,7 @@
 - id: vgs-instr-m-betyr-8
   type: flervalg
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva ber oppgaven deg om å gjøre?"
   utdrag: "Vurder om talen er overbevisende for unge lyttere."
@@ -161,7 +161,7 @@
 - id: vgs-instr-m-betyr-9
   type: flervalg
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva ber oppgaven deg om å gjøre?"
   utdrag: "Gjør rede for hva som kjennetegner modernismen."
@@ -171,7 +171,7 @@
 - id: vgs-instr-m-betyr-10
   type: flervalg
   kapittel: instruksjonsord-vgs
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hva ber oppgaven deg om å gjøre?"
   utdrag: "Drøft fordeler og ulemper ved at engelsk brukes mer i norsk hverdag."

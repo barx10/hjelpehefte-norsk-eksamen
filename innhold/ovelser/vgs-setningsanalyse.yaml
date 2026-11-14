@@ -1,0 +1,228 @@
+- id: vgs-setn-ind-1
+  type: marker
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Marker det indirekte objektet."
+  tekst: "Hun ga [[broren]] en bok."
+  forklaring: "Broren får boka. Han er indirekte objekt. «En bok» er objekt."
+- id: vgs-setn-ind-2
+  type: marker
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Marker det indirekte objektet."
+  tekst: "Læreren viste [[elevene]] filmen."
+  forklaring: "Elevene får se filmen. De er indirekte objekt. «Filmen» er objekt."
+- id: vgs-setn-ind-3
+  type: marker
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Marker det indirekte objektet."
+  tekst: "Mormor sendte [[meg]] et brev."
+  forklaring: "Jeg får brevet. «Meg» er indirekte objekt. «Et brev» er objekt."
+- id: vgs-setn-ind-4
+  type: marker
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Marker det indirekte objektet."
+  tekst: "Han fortalte [[venninnen sin]] en hemmelighet."
+  forklaring: "Venninnen får høre hemmeligheten. Hun er indirekte objekt."
+- id: vgs-setn-ledd2-1
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvilket setningsledd er «ikke» i setningen?"
+  utdrag: "Han kom ikke på festen."
+  alternativer: ["Setningsadverbial", "Subjekt", "Objekt", "Indirekte objekt"]
+  riktig: 0
+  forklaring: "«Ikke» sier noe om hele setningen. Det er et setningsadverbial."
+- id: vgs-setn-ledd2-2
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvilket setningsledd er «heldigvis» i setningen?"
+  utdrag: "Vi rakk heldigvis bussen."
+  alternativer: ["Setningsadverbial", "Subjekt", "Objekt", "Indirekte objekt"]
+  riktig: 0
+  forklaring: "«Heldigvis» sier hva avsenderen mener om det som skjer. Det er et setningsadverbial."
+- id: vgs-setn-ledd2-3
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvilket setningsledd er «kanskje» i setningen?"
+  utdrag: "Hun kommer kanskje i morgen."
+  alternativer: ["Setningsadverbial", "Subjekt", "Objekt", "Indirekte objekt"]
+  riktig: 0
+  forklaring: "«Kanskje» sier hvor sikkert noe er. Det er et setningsadverbial."
+- id: vgs-setn-ledd2-4
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvilket setningsledd er «broren» i setningen?"
+  utdrag: "Hun ga broren en gave."
+  alternativer: ["Indirekte objekt", "Setningsadverbial", "Subjekt", "Objekt"]
+  riktig: 0
+  forklaring: "Broren får gaven. Han er indirekte objekt."
+- id: vgs-setn-ledd2-5
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvilket setningsledd er «en gave» i setningen?"
+  utdrag: "Hun ga broren en gave."
+  alternativer: ["Objekt", "Setningsadverbial", "Subjekt", "Indirekte objekt"]
+  riktig: 0
+  forklaring: "Gaven er det som blir gitt. Det er objekt."
+- id: vgs-setn-ledd2-6
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvilket setningsledd er «elevene» i setningen?"
+  utdrag: "Elevene skrev en fagartikkel."
+  alternativer: ["Subjekt", "Setningsadverbial", "Objekt", "Indirekte objekt"]
+  riktig: 0
+  forklaring: "Hvem skrev? Elevene. De er subjekt."
+- id: vgs-setn-type-1
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva slags leddsetning er «at hun kommer»?"
+  utdrag: "Jeg vet at hun kommer."
+  alternativer: ["At-setning", "Spørrende leddsetning", "Relativsetning", "Adverbial leddsetning"]
+  riktig: 0
+  forklaring: "Leddsetningen begynner med «at»."
+- id: vgs-setn-type-2
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva slags leddsetning er «om han vil være med»?"
+  utdrag: "Vi lurer på om han vil være med."
+  alternativer: ["Spørrende leddsetning", "At-setning", "Relativsetning", "Adverbial leddsetning"]
+  riktig: 0
+  forklaring: "Leddsetningen begynner med «om» og stiller et spørsmål."
+- id: vgs-setn-type-3
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva slags leddsetning er «hvem som vant»?"
+  utdrag: "Ingen vet hvem som vant."
+  alternativer: ["Spørrende leddsetning", "At-setning", "Relativsetning", "Adverbial leddsetning"]
+  riktig: 0
+  forklaring: "Leddsetningen begynner med spørreordet «hvem»."
+- id: vgs-setn-type-4
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva slags leddsetning er «som bor i Bodø»?"
+  utdrag: "Bestemor, som bor i Bodø, fyller nitti år."
+  alternativer: ["Relativsetning", "At-setning", "Spørrende leddsetning", "Adverbial leddsetning"]
+  riktig: 0
+  forklaring: "Leddsetningen begynner med «som» og beskriver bestemor."
+- id: vgs-setn-type-5
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva slags leddsetning er «fordi det regnet»?"
+  utdrag: "Vi ble inne fordi det regnet."
+  alternativer: ["Adverbial leddsetning", "At-setning", "Spørrende leddsetning", "Relativsetning"]
+  riktig: 0
+  forklaring: "Leddsetningen sier hvorfor. Den fungerer som et adverbial."
+- id: vgs-setn-type-6
+  type: flervalg
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva slags leddsetning er «når klokka ringer»?"
+  utdrag: "Når klokka ringer, går vi ut."
+  alternativer: ["Adverbial leddsetning", "At-setning", "Spørrende leddsetning", "Relativsetning"]
+  riktig: 0
+  forklaring: "Leddsetningen sier når. Den fungerer som et adverbial."
+- id: vgs-setn-analyse-1
+  type: sortering
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Analyser setningen «I går ga mormor meg en bok.» Hvilket setningsledd er hver del?"
+  kategorier: ["Subjekt", "Verbal", "Objekt", "Indirekte objekt", "Adverbial"]
+  elementer:
+    - { tekst: "I går", kategori: 4 }
+    - { tekst: "ga", kategori: 1 }
+    - { tekst: "mormor", kategori: 0 }
+    - { tekst: "meg", kategori: 3 }
+    - { tekst: "en bok", kategori: 2 }
+  forklaring: "Finn verbalet først. Spør så hvem som gjør noe (subjekt), hva det går ut over (objekt) og hvem som får noe (indirekte objekt). Resten er adverbial."
+- id: vgs-setn-analyse-2
+  type: sortering
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Analyser setningen «Læreren viste elevene filmen etter lunsj.» Hvilket setningsledd er hver del?"
+  kategorier: ["Subjekt", "Verbal", "Objekt", "Indirekte objekt", "Adverbial"]
+  elementer:
+    - { tekst: "Læreren", kategori: 0 }
+    - { tekst: "viste", kategori: 1 }
+    - { tekst: "elevene", kategori: 3 }
+    - { tekst: "filmen", kategori: 2 }
+    - { tekst: "etter lunsj", kategori: 4 }
+  forklaring: "Finn verbalet først. Spør så hvem som gjør noe (subjekt), hva det går ut over (objekt) og hvem som får noe (indirekte objekt). Resten er adverbial."
+- id: vgs-setn-analyse-3
+  type: sortering
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Analyser setningen «På fredag sendte Ali bestefaren et brev.» Hvilket setningsledd er hver del?"
+  kategorier: ["Subjekt", "Verbal", "Objekt", "Indirekte objekt", "Adverbial"]
+  elementer:
+    - { tekst: "På fredag", kategori: 4 }
+    - { tekst: "sendte", kategori: 1 }
+    - { tekst: "Ali", kategori: 0 }
+    - { tekst: "bestefaren", kategori: 3 }
+    - { tekst: "et brev", kategori: 2 }
+  forklaring: "Finn verbalet først. Spør så hvem som gjør noe (subjekt), hva det går ut over (objekt) og hvem som får noe (indirekte objekt). Resten er adverbial."
+- id: vgs-setn-analyse-4
+  type: sortering
+  kapittel: setningsoppbygging-vgs
+  mal: [mvg1-08]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Analyser setningen «Forfatteren fortalte publikum en historie i går.» Hvilket setningsledd er hver del?"
+  kategorier: ["Subjekt", "Verbal", "Objekt", "Indirekte objekt", "Adverbial"]
+  elementer:
+    - { tekst: "Forfatteren", kategori: 0 }
+    - { tekst: "fortalte", kategori: 1 }
+    - { tekst: "publikum", kategori: 3 }
+    - { tekst: "en historie", kategori: 2 }
+    - { tekst: "i går", kategori: 4 }
+  forklaring: "Finn verbalet først. Spør så hvem som gjør noe (subjekt), hva det går ut over (objekt) og hvem som får noe (indirekte objekt). Resten er adverbial."

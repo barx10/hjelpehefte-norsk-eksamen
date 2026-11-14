@@ -2,7 +2,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med tidsadverbialet."
   elementer: ["i går", "kjøpte", "hun", "en ny sykkel"]
@@ -11,7 +11,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med tidsadverbialet."
   elementer: ["etter skolen", "trener", "vi", "fotball"]
@@ -20,7 +20,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med tidsadverbialet."
   elementer: ["neste år", "skal", "jeg", "flytte", "til Tromsø"]
@@ -29,7 +29,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med tidsadverbialet."
   elementer: ["i 1879", "skrev", "Henrik Ibsen", "Et dukkehjem"]
@@ -38,7 +38,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med tidsadverbialet."
   elementer: ["i løpet av natten", "hadde", "snøen", "dekket hele byen"]
@@ -47,7 +47,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med tidsadverbialet."
   elementer: ["hver morgen", "går", "bestefar", "en tur langs sjøen"]
@@ -56,7 +56,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med tidsadverbialet."
   elementer: ["etter krigen", "ble", "romanen", "mer eksperimentell"]
@@ -65,7 +65,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med tidsadverbialet."
   elementer: ["i morgen", "får", "elevene", "eksamensoppgaven"]
@@ -74,7 +74,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med stedsadverbialet."
   elementer: ["i Bergen", "regner", "det", "nesten hver dag"]
@@ -83,7 +83,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med stedsadverbialet."
   elementer: ["på biblioteket", "fant", "han", "en gammel avis"]
@@ -92,7 +92,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med stedsadverbialet."
   elementer: ["i novellen", "møter", "vi", "en ensom mann"]
@@ -101,16 +101,16 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med stedsadverbialet."
-  elementer: ["ute på jordet", "sto", "en hest", "helt stille"]
-  forklaring: "Verbalet står på andre plass i en hovedsetning. Når setningen begynner med et stedsadverbial, kommer subjektet «en hest» etter verbalet «sto»: «Ute på jordet sto en hest helt stille»."
+  elementer: ["ute på jordet", "sto", "hesten", "helt stille"]
+  forklaring: "Verbalet står på andre plass i en hovedsetning. Når setningen begynner med et stedsadverbial, kommer subjektet «hesten» etter verbalet «sto»: «Ute på jordet sto hesten helt stille»."
 - id: vgs-setn-m-rekke-13
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med stedsadverbialet."
   elementer: ["i denne teksten", "bruker", "forfatteren", "mange metaforer"]
@@ -119,7 +119,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med leddsetningen."
   elementer: ["når jeg kommer hjem", "lager", "jeg", "middag"]
@@ -128,7 +128,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med leddsetningen."
   elementer: ["fordi det regnet", "ble", "kampen", "avlyst"]
@@ -137,7 +137,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med leddsetningen."
   elementer: ["hvis du øver hver dag", "blir", "du", "bedre"]
@@ -146,7 +146,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med leddsetningen."
   elementer: ["selv om teksten er kort", "inneholder", "den", "mange virkemidler"]
@@ -155,7 +155,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med leddsetningen."
   elementer: ["da hun åpnet døra", "så", "hun", "brevet på gulvet"]
@@ -164,7 +164,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med leddsetningen."
   elementer: ["etter at filmen var slutt", "gikk", "vi", "hjem"]
@@ -173,7 +173,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med objektet."
   elementer: ["den filmen", "har", "jeg", "sett"]
@@ -182,7 +182,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge i hovedsetningen. Setningen skal begynne med objektet."
   elementer: ["slike ord", "bruker", "vi", "ofte"]
@@ -191,7 +191,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge. Setningen skal begynne med hovedsetningen."
   elementer: ["vi går ut", "hvis", "det", "ikke", "regner"]
@@ -200,7 +200,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge. Setningen skal begynne med hovedsetningen."
   elementer: ["hun fant en bok", "som", "hun", "aldri", "hadde lest"]
@@ -209,7 +209,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge. Setningen skal begynne med hovedsetningen."
   elementer: ["han tok bussen", "selv om", "han", "ikke", "hadde", "billett"]
@@ -218,7 +218,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge. Setningen skal begynne med hovedsetningen."
   elementer: ["læreren lurte på", "om", "vi", "alltid", "gjorde leksene"]
@@ -227,7 +227,7 @@
   type: rekkefolge
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Sett ordene i riktig rekkefølge. Setningen skal begynne med hovedsetningen."
   elementer: ["det finnes bøker", "som", "mange", "aldri", "leser"]
@@ -236,7 +236,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "I går vi spiste pizza hos mormor."
   feil: "vi spiste"
@@ -246,7 +246,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Etter skolen jeg går alltid rett hjem."
   feil: "jeg går"
@@ -256,7 +256,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "I helgen vi skal besøke tante i Molde."
   feil: "vi skal"
@@ -266,7 +266,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "I diktet forfatteren bruker mange bilder."
   feil: "forfatteren bruker"
@@ -276,7 +276,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Om sommeren familien drar til hytta."
   feil: "familien drar"
@@ -286,7 +286,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Neste uke klassen har heldagsprøve i norsk."
   feil: "klassen har"
@@ -296,7 +296,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "I denne novellen hovedpersonen er veldig ensom."
   feil: "hovedpersonen er"
@@ -306,7 +306,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Heldigvis vi rakk bussen."
   feil: "vi rakk"
@@ -316,7 +316,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Derfor mange unge velger å flytte til byen."
   feil: "mange unge velger"
@@ -326,7 +326,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Til slutt Nora forlater både mannen og barna."
   feil: "Nora forlater"
@@ -336,7 +336,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "I fjor vi hadde en lang og varm sommer."
   feil: "vi hadde"
@@ -346,7 +346,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Når jeg kommer hjem, jeg lager middag."
   feil: "jeg lager"
@@ -356,7 +356,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Fordi bussen var sen, vi kom for sent til timen."
   feil: "vi kom"
@@ -366,7 +366,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Hvis du leser oppgaven nøye, du skriver et bedre svar."
   feil: "du skriver"
@@ -376,7 +376,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Selv om teksten er kort, den sier mye om sorg."
   feil: "den sier"
@@ -386,7 +386,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Da ferien var over, alle var lei av å slappe av."
   feil: "alle var"
@@ -396,7 +396,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Mens jeg ventet, jeg leste en bok."
   feil: "jeg leste"
@@ -406,7 +406,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Etter at hun hadde lest brevet, hun begynte å gråte."
   feil: "hun begynte"
@@ -416,7 +416,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Siden det var søndag, butikken var stengt."
   feil: "butikken var"
@@ -426,7 +426,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Hvis han kommer ikke i dag, må vi starte uten ham."
   feil: "kommer ikke"
@@ -436,7 +436,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Det er en by som hun hadde aldri besøkt før."
   feil: "hadde aldri"
@@ -446,7 +446,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Elevene som leverte ikke oppgaven, fikk en ny frist."
   feil: "leverte ikke"
@@ -456,7 +456,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Læreren spurte om vi hadde ikke gjort leksene."
   feil: "hadde ikke"
@@ -466,7 +466,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Når du forstår ikke oppgaven, kan du spørre læreren."
   feil: "forstår ikke"
@@ -476,7 +476,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Hun spurte om jeg hadde aldri lest Ibsen."
   feil: "hadde aldri"
@@ -486,7 +486,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Ord som brukes ikke lenger, kan forsvinne fra språket."
   feil: "brukes ikke"
@@ -496,7 +496,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Selv om hun var alltid trøtt, gikk hun på trening."
   feil: "var alltid"
@@ -506,7 +506,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Mens han var ikke hjemme, ringte telefonen."
   feil: "var ikke"
@@ -516,7 +516,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Forfatteren skildrer en mann som sier aldri hva han føler."
   feil: "sier aldri"
@@ -526,7 +526,7 @@
   type: finnfeil
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Selv om teksten har ikke mange bilder, er den sterk."
   feil: "har ikke"
@@ -536,7 +536,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker subjektet i setningen."
   tekst: "I fjor flyttet [[familien]] til Bodø."
@@ -545,7 +545,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker subjektet i setningen."
   tekst: "Etter middagen vasket [[Ali og Sara]] opp."
@@ -554,7 +554,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker subjektet i setningen."
   tekst: "[[Den eldste søsteren]] skriver dikt om natten."
@@ -563,7 +563,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker subjektet i setningen."
   tekst: "På stranden lå [[en gammel båt]]."
@@ -572,7 +572,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker subjektet i setningen."
   tekst: "Hvorfor gråter [[gutten]]?"
@@ -581,7 +581,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker subjektet i setningen."
   tekst: "I romanen beskriver [[forfatteren]] livet på en gård."
@@ -590,7 +590,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker subjektet i setningen."
   tekst: "Om morgenen var [[gatene]] helt tomme."
@@ -599,7 +599,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker subjektet i setningen."
   tekst: "Til slutt forlater [[Nora]] huset."
@@ -608,7 +608,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker verbalet i setningen."
   tekst: "Hun [[har lest]] alle bøkene i serien."
@@ -617,7 +617,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker verbalet i setningen."
   tekst: "I morgen [[skal]] vi [[reise]] til Trondheim."
@@ -626,7 +626,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker verbalet i setningen."
   tekst: "Diktet [[handler]] om sorg og håp."
@@ -635,7 +635,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker verbalet i setningen."
   tekst: "Etter kampen [[ble]] spillerne [[intervjuet]] av en journalist."
@@ -644,7 +644,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker verbalet i setningen."
   tekst: "Forfatteren [[bruker]] mange bilder i diktet."
@@ -653,7 +653,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker verbalet i setningen."
   tekst: "Hva [[har]] du [[gjort]] i helgen?"
@@ -662,7 +662,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker objektet i setningen."
   tekst: "Mormor strikket [[en rød genser]] til meg."
@@ -671,7 +671,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker objektet i setningen."
   tekst: "Elevene leste [[novellen]] i timen."
@@ -680,7 +680,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker objektet i setningen."
   tekst: "I går kjøpte jeg [[en ny telefon]]."
@@ -689,7 +689,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker objektet i setningen."
   tekst: "Hovedpersonen skriver [[et brev]] til broren sin."
@@ -698,7 +698,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker objektet i setningen."
   tekst: "Talen overbeviste [[publikum]]."
@@ -707,7 +707,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Marker objektet i setningen."
   tekst: "Mange unge bruker [[engelske ord]] i hverdagen."
@@ -716,7 +716,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Marker predikativet i setningen."
   tekst: "Etter turen var alle [[slitne]]."
@@ -725,7 +725,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Marker predikativet i setningen."
   tekst: "Hovedpersonen blir [[lærer]] i en liten bygd."
@@ -734,7 +734,7 @@
   type: marker
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Marker predikativet i setningen."
   tekst: "Været var [[kaldt og grått]] hele uka."
@@ -743,7 +743,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket setningsledd er «i går» i setningen «I går regnet det hele dagen»?"
   alternativer: ["Adverbial", "Subjekt", "Verbal", "Objekt"]
@@ -753,7 +753,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket setningsledd er «boka» i setningen «Jonas lånte boka på biblioteket»?"
   alternativer: ["Objekt", "Subjekt", "Verbal", "Predikativ"]
@@ -763,7 +763,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket setningsledd er «trøtt» i setningen «Etter treningen var hun trøtt»?"
   alternativer: ["Predikativ", "Subjekt", "Verbal", "Objekt"]
@@ -773,7 +773,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket setningsledd er «læreren» i setningen «I dag kom læreren for sent»?"
   alternativer: ["Subjekt", "Verbal", "Objekt", "Predikativ"]
@@ -783,7 +783,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket setningsledd er «i Oslo» i setningen «Søsteren min bor i Oslo»?"
   alternativer: ["Adverbial", "Subjekt", "Verbal", "Objekt"]
@@ -793,7 +793,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket setningsledd er «en lang tale» i setningen «Statsministeren holdt en lang tale»?"
   alternativer: ["Objekt", "Subjekt", "Verbal", "Predikativ"]
@@ -803,7 +803,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket setningsledd er «diktet» i setningen «Diktet er skrevet i frie vers»?"
   alternativer: ["Subjekt", "Verbal", "Objekt", "Predikativ"]
@@ -813,7 +813,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket setningsledd er «nervøs» i setningen «Han ble nervøs før eksamen»?"
   alternativer: ["Predikativ", "Subjekt", "Verbal", "Objekt"]
@@ -823,7 +823,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Hvilket setningsledd er «har skrevet» i setningen «Hun har skrevet tre romaner»?"
   alternativer: ["Verbal", "Subjekt", "Objekt", "Predikativ"]
@@ -833,7 +833,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   spm: "Hvilket setningsledd er «fordi bussen var sen» i setningen «Vi kom for sent fordi bussen var sen»?"
   alternativer: ["Adverbial", "Subjekt", "Verbal", "Objekt"]
@@ -843,7 +843,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   spm: "Hvilket setningsledd er «at hun ikke kommer» i setningen «Jeg vet at hun ikke kommer»?"
   alternativer: ["Objekt", "Subjekt", "Verbal", "Predikativ"]
@@ -853,7 +853,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   spm: "Hvilket setningsledd er «når det blir mørkt» i setningen «Når det blir mørkt, tenner vi lys»?"
   alternativer: ["Adverbial", "Subjekt", "Verbal", "Objekt"]
@@ -863,7 +863,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Er «og» en konjunksjon eller en subjunksjon?"
   alternativer: ["Konjunksjon", "Subjunksjon"]
@@ -873,7 +873,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Er «men» en konjunksjon eller en subjunksjon?"
   alternativer: ["Konjunksjon", "Subjunksjon"]
@@ -883,7 +883,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Er «eller» en konjunksjon eller en subjunksjon?"
   alternativer: ["Konjunksjon", "Subjunksjon"]
@@ -893,7 +893,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Er «for» en konjunksjon eller en subjunksjon?"
   alternativer: ["Konjunksjon", "Subjunksjon"]
@@ -903,7 +903,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Er «fordi» en konjunksjon eller en subjunksjon?"
   alternativer: ["Subjunksjon", "Konjunksjon"]
@@ -913,7 +913,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Er «at» en konjunksjon eller en subjunksjon?"
   alternativer: ["Subjunksjon", "Konjunksjon"]
@@ -923,7 +923,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Er «hvis» en konjunksjon eller en subjunksjon?"
   alternativer: ["Subjunksjon", "Konjunksjon"]
@@ -933,7 +933,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Er «når» en konjunksjon eller en subjunksjon?"
   alternativer: ["Subjunksjon", "Konjunksjon"]
@@ -943,7 +943,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Er «selv om» en konjunksjon eller en subjunksjon?"
   alternativer: ["Subjunksjon", "Konjunksjon"]
@@ -953,7 +953,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Er «mens» en konjunksjon eller en subjunksjon?"
   alternativer: ["Subjunksjon", "Konjunksjon"]
@@ -963,7 +963,7 @@
   type: sortering
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Er delen en hovedsetning eller en leddsetning?"
   kategorier: ["Hovedsetning", "Leddsetning"]
@@ -979,7 +979,7 @@
   type: sortering
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Er delen en hovedsetning eller en leddsetning?"
   kategorier: ["Hovedsetning", "Leddsetning"]
@@ -995,7 +995,7 @@
   type: sortering
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Er delen en hovedsetning eller en leddsetning?"
   kategorier: ["Hovedsetning", "Leddsetning"]
@@ -1011,7 +1011,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Velg riktig bindeord: «Novellen er kort. ___ rommer den et helt liv.»"
   alternativer: ["Likevel", "Derfor", "Dessuten", "For eksempel"]
@@ -1021,7 +1021,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Velg riktig bindeord: «Avsenderen er lege. ___ får argumentene hennes ekstra tyngde.»"
   alternativer: ["Derfor", "Likevel", "Derimot", "Til slutt"]
@@ -1031,7 +1031,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Velg riktig bindeord: «Teksten bruker mange tall. ___ siterer den flere forskere.»"
   alternativer: ["Dessuten", "Likevel", "Derimot", "Altså"]
@@ -1041,7 +1041,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Velg riktig bindeord: «Diktet har en lys tone i starten. ___ blir stemningen mørk i siste strofe.»"
   alternativer: ["Derimot", "Derfor", "Dessuten", "For eksempel"]
@@ -1051,7 +1051,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Velg riktig bindeord: «Forfatteren bruker mange naturbilder. ___ blir havet beskrevet som «et åpent sår».»"
   alternativer: ["For eksempel", "Likevel", "Derimot", "Først"]
@@ -1061,7 +1061,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Velg riktig bindeord: «Skribenten bruker sterke ord, men gir få fakta. ___ er teksten mer preget av patos enn av logos.»"
   alternativer: ["Altså", "Dessuten", "Derimot", "For eksempel"]
@@ -1071,7 +1071,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Velg riktig bindeord: «Mange unge bruker engelske ord. ___ er norsk fremdeles hovedspråket deres.»"
   alternativer: ["Likevel", "Derfor", "Dessuten", "Altså"]
@@ -1081,7 +1081,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Velg riktig bindeord: «Talen ble holdt dagen etter ulykken. ___ traff den mange av tilhørerne.»"
   alternativer: ["Derfor", "Likevel", "Derimot", "For eksempel"]
@@ -1091,7 +1091,7 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Velg riktig bindeord: «Først presenterer artikkelen problemet. ___ kommer forfatteren med et forslag til løsning.»"
   alternativer: ["Deretter", "Likevel", "Derimot", "Dessuten"]
@@ -1101,9 +1101,9 @@
   type: flervalg
   kapittel: setningsoppbygging-vgs
   mal: [mvg1-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
-  spm: "Velg riktig bindeord: «Personene snakker lite med hverandre. ___ forstår leseren at noe er galt.»"
-  alternativer: ["Likevel", "Derimot", "Dessuten", "For eksempel"]
+  spm: "Velg riktig bindeord: «Personene smiler og ler under hele middagen. ___ forstår leseren at noe er galt.»"
+  alternativer: ["Likevel", "Derfor", "Dessuten", "For eksempel"]
   riktig: 0
-  forklaring: "Selv om personene sier lite, forstår leseren mye. «Likevel» viser motsetning."
+  forklaring: "Selv om personene virker glade, forstår leseren at noe er galt. «Likevel» viser motsetning."

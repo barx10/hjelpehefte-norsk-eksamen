@@ -23,6 +23,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
   import { stokkForskjellig, ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus } from '../lib/tekstverktoy';
   import { lagTilbakemelding, lagEgenvurdering, lagOmskriving, type KapittelLenker } from '../lib/tilbakemelding';
   import { sjangerFor } from '../lib/tekstsjekk';
+  import { beleggFinnes } from '../lib/revisjon';
   import { lesSkriveutkast, lagreSkriveutkast } from '../lib/lager';
   import type { Fremgang } from '../lib/fremgang';
 
@@ -71,11 +72,13 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     [4, 'Regel 4: oppramsing'],
     [5, 'Regel 5: innskutte ledd'],
     [6, 'Regel 6: svarord og tiltaleord'],
-    [7, 'Regel 7: leddsetning inne i setningen'],
-    [8, 'Regel 8: som-setning som ikke er nødvendig'],
-    [9, 'Regel 9: etterstilt tillegg'],
-    [10, 'Regel 10: flere adjektiver'],
-    [11, 'Regel 11: når det ikke skal være komma'],
+    [7, 'Regel 7: replikk og sitat'],
+    [8, 'Regel 8: leddsetning inne i setningen'],
+    [9, 'Regel 9: som-setning som ikke er nødvendig'],
+    [10, 'Regel 10: forklarende tillegg'],
+    [11, 'Regel 11: flere adjektiver'],
+    [12, 'Regel 12: når det ikke skal være komma'],
+    [13, 'Regel 13: sidestilte leddsetninger'],
   ];
   const rot = document.getElementById('runner') as HTMLElement;
   const data: Ovelse[] = JSON.parse(document.getElementById('ovelser-data')!.textContent ?? '[]');
@@ -636,19 +639,38 @@ const { ovelser, tittel, skrivedata } = Astro.props;
       window.clearTimeout(timer);
       lagreSkriveutkast(o.id, tekst);
 
-      const n = ordTelling(tekst);
-      const status = ordStatus(n, o.ord);
-      const nok = brukteNokkelord(tekst, o.nokkelord);
+      // Lengde, begreper, sitat og avsnitt. Fylles på nytt når eleven bytter inn et omskrevet avsnitt.
       const auto = el('ul', { class: 'sjekkliste' });
-      const punkt = (ok: boolean, tekst_: string) => auto.append(el('li', { class: ok ? 'ok' : 'mangler' }, el('span', { class: 'ikon', 'aria-hidden': 'true' }, ok ? '✓' : '✗'), tekst_));
-      punkt(status === 'ok', status === 'ok' ? `Lengde: ${n} ord, innenfor målet.` : `Lengde: ${n} ord. Målet er ${o.ord.min} til ${o.ord.maks}.`);
-      if (o.nokkelord.length) {
-        const nok_ = nok.brukt.length >= o.nokkelordMinst;
-        const alle = o.nokkelordMinst >= o.nokkelord.length;
-        punkt(nok_, `${alle ? 'Begreper som bør være med' : `Bruk minst ${o.nokkelordMinst} av disse`}: ${nok.brukt.length} av ${o.nokkelord.length} brukt. Brukt: ${nok.brukt.join(', ') || 'ingen'}. Ikke brukt: ${nok.mangler.join(', ') || 'ingen'}.`);
-      }
-      if (o.sitat) punkt(harSitat(tekst), harSitat(tekst) ? 'Du har brukt sitat i anførselstegn.' : 'Du har ikke brukt sitat i anførselstegn.');
-      if (o.ord.maks > 150) punkt(antallAvsnitt(tekst) >= 2, `Avsnitt: ${antallAvsnitt(tekst)}. Hopp over en linje mellom avsnittene.`);
+      const fyllAuto = (svar: string) => {
+        auto.replaceChildren();
+        const n = ordTelling(svar);
+        const status = ordStatus(n, o.ord);
+        const nok = brukteNokkelord(svar, o.nokkelord);
+        const punkt = (ok: boolean, tekst_: string) => auto.append(el('li', { class: ok ? 'ok' : 'mangler' }, el('span', { class: 'ikon', 'aria-hidden': 'true' }, ok ? '✓' : '✗'), tekst_));
+        punkt(status === 'ok', status === 'ok' ? `Lengde: ${n} ord, innenfor målet.` : `Lengde: ${n} ord. Målet er ${o.ord.min} til ${o.ord.maks}.`);
+        if (o.nokkelord.length) {
+          const nok_ = nok.brukt.length >= o.nokkelordMinst;
+          const alle = o.nokkelordMinst >= o.nokkelord.length;
+          punkt(nok_, `${alle ? 'Begreper som bør være med' : `Bruk minst ${o.nokkelordMinst} av disse`}: ${nok.brukt.length} av ${o.nokkelord.length} brukt. Brukt: ${nok.brukt.join(', ') || 'ingen'}. Ikke brukt: ${nok.mangler.join(', ') || 'ingen'}.`);
+        }
+        if (o.sitat) punkt(harSitat(svar), harSitat(svar) ? 'Du har brukt sitat i anførselstegn.' : 'Du har ikke brukt sitat i anførselstegn.');
+        if (o.ord.maks > 150) punkt(antallAvsnitt(svar) >= 2, `Avsnitt: ${antallAvsnitt(svar)}. Hopp over en linje mellom avsnittene.`);
+      };
+      fyllAuto(tekst);
+
+      // Øvelsen er mestret når alle punktene er krysset av og har belegg som står i svaret.
+      let gjeldende = tekst;
+      const mestringsstatus = el('p', { class: 'tastehint', 'aria-live': 'polite' });
+      const ferdigePunkter = () => {
+        const v = vurderinger();
+        return o.kriterier.filter((_, i) => v[i]?.ok && beleggFinnes(gjeldende, v[i]!.belegg)).length;
+      };
+      const oppdaterMestring = () => {
+        const n = ferdigePunkter();
+        mestringsstatus.textContent = n === o.kriterier.length
+          ? 'Alle punktene er krysset av og har belegg. Øvelsen regnes som mestret.'
+          : `Øvelsen regnes som mestret når alle punktene er krysset av og har en setning fra svaret ditt som belegg. Ferdig: ${n} av ${o.kriterier.length}.`;
+      };
 
       // Egenvurdering med belegg og omskriving. Bygges på nytt når eleven bytter inn et omskrevet avsnitt.
       const revisjonsflate = el('div', {});
@@ -659,20 +681,24 @@ const { ovelser, tittel, skrivedata } = Astro.props;
           tekst: svar, sjanger: sjangerFor(o.kapittelId), oppgave: o.utdrag ? `${o.oppdrag}\n\n${o.utdrag}` : o.oppdrag,
           kjennetegn: o.kriterier, trinn: skrivedata.trinn, kapitler: skrivedata.kapitler, skrivefeil: skrivedata.skrivefeil, visOversikt: o.ord.maks > 150,
         });
-        const ev = lagEgenvurdering({ kjennetegn: o.kriterier, tekst: svar, prefiks: id, overskrift: 'Vurder deg selv: stemmer dette med teksten din?', lagret: forrige, vedEndring: () => {} });
+        const ev = lagEgenvurdering({ kjennetegn: o.kriterier, tekst: svar, prefiks: id, overskrift: 'Vurder deg selv: stemmer dette med teksten din?', lagret: forrige, vedEndring: () => oppdaterMestring() });
         vurderinger = ev.vurdering;
         const om = lagOmskriving({
           tekst: svar, prefiks: id, kjennetegn: o.kriterier, vurdering: ev.vurdering,
           vedBytt: (ny) => {
             felt.value = ny;
+            gjeldende = ny;
             oppdaterTeller();
+            fyllAuto(ny);
             byggRevisjon(ny);
+            oppdaterMestring();
             revisjonsflate.querySelector('.omskriving h4')?.after(el('p', { class: 'melding', role: 'status' }, 'Avsnittet er byttet inn, og tilbakemeldingen er oppdatert.'));
           },
         });
         revisjonsflate.replaceChildren(tilbake, el('h3', {}, 'Egenvurdering'), ev.el, om);
       };
       byggRevisjon(tekst);
+      oppdaterMestring();
 
       const modell = el('details', { class: 'modell' },
         el('summary', {}, 'Se et eksempel på et godt svar'),
@@ -681,8 +707,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
 
       const fullfor = el('button', { class: 'knapp', type: 'button' }, indeks + 1 < okt.length ? 'Fullfør og gå videre' : 'Fullfør og se resultat');
       fullfor.addEventListener('click', () => {
-        const v = vurderinger();
-        const alleKrysset = o.kriterier.every((_, i) => v[i]?.ok);
+        const alleKrysset = ferdigePunkter() === o.kriterier.length;
         window.clearTimeout(timer);
         lagreSkriveutkast(o.id, '');
         registrer(o, alleKrysset);
@@ -692,7 +717,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
       flate.append(
         el('h3', {}, 'Automatisk sjekk'), auto, revisjonsflate,
         modell,
-        el('p', { class: 'tastehint' }, 'Du får regnet øvelsen som mestret når du har krysset av for alle punktene. Vær ærlig, det er deg selv du lurer.'),
+        mestringsstatus,
         el('div', { class: 'knapp-rad' }, fullfor),
       );
       handlinger.remove();

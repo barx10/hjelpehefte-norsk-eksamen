@@ -5,7 +5,7 @@ kategori: modelltekst, forenklet for 10. trinn
 nivaa: ['10']
 status: godkjent
 oppgave: "Analyse av en sammensatt reklametekst for Lerum eplejus i ny pakning"
-forfatter: "Åsa Abusland (bearbeidet og forenklet)"
+forfatter: "NDLA (bearbeidet og forenklet)"
 lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
 kilde: ""

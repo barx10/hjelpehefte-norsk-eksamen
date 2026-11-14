@@ -6,7 +6,7 @@ gruppe: sprak
 nivaa: ['10', 'vg3']
 ---
 
-Feil kommabruk trekker ned. Her er de seks reglene du trenger.
+Feil kommabruk trekker ned. Her er de sju reglene du trenger.
 
 | Regel | Forklaring | Eksempel |
 |---|---|---|
@@ -16,3 +16,4 @@ Feil kommabruk trekker ned. Her er de seks reglene du trenger.
 | 4. Oppramsing | Komma mellom hvert ledd | «Vi trenger kabel, klips, bryter og skruer.» |
 | 5. Innskutte ledd | Komma rundt forklarende tillegg midt i setningen | «Tore, den eldste sønnen, begynte på skolen.» |
 | 6. Svarord og tiltaleord | Komma etter svarord, og rundt tiltaleord | «Ja, det stemmer.» / «Jan, kom og spis!» |
+| 7. Replikk og sitat | Komma etter anførselstegnet når replikken står først. Ikke komma hvis replikken slutter med spørsmålstegn eller utropstegn | «Jeg kommer på fredag», sa han. / «Kommer du?» spurte hun. |

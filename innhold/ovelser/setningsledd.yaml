@@ -1,0 +1,368 @@
+- id: ledd10-subjekt-1
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker subjektet."
+  tekst: "[[Maria]] leser en spennende bok."
+  forklaring: "Hvem leser? Maria. Hun er subjekt."
+- id: ledd10-subjekt-2
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker subjektet."
+  tekst: "I morgen reiser [[familien]] til Spania."
+  forklaring: "Hvem reiser? Familien. Subjektet står etter verbalet fordi setningen begynner med «i morgen»."
+- id: ledd10-subjekt-3
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker subjektet."
+  tekst: "[[Den lille hunden]] bjeffet hele natten."
+  forklaring: "Hva bjeffet? Den lille hunden. Subjektet kan bestå av flere ord."
+- id: ledd10-subjekt-4
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker subjektet."
+  tekst: "Etter skolen spilte [[vi]] fotball."
+  forklaring: "Hvem spilte? Vi. Subjektet står etter verbalet."
+- id: ledd10-subjekt-5
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker subjektet."
+  tekst: "[[Læreren]] delte ut prøvene."
+  forklaring: "Hvem delte ut? Læreren."
+- id: ledd10-subjekt-6
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker subjektet."
+  tekst: "Hvorfor gråter [[babyen]]?"
+  forklaring: "Hvem gråter? Babyen."
+- id: ledd10-verbal-1
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker verbalet."
+  tekst: "Hunden [[løper]] over plenen."
+  forklaring: "Verbalet er handlingen: «løper»."
+- id: ledd10-verbal-2
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker verbalet."
+  tekst: "Vi [[har spist]] middag."
+  forklaring: "Verbalet kan være flere verb: «har spist»."
+- id: ledd10-verbal-3
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker verbalet."
+  tekst: "I går [[regnet]] det hele dagen."
+  forklaring: "Verbalet er «regnet»."
+- id: ledd10-verbal-4
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker verbalet."
+  tekst: "Elevene [[skal skrive]] en novelle."
+  forklaring: "Verbalet er «skal skrive»."
+- id: ledd10-verbal-5
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker verbalet."
+  tekst: "Mamma [[kjøpte]] en ny jakke."
+  forklaring: "Verbalet er «kjøpte»."
+- id: ledd10-objekt-1
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker objektet."
+  tekst: "Jonas spiste [[et eple]]."
+  forklaring: "Hva spiste Jonas? Et eple. Det er objekt."
+- id: ledd10-objekt-2
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker objektet."
+  tekst: "Vi så [[en film]] i går."
+  forklaring: "Hva så vi? En film."
+- id: ledd10-objekt-3
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker objektet."
+  tekst: "Hun ringte [[bestefaren sin]]."
+  forklaring: "Hvem ringte hun? Bestefaren sin."
+- id: ledd10-objekt-4
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker objektet."
+  tekst: "Klassen leste [[novellen]] høyt."
+  forklaring: "Hva leste klassen? Novellen."
+- id: ledd10-objekt-5
+  type: marker
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker objektet."
+  tekst: "Pappa reparerte [[sykkelen]]."
+  forklaring: "Hva reparerte pappa? Sykkelen."
+- id: ledd10-hvilket-1
+  type: flervalg
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilket setningsledd er «i går»?"
+  utdrag: "Vi badet i går."
+  alternativer: ["Adverbial", "Predikativ", "Subjekt", "Verbal"]
+  riktig: 0
+  forklaring: "«I går» sier når. Det er et adverbial."
+- id: ledd10-hvilket-2
+  type: flervalg
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilket setningsledd er «i sjøen»?"
+  utdrag: "Vi badet i sjøen."
+  alternativer: ["Adverbial", "Predikativ", "Subjekt", "Verbal"]
+  riktig: 0
+  forklaring: "«I sjøen» sier hvor. Det er et adverbial."
+- id: ledd10-hvilket-3
+  type: flervalg
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilket setningsledd er «boka»?"
+  utdrag: "Kari leste boka."
+  alternativer: ["Objekt", "Adverbial", "Predikativ", "Subjekt"]
+  riktig: 0
+  forklaring: "Hva leste Kari? Boka."
+- id: ledd10-hvilket-4
+  type: flervalg
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilket setningsledd er «Kari»?"
+  utdrag: "Kari leste boka."
+  alternativer: ["Subjekt", "Verbal", "Objekt", "Adverbial"]
+  riktig: 0
+  forklaring: "Hvem leste? Kari."
+- id: ledd10-hvilket-5
+  type: flervalg
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilket setningsledd er «glad»?"
+  utdrag: "Hun ble glad."
+  alternativer: ["Predikativ", "Subjekt", "Verbal", "Objekt"]
+  riktig: 0
+  forklaring: "«Glad» sier noe om subjektet og står etter «ble»."
+- id: ledd10-hvilket-6
+  type: flervalg
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilket setningsledd er «leste»?"
+  utdrag: "Kari leste boka."
+  alternativer: ["Verbal", "Objekt", "Adverbial", "Predikativ"]
+  riktig: 0
+  forklaring: "«Leste» er handlingen."
+- id: ledd10-sort-1
+  type: sortering
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Er delen en hovedsetning eller en leddsetning?"
+  kategorier: ["Hovedsetning", "Leddsetning"]
+  elementer:
+    - { tekst: "Vi ble inne", kategori: 0 }
+    - { tekst: "fordi det regnet", kategori: 1 }
+    - { tekst: "Hun ringte meg", kategori: 0 }
+    - { tekst: "da hun kom hjem", kategori: 1 }
+    - { tekst: "Jeg tror", kategori: 0 }
+    - { tekst: "at han kommer", kategori: 1 }
+  forklaring: "En hovedsetning kan stå alene. En leddsetning begynner ofte med en subjunksjon og kan ikke stå alene."
+- id: ledd10-sort-2
+  type: sortering
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Er delen en hovedsetning eller en leddsetning?"
+  kategorier: ["Hovedsetning", "Leddsetning"]
+  elementer:
+    - { tekst: "Han smilte", kategori: 0 }
+    - { tekst: "selv om han var lei seg", kategori: 1 }
+    - { tekst: "Boka var spennende", kategori: 0 }
+    - { tekst: "som jeg fikk til jul", kategori: 1 }
+    - { tekst: "Vi går ut", kategori: 0 }
+    - { tekst: "hvis det slutter å regne", kategori: 1 }
+  forklaring: "En hovedsetning kan stå alene. En leddsetning begynner ofte med en subjunksjon og kan ikke stå alene."
+- id: ledd10-sort-3
+  type: sortering
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Er delen en hovedsetning eller en leddsetning?"
+  kategorier: ["Hovedsetning", "Leddsetning"]
+  elementer:
+    - { tekst: "Katten sov", kategori: 0 }
+    - { tekst: "mens vi spiste", kategori: 1 }
+    - { tekst: "Læreren sa", kategori: 0 }
+    - { tekst: "at prøven var vanskelig", kategori: 1 }
+    - { tekst: "Jeg leser mye", kategori: 0 }
+    - { tekst: "når jeg har fri", kategori: 1 }
+  forklaring: "En hovedsetning kan stå alene. En leddsetning begynner ofte med en subjunksjon og kan ikke stå alene."
+- id: ledd10-feil-1
+  type: finnfeil
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "I dag vi har norsk hele dagen."
+  feil: "vi har"
+  rettelse: "har vi"
+  forklaring: "I en hovedsetning skal verbalet stå på andre plass. Begynner setningen med noe annet enn subjektet, kommer subjektet etter verbalet."
+- id: ledd10-feil-2
+  type: finnfeil
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Etter skolen jeg spiller fotball."
+  feil: "jeg spiller"
+  rettelse: "spiller jeg"
+  forklaring: "I en hovedsetning skal verbalet stå på andre plass. Begynner setningen med noe annet enn subjektet, kommer subjektet etter verbalet."
+- id: ledd10-feil-3
+  type: finnfeil
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "I helgen familien skal på hytta."
+  feil: "familien skal"
+  rettelse: "skal familien"
+  forklaring: "I en hovedsetning skal verbalet stå på andre plass. Begynner setningen med noe annet enn subjektet, kommer subjektet etter verbalet."
+- id: ledd10-feil-4
+  type: finnfeil
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Om vinteren det er kaldt i Tromsø."
+  feil: "det er"
+  rettelse: "er det"
+  forklaring: "I en hovedsetning skal verbalet stå på andre plass. Begynner setningen med noe annet enn subjektet, kommer subjektet etter verbalet."
+- id: ledd10-feil-5
+  type: finnfeil
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Når jeg kommer hjem, jeg spiser middag."
+  feil: "jeg spiser"
+  rettelse: "spiser jeg"
+  forklaring: "Når leddsetningen står først, kommer verbalet rett etter kommaet, og så subjektet."
+- id: ledd10-feil-6
+  type: finnfeil
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Hvis det regner, vi blir inne."
+  feil: "vi blir"
+  rettelse: "blir vi"
+  forklaring: "Når leddsetningen står først, kommer verbalet rett etter kommaet, og så subjektet."
+- id: ledd10-rekke-1
+  type: rekkefolge
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Sett ordene i riktig rekkefølge. Setningen skal begynne med tidsadverbialet."
+  elementer: ["i morgen", "skal", "vi", "på kino"]
+  forklaring: "Verbalet står på andre plass, og subjektet kommer etter: «I morgen skal vi på kino»."
+- id: ledd10-rekke-2
+  type: rekkefolge
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Sett ordene i riktig rekkefølge. Setningen skal begynne med tidsadverbialet."
+  elementer: ["etter middagen", "gikk", "hun", "en tur"]
+  forklaring: "Verbalet står på andre plass, og subjektet kommer etter: «Etter middagen gikk hun en tur»."
+- id: ledd10-rekke-3
+  type: rekkefolge
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Sett ordene i riktig rekkefølge. Setningen skal begynne med leddsetningen."
+  elementer: ["når det blir mørkt", "tenner", "vi", "lys"]
+  forklaring: "Verbalet står på andre plass, og subjektet kommer etter: «Når det blir mørkt, tenner vi lys»."
+- id: ledd10-rekke-4
+  type: rekkefolge
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Sett ordene i riktig rekkefølge. Setningen skal begynne med leddsetningen."
+  elementer: ["fordi bussen var sen", "kom", "jeg", "for sent"]
+  forklaring: "Verbalet står på andre plass, og subjektet kommer etter: «Fordi bussen var sen, kom jeg for sent»."
+- id: ledd10-match
+  type: matching
+  kapittel: setningsledd
+  mal: [m10-12]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Koble setningsleddet til forklaringen."
+  par:
+    - { venstre: "Subjekt", hoyre: "Den eller det som gjør noe" }
+    - { venstre: "Verbal", hoyre: "Verbet, det som skjer" }
+    - { venstre: "Objekt", hoyre: "Den eller det handlingen går ut over" }
+    - { venstre: "Adverbial", hoyre: "Sier når, hvor, hvordan eller hvorfor" }
+    - { venstre: "Predikativ", hoyre: "Sier noe om subjektet etter er eller blir" }
+  forklaring: "Se tabellen over setningsleddene i kapittelet."

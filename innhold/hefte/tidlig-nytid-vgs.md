@@ -3,7 +3,7 @@ tittel: Fra reformasjonen til opplysningstiden
 nummer: '5.3'
 rekkefolge: 5.3
 gruppe: litteratur
-status: utkast
+status: godkjent
 nivaa: ['vg3']
 ---
 

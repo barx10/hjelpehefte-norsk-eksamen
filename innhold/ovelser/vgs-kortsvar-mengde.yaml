@@ -2,10 +2,10 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva mangler i avsnittet?"
-  utdrag: "Forfatteren bruker en metafor. Det gjør teksten mer levende."
+  utdrag: "Forfatteren bruker en metafor. Den gjør at leseren ser savnet for seg som noe konkret."
   alternativer: ["Eksempel fra teksten", "Navn på virkemidlet", "Forklaring av virkningen"]
   riktig: 0
   forklaring: "Avsnittet navngir virkemidlet, men viser ikke hvor det står. Et kort sitat mangler."
@@ -13,7 +13,7 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva mangler i avsnittet?"
   utdrag: "Teksten bruker en besjeling når den skriver at «vinden ropte på henne»."
@@ -24,7 +24,7 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva mangler i avsnittet?"
   utdrag: "Når det står «alle dørene var låst», føler leseren at personen er fanget."
@@ -35,7 +35,7 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva mangler i avsnittet?"
   utdrag: "Teksten har mange gjentakelser, for eksempel «vent, vent, vent»."
@@ -46,7 +46,7 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva mangler i avsnittet?"
   utdrag: "Forfatteren bruker kontrast. Det får leseren til å se forskjellen tydelig."
@@ -57,7 +57,7 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva mangler i avsnittet?"
   utdrag: "Ordene «kald, grå og stille» gjør at stemningen blir trist og tung."
@@ -68,7 +68,7 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva mangler i avsnittet?"
   utdrag: "Teksten bruker et retorisk spørsmål: «Hvem vil vel leve slik?»"
@@ -79,7 +79,7 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hva mangler i avsnittet?"
   utdrag: "Forfatteren bruker en sammenligning for å vise hvor redd gutten er."
@@ -90,7 +90,7 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken innledning passer best i et kortsvar?"
   alternativer: ["Teksten skildrer en jente som venter på et svar. Gjennom korte setninger og bilder viser den hvor urolig hun er.", "Jeg har lest teksten, og jeg synes den var veldig bra og spennende å lese.", "I denne oppgaven skal jeg skrive om teksten. Den handler om mye forskjellig, og det er mange virkemidler.", "Forfatteren ble født i 1970 og har skrevet mange bøker om ungdom."]
@@ -100,7 +100,7 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilket avsnitt er en analyse, ikke et referat?"
   alternativer: ["Når moren «setter koppen ned uten å drikke», viser det at hun er urolig, selv om hun ikke sier det.", "Moren setter koppen ned, og så går hun bort til vinduet og ser ut.", "Først kommer moren inn, og så kommer datteren, og de snakker sammen.", "Teksten handler om en mor og en datter som drikker kaffe."]
@@ -110,7 +110,7 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilket sitat er best brukt?"
   alternativer: ["Når fortelleren kaller byen «en maskin som aldri sover», blir byen noe kaldt og umenneskelig.", "«Byen var stor. Det var mange folk der. Alle gikk fort. Ingen så på hverandre. Bussene kjørte hele natten.»", "Teksten har sitater om byen.", "Byen beskrives på en spesiell måte i teksten."]
@@ -120,17 +120,17 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken avslutning passer best i et kortsvar?"
-  alternativer: ["Sammen viser bildene og de korte setningene at savnet er større enn personen klarer å si.", "Det var alt jeg hadde å si om denne teksten.", "Jeg håper du likte svaret mitt.", "Teksten har også mange andre virkemidler som jeg ikke har nevnt."]
+  alternativer: ["Sammen viser bildene og de korte setningene at savnet er større enn personen klarer å si.", "Det var alt jeg hadde å si om denne teksten, og jeg håper svaret er godt nok.", "Jeg håper du likte svaret mitt, for jeg brukte lang tid på å skrive det ferdig.", "Teksten har også mange andre virkemidler som jeg ikke har nevnt i dette svaret."]
   riktig: 0
   forklaring: "En god avslutning samler poengene og svarer på oppgaven."
 - id: vgs-kort-m-best-5
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Oppgaven sier «gjør rede for». Hvilken setning hører ikke hjemme i svaret?"
   alternativer: ["Jeg synes teksten er for lang og burde vært kortere.", "Teksten bruker gjentakelse for å vise hvor lenge hun venter.", "Kontrasten mellom lys og mørke viser at stemningen endrer seg.", "Den korte siste setningen gir slutten tyngde."]
@@ -140,9 +140,9 @@
   type: flervalg
   kapittel: kortsvar-vgs
   mal: [mvg3-01]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Hvilken setning viser best virkningen av et virkemiddel?"
-  alternativer: ["Personifikasjonen «huset holdt pusten» får leseren til å merke spenningen før noe skjer.", "Teksten har en personifikasjon.", "Det står «huset holdt pusten» i teksten.", "Personifikasjoner er vanlige i litteraturen."]
+  alternativer: ["Personifikasjonen «huset holdt pusten» får leseren til å merke spenningen før noe skjer.", "Teksten har en personifikasjon, og det er et virkemiddel som brukes i mange tekster.", "Det står «huset holdt pusten» i teksten, og det er en setning som står i starten.", "Personifikasjoner er vanlige i litteraturen, og de finnes både i dikt og noveller."]
   riktig: 0
   forklaring: "Virkningen forklarer hva virkemidlet gjør med leseren."

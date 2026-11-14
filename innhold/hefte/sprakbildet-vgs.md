@@ -22,7 +22,7 @@ Norge er et land med mange språk. Her ser vi på språkene som brukes, og hvord
 
 | Tid | Hva skjedde |
 |---|---|
-| Før 1350 | Norrønt: språket i Norge og på Island. Mer bøying enn i dag, med kasus og tre kjønn. |
+| Før 1350 | Norrønt: språket i Norge og på Island. Mer bøying enn i dag, blant annet fire kasus. |
 | 1350 til omkring 1525 | Mellomnorsk: språket forenkles, og bøyingene forsvinner stadig mer. |
 | 1536 til 1814 | Dansketid: dansk blir skriftspråket i Norge. Folk snakker norsk, men skriver dansk. |
 | 1814 og utover | Norge får egen grunnlov, og språkdebatten tar til. Hva skal være det norske skriftspråket? |
