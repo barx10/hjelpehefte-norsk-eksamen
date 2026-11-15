@@ -187,3 +187,200 @@
   sitat: true
   kriterier: ["Jeg siterer en kort setning", "Jeg sier at det er patos", "Jeg forklarer hvilke følelser setningen vekker"]
   modelltekst: "Setningen «Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel» er patos. Den får leseren til å leve seg inn i en frustrerende situasjon og vekker følelser."
+- id: skriv-o1-hovedpastand-2
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: godkjent
+  oppdrag: "Hva er hovedpåstanden i kronikken? Svar i 1–2 setninger."
+  utdrag: "Kronikk «Skoledagen starter for tidlig», skrevet av en elev (fiktiv tekst for øving):\n\nKlokka er 06.30 når alarmen ringer, og ute er det fortsatt mørkt. Klokka 08.15 sitter jeg i klasserommet, men hjernen min sover fortsatt. Tenåringer trenger mer søvn enn voksne, og kroppen vår er rett og slett ikke klar så tidlig. Hvis skolen startet en time senere, ville flere elever vært uthvilte og klare til å lære. Er ikke det verdt å prøve?"
+  ord: { min: 10, maks: 50 }
+  kriterier: ["Jeg svarer direkte i første setning", "Jeg bruker egne ord", "Jeg holder meg til 1–2 setninger"]
+  modelltekst: "Hovedpåstanden er at skoledagen bør starte senere. Eleven mener at elevene da blir uthvilte og lærer mer."
+- id: skriv-o1-avsender-2
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: godkjent
+  oppdrag: "Hvem er avsenderen, og hvem er mottakeren? Svar i 1–2 setninger."
+  utdrag: "Kronikk «Skoledagen starter for tidlig», skrevet av en elev (fiktiv tekst for øving):\n\nKlokka er 06.30 når alarmen ringer, og ute er det fortsatt mørkt. Klokka 08.15 sitter jeg i klasserommet, men hjernen min sover fortsatt. Tenåringer trenger mer søvn enn voksne, og kroppen vår er rett og slett ikke klar så tidlig. Hvis skolen startet en time senere, ville flere elever vært uthvilte og klare til å lære. Er ikke det verdt å prøve?"
+  ord: { min: 10, maks: 50 }
+  nokkelord: ["elev"]
+  kriterier: ["Jeg sier hvem avsenderen er", "Jeg sier hvem mottakeren er", "Jeg holder meg til 1–2 setninger"]
+  modelltekst: "Avsenderen er en elev. Mottakerne er skolens ledelse og andre som kan bestemme når skoledagen skal starte."
+  modellkommentar: "Teksten sier ikke direkte hvem mottakeren er, så du må vurdere hvem den er rettet mot."
+- id: skriv-o1-retorisk-sporsmal
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-06, m10-01]
+  status: godkjent
+  oppdrag: "Finn ett retorisk spørsmål i kronikken og forklar hva det skal få leseren til å gjøre."
+  utdrag: "Kronikk «Skoledagen starter for tidlig», skrevet av en elev (fiktiv tekst for øving):\n\nKlokka er 06.30 når alarmen ringer, og ute er det fortsatt mørkt. Klokka 08.15 sitter jeg i klasserommet, men hjernen min sover fortsatt. Tenåringer trenger mer søvn enn voksne, og kroppen vår er rett og slett ikke klar så tidlig. Hvis skolen startet en time senere, ville flere elever vært uthvilte og klare til å lære. Er ikke det verdt å prøve?"
+  ord: { min: 15, maks: 60 }
+  nokkelord: ["retorisk"]
+  sitat: true
+  kriterier: ["Jeg siterer spørsmålet", "Jeg sier at det er et retorisk spørsmål", "Jeg forklarer hvilken virkning det har på leseren"]
+  modelltekst: "Spørsmålet «Er ikke det verdt å prøve?» er retorisk, fordi avsenderen ikke venter svar. Det får leseren til å tenke at svaret må være ja."
+- id: skriv-o1-logos
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-06, m10-01]
+  status: godkjent
+  oppdrag: "Finn ett eksempel på logos i kronikken og forklar hvorfor det er logos."
+  utdrag: "Kronikk «Skoledagen starter for tidlig», skrevet av en elev (fiktiv tekst for øving):\n\nKlokka er 06.30 når alarmen ringer, og ute er det fortsatt mørkt. Klokka 08.15 sitter jeg i klasserommet, men hjernen min sover fortsatt. Tenåringer trenger mer søvn enn voksne, og kroppen vår er rett og slett ikke klar så tidlig. Hvis skolen startet en time senere, ville flere elever vært uthvilte og klare til å lære. Er ikke det verdt å prøve?"
+  ord: { min: 15, maks: 60 }
+  nokkelord: ["logos"]
+  sitat: true
+  kriterier: ["Jeg siterer en kort setning", "Jeg sier at det er logos", "Jeg forklarer hvorfor setningen appellerer til fornuften"]
+  modelltekst: "Setningen «Tenåringer trenger mer søvn enn voksne» er logos. Den bygger på en saklig opplysning og skal overbevise leseren med fornuft."
+- id: skriv-o1-formal
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: godkjent
+  oppdrag: "Hva er formålet med teksten fra kommunen? Svar i 1–2 setninger."
+  utdrag: "Informasjon fra kommunen, «Sykkel til skolen» (fiktiv tekst for øving):\n\nI august åpner kommunen tre nye sykkelveier mot skolene i sentrum. Veiene er brede, har god belysning og er skilt fra bilveien. I fjor syklet bare én av ti elever til skolen. Målet er at tre av ti skal sykle innen to år. Alle elever som melder seg på innen 1. juni, får gratis sykkelhjelm."
+  ord: { min: 10, maks: 50 }
+  nokkelord: ["informere"]
+  kriterier: ["Jeg svarer direkte i første setning", "Jeg bruker egne ord", "Jeg holder meg til 1–2 setninger"]
+  modelltekst: "Formålet er å informere om de nye sykkelveiene og få flere elever til å sykle til skolen."
+- id: skriv-o1-maal
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: godkjent
+  oppdrag: "Hvilket mål har kommunen med sykkelveiene? Svar med egne ord i 1–2 setninger."
+  utdrag: "Informasjon fra kommunen, «Sykkel til skolen» (fiktiv tekst for øving):\n\nI august åpner kommunen tre nye sykkelveier mot skolene i sentrum. Veiene er brede, har god belysning og er skilt fra bilveien. I fjor syklet bare én av ti elever til skolen. Målet er at tre av ti skal sykle innen to år. Alle elever som melder seg på innen 1. juni, får gratis sykkelhjelm."
+  ord: { min: 10, maks: 50 }
+  kriterier: ["Jeg svarer direkte i første setning", "Jeg bruker egne ord", "Jeg holder meg til 1–2 setninger"]
+  modelltekst: "Kommunen vil at tre av ti elever skal sykle til skolen innen to år. I dag er det bare én av ti."
+- id: skriv-o1-avsender-3
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: godkjent
+  oppdrag: "Hvem er avsenderen, og hvem er mottakeren av teksten? Svar i 1–2 setninger."
+  utdrag: "Informasjon fra kommunen, «Sykkel til skolen» (fiktiv tekst for øving):\n\nI august åpner kommunen tre nye sykkelveier mot skolene i sentrum. Veiene er brede, har god belysning og er skilt fra bilveien. I fjor syklet bare én av ti elever til skolen. Målet er at tre av ti skal sykle innen to år. Alle elever som melder seg på innen 1. juni, får gratis sykkelhjelm."
+  ord: { min: 10, maks: 50 }
+  nokkelord: ["kommune"]
+  kriterier: ["Jeg sier hvem avsenderen er", "Jeg sier hvem mottakeren er", "Jeg holder meg til 1–2 setninger"]
+  modelltekst: "Avsenderen er kommunen. Mottakerne er elevene og foreldrene deres."
+- id: skriv-o1-logos-2
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-06, m10-01]
+  status: godkjent
+  oppdrag: "Finn ett eksempel på logos i teksten og forklar hvorfor det er logos."
+  utdrag: "Informasjon fra kommunen, «Sykkel til skolen» (fiktiv tekst for øving):\n\nI august åpner kommunen tre nye sykkelveier mot skolene i sentrum. Veiene er brede, har god belysning og er skilt fra bilveien. I fjor syklet bare én av ti elever til skolen. Målet er at tre av ti skal sykle innen to år. Alle elever som melder seg på innen 1. juni, får gratis sykkelhjelm."
+  ord: { min: 15, maks: 60 }
+  nokkelord: ["logos"]
+  sitat: true
+  kriterier: ["Jeg siterer en kort setning eller et tall", "Jeg sier at det er logos", "Jeg forklarer hvorfor det appellerer til fornuften"]
+  modelltekst: "Opplysningen «I fjor syklet bare én av ti elever til skolen» er logos. Tallet er saklig og viser at det er behov for en endring."
+- id: skriv-o1-ethos
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-06, m10-01]
+  status: godkjent
+  oppdrag: "Finn ett eksempel på ethos i reklamen og forklar hvorfor det er ethos."
+  utdrag: "Reklame for sportsdrikken «FreshUp» (fiktiv tekst for øving):\n\nBli med på laget! Over 10 000 ungdommer velger FreshUp hver eneste dag. Fotballspiller Mia Sand sier: «FreshUp gir meg energien jeg trenger, både på trening og på skolen.» Prøv i dag, nå bare 19 kroner!"
+  ord: { min: 15, maks: 60 }
+  nokkelord: ["ethos"]
+  sitat: true
+  kriterier: ["Jeg siterer en kort setning", "Jeg sier at det er ethos", "Jeg forklarer hvorfor avsenderen virker troverdig"]
+  modelltekst: "Sitatet fra fotballspilleren Mia Sand er ethos. Hun er kjent og respektert, så leseren stoler på det hun sier om drikken."
+- id: skriv-o1-malgruppe
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: godkjent
+  oppdrag: "Hvem er målgruppen for reklamen, og hva vil reklamen at målgruppen skal gjøre? Svar i 1–2 setninger."
+  utdrag: "Reklame for sportsdrikken «FreshUp» (fiktiv tekst for øving):\n\nBli med på laget! Over 10 000 ungdommer velger FreshUp hver eneste dag. Fotballspiller Mia Sand sier: «FreshUp gir meg energien jeg trenger, både på trening og på skolen.» Prøv i dag, nå bare 19 kroner!"
+  ord: { min: 10, maks: 50 }
+  nokkelord: ["ungdom"]
+  kriterier: ["Jeg sier hvem målgruppen er", "Jeg sier hva teksten vil at leseren skal gjøre", "Jeg holder meg til 1–2 setninger"]
+  modelltekst: "Målgruppen er ungdom som er opptatt av trening og skole. Reklamen vil at de skal kjøpe sportsdrikken."
+- id: skriv-o1-patos-2
+  type: skriv
+  kapittel: oppgave-1
+  mal: [m10-06, m10-01]
+  status: godkjent
+  oppdrag: "Finn ett eksempel på patos i reklamen og forklar hvorfor det er patos."
+  utdrag: "Reklame for sportsdrikken «FreshUp» (fiktiv tekst for øving):\n\nBli med på laget! Over 10 000 ungdommer velger FreshUp hver eneste dag. Fotballspiller Mia Sand sier: «FreshUp gir meg energien jeg trenger, både på trening og på skolen.» Prøv i dag, nå bare 19 kroner!"
+  ord: { min: 15, maks: 60 }
+  nokkelord: ["patos"]
+  sitat: true
+  kriterier: ["Jeg siterer en kort setning", "Jeg sier at det er patos", "Jeg forklarer hvilke følelser setningen vekker"]
+  modelltekst: "Setningen «Bli med på laget!» er patos. Den vekker en følelse av å høre til og å være med i et fellesskap."
+- id: skriv-o1-valg-1
+  type: flervalg
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Oppgaven sier «Forklar». Hva skal du gjøre?"
+  alternativer:
+    - "Si hvorfor eller hvordan, med egne ord"
+    - "Skrive av et sitat fra teksten"
+    - "Bare svare ja eller nei"
+    - "Skrive en innledning og en avslutning"
+  riktig: 0
+  forklaring: "«Forklar» betyr at du skal vise hvorfor eller hvordan noe er slik, med egne ord."
+- id: skriv-o1-valg-2
+  type: flervalg
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva skal stå først i et kortsvar?"
+  alternativer:
+    - "Selve svaret på spørsmålet"
+    - "En innledning om temaet"
+    - "En omskriving av spørsmålet"
+    - "Et sitat fra teksten"
+  riktig: 0
+  forklaring: "Start med svaret. Det er ikke plass til innledning i et kortsvar."
+- id: skriv-o1-valg-3
+  type: flervalg
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Når bør du bruke sitat i oppgave 1?"
+  alternativer:
+    - "Når oppgaven ber om et eksempel fra teksten"
+    - "I alle svar"
+    - "Aldri"
+    - "Bare i avslutningen"
+  riktig: 0
+  forklaring: "Bruk egne ord, og sitér bare når oppgaven ber om et eksempel fra teksten."
+- id: skriv-o1-valg-4
+  type: flervalg
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Oppgaven sier «Svar i 1–2 setninger». Hva er best?"
+  alternativer:
+    - "To korte setninger som svarer direkte"
+    - "Ett helt avsnitt"
+    - "Fem setninger for å være sikker"
+    - "Bare et enkeltord"
+  riktig: 0
+  forklaring: "Hold deg til anbefalt lengde. For langt svar og for kort svar gir svakere vurdering."
+- id: skriv-o1-sortering-1
+  type: sortering
+  kapittel: oppgave-1
+  mal: [m10-01, m10-12]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Hører setningen hjemme i et kortsvar, eller ikke?"
+  kategorier: ["hører hjemme", "hører ikke hjemme"]
+  elementer:
+    - { tekst: "Hovedpåstanden er at mobilen bør forbys i timene.", kategori: 0 }
+    - { tekst: "I denne teksten skal jeg skrive om mobilbruk.", kategori: 1 }
+    - { tekst: "Avsenderen er en lærer.", kategori: 0 }
+    - { tekst: "Avslutningsvis vil jeg oppsummere det jeg har skrevet.", kategori: 1 }
+    - { tekst: "Setningen er patos fordi den vekker følelser.", kategori: 0 }
+    - { tekst: "Mobiltelefoner har eksistert siden 1990-tallet.", kategori: 1 }
+  forklaring: "Et kortsvar svarer direkte. Innledning, avslutning og opplysninger som ikke svarer på spørsmålet, hører ikke hjemme."
