@@ -1,0 +1,91 @@
+---
+// Om- og kildevinduene i toppen. Kildene hentes fra tekstene i innhold/besvarelser/, så de holder seg oppdaterte.
+import { url } from '../lib/url';
+import { hentBesvarelser } from '../lib/innhold';
+
+const besvarelser = await hentBesvarelser();
+const medLisens = besvarelser.filter((b) => b.data.lisens);
+const egne = besvarelser.filter((b) => !b.data.lisens);
+---
+<dialog id="modal-om" class="modal om-modal" aria-labelledby="om-tittel">
+  <h2 id="om-tittel">Om Hjelpehefte norsk eksamen</h2>
+  <p>Hjelpehefte og øvingsside for skriftlig eksamen i norsk. Du øver med flashkort, flervalg, modelltekster og eksamenstrening, og alt er gratis. Fremgangen din lagres bare i nettleseren på denne maskinen.</p>
+  <hr />
+  <img class="om-logo" src={url('laererliv-logo.png')} alt="Lærerliv. Fra klasserom til storsamfunn" width="190" height="95" />
+  <h3>Kenneth Bareksten</h3>
+  <p>Lærer og hobbyprogrammerer som lager digitale verktøy for å gjøre hverdagen litt enklere og mer kreativ.</p>
+  <p class="om-lenker">
+    <a href="https://www.laererliv.no/">www.laererliv.no</a><br />
+    <a href="mailto:kenneth@laererliv.no">kenneth@laererliv.no</a>
+  </p>
+  <p class="om-liten">
+    © Lærerliv 2026. Innholdet er delt under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.no">CC BY-SA 4.0</a>, kildekoden under MIT.
+    Tekster fra andre har egne lisenser, se <a href={url('')} data-modal="kilder">Kilder og lisenser</a>.
+    Ingen informasjonskapsler, ingen analyse og ingen eksterne skrifter.
+  </p>
+  <button type="button" class="lukk-knapp">Lukk</button>
+</dialog>
+
+<dialog id="modal-kilder" class="modal kilde-modal" aria-labelledby="kilder-tittel">
+  <h2 id="kilder-tittel">Kilder og lisenser</h2>
+  <p>Alt som er brukt i øvingene og heftet, med forfatter, lisens og lenke. Der lisensen er CC BY-SA 4.0, er tekstene bearbeidet. Bearbeidelsene deles på samme lisens.</p>
+
+  <h3>Egen lisens</h3>
+  <ul class="kildeliste">
+    <li>Innholdet i heftet og øvelsene: © Lærerliv 2026, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.no">CC BY-SA 4.0</a>.</li>
+    <li>Kildekoden til nettsiden: MIT-lisens, <a href="https://github.com/barx10/hjelpehefte-norsk-eksamen">GitHub</a>.</li>
+  </ul>
+
+  <h3>Tekster fra NDLA</h3>
+  <ul class="kildeliste">
+    {medLisens.map((b) => (
+      <li>
+        <strong>{b.data.tittel}</strong><br />
+        <span class="info">
+          {b.data.forfatter}
+          {' · '}
+          {b.data.lisensUrl ? <a href={b.data.lisensUrl}>{b.data.lisens}</a> : b.data.lisens}
+          {b.data.kilde && <>{' · '}<a href={b.data.kilde}>Kilde</a></>}
+          {b.data.endringer && <>{' · '}Bearbeidet</>}
+        </span>
+      </li>
+    ))}
+    <li>
+      <strong>Nynorsk: pronomen og bestemmarord, verb</strong><br />
+      <span class="info">
+        Åsa Abusland og Marion Federl, NDLA · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.no">CC BY-SA 4.0</a> ·
+        <a href="https://ndla.no/nb/r/norsk-pb/vanlege-nynorskfeil-3-pronomen-og-bestemmarord/d0f3c3f7c2">Pronomen</a>,
+        <a href="https://ndla.no/nb/r/norsk-pb/vanlege-nynorskfeil-2-verb/6aee5249a6">verb</a> · Omskrevet og forkortet, øvingene er nye.
+      </span>
+    </li>
+  </ul>
+
+  <h3>Tekster skrevet for øvingen</h3>
+  <p class="info">Fiktive tekster, laget til dette heftet: {egne.map((b) => b.data.tittel).join(', ')}.</p>
+
+  <h3>Andre kilder</h3>
+  <ul class="kildeliste">
+    <li><strong>Læreplan i norsk (NOR01-08)</strong><br /><span class="info">Kompetansemålene er hentet ordrett fra Utdanningsdirektoratet, <a href="https://www.udir.no/lk20/nor01-08/">udir.no</a>.</span></li>
+    <li><strong>Språkrådets minigrammatikk og kommaregler</strong><br /><span class="info">Grunnlag for nynorskreglene og kommareglene, <a href="http://offentlegrom.sprakradet.no/staten/minigrammatikk">offentlegrom.sprakradet.no</a>.</span></li>
+    <li><strong>Store norske leksikon</strong><br /><span class="info">Kildene i elevteksten om konspirasjonsteorier: <a href="https://snl.no/konspirasjonsteori">konspirasjonsteori</a>, <a href="https://snl.no/Sions_vises_protokoller">Sions vises protokoller</a>, <a href="https://snl.no/demokrati">demokrati</a>.</span></li>
+    <li><strong>Tekster som analyseres</strong><br /><span class="info">Er ikke gjengitt her, bare lenket: <a href="https://ndla.no/r/norsk-sf-vg1/blodspor/bbcc8ac6c5">«Blodspor»</a> og <a href="https://www.aftenposten.no/meninger/sid/i/BRw9Vw/som-ungdomsskoleelev-traff-kjoennskampen-meg-hardt-oskar-macdonald-dunlop">leserinnlegget i Aftenposten</a>.</span></li>
+    <li><strong>Skrifter</strong><br /><span class="info">Source Sans 3 og Archivo Narrow, SIL Open Font License 1.1. Ligger på eget domene.</span></li>
+  </ul>
+  <button type="button" class="lukk-knapp">Lukk</button>
+</dialog>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-modal]').forEach((a) => {
+    a.addEventListener('click', (e) => {
+      const d = document.getElementById('modal-' + a.dataset.modal) as HTMLDialogElement | null;
+      if (!d?.showModal) return;
+      e.preventDefault();
+      a.closest('dialog')?.close();
+      d.showModal();
+    });
+  });
+  document.querySelectorAll<HTMLDialogElement>('dialog.modal').forEach((d) => {
+    d.querySelectorAll('.lukk-knapp').forEach((k) => k.addEventListener('click', () => d.close()));
+    d.addEventListener('click', (e) => { if (e.target === d) d.close(); });
+  });
+</script>

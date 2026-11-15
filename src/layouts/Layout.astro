@@ -6,6 +6,7 @@ import '@fontsource/archivo-narrow/latin-600.css';
 import '../styles/global.css';
 import { url, nurl } from '../lib/url';
 import { visUtkast, hentBesvarelser, hentEksamen } from '../lib/innhold';
+import Modaler from '../components/Modaler.astro';
 import { NIVAAER, NIVAA_NOKKEL, type Nivaa } from '../lib/nivaa';
 
 interface Props {
@@ -59,6 +60,10 @@ const fulltTittel = tittel === 'Hjelpehefte norsk eksamen' ? tittel : `${tittel}
             ))}
           </ul>
         </nav>
+        <div class="topp-verktoy">
+          <button type="button" class="topp-knapp" data-modal="om">Om</button>
+          <button type="button" class="topp-knapp" data-modal="kilder">Kilder</button>
+        </div>
       </div></div>
       {lenker.length > 0 && (
         <div class="rad topp-meny">
@@ -84,5 +89,6 @@ const fulltTittel = tittel === 'Hjelpehefte norsk eksamen' ? tittel : `${tittel}
         <p>Laget av Lærerliv. Finn flere ressurser og tekster om skole på <a href="https://laererliv.no">laererliv.no</a>.</p>
       </div>
     </footer>
+    <Modaler />
   </body>
 </html>
