@@ -3,7 +3,7 @@ tittel: Nynorsk, adjektiv
 nummer: '22'
 rekkefolge: 22
 gruppe: sprak
-status: utkast
+status: godkjent
 nivaa: ['10', 'vg3']
 ingress: Adjektiv skal passe med substantivet dei står til. Her lærer du samsvarsbøying og gradbøying, og kva som skil nynorsk frå bokmål.
 ---
