@@ -147,3 +147,188 @@
     - "levera"
   riktig: 0
   forklaring: "Etter ha brukar vi alltid inkjekjønnsforma: har levert."
+- id: nn-part-sterke-2
+  type: boyingstabell
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Skriv inn partisippet i rett form."
+  kolonner: ["verb", "hankjønn og hokjønn", "inkjekjønn", "fleirtal"]
+  rader:
+    - ["å drikke", "|drukken", "|drukke", "|drukne"]
+    - ["å bryte", "|broten", "|brote", "|brotne"]
+    - ["å gripe", "|gripen", "|gripe", "|gripne"]
+    - ["å stjele", "|stolen", "|stole", "|stolne"]
+  forklaring: "Sterke partisipp får -en i hankjønn og hokjønn, -e i inkjekjønn og -ne i fleirtal."
+- id: nn-part-svake-2
+  type: boyingstabell
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Skriv inn partisippet i rett form."
+  kolonner: ["verb", "hankjønn og hokjønn", "inkjekjønn", "fleirtal"]
+  rader:
+    - ["å stenge", "|stengd", "|stengt", "|stengde"]
+    - ["å lære", "|lært", "|lært", "|lærte"]
+    - ["å lage", "|laga", "|laga", "|laga"]
+    - ["å vaske", "|vaska", "|vaska", "|vaska"]
+  forklaring: "Svake partisipp får endingar etter verbklassen: -t og -te, -d og -de eller -a."
+- id: nn-adj-sarregel-1
+  type: boyingstabell
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Skriv inn rett form av adjektivet."
+  kolonner: ["ord", "hankjønn og hokjønn", "inkjekjønn", "fleirtal"]
+  rader:
+    - ["brei", "|brei", "|breitt", "|breie"]
+    - ["fri", "|fri", "|fritt", "|frie"]
+    - ["grei", "|grei", "|greitt", "|greie"]
+  forklaring: "Adjektiv på diftong får -tt i inkjekjønn."
+- id: nn-adj-valg-v6
+  type: flervalg
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  spm: "Kva er rett? «Dei fekk ei ___ gåve.»"
+  alternativer:
+    - "lita"
+    - "liten"
+    - "lite"
+    - "små"
+  riktig: 0
+  forklaring: "Liten har formene liten, lita, lite og små."
+- id: nn-adj-valg-v7
+  type: flervalg
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  spm: "Kva er rett? «Ho har fleire ___ born.»"
+  alternativer:
+    - "små"
+    - "lite"
+    - "lita"
+    - "liten"
+  riktig: 0
+  forklaring: "Fleirtal av liten er små."
+- id: nn-adj-valg-v8
+  type: flervalg
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  spm: "Kva er rett? «Dei ___ dørene stod mot hagen.»"
+  alternativer:
+    - "opne"
+    - "open"
+    - "ope"
+    - "opna"
+  riktig: 0
+  forklaring: "Adjektiv på -en mister -e- før ending: den opne døra."
+- id: nn-adj-valg-v9
+  type: flervalg
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  spm: "Kva er rett? «Teksten er ___ for hand.»"
+  alternativer:
+    - "skriven"
+    - "skrive"
+    - "skrivne"
+    - "skreiv"
+  riktig: 0
+  forklaring: "Sterke partisipp får -en i hankjønn: ein skriven tekst."
+- id: nn-adj-valg-v10
+  type: flervalg
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  spm: "Kva er rett? «Eit ___ dyr stod i garden.»"
+  alternativer:
+    - "bunde"
+    - "bunden"
+    - "bundne"
+    - "bind"
+  riktig: 0
+  forklaring: "Sterke partisipp får -e i inkjekjønn."
+- id: nn-adj-valg-v11
+  type: flervalg
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  spm: "Kva er rett? «Ho kjøpte ein ___ sykkel.»"
+  alternativer:
+    - "kjøpt"
+    - "kjøpte"
+    - "kjøpa"
+    - "kjøpd"
+  riktig: 0
+  forklaring: "Kjøpe er eit e-verb med preteritum kjøpte, så hankjønn får -t."
+- id: nn-adj-feil-v5
+  type: finnfeil
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  tekst: "Vi gjekk over eit breit fortau."
+  feil: "breit"
+  rettelse: "breitt"
+  forklaring: "Adjektiv på diftong får -tt i inkjekjønn."
+- id: nn-adj-feil-v6
+  type: finnfeil
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  tekst: "Tekstane er skriven for hand."
+  feil: "skriven"
+  rettelse: "skrivne"
+  forklaring: "Sterke partisipp får -ne i fleirtal."
+- id: nn-adj-feil-v7
+  type: finnfeil
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  tekst: "Ei liten jente stod ved døra."
+  feil: "liten"
+  rettelse: "lita"
+  forklaring: "Liten har formene liten, lita og lite."
+- id: nn-adj-feil-v8
+  type: finnfeil
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  tekst: "Den open døra stod mot hagen."
+  feil: "open"
+  rettelse: "opne"
+  forklaring: "Adjektiv på -en mister -e- før ending: den opne døra."
+- id: nn-adj-feil-v9
+  type: finnfeil
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  tekst: "Ein dømt mann sat i fengsel."
+  feil: "dømt"
+  rettelse: "dømd"
+  forklaring: "Dømme har preteritum dømde, så hankjønn får -d."
+- id: nn-adj-feil-v10
+  type: finnfeil
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: godkjent
+  vanskegrad: 3
+  tekst: "Ho stod framfor ei stengt dør."
+  feil: "stengt"
+  rettelse: "stengd"
+  forklaring: "Stenge har preteritum stengde, så hankjønn og hokjønn får -d."

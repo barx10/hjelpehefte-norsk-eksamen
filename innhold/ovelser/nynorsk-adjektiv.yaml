@@ -232,3 +232,248 @@
     - { tekst: "farleg", kategori: 1 }
     - { tekst: "rask", kategori: 0 }
   forklaring: "Adjektiv på -leg og nasjonalitetsord på -sk får ikkje -t. Adjektiv med éi staving på -sk, som rask, får -t: raskt."
+- id: nn-adj-samsvar-2
+  type: boyingstabell
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Skriv inn rett form av adjektivet."
+  kolonner: ["hankjønn og hokjønn", "inkjekjønn", "fleirtal"]
+  rader:
+    - ["ny", "|nytt", "|nye"]
+    - ["tung", "|tungt", "|tunge"]
+    - ["lang", "|langt", "|lange"]
+    - ["gul", "|gult", "|gule"]
+    - ["kjekk", "|kjekt", "|kjekke"]
+  forklaring: "Adjektiv får -t i inkjekjønn og -e i fleirtal."
+- id: nn-adj-grad-2
+  type: boyingstabell
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Skriv inn komparativ og superlativ."
+  kolonner: ["positiv", "komparativ", "superlativ"]
+  rader:
+    - ["rask", "|raskare", "|raskast"]
+    - ["sterk", "|sterkare", "|sterkast"]
+    - ["varm", "|varmare", "|varmast"]
+    - ["dyr", "|dyrare", "|dyrast"]
+    - ["mjuk", "|mjukare", "|mjukast"]
+  forklaring: "Dei fleste adjektiv får -are og -ast."
+- id: nn-adj-uregelrett-2
+  type: boyingstabell
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Skriv inn komparativ og superlativ. Adjektiva bøyer uregelrett."
+  kolonner: ["positiv", "komparativ", "superlativ"]
+  rader:
+    - ["lang", "|lengre", "|lengst"]
+    - ["ung", "|yngre", "|yngst"]
+    - ["gammal", "|eldre", "|eldst"]
+    - ["tung", "|tyngre", "|tyngst"]
+  forklaring: "Desse adjektiva må du lære kvart for seg."
+- id: nn-adj-valg-7
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er rett? «Vi såg eit ___ skip.»"
+  alternativer:
+    - "norsk"
+    - "norskt"
+    - "norske"
+    - "norskar"
+  riktig: 0
+  forklaring: "Nasjonalitetsord på -sk får ikkje -t i inkjekjønn."
+- id: nn-adj-valg-8
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er rett? «Boka var ___ enn filmen.»"
+  alternativer:
+    - "betre"
+    - "bedre"
+    - "godare"
+    - "best"
+  riktig: 0
+  forklaring: "Komparativ av god er betre."
+- id: nn-adj-valg-9
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Kva er rett? «Kven er ___ i klassen?» (gammal)"
+  alternativer:
+    - "eldst"
+    - "eldast"
+    - "gammalast"
+    - "eldste"
+  riktig: 0
+  forklaring: "Superlativ av gammal er eldst."
+- id: nn-adj-valg-10
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er rett? «Ho har ___ bøker enn meg.» (mange)"
+  alternativer:
+    - "fleire"
+    - "meire"
+    - "mange"
+    - "mest"
+  riktig: 0
+  forklaring: "Komparativ av mange er fleire."
+- id: nn-adj-valg-11
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er rett? «Han et ___ godteri enn meg.» (mykje)"
+  alternativer:
+    - "meir"
+    - "mer"
+    - "fleire"
+    - "mest"
+  riktig: 0
+  forklaring: "Nynorsk har meir og mest."
+- id: nn-adj-valg-12
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er rett? «Vi hadde ei ___ helg.»"
+  alternativer:
+    - "fin"
+    - "fint"
+    - "fine"
+    - "finar"
+  riktig: 0
+  forklaring: "Helg er eit hokjønnsord, og adjektivet får inga ending."
+- id: nn-adj-valg-13
+  type: flervalg
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Kva er rett? «Det var eit ___ måltid.»"
+  alternativer:
+    - "herleg"
+    - "herlegt"
+    - "herlege"
+    - "herlegar"
+  riktig: 0
+  forklaring: "Adjektiv på -leg får ikkje -t i inkjekjønn."
+- id: nn-adj-feil-8
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Eit grøn tre stod i hagen."
+  feil: "grøn"
+  rettelse: "grønt"
+  forklaring: "Adjektiv får -t i inkjekjønn, og tre er eit inkjekjønnsord."
+- id: nn-adj-feil-9
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  tekst: "Det var kaldere enn vanleg."
+  feil: "kaldere"
+  rettelse: "kaldare"
+  forklaring: "Komparativ får -are på nynorsk."
+- id: nn-adj-feil-10
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Ho har lese mykje bøker i år."
+  feil: "mykje"
+  rettelse: "mange"
+  forklaring: "Mykje brukar vi om noko som ikkje kan teljast. Bøker kan teljast, så det heiter mange."
+- id: nn-adj-feil-11
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Boka er bedre enn filmen."
+  feil: "bedre"
+  rettelse: "betre"
+  forklaring: "Nynorsk har betre, ikkje bedre."
+- id: nn-adj-feil-12
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  tekst: "Det var eit herlegt måltid."
+  feil: "herlegt"
+  rettelse: "herleg"
+  forklaring: "Adjektiv på -leg får ikkje -t i inkjekjønn."
+- id: nn-adj-feil-13
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  tekst: "Eit spanskt skip låg ved kaia."
+  feil: "spanskt"
+  rettelse: "spansk"
+  forklaring: "Nasjonalitetsord på -sk får ikkje -t i inkjekjønn."
+- id: nn-adj-feil-14
+  type: finnfeil
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Dagen var lang og kaldt."
+  feil: "kaldt"
+  rettelse: "kald"
+  forklaring: "Dagen er hankjønn, så adjektivet får inga ending."
+- id: nn-adj-kobling-2
+  type: matching
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Kva heiter adjektivet på nynorsk?"
+  par:
+    - { venstre: "hvit", hoyre: "kvit" }
+    - { venstre: "grønn", hoyre: "grøn" }
+    - { venstre: "gammel", hoyre: "gammal" }
+    - { venstre: "fremmed", hoyre: "framand" }
+    - { venstre: "ensom", hoyre: "einsam" }
+    - { venstre: "hel", hoyre: "heil" }
+  forklaring: "Dette er adjektiv som skil seg frå bokmål."
+- id: nn-adj-sorter-2
+  type: sortering
+  kapittel: nynorsk-adjektiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Kor bøyer adjektivet i gradbøying?"
+  kategorier: ["regelrett (-are, -ast)", "uregelrett"]
+  elementer:
+    - { tekst: "fin", kategori: 0 }
+    - { tekst: "god", kategori: 1 }
+    - { tekst: "kald", kategori: 0 }
+    - { tekst: "mange", kategori: 1 }
+    - { tekst: "liten", kategori: 1 }
+    - { tekst: "billig", kategori: 0 }
+    - { tekst: "mykje", kategori: 1 }
+    - { tekst: "rask", kategori: 0 }
+  forklaring: "Dei fleste adjektiv får -are og -ast. Nokre få må du lære kvart for seg."

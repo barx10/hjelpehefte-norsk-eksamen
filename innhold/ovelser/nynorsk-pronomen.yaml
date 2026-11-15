@@ -248,3 +248,297 @@
     - "vottane"
     - "dine."
   forklaring: "Eigedomsordet står etter substantivet: genseren min og vottane dine."
+- id: nn-pron-eigedom-2
+  type: boyingstabell
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Skriv inn rett form av eigedomsordet."
+  kolonner: ["ord", "hankjønn", "hokjønn", "inkjekjønn", "fleirtal"]
+  rader:
+    - ["din", "|din", "|di", "|ditt", "|dine"]
+    - ["sin", "|sin", "|si", "|sitt", "|sine"]
+    - ["vår", "|vår", "|vår", "|vårt", "|våre"]
+  forklaring: "Min, din og sin bøyer etter kjønn og tal. Vår har ikkje eiga form i hokjønn."
+- id: nn-pron-valg-7
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er rett? «Emma er flink. ___ er alltid førebudd.»"
+  alternativer:
+    - "Ho"
+    - "Hun"
+    - "Henne"
+    - "Den"
+  riktig: 0
+  forklaring: "Nynorsk har ho, ikkje hun."
+- id: nn-pron-valg-8
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Kva er rett? «Eg har kjøpt ei ny jakke. ___ er raud.»"
+  alternativer:
+    - "Ho"
+    - "Den"
+    - "Han"
+    - "Det"
+  riktig: 0
+  forklaring: "Nynorsk har ikkje personpronomenet den. Jakke er hokjønn, så du brukar ho."
+- id: nn-pron-valg-9
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Kva er rett? «Har du sett sekken min? ___ er blå.»"
+  alternativer:
+    - "Han"
+    - "Den"
+    - "Ho"
+    - "Det"
+  riktig: 0
+  forklaring: "Sekk er eit hankjønnsord, så du brukar han."
+- id: nn-pron-valg-10
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Kva er rett? «Kvar er syklane ___, gutar?»"
+  alternativer:
+    - "dykkar"
+    - "deira"
+    - "hennar"
+    - "dine"
+  riktig: 0
+  forklaring: "Snakkar du til fleire, brukar du dykkar eller dokkar."
+- id: nn-pron-valg-11
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Kva er rett? «Emil og Henrik må vere heime. Syklane ___ står utanfor.»"
+  alternativer:
+    - "deira"
+    - "dykkar"
+    - "hans"
+    - "du"
+  riktig: 0
+  forklaring: "Snakkar du om fleire andre, brukar du deira."
+- id: nn-pron-valg-12
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva heiter «man» på nynorsk?"
+  alternativer:
+    - "ein"
+    - "man"
+    - "mann"
+    - "den"
+  riktig: 0
+  forklaring: "Ordet man finst ikkje på nynorsk. Bruk ein."
+- id: nn-pron-valg-13
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er rett? «Vil du ha ___ å drikke?»"
+  alternativer:
+    - "noko"
+    - "nokon"
+    - "noka"
+    - "nokre"
+  riktig: 0
+  forklaring: "Bokmålsordet noe heiter noko på nynorsk."
+- id: nn-pron-valg-14
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er rett? «Ho vaska hunden ___.»"
+  alternativer:
+    - "hennar"
+    - "hennes"
+    - "henne"
+    - "ho"
+  riktig: 0
+  forklaring: "Nynorsk har hennar, ikkje hennes."
+- id: nn-pron-valg-15
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er rett? «Mamma og pappa kom heim. ___ var trøytte.»"
+  alternativer:
+    - "Dei"
+    - "De"
+    - "Dem"
+    - "Dykk"
+  riktig: 0
+  forklaring: "Dei er 3. person fleirtal på nynorsk."
+- id: nn-pron-valg-16
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Kva er rett? «Kva vil ___ to gjere, jenter?»"
+  alternativer:
+    - "de"
+    - "dei"
+    - "dem"
+    - "dykkar"
+  riktig: 0
+  forklaring: "De er 2. person fleirtal på nynorsk, og dei er 3. person."
+- id: nn-pron-feil-9
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Hun kjem frå Tromsø."
+  feil: "Hun"
+  rettelse: "Ho"
+  forklaring: "Nynorsk har ho, ikkje hun."
+- id: nn-pron-feil-10
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  tekst: "Eg la boka på bordet. Den var open."
+  feil: "Den"
+  rettelse: "Ho"
+  forklaring: "Bok er eit hokjønnsord, og nynorsk har ikkje personpronomenet den."
+- id: nn-pron-feil-11
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Man skal vere ærleg."
+  feil: "Man"
+  rettelse: "Ein"
+  forklaring: "Ordet man finst ikkje på nynorsk."
+- id: nn-pron-feil-12
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Hver dag går eg på skulen."
+  feil: "Hver"
+  rettelse: "Kvar"
+  forklaring: "Bokmålsordet hver heiter kvar på nynorsk."
+- id: nn-pron-feil-13
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Eg såg hennes bil."
+  feil: "hennes"
+  rettelse: "hennar"
+  forklaring: "Nynorsk har hennar, ikkje hennes."
+- id: nn-pron-feil-14
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Har du noe å gjere?"
+  feil: "noe"
+  rettelse: "noko"
+  forklaring: "Bokmålsordet noe heiter noko på nynorsk."
+- id: nn-pron-feil-15
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  tekst: "Kva har dere gjort?"
+  feil: "dere"
+  rettelse: "de"
+  forklaring: "Nynorsk har de som 2. person fleirtal. Du kan også bruke dokker."
+- id: nn-pron-feil-16
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Jentene gjorde leksene selv."
+  feil: "selv"
+  rettelse: "sjølv"
+  forklaring: "Bokmålsordet selv heiter sjølv på nynorsk."
+- id: nn-pron-kobling-2
+  type: matching
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Kva heiter ordet på nynorsk?"
+  par:
+    - { venstre: "hun", hoyre: "ho" }
+    - { venstre: "hennes", hoyre: "hennar" }
+    - { venstre: "hver", hoyre: "kvar" }
+    - { venstre: "man", hoyre: "ein" }
+    - { venstre: "noe", hoyre: "noko" }
+    - { venstre: "selv", hoyre: "sjølv" }
+  forklaring: "Dette er pronomen og bestemmarord som skil seg frå bokmål."
+- id: nn-pron-sorter-1
+  type: sortering
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Kva personpronomen står i staden for ordet? Nynorsk har ikkje den."
+  kategorier: ["han", "ho"]
+  elementer:
+    - { tekst: "ei jakke", kategori: 1 }
+    - { tekst: "ein sekk", kategori: 0 }
+    - { tekst: "ei bok", kategori: 1 }
+    - { tekst: "ein bil", kategori: 0 }
+    - { tekst: "ei lampe", kategori: 1 }
+    - { tekst: "ein stol", kategori: 0 }
+    - { tekst: "ei veske", kategori: 1 }
+    - { tekst: "ein genser", kategori: 0 }
+  forklaring: "Hankjønnsord blir erstatta av han, og hokjønnsord av ho."
+- id: nn-pron-rekkefolge-3
+  type: rekkefolge
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Set orda i rett rekkefølge. Setninga byrjar med «Kvar»."
+  elementer:
+    - "Kvar"
+    - "er"
+    - "syklane"
+    - "dykkar,"
+    - "gutar?"
+  forklaring: "Eigedomsordet står etter substantivet: syklane dykkar."
+- id: nn-pron-rekkefolge-4
+  type: rekkefolge
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Set orda i rett rekkefølge. Setninga byrjar med «Ho»."
+  elementer:
+    - "Ho"
+    - "har"
+    - "lånt"
+    - "sykkelen"
+    - "min."
+  forklaring: "Eigedomsordet står etter substantivet: sykkelen min."
