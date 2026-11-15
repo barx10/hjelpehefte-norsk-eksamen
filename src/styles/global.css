@@ -645,3 +645,8 @@ dialog.modal hr { border: 0; border-top: 1px solid var(--linje); margin: 1.2rem 
 .lukk-knapp { font: inherit; font-weight: 700; background: var(--primar); color: var(--primar-tekst); border: 0; border-radius: 999px; padding: 0.7rem 1.8rem; cursor: pointer; margin-top: 0.6rem; }
 .lukk-knapp:hover { background: var(--primar-hover); }
 .kildeliste strong { font-size: 1rem; }
+
+/* Forklaring av omfangsmerkene på kompetansemålsiden */
+.forklaring { margin: 1rem 0 1.5rem; }
+.forklaring dt { font-weight: 700; margin-top: 0.5rem; }
+.forklaring dd { margin: 0; color: var(--dempet); }

@@ -41,9 +41,15 @@ const grupper = (['dekkes', 'delvis', 'senere', 'utenfor'] as const).map((o) => 
     {nivaa.kode === '10' ? (
       <p>Siden er laget for skriftlig eksamen. Muntlige mål og språkhistorie er bevisst holdt utenfor, men kan bygges ut senere.</p>
     ) : (
-      <p>Siden er laget for skriftlig eksamen i hovedmål. Muntlige mål og sidemål er holdt utenfor. Innholdet for dette nivået er under arbeid.</p>
+      <p>Siden er laget for skriftlig eksamen. Muntlige mål er holdt utenfor. Nynorsk ordbøying øves, men sidemålstekster er ikke med ennå. Innholdet for dette nivået er under arbeid.</p>
     )}
   </div>
+  <dl class="forklaring">
+    <dt>Øves her</dt><dd>Målet er dekket av øvelser og kapitler på siden.</dd>
+    <dt>Delvis</dt><dd>Noen deler av målet øves. Merknaden under hvert mål forklarer hva som mangler.</dd>
+    <dt>Planlagt</dt><dd>Målet er ikke dekket ennå, men skal komme.</dd>
+    <dt>Utenfor denne siden</dt><dd>Målet er ikke med her, for eksempel muntlige mål. Det betyr ikke at det er uviktig.</dd>
+  </dl>
   {grupper.map((g) => (
     <section aria-labelledby={`g-${g.omfang}`}>
       <h2 id={`g-${g.omfang}`}>{omfangTekst[g.omfang]} ({g.rader.length})</h2>
