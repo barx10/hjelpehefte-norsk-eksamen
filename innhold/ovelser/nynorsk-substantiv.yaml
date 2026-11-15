@@ -1,0 +1,62 @@
+# Bøyingstabellar for nynorsk substantiv. Utkast til gjennomgang.
+- id: nn-subst-hankjonn-1
+  type: boyingstabell
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Skriv inn endingane. Alle orda er hankjønn."
+  kolonner: ["ubunde eintal", "bunde eintal", "ubunde fleirtal", "bunde fleirtal"]
+  rader:
+    - ["ein gut", "gut|en", "gut|ar", "gut|ane"]
+    - ["ein lærar", "lærar|en", "lærar|ar", "lærar|ane"]
+    - ["ein bil", "bil|en", "bil|ar", "bil|ane"]
+    - ["ein stol", "stol|en", "stol|ar", "stol|ane"]
+    - ["ein vegg", "vegg|en", "vegg|ar", "vegg|ane"]
+  forklaring: "Hankjønnsord får -en i bunden form eintal, og -ar og -ane i fleirtal."
+- id: nn-subst-hokjonn-1
+  type: boyingstabell
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Skriv inn endingane. Alle orda er hokjønn."
+  kolonner: ["ubunde eintal", "bunde eintal", "ubunde fleirtal", "bunde fleirtal"]
+  rader:
+    - ["ei sak", "sak|a", "sak|er", "sak|ene"]
+    - ["ei jente", "jent|a", "jent|er", "jent|ene"]
+    - ["ei liste", "list|a", "list|er", "list|ene"]
+    - ["ei veske", "vesk|a", "vesk|er", "vesk|ene"]
+    - ["ei flaske", "flask|a", "flask|er", "flask|ene"]
+  forklaring: "Hokjønnsord får -a i bunden form eintal, og -er og -ene i fleirtal. Når ordet sluttar på -e, fell -e bort før endinga."
+- id: nn-subst-inkjekjonn-1
+  type: boyingstabell
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Skriv inn endingane. Alle orda er inkjekjønn."
+  kolonner: ["ubunde eintal", "bunde eintal", "ubunde fleirtal", "bunde fleirtal"]
+  rader:
+    - ["eit hus", "hus|et", "hus", "hus|a"]
+    - ["eit barn", "barn|et", "barn", "barn|a"]
+    - ["eit bord", "bord|et", "bord", "bord|a"]
+    - ["eit land", "land|et", "land", "land|a"]
+    - ["eit fag", "fag|et", "fag", "fag|a"]
+  forklaring: "Inkjekjønnsord får -et i bunden form eintal. I ubunden form fleirtal har dei inga ending, og i bunden form fleirtal får dei -a."
+- id: nn-subst-blanding-1
+  type: boyingstabell
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Skriv inn endingane. Orda har ulikt kjønn, så sjå på artikkelen."
+  kolonner: ["ubunde eintal", "bunde eintal", "ubunde fleirtal", "bunde fleirtal"]
+  rader:
+    - ["ein gut", "gut|en", "gut|ar", "gut|ane"]
+    - ["ei jente", "jent|a", "jent|er", "jent|ene"]
+    - ["eit hus", "hus|et", "hus", "hus|a"]
+    - ["ein lærar", "lærar|en", "lærar|ar", "lærar|ane"]
+    - ["ei sak", "sak|a", "sak|er", "sak|ene"]
+    - ["eit land", "land|et", "land", "land|a"]
+  forklaring: "Artikkelen viser kva for eit kjønn ordet har, og kjønnet bestemmer endingane."

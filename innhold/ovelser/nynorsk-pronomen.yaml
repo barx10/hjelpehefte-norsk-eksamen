@@ -1,0 +1,250 @@
+# Øvingar til kapittelet Nynorsk, pronomen og eigedomsord. Utkast til gjennomgang.
+# Bygd på NDLA «Vanlege nynorskfeil 3» av Åsa Abusland og Marion Federl, CC BY-SA 4.0. Same lisens her.
+- id: nn-pron-personlege-1
+  type: boyingstabell
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Skriv inn pronomena."
+  kolonner: ["person", "subjektsform", "objektsform"]
+  rader:
+    - ["1. person eintal", "|eg", "|meg"]
+    - ["2. person eintal", "|du", "|deg"]
+    - ["3. person eintal, hankjønn", "|han", "|han"]
+    - ["3. person fleirtal", "|dei", "|dei"]
+  forklaring: "Subjektsforma står som subjekt, og objektsforma står som objekt. På nynorsk er dei 3. person fleirtal dei i begge former."
+- id: nn-pron-eigedom-1
+  type: boyingstabell
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  oppdrag: "Skriv inn rett form av eigedomsordet."
+  kolonner: ["eigedomsord", "hankjønn", "hokjønn", "inkjekjønn", "fleirtal"]
+  rader:
+    - ["min", "|min", "|mi", "|mitt", "|mine"]
+    - ["din", "|din", "|di", "|ditt", "|dine"]
+    - ["sin", "|sin", "|si", "|sitt", "|sine"]
+    - ["vår", "|vår", "|vår", "|vårt", "|våre"]
+  forklaring: "Min, din, sin og vår bøyer etter kjønn og tal på substantivet. Hokjønn har -i, inkjekjønn har -tt, og fleirtal har -ne."
+- id: nn-pron-nokon-1
+  type: boyingstabell
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Skriv inn rett form av «nokon»."
+  kolonner: ["hankjønn", "hokjønn", "inkjekjønn", "fleirtal"]
+  rader:
+    - ["nokon bil", "|noka avis", "|noko hus", "|nokre bilar"]
+  forklaring: "Nokon har formene nokon, noka, noko og nokre."
+- id: nn-pron-feil-1
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Man skal ikkje lyge."
+  feil: "Man"
+  rettelse: "Ein"
+  forklaring: "Ordet man finst ikkje på nynorsk. Bruk ein."
+- id: nn-pron-feil-2
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Eg har kjøpt ei ny jakke. Den er raud."
+  feil: "Den"
+  rettelse: "Ho"
+  forklaring: "Jakke er eit hokjønnsord. På nynorsk brukar vi ho om hokjønnsord, ikkje den."
+- id: nn-pron-feil-3
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  tekst: "Har du sett sekken min? Den er blå."
+  feil: "Den"
+  rettelse: "Han"
+  forklaring: "Sekk er eit hankjønnsord. På nynorsk brukar vi han om hankjønnsord, ikkje den."
+- id: nn-pron-feil-4
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Avsendaren reklamerer for sitt produkt."
+  feil: "sitt produkt"
+  rettelse: "produktet sitt"
+  forklaring: "På nynorsk står eigedomsordet vanlegvis etter substantivet."
+- id: nn-pron-feil-5
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Kvar er syklane deres, gutar?"
+  feil: "deres"
+  rettelse: "dykkar"
+  forklaring: "Når du snakkar til fleire, brukar du dykkar eller dokkar. Deres finst ikkje på nynorsk."
+- id: nn-pron-feil-6
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Emil og Henrik må vere heime. Syklane dykkar står utanfor."
+  feil: "dykkar"
+  rettelse: "deira"
+  forklaring: "Snakkar du om fleire andre, brukar du deira."
+- id: nn-pron-feil-7
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  tekst: "Eg har ikkje gløymt bøkene hennes."
+  feil: "hennes"
+  rettelse: "hennar"
+  forklaring: "Nynorsk har hennar, ikkje hennes."
+- id: nn-pron-feil-8
+  type: finnfeil
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 3
+  tekst: "Har du nokre pengar å låne meg?"
+  feil: "nokre"
+  rettelse: "nokon"
+  forklaring: "I spørjande og nektande setningar brukar vi tradisjonelt nokon i fleirtal."
+- id: nn-pron-valg-1
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  spm: "Kva setning er rett nynorsk?"
+  alternativer:
+    - "Boka mi ligg på bordet."
+    - "Boka min ligg på bordet."
+    - "Boken mi ligg på bordet."
+    - "Boka mitt ligg på bordet."
+  riktig: 0
+  forklaring: "Bok er hokjønn, så eigedomsordet er mi og står etter substantivet."
+- id: nn-pron-valg-2
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  spm: "Kva pronomen brukar du om ein stol (hankjønn) på nynorsk?"
+  alternativer:
+    - "han"
+    - "den"
+    - "ho"
+    - "det"
+  riktig: 0
+  forklaring: "Nynorsk har ikkje personpronomenet den. Om hankjønnsord brukar vi han."
+- id: nn-pron-valg-3
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 1
+  spm: "Kva ord manglar? «___ skal ikkje lyge.»"
+  alternativer:
+    - "Ein"
+    - "Man"
+    - "Den"
+    - "Dei"
+  riktig: 0
+  forklaring: "Man finst ikkje på nynorsk. Bruk ein."
+- id: nn-pron-valg-4
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  spm: "Kva ord manglar? «Anna og Mia er heime. Syklane ___ står ute.»"
+  alternativer:
+    - "deira"
+    - "dykkar"
+    - "deres"
+    - "dei"
+  riktig: 0
+  forklaring: "Når du snakkar om fleire andre, brukar du deira."
+- id: nn-pron-valg-5
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  spm: "Kva er rett? «Kva vil ___ to gjere, Jonas og Aisha? Eg spør ___ no.»"
+  alternativer:
+    - "de ... dykk"
+    - "dei ... dei"
+    - "dere ... dem"
+    - "de ... dem"
+  riktig: 0
+  forklaring: "De er subjektsforma og dykk er objektsforma i 2. person fleirtal. Dokker kan brukast i begge."
+- id: nn-pron-valg-6
+  type: flervalg
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 3
+  spm: "Kva setning er rett nynorsk?"
+  alternativer:
+    - "Eg fann ikkje nokon bil."
+    - "Eg fann ikkje noko bil."
+    - "Eg fann ikkje noka bil."
+    - "Eg fann ikkje nokre bil."
+  riktig: 0
+  forklaring: "Bil er eit hankjønnsord, så det heiter nokon bil."
+- id: nn-pron-kobling-1
+  type: matching
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Kva heiter ordet på nynorsk?"
+  par:
+    - { venstre: "hennes", hoyre: "hennar" }
+    - { venstre: "deres (om andre)", hoyre: "deira" }
+    - { venstre: "hun", hoyre: "ho" }
+    - { venstre: "man", hoyre: "ein" }
+    - { venstre: "noe", hoyre: "noko" }
+    - { venstre: "hver", hoyre: "kvar" }
+  forklaring: "Dette er ord som skil seg frå bokmål."
+- id: nn-pron-rekkefolge-1
+  type: rekkefolge
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Set orda i rett rekkefølge. Setninga byrjar med «Kvar»."
+  elementer:
+    - "Kvar"
+    - "er"
+    - "jakka"
+    - "mi?"
+  forklaring: "Eigedomsordet står etter substantivet: jakka mi."
+- id: nn-pron-rekkefolge-2
+  type: rekkefolge
+  kapittel: nynorsk-pronomen
+  mal: [m10-11, m10-12, mvg1-11]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Set orda i rett rekkefølge. Setninga byrjar med «Eg»."
+  elementer:
+    - "Eg"
+    - "finn"
+    - "berre"
+    - "genseren"
+    - "min"
+    - "og"
+    - "vottane"
+    - "dine."
+  forklaring: "Eigedomsordet står etter substantivet: genseren min og vottane dine."

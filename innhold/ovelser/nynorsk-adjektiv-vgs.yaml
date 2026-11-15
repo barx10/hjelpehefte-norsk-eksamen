@@ -1,0 +1,149 @@
+# Øvingar til kapittelet Nynorsk, adjektiv og partisipp (vgs). Utkast til gjennomgang.
+- id: nn-part-sterke-1
+  type: boyingstabell
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  oppdrag: "Skriv inn partisippet i rett form."
+  kolonner: ["verb", "hankjønn og hokjønn", "inkjekjønn", "fleirtal"]
+  rader:
+    - ["å binde", "|bunden", "|bunde", "|bundne"]
+    - ["å skrive", "|skriven", "|skrive", "|skrivne"]
+    - ["å fryse", "|frosen", "|frose", "|frosne"]
+  forklaring: "Sterke partisipp får -en i hankjønn og hokjønn, -e i inkjekjønn og -ne i fleirtal."
+- id: nn-part-svake-1
+  type: boyingstabell
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  oppdrag: "Skriv inn partisippet i rett form."
+  kolonner: ["verb", "hankjønn og hokjønn", "inkjekjønn", "fleirtal"]
+  rader:
+    - ["å kjøpe", "|kjøpt", "|kjøpt", "|kjøpte"]
+    - ["å dømme", "|dømd", "|dømt", "|dømde"]
+    - ["å spisse", "|spissa", "|spissa", "|spissa"]
+  forklaring: "Svake partisipp får endingar etter verbklassen: -t og -te, -d og -de eller -a."
+- id: nn-adj-eigen-1
+  type: boyingstabell
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  oppdrag: "Skriv inn rett form av liten og eigen."
+  kolonner: ["ord", "hankjønn", "hokjønn", "inkjekjønn"]
+  rader:
+    - ["liten", "|liten", "|lita", "|lite"]
+    - ["eigen", "|eigen", "|eiga", "|eige"]
+  forklaring: "Liten og eigen har ei eiga form i hokjønn: lita og eiga."
+- id: nn-adj-feil-v1
+  type: finnfeil
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  tekst: "Ho kjøpte ei liten bok."
+  feil: "liten"
+  rettelse: "lita"
+  forklaring: "Liten har formene liten, lita og lite."
+- id: nn-adj-feil-v2
+  type: finnfeil
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  tekst: "Butikkane er open i dag."
+  feil: "open"
+  rettelse: "opne"
+  forklaring: "Adjektiv på -en mister -e- i fleirtal: opne."
+- id: nn-adj-feil-v3
+  type: finnfeil
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  tekst: "Hundane er bunden."
+  feil: "bunden"
+  rettelse: "bundne"
+  forklaring: "Sterke partisipp får -ne i fleirtal."
+- id: nn-adj-feil-v4
+  type: finnfeil
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  tekst: "Ein brei veg bør ha eit brei fortau."
+  feil: "brei fortau"
+  rettelse: "breitt fortau"
+  forklaring: "Adjektiv på diftong får -tt i inkjekjønn."
+- id: nn-adj-valg-v1
+  type: flervalg
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Kva er rett? «Ho fekk ei ___ jente på fanget.»"
+  alternativer:
+    - "lita"
+    - "liten"
+    - "lite"
+    - "små"
+  riktig: 0
+  forklaring: "Hokjønn av liten er lita."
+- id: nn-adj-valg-v2
+  type: flervalg
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 2
+  spm: "Kva er rett? «Døra er ___.»"
+  alternativer:
+    - "open"
+    - "ope"
+    - "opent"
+    - "opne"
+  riktig: 0
+  forklaring: "Døra er eit hokjønnsord i eintal, så adjektivet står i grunnforma open."
+- id: nn-adj-valg-v3
+  type: flervalg
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  spm: "Kva er rett? «Hunden er ___.»"
+  alternativer:
+    - "bunden"
+    - "bunde"
+    - "bundne"
+    - "bundet"
+  riktig: 0
+  forklaring: "Hunden er hankjønn, så partisippet av binde får -en."
+- id: nn-adj-valg-v4
+  type: flervalg
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  spm: "Kva setning er rett nynorsk?"
+  alternativer:
+    - "Forbrytarane er dømt."
+    - "Forbrytarane er dømd."
+    - "Forbrytarane er dømda."
+    - "Forbrytarane er dømdt."
+  riktig: 0
+  forklaring: "Forenkla samsvarsbøying er lov etter vere: forbrytarane er dømt."
+- id: nn-adj-valg-v5
+  type: flervalg
+  kapittel: nynorsk-adjektiv-vgs
+  mal: [mvg1-11, mvg3-08]
+  status: utkast
+  vanskegrad: 3
+  spm: "Kva er rett? «Alle gjestene har ___ inn snøbretta.»"
+  alternativer:
+    - "levert"
+    - "leverte"
+    - "leverd"
+    - "levera"
+  riktig: 0
+  forklaring: "Etter ha brukar vi alltid inkjekjønnsforma: har levert."
