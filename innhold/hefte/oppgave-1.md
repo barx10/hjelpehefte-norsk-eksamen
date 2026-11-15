@@ -1,5 +1,5 @@
 ---
-tittel: "Oppgave 1: korte svar"
+tittel: Kortsvar
 nummer: '15'
 rekkefolge: 15
 gruppe: eksamen
