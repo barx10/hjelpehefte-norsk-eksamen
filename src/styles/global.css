@@ -622,3 +622,26 @@ h2, h3 { font-weight: 700; }
 .for-etter > div { border: 1px solid var(--linje); border-radius: var(--radius); padding: 0.4rem 0.8rem; background: var(--flate-2); overflow-wrap: anywhere; }
 .for-etter h5 { margin: 0.2rem 0; }
 @media (max-width: 600px) { .for-etter { grid-template-columns: 1fr; } }
+
+/* Om- og kildevinduer */
+.topp .topp-band .rad { flex-wrap: nowrap; }
+.topp-verktoy { display: flex; gap: 0.25rem; margin-left: auto; }
+.topp-knapp { font: inherit; font-size: 0.95rem; min-height: 44px; padding: 0 0.7rem; background: none; border: 0; border-bottom: 3px solid transparent; color: var(--band-tekst); cursor: pointer; opacity: 0.85; }
+.topp-knapp:hover { opacity: 1; text-decoration: underline; }
+@media (max-width: 40rem) { .topp .topp-band .rad { flex-wrap: wrap; } }
+dialog.modal { width: calc(100% - 2rem); max-height: 85vh; overflow-y: auto; background: var(--flate); color: var(--tekst); border: 3px solid var(--aksent); border-radius: 24px; padding: 2rem 2.1rem 1.8rem; }
+dialog.om-modal { max-width: 32rem; }
+dialog.kilde-modal { max-width: 46rem; }
+dialog.modal::backdrop { background: rgba(0, 0, 0, 0.5); }
+dialog.modal h2 { margin: 0 0 0.8rem; font-size: 1.8rem; }
+dialog.modal h3 { margin: 1.4rem 0 0.4rem; font-size: 1.15rem; }
+dialog.modal p { margin: 0 0 0.9rem; }
+dialog.modal hr { border: 0; border-top: 1px solid var(--linje); margin: 1.2rem 0 0.9rem; }
+.om-logo { display: block; width: 190px; height: auto; background: #fff; border-radius: 8px; }
+.om-lenker a { color: var(--tekst); }
+.om-liten, dialog.modal .info { font-size: 0.9rem; color: var(--dempet); }
+.kildeliste { list-style: none; padding: 0; margin: 0; }
+.kildeliste li { margin-bottom: 0.7rem; overflow-wrap: anywhere; }
+.lukk-knapp { font: inherit; font-weight: 700; background: var(--primar); color: var(--primar-tekst); border: 0; border-radius: 999px; padding: 0.7rem 1.8rem; cursor: pointer; margin-top: 0.6rem; }
+.lukk-knapp:hover { background: var(--primar-hover); }
+.kildeliste strong { font-size: 1rem; }
