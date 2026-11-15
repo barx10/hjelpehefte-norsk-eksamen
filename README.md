@@ -4,6 +4,10 @@ Hjelpehefte og øvingsside for skriftlig eksamen i norsk, 10. trinn. Innholdet l
 
 Nettsiden og heftet bygges fra samme innhold. Originalen fra Canva ligger i `kilde/`.
 
+[![Demo av øvingssiden](docs/demo.gif)](docs/demo.mp4)
+
+[Se videoen i full kvalitet (MP4)](docs/demo.mp4)
+
 ## Kjøre lokalt
 
 ```bash
