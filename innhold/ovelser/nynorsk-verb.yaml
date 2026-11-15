@@ -1,10 +1,10 @@
-# Øvingar til kapittelet Nynorsk, verb. Utkast til gjennomgang.
+# Øvingar til kapittelet Nynorsk, verb.
 # Bygd på NDLA «Vanlege nynorskfeil 2: verb» av Åsa Abusland og Marion Federl, CC BY-SA 4.0. Same lisens her.
 - id: nn-verb-a-1
   type: boyingstabell
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Skriv inn endingane. Alle verba er a-verb."
   kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
@@ -19,7 +19,7 @@
   type: boyingstabell
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Skriv inn endingane. Alle verba er e-verb."
   kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
@@ -34,7 +34,7 @@
   type: boyingstabell
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Skriv inn heile verbforma. Alle verba er sterke."
   kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
@@ -49,7 +49,7 @@
   type: boyingstabell
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv inn det som manglar. Verba er a-verb, e-verb og sterke verb."
   kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
@@ -65,7 +65,7 @@
   type: boyingstabell
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv inn heile verbforma."
   kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
@@ -80,7 +80,7 @@
   type: boyingstabell
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv inn heile verbforma. Verba sluttar på -st i alle tider."
   kolonner: ["infinitiv", "presens", "preteritum", "presens perfektum"]
@@ -92,7 +92,7 @@
   type: finnfeil
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Eg kaster ballen til deg."
   feil: "kaster"
@@ -102,7 +102,7 @@
   type: finnfeil
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "I går kastet eg ballen over gjerdet."
   feil: "kastet"
@@ -112,7 +112,7 @@
   type: finnfeil
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   tekst: "Ho har hoppet heile dagen."
   feil: "hoppet"
@@ -122,7 +122,7 @@
   type: finnfeil
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Han finner ikkje sokkane sine."
   feil: "finner"
@@ -132,7 +132,7 @@
   type: finnfeil
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Eg skrivar ein stil no."
   feil: "skrivar"
@@ -142,7 +142,7 @@
   type: finnfeil
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "I går skrev eg eit langt brev."
   feil: "skrev"
@@ -152,7 +152,7 @@
   type: finnfeil
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Vi har skreve ein lang tekst."
   feil: "skreve"
@@ -162,7 +162,7 @@
   type: finnfeil
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   tekst: "Eg har kjøpa ei ny bok."
   feil: "kjøpa"
@@ -172,7 +172,7 @@
   type: finnfeil
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   tekst: "Eg synes boka var god."
   feil: "synes"
@@ -182,7 +182,7 @@
   type: finnfeil
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   tekst: "Trappa må vaskes kvar veke."
   feil: "vaskes"
@@ -192,7 +192,7 @@
   type: flervalg
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Kva er rett presens av å kaste på nynorsk?"
   alternativer:
@@ -206,7 +206,7 @@
   type: flervalg
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   spm: "Du seier «I går hoppa eg». Kva slags verb er å hoppe?"
   alternativer:
@@ -219,7 +219,7 @@
   type: flervalg
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Kva kjenneteiknar eit sterkt verb?"
   alternativer:
@@ -233,7 +233,7 @@
   type: flervalg
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Kva setning er rett nynorsk?"
   alternativer:
@@ -247,7 +247,7 @@
   type: flervalg
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   spm: "Kva er rett bøying av å finnast?"
   alternativer:
@@ -261,7 +261,7 @@
   type: sortering
   kapittel: nynorsk-verb
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Kva slags verb er dette? Bruk preteritumstesten."
   kategorier: ["a-verb", "e-verb", "sterkt verb"]

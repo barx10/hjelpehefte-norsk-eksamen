@@ -1,9 +1,9 @@
-# Bøyingstabellar for nynorsk substantiv. Utkast til gjennomgang.
+# Bøyingstabellar for nynorsk substantiv.
 - id: nn-subst-hankjonn-1
   type: boyingstabell
   kapittel: nynorsk-substantiv
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Skriv inn endingane. Alle orda er hankjønn."
   kolonner: ["ubunde eintal", "bunde eintal", "ubunde fleirtal", "bunde fleirtal"]
@@ -18,7 +18,7 @@
   type: boyingstabell
   kapittel: nynorsk-substantiv
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Skriv inn endingane. Alle orda er hokjønn."
   kolonner: ["ubunde eintal", "bunde eintal", "ubunde fleirtal", "bunde fleirtal"]
@@ -33,7 +33,7 @@
   type: boyingstabell
   kapittel: nynorsk-substantiv
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 1
   oppdrag: "Skriv inn endingane. Alle orda er inkjekjønn."
   kolonner: ["ubunde eintal", "bunde eintal", "ubunde fleirtal", "bunde fleirtal"]
@@ -48,7 +48,7 @@
   type: boyingstabell
   kapittel: nynorsk-substantiv
   mal: [m10-11, m10-12, mvg1-11]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Skriv inn endingane. Orda har ulikt kjønn, så sjå på artikkelen."
   kolonner: ["ubunde eintal", "bunde eintal", "ubunde fleirtal", "bunde fleirtal"]
@@ -60,3 +60,364 @@
     - ["ei sak", "sak|a", "sak|er", "sak|ene"]
     - ["eit land", "land|et", "land", "land|a"]
   forklaring: "Artikkelen viser kva for eit kjønn ordet har, og kjønnet bestemmer endingane."
+- id: nn-subst-hankjonn-2
+  type: boyingstabell
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Skriv inn endingane. Alle orda er hankjønn."
+  kolonner: ["ubunde eintal", "bunde eintal", "ubunde fleirtal", "bunde fleirtal"]
+  rader:
+    - ["ein hund", "hund|en", "hund|ar", "hund|ane"]
+    - ["ein dag", "dag|en", "dag|ar", "dag|ane"]
+    - ["ein fisk", "fisk|en", "fisk|ar", "fisk|ane"]
+    - ["ein elev", "elev|en", "elev|ar", "elev|ane"]
+    - ["ein bakar", "bakar|en", "bakar|ar", "bakar|ane"]
+  forklaring: "Hankjønnsord får -en i bunden form eintal, og -ar og -ane i fleirtal."
+- id: nn-subst-hokjonn-2
+  type: boyingstabell
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Skriv inn endingane. Alle orda er hokjønn."
+  kolonner: ["ubunde eintal", "bunde eintal", "ubunde fleirtal", "bunde fleirtal"]
+  rader:
+    - ["ei klokke", "klokk|a", "klokk|er", "klokk|ene"]
+    - ["ei seng", "seng|a", "seng|er", "seng|ene"]
+    - ["ei veke", "vek|a", "vek|er", "vek|ene"]
+    - ["ei hytte", "hytt|a", "hytt|er", "hytt|ene"]
+    - ["ei dør", "dør|a", "dør|er", "dør|ene"]
+  forklaring: "Hokjønnsord får -a i bunden form eintal, og -er og -ene i fleirtal. Når ordet sluttar på -e, fell -e bort før endinga."
+- id: nn-subst-inkjekjonn-2
+  type: boyingstabell
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Skriv inn endingane. Alle orda er inkjekjønn."
+  kolonner: ["ubunde eintal", "bunde eintal", "ubunde fleirtal", "bunde fleirtal"]
+  rader:
+    - ["eit år", "år|et", "år", "år|a"]
+    - ["eit rom", "rom|met", "rom", "rom|ma"]
+    - ["eit bein", "bein|et", "bein", "bein|a"]
+    - ["eit hotell", "hotell|et", "hotell", "hotell|a"]
+    - ["eit skip", "skip|et", "skip", "skip|a"]
+  forklaring: "Inkjekjønnsord får -et i bunden form eintal, inga ending i ubunden fleirtal og -a i bunden fleirtal."
+- id: nn-subst-uregelrett-1
+  type: boyingstabell
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Skriv inn heile ordforma. Orda bøyer uregelrett."
+  kolonner: ["ubunde eintal", "bunde eintal", "ubunde fleirtal", "bunde fleirtal"]
+  rader:
+    - ["ei bok", "|boka", "|bøker", "|bøkene"]
+    - ["ein mann", "|mannen", "|menn", "|mennene"]
+    - ["ein fot", "|foten", "|føter", "|føtene"]
+    - ["ei hand", "|handa", "|hender", "|hendene"]
+    - ["ein bror", "|broren", "|brør", "|brørne"]
+  forklaring: "Desse orda endrar vokal i fleirtal. Du må lære dei kvart for seg."
+- id: nn-subst-valg-1
+  type: flervalg
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er bunden form eintal av «ei jente»?"
+  alternativer:
+    - "jenta"
+    - "jenten"
+    - "jentet"
+    - "jentene"
+  riktig: 0
+  forklaring: "Hokjønnsord får -a i bunden form eintal. Ordet sluttar på -e, så -e fell bort: jenta."
+- id: nn-subst-valg-2
+  type: flervalg
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er ubunden form fleirtal av «ein gut»?"
+  alternativer:
+    - "gutar"
+    - "guter"
+    - "gutane"
+    - "gutene"
+  riktig: 0
+  forklaring: "Hankjønnsord får -ar i ubunden form fleirtal."
+- id: nn-subst-valg-3
+  type: flervalg
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er ubunden form fleirtal av «eit barn»?"
+  alternativer:
+    - "barn"
+    - "barnar"
+    - "barner"
+    - "barna"
+  riktig: 0
+  forklaring: "Inkjekjønnsord med eitt stavingsledd får inga ending i ubunden form fleirtal."
+- id: nn-subst-valg-4
+  type: flervalg
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er bunden form fleirtal av «ein bil»?"
+  alternativer:
+    - "bilane"
+    - "bilene"
+    - "bilar"
+    - "bila"
+  riktig: 0
+  forklaring: "Hankjønnsord får -ane i bunden form fleirtal."
+- id: nn-subst-valg-5
+  type: flervalg
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Kva er bunden form eintal av «eit land»?"
+  alternativer:
+    - "landet"
+    - "landen"
+    - "landa"
+    - "landene"
+  riktig: 0
+  forklaring: "Inkjekjønnsord får -et i bunden form eintal."
+- id: nn-subst-valg-6
+  type: flervalg
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Kva er ubunden form fleirtal av «ei veske»?"
+  alternativer:
+    - "vesker"
+    - "veskar"
+    - "veske"
+    - "veskane"
+  riktig: 0
+  forklaring: "Hokjønnsord får -er i ubunden form fleirtal."
+- id: nn-subst-valg-7
+  type: flervalg
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Kva er ubunden form fleirtal av «ei bok»?"
+  alternativer:
+    - "bøker"
+    - "boker"
+    - "bokar"
+    - "bok"
+  riktig: 0
+  forklaring: "Bok bøyer uregelrett: bok, boka, bøker, bøkene."
+- id: nn-subst-valg-8
+  type: flervalg
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Kva er ubunden form fleirtal av «ein mann»?"
+  alternativer:
+    - "menn"
+    - "mannar"
+    - "manner"
+    - "mann"
+  riktig: 0
+  forklaring: "Mann bøyer uregelrett: mann, mannen, menn, mennene."
+- id: nn-subst-valg-9
+  type: flervalg
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Kva slags kjønn har ordet «lampe»? Set -a på ordet i bunden form og høyr etter."
+  alternativer:
+    - "hokjønn"
+    - "hankjønn"
+    - "inkjekjønn"
+    - "alle tre kjønna"
+  riktig: 0
+  forklaring: "Lampa høyrest naturleg ut, så lampe er hokjønn: ei lampe."
+- id: nn-subst-valg-10
+  type: flervalg
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Kva slags kjønn har ordet «gut»? Set -a på ordet i bunden form og høyr etter."
+  alternativer:
+    - "hankjønn"
+    - "hokjønn"
+    - "inkjekjønn"
+    - "alle tre kjønna"
+  riktig: 0
+  forklaring: "Guta høyrest feil ut, så gut er hankjønn: ein gut, guten."
+- id: nn-subst-feil-1
+  type: finnfeil
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Gutene spelte fotball etter skulen."
+  feil: "Gutene"
+  rettelse: "Gutane"
+  forklaring: "Hankjønnsord får -ane i bunden form fleirtal."
+- id: nn-subst-feil-2
+  type: finnfeil
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Dei kjøpte mange boker i fjor."
+  feil: "boker"
+  rettelse: "bøker"
+  forklaring: "Bok bøyer uregelrett: bøker."
+- id: nn-subst-feil-3
+  type: finnfeil
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Ho gav jenten ei gåve."
+  feil: "jenten"
+  rettelse: "jenta"
+  forklaring: "Jente er eit hokjønnsord, så bunden form eintal er jenta."
+- id: nn-subst-feil-4
+  type: finnfeil
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Barnene leika ute heile dagen."
+  feil: "Barnene"
+  rettelse: "Barna"
+  forklaring: "Inkjekjønnsord får -a i bunden form fleirtal."
+- id: nn-subst-feil-5
+  type: finnfeil
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  tekst: "Det er mange husar i denne gata."
+  feil: "husar"
+  rettelse: "hus"
+  forklaring: "Inkjekjønnsord med eitt stavingsledd får inga ending i ubunden form fleirtal."
+- id: nn-subst-feil-6
+  type: finnfeil
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  tekst: "Dei tre mannane stod og venta."
+  feil: "mannane"
+  rettelse: "mennene"
+  forklaring: "Mann bøyer uregelrett: menn og mennene."
+- id: nn-subst-feil-7
+  type: finnfeil
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Lampen stod på bordet."
+  feil: "Lampen"
+  rettelse: "Lampa"
+  forklaring: "Lampe er eit hokjønnsord, så bunden form eintal er lampa."
+- id: nn-subst-feil-8
+  type: finnfeil
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  tekst: "Eg kjøpte tre sakar i butikken."
+  feil: "sakar"
+  rettelse: "saker"
+  forklaring: "Hokjønnsord får -er i ubunden form fleirtal."
+- id: nn-subst-feil-9
+  type: finnfeil
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  tekst: "Flaskane stod på bordet."
+  feil: "Flaskane"
+  rettelse: "Flaskene"
+  forklaring: "Hokjønnsord får -ene i bunden form fleirtal."
+- id: nn-subst-feil-10
+  type: finnfeil
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  tekst: "Bokene låg på golvet."
+  feil: "Bokene"
+  rettelse: "Bøkene"
+  forklaring: "Bok bøyer uregelrett: bøkene."
+- id: nn-subst-feil-11
+  type: finnfeil
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  tekst: "Huset hadde to store vindauga i fasaden."
+  feil: "vindauga"
+  rettelse: "vindauge"
+  forklaring: "Inkjekjønnsord på -e har same form i ubunden fleirtal: to vindauge. Bunden form er vindauga."
+- id: nn-subst-par-1
+  type: matching
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Kva heiter ordet på nynorsk?"
+  par:
+    - { venstre: "vindu", hoyre: "vindauge" }
+    - { venstre: "uke", hoyre: "veke" }
+    - { venstre: "skole", hoyre: "skule" }
+    - { venstre: "øye", hoyre: "auge" }
+    - { venstre: "kjøkken", hoyre: "kjøken" }
+    - { venstre: "bilde", hoyre: "bilete" }
+  forklaring: "Dette er substantiv som skil seg frå bokmål."
+- id: nn-subst-sorter-1
+  type: sortering
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Kva kjønn har ordet?"
+  kategorier: ["hankjønn", "hokjønn", "inkjekjønn"]
+  elementer:
+    - { tekst: "ein bil", kategori: 0 }
+    - { tekst: "ei sak", kategori: 1 }
+    - { tekst: "eit hus", kategori: 2 }
+    - { tekst: "ein lærar", kategori: 0 }
+    - { tekst: "ei veske", kategori: 1 }
+    - { tekst: "eit land", kategori: 2 }
+    - { tekst: "ein hund", kategori: 0 }
+    - { tekst: "ei seng", kategori: 1 }
+  forklaring: "Artikkelen viser kjønnet: ein for hankjønn, ei for hokjønn og eit for inkjekjønn."
+- id: nn-subst-sorter-2
+  type: sortering
+  kapittel: nynorsk-substantiv
+  mal: [m10-11, m10-12, mvg1-11]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Kva ending får ordet i ubunden form fleirtal?"
+  kategorier: ["-ar", "-er", "inga ending"]
+  elementer:
+    - { tekst: "ein dag", kategori: 0 }
+    - { tekst: "ei sak", kategori: 1 }
+    - { tekst: "eit hus", kategori: 2 }
+    - { tekst: "ein elev", kategori: 0 }
+    - { tekst: "ei klokke", kategori: 1 }
+    - { tekst: "eit barn", kategori: 2 }
+    - { tekst: "ein fisk", kategori: 0 }
+    - { tekst: "ei hytte", kategori: 1 }
+  forklaring: "Hankjønn får -ar, hokjønn får -er, og inkjekjønn med eitt stavingsledd får inga ending."

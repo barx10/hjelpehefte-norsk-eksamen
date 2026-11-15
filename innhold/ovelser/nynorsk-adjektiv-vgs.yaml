@@ -1,9 +1,9 @@
-# Øvingar til kapittelet Nynorsk, adjektiv og partisipp (vgs). Utkast til gjennomgang.
+# Øvingar til kapittelet Nynorsk, adjektiv og partisipp (vgs).
 - id: nn-part-sterke-1
   type: boyingstabell
   kapittel: nynorsk-adjektiv-vgs
   mal: [mvg1-11, mvg3-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   oppdrag: "Skriv inn partisippet i rett form."
   kolonner: ["verb", "hankjønn og hokjønn", "inkjekjønn", "fleirtal"]
@@ -16,7 +16,7 @@
   type: boyingstabell
   kapittel: nynorsk-adjektiv-vgs
   mal: [mvg1-11, mvg3-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv inn partisippet i rett form."
   kolonner: ["verb", "hankjønn og hokjønn", "inkjekjønn", "fleirtal"]
@@ -29,7 +29,7 @@
   type: boyingstabell
   kapittel: nynorsk-adjektiv-vgs
   mal: [mvg1-11, mvg3-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv inn rett form av liten og eigen."
   kolonner: ["ord", "hankjønn", "hokjønn", "inkjekjønn"]
@@ -41,7 +41,7 @@
   type: finnfeil
   kapittel: nynorsk-adjektiv-vgs
   mal: [mvg1-11, mvg3-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   tekst: "Ho kjøpte ei liten bok."
   feil: "liten"
@@ -51,7 +51,7 @@
   type: finnfeil
   kapittel: nynorsk-adjektiv-vgs
   mal: [mvg1-11, mvg3-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   tekst: "Butikkane er open i dag."
   feil: "open"
@@ -61,7 +61,7 @@
   type: finnfeil
   kapittel: nynorsk-adjektiv-vgs
   mal: [mvg1-11, mvg3-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   tekst: "Hundane er bunden."
   feil: "bunden"
@@ -71,7 +71,7 @@
   type: finnfeil
   kapittel: nynorsk-adjektiv-vgs
   mal: [mvg1-11, mvg3-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   tekst: "Ein brei veg bør ha eit brei fortau."
   feil: "brei fortau"
@@ -81,7 +81,7 @@
   type: flervalg
   kapittel: nynorsk-adjektiv-vgs
   mal: [mvg1-11, mvg3-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Kva er rett? «Ho fekk ei ___ jente på fanget.»"
   alternativer:
@@ -95,7 +95,7 @@
   type: flervalg
   kapittel: nynorsk-adjektiv-vgs
   mal: [mvg1-11, mvg3-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 2
   spm: "Kva er rett? «Døra er ___.»"
   alternativer:
@@ -109,7 +109,7 @@
   type: flervalg
   kapittel: nynorsk-adjektiv-vgs
   mal: [mvg1-11, mvg3-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   spm: "Kva er rett? «Hunden er ___.»"
   alternativer:
@@ -123,7 +123,7 @@
   type: flervalg
   kapittel: nynorsk-adjektiv-vgs
   mal: [mvg1-11, mvg3-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   spm: "Kva setning er rett nynorsk?"
   alternativer:
@@ -137,7 +137,7 @@
   type: flervalg
   kapittel: nynorsk-adjektiv-vgs
   mal: [mvg1-11, mvg3-08]
-  status: utkast
+  status: godkjent
   vanskegrad: 3
   spm: "Kva er rett? «Alle gjestene har ___ inn snøbretta.»"
   alternativer:
