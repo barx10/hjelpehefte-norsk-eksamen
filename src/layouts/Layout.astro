@@ -32,6 +32,8 @@ const lenker = nivaa
     ]
   : [];
 const fulltTittel = tittel === 'Hjelpehefte norsk eksamen' ? tittel : `${tittel} | Hjelpehefte norsk eksamen`;
+const sideUrl = new URL(naa, Astro.site).href;
+const ogBilde = new URL(url('og.png'), Astro.site).href;
 ---
 <!doctype html>
 <html lang="nb" data-nivaa={nivaa?.id}>
@@ -41,6 +43,21 @@ const fulltTittel = tittel === 'Hjelpehefte norsk eksamen' ? tittel : `${tittel}
     <meta name="description" content={beskrivelse} />
     <meta name="color-scheme" content="light dark" />
     <link rel="icon" type="image/svg+xml" href={url('favicon.svg')} />
+    <link rel="canonical" href={sideUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="nb_NO" />
+    <meta property="og:site_name" content="Hjelpehefte norsk eksamen" />
+    <meta property="og:title" content={fulltTittel} />
+    <meta property="og:description" content={beskrivelse} />
+    <meta property="og:url" content={sideUrl} />
+    <meta property="og:image" content={ogBilde} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Hjelpehefte norsk eksamen. Øv til skriftlig eksamen med flashkort, flervalg og modelltekster." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fulltTittel} />
+    <meta name="twitter:description" content={beskrivelse} />
+    <meta name="twitter:image" content={ogBilde} />
     <title>{fulltTittel}</title>
     {nivaa && (
       <script is:inline define:vars={{ nokkel: NIVAA_NOKKEL, id: nivaa.id }}>
