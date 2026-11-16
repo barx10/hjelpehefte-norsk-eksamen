@@ -11,12 +11,14 @@ import { NIVAAER, NIVAA_NOKKEL, type Nivaa } from '../lib/nivaa';
 
 interface Props {
   tittel: string;
+  // Tittel til deling (OpenGraph). Brukes når den skal avvike fra sidetittelen.
+  ogTittel?: string;
   beskrivelse?: string;
   bredde?: 'smal' | 'bred';
   // Sider uten nivå (forsiden og feilsiden) viser bare nivåvalget i menyen.
   nivaa?: Nivaa;
 }
-const { tittel, beskrivelse = 'Øv til skriftlig eksamen i norsk med flashkort og flervalg basert på Hjelpehefte norsk eksamen.', bredde = 'smal', nivaa } = Astro.props;
+const { tittel, ogTittel, beskrivelse = 'Øv til skriftlig eksamen i norsk med flashkort og flervalg basert på Hjelpehefte norsk eksamen.', bredde = 'smal', nivaa } = Astro.props;
 const naa = Astro.url.pathname;
 const harTekster = nivaa ? (await hentBesvarelser(nivaa)).length > 0 : false;
 const harEksamen = nivaa ? (await hentEksamen(nivaa)).length > 0 : false;
@@ -31,7 +33,8 @@ const lenker = nivaa
       { href: nurl(nivaa, 'fremgang/'), tekst: 'Min fremgang', aktiv: under('fremgang/') },
     ]
   : [];
-const fulltTittel = tittel === 'Hjelpehefte norsk eksamen' ? tittel : `${tittel} | Hjelpehefte norsk eksamen`;
+const fulltTittel = tittel.includes('Hjelpehefte norsk eksamen') ? tittel : `${tittel} | Hjelpehefte norsk eksamen`;
+const delingstittel = ogTittel ?? fulltTittel;
 const sideUrl = new URL(naa, Astro.site).href;
 const ogBilde = new URL(url('og.png'), Astro.site).href;
 ---
@@ -47,7 +50,7 @@ const ogBilde = new URL(url('og.png'), Astro.site).href;
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="nb_NO" />
     <meta property="og:site_name" content="Hjelpehefte norsk eksamen" />
-    <meta property="og:title" content={fulltTittel} />
+    <meta property="og:title" content={delingstittel} />
     <meta property="og:description" content={beskrivelse} />
     <meta property="og:url" content={sideUrl} />
     <meta property="og:image" content={ogBilde} />
@@ -55,7 +58,7 @@ const ogBilde = new URL(url('og.png'), Astro.site).href;
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Eksamenstrening i norsk skriftlig. Lag ditt eget hefte, øv med flashcards, flervalg og modelltekster." />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={fulltTittel} />
+    <meta name="twitter:title" content={delingstittel} />
     <meta name="twitter:description" content={beskrivelse} />
     <meta name="twitter:image" content={ogBilde} />
     <title>{fulltTittel}</title>
