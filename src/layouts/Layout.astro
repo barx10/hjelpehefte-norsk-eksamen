@@ -18,7 +18,7 @@ interface Props {
   // Sider uten nivå (forsiden og feilsiden) viser bare nivåvalget i menyen.
   nivaa?: Nivaa;
 }
-const { tittel, ogTittel, beskrivelse = 'Øv til skriftlig eksamen i norsk med flashkort og flervalg basert på Hjelpehefte norsk eksamen.', bredde = 'smal', nivaa } = Astro.props;
+const { tittel, ogTittel, beskrivelse = 'Lag ditt eget hefte, øv med flashcards, flervalg og modelltekster. Mengdetrening med over 1600 øvelser.', bredde = 'smal', nivaa } = Astro.props;
 const naa = Astro.url.pathname;
 const harTekster = nivaa ? (await hentBesvarelser(nivaa)).length > 0 : false;
 const harEksamen = nivaa ? (await hentEksamen(nivaa)).length > 0 : false;
