@@ -38,13 +38,14 @@ const valg = await Promise.all(
 </Layout>
 
 <script>
-  // Har eleven valgt nivå før, går vi rett dit. Med ?velg i adressen vises valget likevel.
+  // Forsiden viser alltid nivåvalget. Sist valgte nivå får en liten merking.
   const liste = document.getElementById('nivaavalg');
-  if (liste && !new URLSearchParams(location.search).has('velg')) {
+  if (liste) {
     try {
       const valgt = localStorage.getItem(liste.dataset.nokkel ?? '');
       const lenke = valgt ? liste.querySelector<HTMLAnchorElement>(`a[data-nivaa="${CSS.escape(valgt)}"]`) : null;
-      if (lenke) location.replace(lenke.href);
+      const meta = lenke?.closest('.tema')?.querySelector('.meta');
+      if (meta) meta.textContent = `Sist valgt. ${meta.textContent ?? ''}`;
     } catch {
       /* ingen lagring */
     }
