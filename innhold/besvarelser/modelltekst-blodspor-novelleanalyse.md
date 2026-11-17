@@ -5,14 +5,14 @@ kategori: modelltekst
 nivaa: ['10', 'vg3']
 status: godkjent
 oppgave: "Analyse av novellen «Blodspor» av Bakir Ahmethodzic (1999)"
-forfatter: "NDLA"
+forfatter: "Åsa Abusland (NDLA)"
 lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
 kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-novelleanalyse-av-blodspor/a9c79ac3b4"
 novelleUrl: "https://ndla.no/r/norsk-sf-vg1/blodspor/bbcc8ac6c5"
 varsel: "Novellen handler om et barn som dør i krig. Vurder om temaet passer for klassen, og si fra på forhånd."
-endringer: "Ingen endringer i innholdet. Teksten er hentet ved automatisk lesing av nettsiden og kan avvike i små detaljer (anførselstegn, bindestreker, kursiv). Sjekk mot originalen før publisering."
-merknad: "Originalen gjengir to ting unøyaktig sammenlignet med novellen: «Hjertet hamrer» står ikke i novellen (der står «Hjertet slår like raskt og like hardt»), og «hans lille hjerne skjønner ingenting» har stor H i novellen. Novellen har én hovedperson, men andre omtales kollektivt. Novellen er under begrenset gjenbruk (Bakir Ahmethodzic), så den ligger ikke i repoet. Blokksitatet om hjertet bygger på sitatretten og er ikke omfattet av CC-lisensen."
+endringer: "Ingen endringer i innholdet. Teksten er kontrollert mot NDLA-siden 17.11.2026 og er lik originalen, bortsett fra typen anførselstegn."
+merknad: "Originalen gjengir noen steder novellen unøyaktig: «Hjertet hamrer» står ikke i novellen (der står «Hjertet slår like raskt og like hardt»), «Hans lille hjerte slår veldig hardt» (novellen: «begynner hans lille hjerte å slå veldig hardt og veldig raskt»), «ville han begynt å gråte» (novellen: «ellers ville han ha begynt å gråte») og «alle gatene i Sarajevo er like» (novellen: «Alle gatene i Sarajevo har blitt sånn»). «hans lille hjerne skjønner ingenting» har stor H i novellen. Teksten er ikke endret her. Novellen har én hovedperson, men andre omtales kollektivt. Novellen er under begrenset gjenbruk (Bakir Ahmethodzic), så den ligger ikke i repoet. Blokksitatet om hjertet bygger på sitatretten og er ikke omfattet av CC-lisensen."
 styrkerStatus: godkjent
 styrker:
   - tekst: "Innledningen starter hos leseren, med hvordan vi i Norge møter krig gjennom nyhetene. Slik blir novellen aktuell fra første avsnitt."

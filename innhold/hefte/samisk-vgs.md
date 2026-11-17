@@ -11,7 +11,7 @@ Samene er Norges urfolk. De samiske språkene er eldre enn staten Norge, men de 
 
 ## De samiske språkene
 
-Det finnes flere samiske språk i Norden. Tre brukes i Norge:
+Det finnes flere samiske språk i Norden. De tre største i Norge er disse:
 
 - **Nordsamisk** er det største og brukes av de fleste.
 - **Lulesamisk** brukes i Nordland, blant annet i Tysfjord og Hamarøy.
@@ -45,7 +45,7 @@ Grunnloven slår fast at staten skal legge til rette for at samene kan sikre og 
 
 ## Språk og identitet
 
-For mange same er språket mer enn et kommunikasjonsmiddel. Det bærer kunnskap, historie og tilhørighet. Når et språk forsvinner, forsvinner også en måte å forstå verden på.
+For mange samer er språket mer enn et kommunikasjonsmiddel. Det bærer kunnskap, historie og tilhørighet. Når et språk forsvinner, forsvinner også en måte å forstå verden på.
 
 Når du leser en tekst fra en urfolkskontekst, kan du spørre:
 

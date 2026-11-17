@@ -715,7 +715,7 @@
   mal: [m10-11, mvg1-11]
   status: godkjent
   vanskegrad: 2
-  setning: "Rektor, Per Olsen, holdt tale på avslutningen."
+  setning: "Rektoren vår, Per Olsen, holdt tale på avslutningen."
   regler: [5]
   forklaring: "«Per Olsen» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
 - id: komma-m-r5-4
@@ -787,7 +787,7 @@
   mal: [m10-11, mvg1-11]
   status: godkjent
   vanskegrad: 2
-  setning: "Mount Everest, verdens høyeste fjell, ligger i Nepal."
+  setning: "Mount Everest, verdens høyeste fjell, ligger i Himalaya."
   regler: [5]
   forklaring: "«verdens høyeste fjell» er et forklarende tillegg midt i setningen. Det får komma på begge sider."
 - id: komma-m-r5-12

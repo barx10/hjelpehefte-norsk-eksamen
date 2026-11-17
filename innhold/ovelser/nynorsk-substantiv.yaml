@@ -161,7 +161,7 @@
     - "barner"
     - "barna"
   riktig: 0
-  forklaring: "Inkjekjønnsord med eitt stavingsledd får inga ending i ubunden form fleirtal."
+  forklaring: "Inkjekjønnsord får inga ending i ubunden form fleirtal."
 - id: nn-subst-valg-4
   type: flervalg
   kapittel: nynorsk-substantiv
@@ -309,7 +309,7 @@
   tekst: "Det er mange husar i denne gata."
   feil: "husar"
   rettelse: "hus"
-  forklaring: "Inkjekjønnsord med eitt stavingsledd får inga ending i ubunden form fleirtal."
+  forklaring: "Inkjekjønnsord får inga ending i ubunden form fleirtal."
 - id: nn-subst-feil-6
   type: finnfeil
   kapittel: nynorsk-substantiv
@@ -382,7 +382,7 @@
     - { venstre: "uke", hoyre: "veke" }
     - { venstre: "skole", hoyre: "skule" }
     - { venstre: "øye", hoyre: "auge" }
-    - { venstre: "kjøkken", hoyre: "kjøken" }
+    - { venstre: "kirke", hoyre: "kyrkje" }
     - { venstre: "bilde", hoyre: "bilete" }
   forklaring: "Dette er substantiv som skil seg frå bokmål."
 - id: nn-subst-sorter-1
@@ -420,4 +420,4 @@
     - { tekst: "eit barn", kategori: 2 }
     - { tekst: "ein fisk", kategori: 0 }
     - { tekst: "ei hytte", kategori: 1 }
-  forklaring: "Hankjønn får -ar, hokjønn får -er, og inkjekjønn med eitt stavingsledd får inga ending."
+  forklaring: "Hankjønn får -ar, hokjønn får -er, og inkjekjønn får inga ending."

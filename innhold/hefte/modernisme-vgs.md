@@ -23,7 +23,7 @@ Et kjent virkemiddel er bevissthetsstrøm, der teksten gjengir tanker i den rekk
 
 ## Modernismen i Norge
 
-Modernismen kom først gjennom noen forfattere fra 1890-årene som skildret sjelsliv, blant annet Knut Hamsun i Sult (1890). Den slo for alvor gjennom i lyrikken fra 1930-tallet, for eksempel hos Rolf Jacobsen i Jord og jern (1933), og i romanen etter krigen, for eksempel Tarjei Vesaas i Is-slottet (1963).
+Modernismen kom først gjennom noen forfattere fra 1890-årene som skildret sjelsliv, blant annet Knut Hamsun i Sult (1890). Rolf Jacobsen var tidlig ute med modernistisk lyrikk i Jord og jern (1933). For alvor slo modernismen gjennom etter andre verdenskrig, både i lyrikken og i romanen, for eksempel hos Tarjei Vesaas i Is-slottet (1963).
 
 ## Etter modernismen
 
@@ -40,7 +40,7 @@ Fra omkring 1980 snakker vi om postmodernisme og samtidslitteratur. Typiske trek
 | | Realisme | Modernisme |
 |---|---|---|
 | Hva er viktig? | Samfunnet og dets problemer | Menneskets indre liv |
-| Fortelleren | Ofte alvitende eller i bakgrunnen | Ofte subjektiv og usikker |
+| Fortelleren | Ofte allvitende eller i bakgrunnen | Ofte subjektiv og usikker |
 | Menneske | Formet av miljø og normer | Fremmedgjort, søkende, splittet |
 | Natur | Miljø og bakgrunn | Bilde på tilstand og stemning |
 | Samfunn | Skal kritiseres og forbedres | Kan virke fremmed og uoversiktlig |

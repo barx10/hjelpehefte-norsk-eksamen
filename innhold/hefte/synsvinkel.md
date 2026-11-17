@@ -9,9 +9,11 @@ perNivaa: { vg3: { nummer: '3.2', rekkefolge: 3.2 } }
 
 Synsvinkel forteller hvem som ser og opplever handlingen.
 
-| Type | Kjennetegn | Eksempel fra norsk litteratur |
+| Type | Kjennetegn | Eksempel (laget for øving) |
 |---|---|---|
-| Personal 1. person (jeg/vi) | Fortelleren deltar og forteller fra sitt eget ståsted. Vi kommer tett på. | «Nå sitter jeg på rommet mitt og hører at hun nærmer seg ...» (Helga Flatland: Vingebelastning) |
-| Personal 3. person (han/hun) | Fortelleren deltar via en av personene, men omtaler dem som «han/hun». | «Med tunge steg går ho ut frå skolegarden ...» (Rakel Helmsdal: Spedalsk) |
-| Autoral refererende | Fortelleren står utenfor og beskriver bare det vi kan observere. | «Tord svarte stille. Presten sa ingenting på en liten stund.» (Bjørnstjerne Bjørnson: Faderen) |
-| Autoral allvitende | Fortelleren har full oversikt og vet hva personene tenker og føler. | «Torstein ser Skaima, men skjønner ikke hva han selv har sagt.» (Rolf Losnegård: Hemnaren) |
+| Personal 1. person (jeg/vi) | Fortelleren er en person i fortellingen og forteller fra sitt eget ståsted. Vi kommer tett på. | «Jeg står i døra og hører at hun nærmer seg.» |
+| Personal 3. person (han/hun) | Vi følger én person tett og ser alt fra hens ståsted, men personen omtales som «han» eller «hun». | «Mia går ut av skolegården. Hun vet at alle ser på henne.» |
+| Autoral refererende | Fortelleren står utenfor og beskriver bare det vi kan observere. | «Bussen stoppet. Gutten gikk av uten å se seg tilbake.» |
+| Autoral allvitende | Fortelleren står utenfor, har full oversikt og vet hva flere av personene tenker og føler. | «Per trodde at Siri var sint, men hun var bare redd.» |
+
+«Faderen» av Bjørnstjerne Bjørnson er et kjent eksempel på en refererende forteller. Vi får nesten bare vite hva Tord gjør og sier, og må selv forstå hva han føler.

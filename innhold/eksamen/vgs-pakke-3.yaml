@@ -94,13 +94,13 @@ vedlegg:
     tekst: |-
       I et klasserom i Akureyri, nord på Island, sitter femten 15-åringer med hver sin bok. På tavla står en setning fra en saga som er skrevet ned for rundt åtte hundre år siden. Læreren, Guðrún Árnadóttir, ber en av elevene lese høyt.
 
-      Eleven leser uten å stoppe. Så ber læreren dem fortelle hva som står der, med egne ord. «Det handler om en mann som ikke vil gi seg,» sier en gutt. «Og som kommer til å angre.»
+      Eleven leser uten å stoppe. Så ber læreren dem fortelle hva som står der, med egne ord. «Det handler om en mann som ikke vil gi seg», sier en gutt. «Og som kommer til å angre.»
 
-      «De trenger litt hjelp med enkelte ord,» sier Árnadóttir etterpå. «Men de skjønner setningene. Det er det som er så rart. De leser en bok som er skrevet lenge før bestemor og bestemors bestemor ble født, og så forstår de den.»
+      «De trenger litt hjelp med enkelte ord», sier Árnadóttir etterpå. «Men de skjønner setningene. Det er det som er så rart. De leser en bok som er skrevet lenge før bestemor og bestemors bestemor ble født, og så forstår de den.»
 
-      Det betyr ikke at alt er likt. Skrivemåten er moderne i utgavene elevene bruker, og noen ord har skiftet betydning. Men språket er nær nok til at det fortsatt snakker. «Jeg vet ikke om jeg vil kalle det en gave,» sier Árnadóttir. «Men det er noe vi har.»
+      Det betyr ikke at alt er likt. Skrivemåten er moderne i utgavene elevene bruker, og noen ord har skiftet betydning. Men språket er nær nok til at det fortsatt snakker. «Jeg vet ikke om jeg vil kalle det en gave», sier Árnadóttir. «Men det er noe vi har.»
 
-      Norske elever får ikke samme erfaring. Tilsvarende tekster kommer i oversettelse, og mange sier at de kjennes langt unna. Kaja Berg (16) har lest utdrag av Håvamål i norsk skole. «Det var fint, men det var som å se et bilde av noe i stedet for å se selve tingen,» sier hun. «Jeg skulle ønske vi hadde det som de har.»
+      Norske elever får ikke samme erfaring. Tilsvarende tekster kommer i oversettelse, og mange sier at de kjennes langt unna. Kaja Berg (16) har lest utdrag av Håvamål i norsk skole. «Det var fint, men det var som å se et bilde av noe i stedet for å se selve tingen», sier hun. «Jeg skulle ønske vi hadde det som de har.»
   - id: v7
     tittel: "Vedlegg 7: «Bestemors ord» (leserinnlegg, 2024)"
     forfatter: "Leserinnlegg (fiktiv tekst for øving)"
@@ -137,7 +137,7 @@ oppgave2:
       tekst: "Skriv en fagartikkel der du gjør rede for hva strofene fra Håvamål sier om liv, død og omdømme, og drøfter hvordan diktet «Det som ikke dør» kan leses sammen med dem. Bruk gjerne opplysninger fra vedlegg 4. Bruk fagspråk, og vis til eksempler fra vedleggene."
       mal: fagartikkel-vgs
       vedlegg: [v2, v3, v4]
-      ord: { min: 800, maks: 1300 }
+      ord: { min: 800, maks: 1200 }
       nokkelord: ["norrønt", "kontekst", "tema", "motiv", "fritt vers", "metafor", "gjentakelse", "kulturarv", "omdømme"]
       nokkelordMinst: 4
       sitat: true
@@ -155,7 +155,7 @@ oppgave2:
       tekst: "Skriv et essay der du utforsker og reflekterer over innholdet i de vedlagte tekstene."
       mal: essay-vgs
       vedlegg: [v4, v6, v7]
-      ord: { min: 800, maks: 1300 }
+      ord: { min: 800, maks: 1200 }
       nokkelord: []
       sitat: false
       kjennetegn:
@@ -172,7 +172,7 @@ oppgave2:
       tekst: "Skriv en retorisk analyse av vedlegg 5. Vurder også om teksten er overbevisende."
       mal: retorisk-analyse-vgs
       vedlegg: [v5]
-      ord: { min: 800, maks: 1300 }
+      ord: { min: 800, maks: 1200 }
       nokkelord: ["etos", "logos", "patos", "retorisk situasjon", "kairos", "avsender", "mottaker", "formål", "appell", "retorisk spørsmål", "ironi", "generalisering"]
       nokkelordMinst: 5
       sitat: true

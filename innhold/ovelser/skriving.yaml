@@ -65,7 +65,7 @@
   nokkelord: ["målgruppe", "etos", "logos", "patos"]
   nokkelordMinst: 2
   kriterier: ["Jeg svarer på om teksten fungerer for målgruppen", "Jeg begrunner svaret", "Jeg knytter svaret til etos, logos eller patos"]
-  modelltekst: "Samlet sett fungerer innlegget godt for målgruppen, foreldre og skolestyre. Læreren bygger troverdighet gjennom egen erfaring (etos), og hun forklarer sammenhengen mellom mobilbruk og konsentrasjon (logos). Det som svekker teksten, er at hun ikke legger fram tall, så patos blir det sterkeste virkemiddelet."
+  modelltekst: "Samlet sett fungerer innlegget godt for målgruppen, foreldre og skolestyre. Læreren bygger troverdighet gjennom egen erfaring (etos), og hun forklarer sammenhengen mellom mobilbruk og konsentrasjon (logos). Det som svekker teksten, er at hun ikke legger fram tall eller undersøkelser som viser at konsentrasjonen faller, så patos blir den sterkeste appellformen."
 - id: skriv-tittel
   type: skriv
   kapittel: innledning-avslutning
@@ -95,7 +95,7 @@
   oppdrag: "Gjør dette om til et godt analyseavsnitt om metaforen «Du er en brygge uten båter»."
   utdrag: "Diktet «Havn» (fiktiv tekst for øving):\n\nHavna sover under tåka,\nskipene puster tungt.\nAlt jeg sa ble liggende igjen\npå kaia, kaldt og urørt.\n\nDu er en brygge uten båter.\nJeg står der likevel\nog venter, som om tiden\nkunne snu av seg selv."
   starttekst: "Forfatteren bruker metafor. Det er bra."
-  ord: { min: 40, maks: 100 }
+  ord: { min: 30, maks: 100 }
   nokkelord: ["metafor"]
   sitat: true
   kriterier: ["Jeg navngir virkemidlet", "Jeg bruker et sitat i anførselstegn", "Jeg forklarer hva virkemidlet gjør", "Avsnittet har en temasetning"]
@@ -139,7 +139,7 @@
   mal: [m10-10, m10-09, m10-12]
   status: godkjent
   oppdrag: "Skriv ett avsnitt som tar opp et motargument mot mobilforbud, og svar på det."
-  ord: { min: 60, maks: 120 }
+  ord: { min: 40, maks: 120 }
   nokkelord: ["derimot", "likevel", "men", "på den andre siden"]
   nokkelordMinst: 1
   kriterier: ["Avsnittet starter med en temasetning", "Jeg tar opp motargumentet rettferdig", "Jeg bruker et overgangsord som viser motsetning (derimot, likevel, men)", "Jeg svarer på motargumentet"]
@@ -264,7 +264,7 @@
   ord: { min: 10, maks: 50 }
   nokkelord: ["kommune"]
   kriterier: ["Jeg sier hvem avsenderen er", "Jeg sier hvem mottakeren er", "Jeg holder meg til 1–2 setninger"]
-  modelltekst: "Avsenderen er kommunen. Mottakerne er elevene og foreldrene deres."
+  modelltekst: "Avsenderen er kommunen. Mottakerne er elevene i kommunen og foreldrene deres."
 - id: skriv-o1-logos-2
   type: skriv
   kapittel: oppgave-1
@@ -282,13 +282,13 @@
   kapittel: oppgave-1
   mal: [m10-06, m10-01]
   status: godkjent
-  oppdrag: "Finn ett eksempel på ethos i reklamen og forklar hvorfor det er ethos."
+  oppdrag: "Finn ett eksempel på etos i reklamen og forklar hvorfor det er etos."
   utdrag: "Reklame for sportsdrikken «FreshUp» (fiktiv tekst for øving):\n\nBli med på laget! Over 10 000 ungdommer velger FreshUp hver eneste dag. Fotballspiller Mia Sand sier: «FreshUp gir meg energien jeg trenger, både på trening og på skolen.» Prøv i dag, nå bare 19 kroner!"
   ord: { min: 15, maks: 60 }
-  nokkelord: ["ethos"]
+  nokkelord: ["etos"]
   sitat: true
-  kriterier: ["Jeg siterer en kort setning", "Jeg sier at det er ethos", "Jeg forklarer hvorfor avsenderen virker troverdig"]
-  modelltekst: "Sitatet fra fotballspilleren Mia Sand er ethos. Hun er kjent og respektert, så leseren stoler på det hun sier om drikken."
+  kriterier: ["Jeg siterer en kort setning", "Jeg sier at det er etos", "Jeg forklarer hvorfor avsenderen virker troverdig"]
+  modelltekst: "Sitatet fra fotballspilleren Mia Sand er etos. Hun er kjent og respektert, så leseren stoler på det hun sier om drikken."
 - id: skriv-o1-malgruppe
   type: skriv
   kapittel: oppgave-1
@@ -382,5 +382,5 @@
     - { tekst: "Avsenderen er en lærer.", kategori: 0 }
     - { tekst: "Avslutningsvis vil jeg oppsummere det jeg har skrevet.", kategori: 1 }
     - { tekst: "Setningen er patos fordi den vekker følelser.", kategori: 0 }
-    - { tekst: "Mobiltelefoner har eksistert siden 1990-tallet.", kategori: 1 }
+    - { tekst: "Mobiltelefoner har eksistert siden 1980-tallet.", kategori: 1 }
   forklaring: "Et kortsvar svarer direkte. Innledning, avslutning og opplysninger som ikke svarer på spørsmålet, hører ikke hjemme."

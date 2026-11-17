@@ -15,14 +15,14 @@ vedlegg:
 
       En fugl ropte et sted i bjørkeskogen. Svaret kom fra den andre siden av vannet, tynt og langt unna. Sigrid lyttet. Hun hadde alltid trodd at skogen var stille, men nå hørte hun at den aldri var det. Den hvisket, knirket og tikket, som en klokke som gikk uten henne.
 
-      «Du må se opp av og til,» pleide pappa å si. Han sa det mens han stod på akkurat denne trappa med akkurat denne koppen. Hun hadde ment at det var en kommentar om mobilen. Nå forsto hun at det var noe annet.
+      «Du må se opp av og til», pleide pappa å si. Han sa det mens han stod på akkurat denne trappa med akkurat denne koppen. Hun hadde ment at det var en kommentar om mobilen. Nå forsto hun at det var noe annet.
 
       Hun satte fra seg koppen og gikk ned til vannkanten. Vannet var så stille at hun så seg selv i det, mørk og uten ansikt. Hun la hånden i. Det var kaldere enn hun hadde trodd, og hun holdt den der til det gjorde vondt.
 
       Da hun tok den opp igjen, lå tåka fortsatt over vannet. Men solen hadde kommet over fjellet, og i ett lite øyeblikk var hele innsjøen gull.
   - id: v2
     tittel: "Vedlegg 2: «Fjellets sønn» av Anders Holm (1848)"
-    forfatter: "Dikt (fiktiv tekst for øving, gjengitt med moderne rettskriving)"
+    forfatter: "Dikt (fiktiv tekst for øving, skrevet med eldre rettskriving)"
     tekst: |-
       Jeg står på fjellets høye topp,
       hvor luften er klar og kold.
@@ -96,11 +96,11 @@ vedlegg:
     tittel: "Vedlegg 6: Hyttefeltet (reportasje, 2023)"
     forfatter: "Avisreportasje (fiktiv tekst for øving)"
     tekst: |-
-      På en fjellrygg i Innlandet står tre hundre hytter på rad. Noen har badestamp, noen har solcellepanel, og alle har bredbånd. «Vi drar til naturen,» sier Per Aas (54), som kjører fire timer hver fredag for å komme hit. «Her kan jeg slappe av.»
+      På en fjellrygg i Innlandet står tre hundre hytter på rad. Noen har badestamp, noen har solcellepanel, og alle har bredbånd. «Vi drar til naturen», sier Per Aas (54), som kjører fire timer hver fredag for å komme hit. «Her kan jeg slappe av.»
 
       Feltet har brøytet vei, vann i kraner og et lite bibliotek i et gammelt sagbruk. Naturen er der, men den er pyntet. Stiene er merket, benkene står med jevne mellomrom, og hundene skal holdes i bånd.
 
-      «Mange tenker på natur som noe som er urørt,» sier forsker Ole Bakke. «Men det er sjelden slik. Det vi kaller natur i Norge, er ofte kulturlandskap som har vært brukt i hundrevis av år av bønder, seterjenter og gjetere. Vi har likevel lett for å tro at den har vært der uten oss.»
+      «Mange tenker på natur som noe som er urørt», sier forsker Ole Bakke. «Men det er sjelden slik. Det vi kaller natur i Norge, er ofte kulturlandskap som har vært brukt i hundrevis av år av bønder, seterjenter og gjetere. Vi har likevel lett for å tro at den har vært der uten oss.»
 
       Marit Aas (17), Pers datter, er ikke enig. «For meg er dette ikke natur. Det er en slags park.» Hun savner å gå uten å vite hvor stien ender. «Pappa sier jeg overdriver. Men jeg tror han vil ha den samme følelsen som meg. Han vil bare ikke gi opp bredbåndet.»
 
@@ -130,7 +130,7 @@ oppgave2:
       tekst: "Skriv en fagartikkel der du gjør rede for hvordan naturen og nasjonen fremstilles i «Fjellets sønn» og i brevet fra studenten, og drøfter hvordan «Snøkanon» viderefører eller bryter med dette. Bruk gjerne opplysninger fra vedlegg 4. Bruk fagspråk, og vis til eksempler fra vedleggene."
       mal: fagartikkel-vgs
       vedlegg: [v2, v3, v5, v4]
-      ord: { min: 800, maks: 1300 }
+      ord: { min: 800, maks: 1200 }
       nokkelord: ["nasjonalromantikk", "romantikken", "idealisering", "kontekst", "motiv", "tema", "personifikasjon", "kontrast", "klimaendringer", "virkemiddel"]
       nokkelordMinst: 4
       sitat: true
@@ -148,7 +148,7 @@ oppgave2:
       tekst: "Skriv et essay der du utforsker og reflekterer over innholdet i de vedlagte tekstene."
       mal: essay-vgs
       vedlegg: [v4, v5, v6]
-      ord: { min: 800, maks: 1300 }
+      ord: { min: 800, maks: 1200 }
       nokkelord: []
       sitat: false
       kjennetegn:
@@ -165,7 +165,7 @@ oppgave2:
       tekst: "Tolk diktet."
       mal: litteraer-tolkning-vgs
       vedlegg: [v5]
-      ord: { min: 800, maks: 1300 }
+      ord: { min: 800, maks: 1200 }
       nokkelord: ["tema", "metafor", "personifikasjon", "kontrast", "lyrisk jeg", "fritt vers", "undertekst", "virkemiddel", "tolkning"]
       nokkelordMinst: 4
       sitat: true
@@ -173,7 +173,7 @@ oppgave2:
         - "Innledningen presenterer diktet og en tydelig tolkningstese."
         - "Du skiller mellom motiv (snøkanon, skisted) og tema (forholdet mellom natur, tid og det kunstige)."
         - "Du analyserer form: frie vers, fire strofer og skiftet fra beskrivelse til jeg."
-        - "Du analyserer virkemidler som personifikasjonen «holder oppe noe som ikke vil bli» og kontrasten «grønt og grønt»."
+        - "Du analyserer virkemidler som sammenligningen «som en som holder oppe noe / som ikke vil bli» og kontrasten mellom «grønt og grønt» og den hvite stripen."
         - "Du forklarer hva hvert virkemiddel gjør, og begrunner tolkningen med sitat."
         - "Du kommenterer bestefaren og de to måtene å snakke om snø på."
         - "Du er forsiktig med påstander diktet ikke gir grunnlag for."

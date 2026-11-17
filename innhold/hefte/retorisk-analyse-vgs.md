@@ -77,4 +77,4 @@ Ikke list opp virkemidler. Bruk tre steg for hvert funn:
 
 > **Eksempel: avsnitt om logos (laget for øving)**
 >
-> Skribenten bruker et tretrinn når hun skriver at tiltaket «sparer tid, sparer penger og sparer miljøet». Gjentakelsen av «sparer» gir en rytme som gjør påstanden lett å huske og vanskelig å tvile på. Samtidig dokumenterer hun ikke tallene, og det svekker logos, selv om patosen er sterk.
+> Skribenten bruker et tretrinn når hun skriver at tiltaket «sparer tid, sparer penger og sparer miljøet». Gjentakelsen av «sparer» gir en rytme som gjør påstanden lett å huske og vanskelig å tvile på. Samtidig dokumenterer hun ikke påstanden med tall eller kilder, og det svekker logos, selv om formuleringen er slagkraftig.

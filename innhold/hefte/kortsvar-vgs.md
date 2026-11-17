@@ -7,7 +7,7 @@ status: godkjent
 nivaa: ['vg3']
 ---
 
-Oppgave 1 skal alle svare på. Du får ett vedlegg og skal skrive 250 til 300 ord. Det er kort, så hvert ord må telle.
+Oppgave 1 skal alle svare på. Du får ett eller to vedlegg og skal skrive 250 til 300 ord. Det er kort, så hvert ord må telle.
 
 ## Hva vurderes
 

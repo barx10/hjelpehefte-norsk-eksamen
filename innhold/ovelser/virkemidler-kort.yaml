@@ -18,7 +18,7 @@
   mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Personifikasjon. Hva er det, og hva gjør det?"
-  bakside: "Abstrakte ting får menneskelige egenskaper. «Tiden flyr» og vi forstår at livet går fort."
+  bakside: "Abstrakte ting får menneskelige egenskaper. «Døden banket på døra» og døden blir en skikkelse som kommer for å hente noen."
 - id: virk-besjeling
   type: flashkort
   kapittel: virkemidler
@@ -95,7 +95,7 @@
   mal: [m10-06, mvg3-01]
   status: godkjent
   forside: "Virkemiddel: Tema. Hva er det, og hva gjør det?"
-  bakside: "Det abstrakte budskapet bak motivet. Temaet bak «to kjærester på en benk» kan være ensomhet."
+  bakside: "Det abstrakte budskapet bak motivet. Temaet bak «to kjærester på en benk» kan være kjærlighet eller lengsel."
 - id: virk-frampek
   type: flashkort
   kapittel: virkemidler

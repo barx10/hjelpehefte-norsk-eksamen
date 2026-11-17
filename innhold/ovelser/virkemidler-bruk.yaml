@@ -10,7 +10,7 @@
     - venstre: "Metafor"
       hoyre: "«Livet er en berg-og-dal-bane»"
     - venstre: "Personifikasjon"
-      hoyre: "«Tiden flyr»"
+      hoyre: "«Døden banket på døra»"
     - venstre: "Besjeling"
       hoyre: "«Sola smiler»"
     - venstre: "Overdrivelse"
@@ -152,7 +152,7 @@
   alternativer: ["Underdrivelse", "Overdrivelse", "Retorisk spørsmål", "Gjentakelse"]
   riktig: 0
   forklaring: "Han sier mindre enn det faktisk er. Det skaper ironi."
-  utdrag: "«Det var ikke så galt,» sa han og så på det som var igjen av huset etter brannen."
+  utdrag: "«Det var ikke så galt», sa han og så på det som var igjen av huset etter brannen."
 - id: virk-fv-utdrag-retorisk
   type: flervalg
   kapittel: virkemidler
@@ -179,7 +179,7 @@
   mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hva er «trærne bøyde seg som for å høre bedre»?"
-  alternativer: ["Besjeling", "Personifikasjon", "Metafor", "Overdrivelse"]
+  alternativer: ["Besjeling", "Kontrast", "Metafor", "Overdrivelse"]
   riktig: 0
   forklaring: "Trær er konkrete ting i naturen, og de får menneskelig atferd. Det er besjeling."
   utdrag: "Vinden tok i, og trærne bøyde seg som for å høre bedre."
@@ -222,7 +222,7 @@
   alternativer: ["Det skaper ironi og viser hvor stor kontrasten er til virkeligheten", "Det gjør teksten mer spennende fordi handlingen akselererer", "Det viser at personen er glad", "Det forklarer hva som har skjedd"]
   riktig: 0
   forklaring: "Når noen sier mindre enn det faktisk er, blir det ironisk. Brannen er en katastrofe, men han kaller det «ikke så galt»."
-  utdrag: "«Det var ikke så galt,» sa han og så på det som var igjen av huset etter brannen."
+  utdrag: "«Det var ikke så galt», sa han og så på det som var igjen av huset etter brannen."
 - id: virk-fv-effekt-frampek
   type: flervalg
   kapittel: virkemidler

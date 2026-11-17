@@ -46,8 +46,8 @@
   status: godkjent
   vanskegrad: 3
   oppdrag: "Skriv et avsnitt der du bruker kontekst riktig i tolkningen av utdraget."
-  utdrag: "Utdrag fra en novelle fra 1880-årene (fiktiv tekst for øving):\n\nDatteren stod i døren med hendene foldet. «Far, jeg vil gjerne bli i byen et år til.» Faren leste videre i avisen. «Det får vi snakke om,» sa han. Hun visste at samtalen var over."
-  ord: { min: 70, maks: 140 }
+  utdrag: "Utdrag fra en novelle fra 1880-årene (fiktiv tekst for øving):\n\nDatteren stod i døren med hendene foldet. «Far, jeg vil gjerne bli i byen et år til.» Faren leste videre i avisen. «Det får vi snakke om», sa han. Hun visste at samtalen var over."
+  ord: { min: 60, maks: 140 }
   nokkelord: ["kontekst", "samfunn", "rettigheter", "tolkning"]
   nokkelordMinst: 2
   sitat: true
@@ -163,7 +163,7 @@
   spm: "Hvilket verk regnes som en tidlig modernistisk lyrikksamling i norsk litteratur?"
   alternativer: ["Jord og jern (1933) av Rolf Jacobsen", "Fra Kristiania-Bohêmen (1885) av Hans Jæger", "Bondestudentar (1883) av Arne Garborg", "Amtmandens Døttre (1854 til 1855) av Camilla Collett"]
   riktig: 0
-  forklaring: "Jord og jern slo gjennom som modernistisk lyrikk. De tre andre hører til realismen og naturalismen."
+  forklaring: "Jord og jern regnes som en tidlig modernistisk diktsamling. De tre andre hører til realismen og naturalismen."
 - id: vgs-mod-match-sammenligning
   type: matching
   kapittel: modernisme-vgs
@@ -183,7 +183,7 @@
   status: godkjent
   vanskegrad: 3
   oppdrag: "Sammenlign de to utdragene. Bruk synsvinkel og slutt som sammenligningspunkter."
-  utdrag: "Tekst A (fiktiv, i realistisk stil):\n\nDet var en torsdag i oktober. Fru Berg gikk inn i kontoret til direktøren og bad om lønnsopplysning for mannen sin. «Det er ikke vanlig,» svarte han. Hun gikk hjem, og samme kveld sa hun til sønnen at han måtte lære seg å stå på egne ben.\n\nTekst B (fiktiv, i modernistisk stil):\n\nTorsdag. Eller var det onsdag. Jeg går, og gaten går med meg, og alle ansiktene har glemt navnet mitt. Kanskje jeg aldri hadde et. Døren står åpen, men det er ikke dit jeg skal."
+  utdrag: "Tekst A (fiktiv, i realistisk stil):\n\nDet var en torsdag i oktober. Fru Berg gikk inn i kontoret til direktøren og bad om lønnsopplysning for mannen sin. «Det er ikke vanlig», svarte han. Hun gikk hjem, og samme kveld sa hun til sønnen at han måtte lære seg å stå på egne ben.\n\nTekst B (fiktiv, i modernistisk stil):\n\nTorsdag. Eller var det onsdag. Jeg går, og gaten går med meg, og alle ansiktene har glemt navnet mitt. Kanskje jeg aldri hadde et. Døren står åpen, men det er ikke dit jeg skal."
   ord: { min: 90, maks: 170 }
   nokkelord: ["synsvinkel", "slutt", "samfunn", "indre", "realisme", "modernisme"]
   nokkelordMinst: 3

@@ -93,7 +93,7 @@ Adjektiv kan også **gradbøyes**:
 
 - **Påpekende:** den, det, denne, dette, disse
 - **Eiendomsord:** min, din, hans, hennes, sin, vår, deres
-- **Mengdeord og tallord:** alle, mange, få, tre, første
+- **Mengdeord og tallord:** alle, mange, få, tre
 
 ## Ordklasser i analysen
 

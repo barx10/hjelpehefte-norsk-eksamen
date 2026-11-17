@@ -55,7 +55,7 @@ Svaret er ikke selvsagt, for språk har alltid endret seg. I faktateksten om spr
 
 Likevel ser jeg at noe holder seg. På skolen har jeg ofte hørt at jeg snakker «bredt», men jeg har aldri tenkt over at «å kasta» er en ending fra norrønt. Norrønt sier ikke noe om hvem jeg er, men det er der, litt som et fotavtrykk i leire. Jeg var vant til å se på dialekten min som noe som skilte meg fra de andre, men teksten viser at den like gjerne knytter meg til noe stort.
 
-Reportasjen fra Akureyri viser hva som skjer når språket får være i fred. Femten elever leser en saga fra 1200-tallet og forstår den. «De skjønner setningene,» sier læreren. «Det er det som er så rart.» Det som slår meg, er hvor lite eleven selv later til å tenke over det. Å bære en arv uten å merke vekten er kanskje den mest vellykkede formen for arv. Samtidig sier læreren at hun ikke vet om hun vil kalle det en gave. Jeg lurer på om det er fordi en gave er noe man velger å ta imot, mens dette bare ligger der.
+Reportasjen fra Akureyri viser hva som skjer når språket får være i fred. Femten elever leser en saga fra 1200-tallet og forstår den. «De skjønner setningene», sier læreren. «Det er det som er så rart.» Det som slår meg, er hvor lite eleven selv later til å tenke over det. Å bære en arv uten å merke vekten er kanskje den mest vellykkede formen for arv. Samtidig sier læreren at hun ikke vet om hun vil kalle det en gave. Jeg lurer på om det er fordi en gave er noe man velger å ta imot, mens dette bare ligger der.
 
 Kaja Berg, som har lest Håvamål i norsk skole, sier at det var «som å se et bilde av noe i stedet for å se selve tingen». Jeg kjenner igjen det. Jeg har sett bilder av Island, men aldri vært der, og forskjellen mellom å se og å kjenne er stor. Det vi har på norsk, er en oversettelse, og en oversettelse er alltid noens tolkning. Kanskje er det derfor så mange av oss opplever norrønt som noe fjernt: Vi har fått ordene, men ikke den måten å bære dem på.
 
@@ -67,4 +67,4 @@ Man kan innvende at språk ikke kan bevares, og at det ikke er meningen heller. 
 
 Kanskje er det derfor «arv» er et villedende ord. Det høres ut som noe man får, men språk får man bare ved å bruke det. Bestefars «kluring» er ikke noe jeg har, men noe jeg gjør, hver gang jeg bruker det på en som lytter. Det er først da det er mitt.
 
-Sist jeg var hjemme, ba bestefar meg hjelpe med en kasse på loftet. «Det var en kluring,» sa han, og så på meg. Jeg lo, og så sa jeg det samme tilbake. Han nikket, som om jeg hadde bestått en prøve ingen av oss hadde visst om.
+Sist jeg var hjemme, ba bestefar meg hjelpe med en kasse på loftet. «Det var en kluring», sa han, og så på meg. Jeg lo, og så sa jeg det samme tilbake. Han nikket, som om jeg hadde bestått en prøve ingen av oss hadde visst om.

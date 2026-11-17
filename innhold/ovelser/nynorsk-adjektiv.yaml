@@ -27,7 +27,7 @@
     - ["fin", "|finare", "|finast"]
     - ["farleg", "|farlegare", "|farlegast"]
     - ["kald", "|kaldare", "|kaldast"]
-    - ["billig", "|billigare", "|billigast"]
+    - ["smal", "|smalare", "|smalast"]
     - ["snill", "|snillare", "|snillast"]
   forklaring: "Dei fleste adjektiv får -are og -ast. Nynorsk har full form i superlativ."
 - id: nn-adj-uregelrett-1
@@ -153,7 +153,7 @@
   alternativer:
     - "farlegare"
     - "farligere"
-    - "meir farleg"
+    - "farlegast"
     - "farlegere"
   riktig: 0
   forklaring: "Dei fleste adjektiv får -are."
@@ -473,7 +473,7 @@
     - { tekst: "kald", kategori: 0 }
     - { tekst: "mange", kategori: 1 }
     - { tekst: "liten", kategori: 1 }
-    - { tekst: "billig", kategori: 0 }
+    - { tekst: "smal", kategori: 0 }
     - { tekst: "mykje", kategori: 1 }
     - { tekst: "rask", kategori: 0 }
   forklaring: "Dei fleste adjektiv får -are og -ast. Nokre få må du lære kvart for seg."

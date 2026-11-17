@@ -27,7 +27,7 @@
     - ["din", "|din", "|di", "|ditt", "|dine"]
     - ["sin", "|sin", "|si", "|sitt", "|sine"]
     - ["vår", "|vår", "|vår", "|vårt", "|våre"]
-  forklaring: "Min, din, sin og vår bøyer etter kjønn og tal på substantivet. Hokjønn har -i, inkjekjønn har -tt, og fleirtal har -ne."
+  forklaring: "Min, din, sin og vår bøyer etter kjønn og tal på substantivet. Min, din og sin har -i i hokjønn, -tt i inkjekjønn og -ne i fleirtal. Vår har formene vår, vårt og våre."
 - id: nn-pron-nokon-1
   type: boyingstabell
   kapittel: nynorsk-pronomen
@@ -240,14 +240,11 @@
   oppdrag: "Set orda i rett rekkefølge. Setninga byrjar med «Eg»."
   elementer:
     - "Eg"
-    - "finn"
-    - "berre"
+    - "har"
+    - "mista"
     - "genseren"
-    - "min"
-    - "og"
-    - "vottane"
-    - "dine."
-  forklaring: "Eigedomsordet står etter substantivet: genseren min og vottane dine."
+    - "min."
+  forklaring: "Eigedomsordet står etter substantivet: genseren min."
 - id: nn-pron-eigedom-2
   type: boyingstabell
   kapittel: nynorsk-pronomen
@@ -365,7 +362,7 @@
   mal: [m10-11, m10-12, mvg1-11]
   status: godkjent
   vanskegrad: 1
-  spm: "Kva er rett? «Ho vaska hunden ___.»"
+  spm: "Kva er rett? «Eg skal lufte hunden ___.»"
   alternativer:
     - "hennar"
     - "hennes"
@@ -447,7 +444,7 @@
   mal: [m10-11, m10-12, mvg1-11]
   status: godkjent
   vanskegrad: 1
-  tekst: "Eg såg hennes bil."
+  tekst: "Eg såg bilen hennes."
   feil: "hennes"
   rettelse: "hennar"
   forklaring: "Nynorsk har hennar, ikkje hennes."

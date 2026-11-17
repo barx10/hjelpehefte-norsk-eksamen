@@ -57,7 +57,7 @@
   kapittel: tekstbinding
   mal: [m10-11, mvg1-11]
   status: godkjent
-  spm: "Velg riktig overgangsord: «Mange mener at lekser er nyttig. Andre mener ___ at lekser skaper stress.»"
+  spm: "Velg riktig overgangsord: «Mange mener at lekser er nyttige. Andre mener ___ at lekser skaper stress.»"
   alternativer: ["derimot", "derfor", "først", "dermed"]
   riktig: 0
   forklaring: "To syn står mot hverandre. «Derimot» viser kontrast."
@@ -120,10 +120,10 @@
   kapittel: tekstbinding
   mal: [m10-11, mvg1-11]
   status: godkjent
-  spm: "Velg riktig overgangsord: «Reklamen bruker en kjent fotballspiller. ___ vil målgruppen stole på produktet.»"
+  spm: "Velg riktig overgangsord: «Reklamen bruker en kjent fotballspiller. ___ prøver avsenderen å få målgruppen til å stole på produktet.»"
   alternativer: ["Slik", "Likevel", "Derimot", "Først"]
   riktig: 0
-  forklaring: "Setningen viser hvordan virkemiddelet virker. «Slik» viser følge av det som står før."
+  forklaring: "Setningen viser hvordan virkemiddelet virker. «Slik» viser hvordan, altså hva virkemiddelet skal oppnå."
 - id: bind-m-15
   type: flervalg
   kapittel: tekstbinding
