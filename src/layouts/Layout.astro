@@ -72,7 +72,7 @@ const ogBilde = new URL(url('og.png'), Astro.site).href;
     <a class="hopp" href="#innhold">Hopp til innhold</a>
     <header class="topp">
       <div class="topp-band"><div class="rad">
-        <a class="logo" href={nivaa ? nurl(nivaa) : url('')}>Hjelpehefte norsk eksamen</a>
+        <a class="logo" href={url('')}>Hjelpehefte norsk eksamen</a>
         <nav aria-label="Nivå" class="nivaavalg">
           <ul>
             {NIVAAER.map((n) => (
