@@ -148,16 +148,16 @@
 - id: tekst-retorisk-rekke
   type: rekkefolge
   kapittel: retorisk-analyse
-  fraTekst: modelltekst-retorisk-forenklet
+  fraTekst: modelltekst-retorisk-kongens-tale-forenklet
   mal: [m10-06, m10-12]
   status: godkjent
   oppdrag: "Sett åpningssetningene i analysen i riktig rekkefølge."
-  elementer: ["I leserinnlegget «Som ungdomsskoleelev traff 'Kjønnskampen' meg hardt» skriver en 15 år gammel gutt om likestilling.", "Avsenderen er bare 15 år og ingen ekspert på likestilling.", "Han bruker også logos.", "Patos er det han bruker mest.", "Innlegget fungerer godt for målgruppen."]
-  forklaring: "Analysen følger malen for retorisk analyse: innledning, etos, logos, patos og avslutning."
+  elementer: ["1. september 2016 holdt kong Harald en velkomsttale på hagefesten i Slottsparken.", "Kongen hadde sterk etos allerede før han begynte å snakke.", "Talen er bygd opp som et svar på et spørsmål.", "Patos er likevel det kongen bruker mest.", "Han bruker også kontraster.", "Til slutt snakker kongen direkte til publikum."]
+  forklaring: "Analysen følger malen for retorisk analyse: innledning, etos, logos, patos og avslutning. Patos får to avsnitt, og det andre begynner med «også»."
 - id: tekst-retorisk-sorter
   type: sortering
   kapittel: retorisk-analyse
-  fraTekst: modelltekst-retorisk-forenklet
+  fraTekst: modelltekst-retorisk-kongens-tale-forenklet
   mal: [m10-06, m10-12]
   status: godkjent
   oppdrag: "Hvilken del av analysen hører setningen til?"
@@ -165,54 +165,54 @@
   elementer:
     - tekst: "I denne teksten skal jeg analysere hvordan han bruker etos, logos og patos for å nå fram."
       kategori: 0
-    - tekst: "Siden NRK er en pålitelig kanal, virker han mer troverdig når han bruker fakta derfra."
+    - tekst: "Han var en svært populær konge, og mange stolte på ham."
       kategori: 1
-    - tekst: "Han tar utgangspunkt i at «Likestilling skal styrke begge kjønn», og viser til statistikk."
+    - tekst: "Eksemplene fungerer som argumenter for konklusjonen."
       kategori: 2
-    - tekst: "Allerede i overskriften sier han at dokumentaren «traff» ham «hardt»."
+    - tekst: "Gjentakelsen gir talen en enkel rytme som nesten hamrer inn budskapet."
       kategori: 3
-    - tekst: "Men noen vil kanskje mene at det blir for mye følelser, og at det å kjenne «bekymring» og synes noe er «provoserende», ikke er gode argumenter."
+    - tekst: "Talen fungerer godt for målgruppen, fordi språket er enkelt, og fordi personlige eksempler og humor gjør budskapet lett å ta imot."
       kategori: 4
-  forklaring: "Etos handler om troverdighet. Logos handler om fakta og logikk. Patos handler om følelser. Innledningen sier hva analysen skal gjøre, og avslutningen vurderer om teksten fungerer."
+  forklaring: "Etos handler om troverdighet. Logos handler om argumenter og logikk. Patos handler om følelser. Innledningen sier hva analysen skal gjøre, og avslutningen vurderer om teksten fungerer."
 - id: tekst-retorisk-marker
   type: marker
   kapittel: retorisk-analyse
-  fraTekst: modelltekst-retorisk-forenklet
+  fraTekst: modelltekst-retorisk-kongens-tale-forenklet
   mal: [m10-06, m10-12]
   status: godkjent
-  oppdrag: "Marker de tre appellformene i avsnittet."
-  tekst: "Innlegget fungerer godt for målgruppen. Det kom like etter dokumentaren, da mange hadde sett den og kjente på de samme følelsene. Avsenderen bruker både [[etos]], [[logos]] og [[patos]]. Men noen vil kanskje mene at det blir for mye følelser, og at det å kjenne «bekymring» og synes noe er «provoserende», ikke er gode argumenter. Likevel kan han overbevise flere om at likestillingen har blitt for opptatt av kvinner."
-  forklaring: "Avsnittet navngir alle tre appellformene: etos, logos og patos."
+  oppdrag: "Marker de tre appellformene i innledningen."
+  tekst: "1. september 2016 holdt kong Harald en velkomsttale på hagefesten i Slottsparken. Mottakerne var gjestene i parken, men også hele det norske folket, fordi talen ble vist i mediene. Kongen vil få oss til å se at nordmenn kan være svært forskjellige, og at vi må være rause med hverandre. I denne teksten skal jeg analysere hvordan han bruker [[etos]], [[logos]] og [[patos]] for å nå fram."
+  forklaring: "Innledningen navngir alle tre appellformene: etos, logos og patos. Den sier også hvem avsenderen og mottakerne er, og hva kongen vil oppnå."
 - id: tekst-retorisk-fv-etos
   type: flervalg
   kapittel: retorisk-analyse
-  fraTekst: modelltekst-retorisk-forenklet
+  fraTekst: modelltekst-retorisk-kongens-tale-forenklet
   mal: [m10-06, m10-12]
   status: godkjent
-  spm: "Hvilken appellform er dette utdraget et eksempel på?"
+  spm: "Hvilken appellform er dette utdraget fra analysen et eksempel på?"
   alternativer: ["Etos", "Logos", "Patos", "Ingen av dem"]
   riktig: 0
-  forklaring: "Avsenderen virker omsorgsfull og troverdig ved å vise til egen erfaring fra skolen. Det er etos."
-  utdrag: "Han virker dessuten omsorgsfull når han forteller at han trives på skolen, men har sett mange elever som sliter."
+  forklaring: "Kongen blir personlig og bruker sin egen familiehistorie for å vise at han er en av dem han snakker om. Det bygger troverdighet, altså etos."
+  utdrag: "Han forteller at også han har innvandrerbakgrunn: «Mine besteforeldre innvandret fra Danmark og England for 110 år siden.» Slik viser han at han selv er en av dem han snakker om."
 - id: tekst-retorisk-fv-logos
   type: flervalg
   kapittel: retorisk-analyse
-  fraTekst: modelltekst-retorisk-forenklet
+  fraTekst: modelltekst-retorisk-kongens-tale-forenklet
   mal: [m10-06, m10-12]
   status: godkjent
-  spm: "Hva gjør avsenderen i denne setningen?"
-  alternativer: ["Snur situasjonen på hodet for å få leseren til å tenke logisk", "Forteller om egne følelser", "Viser til sin egen erfaring som ekspert", "Bruker humor for å lette stemningen"]
+  spm: "Hva gjør kongen her, ifølge analysen?"
+  alternativer: ["Bruker mange eksempler som argumenter for en konklusjon", "Forteller om egne følelser", "Viser til sin egen erfaring som ekspert", "Bruker humor for å lette stemningen"]
   riktig: 0
-  forklaring: "Avsenderen snur saken på hodet: Hva om en mann hadde sagt det samme? Det bygger på en logisk sammenligning, altså logos."
-  utdrag: "Hvis lignende karakteristikk hadde blitt brukt av en mannlig popartist mot kvinner, hadde reaksjonene mest sannsynlig ikke latt vente på seg."
+  forklaring: "Eksemplene på hvem nordmenn er, leder fram til konklusjonen «Norge er dere. Norge er oss.» Det er en logisk oppbygning, altså logos."
+  utdrag: "Først svarer han med fakta om naturen, og så slår han fast: «Men Norge er fremfor alt mennesker.» Deretter gir han mange eksempler på hvem nordmenn er, og til slutt kommer konklusjonen: «Norge er dere. Norge er oss.»"
 - id: tekst-retorisk-skriv
   type: skriv
   kapittel: retorisk-analyse
-  fraTekst: modelltekst-retorisk-forenklet
+  fraTekst: modelltekst-retorisk-kongens-tale-forenklet
   mal: [m10-06, m10-12]
   status: godkjent
   oppdrag: "Les etos-avsnittet i modellteksten. Skriv et tilsvarende etos-avsnitt om debattinnlegget «Legg bort telefonen» under."
-  utdrag: "Etos-avsnittet i modellteksten: «Avsenderen er bare 15 år og ingen ekspert på likestilling. Det kan svekke etosen hans. Samtidig er han selv en av dem innlegget handler om, og det styrker den.»\n\nDebattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
+  utdrag: "Etos-avsnittet i modellteksten: «Kongen hadde sterk etos allerede før han begynte å snakke. Han var en svært populær konge, og mange stolte på ham. I talen styrker han etosen ved å bli personlig. (…) Samtidig skal en konge være politisk nøytral. Noen kan mene at han blander seg i politikk når han sier hvem som hører til, og det kan svekke etosen hos dem som er uenige.»\n\nDebattinnlegg «Legg bort telefonen», skrevet av en lærer (fiktiv tekst for øving):\n\nHver dag sitter 25 elever i klasserommet mitt, og de fleste har mobilen i lomma. Jeg har undervist i tjue år og aldri sett konsentrasjonen falle så fort. Tenk deg å forklare en ny tanke mens halve klassen venter på neste varsel. Hvis vi legger bort telefonene i timene, vil elevene lære mer. Derfor må skolen sette en felles grense."
   ord: { min: 50, maks: 110 }
   nokkelord: ["etos", "troverdig"]
   nokkelordMinst: 2
