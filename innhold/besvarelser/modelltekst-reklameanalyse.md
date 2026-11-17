@@ -5,14 +5,14 @@ kategori: modelltekst
 nivaa: ['10', 'vg3']
 status: godkjent
 oppgave: "Analyse av en sammensatt reklametekst for Lerum eplejus i ny pakning"
-forfatter: "NDLA"
+forfatter: "Åsa Abusland (NDLA)"
 lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
 kilde: "https://ndla.no/r/norsk-sf-vg1/reklameanalyse-en-modelltekst-med-tips/ab65ae44b6"
 kildeTittel: "Reklameanalyse: En modelltekst med tips (NDLA)"
 analysertTekstUrl: "https://ndla.no/r/norsk-sf-vg1/reklameanalyse-en-modelltekst-med-tips/ab65ae44b6"
-endringer: "Ingen endringer i innholdet. Sidens menytekst («Sitere eller gjenbruke?», «TekstH5PInnbyggingslenke») er tatt bort. Sist oppdatert på NDLA 16.12.2025."
-merknad: "Reklamen som analyseres, er en tekst og et bilde fra Lerum og ligger ikke i repoet. Eleven må kunne se reklamen for å ha nytte av analysen. Reklamen vises på NDLA-siden som er oppgitt som kilde."
+endringer: "Ingen endringer i innholdet. Sidens menytekst («Sitere eller gjenbruke?», «TekstH5PInnbyggingslenke») er tatt bort. Kontrollert mot NDLA-siden 17.11.2026."
+merknad: "Reklamen som analyseres, er en tekst og et bilde fra Lerum og ligger ikke i repoet. Eleven må kunne se reklamen for å ha nytte av analysen. Reklamen vises på NDLA-siden som er oppgitt som kilde. Analysen gjengir to steder reklamen unøyaktig: reklamen har «ikkje e eplekjekke», ikke «ikkje er», og «den aller beste» viser til frukta, som er pressa «når ho er på sitt aller beste», ikke til jusen. Teksten er ikke endret her."
 styrkerStatus: godkjent
 styrker:
   - tekst: "Analyserer bildet og verbalteksten hver for seg, og viser til slutt hvordan de virker sammen."

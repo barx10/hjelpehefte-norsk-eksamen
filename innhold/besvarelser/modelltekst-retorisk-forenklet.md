@@ -12,7 +12,7 @@ kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-retorisk-analyse/3074631416"
 analysertTekstUrl: "https://www.aftenposten.no/meninger/sid/i/BRw9Vw/som-ungdomsskoleelev-traff-kjoennskampen-meg-hardt-oskar-macdonald-dunlop"
 bearbeidetFra: "modelltekst-retorisk-analyse"
 varsel: "Innlegget handler om likestilling og er omstridt. Teksten omtaler avsenderen som en 15 år gammel gutt uten å bruke navnet hans."
-endringer: "Teksten er kortet ned og skrevet om med enklere språk og kortere setninger. Den er bygd opp etter malen for retorisk analyse i heftet, med innledning, etos, logos, patos og avslutning, i den rekkefølgen malen har. Begrepene aptum, kairos, retorisk situasjon og avledet etos er tatt bort, siden de ligger utenfor heftet. Navnene på avsenderen og på to kvinner som omtales, er tatt ut. Sitatene er hentet fra originalen og er ikke kontrollert mot leserinnlegget. Kritikken mot at det blir mye følelser, er beholdt."
+endringer: "Teksten er kortet ned og skrevet om med enklere språk og kortere setninger. Den er bygd opp etter malen for retorisk analyse i heftet, med innledning, etos, logos, patos og avslutning, i den rekkefølgen malen har. Begrepene aptum, kairos, retorisk situasjon og avledet etos er tatt bort, siden de ligger utenfor heftet. Navnene på avsenderen og på to kvinner som omtales, er tatt ut. Sitatene er kontrollert mot leserinnlegget 17.11.2026. Kritikken mot at det blir mye følelser, er beholdt, men med ord som står i innlegget. NDLA-siden med originalen er ikke lenger tilgjengelig."
 styrkerStatus: godkjent
 styrker:
   - tekst: "Innledningen sier hvem avsenderen og mottakerne er, hva avsenderen vil, og hva analysen skal gjøre."
@@ -51,7 +51,7 @@ avsnitt:
     funksjon: "Avslutning"
     kommentar: "Svarer på om teksten fungerer for målgruppen, og tar med motforestillingen om at det er mye følelser."
 ---
-I leserinnlegget «Som ungdomsskoleelev traff 'Kjønnskampen' meg hardt» skriver en 15 år gammel gutt om likestilling. Innlegget stod på Aftenpostens Si ;D-sider 27. mai 2019. Si ;D er en debattside for ungdom, så mottakerne er unge mennesker i hele Norge. Avsenderen mener at guttenes problemer blir glemt i likestillingskampen, og han vil få leserne til å se saken fra guttenes side. I denne teksten skal jeg analysere hvordan han bruker etos, logos og patos for å nå fram.
+I leserinnlegget «Som ungdomsskoleelev traff ‹Kjønnskampen› meg hardt» skriver en 15 år gammel gutt om likestilling. Innlegget stod på Aftenpostens Si ;D-sider 27. mai 2019. Si ;D er en debattside for ungdom, så mottakerne er unge mennesker i hele Norge. Avsenderen mener at guttenes problemer blir glemt i likestillingskampen, og han vil få leserne til å se saken fra guttenes side. I denne teksten skal jeg analysere hvordan han bruker etos, logos og patos for å nå fram.
 
 Avsenderen er bare 15 år og ingen ekspert på likestilling. Det kan svekke etosen hans. Samtidig er han selv en av dem innlegget handler om, og det styrker den. Han bygger også etos ved å vise til NRK-dokumentaren «Kjønnskampen». Siden NRK er en pålitelig kanal, virker han mer troverdig når han bruker fakta derfra. Han virker dessuten omsorgsfull når han forteller at han trives på skolen, men har sett mange elever som sliter.
 
@@ -59,4 +59,4 @@ Han bruker også logos. Han tar utgangspunkt i at «Likestilling skal styrke beg
 
 Patos er det han bruker mest. Allerede i overskriften sier han at dokumentaren «traff» ham «hardt». Han skriver også om egen «bekymring» og om at han blir provosert. Slik vil han at leserne skal få medfølelse med ham og andre gutter. Han bruker også eksempler fra dokumentaren. Han forteller at kjente kvinner sier slemme ting om menn «med et smil om munnen» og «til rungende applaus». Ordene gjør at kvinnene virker ufølsomme, mens han selv virker omtenksom i kontrast.
 
-Innlegget fungerer godt for målgruppen. Det kom like etter dokumentaren, da mange hadde sett den og kjente på de samme følelsene. Avsenderen bruker både etos, logos og patos. Men noen vil kanskje mene at det blir for mye følelser, og at det å være «bekymret» og «provosert» ikke er gode argumenter. Likevel kan han overbevise flere om at likestillingen har blitt for opptatt av kvinner.
+Innlegget fungerer godt for målgruppen. Det kom like etter dokumentaren, da mange hadde sett den og kjente på de samme følelsene. Avsenderen bruker både etos, logos og patos. Men noen vil kanskje mene at det blir for mye følelser, og at det å kjenne «bekymring» og synes noe er «provoserende», ikke er gode argumenter. Likevel kan han overbevise flere om at likestillingen har blitt for opptatt av kvinner.

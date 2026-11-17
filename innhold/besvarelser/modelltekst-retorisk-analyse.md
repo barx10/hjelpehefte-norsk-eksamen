@@ -10,8 +10,8 @@ lisens: "CC BY-SA 4.0"
 lisensUrl: "https://creativecommons.org/licenses/by-sa/4.0/deed.no"
 kilde: "https://ndla.no/r/norsk-sf-vg1/modelltekst-retorisk-analyse/3074631416"
 analysertTekstUrl: "https://www.aftenposten.no/meninger/sid/i/BRw9Vw/som-ungdomsskoleelev-traff-kjoennskampen-meg-hardt-oskar-macdonald-dunlop"
-endringer: "Ingen endringer i innholdet. Teksten er hentet ved automatisk lesing av nettsiden og kan avvike i små detaljer (anførselstegn, bindestreker, kursiv). Sjekk mot originalen før publisering."
-merknad: "Leserinnlegget som analyseres er skrevet av en navngitt 15-åring (2019) og omtaler en omstridt samfunnsdebatt om likestilling. Innlegget har Aftenposten som rettighetshaver og ligger ikke i repoet. Overskriften står som «Kjønnkampen» i ett sitat i originalen. Kildeoppgivelsen har «Kjønnskampen». Sitatene er ikke kontrollert mot innlegget."
+endringer: "Ingen endringer i innholdet. Teksten er hentet ved automatisk lesing av NDLA-siden. Siden er ikke lenger tilgjengelig hos NDLA (sjekket 17.11.2026), så teksten kan ikke kontrolleres mot originalen. Lisensen CC BY-SA 4.0 gjelder fortsatt for teksten slik den ble hentet."
+merknad: "Leserinnlegget som analyseres er skrevet av en navngitt 15-åring (2019) og omtaler en omstridt samfunnsdebatt om likestilling. Innlegget har Aftenposten som rettighetshaver og ligger ikke i repoet. Sitatene er kontrollert mot innlegget 17.11.2026 og stemmer, med to unntak: overskriften står som «Kjønnkampen» i ett sitat (innlegget: «Kjønnskampen»), og «bekymret» står ikke i innlegget (der står «bekymring» og «bekymrer meg»). Teksten er ikke endret her."
 styrkerStatus: godkjent
 styrker:
   - tekst: "Åpner med et spørsmål til leseren og presenterer deretter avsender, tekst og publiseringssted."

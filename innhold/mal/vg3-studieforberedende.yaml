@@ -2,7 +2,7 @@
 # De skilles ikke på siden, fordi eksamen bygger på alle tre årene. Id-en viser bare hvilket trinn målet kommer fra.
 # Kilde: Udir, LK20, NOR01-08. https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1114
 # omfang: dekkes | delvis | senere | utenfor (se forklaring i 10-trinn.yaml)
-# Siden gjelder skriftlig eksamen i hovedmål. Innholdet for vg3 er ikke laget ennå, så målene står som planlagt.
+# Siden gjelder skriftlig eksamen i hovedmål. Omfanget viser hva siden dekker i dag.
 - id: mvg1-01
   nivaa: vg3
   tekst: lese, analysere og tolke nyere skjønnlitteratur på bokmål og nynorsk og i oversettelse fra samiske og andre språk
@@ -28,7 +28,8 @@
 - id: mvg1-06
   nivaa: vg3
   tekst: greie ut om og drøfte norskfaglige eller tverrfaglige temaer muntlig
-  omfang: senere
+  omfang: utenfor
+  merknad: Siden gjelder skriftlig eksamen, så muntlige ferdigheter øves ikke.
 - id: mvg1-07
   nivaa: vg3
   tekst: skrive fagartikler som greier ut om og drøfter norskfaglige eller tverrfaglige temaer
@@ -46,7 +47,8 @@
 - id: mvg1-10
   nivaa: vg3
   tekst: vurdere og bearbeide egne tekster ut fra tilbakemeldinger og faglige kriterier
-  omfang: senere
+  omfang: delvis
+  merknad: I skriveøvelsene og eksamenstreningen vurderer eleven svaret mot kjennetegn, får automatiske sjekker og kan skrive om ett avsnitt og sammenligne før og etter. Tilbakemelding fra lærer eller medelever er ikke med.
 - id: mvg1-11
   nivaa: vg3
   tekst: skrive tekster med god struktur og tekstbinding og mestre tegnsetting og rettskriving på hovedmål og sidemål
@@ -86,11 +88,13 @@
 - id: mvg2-06
   nivaa: vg3
   tekst: bruke tilbakemeldinger og kunnskap om språk, tekst og sjanger til å utvikle egne tekster
-  omfang: senere
+  omfang: delvis
+  merknad: Skriveøvelsene gir automatiske sjekker av språk og sjangertrekk, og eleven kan bruke dem til å skrive om et avsnitt. Tilbakemelding fra lærer eller medelever er ikke med.
 - id: mvg2-07
   nivaa: vg3
   tekst: bruke fagkunnskap og retoriske ferdigheter i norskfaglige diskusjoner og presentasjoner
-  omfang: senere
+  omfang: utenfor
+  merknad: Siden gjelder skriftlig eksamen, så muntlige diskusjoner og presentasjoner øves ikke.
 - id: mvg2-08
   nivaa: vg3
   tekst: bruke fagspråk til å beskrive særtrekk ved norsk sammenlignet med svensk, dansk og norrønt

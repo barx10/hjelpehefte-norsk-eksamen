@@ -171,7 +171,7 @@
       kategori: 2
     - tekst: "Allerede i overskriften sier han at dokumentaren «traff» ham «hardt»."
       kategori: 3
-    - tekst: "Men noen vil kanskje mene at det blir for mye følelser, og at det å være «bekymret» og «provosert» ikke er gode argumenter."
+    - tekst: "Men noen vil kanskje mene at det blir for mye følelser, og at det å kjenne «bekymring» og synes noe er «provoserende», ikke er gode argumenter."
       kategori: 4
   forklaring: "Etos handler om troverdighet. Logos handler om fakta og logikk. Patos handler om følelser. Innledningen sier hva analysen skal gjøre, og avslutningen vurderer om teksten fungerer."
 - id: tekst-retorisk-marker
@@ -181,7 +181,7 @@
   mal: [m10-06, m10-12]
   status: godkjent
   oppdrag: "Marker de tre appellformene i avsnittet."
-  tekst: "Innlegget fungerer godt for målgruppen. Det kom like etter dokumentaren, da mange hadde sett den og kjente på de samme følelsene. Avsenderen bruker både [[etos]], [[logos]] og [[patos]]. Men noen vil kanskje mene at det blir for mye følelser, og at det å være «bekymret» og «provosert» ikke er gode argumenter. Likevel kan han overbevise flere om at likestillingen har blitt for opptatt av kvinner."
+  tekst: "Innlegget fungerer godt for målgruppen. Det kom like etter dokumentaren, da mange hadde sett den og kjente på de samme følelsene. Avsenderen bruker både [[etos]], [[logos]] og [[patos]]. Men noen vil kanskje mene at det blir for mye følelser, og at det å kjenne «bekymring» og synes noe er «provoserende», ikke er gode argumenter. Likevel kan han overbevise flere om at likestillingen har blitt for opptatt av kvinner."
   forklaring: "Avsnittet navngir alle tre appellformene: etos, logos og patos."
 - id: tekst-retorisk-fv-etos
   type: flervalg
@@ -266,8 +266,8 @@
   spm: "Hva kaller vi slike ord i en reklame?"
   alternativer: ["Verdiladde ord", "Fagord", "Sammensatte ord", "Lånord"]
   riktig: 0
-  forklaring: "Ord som «frisk» og «den aller beste» er positivt ladet. De kalles verdiladde ord, og de spiller på følelsene."
-  utdrag: "Jusen kalles «frisk», laget av den «finaste» frukten og «den aller beste»."
+  forklaring: "Ord som «frisk», «finaste» og «aller beste» er positivt ladet. De kalles verdiladde ord, og de spiller på følelsene."
+  utdrag: "Jusen kalles «frisk», og den er laget av den «finaste» frukta, som er pressa når den er «på sitt aller beste»."
 - id: tekst-reklame-fv-oppfordrende
   type: flervalg
   kapittel: reklameanalyse

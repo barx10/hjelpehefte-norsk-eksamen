@@ -12,7 +12,7 @@ kilde: "https://ndla.no/r/norsk-sf-vg1/elevtekst-fagartikkel-om-konspirasjonsteo
 kildeTittel: "Elevtekst: Fagartikkel om konspirasjonsteorier (NDLA)"
 bearbeidetFra: "elevtekst-fagartikkel-konspirasjonsteorier"
 varsel: "Teksten omtaler antisemittisme og pandemien. Vurder om temaet passer for klassen."
-endringer: "Teksten er kortet ned til under halvparten og skrevet om med enklere språk og kortere setninger. Den er bygd opp etter malen for fagartikkel i heftet, med problemstilling i innledningen, forklaring med kilder, drøfting av konsekvenser og et svar på problemstillingen til slutt. Eksemplene om Michael Jackson og presidentvalget i 2020 er tatt ut, og generaliseringene om at de som tror på konspirasjonsteorier «ofte ønsker å fornekte sannhet», er mykere formulert. Forfatternavnet i litteraturlisten er rettet til Dyrendal, slik det står i teksten. Kildehenvisningene er hentet fra originalen og ikke kontrollert mot kildene."
+endringer: "Teksten er kortet ned til under halvparten og skrevet om med enklere språk og kortere setninger. Den er bygd opp etter malen for fagartikkel i heftet, med problemstilling i innledningen, forklaring med kilder, drøfting av konsekvenser og et svar på problemstillingen til slutt. Eksemplene om Michael Jackson og presidentvalget i 2020 er tatt ut, og generaliseringene om at de som tror på konspirasjonsteorier «ofte ønsker å fornekte sannhet», er mykere formulert. Forfatternavnet i litteraturlisten er rettet til Dyrendal, slik det står i teksten. Opplysningene med kildehenvisning er kontrollert mot artiklene i Store norske leksikon 17.11.2026."
 styrkerStatus: godkjent
 styrker:
   - tekst: "Innledningen fanger leseren og stiller en tydelig problemstilling."
