@@ -287,7 +287,7 @@
   status: godkjent
   oppdrag: "Les avsnittet om bildet. Skriv et tilsvarende avsnitt om en reklame du selv velger, for eksempel en plakat eller en annonse du har sett."
   utdrag: "Avsnittet om bildet i modellteksten: «Bildet har produktet i forgrunnen. Det er blikkfanget. I bakgrunnen ser vi norsk natur fra Sognefjorden, men den er dempet, slik at den ikke stjeler oppmerksomhet fra jusen. Bildet har friske farger, grønne epler og en juskartong med bilde av en fjord. Fargene og naturen får oss til å tenke at jusen er sunn, naturlig og typisk norsk.»"
-  ord: { min: 50, maks: 110 }
+  ord: { min: 40, maks: 110 }
   nokkelord: ["blikkfang", "forgrunn", "bakgrunn", "farge"]
   nokkelordMinst: 3
   kriterier: ["Jeg sier hva som er blikkfanget", "Jeg beskriver forgrunn og bakgrunn", "Jeg forklarer hva fargene gjør med følelsene", "Jeg skriver om hva bildet gjør, ikke bare hva det viser"]

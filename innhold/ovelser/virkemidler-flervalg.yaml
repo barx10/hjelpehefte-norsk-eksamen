@@ -31,7 +31,7 @@
   mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Granene hvisket til hverandre i vinden.»"
-  alternativer: ["Besjeling", "Personifikasjon", "Metafor", "Underdrivelse"]
+  alternativer: ["Besjeling", "Sammenligning", "Metafor", "Underdrivelse"]
   riktig: 0
   forklaring: "Trær er konkrete ting i naturen, og de får menneskelig atferd (å hviske). Det er besjeling."
 - id: virk-fv-forskjell
@@ -42,7 +42,7 @@
   spm: "Hva er forskjellen på personifikasjon og besjeling, slik heftet skiller dem?"
   alternativer: ["Personifikasjon gjelder abstrakte ting, besjeling gjelder konkrete ting som dyr og planter", "Personifikasjon gjelder dyr, besjeling gjelder følelser", "Det er ingen forskjell", "Besjeling brukes bare i dikt"]
   riktig: 0
-  forklaring: "«Tiden flyr» er personifikasjon (abstrakt). «Sola smiler» er besjeling (konkret)."
+  forklaring: "«Døden banket på døra» er personifikasjon (abstrakt). «Sola smiler» er besjeling (konkret)."
 - id: virk-fv-retorisk
   type: flervalg
   kapittel: virkemidler

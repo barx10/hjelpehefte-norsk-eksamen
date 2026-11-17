@@ -82,7 +82,7 @@
   vanskegrad: 3
   oppdrag: "Skriv et tolkende avsnitt om diktet. Bruk påstand, belegg, forklaring og kobling."
   utdrag: "Diktet «Havn» (fiktiv tekst for øving):\n\nHavna sover under tåka,\nskipene puster tungt.\nAlt jeg sa ble liggende igjen\npå kaia, kaldt og urørt.\n\nDu er en brygge uten båter.\nJeg står der likevel\nog venter, som om tiden\nkunne snu av seg selv."
-  ord: { min: 80, maks: 160 }
+  ord: { min: 70, maks: 160 }
   nokkelord: ["metafor", "personifikasjon", "tema", "tolke", "savn"]
   nokkelordMinst: 2
   sitat: true
@@ -205,7 +205,7 @@
   vanskegrad: 3
   oppdrag: "Skriv et drøftende avsnitt om hvordan ordet «aldri» virker i innlegget. Bruk påstand, belegg, motforestilling og vurdering."
   utdrag: "Utdrag fra et debattinnlegg (fiktiv tekst for øving):\n\nUngdom leser aldri bøker lenger. De sitter med telefonen hele dagen og scroller. Skal vi redde lesingen, må vi ta telefonen fra dem."
-  ord: { min: 80, maks: 150 }
+  ord: { min: 50, maks: 150 }
   nokkelord: ["generalisering", "påstand", "troverdighet", "samtidig"]
   nokkelordMinst: 2
   sitat: true
@@ -300,4 +300,4 @@
   nokkelordMinst: 4
   sitat: true
   kriterier: ["Jeg sier hvem avsenderen og mottakeren er", "Jeg bruker etos, logos og patos med sitat", "Jeg forklarer virkningen", "Jeg vurderer om teksten virker overbevisende"]
-  modelltekst: "Innlegget «Gi oss åpne bibliotek» er skrevet av en biblioteksjef og er rettet mot kommunen og lokale politikere. Avsenderen bygger etos ved å vise til at hun kjenner brukerne, og hun åpner med en konkret observasjon: «30 ungdommer gjør lekser på biblioteket». Logos kommer inn når hun setter kostnaden ved å holde åpent opp mot kostnaden ved å la ungdommene miste stedet, men hun dokumenterer ikke tallene. Patos er mest tydelig i den siste setningen, «la dørene lukke seg for dem», som er et bilde som vekker medfølelse. Totalt virker innlegget troverdig og engasjerende, men argumentene ville vært sterkere med tall."
+  modelltekst: "Innlegget «Gi oss åpne bibliotek» er skrevet av en biblioteksjef og er rettet mot kommunen og lokale politikere. Avsenderen bygger etos ved å vise til at hun kjenner brukerne, og hun åpner med en konkret observasjon: «Hver kveld sitter 30 ungdommer og gjør lekser på biblioteket vårt». Logos kommer inn når hun setter kostnaden ved å holde åpent opp mot kostnaden ved å la ungdommene miste stedet, men hun dokumenterer ikke tallene. Patos er mest tydelig i den siste setningen, «la dørene lukke seg for dem», som er et bilde som vekker medfølelse. Alt i alt virker innlegget troverdig og engasjerende, men argumentene ville vært sterkere med tall."

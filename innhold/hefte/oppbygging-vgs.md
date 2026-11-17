@@ -11,10 +11,10 @@ Eksamen har to deler. Alle svarer på kortsvaret, og så velger du én av langsv
 
 | Oppgave | Hva | Lengde |
 |---|---|---|
-| Oppgave 1: kortsvar | Alle svarer. Du får ett vedlegg, for eksempel et utdrag fra en roman, og skal gjøre rede for noe i teksten med eksempler og fagspråk. | 250 til 300 ord |
-| Langsvar | Du velger én oppgave. Hver oppgave har sin sjanger og sine egne vedlegg, vanligvis tre. | 800 til 1300 ord |
+| Oppgave 1: kortsvar | Alle svarer. Du får ett eller to vedlegg, for eksempel et utdrag fra en roman, og skal gjøre rede for noe i teksten med eksempler og fagspråk. | 250 til 300 ord |
+| Langsvar | Du velger én oppgave. Hver oppgave har sin sjanger og sine egne vedlegg, fra ett til tre. | Se anbefalingen i oppgaven, ofte rundt 800 til 1200 ord |
 
-## Langsvaret: tre typer oppgaver
+## Langsvaret: vanlige typer oppgaver
 
 Langsvarsoppgavene er av ulik type. Den som velger oppgave, velger også sjanger.
 
@@ -22,9 +22,10 @@ Langsvarsoppgavene er av ulik type. Den som velger oppgave, velger også sjanger
 |---|---|---|
 | Fagartikkel | Å gjøre rede for et faglig emne og drøfte hvordan tekstene i vedleggene henger sammen med det | Forståelse av vedleggene, å gjøre rede for faglige emner, eksempler og fagspråk, evne til å drøfte, relevant kildebruk |
 | Essay | Å utforske og reflektere over innholdet i vedlagte sakprosatekster | Utforsking av vedleggene, å veksle mellom erfaringer og kunnskaper, virkemidler som passer til essay, relevante momenter og eksempler |
-| Litterær tolkning | Å tolke en novelle eller et dikt | Forståelse av teksten, eksempler og fagspråk, virkemidler og hvordan de fungerer, tema, begrunnet tolkning |
+| Litterær tolkning | Å tolke en novelle eller et dikt, eller å sammenligne to tekster | Forståelse av teksten, eksempler og fagspråk, virkemidler og hvordan de fungerer, tema, begrunnet tolkning |
+| Retorisk analyse | Å analysere og tolke en sakprosatekst, for eksempel en tale, med begreper fra retorikken | Den retoriske situasjonen, appellformer og virkemidler, eksempler og fagspråk, begrunnet vurdering |
 
-Oppgavene varierer fra år til år. Typene over er de du bør kunne. Les alltid selve oppgaveteksten.
+Oppgavene varierer fra år til år. Typene over er de vanligste, og de du bør kunne. Les alltid selve oppgaveteksten.
 
 ## Alle oppgaver vurderes på tre ting
 

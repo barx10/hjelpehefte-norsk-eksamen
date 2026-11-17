@@ -4,28 +4,28 @@
   mal: [m10-01, mvg3-01]
   status: godkjent
   forside: "Personal 1. person (jeg/vi): hva kjennetegner den?"
-  bakside: "Fortelleren deltar og forteller fra sitt eget ståsted. Vi kommer tett på. Eksempel: Helga Flatland, Vingebelastning."
+  bakside: "Fortelleren er en person i fortellingen og forteller fra sitt eget ståsted. Vi kommer tett på."
 - id: syn-personal3
   type: flashkort
   kapittel: synsvinkel
   mal: [m10-01, mvg3-01]
   status: godkjent
   forside: "Personal 3. person (han/hun): hva kjennetegner den?"
-  bakside: "Fortelleren deltar via en av personene, men omtaler dem som «han/hun». Eksempel: Rakel Helmsdal, Spedalsk."
+  bakside: "Vi følger én person tett og ser alt fra hens ståsted, men personen omtales som «han» eller «hun»."
 - id: syn-refererende
   type: flashkort
   kapittel: synsvinkel
   mal: [m10-01, mvg3-01]
   status: godkjent
   forside: "Autoral refererende: hva kjennetegner den?"
-  bakside: "Fortelleren står utenfor og beskriver bare det vi kan observere. Eksempel: Bjørnstjerne Bjørnson, Faderen."
+  bakside: "Fortelleren står utenfor og beskriver bare det vi kan observere. Eksempel: Bjørnstjerne Bjørnson, «Faderen»."
 - id: syn-allvitende
   type: flashkort
   kapittel: synsvinkel
   mal: [m10-01, mvg3-01]
   status: godkjent
   forside: "Autoral allvitende: hva kjennetegner den?"
-  bakside: "Fortelleren har full oversikt og vet hva personene tenker og føler. Eksempel: Rolf Losnegård, Hemnaren."
+  bakside: "Fortelleren står utenfor, har full oversikt og vet hva flere av personene tenker og føler."
 - id: syn-fv-jeg
   type: flervalg
   kapittel: synsvinkel

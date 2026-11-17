@@ -22,7 +22,7 @@
   mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Bekken sang seg ned gjennom skogen.»"
-  alternativer: ["Besjeling", "Personifikasjon", "Metafor", "Sammenligning"]
+  alternativer: ["Besjeling", "Allusjon", "Metafor", "Sammenligning"]
   riktig: 0
   forklaring: "En konkret ting i naturen, bekken, får en menneskelig evne: å synge."
 - id: virk-m-4
@@ -48,7 +48,7 @@
   kapittel: virkemidler
   mal: [m10-06, mvg3-01]
   status: godkjent
-  spm: "Hvilket virkemiddel er dette? «Det var litt kjølig, sa han, da det var tjue minusgrader.»"
+  spm: "Det er tjue minusgrader, og han sier: «Det er litt kjølig.» Hvilket virkemiddel er dette?"
   alternativer: ["Underdrivelse", "Overdrivelse", "Kontrast", "Metafor"]
   riktig: 0
   forklaring: "Han sier mindre enn det som er sant. Det gir en ironisk effekt."
@@ -130,7 +130,7 @@
   mal: [m10-06, mvg3-01]
   status: godkjent
   spm: "Hvilket virkemiddel er dette? «Bilen hostet og nektet å starte.»"
-  alternativer: ["Besjeling", "Personifikasjon", "Metafor", "Overdrivelse"]
+  alternativer: ["Besjeling", "Kontrast", "Metafor", "Overdrivelse"]
   riktig: 0
   forklaring: "En konkret ting, bilen, får menneskelige egenskaper: den hoster og nekter."
 - id: virk-m-16
@@ -174,7 +174,7 @@
   kapittel: virkemidler
   mal: [m10-06, mvg3-01]
   status: godkjent
-  spm: "Hvilket virkemiddel er dette? «Det gikk ikke helt etter planen, sa hun, da huset sto i flammer.»"
+  spm: "Huset står i flammer, og hun sier: «Det gikk ikke helt etter planen.» Hvilket virkemiddel er dette?"
   alternativer: ["Underdrivelse", "Overdrivelse", "Frampek", "Metafor"]
   riktig: 0
   forklaring: "Hun sier mye mindre enn det som er sant. Det gir en ironisk effekt."

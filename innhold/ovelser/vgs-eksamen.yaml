@@ -15,7 +15,7 @@
   kapittel: oppbygging-vgs
   status: godkjent
   forside: "Hvor mange ord bør langsvaret være?"
-  bakside: "800 til 1300 ord."
+  bakside: "Følg anbefalingen i oppgaven. Ofte er det rundt 800 til 1200 ord."
 - id: vgs-oppb-flervalg-antall
   type: flervalg
   kapittel: oppbygging-vgs
@@ -193,7 +193,7 @@
       kategori: 0
     - tekst: "Stemmen var «som is»."
       kategori: 1
-  forklaring: "Et godt avsnitt navngir virkemidlet, sitérer et sted og forklarer hva det gjør."
+  forklaring: "Et godt avsnitt navngir virkemidlet, siterer et sted og forklarer hva det gjør."
 - id: vgs-kort-skriv-kortsvar
   type: skriv
   kapittel: kortsvar-vgs
@@ -201,7 +201,7 @@
   vanskegrad: 2
   oppdrag: "Gjør rede for hvordan virkemidler skaper stemning i utdraget. Bruk eksempler fra teksten og fagspråk."
   utdrag: "Utdrag fra en novelle (fiktiv tekst for øving):\n\nNatten hadde lagt seg over fjorden som et teppe. Aud stod ved kaia og lyttet. Alt var stille, bare vannet slo svakt mot stolpene, som om det hvisket. Hun holdt kappen tett om seg. Hvor ble han av? Hun så på klokka, som tikket høyere enn før."
-  ord: { min: 80, maks: 150 }
+  ord: { min: 60, maks: 150 }
   nokkelord: ["personifikasjon", "sammenligning", "stemning", "virkemiddel"]
   nokkelordMinst: 2
   sitat: true

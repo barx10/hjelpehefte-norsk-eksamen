@@ -77,6 +77,6 @@ Konspirasjonsteorier forsvinner ikke med det første, men vi kan hindre at feili
 
 ## Litteraturliste
 
-Dyrendal, A. (2020). Historievitenskap: Konspirasjonsteorier. I Store Norske Leksikon. https://snl.no/konspirasjonsteori
+Dyrendal, A. (2020). Historievitenskap: Konspirasjonsteorier. I Store norske leksikon. https://snl.no/konspirasjonsteori
 
-Simonsen, K. B. (2020). Konspirasjonsteorier: Sions vises protokoller. I Store Norske Leksikon. https://snl.no/Sions_vises_protokoller
+Simonsen, K. B. (2020). Konspirasjonsteorier: Sions vises protokoller. I Store norske leksikon. https://snl.no/Sions_vises_protokoller

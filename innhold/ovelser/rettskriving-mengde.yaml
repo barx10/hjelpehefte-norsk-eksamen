@@ -597,7 +597,7 @@
   tekst: "Vi hjalp de med leksene."
   feil: "de"
   rettelse: "dem"
-  forklaring: "«Dem» står etter preposisjonen «med» og er ikke subjekt."
+  forklaring: "«Dem» er objekt (de som får hjelp). «De» er subjekt."
 - id: feil-m-stave-1
   type: finnfeil
   kapittel: rettskriving

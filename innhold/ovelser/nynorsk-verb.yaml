@@ -363,7 +363,7 @@
     - "leste"
     - "les"
   riktig: 0
-  forklaring: "Les er eit sterkt verb: les, las, har lese."
+  forklaring: "Lese er eit sterkt verb: les, las, har lese."
 - id: nn-verb-valg-8
   type: flervalg
   kapittel: nynorsk-verb
@@ -487,7 +487,7 @@
   tekst: "Eg har lest boka to gonger."
   feil: "lest"
   rettelse: "lese"
-  forklaring: "Perfektum av les er har lese."
+  forklaring: "Perfektum av lese er har lese."
 - id: nn-verb-feil-15
   type: finnfeil
   kapittel: nynorsk-verb
@@ -537,7 +537,7 @@
   tekst: "Ho har kommet for seint."
   feil: "kommet"
   rettelse: "komme"
-  forklaring: "Perfektum av kome er har komme."
+  forklaring: "Perfektum av komme er har komme."
 - id: nn-verb-kobling-1
   type: matching
   kapittel: nynorsk-verb

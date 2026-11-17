@@ -8,7 +8,7 @@ status: godkjent
 
 En fagartikkel forklarer et tema med fakta og kilder. Du skriver saklig og viser hvor opplysningene kommer fra. Du bruker den når oppgaven ber deg forklare, undersøke eller informere om noe, og når du skal vise at du kan bruke kilder.
 
-I tabellen over skrivehandlinger (kapittel 3) hører fagartikkel til å samhandle, å beskrive og å utforske.
+I tabellen over skrivehandlinger (kapittel 3) hører fagartikkel til å beskrive og å utforske.
 
 > **Mal: Fagartikkel**
 >

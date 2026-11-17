@@ -6,9 +6,9 @@
   oppdrag: "Koble synsvinkelen til kjennetegnet."
   par:
     - venstre: "Personal 1. person (jeg/vi)"
-      hoyre: "Fortelleren deltar og forteller fra sitt eget ståsted. Vi kommer tett på."
+      hoyre: "Fortelleren er en person i fortellingen og forteller fra sitt eget ståsted. Vi kommer tett på."
     - venstre: "Personal 3. person (han/hun)"
-      hoyre: "Fortelleren deltar via en av personene, men omtaler dem som «han/hun»."
+      hoyre: "Vi følger én person tett, men personen omtales som «han» eller «hun»."
     - venstre: "Autoral refererende"
       hoyre: "Fortelleren står utenfor og beskriver bare det vi kan observere."
     - venstre: "Autoral allvitende"
@@ -30,4 +30,4 @@
       kategori: 0
     - tekst: "Autoral allvitende"
       kategori: 1
-  forklaring: "Personal: fortelleren deltar, enten som «jeg» eller via en av personene. Autoral: fortelleren står utenfor."
+  forklaring: "Personal: vi ser handlingen gjennom én person, enten som «jeg» eller som «han» eller «hun». Autoral: fortelleren står utenfor personene."

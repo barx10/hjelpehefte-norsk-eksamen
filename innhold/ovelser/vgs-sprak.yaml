@@ -78,10 +78,10 @@
   kapittel: samisk-vgs
   mal: [mvg1-13]
   status: godkjent
-  spm: "Hvilke samiske språk brukes i Norge?"
-  alternativer: ["Nordsamisk, lulesamisk og sørsamisk", "Bare nordsamisk", "Nordsamisk og kvensk", "Sørsamisk og finsk"]
+  spm: "Hvilke tre samiske språk er de største i Norge?"
+  alternativer: ["Nordsamisk, lulesamisk og sørsamisk", "Nordsamisk, kvensk og romani", "Sørsamisk, finsk og lulesamisk", "Nordsamisk, islandsk og sørsamisk"]
   riktig: 0
-  forklaring: "Tre samiske språk brukes i Norge. Nordsamisk er det største."
+  forklaring: "Nordsamisk, lulesamisk og sørsamisk er de tre største samiske språkene i Norge. Nordsamisk er det største."
 - id: vgs-sam-kort-forn
   type: flashkort
   kapittel: samisk-vgs
@@ -178,7 +178,7 @@
   nokkelordMinst: 3
   sitat: true
   kriterier: ["Jeg bruker fagbegreper", "Jeg ser saken fra to sider", "Jeg siterer fra påstanden", "Jeg konkluderer med en vurdering"]
-  modelltekst: "Innlegget hevder at ungdomsspråket truer norsken fordi unge blander inn engelske ord. Det er riktig at mange unge bruker lånord fra engelsk, men språk har alltid tatt opp ord utenfra, slik dansketiden og mellomnorsken viser. Ungdomsspråket kan også leses som et uttrykk for tilhørighet og identitet, ikke som en trussel. Samtidig kan hastigheten sosiale medier gir, gjøre at endringene oppleves som mer dramatiske enn før. Totalt er det vanskelig å si at språket «mister» noe, siden det endrer seg i stedet for å forsvinne."
+  modelltekst: "Innlegget hevder at ungdomsspråket truer norsken fordi unge blander inn engelske ord. Det er riktig at mange unge bruker lånord fra engelsk, men språk har alltid tatt opp ord utenfra, slik dansketiden og mellomnorsken viser. Ungdomsspråket kan også leses som et uttrykk for tilhørighet og identitet, ikke som en trussel. Samtidig kan hastigheten sosiale medier gir, gjøre at endringene oppleves som mer dramatiske enn før. Alt i alt er det vanskelig å si at språket «mister» noe, siden det endrer seg i stedet for å forsvinne."
 - id: vgs-setn-match-ledd
   type: matching
   kapittel: setningsoppbygging-vgs
@@ -254,7 +254,7 @@
   status: godkjent
   oppdrag: "Skriv om avsnittet slik at setningene varierer og henger bedre sammen."
   starttekst: "Teksten har en avsender. Avsenderen er en lege. Hun bruker mange fagord. Det gir troverdighet. Teksten har en mottaker. Mottakeren er politikerne."
-  ord: { min: 25, maks: 60 }
+  ord: { min: 20, maks: 60 }
   nokkelord: ["fordi", "og", "derfor", "som"]
   nokkelordMinst: 2
   kriterier: ["Jeg slår sammen korte setninger med bindeord", "Jeg bruker minst en leddsetning", "Jeg varierer setningsstart"]

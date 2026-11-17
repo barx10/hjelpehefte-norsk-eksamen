@@ -58,7 +58,7 @@ To tips som hjelper deg å kjenne att eit sterkt verb:
 1. Dann preteritum. Får verbet inga ending, er det sterkt.
 2. Dei fleste sterke verb har berre éi staving i preteritum: *kom*, *såg*, *tok*. Svake verb har minst to: *kjøpte*, *budde*.
 
-Sju sterke verb får likevel ending i presens: *eg blir*, *eg ler*, *eg drar*, *eg får*, *eg slår*, *eg står* og *eg tar*.
+Nokre sterke verb får likevel -r i presens, for eksempel *eg blir*, *eg drar*, *eg får*, *eg går*, *eg ler*, *eg ser*, *eg slår*, *eg står* og *eg tar*.
 
 ## Fem verb som er litt vrange
 

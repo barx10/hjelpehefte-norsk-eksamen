@@ -13,7 +13,7 @@ Norge er et land med mange språk. Her ser vi på språkene som brukes, og hvord
 
 - **Bokmål og nynorsk** er likestilte skriftspråk. Alle elever lærer begge, og de fleste bruker bokmål.
 - **Dialekter** brukes i tale over hele landet. Norge har mye sterkere dialektbruk enn mange andre land, og dialektene brukes også i formelle sammenhenger.
-- **Samiske språk** er urfolksspråk. Tre av dem snakkes i Norge: nordsamisk, lulesamisk og sørsamisk.
+- **Samiske språk** er urfolksspråk. De tre største i Norge er nordsamisk, lulesamisk og sørsamisk.
 - **Nasjonale minoritetsspråk** er kvensk, romani og romanes.
 - **Norsk tegnspråk** er et eget språk.
 - **Innvandrerspråk** brukes av mange i hverdagen, og de er en del av språkbildet.

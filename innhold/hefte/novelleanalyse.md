@@ -25,12 +25,12 @@ Novellen er kort. Den konsentrerer seg om én situasjon, én konflikt, og slutte
 
 > **Eksempel: innledning novelleanalyse**
 >
-> «Faderen» av Bjørnstjerne Bjørnson (1860) er en kort novelle om en bonde som aldri klarer å vise stolthet over sønnen sin før det er for sent. Bjørnson er kjent for et folkelig og direkte språk. I denne teksten skal jeg analysere hvordan frampek og indirekte personskildring bidrar til å formidle temaet om fortrengning og sorg.
+> «Faderen» av Bjørnstjerne Bjørnson (1860) er en kort novelle om en rik og stolt bonde som mister sønnen sin og blir et ydmykt menneske. Bjørnson er kjent for et folkelig og direkte språk. I denne teksten skal jeg analysere hvordan frampek og indirekte personskildring bidrar til å formidle temaet om stolthet, sorg og forandring.
 
 <div class="bare-nett">
 
 > **Eksempel: analyse av virkemiddel (avsnitt om oppbygging)**
 >
-> Novellen bruker frampek tidlig i teksten: vi hører at Tord alltid ber presten for sønnen sin, men aldri sier hvorfor. Dette skaper en uro i leseren helt fra begynnelsen. Når sønnen drukner til slutt, forstår vi at frampeket har varslet tragedien hele veien. Spenningskurven bygger opp mot et vendepunkt leseren nesten ikke orker å lese.
+> Novellen bruker frampek tidlig i teksten: Når Tord kommer for å få sønnen døpt, ønsker presten at barnet må bli ham «til velsignelse». Ønsket skaper en uro hos leseren, for vi lurer på hva det vil si. Når sønnen drukner, og Tord gir bort pengene sine, forstår vi at frampeket har pekt mot slutten hele veien. Velsignelsen kommer ikke gjennom stolthet, men gjennom sorg.
 
 </div>

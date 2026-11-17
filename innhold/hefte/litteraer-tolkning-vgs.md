@@ -38,7 +38,7 @@ En god tolkning har begge deler. Virkemidlene er bevisene, og tolkningen er konk
 - **Synsvinkel og forteller:** Hvem ser og forteller? Hva får vi vite, og hva skjules?
 - **Oppbygging:** Åpning, konflikt, vendepunkt, slutt. Er slutten åpen eller lukket?
 - **Personer:** Hva sier handlinger, replikker og tanker om dem? Endrer de seg?
-- **Miljø og symbol:** Hva betyr tingene og stedene som tekstene dveler ved?
+- **Miljø og symbol:** Hva betyr tingene og stedene som teksten dveler ved?
 - **Undertekst:** Hva sies ikke direkte, men antydes?
 - **Språk:** Korte eller lange setninger, ordvalg, bilder og gjentakelser.
 

@@ -4,7 +4,7 @@
   mal: [m10-10]
   status: godkjent
   forside: "Å samhandle: formål og sjangre"
-  bakside: "Formål: informere, stille spørsmål, svare, begrunne. Sjangre: formelle brev, søknader, fagartikkel, blogg."
+  bakside: "Formål: informere, stille spørsmål, svare, begrunne. Sjangre: formelle brev, søknader, e-post, blogg."
 - id: skriv-reflektere
   type: flashkort
   kapittel: skrivehandlinger
@@ -18,7 +18,7 @@
   mal: [m10-10]
   status: godkjent
   forside: "Å beskrive: formål og sjangre"
-  bakside: "Formål: gjøre rede for, forklare, definere, sammenligne. Sjangre: debattartikkel, leserinnlegg, fagartikkel."
+  bakside: "Formål: gjøre rede for, forklare, definere, sammenligne. Sjangre: fagartikkel, referat, faktatekst."
 - id: skriv-utforske
   type: flashkort
   kapittel: skrivehandlinger
