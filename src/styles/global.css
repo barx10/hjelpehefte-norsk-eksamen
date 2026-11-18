@@ -305,6 +305,12 @@ textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo,
 .stat { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: 0.75rem; margin: 1rem 0; }
 .stat div { background: var(--flate); border: 1px solid var(--linje); border-radius: var(--radius); padding: 0.75rem 1rem; }
 .stat strong { display: block; font-size: 1.6rem; }
+.lagring-info { background: var(--flate-2); border: 1px solid var(--linje); border-radius: var(--radius); padding: 0.85rem 1rem; margin: 0 0 1rem; }
+.lagring-info p { margin: 0 0 0.5rem; }
+.lagring-info p:last-child { margin-bottom: 0; }
+.lagring-feil { border-top: 1px solid var(--linje); padding-top: 0.6rem; color: var(--feil); }
+.lagring-feil[hidden] { display: none; }
+#sikkerhetskopi { scroll-margin-top: 1rem; }
 .repetisjon { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem 1rem; flex-wrap: wrap; margin: 1rem 0; padding: 0.85rem 1rem; border: 1px solid var(--linje); border-left: 5px solid var(--aksent); border-radius: var(--radius); background: var(--flate); }
 .repetisjon[hidden] { display: none; }
 .repetisjon p { margin: 0; flex: 1 1 16rem; }

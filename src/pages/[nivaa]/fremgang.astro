@@ -15,7 +15,12 @@ const temaer = kapitler
 ---
 <Layout tittel="Min fremgang" beskrivelse="Se, flytt og nullstill fremgangen din." nivaa={nivaa}>
   <h1>Min fremgang</h1>
-  <p>Fremgangen lagres bare i nettleseren på denne enheten. Vil du bytte mellom mobil og PC, kan du flytte den her. Denne siden gjelder {nivaa.navn.toLowerCase()}. Hvert nivå har sin egen fremgang.</p>
+  <div class="lagring-info">
+    <p><strong>Fremgangen din ligger bare på denne enheten.</strong></p>
+    <p>Siden har ingen innlogging og sender ingenting om deg til oss eller andre. Det er derfor ingen kan se hva du har øvd på. Ulempen er at fremgangen forsvinner hvis du sletter nettleserdata, bruker privat fane eller bytter nettleser. <a href="#sikkerhetskopi">Lagre en sikkerhetskopi</a> av og til, så er du trygg.</p>
+    <p class="lagring-feil" id="lagring-feil" hidden><strong>Nettleseren din lar ikke siden lagre fremgang akkurat nå.</strong> Det skjer ofte i privat fane. Du kan øve, men fremgangen blir ikke liggende når du lukker siden.</p>
+  </div>
+  <p>Denne siden gjelder {nivaa.navn.toLowerCase()}. Hvert nivå har sin egen fremgang.</p>
 
   <section class="repetisjon" id="repetisjon" hidden aria-live="polite" data-repeter={nurl(nivaa, 'ovelser/alle/?repeter=1')}></section>
   <div class="stat" id="stat" aria-live="polite"></div>
@@ -38,8 +43,8 @@ const temaer = kapitler
     <button class="knapp" type="button" id="del-lenke">Del lenke</button>
   </div>
 
-  <h3>Sikkerhetskopi</h3>
-  <p>Du kan også lagre fremgangen som en fil og hente den inn igjen senere. Du trenger ikke å åpne filen.</p>
+  <h3 id="sikkerhetskopi">Sikkerhetskopi</h3>
+  <p>Du kan også lagre fremgangen som en fil og hente den inn igjen senere. Du trenger ikke å åpne filen. Lagre en ny kopi etter at du har øvd en stund, for eksempel en gang i uken.</p>
   <div class="knapp-rad">
     <button class="knapp sekundar" type="button" id="last-ned">Lagre sikkerhetskopi</button>
     <label class="knapp sekundar" for="fil">Hent fra sikkerhetskopi</label>
@@ -277,6 +282,8 @@ const temaer = kapitler
   });
 
   tegn();
+  // Å skrive den samme fremgangen tilbake endrer ingenting, men viser om nettleseren lar siden lagre.
+  $('lagring-feil').hidden = lagre(les());
 
   if (location.hash.startsWith('#hent=')) {
     const kode = decodeURIComponent(location.hash.slice('#hent='.length));
