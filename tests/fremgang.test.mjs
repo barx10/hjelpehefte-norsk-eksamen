@@ -101,3 +101,27 @@ test('kode for flytting tåler tur-retur og bærer nivået', async () => {
   assert.equal(await lesKode('hei'), null);
   assert.deepEqual(await lesKode(await lagKode(tom(), 'ungdomstrinn')), { nivaa: 'ungdomstrinn', fremgang: {} });
 });
+
+test('sist øvde tema, temaer som bør øves og tidstekst', async () => {
+  const { sistFeil, sistOvdeTema, borOves, naarTekst } = await import('../src/lib/fremgang.ts');
+  let f = tom();
+  f = oppdater(f, 'a1', true, 100);           // første svar riktig: boks 1, men ikke feil
+  f = oppdater(f, 'b1', false, 300);          // feil sist
+  f = oppdater(f, 'b2', false, 200);
+  f = oppdater(f, 'b2', true, 250);           // rettet: boks 2
+  f = oppdater(f, 'c1', false, 50);
+  f = oppdater(f, 'c2', false, 60);
+  assert.equal(sistFeil(f, 'a1'), false);
+  assert.equal(sistFeil(f, 'b1'), true);
+  assert.equal(sistFeil(f, 'b2'), false);
+  const temaer = [{ navn: 'A', ider: ['a1'] }, { navn: 'B', ider: ['b1', 'b2'] }, { navn: 'C', ider: ['c1', 'c2', 'c3'] }, { navn: 'D', ider: ['d1'] }];
+  assert.equal(sistOvdeTema(f, temaer).tema.navn, 'B');
+  assert.equal(sistOvdeTema(f, temaer).sist, 300);
+  assert.equal(sistOvdeTema(tom(), temaer), null);
+  assert.deepEqual(borOves(f, temaer).map((t) => [t.tema.navn, t.antall]), [['C', 2], ['B', 1]]);
+  const naa = new Date(2026, 10, 18, 9).getTime();
+  assert.equal(naarTekst(new Date(2026, 10, 18, 1).getTime(), naa), 'I dag');
+  assert.equal(naarTekst(new Date(2026, 10, 17, 23).getTime(), naa), 'I går');
+  assert.equal(naarTekst(new Date(2026, 10, 14, 12).getTime(), naa), 'For 4 dager siden');
+  assert.match(naarTekst(new Date(2026, 9, 2).getTime(), naa), /2\. oktober/);
+});

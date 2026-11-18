@@ -59,6 +59,46 @@ export function stokk<T>(liste: T[], rng: () => number = Math.random): T[] {
   return ut;
 }
 
+/** Sant når eleven svarte feil sist. Etter et feil svar står øvelsen i boks 1. Et riktig svar gir boks 1
+ * bare første gang øvelsen besvares, og da er feil 0. */
+export function sistFeil(f: Fremgang, id: string): boolean {
+  const p = f[id];
+  return p !== undefined && p.box === 1 && p.feil > 0;
+}
+
+export type TemaIder = { ider: string[] };
+
+/** Temaet eleven øvde på sist, og når. Null hvis ingen øvelser i temaene er prøvd. */
+export function sistOvdeTema<T extends TemaIder>(f: Fremgang, temaer: T[]): { tema: T; sist: number } | null {
+  let best: { tema: T; sist: number } | null = null;
+  for (const tema of temaer) {
+    for (const id of tema.ider) {
+      const sist = f[id]?.sist ?? 0;
+      if (sist > 0 && (!best || sist > best.sist)) best = { tema, sist };
+    }
+  }
+  return best;
+}
+
+/** Temaene med flest øvelser eleven svarte feil på sist. Temaer uten slike øvelser er ikke med. */
+export function borOves<T extends TemaIder>(f: Fremgang, temaer: T[], maks = 3): { tema: T; antall: number }[] {
+  return temaer
+    .map((tema) => ({ tema, antall: tema.ider.filter((id) => sistFeil(f, id)).length }))
+    .filter((t) => t.antall > 0)
+    .sort((a, b) => b.antall - a.antall)
+    .slice(0, maks);
+}
+
+/** «I dag», «I går», «For 3 dager siden» eller en dato. */
+export function naarTekst(sist: number, naa: number = Date.now()): string {
+  const dag = (t: number) => { const d = new Date(t); return Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000; };
+  const dager = dag(naa) - dag(sist);
+  if (dager <= 0) return 'I dag';
+  if (dager === 1) return 'I går';
+  if (dager < 7) return `For ${dager} dager siden`;
+  return new Date(sist).toLocaleDateString('nb-NO', { day: 'numeric', month: 'long' });
+}
+
 function erPost(x: unknown): x is Post {
   if (typeof x !== 'object' || x === null) return false;
   const p = x as Record<string, unknown>;

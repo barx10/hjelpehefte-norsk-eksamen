@@ -305,6 +305,25 @@ textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo,
 .stat { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: 0.75rem; margin: 1rem 0; }
 .stat div { background: var(--flate); border: 1px solid var(--linje); border-radius: var(--radius); padding: 0.75rem 1rem; }
 .stat strong { display: block; font-size: 1.6rem; }
+.fortsett { background: var(--flate-2); border: 1px solid var(--linje); border-left: 5px solid var(--primar); border-radius: var(--radius); padding: 1rem 1.1rem 1.1rem; margin: 0 0 1.5rem; }
+.fortsett .etikett { font-family: var(--skrift); font-size: 0.85rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--dempet); margin: 0 0 0.35rem; }
+.fortsett-navn { font-family: var(--skrift-tittel); font-size: 1.45rem; font-weight: 700; line-height: 1.2; margin: 0 0 0.25rem; }
+.fortsett .info { color: var(--dempet); margin: 0 0 0.6rem; }
+.fortsett .maaler { margin-bottom: 1rem; }
+.fortsett .knapp { margin: 0; }
+.maaler { height: 6px; border-radius: 3px; background: var(--linje); overflow: hidden; }
+.maaler span { display: block; height: 100%; background: var(--primar); border-radius: 3px; }
+#bor-oves .info { color: var(--dempet); margin-top: -0.4rem; }
+.bor-liste { list-style: none; padding: 0; margin: 0 0 1.5rem; display: grid; gap: 0.5rem; }
+.bor-lenke { display: flex; justify-content: space-between; align-items: center; gap: 0.75rem; flex-wrap: wrap; min-height: 44px; padding: 0.6rem 1rem; border: 1px solid var(--linje); border-left: 5px solid var(--aksent); border-radius: var(--radius); background: var(--flate); text-decoration: none; color: var(--tekst); }
+.bor-lenke:hover { border-color: var(--aksent); color: var(--tekst); }
+.bor-navn { font-weight: 650; }
+.bor-tall { color: var(--dempet); font-size: 0.92rem; }
+.tema-rad { padding: 0.65rem 1rem; }
+.tema-rad .tema-linje { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; margin: 0 0 0.45rem; }
+.tema-rad .tema-linje > span:first-child { flex: 1; min-width: 0; }
+.tema-tall { color: var(--dempet); font-size: 0.92rem; white-space: nowrap; }
+.tema-rad.uprovd { color: var(--dempet); background: transparent; }
 .melding { min-height: 1.5em; font-weight: 600; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
