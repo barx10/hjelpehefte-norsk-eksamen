@@ -86,3 +86,18 @@ test('lagring fungerer og tåler manglende eller ødelagt lager', () => {
   assert.equal(lagre(f, { setItem: () => { throw new Error('full'); } }), false);
   assert.equal(lagre(f, null), false);
 });
+
+test('kode for flytting tåler tur-retur og bærer nivået', async () => {
+  const { lagKode, lesKode } = await import('../src/lib/fremgang.ts');
+  let f = tom();
+  f = oppdater(f, 'vgs-a', true, 1700000000000);
+  f = oppdater(f, 'vgs-b', false, 1700000001000);
+  const kode = await lagKode(f, 'vgs');
+  assert.match(kode, /^NORSK\.vgs\.z\.[A-Za-z0-9_-]+$/);
+  assert.deepEqual(await lesKode(kode), { nivaa: 'vgs', fremgang: f });
+  assert.deepEqual(await lesKode(`  https://eksempel.no/vgs/fremgang/#hent=${kode}\n`), { nivaa: 'vgs', fremgang: f });
+  assert.deepEqual(await lesKode(eksporter(f)), { nivaa: null, fremgang: f });
+  assert.equal(await lesKode(kode.slice(0, kode.length - 6)), null);
+  assert.equal(await lesKode('hei'), null);
+  assert.deepEqual(await lesKode(await lagKode(tom(), 'ungdomstrinn')), { nivaa: 'ungdomstrinn', fremgang: {} });
+});

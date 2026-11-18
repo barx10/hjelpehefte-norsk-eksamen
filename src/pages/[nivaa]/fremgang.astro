@@ -1,6 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { hentKapitler, hentOvelser, nivaaStier, tilJson } from '../../lib/innhold';
+import { NIVAAER } from '../../lib/nivaa';
+import { nurl } from '../../lib/url';
 
 export const getStaticPaths = nivaaStier;
 const { nivaa } = Astro.props;
@@ -13,27 +15,43 @@ const temaer = kapitler
 ---
 <Layout tittel="Min fremgang" beskrivelse="Se, flytt og nullstill fremgangen din." nivaa={nivaa}>
   <h1>Min fremgang</h1>
-  <p>Fremgangen lagres bare i nettleseren på denne enheten. Vil du bytte mellom mobil og PC, kan du eksportere og importere den her. Denne siden gjelder {nivaa.navn.toLowerCase()}. Hvert nivå har sin egen fremgang.</p>
+  <p>Fremgangen lagres bare i nettleseren på denne enheten. Vil du bytte mellom mobil og PC, kan du flytte den her. Denne siden gjelder {nivaa.navn.toLowerCase()}. Hvert nivå har sin egen fremgang.</p>
 
   <div class="stat" id="stat" aria-live="polite"></div>
   <h2>Per tema</h2>
   <ul class="mal-liste" id="per-tema"></ul>
 
   <h2>Flytt fremgangen</h2>
-  <label for="eksport"><strong>Eksporter.</strong> Kopier koden og lim den inn på den andre enheten.</label>
-  <textarea id="eksport" readonly rows="4"></textarea>
+  <ol>
+    <li>Trykk «Del lenke» på enheten der fremgangen ligger.</li>
+    <li>Send lenken til deg selv, for eksempel på melding eller e-post.</li>
+    <li>Åpne lenken på den andre enheten og svar ja når siden spør.</li>
+  </ol>
   <div class="knapp-rad">
-    <button class="knapp" type="button" id="kopier">Kopier kode</button>
-    <button class="knapp sekundar" type="button" id="last-ned">Last ned som fil</button>
+    <button class="knapp" type="button" id="del-lenke">Del lenke</button>
   </div>
 
-  <label for="import"><strong>Importer.</strong> Lim inn koden her. Den erstatter fremgangen på denne enheten.</label>
-  <textarea id="import" rows="4"></textarea>
+  <h3>Sikkerhetskopi</h3>
+  <p>Du kan også lagre fremgangen som en fil og hente den inn igjen senere. Du trenger ikke å åpne filen.</p>
   <div class="knapp-rad">
-    <button class="knapp" type="button" id="importer">Importer</button>
-    <label class="knapp sekundar" for="fil">Velg fil</label>
-    <input type="file" id="fil" accept="application/json,.json" hidden />
+    <button class="knapp sekundar" type="button" id="last-ned">Lagre sikkerhetskopi</button>
+    <label class="knapp sekundar" for="fil">Hent fra sikkerhetskopi</label>
+    <input type="file" id="fil" accept=".txt,.json,text/plain,application/json" hidden />
   </div>
+
+  <details class="modell">
+    <summary>Bruk kode i stedet</summary>
+    <label for="eksport"><strong>Din kode.</strong> Kopier den og lim den inn på den andre enheten.</label>
+    <textarea id="eksport" readonly rows="3"></textarea>
+    <div class="knapp-rad">
+      <button class="knapp sekundar" type="button" id="kopier">Kopier kode</button>
+    </div>
+    <label for="import"><strong>Lim inn kode.</strong> Den erstatter fremgangen på denne enheten.</label>
+    <textarea id="import" rows="3"></textarea>
+    <div class="knapp-rad">
+      <button class="knapp sekundar" type="button" id="importer">Hent fremgang</button>
+    </div>
+  </details>
   <p class="melding" id="melding" role="status"></p>
 
   <h2>Nullstill</h2>
@@ -41,14 +59,18 @@ const temaer = kapitler
   <div class="knapp-rad"><button class="knapp sekundar" type="button" id="nullstill">Nullstill fremgang</button></div>
 
   <script type="application/json" id="temaer" set:html={tilJson(temaer)} />
+  <script type="application/json" id="nivaaer" set:html={tilJson(NIVAAER.map((n) => ({ id: n.id, navn: n.navn, side: nurl(n, 'fremgang/') })))} />
 </Layout>
 
 <script>
-  import { les, lagre, eksporter, importer, nullstill, antallMestret, tom } from '../../lib/fremgang';
+  import { les, lagre, lagKode, lesKode, nullstill, antallMestret, tom } from '../../lib/fremgang';
 
   type Tema = { tittel: string; nummer: string; ider: string[] };
   const temaer: Tema[] = JSON.parse(document.getElementById('temaer')!.textContent ?? '[]');
   const alleIder = temaer.flatMap((t) => t.ider);
+  const nivaaer: { id: string; navn: string; side: string }[] = JSON.parse(document.getElementById('nivaaer')!.textContent ?? '[]');
+  const nivaa = document.documentElement.dataset.nivaa ?? '';
+  const denneSiden = () => location.href.split('#')[0]!;
 
   const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
   const melding = (tekst: string) => { $('melding').textContent = tekst; };
@@ -82,41 +104,81 @@ const temaer = kapitler
         return li;
       }),
     );
-    $<HTMLTextAreaElement>('eksport').value = eksporter(f);
+    void lagKode(f, nivaa).then((kode) => { $<HTMLTextAreaElement>('eksport').value = kode; });
   }
 
-  $('kopier').addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText($<HTMLTextAreaElement>('eksport').value);
-      melding('Koden er kopiert.');
-    } catch {
-      $<HTMLTextAreaElement>('eksport').select();
-      melding('Kunne ikke kopiere automatisk. Koden er markert, så du kan kopiere den selv.');
+  async function kopierTekst(tekst: string): Promise<boolean> {
+    try { await navigator.clipboard.writeText(tekst); return true; } catch { return false; }
+  }
+
+  $('del-lenke').addEventListener('click', async () => {
+    const lenke = `${denneSiden()}#hent=${await lagKode(les(), nivaa)}`;
+    if (navigator.share && matchMedia('(pointer: coarse)').matches) {
+      try {
+        await navigator.share({ title: 'Min fremgang i norsk', text: 'Åpne lenken på den andre enheten for å hente fremgangen.', url: lenke });
+        return melding('Åpne lenken på den andre enheten og svar ja når siden spør.');
+      } catch (e) {
+        if ((e as Error).name === 'AbortError') return;
+      }
     }
+    if (await kopierTekst(lenke)) return melding('Lenken er kopiert. Send den til deg selv og åpne den på den andre enheten.');
+    ($('eksport').closest('details') as HTMLDetailsElement).open = true;
+    $<HTMLTextAreaElement>('eksport').value = lenke;
+    $<HTMLTextAreaElement>('eksport').select();
+    melding('Kunne ikke kopiere automatisk. Lenken er markert i feltet under, så du kan kopiere den selv.');
   });
 
-  $('last-ned').addEventListener('click', () => {
-    const blob = new Blob([eksporter(les())], { type: 'application/json' });
+  $('kopier').addEventListener('click', async () => {
+    if (await kopierTekst($<HTMLTextAreaElement>('eksport').value)) return melding('Koden er kopiert.');
+    $<HTMLTextAreaElement>('eksport').select();
+    melding('Kunne ikke kopiere automatisk. Koden er markert, så du kan kopiere den selv.');
+  });
+
+  $('last-ned').addEventListener('click', async () => {
+    const blob = new Blob([await lagKode(les(), nivaa)], { type: 'text/plain;charset=utf-8' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = `fremgang-hjelpehefte-norsk-${document.documentElement.dataset.nivaa ?? 'alle'}.json`;
+    a.download = `norsk-fremgang-${nivaa || 'alle'}.txt`;
     a.click();
-    URL.revokeObjectURL(a.href);
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    melding('Sikkerhetskopien er lagret i nedlastingene dine.');
   });
 
-  function bruk(tekst: string) {
-    const f = importer(tekst);
-    if (!f) return melding('Koden er ikke gyldig. Sjekk at du har kopiert hele koden.');
-    if (Object.keys(les()).length > 0 && !confirm('Dette erstatter fremgangen på denne enheten. Vil du fortsette?')) return;
-    if (!lagre(f)) return melding('Nettleseren din lar ikke siden lagre fremgang.');
+  async function bruk(tekst: string, fraLenke = false) {
+    const lest = await lesKode(tekst);
+    if (!lest) {
+      return melding(fraLenke
+        ? 'Lenken virker ikke. Sjekk at du har fått med hele lenken.'
+        : 'Koden er ikke gyldig. Sjekk at du har fått med alt.');
+    }
+    if (lest.nivaa && lest.nivaa !== nivaa) {
+      const riktig = nivaaer.find((n) => n.id === lest.nivaa);
+      const m = $('melding');
+      m.textContent = `Denne fremgangen gjelder ${riktig?.navn.toLowerCase() ?? 'et annet nivå'}, ikke denne siden. `;
+      if (riktig) {
+        const a = document.createElement('a');
+        a.href = `${riktig.side}#hent=${tekst.trim().match(/NORSK\.[^\s#&]+/)?.[0] ?? ''}`;
+        a.textContent = `Gå til ${riktig.navn.toLowerCase()} for å hente den.`;
+        m.append(a);
+      }
+      return;
+    }
+    const antall = Object.keys(lest.fremgang).length;
+    const sporsmal = fraLenke
+      ? `Vil du hente fremgangen fra lenken (${antall} øvelser)?${Object.keys(les()).length > 0 ? ' Den erstatter fremgangen på denne enheten.' : ''}`
+      : 'Dette erstatter fremgangen på denne enheten. Vil du fortsette?';
+    if ((fraLenke || Object.keys(les()).length > 0) && !confirm(sporsmal)) return;
+    if (!lagre(lest.fremgang)) return melding('Nettleseren din lar ikke siden lagre fremgang.');
     tegn();
-    melding(`Fremgangen er importert (${Object.keys(f).length} øvelser).`);
+    melding(`Fremgangen er hentet (${antall} øvelser).`);
   }
 
   $('importer').addEventListener('click', () => bruk($<HTMLTextAreaElement>('import').value));
   $<HTMLInputElement>('fil').addEventListener('change', async (e) => {
-    const fil = (e.target as HTMLInputElement).files?.[0];
-    if (fil) bruk(await fil.text());
+    const input = e.target as HTMLInputElement;
+    const fil = input.files?.[0];
+    input.value = '';
+    if (fil) await bruk(await fil.text());
   });
   $('nullstill').addEventListener('click', () => {
     if (!confirm('Vil du slette all fremgang på denne enheten?')) return;
@@ -127,4 +189,10 @@ const temaer = kapitler
   });
 
   tegn();
+
+  if (location.hash.startsWith('#hent=')) {
+    const kode = decodeURIComponent(location.hash.slice('#hent='.length));
+    history.replaceState(null, '', denneSiden());
+    void bruk(kode, true);
+  }
 </script>

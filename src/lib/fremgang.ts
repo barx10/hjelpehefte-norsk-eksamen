@@ -85,6 +85,73 @@ export function importer(tekst: string): Fremgang | null {
   }
 }
 
+// Kode for å flytte fremgang mellom enheter. Formen er NORSK.<nivå>.<z|r>.<data>, der data er
+// base64url av JSON, komprimert (z) når nettleseren støtter det, ellers rå (r). Nivået står i klartekst
+// slik at en kode fra feil nivå kan avvises med en forståelig melding.
+export const KODE_PREFIKS = 'NORSK';
+
+type Kompakt = Record<string, [number, number, number, number]>;
+
+function tilBase64url(bytes: Uint8Array): string {
+  let bin = '';
+  for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
+function fraBase64url(tekst: string): Uint8Array {
+  const bin = atob(tekst.replace(/-/g, '+').replace(/_/g, '/'));
+  return Uint8Array.from(bin, (c) => c.charCodeAt(0));
+}
+
+async function gjennom(bytes: Uint8Array, strom: CompressionStream | DecompressionStream): Promise<Uint8Array> {
+  const svar = new Response(new Blob([bytes]).stream().pipeThrough(strom));
+  return new Uint8Array(await svar.arrayBuffer());
+}
+
+const kanKomprimere = () => typeof CompressionStream !== 'undefined' && typeof DecompressionStream !== 'undefined';
+
+export async function lagKode(f: Fremgang, nivaa: string): Promise<string> {
+  const kompakt: Kompakt = {};
+  for (const [id, p] of Object.entries(f)) kompakt[id] = [p.box, p.riktig, p.feil, p.sist];
+  const bytes = new TextEncoder().encode(JSON.stringify(kompakt));
+  const z = kanKomprimere();
+  const data = z ? await gjennom(bytes, new CompressionStream('deflate-raw')) : bytes;
+  return `${KODE_PREFIKS}.${nivaa}.${z ? 'z' : 'r'}.${tilBase64url(data)}`;
+}
+
+export type LestKode = { nivaa: string | null; fremgang: Fremgang };
+
+/** Leser en kode, en lenke med koden i, eller den gamle JSON-formen. Returnerer null hvis den ikke er gyldig. */
+export async function lesKode(tekst: string): Promise<LestKode | null> {
+  const renset = tekst.trim();
+  if (renset.startsWith('{')) {
+    const f = importer(renset);
+    return f ? { nivaa: null, fremgang: f } : null;
+  }
+  const treff = renset.replace(/\s+/g, '').match(/NORSK\.([a-z]+)\.([zr])\.([A-Za-z0-9_-]+)/);
+  if (!treff) return null;
+  const [, nivaa, type, data] = treff;
+  try {
+    let bytes = fraBase64url(data!);
+    if (type === 'z') {
+      if (!kanKomprimere()) return null;
+      bytes = await gjennom(bytes, new DecompressionStream('deflate-raw'));
+    }
+    const kompakt: unknown = JSON.parse(new TextDecoder().decode(bytes));
+    if (typeof kompakt !== 'object' || kompakt === null || Array.isArray(kompakt)) return null;
+    const f: Fremgang = {};
+    for (const [id, v] of Object.entries(kompakt)) {
+      if (!Array.isArray(v) || v.length !== 4) return null;
+      const post = { box: v[0], riktig: v[1], feil: v[2], sist: v[3] };
+      if (!erPost(post)) return null;
+      f[id] = post;
+    }
+    return { nivaa: nivaa!, fremgang: f };
+  } catch {
+    return null;
+  }
+}
+
 // Lagring. Nettleseren kan blokkere lagring (privat modus), så alt er pakket i try/catch.
 export function les(lager: Pick<Storage, 'getItem'> | null = hentLager(), nokkel: string = aktivNokkel()): Fremgang {
   try {
