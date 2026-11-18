@@ -1,0 +1,200 @@
+- id: vgs-ren-kort-ord
+  type: flashkort
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  forside: "Hva betyr ordet «renessanse», og hva ble født på nytt?"
+  bakside: "Gjenfødelse. Interessen for antikken, kulturen i det gamle Hellas og Romerriket, ble født på nytt."
+- id: vgs-ren-kort-humanisme
+  type: flashkort
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  forside: "Hva er humanismen?"
+  bakside: "Tankene bak renessansen. Mennesket og livet her og nå står i sentrum, og hvert menneske kan utvikle seg gjennom kunnskap."
+- id: vgs-ren-kort-adfontes
+  type: flashkort
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  forside: "Hva betyr «ad fontes»?"
+  bakside: "«Til kildene.» Humanistene ville lese de gamle tekstene på originalspråket: latin, gresk og hebraisk."
+- id: vgs-ren-kort-sonett
+  type: flashkort
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  forside: "Hva er en sonett?"
+  bakside: "Et dikt på fjorten linjer med fast rim. Hos Petrarca er det to strofer på fire linjer og to på tre linjer."
+- id: vgs-ren-kort-ramme
+  type: flashkort
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  forside: "Hva er en rammefortelling?"
+  bakside: "En fortelling som rammer inn andre fortellinger. I Dekameronen er flukten fra pesten rammen rundt de hundre historiene."
+- id: vgs-ren-kort-mesen
+  type: flashkort
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  forside: "Hva er en mesen?"
+  bakside: "En rik person som betaler kunstnere og lærde for å lage kunst og skrive, som Medici-familien i Firenze."
+- id: vgs-ren-fv-tid
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Når var renessansen, og hvor begynte den?"
+  alternativer: ["Omkring 1350 til 1600, i Italia", "Omkring 800 til 1050, i Norden", "Omkring 1600 til 1720, i Danmark", "Omkring 1800 til 1850, i Tyskland"]
+  riktig: 0
+  forklaring: "Renessansen begynte i de italienske bystatene omkring 1350 og spredte seg til resten av Europa."
+- id: vgs-ren-fv-borgerskap
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvorfor var borgerskapet mindre avhengig av kongen og kirken enn den gamle overklassen?"
+  alternativer: ["De hadde tjent pengene selv gjennom handel", "De hadde arvet jord fra kongen", "De var prester i kirken", "De bodde utenfor Europa"]
+  riktig: 0
+  forklaring: "Kjøpmenn og bankfolk ble rike på egen virksomhet. Den gamle overklassen hadde privilegier fra kongen eller kirken."
+- id: vgs-ren-fv-gutenberg
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvorfor var boktrykkerkunsten så viktig?"
+  alternativer: ["Bøker ble billigere, og nye ideer spredte seg raskt", "Alle lærte å lese latin", "Kirken fikk kontroll over alle bøker", "Håndskrevne bøker ble forbudt"]
+  riktig: 0
+  forklaring: "Med Gutenbergs trykkpresse kunne mange eksemplarer lages raskt. Det gjorde det lettere å spre kunnskap og nye tanker."
+- id: vgs-ren-fv-middelalder
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva er den viktigste forskjellen mellom middelalderen og renessansen?"
+  alternativer: ["I middelalderen sto Gud i sentrum, i renessansen mennesket", "I middelalderen var folk kristne, i renessansen var de ikke det", "I middelalderen skrev man på morsmålet, i renessansen på latin", "I renessansen var det ingen interesse for fortiden"]
+  riktig: 0
+  forklaring: "Humanistene var fortsatt kristne, men de satte mennesket og livet på jorden i sentrum. Det var også i renessansen at flere begynte å skrive på morsmålet."
+- id: vgs-ren-fv-dante
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvorfor sier vi at Dante står på grensen mellom middelalderen og renessansen?"
+  alternativer: ["Innholdet er kristent, men han skriver på italiensk og har en romersk dikter som veiviser", "Han skrev både sonetter og skuespill", "Han levde i både Norge og Italia", "Han skrev om oppdagelsen av Amerika"]
+  riktig: 0
+  forklaring: "Den guddommelige komedie handler om helvete, skjærsilden og paradis, som i middelalderen. Men språket er italiensk, og Vergil fra antikken er veiviser."
+- id: vgs-ren-fv-dekameronen
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er rammen i Dekameronen?"
+  alternativer: ["Ti unge mennesker flykter fra pesten og forteller historier", "En mann reiser gjennom helvete og paradis", "To unge fra fiendtlige familier forelsker seg", "En prins vil hevne farens død"]
+  riktig: 0
+  forklaring: "Boccaccio lar ti unge mennesker flykte fra pesten i Firenze. De forteller hundre historier på ti dager."
+- id: vgs-ren-fv-shakespeare
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva er typisk for Shakespeares skuespill?"
+  alternativer: ["Han blander høyt og lavt, alvor og humor", "Alle personene er adelige", "Skuespillene er skrevet på latin", "De handler bare om Gud og troen"]
+  riktig: 0
+  forklaring: "Konger og tjenere står på samme scene, og alvor og humor kan komme tett etter hverandre. Personene er sammensatte og tviler."
+- id: vgs-ren-fv-romeo
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvilken konflikt i Romeo og Julie er typisk for renessansen?"
+  alternativer: ["Individets ønsker mot familiens og samfunnets krav", "Mennesket mot naturen", "Fornuften mot overtroen", "Bygda mot byen"]
+  riktig: 0
+  forklaring: "Romeo og Julie velger kjærligheten framfor det familiene krever. Individets rett til å velge selv er et renessansetema."
+- id: vgs-ren-fv-norge
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva gjorde Peder Claussøn Friis?"
+  alternativer: ["Oversatte Snorres kongesagaer til dansk", "Skrev Nordlands Trompet", "Skrev Om Norgis rige", "Innførte reformasjonen i Norge"]
+  riktig: 0
+  forklaring: "Peder Claussøn Friis oversatte kongesagaene. Oversettelsen ble trykt i 1633. Om Norgis rige er skrevet av Absalon Pederssøn Beyer."
+- id: vgs-ren-match-verk
+  type: matching
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Koble forfatteren til verket."
+  par:
+    - { venstre: "Dante Alighieri", hoyre: "Den guddommelige komedie" }
+    - { venstre: "Francesco Petrarca", hoyre: "Kjærlighetsdikt til Laura" }
+    - { venstre: "Giovanni Boccaccio", hoyre: "Dekameronen" }
+    - { venstre: "William Shakespeare", hoyre: "Romeo og Julie" }
+    - { venstre: "Absalon Pederssøn Beyer", hoyre: "Om Norgis rige" }
+  forklaring: "Se tabellen over forfattere og verk i kapittelet."
+- id: vgs-ren-sort-tid
+  type: sortering
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Er synet typisk for middelalderen eller renessansen?"
+  kategorier: ["Middelalderen", "Renessansen"]
+  elementer:
+    - { tekst: "Livet på jorden er en forberedelse til livet etter døden", kategori: 0 }
+    - { tekst: "Mennesket kan utvikle seg gjennom kunnskap", kategori: 1 }
+    - { tekst: "Kirken bestemmer hva som er sant", kategori: 0 }
+    - { tekst: "De gamle tekstene skal leses på originalspråket", kategori: 1 }
+    - { tekst: "De lærde skriver nesten bare på latin", kategori: 0 }
+    - { tekst: "Kjærlighet og følelser er viktige motiver", kategori: 1 }
+  forklaring: "Middelalderen setter Gud og kirken i sentrum. Renessansen setter mennesket, kunnskapen og livet på jorden i sentrum."
+- id: vgs-ren-rekke-tid
+  type: rekkefolge
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Sett hendelsene i kronologisk rekkefølge, fra tidligst til senest."
+  elementer: ["Svartedauden herjer i Europa", "Gutenberg tar i bruk trykkpressen", "Columbus kommer til Amerika", "Reformasjonen kommer til Danmark-Norge", "Shakespeare skriver Romeo og Julie"]
+  forklaring: "Svartedauden 1347 til 1351, trykkpressen omkring 1450, Columbus 1492, reformasjonen 1536 og 1537, Romeo og Julie omkring 1595."
+- id: vgs-ren-marker-kjennetegn
+  type: marker
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Marker ordene som viser at teksten er typisk for renessansen."
+  tekst: "Diktet er en [[sonett]] der jeget lengter etter den han elsker. Han sammenligner henne med [[Venus]], og han lover at diktet skal gjøre henne [[udødelig]]. Diktet sier lite om Gud, men mye om [[kjærlighet]]."
+  forklaring: "Sonetten er en renessanseform, Venus kommer fra antikken, og tanken om at diktet gjør mennesket udødelig setter mennesket i sentrum. Kjærlighet og følelser er viktige motiver."
+- id: vgs-ren-skriv-relevans
+  type: skriv
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Skriv et avsnitt der du drøfter hvordan utdraget er relevant i dag."
+  utdrag: "«Julie vet at faren har bestemt hvem hun skal gifte seg med. Men hun har allerede gitt hjertet sitt til Romeo, sønn av familiens verste fiende. Hun velger å trosse faren, selv om det kan koste henne alt.» (Gjenfortalt for øving etter Shakespeares Romeo og Julie.)"
+  ord: {"min": 80, "maks": 180}
+  nokkelord: ["renessansen", "individ", "i dag"]
+  nokkelordMinst: 2
+  sitat: true
+  kriterier: ["Avsnittet starter med en tydelig påstand", "Jeg siterer eller viser konkret til utdraget", "Jeg knytter konflikten til renessansens syn på mennesket", "Jeg sammenligner med noe fra vår tid", "Jeg forklarer hva sammenligningen viser"]
+  modelltekst: "Konflikten i Romeo og Julie er over 400 år gammel, men den treffer fortsatt. Julie skal gifte seg med den faren har valgt, men hun velger selv og trosser ham, «selv om det kan koste henne alt». Det er typisk for renessansen, som satte individet og retten til å velge selv i sentrum. Også i dag opplever noen unge at familien vil bestemme hvem de skal være sammen med. Tragedien viser hva som står på spill når familiens ære veier tyngre enn den unges ønsker, og derfor kan den leses som et forsvar for frihet til å velge selv."
