@@ -10,7 +10,7 @@ const { nivaa } = Astro.props;
 const kapitler = await hentKapitler(nivaa);
 const ovelser = await hentOvelser(nivaa);
 const temaer = kapitler
-  .map((k) => ({ tittel: k.data.tittel, nummer: k.data.nummer, ider: ovelser.filter((o) => o.data.kapittel.id === k.id).map((o) => o.id) }))
+  .map((k) => ({ tittel: k.data.tittel, nummer: k.data.nummer, lenke: nurl(nivaa, `ovelser/${k.id}/`), ider: ovelser.filter((o) => o.data.kapittel.id === k.id).map((o) => o.id) }))
   .filter((t) => t.ider.length > 0);
 ---
 <Layout tittel="Min fremgang" beskrivelse="Se, flytt og nullstill fremgangen din." nivaa={nivaa}>
@@ -18,6 +18,12 @@ const temaer = kapitler
   <p>Fremgangen lagres bare i nettleseren på denne enheten. Vil du bytte mellom mobil og PC, kan du flytte den her. Denne siden gjelder {nivaa.navn.toLowerCase()}. Hvert nivå har sin egen fremgang.</p>
 
   <div class="stat" id="stat" aria-live="polite"></div>
+  <section class="fortsett" id="fortsett" aria-labelledby="fortsett-tittel" data-ovside={nurl(nivaa)}></section>
+  <section id="bor-oves" aria-labelledby="bor-oves-tittel" hidden>
+    <h2 id="bor-oves-tittel">Bør øves</h2>
+    <p class="info">Her svarte du feil sist gang.</p>
+    <ul class="bor-liste" id="bor-liste"></ul>
+  </section>
   <h2>Per tema</h2>
   <ul class="mal-liste" id="per-tema"></ul>
 
@@ -63,9 +69,9 @@ const temaer = kapitler
 </Layout>
 
 <script>
-  import { les, lagre, lagKode, lesKode, nullstill, antallMestret, tom } from '../../lib/fremgang';
+  import { les, lagre, lagKode, lesKode, nullstill, antallMestret, tom, sistOvdeTema, borOves, naarTekst } from '../../lib/fremgang';
 
-  type Tema = { tittel: string; nummer: string; ider: string[] };
+  type Tema = { tittel: string; nummer: string; lenke: string; ider: string[] };
   const temaer: Tema[] = JSON.parse(document.getElementById('temaer')!.textContent ?? '[]');
   const alleIder = temaer.flatMap((t) => t.ider);
   const nivaaer: { id: string; navn: string; side: string }[] = JSON.parse(document.getElementById('nivaaer')!.textContent ?? '[]');
@@ -95,12 +101,17 @@ const temaer = kapitler
       }),
     );
 
+    tegnFortsett(f);
+    tegnBorOves(f);
+
     $('per-tema').replaceChildren(
       ...temaer.map((t) => {
-        const li = document.createElement('li');
-        li.className = 'mal';
         const m = antallMestret(f, t.ider);
-        li.textContent = `${t.nummer ? t.nummer + ' ' : ''}${t.tittel}: ${m} av ${t.ider.length} mestret`;
+        const provd = t.ider.some((id) => f[id]);
+        const li = lag('li', `mal tema-rad${provd ? '' : ' uprovd'}`);
+        const linje = lag('p', 'tema-linje');
+        linje.append(lag('span', '', navn(t)), lag('span', 'tema-tall', provd ? `${m} av ${t.ider.length} mestret` : 'Ikke prøvd'));
+        li.append(linje, maaler(m, t.ider.length));
         return li;
       }),
     );
@@ -127,6 +138,62 @@ const temaer = kapitler
     $<HTMLTextAreaElement>('eksport').select();
     melding('Kunne ikke kopiere automatisk. Lenken er markert i feltet under, så du kan kopiere den selv.');
   });
+
+  function lag<K extends keyof HTMLElementTagNameMap>(tag: K, klasse = '', tekst = ''): HTMLElementTagNameMap[K] {
+    const e = document.createElement(tag);
+    if (klasse) e.className = klasse;
+    if (tekst) e.textContent = tekst;
+    return e;
+  }
+  const navn = (t: Tema) => `${t.nummer ? t.nummer + ' ' : ''}${t.tittel}`;
+
+  /** Smal linje som viser andelen mestret. Tallet står alltid i teksten ved siden av, så linjen er skjult for skjermlesere. */
+  function maaler(mestret: number, av: number): HTMLElement {
+    const m = lag('div', 'maaler');
+    m.setAttribute('aria-hidden', 'true');
+    const fyll = lag('span');
+    fyll.style.width = `${av > 0 ? Math.round((mestret / av) * 100) : 0}%`;
+    m.append(fyll);
+    return m;
+  }
+
+  function tegnFortsett(f: ReturnType<typeof les>) {
+    const kort = $('fortsett');
+    const sist = sistOvdeTema(f, temaer);
+    const tittel = lag('h2', 'etikett', 'Fortsett der du slapp');
+    tittel.id = 'fortsett-tittel';
+    if (!sist) {
+      const knapp = lag('a', 'knapp', 'Begynn å øve');
+      knapp.href = kort.dataset.ovside ?? '../';
+      kort.replaceChildren(tittel, lag('p', 'fortsett-navn', 'Du har ikke øvd ennå'), lag('p', 'info', 'Velg et tema og start en økt. Her ser du hvor du slapp neste gang.'), knapp);
+      return;
+    }
+    const m = antallMestret(f, sist.tema.ider);
+    const knapp = lag('a', 'knapp', 'Øv videre');
+    knapp.href = sist.tema.lenke;
+    kort.replaceChildren(
+      tittel,
+      lag('p', 'fortsett-navn', navn(sist.tema)),
+      lag('p', 'info', `${naarTekst(sist.sist)} · ${m} av ${sist.tema.ider.length} mestret`),
+      maaler(m, sist.tema.ider.length),
+      knapp,
+    );
+  }
+
+  function tegnBorOves(f: ReturnType<typeof les>) {
+    const liste = borOves(f, temaer);
+    $('bor-oves').hidden = liste.length === 0;
+    $('bor-liste').replaceChildren(
+      ...liste.map(({ tema, antall }) => {
+        const li = lag('li');
+        const a = lag('a', 'bor-lenke');
+        a.href = tema.lenke;
+        a.append(lag('span', 'bor-navn', navn(tema)), lag('span', 'bor-tall', `${antall} ${antall === 1 ? 'øvelse' : 'øvelser'} å ta igjen`));
+        li.append(a);
+        return li;
+      }),
+    );
+  }
 
   $('kopier').addEventListener('click', async () => {
     if (await kopierTekst($<HTMLTextAreaElement>('eksport').value)) return melding('Koden er kopiert.');
