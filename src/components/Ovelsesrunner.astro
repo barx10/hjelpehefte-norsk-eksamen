@@ -246,12 +246,20 @@ const { ovelser, tittel, skrivedata } = Astro.props;
       igjen.add(o.id);
       okt.splice(Math.min(gjeldende + 1 + AVSTAND_IGJEN, okt.length), 0, o);
       kommerIgjen = true;
+      oppdaterTeller();
     }
   }
 
   /** Kort beskjed i tilbakemeldingen når øvelsen kommer tilbake senere i økten. */
   function igjenTekst(): Node {
     return kommerIgjen ? el('p', { class: 'igjen' }, 'Denne kommer igjen litt senere i økten, så du får prøve på nytt.') : document.createComment('');
+  }
+
+  /** Oppdaterer telleren på skjermen som vises, når økten har fått en øvelse til. */
+  function oppdaterTeller() {
+    const tekst = rot.querySelector<HTMLElement>('p.runner-topp');
+    if (tekst) tekst.textContent = `Øvelse ${gjeldende + 1} av ${okt.length}`;
+    rot.querySelector('progress')?.setAttribute('max', String(okt.length));
   }
 
   function framdrift(indeks: number): Node[] {
