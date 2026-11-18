@@ -172,14 +172,22 @@ export function sitatFinnes(sitat: string, kilde: string): boolean {
  * Sjekker sitatene mot teksten oppgaven bygger på. Korte sitater under tre ord, som titler og
  * enkeltord i anførselstegn, sjekkes ikke mot kilden.
  */
-export function sitatPunkt(tekst: string, kilde: string | null): Punkt {
+export function sitatPunkt(tekst: string, kilde: string | null, valgfriKilde = false): Punkt {
   const alle = sitater(tekst);
   if (alle.length === 0) return { ok: false, tekst: 'Du har ikke brukt sitat i anførselstegn.' };
   const lange = kilde ? alle.filter((s) => ordTelling(s) >= 3) : [];
   if (lange.length === 0) return { ok: true, tekst: 'Du har brukt sitat i anførselstegn.' };
   const mangler = lange.filter((s) => !sitatFinnes(s, kilde!));
-  if (mangler.length === 0) return { ok: true, tekst: lange.length === 1 ? 'Sitatet står ordrett i teksten.' : 'Sitatene står ordrett i teksten.' };
+  if (mangler.length === 0) {
+    const hvor = valgfriKilde ? 'i vedlegget' : 'i teksten';
+    return { ok: true, tekst: lange.length === 1 ? `Sitatet står ordrett ${hvor}.` : `Sitatene står ordrett ${hvor}.` };
+  }
   const forkort = (s: string) => (ordTelling(s) > 10 ? `${s.split(/\s+/).slice(0, 10).join(' ')} …` : s);
+  if (valgfriKilde) {
+    // Eleven kan sitere fra andre tekster enn kilden. Da er sitatkravet oppfylt, men eleven får en merknad.
+    const hvilke = mangler.length === 1 ? `sitatet «${forkort(mangler[0]!)}»` : `${mangler.length} av sitatene, for eksempel «${forkort(mangler[0]!)}»,`;
+    return { ok: true, tekst: `Du har brukt sitat i anførselstegn. Fant ikke ${hvilke} i vedleggene. Siterer du fra en annen tekst, er det greit. Ellers bør du sjekke at du har sitert ordrett.` };
+  }
   if (mangler.length === lange.length && lange.length === 1) {
     return { ok: false, tekst: `Fant ikke sitatet «${forkort(mangler[0]!)}» i teksten. Sjekk at du har sitert ordrett.` };
   }

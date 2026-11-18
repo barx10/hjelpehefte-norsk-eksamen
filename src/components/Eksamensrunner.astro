@@ -291,7 +291,7 @@ const { data } = Astro.props;
   }
 
   // ---------- resultat ----------
-  function vurder(tekst: string, krav: Ordkrav, nokkelord: string[], sitat: boolean, minst?: number): HTMLElement {
+  function vurder(tekst: string, krav: Ordkrav, nokkelord: string[], sitat: boolean, minst?: number, vedleggIder: string[] = []): HTMLElement {
     const n = ordTelling(tekst);
     const s = ordStatus(n, krav);
     const liste = el('ul', { class: 'sjekkliste' });
@@ -301,8 +301,10 @@ const { data } = Astro.props;
     // Korte svar kan godt være ett avsnitt. Kravet gjelder først fra 200 ord.
     if (krav.min >= 200) vis_(avsnittPunkt(tekst, 3));
     if (nokkelord.length) vis_(nokkelordPunkt(brukteNokkelord(tekst, nokkelord), minst ?? Math.min(3, nokkelord.length)));
-    // I eksamen kan eleven sitere fra andre tekster enn vedleggene, så sitatene sjekkes ikke mot en kilde.
-    if (sitat) vis_(sitatPunkt(tekst, null));
+    // Sitatene sjekkes mot vedleggene. Eleven kan også sitere fra andre tekster, så et sitat som ikke
+    // står i vedleggene, gir en merknad og ikke et kryss.
+    const kilde = vedleggListe(vedleggIder).map((x) => `${x.tittel}\n${x.tekst}`).join('\n\n') || null;
+    if (sitat) vis_(sitatPunkt(tekst, kilde, true));
     return liste;
   }
 
@@ -379,7 +381,7 @@ const { data } = Astro.props;
       const v = pakke.oppgave2.valg.find((x) => x.id === t.valg2) ?? pakke.oppgave2.valg[0]!;
       const svar = (t.svar['o2'] ?? '').trim();
       barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, navn2), el('p', {}, el('strong', {}, v.tittel)),
-        svar ? vurder(svar, v.ord, v.nokkelord, v.sitat, v.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
+        svar ? vurder(svar, v.ord, v.nokkelord, v.sitat, v.nokkelordMinst, v.vedlegg) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
         svar ? lagTilbakemelding({ tekst: svar, sjanger: v.sjanger, vedlegg: vedleggListe(v.vedlegg), oppgave: v.tekst, kjennetegn: v.kjennetegn, trinn: pakke.trinn, kapitler: pakke.kapitler, skrivefeil: pakke.skrivefeil, visOversikt: true }) : document.createComment(''),
         ...(svar ? revisjon('o2', svar, v.kjennetegn) : [kjennetegnListe('o2', v.kjennetegn)]),
         el('p', {}, el('a', { href: v.malUrl, target: '_blank', rel: 'noopener' }, `Sammenlign med malen: ${v.malTittel}`))));
@@ -387,7 +389,7 @@ const { data } = Astro.props;
     if (modus.oppgaver.includes(3) && pakke.oppgave3) {
       const svar = (t.svar['o3'] ?? '').trim();
       barn.push(el('section', { class: 'eks-kort' }, el('h3', {}, 'Oppgave 3'),
-        svar ? vurder(svar, pakke.oppgave3.ord, pakke.oppgave3.nokkelord, pakke.oppgave3.sitat, pakke.oppgave3.nokkelordMinst) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
+        svar ? vurder(svar, pakke.oppgave3.ord, pakke.oppgave3.nokkelord, pakke.oppgave3.sitat, pakke.oppgave3.nokkelordMinst, pakke.oppgave3.vedlegg) : el('p', { class: 'tastehint' }, 'Ikke besvart.'),
         svar ? lagTilbakemelding({ tekst: svar, sjanger: 'annet', vedlegg: vedleggListe(pakke.oppgave3.vedlegg), oppgave: pakke.oppgave3.tekst, kjennetegn: pakke.oppgave3.kjennetegn, trinn: pakke.trinn, kapitler: pakke.kapitler, skrivefeil: pakke.skrivefeil, visOversikt: true }) : document.createComment(''),
         ...(svar ? revisjon('o3', svar, pakke.oppgave3.kjennetegn) : [kjennetegnListe('o3', pakke.oppgave3.kjennetegn)])));
     }
