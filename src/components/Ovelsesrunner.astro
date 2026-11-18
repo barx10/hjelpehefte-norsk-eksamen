@@ -820,8 +820,17 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     vis(...barn);
   }
 
+  // En lenke fra søket kan åpne én bestemt øvelse med ?ovelse=id. Etterpå kan eleven øve på hele temaet.
+  const valgtId = new URLSearchParams(location.search).get('ovelse');
+  const valgt = valgtId ? data.find((o) => o.id === valgtId) : undefined;
+
   if (data.length === 0) {
     rot.replaceChildren(el('p', {}, 'Det er ingen øvelser her ennå.'));
+  } else if (valgt) {
+    okt = [valgt];
+    svar = [];
+    visOvelse(0);
+    rot.removeAttribute('aria-busy');
   } else {
     visStart();
     rot.removeAttribute('aria-busy');

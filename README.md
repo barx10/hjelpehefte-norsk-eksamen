@@ -134,6 +134,10 @@ Hvert valg i oppgave 2 og oppgave 3 kan ha `kjennetegn`: en liste med punkter so
 
 Byggingen stopper med en feilmelding hvis en øvelse peker på et kapittel eller mål som ikke finnes, hvis en id er brukt to ganger, eller hvis `riktig` peker utenfor alternativene.
 
+### Søk
+
+Hvert nivå har en søkeside (`/sok/`) som søker i heftet, modelltekstene, øvelsene og eksamenstreningen for det nivået. Indeksen (`/sok.json`) lages når siden bygges, i `src/pages/[nivaa]/sok.json.ts`, og hentes først når eleven søker. Kapitlene deles ved hver overskrift på nivå 2, slik at et treff leder rett til riktig del. Et treff på en øvelse åpner akkurat den øvelsen med `?ovelse=<id>`. Søkelogikken ligger i `src/lib/sok.ts`: alle ordene i søket må finnes, treff i tittelen teller mest, og en enkel stamme gjør at bøyde former finner hverandre. Under «Alle» vises de beste treffene av hver type for seg. Nytt innhold kommer med i søket uten at noe må endres.
+
 ### Status
 
 - `utkast`: vises bare lokalt og med `npm run build:utkast`.
