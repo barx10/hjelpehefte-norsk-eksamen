@@ -65,7 +65,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     boyingstabell: 'Bøyingstabell',
     skriv: 'Skriv',
   };
-  type Svar = { ovelse: Ovelse; riktig: boolean };
+  type Svar = { ovelse: Ovelse; riktig: boolean; forsok: number };
 
   const OKT_STORRELSE = 10;
   const OKT_VALG = [10, 20, 40];
@@ -219,15 +219,39 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     const kilde = filtrert();
     const ider = velgOkt(kilde.map((o) => o.id), fremgang, oktStorrelse);
     const perId = new Map(kilde.map((o) => [o.id, o]));
-    okt = ider.map((id) => perId.get(id)!).filter(Boolean);
+    kjorOkt(ider.map((id) => perId.get(id)!).filter(Boolean));
+  }
+
+  function kjorOkt(ovelser: Ovelse[]) {
+    okt = ovelser;
     svar = [];
+    igjen = new Set();
     visOvelse(0);
   }
+
+  // Øvelser eleven svarer feil på, kommer tilbake én gang litt senere i samme økt.
+  // Skriveoppgaver tas ikke opp igjen, fordi de er lange.
+  const AVSTAND_IGJEN = 3;
+  let igjen = new Set<string>();
+  let gjeldende = 0;
+  let kommerIgjen = false;
 
   function registrer(o: Ovelse, riktig: boolean) {
     fremgang = oppdater(fremgang, o.id, riktig);
     lagreFremgang();
-    svar.push({ ovelse: o, riktig });
+    svar.push({ ovelse: o, riktig, forsok: svar.filter((s) => s.ovelse.id === o.id).length + 1 });
+    kommerIgjen = false;
+    const flereIgjen = okt.length - gjeldende - 1;
+    if (!riktig && o.type !== 'skriv' && !igjen.has(o.id) && flereIgjen >= 1) {
+      igjen.add(o.id);
+      okt.splice(Math.min(gjeldende + 1 + AVSTAND_IGJEN, okt.length), 0, o);
+      kommerIgjen = true;
+    }
+  }
+
+  /** Kort beskjed i tilbakemeldingen når øvelsen kommer tilbake senere i økten. */
+  function igjenTekst(): Node {
+    return kommerIgjen ? el('p', { class: 'igjen' }, 'Denne kommer igjen litt senere i økten, så du får prøve på nytt.') : document.createComment('');
   }
 
   function framdrift(indeks: number): Node[] {
@@ -238,6 +262,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
   function visOvelse(indeks: number) {
     const o = okt[indeks];
     if (!o) return visResultat();
+    gjeldende = indeks;
     if (o.type === 'flashkort') visFlashkort(o, indeks);
     else if (o.type === 'flervalg') visFlervalg(o, indeks);
     else if (o.type === 'komma') visKomma(o, indeks);
@@ -302,7 +327,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
       tilbakemelding.append(
         el('div', { class: `tilbakemelding ${valgt.riktig ? 'riktig' : 'feil'}` },
           el('strong', {}, valgt.riktig ? 'Riktig.' : 'Ikke helt.'),
-          o.forklaring),
+          o.forklaring, igjenTekst()),
       );
       const nesteKnapp = el('button', { class: 'knapp', type: 'button' }, indeks + 1 < okt.length ? 'Neste' : 'Se resultat');
       nesteKnapp.addEventListener('click', () => neste(indeks));
@@ -382,7 +407,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
       } else if (!o.komma.some(Boolean)) {
         boks.append('Setningen skal ikke ha komma. ');
       }
-      boks.append(o.forklaring);
+      boks.append(o.forklaring, igjenTekst());
       const neste_ = nesteKnapp(indeks);
       flate.append(boks, el('div', { class: 'knapp-rad' }, neste_));
       handlinger.remove();
@@ -416,7 +441,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
           el('strong', {}, riktig ? 'Riktig.' : `Nei, «${ord}» er ikke feil.`),
           el('span', {}, `Feilen er «${o.feil}». Riktig er «${o.rettelse}».`), el('br'),
           el('span', {}, `Riktig setning: ${o.rettet}`), el('br'),
-          o.forklaring);
+          o.forklaring, igjenTekst());
         const neste_ = nesteKnapp(indeks);
         flate.append(boks, el('div', { class: 'knapp-rad' }, neste_));
         neste_.focus();
@@ -433,7 +458,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     registrer(o, riktig);
     const boks = el('div', { class: `tilbakemelding ${riktig ? 'riktig' : 'feil'}` }, el('strong', {}, riktig ? 'Riktig.' : 'Ikke helt.'));
     for (const linje of linjer) boks.append(el('span', {}, linje), el('br'));
-    boks.append(forklaring);
+    boks.append(forklaring, igjenTekst());
     const neste_ = nesteKnapp(indeks);
     flate.append(boks, el('div', { class: 'knapp-rad' }, neste_));
     handlinger.remove();
@@ -781,16 +806,37 @@ const { ovelser, tittel, skrivedata } = Astro.props;
   document.addEventListener('keydown', (e) => tastHandler?.(e));
 
   function visResultat() {
-    const riktige = svar.filter((s) => s.riktig).length;
-    const feil = svar.filter((s) => !s.riktig);
+    // Resultatet teller første forsøk på hver øvelse. Andre forsøk vises for seg.
+    const forste = svar.filter((s) => s.forsok === 1);
+    const riktige = forste.filter((s) => s.riktig).length;
+    const feil = forste.filter((s) => !s.riktig);
+    const rettAndreGang = svar.filter((s) => s.forsok > 1 && s.riktig).length;
     const ider = data.map((o) => o.id);
 
     const barn: Node[] = [
       ...bilde('bilde-ferdig'),
       el('h2', { tabindex: '-1' }, 'Økten er ferdig'),
-      el('p', { class: 'resultat-tall' }, `${riktige} av ${svar.length} riktige`),
-      el('p', {}, `Du har nå mestret ${antallMestret(fremgang, ider)} av ${data.length} øvelser i dette temaet.`),
+      el('p', { class: 'resultat-tall' }, `${riktige} av ${forste.length} riktige`),
     ];
+    if (rettAndreGang > 0) {
+      barn.push(el('p', {}, `${rettAndreGang} av feilene fikk du til da du prøvde igjen.`));
+    }
+    barn.push(el('p', {}, `Du har nå mestret ${antallMestret(fremgang, ider)} av ${data.length} øvelser i dette temaet.`));
+
+    // Knappene står over listen, så eleven slipper å bla forbi alle feilene for å øve på dem.
+    const knapper: HTMLButtonElement[] = [];
+    const ovFeil = feil.filter((s) => s.ovelse.type !== 'skriv').map((s) => s.ovelse);
+    if (ovFeil.length > 0) {
+      const k = el('button', { class: 'knapp', type: 'button' }, `Øv på feilene (${ovFeil.length})`);
+      k.addEventListener('click', () => kjorOkt(stokk(ovFeil)));
+      knapper.push(k);
+    }
+    const nyOkt = el('button', { class: ovFeil.length > 0 ? 'knapp sekundar' : 'knapp', type: 'button' }, 'Ny økt');
+    nyOkt.addEventListener('click', startOkt);
+    const tilbake = el('button', { class: 'knapp sekundar', type: 'button' }, 'Til start');
+    tilbake.addEventListener('click', visStart);
+    knapper.push(nyOkt, tilbake);
+    barn.push(el('div', { class: 'knapp-rad' }, ...knapper));
 
     if (feil.length > 0) {
       barn.push(el('h3', {}, 'Repeter disse'));
@@ -804,18 +850,13 @@ const { ovelser, tittel, skrivedata } = Astro.props;
         else if (ovelse.type === 'finnfeil') [spm, fasit] = [`Finn feilen: ${ovelse.tekst}`, `${ovelse.rettet} ${ovelse.forklaring}`];
         else if (ovelse.type === 'skriv') [spm, fasit] = [ovelse.oppdrag, `Eksempel på et godt svar: ${ovelse.modelltekst}`];
         else [spm, fasit] = [ovelse.oppdrag, `${ovelse.fasitTekst}. ${ovelse.forklaring}`];
-        liste.append(el('li', {}, el('strong', {}, spm), el('span', { class: 'svar' }, fasit)));
+        const utdrag = ovelse.type === 'flervalg' && ovelse.utdrag ? el('span', { class: 'utdrag-kort' }, ovelse.utdrag) : document.createComment('');
+        liste.append(el('li', {}, el('strong', {}, spm), utdrag, el('span', { class: 'svar' }, fasit)));
       }
       barn.push(liste);
     } else {
       barn.push(el('p', {}, 'Ingen feil i denne økten.'));
     }
-
-    const igjen = el('button', { class: 'knapp', type: 'button' }, 'Ny økt');
-    igjen.addEventListener('click', startOkt);
-    const tilbake = el('button', { class: 'knapp sekundar', type: 'button' }, 'Til start');
-    tilbake.addEventListener('click', visStart);
-    barn.push(el('div', { class: 'knapp-rad' }, igjen, tilbake));
     if (lagringFeilet) barn.push(el('p', { class: 'tastehint' }, 'Fremgangen ble ikke lagret i denne nettleseren.'));
     vis(...barn);
   }
@@ -827,9 +868,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
   if (data.length === 0) {
     rot.replaceChildren(el('p', {}, 'Det er ingen øvelser her ennå.'));
   } else if (valgt) {
-    okt = [valgt];
-    svar = [];
-    visOvelse(0);
+    kjorOkt([valgt]);
     rot.removeAttribute('aria-busy');
   } else {
     visStart();
