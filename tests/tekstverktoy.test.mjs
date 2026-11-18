@@ -161,3 +161,13 @@ test('sitatPunkt sjekker sitatene mot kilden', async () => {
   assert.deepEqual(sitatPunkt('Ingen sitater her.', kilde), { ok: false, tekst: 'Du har ikke brukt sitat i anførselstegn.' });
   assert.deepEqual(sitatPunkt('Det står «ordet om deg dør aldri».', null), { ok: true, tekst: 'Du har brukt sitat i anførselstegn.' });
 });
+
+test('sitatPunkt med valgfri kilde gir merknad i stedet for kryss', async () => {
+  const { sitatPunkt } = await import('../src/lib/tekstverktoy.ts');
+  const kilde = 'Natten er en vegg av svart glass, sa hun.';
+  assert.deepEqual(sitatPunkt('Hun sier «natten er en vegg».', kilde, true), { ok: true, tekst: 'Sitatet står ordrett i vedlegget.' });
+  const r = sitatPunkt('Ibsen skriver «det er de døde ideene».', kilde, true);
+  assert.equal(r.ok, true);
+  assert.match(r.tekst, /^Du har brukt sitat i anførselstegn\. Fant ikke sitatet «det er de døde ideene» i vedleggene\. Siterer du fra en annen tekst, er det greit\./);
+  assert.equal(sitatPunkt('Ingen sitat.', kilde, true).ok, false);
+});
