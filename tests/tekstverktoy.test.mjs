@@ -117,3 +117,47 @@ test('leseTabellcelle beholder mellomrom foran feltet og godtar tomt startled', 
   assert.equal(riktigTabellsvar('har funne', leseTabellcelle('har |funne')), true);
   assert.deepEqual(leseTabellcelle('|fann'), { start: '', fasit: 'fann' });
 });
+
+test('brukteNokkelord treffer bare i starten av et ord', async () => {
+  const { brukteNokkelord } = await import('../src/lib/tekstverktoy.ts');
+  const r = brukteNokkelord('Det er primært individet og familien i dag. (Rytme)', ['rim', 'individ', 'familie', 'i dag', 'rytme', 'dag']);
+  assert.deepEqual(r.brukt, ['individ', 'familie', 'i dag', 'rytme', 'dag']);
+  assert.deepEqual(r.mangler, ['rim']);
+  assert.deepEqual(brukteNokkelord('Han er individuell.', ['individ']).brukt, ['individ']);
+});
+
+test('nokkelordPunkt gir lesbar tekst', async () => {
+  const { nokkelordPunkt } = await import('../src/lib/tekstverktoy.ts');
+  assert.deepEqual(nokkelordPunkt({ brukt: ['renessansen', 'individ', 'familie', 'i dag'], mangler: [] }, 2),
+    { ok: true, tekst: 'Du har brukt alle fire begrepene: renessansen, individ, familie og i dag.' });
+  assert.deepEqual(nokkelordPunkt({ brukt: ['a', 'b'], mangler: ['c'] }, 2), { ok: true, tekst: 'Du har brukt 2 av 3 begreper: a og b.' });
+  assert.deepEqual(nokkelordPunkt({ brukt: ['a'], mangler: ['b', 'c', 'd'] }, 2), { ok: false, tekst: 'Du har brukt 1 av 4 begreper. Prøv å få med b, c eller d.' });
+  assert.deepEqual(nokkelordPunkt({ brukt: [], mangler: ['x', 'y'] }, 2), { ok: false, tekst: 'Du har brukt 0 av 2 begreper. Få med x og y.' });
+  assert.deepEqual(nokkelordPunkt({ brukt: ['x'], mangler: [] }, 1), { ok: true, tekst: 'Du har brukt begrepet x.' });
+});
+
+test('avsnittPunkt teller linjeskift og gir tips om tom linje', async () => {
+  const { avsnittPunkt, antallAvsnittLinjer } = await import('../src/lib/tekstverktoy.ts');
+  assert.equal(antallAvsnittLinjer('En.\nTo.\n\nTre.\n'), 3);
+  assert.deepEqual(avsnittPunkt('En.\n\nTo.\n\nTre.', 3), { ok: true, tekst: 'Avsnitt: 3.' });
+  assert.equal(avsnittPunkt('En.\nTo.\nTre.', 3).ok, true);
+  assert.match(avsnittPunkt('En.\nTo.\nTre.', 3).tekst, /Tips: Hopp over en linje/);
+  assert.deepEqual(avsnittPunkt('Bare ett avsnitt.', 2), { ok: false, tekst: 'Avsnitt: 1. Del teksten i minst 2 avsnitt, og hopp over en linje mellom dem.' });
+});
+
+test('sitatPunkt sjekker sitatene mot kilden', async () => {
+  const { sitatPunkt, sitatFinnes, sitater } = await import('../src/lib/tekstverktoy.ts');
+  const kilde = '«Men ordet um deg / aldri døyr / vinn du eit gjetord gjævt.» (Håvamål, strofe 76)';
+  assert.deepEqual(sitater('Han skriver «a b» og "c d" og “e f”.'), ['a b', 'c d', 'e f']);
+  assert.ok(sitatFinnes('ordet um deg / aldri døyr', kilde));
+  assert.ok(sitatFinnes('Ordet um deg aldri døyr,', kilde));
+  assert.ok(sitatFinnes('Men ordet […] aldri døyr', kilde));
+  assert.ok(!sitatFinnes('ordet om deg dør aldri', kilde));
+  assert.ok(!sitatFinnes('ordet um de', kilde));                              // ikke halve ord
+  assert.deepEqual(sitatPunkt('Det står «ordet um deg / aldri døyr».', kilde), { ok: true, tekst: 'Sitatet står ordrett i teksten.' });
+  assert.deepEqual(sitatPunkt('Det står «ordet om deg dør aldri».', kilde), { ok: false, tekst: 'Fant ikke sitatet «ordet om deg dør aldri» i teksten. Sjekk at du har sitert ordrett.' });
+  assert.equal(sitatPunkt('«ordet um deg aldri døyr» og «dette er diktet selv»', kilde).ok, false);
+  assert.deepEqual(sitatPunkt('Diktet «Håvamål» er gammelt.', kilde), { ok: true, tekst: 'Du har brukt sitat i anførselstegn.' }); // korte sitater sjekkes ikke
+  assert.deepEqual(sitatPunkt('Ingen sitater her.', kilde), { ok: false, tekst: 'Du har ikke brukt sitat i anførselstegn.' });
+  assert.deepEqual(sitatPunkt('Det står «ordet om deg dør aldri».', null), { ok: true, tekst: 'Du har brukt sitat i anførselstegn.' });
+});

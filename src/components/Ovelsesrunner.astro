@@ -20,7 +20,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
 
 <script>
   import { les, lagre, oppdater, velgOkt, stokk, antallMestret, tilRepetisjon } from '../lib/fremgang';
-  import { stokkForskjellig, ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus, riktigTabellsvar } from '../lib/tekstverktoy';
+  import { stokkForskjellig, ordTelling, brukteNokkelord, ordStatus, riktigTabellsvar, avsnittPunkt, nokkelordPunkt, sitatPunkt } from '../lib/tekstverktoy';
   import { lagTilbakemelding, lagEgenvurdering, lagOmskriving, type KapittelLenker } from '../lib/tilbakemelding';
   import { sjangerFor } from '../lib/tekstsjekk';
   import { beleggFinnes } from '../lib/revisjon';
@@ -50,7 +50,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
   };
   type Skriv = Felles & {
     type: 'skriv'; kapittelId: string; oppdrag: string; utdrag: string | null; starttekst: string; ord: { min: number; maks: number };
-    nokkelord: string[]; nokkelordMinst: number; sitat: boolean; kriterier: string[]; modelltekst: string; modellkommentar: string; fasitTekst: string; forklaring: string;
+    nokkelord: string[]; nokkelordMinst: number; sitat: boolean; kildetekst: string | null; kriterier: string[]; modelltekst: string; modellkommentar: string; fasitTekst: string; forklaring: string;
   };
   type Ovelse = Flashkort | Flervalg | Komma | FinnFeil | Sortering | Rekkefolge | Matching | Marker | Boyingstabell | Skriv;
   const TYPENAVN: Record<Ovelse['type'], string> = {
@@ -759,13 +759,11 @@ const { ovelser, tittel, skrivedata } = Astro.props;
         const nok = brukteNokkelord(svar, o.nokkelord);
         const punkt = (ok: boolean, tekst_: string) => auto.append(el('li', { class: ok ? 'ok' : 'mangler' }, el('span', { class: 'ikon', 'aria-hidden': 'true' }, ok ? '✓' : '✗'), tekst_));
         punkt(status === 'ok', status === 'ok' ? `Lengde: ${n} ord, innenfor målet.` : `Lengde: ${n} ord. Målet er ${o.ord.min} til ${o.ord.maks}.`);
-        if (o.nokkelord.length) {
-          const nok_ = nok.brukt.length >= o.nokkelordMinst;
-          const alle = o.nokkelordMinst >= o.nokkelord.length;
-          punkt(nok_, `${alle ? 'Begreper som bør være med' : `Bruk minst ${o.nokkelordMinst} av disse`}: ${nok.brukt.length} av ${o.nokkelord.length} brukt. Brukt: ${nok.brukt.join(', ') || 'ingen'}. Ikke brukt: ${nok.mangler.join(', ') || 'ingen'}.`);
-        }
-        if (o.sitat) punkt(harSitat(svar), harSitat(svar) ? 'Du har brukt sitat i anførselstegn.' : 'Du har ikke brukt sitat i anførselstegn.');
-        if (o.ord.maks > 150) punkt(antallAvsnitt(svar) >= 2, `Avsnitt: ${antallAvsnitt(svar)}. Hopp over en linje mellom avsnittene.`);
+        const vis_ = (p: { ok: boolean; tekst: string }) => punkt(p.ok, p.tekst);
+        if (o.nokkelord.length) vis_(nokkelordPunkt(nok, o.nokkelordMinst));
+        if (o.sitat) vis_(sitatPunkt(svar, o.kildetekst));
+        // Korte tekster kan godt være ett avsnitt. Kravet gjelder først fra 200 ord.
+        if (o.ord.min >= 200) vis_(avsnittPunkt(svar, 2));
       };
       fyllAuto(tekst);
 

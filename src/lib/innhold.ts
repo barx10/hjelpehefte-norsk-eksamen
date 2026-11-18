@@ -219,6 +219,8 @@ export function tilKlient(o: Ovelse, kapittelTittel: string, tekster: Map<string
         nokkelord: d.nokkelord,
         nokkelordMinst: d.nokkelordMinst ?? d.nokkelord.length,
         sitat: d.sitat,
+        // Teksten sitatene sjekkes mot: utdraget, og hele teksten når øvelsen bygger på en tekst i samlingen.
+        kildetekst: [d.utdrag, t?.body].filter(Boolean).join('\n\n') || null,
         kriterier: d.kriterier,
         modelltekst: d.modelltekst,
         modellkommentar: d.modellkommentar ?? '',

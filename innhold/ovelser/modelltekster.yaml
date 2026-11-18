@@ -144,7 +144,7 @@
   nokkelordMinst: 2
   sitat: true
   kriterier: ["Avsnittet starter med en temasetning", "Jeg bruker et sitat i anførselstegn", "Jeg forklarer hva ordet «hjerte» står for", "Jeg viser utviklingen gjennom novellen"]
-  modelltekst: "Ordet «hjerte» står for liv. Først slår det hardt og raskt, og det viser at gutten fortsatt kjemper. Til slutt slår det «langsommere, og langsommere, og langsommere». I stedet for å skrive at gutten dør, lar forfatteren hjertet slutte å slå, og det gjør slutten stille og nesten uutholdelig."
+  modelltekst: "Gjentakelsen av ordet «hjerte» viser at det står for liv. Først slår det hardt og raskt, og det viser at gutten fortsatt kjemper. Til slutt slår det «langsommere, og langsommere, og langsommere». I stedet for å skrive at gutten dør, lar forfatteren hjertet slutte å slå, og det gjør slutten stille og nesten uutholdelig."
 - id: tekst-retorisk-rekke
   type: rekkefolge
   kapittel: retorisk-analyse

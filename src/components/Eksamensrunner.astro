@@ -14,7 +14,7 @@ const { data } = Astro.props;
 
 <script>
   import { lesJson, skrivJson, slettJson, eksamenNokkel } from '../lib/lager';
-  import { ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus } from '../lib/tekstverktoy';
+  import { ordTelling, brukteNokkelord, ordStatus, avsnittPunkt, nokkelordPunkt, sitatPunkt } from '../lib/tekstverktoy';
   import type { Ordkrav } from '../lib/tekstverktoy';
   import { lagTilbakemelding, lagEgenvurdering, lagOmskriving, type KapittelLenker } from '../lib/tilbakemelding';
   import type { Vurdering } from '../lib/revisjon';
@@ -297,13 +297,12 @@ const { data } = Astro.props;
     const liste = el('ul', { class: 'sjekkliste' });
     const punkt = (ok: boolean, t_: string) => liste.append(el('li', { class: ok ? 'ok' : 'mangler' }, el('span', { class: 'ikon', 'aria-hidden': 'true' }, ok ? '✓' : '✗'), t_));
     punkt(s === 'ok', s === 'ok' ? `Lengde: ${n} ord, innenfor målet (${krav.min} til ${krav.maks}).` : `Lengde: ${n} ord. Målet er ${krav.min} til ${krav.maks}.`);
-    if (krav.maks > 150) punkt(antallAvsnitt(tekst) >= 3, `Avsnitt: ${antallAvsnitt(tekst)}. Hopp over en linje mellom avsnittene.`);
-    if (nokkelord.length) {
-      const r = brukteNokkelord(tekst, nokkelord);
-      const krevd = minst ?? Math.min(3, nokkelord.length);
-      punkt(r.brukt.length >= krevd, `Fagbegreper og henvisninger: ${r.brukt.length} av ${nokkelord.length} (bør være minst ${krevd}). Brukt: ${r.brukt.join(', ') || 'ingen'}. Ikke brukt: ${r.mangler.join(', ') || 'ingen'}.`);
-    }
-    if (sitat) punkt(harSitat(tekst), harSitat(tekst) ? 'Du har brukt sitat i anførselstegn.' : 'Du har ikke brukt sitat i anførselstegn.');
+    const vis_ = (p: { ok: boolean; tekst: string }) => punkt(p.ok, p.tekst);
+    // Korte svar kan godt være ett avsnitt. Kravet gjelder først fra 200 ord.
+    if (krav.min >= 200) vis_(avsnittPunkt(tekst, 3));
+    if (nokkelord.length) vis_(nokkelordPunkt(brukteNokkelord(tekst, nokkelord), minst ?? Math.min(3, nokkelord.length)));
+    // I eksamen kan eleven sitere fra andre tekster enn vedleggene, så sitatene sjekkes ikke mot en kilde.
+    if (sitat) vis_(sitatPunkt(tekst, null));
     return liste;
   }
 
