@@ -79,3 +79,7 @@ test('markerBiter markerer stammen bare først i et ord', () => {
   const merket = markerBiter('Kommareglene og velkommen', 'kommaregler').filter((b) => b.treff).map((b) => b.tekst);
   assert.deepEqual(merket, ['Kommaregl']);
 });
+
+test('rensMarkdown fjerner harde linjeskift i dikt', () => {
+  assert.equal(rensMarkdown('> Døyr fe;\\\n> døyr frendar;'), 'Døyr fe; døyr frendar;');
+});

@@ -44,6 +44,33 @@ Opplysningstiden setter fornuften i sentrum. Mennesket skal tenke selv, og samfu
 
 Ludvig Holberg (1684 til 1754) ble født i Bergen og arbeidet i København. Han skrev komedier som fortsatt spilles. I Erasmus Montanus kommer en student hjem fra byen og vil vise hvor lærd han er. Han blir presset til å si at jorden er flat for å få gifte seg. Komedien gjør narr av hovmod og av folk som bare bryr seg om å vinne diskusjoner.
 
+## Tekstutdrag: Erasmus Montanus
+
+Rasmus Berg har studert i København, kaller seg Erasmus Montanus og vil vise hvor lærd han er. Han krangler med alle i bygda og påstår at jorden er rund. Til slutt blir han lurt inn i hæren som soldat. Svigerfaren Jeronimus vil bare hjelpe ham hvis han slutter å krangle og gir opp meningene sine. Utdraget er slutten av komedien.
+
+> **Ludvig Holberg: Erasmus Montanus, 5. akt, 5. scene (utdrag)**
+>
+> **Jeronimus.** Saa holder I da ikke meere for min kiære Svigersøn, at Jorden er rund; thi den post ligger mig meest om Hiertet.
+>
+> **Montanus.** Min hierte Svigerfar, jeg vil ikke disputere videre derom. Men jeg vil allene sige dette, at alle lærde Folk er nu omstunder af de Tanker, at Jorden er rund.
+>
+> **Jeronimus.** A – – – – Hr. Lieutenant! Lad ham blive Soldat igien, til Jorden bliver flack.
+>
+> **Montanus.** Min kiære Svigerfar, Jorden er saa flack, som en Pandekage, er han nu fornøyet.
+>
+> **Jeronimus.** Ja, nu er vi gode Venner igien; nu skal I faae min Dotter, kommer nu allesammen ind hos mig, og drikker paa en Forligelse; Hr. Lieutenant giør os den Ære at komme ind.
+>
+> Ludvig Holbergs Skrifter (bokselskap.no, 2012). Komedien ble skrevet omkring 1723 og trykt i 1731. Teksten følger førsteutgaven.
+
+**Ordforklaringer:** *den post ligger mig meest om Hiertet*: det punktet er viktigst for meg. *disputere*: diskutere etter faste regler, slik studentene gjorde. *omstunder*: nå for tiden. *flack*: flat. *Forligelse*: forsoning.
+
+**Spørsmål til teksten**
+
+1. Hvem har rett om jorden, og hvem vinner likevel? Hva er komisk med det?
+2. Hvem gjør Holberg narr av i slutten: Erasmus, bygda eller begge? Begrunn svaret.
+3. Hvordan passer slutten med opplysningstidens tro på fornuften?
+4. Hvor ser vi i dag at folk sier det andre vil høre, for å få fred?
+
 ## Hvorfor er tekstene relevante i dag?
 
 Oppgaven ber ofte om at du drøfter hvordan eldre tekster er relevante i dag.

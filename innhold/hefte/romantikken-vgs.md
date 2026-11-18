@@ -49,6 +49,48 @@ Striden mellom dem handlet om hva norsk kultur skulle være, og om hvordan god d
 | Natur | Hellig, levende, et speil for sjelen | Miljø og arbeidsplass | Noe vi må verne, og en del av identiteten vår |
 | Samfunn | Nasjonen og folket, idealisert | Skal kritiseres og forbedres | Mangfoldig og globalt |
 
+## Tekstutdrag: Til min Gyldenlak
+
+Henrik Wergeland skrev diktet i 1845, mens han lå for døden. En gyldenlakk er en gul blomst. Diktet er et av de siste han skrev.
+
+> **Henrik Wergeland: Til min Gyldenlak (1845)**
+>
+> Gyldenlak, før Du din Glands har tabt,\
+> da er jeg Det hvoraf Alt er skabt;\
+> ja før Du mister din Krones Guld,\
+> da er jeg Muld.
+>
+> Idet jeg raaber: med Vindvet op!\
+> mit sidste Blik faar din Gyldentop.\
+> Min Sjel dig kysser, idet forbi\
+> den flyver fri.
+>
+> Togange jeg kysser din søde Mund.\
+> Dit er det første med Rettens Grund.\
+> Det andet give du, Kjære husk,\
+> min Rosenbusk!
+>
+> Udsprungen faaer jeg den ei at see;\
+> thi bring mig Hilsen, naar det vil skee;\
+> og siig, jeg ønsker, at paa min Grav\
+> den blomstrer af.
+>
+> Ja siig, jeg ønsker, at paa mit Bryst\
+> den Rose laa, du fra mig har kyst;\
+> og, Gyldenlak, vær i Dødens Huus\
+> dens Brudeblus!
+>
+> Henrik Wergeland: Utvalgte dikt (bokselskap.no).
+
+**Ordforklaringer:** *Glands*: glans. *Det hvoraf Alt er skabt*: jord, det alt er laget av. *Muld*: jord. *Vindvet*: vinduet. *Udsprungen*: utsprunget, i blomst. *thi*: derfor. *den blomstrer af*: den blomstrer ferdig. *Brudeblus*: brudebukett.
+
+**Spørsmål til teksten**
+
+1. Hvem snakker jeget til? Hva gjør det med måten døden blir framstilt på?
+2. Hvordan blir naturen besjelet i diktet?
+3. Finn rim og gjentakelser. Hvilken stemning skaper formen?
+4. Hvordan viser diktet romantikkens syn på mennesket, naturen og døden?
+
 ## Romantikken i dag
 
 Mye av det romantikerne skapte, lever videre. Turistreklame med fjell og fjorder, nasjonale symboler på 17. mai og bilder av urørt natur i sosiale medier bygger på et romantisk syn på naturen og nasjonen. Når du sammenligner, kan du spørre: Hvem lager bildet, og hva blir utelatt?

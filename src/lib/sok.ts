@@ -69,6 +69,7 @@ export function stamme(ord: string): string {
 /** Fjerner markdown slik at teksten kan søkes i og vises som utdrag. */
 export function rensMarkdown(md: string): string {
   return md
+    .replace(/\\\n/g, '\n')
     .replace(/<[^>]+>/g, ' ')
     .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')

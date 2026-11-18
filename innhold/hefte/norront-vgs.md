@@ -63,6 +63,55 @@ Oppgaven ber ofte om at du sammenligner en norrøn tekst med en tekst fra vår t
 >
 > Både sagaen og novellen bruker underdrivelse. Når helten i sagaen blir såret, sier han bare at «det er ikke så ille», og leseren forstår at han kommer til å dø. Novellen gjør noe lignende når faren bare sier «vi får se» etter at gården er solgt. I sagaen viser underdrivelsen mot og ære, mens den i novellen viser en mann som ikke klarer å vise følelser. Samme grep får altså ulik betydning fordi verdiene er forskjellige.
 
+## Tekstutdrag: Håvamål
+
+Håvamål betyr «Den Høyes tale». Det er Odin som gir råd om hvordan et menneske bør leve. De to mest kjente strofene handler om ettermælet.
+
+> **Håvamål, strofe 76 og 77**
+>
+> Døyr fe;\
+> døyr frendar;\
+> døyr sjølv det same.\
+> Men ordet um deg\
+> aldri døyr\
+> vinn du eit gjetord gjævt.
+>
+> Døyr fe;\
+> døyr frendar;\
+> døyr sjølv det same.\
+> Eg veit eitt\
+> som aldri døyr,\
+> dom um daudan kvar.
+>
+> Ivar Mortensson-Egnund (oversetter): Edda-Kvæde. Norrøne fornsongar, andre utgåve, 1928. Teksten er hentet fra heimskringla.no.
+
+**Ordforklaringer:** *fe*: buskap, rikdom. *frendar*: slektninger. *gjetord gjævt*: et godt rykte. *dom um daudan kvar*: dommen over hver som er død, altså ettermælet.
+
+**Spørsmål til teksten**
+
+1. Hva er det som dør, og hva er det som aldri dør?
+2. Hvordan bruker strofene gjentakelse? Hva gjør gjentakelsen med budskapet?
+3. Hvilket menneskesyn og hvilke verdier viser strofene?
+4. Hvor ser vi ønsket om et godt ettermæle i dag?
+
+## Tekstutdrag: Slaget ved Svolder
+
+Olav Tryggvesson kjempet i år 1000 mot en overmakt ved Svolder. Han sto selv på skipet Ormen lange. Utdraget viser sagastilen: korte replikker, få ord om følelser og en underdrivelse som sier mye.
+
+> **Snorre Sturlason: Olav Tryggvessons saga (utdrag)**
+>
+> Einar Tambarskjelve var i krapperummet akter på Ormen; han skjøt med bue og skjøt hvassere skudd enn alle andre. Einar skjøt efter Eirik jarl og rammet øverst i styrestangen over hodet på jarlen og pilen gikk inn helt op til surrebåndene. Jarlen så efter den og spurte om de visste hvem som skjøt der; men i det samme kom det en annen pil så nær jarlen at den fløi mellem siden og armen hans og så langt inn i hodefjelen, at spissen stod langt ut. Da sa jarlen til en mann som somme kaller Finn, men somme sier var finsk, — han var en utmerket bueskytter —: «Skyt du den store mannen i krapperummet!» Finn skjøt og pilen kom midt på buen til Einar nettop som han spente buen for tredje gangen. Da brast buen i to deler. Da sa kong Olav: «Hvad brast der så høit?» Einar svarer: «Norge av din hånd, konge!» «Så stor brist er vel ennu ikke skjedd,» sier kongen; «ta buen min og skyt med den!» og kastet buen til ham. Einar tok buen og drog den straks frem for pilen odd og ropte: «For veik, for veik — er fyrstens bue.» Han kastet buen tilbake, men tok så sitt skjold og sverd og sloss.
+>
+> Gustav Storms oversettelse, revidert av Alexander Bugge. Gyldendal Norsk Forlag, Oslo 1929. Teksten er hentet fra heimskringla.no. Henvisningene til noter er tatt bort.
+
+**Ordforklaringer** (etter notene i utgaven): *krapperummet*: rommet foran det hevede dekket bak på skipet. *surrebåndene*: båndene som festet spissen til skaftet på pilen. *hodefjelen*: fjølen bak hodet til den som styrer skipet. *drog den frem for pilen odd*: trakk strengen så langt tilbake at pilspissen kom forbi buen. Buen var altså for slapp for ham.
+
+**Spørsmål til teksten**
+
+1. Hva mener Einar med «Norge av din hånd, konge!»? Hvorfor er svaret en underdrivelse og et frampek på samme tid?
+2. Hva får vi vite om hva personene tenker og føler? Hva sier det om fortelleren?
+3. Hvordan viser utdraget verdier som mot og ære?
+
 ## Slik leser du en norrøn tekst
 
 1. Hva skjer, og hvem er personene? Lag gjerne en enkel oversikt over slekt og konflikter.
