@@ -1,13 +1,13 @@
 ---
 tittel: Fra reformasjonen til opplysningstiden
-nummer: '5.3'
-rekkefolge: 5.3
+nummer: '5.4'
+rekkefolge: 5.4
 gruppe: litteratur
 status: godkjent
 nivaa: ['vg3']
 ---
 
-Mellom 1500 og 1800 var Norge en del av Danmark-Norge. Dansk ble skriftspråket, og mye av litteraturen ble skrevet av nordmenn som studerte og arbeidet i København. Perioden har tre store strømninger: reformasjonen og humanismen, barokken og opplysningstiden. Etter 1800 kommer romantikken, som du finner i kapittel 5.4.
+Mellom 1500 og 1800 var Norge en del av Danmark-Norge. Dansk ble skriftspråket, og mye av litteraturen ble skrevet av nordmenn som studerte og arbeidet i København. Perioden har tre store strømninger: reformasjonen og humanismen, barokken og opplysningstiden. Bakgrunnen i Europa, renessansen og humanismen, finner du i kapittel 5.3. Etter 1800 kommer romantikken, som du finner i kapittel 5.5.
 
 ## Oversikt
 

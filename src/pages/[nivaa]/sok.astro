@@ -1,0 +1,206 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { nivaaStier } from '../../lib/innhold';
+import { nurl } from '../../lib/url';
+
+export const getStaticPaths = nivaaStier;
+const { nivaa } = Astro.props;
+---
+<Layout tittel="Søk" beskrivelse={`Søk i heftet, modelltekstene, øvelsene og eksamenstreningen for ${nivaa.kort}.`} nivaa={nivaa}>
+  <h1>Søk</h1>
+  <form class="sok-skjema" role="search" action={nurl(nivaa, 'sok/')} method="get">
+    <label for="sok-felt">Søk i heftet, modelltekstene, øvelsene og eksamenstreningen</label>
+    <div class="sok-rad">
+      <input id="sok-felt" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="For eksempel komma, etos eller sonett" />
+      <button class="knapp" type="submit">Søk</button>
+    </div>
+  </form>
+  <div id="sok-resultat" data-indeks={nurl(nivaa, 'sok.json')} aria-live="polite">
+    <noscript><p>Søket krever JavaScript.</p></noscript>
+  </div>
+</Layout>
+
+<script>
+  import { klargjor, markerBiter, sok, utdrag, SLAGNAVN, type Resultat, type Sokepost, type Sokeslag } from '../../lib/sok';
+
+  const PER_SIDE = 20;
+  const REKKEFOLGE: Sokeslag[] = ['hefte', 'tekst', 'ovelse', 'eksamen'];
+  // Antall treff av hver type som vises under «Alle».
+  const FORHANDSVIS: Record<Sokeslag, number> = { hefte: 5, tekst: 3, ovelse: 8, eksamen: 3 };
+
+  const skjema = document.querySelector<HTMLFormElement>('.sok-skjema')!;
+  const felt = document.getElementById('sok-felt') as HTMLInputElement;
+  const rot = document.getElementById('sok-resultat') as HTMLElement;
+  let indeks: ReturnType<typeof klargjor> | null = null;
+  let lasting: Promise<void> | null = null;
+  let slag: Sokeslag | 'alle' = 'alle';
+  let antallVist = PER_SIDE;
+  let timer = 0;
+
+  function el<K extends keyof HTMLElementTagNameMap>(tag: K, egenskaper: Record<string, string> = {}, ...barn: (Node | string)[]): HTMLElementTagNameMap[K] {
+    const e = document.createElement(tag);
+    for (const [k, v] of Object.entries(egenskaper)) {
+      if (k === 'class') e.className = v;
+      else e.setAttribute(k, v);
+    }
+    e.append(...barn);
+    return e;
+  }
+
+  function merket(tekst: string, sporring: string): Node[] {
+    return markerBiter(tekst, sporring).map((b) => (b.treff ? el('mark', {}, b.tekst) : document.createTextNode(b.tekst)));
+  }
+
+  function lastIndeks(): Promise<void> {
+    lasting ??= fetch(rot.dataset.indeks!)
+      .then((svar) => {
+        if (!svar.ok) throw new Error(String(svar.status));
+        return svar.json() as Promise<Sokepost[]>;
+      })
+      .then((poster) => { indeks = klargjor(poster); })
+      .catch(() => {
+        lasting = null;
+        rot.replaceChildren(el('p', {}, 'Søket kunne ikke lastes. Sjekk nettforbindelsen og prøv igjen.'));
+      });
+    return lasting;
+  }
+
+  function oppdaterAdresse(sporring: string) {
+    const adr = new URL(location.href);
+    if (sporring) adr.searchParams.set('q', sporring);
+    else adr.searchParams.delete('q');
+    history.replaceState(null, '', adr);
+  }
+
+  function visTreff(r: Resultat, sporring: string): HTMLElement {
+    const p = r.post;
+    const lenke = el('a', { class: 'tekstkort sok-treff', href: p.url });
+    if (p.kontekst) lenke.append(el('span', { class: 'liten sok-kontekst' }, p.kontekst));
+    lenke.append(el('strong', {}, ...merket(p.tittel, sporring)));
+    if (p.tekst) lenke.append(el('span', { class: 'sok-utdrag' }, ...merket(utdrag(p.tekst, sporring), sporring)));
+    return el('li', {}, lenke);
+  }
+
+  function tegn() {
+    const sporring = felt.value.trim();
+    if (!sporring) {
+      rot.replaceChildren();
+      return;
+    }
+    if (!indeks) {
+      rot.replaceChildren(el('p', {}, 'Laster søket ...'));
+      void lastIndeks().then(() => { if (indeks) tegn(); });
+      return;
+    }
+    const alle = sok(indeks, sporring);
+    const perSlag = new Map(REKKEFOLGE.map((s) => [s, alle.filter((r) => r.post.slag === s)]));
+    if (slag !== 'alle' && !perSlag.get(slag)?.length) slag = 'alle';
+    const valgte = slag === 'alle' ? alle : perSlag.get(slag)!;
+
+    const barn: Node[] = [];
+    if (alle.length === 0) {
+      barn.push(el('p', {}, `Ingen treff på «${sporring}». Prøv et annet ord, eller bare begynnelsen av ordet.`));
+      rot.replaceChildren(...barn);
+      return;
+    }
+
+    const filter = el('div', { class: 'sok-filter', role: 'group', 'aria-label': 'Vis treff fra' });
+    const knapp = (verdi: Sokeslag | 'alle', tekst: string, antall: number) => {
+      const b = el('button', { type: 'button', class: 'sok-valg', 'aria-pressed': String(slag === verdi) }, `${tekst} (${antall})`);
+      b.addEventListener('click', () => { slag = verdi; antallVist = PER_SIDE; tegn(); });
+      filter.append(b);
+    };
+    knapp('alle', 'Alle', alle.length);
+    for (const s of REKKEFOLGE) {
+      const n = perSlag.get(s)!.length;
+      if (n > 0) knapp(s, SLAGNAVN[s], n);
+    }
+    barn.push(filter);
+
+    // Under «Alle» vises de beste treffene av hver type for seg, med heftet først. Poengene sammenlignes bare innenfor én type.
+    if (slag === 'alle') {
+      for (const s of REKKEFOLGE) {
+        const treff = perSlag.get(s)!;
+        if (treff.length === 0) continue;
+        const liste = el('ul', { class: 'liste-kapitler sok-liste' });
+        for (const r of treff.slice(0, FORHANDSVIS[s])) liste.append(visTreff(r, sporring));
+        const del = el('section', { class: 'sok-gruppe', 'aria-label': SLAGNAVN[s] }, el('h2', {}, `${SLAGNAVN[s]} (${treff.length})`), liste);
+        if (treff.length > FORHANDSVIS[s]) {
+          const alleKnapp = el('button', { type: 'button', class: 'liten-tekst' }, `Vis alle ${treff.length} treff i ${SLAGNAVN[s].toLocaleLowerCase('nb')}`);
+          alleKnapp.addEventListener('click', () => {
+            slag = s;
+            antallVist = PER_SIDE;
+            tegn();
+            rot.querySelector<HTMLButtonElement>('.sok-valg[aria-pressed="true"]')?.focus();
+          });
+          del.append(alleKnapp);
+        }
+        barn.push(del);
+      }
+      rot.replaceChildren(...barn);
+      return;
+    }
+
+    const liste = el('ul', { class: 'liste-kapitler sok-liste' });
+    for (const r of valgte.slice(0, antallVist)) liste.append(visTreff(r, sporring));
+    barn.push(liste);
+    if (valgte.length > antallVist) {
+      const flere = el('button', { type: 'button', class: 'knapp sekundar' }, `Vis flere (${valgte.length - antallVist} til)`);
+      flere.addEventListener('click', () => {
+        antallVist += PER_SIDE;
+        tegn();
+        rot.querySelectorAll<HTMLAnchorElement>('.sok-liste a')[antallVist - PER_SIDE]?.focus();
+      });
+      barn.push(el('div', { class: 'knapp-rad' }, flere));
+    }
+    rot.replaceChildren(...barn);
+  }
+
+  felt.addEventListener('input', () => {
+    window.clearTimeout(timer);
+    void lastIndeks();
+    timer = window.setTimeout(() => {
+      slag = 'alle';
+      antallVist = PER_SIDE;
+      oppdaterAdresse(felt.value.trim());
+      tegn();
+    }, 150);
+  });
+  skjema.addEventListener('submit', (e) => {
+    e.preventDefault();
+    window.clearTimeout(timer);
+    oppdaterAdresse(felt.value.trim());
+    tegn();
+  });
+
+  const fraAdresse = new URLSearchParams(location.search).get('q') ?? '';
+  felt.value = fraAdresse;
+  if (fraAdresse) tegn();
+  else felt.focus();
+</script>
+
+<style>
+  .sok-skjema label { display: block; font-weight: 650; margin-bottom: 0.4rem; }
+  .sok-rad { display: flex; gap: 0.5rem; }
+  .sok-rad input {
+    flex: 1; min-width: 0; min-height: 44px; font: inherit; padding: 0 0.75rem;
+    border: 2px solid var(--linje); border-radius: var(--radius); background: var(--flate); color: var(--tekst);
+  }
+  .sok-rad input:focus { border-color: var(--primar); }
+  :global(.sok-gruppe) { margin-top: 1.5rem; }
+  :global(.sok-gruppe h2) { font-size: 1.15rem; margin: 0 0 0.5rem; }
+  :global(.sok-gruppe .liten-tekst) { padding: 0; margin-top: 0.25rem; }
+  :global(.sok-filter) { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1.25rem 0 0.75rem; }
+  :global(.sok-valg) {
+    min-height: 40px; padding: 0 0.8rem; font: inherit; font-size: 0.95rem; cursor: pointer;
+    border: 1px solid var(--linje); border-radius: var(--radius); background: var(--flate); color: var(--tekst);
+  }
+  :global(.sok-valg[aria-pressed='true']) { background: var(--primar); border-color: var(--primar); color: var(--primar-tekst); font-weight: 650; }
+  :global(.liste-kapitler a.sok-treff) { flex-direction: column; align-items: flex-start; gap: 0.2rem; }
+  :global(.sok-kontekst) { color: var(--dempet); font-size: 0.85rem; }
+  :global(.sok-utdrag) { color: var(--dempet); font-size: 0.95rem; overflow-wrap: anywhere; }
+  :global(.sok-treff mark) { background: #fff1b8; color: inherit; border-radius: 2px; padding: 0 1px; }
+  @media (prefers-color-scheme: dark) {
+    :global(:root:not([data-theme='light']) .sok-treff mark) { background: #5c4a12; }
+  }
+</style>

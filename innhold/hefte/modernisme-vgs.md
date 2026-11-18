@@ -1,7 +1,7 @@
 ---
 tittel: Modernisme og samtid
-nummer: '5.6'
-rekkefolge: 5.6
+nummer: '5.7'
+rekkefolge: 5.7
 gruppe: litteratur
 status: godkjent
 nivaa: ['vg3']

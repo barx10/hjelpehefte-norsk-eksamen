@@ -1,7 +1,7 @@
 ---
 tittel: Romantikken og nasjonalromantikken
-nummer: '5.4'
-rekkefolge: 5.4
+nummer: '5.5'
+rekkefolge: 5.5
 gruppe: litteratur
 status: godkjent
 nivaa: ['vg3']
@@ -43,7 +43,7 @@ Striden mellom dem handlet om hva norsk kultur skulle være, og om hvordan god d
 
 ## Menneske, natur og samfunn
 
-| | Romantikken | Realismen (kapittel 5.5) | Nyere tid |
+| | Romantikken | Realismen (kapittel 5.6) | Nyere tid |
 |---|---|---|---|
 | Menneske | Følende, lengtende, et geni | Formet av samfunn og miljø | Individ som søker identitet |
 | Natur | Hellig, levende, et speil for sjelen | Miljø og arbeidsplass | Noe vi må verne, og en del av identiteten vår |

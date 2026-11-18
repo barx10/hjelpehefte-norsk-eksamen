@@ -34,15 +34,16 @@ Inndelingen i perioder er en forenkling. Perioder glir over i hverandre, og forf
 | Periode | Omtrentlig tid | Kjennetegn | Kapittel |
 |---|---|---|---|
 | Norrøn tid | Før 1350 | Eddadikt, skaldedikt og sagaer. Ære, ætt og skjebne. | 5.2 |
-| Reformasjon og humanisme | 1500 til 1600 | Dansk blir skriftspråket. Tro og lærdom. | 5.3 |
-| Barokk | 1600 til 1720 | Forgjengelighet, kontraster, rikt språk. | 5.3 |
-| Opplysningstid | 1700 til 1800 | Fornuft, satire og kritikk av fordommer. | 5.3 |
-| Romantikk og nasjonalromantikk | 1800 til 1850 | Følelse, natur, lengsel og nasjonen. | 5.4 |
-| Realisme | 1850 til 1890 | Virkelighetsnær skildring, samfunnsdebatt. | 5.5 |
-| Naturalisme | 1880 til 1890 | Arv og miljø, det harde og stygge, radikal kritikk. | 5.5 |
+| Renessanse og humanisme i Europa | 1350 til 1600 | Antikken blir gjenoppdaget, og mennesket står i sentrum. | 5.3 |
+| Reformasjon og humanisme | 1500 til 1600 | Dansk blir skriftspråket. Tro og lærdom. | 5.4 |
+| Barokk | 1600 til 1720 | Forgjengelighet, kontraster, rikt språk. | 5.4 |
+| Opplysningstid | 1700 til 1800 | Fornuft, satire og kritikk av fordommer. | 5.4 |
+| Romantikk og nasjonalromantikk | 1800 til 1850 | Følelse, natur, lengsel og nasjonen. | 5.5 |
+| Realisme | 1850 til 1890 | Virkelighetsnær skildring, samfunnsdebatt. | 5.6 |
+| Naturalisme | 1880 til 1890 | Arv og miljø, det harde og stygge, radikal kritikk. | 5.6 |
 | Nyromantikk og symbolisme | 1890 til 1910 | Sjelsliv, stemning, drøm og lengsel. | |
-| Modernisme | 1900 til 1980 | Brudd med tradisjonen, indre liv, fragmentering. | 5.6 |
-| Postmodernisme og samtid | 1980 til i dag | Lek, ironi, blandete former, mange stemmer. | 5.6 |
+| Modernisme | 1900 til 1980 | Brudd med tradisjonen, indre liv, fragmentering. | 5.7 |
+| Postmodernisme og samtid | 1980 til i dag | Lek, ironi, blandete former, mange stemmer. | 5.7 |
 
 ## Slik bruker du konteksten
 
