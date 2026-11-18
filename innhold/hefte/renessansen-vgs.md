@@ -57,6 +57,118 @@ Shakespeare blandet det høye og det lave. Konger og tjenere står på samme sce
 
 I **Romeo og Julie** forelsker to unge seg i hverandre, men familiene deres er fiender. De velger kjærligheten framfor det familien krever, og det ender i tragedie. Konflikten mellom individets ønsker og samfunnets krav er typisk for renessansen.
 
+## Tekstutdrag: Hamlet
+
+Gjenferdet av Hamlets far har fortalt ham at onkelen drepte faren for å bli konge, og at Hamlet må hevne mordet. Men han tviler og klarer ikke å handle. I den mest kjente monologen i verdenslitteraturen spør han om det er verdt å leve.
+
+> **William Shakespeare: Hamlet (omkring 1600), 3. akt, 1. scene**
+>
+> To be, or not to be: that is the question:\
+> Whether 'tis nobler in the mind to suffer\
+> The slings and arrows of outrageous fortune,\
+> Or to take arms against a sea of troubles,\
+> And by opposing end them? To die,—to sleep,—\
+> No more; and by a sleep to say we end\
+> The heart-ache, and the thousand natural shocks\
+> That flesh is heir to, 'tis a consummation\
+> Devoutly to be wish'd. To die;—to sleep;—\
+> To sleep! perchance to dream! ay, there's the rub;\
+> For in that sleep of death what dreams may come,\
+> When we have shuffled off this mortal coil,\
+> Must give us pause: there's the respect\
+> That makes calamity of so long life;
+>
+> The Tragedy of Hamlet, red. Edward Dowden (The Arden Shakespeare). Methuen, London 1899. Teksten er hentet fra skanningen i Internet Archive.
+
+> **Oversatt for heftet**
+>
+> Å være eller ikke være, det er spørsmålet:\
+> Er det edlere å tåle i sitt sinn\
+> de slyngesteiner og piler en grusom skjebne sender,\
+> eller å gripe til våpen mot et hav av plager\
+> og gjøre slutt på dem ved å kjempe imot? Å dø, å sove,\
+> ikke noe mer; og med en søvn å si at vi gjør slutt på\
+> hjertesorgen og de tusen støt\
+> som kroppen er dømt til å tåle, det er en slutt\
+> en inderlig kan ønske seg. Å dø, å sove.\
+> Å sove! Kanskje drømme! Ja, der er hindringen:\
+> For hvilke drømmer kan komme i dødens søvn\
+> når vi har kastet av oss jordelivets uro?\
+> Det må få oss til å stanse. Det er den tanken\
+> som gjør at ulykken varer et helt liv.
+>
+> Oversettelsen er laget for heftet og følger originalen linje for linje. Den skal hjelpe deg å forstå teksten og er ikke en gjendiktning.
+
+**Ordforklaringer:** *slings*: slynger, våpen til å kaste stein med. *consummation*: avslutning, fullbyrdelse. *the rub*: hindringen. *mortal coil*: jordelivets uro og mas. *the respect*: hensynet, det vi tenker på.
+
+**Spørsmål til teksten**
+
+1. Hvilke to valg stiller Hamlet opp i de fem første linjene?
+2. Hvorfor sammenligner han døden med søvn? Hva er det som gjør ham redd?
+3. Finn metaforene «slings and arrows» og «a sea of troubles». Hva sier de om livet?
+4. Hamlet tenker høyt og tviler. Hvordan viser monologen renessansens interesse for mennesket og det indre livet?
+
+## Tekstutdrag: Romeo og Julie
+
+Romeo og Julie møtes på et selskap og forelsker seg, men familiene deres, Montague og Capulet, er bitre fiender. Samme natt står Julie på balkongen og tror at hun er alene. Romeo står nedenfor og hører henne.
+
+> **William Shakespeare: Romeo og Julie (omkring 1595), 2. akt, 2. scene**
+>
+> **Juliet.** O Romeo, Romeo! wherefore art thou Romeo?\
+> Deny thy father and refuse thy name;\
+> Or, if thou wilt not, be but sworn my love,\
+> And I'll no longer be a Capulet.
+>
+> […]
+>
+> **Juliet.** ’Tis but thy name that is my enemy;\
+> Thou art thyself, though not a Montague.\
+> What's Montague? it is nor hand, nor foot,\
+> Nor arm, nor face, nor any other part\
+> Belonging to a man. O, be some other name!—\
+> What's in a name? that which we call a rose\
+> By any other name would smell as sweet;\
+> So Romeo would, were he not Romeo call'd,\
+> Retain that dear perfection which he owes\
+> Without that title.—Romeo, doff thy name,\
+> And for thy name, which is no part of thee,\
+> Take all myself.
+>
+> The Tragedy of Romeo and Juliet, red. Edward Dowden (The Arden Shakespeare). Methuen, London 1900. Teksten er hentet fra en.wikisource.org.
+
+> **Oversatt for heftet**
+>
+> **Julie.** O Romeo, Romeo! Hvorfor er du Romeo?\
+> Fornekt din far og si nei til navnet ditt;\
+> eller, hvis du ikke vil, så bare sverg at du elsker meg,\
+> og jeg skal ikke lenger være en Capulet.
+>
+> […]
+>
+> **Julie.** Det er bare navnet ditt som er min fiende;\
+> du er deg selv, selv om du ikke er en Montague.\
+> Hva er Montague? Det er verken hånd eller fot,\
+> verken arm eller ansikt eller noen annen del\
+> av en mann. Å, ha et annet navn!\
+> Hva er et navn? Det vi kaller en rose,\
+> ville dufte like søtt med et annet navn;\
+> slik ville Romeo, om han ikke het Romeo,\
+> beholde den kjære fullkommenheten han eier\
+> uten det navnet. Romeo, legg navnet fra deg,\
+> og i stedet for navnet, som ikke er noen del av deg,\
+> ta hele meg.
+>
+> Oversettelsen er laget for heftet og følger originalen linje for linje. Den skal hjelpe deg å forstå teksten og er ikke en gjendiktning.
+
+**Ordforklaringer:** *wherefore*: hvorfor, ikke «hvor». Julie spør hvorfor han må være Romeo, en Montague. *thy, thou, thee*: din, du, deg. *owes*: eier. *doff*: ta av, legge fra seg.
+
+**Spørsmål til teksten**
+
+1. Hva ønsker Julie at Romeo skal gjøre? Hva er hun selv villig til å gi opp?
+2. Forklar bildet med rosen. Hva vil Julie si om forholdet mellom et navn og den som bærer det?
+3. Hvordan viser replikkene konflikten mellom individets følelser og familiens krav?
+4. Hvilke navn, merkelapper eller grupper kan stå mellom mennesker i dag?
+
 ## Renessansen i Norge
 
 Norge var i union med Danmark og hadde få forfattere i denne perioden. Svartedauden rammet landet hardt i 1349, og den norrøne skrivekulturen gikk nesten tapt. Humanismen kom likevel til Norge med prester og lærde som hadde studert i utlandet.
