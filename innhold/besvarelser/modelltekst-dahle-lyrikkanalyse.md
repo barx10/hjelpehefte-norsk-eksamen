@@ -2,7 +2,7 @@
 tittel: "Et hverdagsalter"
 type: diktanalyse
 kategori: modelltekst
-nivaa: ['10', 'vg3']
+nivaa: ['vg3']
 status: godkjent
 oppgave: "Analyse av diktet «Hvem er det som ingen ser» av Gro Dahle (1994)"
 forfatter: "Åsa Abusland (NDLA)"

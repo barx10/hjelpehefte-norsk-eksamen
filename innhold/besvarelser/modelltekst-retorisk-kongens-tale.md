@@ -2,7 +2,7 @@
 tittel: "Da kongen ønska alle velkomne inn i varmen"
 type: retorisk-analyse
 kategori: modelltekst
-nivaa: ['10', 'vg3']
+nivaa: ['vg3']
 status: godkjent
 oppgave: "Retorisk analyse av kong Haralds velkomsttale ved Kongeparets hagefest i Slottsparken 1. september 2016"
 forfatter: "Åsa Abusland (NDLA)"
@@ -12,7 +12,7 @@ kilde: "https://ndla.no/nb/r/norsk-sf-vg3/modelltekst-retorisk-analyse-av-kongen
 kildeTittel: "Modelltekst: Retorisk analyse av kongens tale (NDLA)"
 analysertTekstUrl: "https://www.virksommeord.no/talar/hva-er-norge.pdf"
 endringer: "Ingen endringer i innholdet. Overskriften i originalen er brukt som tittel, og setningen som viser til Word-fila på NDLA-siden, er tatt bort. Teksten er kontrollert mot NDLA-siden 17.11.2026."
-merknad: "Talen som analyseres, ligger ikke i repoet. Lenken går til talen slik den er gjengitt i Virksomme ord ved Universitetet i Bergen, med kongehuset.no som kilde. Sitatene er kontrollert mot den 17.11.2026 og stemmer, bortsett fra at talen har «felleskap» der analysen skriver «fellesskap». Analysen bruker fagbegreper fra vg2 og vg3, som påtrengende problem, tvingende omstendigheter, innledende og avledet etos, anafor og kairos. På 10. trinn passer den forenklede versjonen best."
+merknad: "Talen som analyseres, ligger ikke i repoet. Lenken går til talen slik den er gjengitt i Virksomme ord ved Universitetet i Bergen, med kongehuset.no som kilde. Sitatene er kontrollert mot den 17.11.2026 og stemmer, bortsett fra at talen har «felleskap» der analysen skriver «fellesskap». Analysen bruker fagbegreper fra vg2 og vg3, som påtrengende problem, tvingende omstendigheter, innledende og avledet etos, anafor og kairos."
 styrkerStatus: godkjent
 styrker:
   - tekst: "Innledningen presenterer talen, avsenderen og situasjonen, og sier hva hovedbudskapet er."

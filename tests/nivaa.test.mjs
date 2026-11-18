@@ -70,14 +70,15 @@ test('alle kompetansemål har nivå, og id-ene er unike på tvers av filene', ()
   }
 });
 
-test('forenklede modelltekster vises på et nivå der originalen også vises', () => {
+test('hver tekst vises på ett nivå, og forenklede tekster ligger på et annet nivå enn originalen', () => {
   const mappe = 'innhold/besvarelser';
   const alle = new Map(readdirSync(mappe).filter((f) => f.endsWith('.md') && f !== 'README.md').map((f) => [f.replace(/\.md$/, ''), frontmatter(join(mappe, f))]));
   for (const [id, d] of alle) {
+    const mine = tilNivaaliste(d.nivaa);
+    assert.equal(mine.length, 1, `${id}: teksten skal bare vises på ett nivå`);
     if (!d.bearbeidetFra) continue;
     const original = alle.get(d.bearbeidetFra);
     assert.ok(original, `${id}: originalen ${d.bearbeidetFra} finnes ikke`);
-    const mine = tilNivaaliste(d.nivaa);
-    assert.ok(mine.every((n) => tilNivaaliste(original.nivaa).includes(n)), `${id}: originalen mangler på et nivå`);
+    assert.ok(!tilNivaaliste(original.nivaa).includes(mine[0]), `${id}: originalen vises på samme nivå`);
   }
 });
