@@ -305,6 +305,13 @@ textarea { width: 100%; min-height: 8rem; font: 0.85rem/1.4 ui-monospace, Menlo,
 .stat { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: 0.75rem; margin: 1rem 0; }
 .stat div { background: var(--flate); border: 1px solid var(--linje); border-radius: var(--radius); padding: 0.75rem 1rem; }
 .stat strong { display: block; font-size: 1.6rem; }
+.repetisjon { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem 1rem; flex-wrap: wrap; margin: 1rem 0; padding: 0.85rem 1rem; border: 1px solid var(--linje); border-left: 5px solid var(--aksent); border-radius: var(--radius); background: var(--flate); }
+.repetisjon[hidden] { display: none; }
+.repetisjon p { margin: 0; flex: 1 1 16rem; }
+.repetisjon .knapp { margin: 0; }
+.repetisjon.rolig { border-left-color: var(--riktig); color: var(--dempet); }
+.repeter-boks { border: 1px solid var(--linje); border-left: 5px solid var(--aksent); border-radius: var(--radius); padding: 0.85rem 1rem; margin: 0 0 1rem; }
+.repeter-boks p { margin: 0 0 0.6rem; }
 .fortsett { background: var(--flate-2); border: 1px solid var(--linje); border-left: 5px solid var(--primar); border-radius: var(--radius); padding: 1rem 1.1rem 1.1rem; margin: 0 0 1.5rem; }
 .fortsett .etikett { font-family: var(--skrift); font-size: 0.85rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--dempet); margin: 0 0 0.35rem; }
 .fortsett-navn { font-family: var(--skrift-tittel); font-size: 1.45rem; font-weight: 700; line-height: 1.2; margin: 0 0 0.25rem; }

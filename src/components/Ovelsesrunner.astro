@@ -19,7 +19,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
 <script type="application/json" id="skrive-data" set:html={tilJson(skrivedata)} />
 
 <script>
-  import { les, lagre, oppdater, velgOkt, stokk, antallMestret } from '../lib/fremgang';
+  import { les, lagre, oppdater, velgOkt, stokk, antallMestret, tilRepetisjon } from '../lib/fremgang';
   import { stokkForskjellig, ordTelling, antallAvsnitt, brukteNokkelord, harSitat, ordStatus, riktigTabellsvar } from '../lib/tekstverktoy';
   import { lagTilbakemelding, lagEgenvurdering, lagOmskriving, type KapittelLenker } from '../lib/tilbakemelding';
   import { sjangerFor } from '../lib/tekstsjekk';
@@ -169,12 +169,25 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     const alle = data.map((o) => o.id);
     const typer = [...new Set(data.map((o) => o.type))];
     const mestret = antallMestret(fremgang, alle);
+    const forfalt = tilRepetisjon(fremgang, alle).length;
 
     const barn: Node[] = [
       ...bilde('bilde-start'),
       el('h2', { tabindex: '-1' }, 'Klar til å øve?'),
-      el('p', {}, `${data.length} øvelser i dette temaet. Du har mestret ${mestret}. De du kan minst kommer først i hver økt.`),
+      el('p', {}, `${data.length} øvelser i dette temaet. Du har mestret ${mestret}. Øvelser som skal repeteres, kommer først i hver økt. Så kommer nye øvelser.`),
     ];
+    if (ingenRepetisjonMelding) {
+      barn.push(el('p', { class: 'melding', role: 'status' }, 'Du har ingen øvelser å repetere i dag. Start en vanlig økt, eller kom tilbake i morgen.'));
+      ingenRepetisjonMelding = false;
+    }
+    if (forfalt > 0) {
+      const boks = el('div', { class: 'repeter-boks' },
+        el('p', {}, el('strong', {}, `${forfalt} ${forfalt === 1 ? 'øvelse skal' : 'øvelser skal'} repeteres i dag.`), ' Det er lettere å huske når du repeterer litt hver dag.'));
+      const knapp = el('button', { class: 'knapp sekundar', type: 'button' }, forfalt > MAKS_REPETISJON ? `Repeter ${MAKS_REPETISJON} nå` : 'Repeter nå');
+      knapp.addEventListener('click', repeterOkt);
+      boks.append(knapp);
+      barn.push(boks);
+    }
 
     const kommaoppgaver = data.filter((o): o is Komma => o.type === 'komma');
     let kommaSett: HTMLElement | null = null;
@@ -219,6 +232,20 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     const kilde = filtrert();
     const ider = velgOkt(kilde.map((o) => o.id), fremgang, oktStorrelse);
     const perId = new Map(kilde.map((o) => [o.id, o]));
+    kjorOkt(ider.map((id) => perId.get(id)!).filter(Boolean));
+  }
+
+  // En repetisjonsøkt har bare øvelser som skal repeteres i dag, de som har ventet lengst først.
+  const MAKS_REPETISJON = 20;
+  let ingenRepetisjonMelding = false;
+
+  function repeterOkt() {
+    const perId = new Map(data.map((o) => [o.id, o]));
+    const ider = velgOkt(tilRepetisjon(fremgang, data.map((o) => o.id)), fremgang, MAKS_REPETISJON);
+    if (ider.length === 0) {
+      ingenRepetisjonMelding = true;
+      return visStart();
+    }
     kjorOkt(ider.map((id) => perId.get(id)!).filter(Boolean));
   }
 
@@ -877,6 +904,11 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     rot.replaceChildren(el('p', {}, 'Det er ingen øvelser her ennå.'));
   } else if (valgt) {
     kjorOkt([valgt]);
+    rot.removeAttribute('aria-busy');
+  } else if (new URLSearchParams(location.search).has('repeter')) {
+    // Lenken «Repeter nå» på fremgangssiden.
+    history.replaceState(null, '', location.pathname);
+    repeterOkt();
     rot.removeAttribute('aria-busy');
   } else {
     visStart();
