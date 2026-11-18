@@ -19,7 +19,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
 <script type="application/json" id="skrive-data" set:html={tilJson(skrivedata)} />
 
 <script>
-  import { les, lagre, oppdater, velgOkt, stokk, antallMestret, tilRepetisjon } from '../lib/fremgang';
+  import { les, lagre, oppdater, velgOkt, stokk, antallMestret, mestret, tilRepetisjon } from '../lib/fremgang';
   import { stokkForskjellig, ordTelling, brukteNokkelord, ordStatus, riktigTabellsvar, avsnittPunkt, nokkelordPunkt, sitatPunkt } from '../lib/tekstverktoy';
   import { lagTilbakemelding, lagEgenvurdering, lagOmskriving, type KapittelLenker } from '../lib/tilbakemelding';
   import { sjangerFor } from '../lib/tekstsjekk';
@@ -854,7 +854,15 @@ const { ovelser, tittel, skrivedata } = Astro.props;
     if (rettAndreGang > 0) {
       barn.push(el('p', {}, `${rettAndreGang} av feilene fikk du til da du prøvde igjen.`));
     }
-    barn.push(el('p', {}, `Du har nå mestret ${antallMestret(fremgang, ider)} av ${data.length} øvelser i dette temaet.`));
+    if (feil.length === 0) barn.push(el('p', {}, 'Ingen feil i denne økten.'));
+    const antall = antallMestret(fremgang, ider);
+    barn.push(el('p', {}, `Du har nå mestret ${antall} av ${data.length} øvelser i dette temaet.`));
+    // Øvelser som er prøvd, men ikke mestret ennå. Uten denne forklaringen kan «0 av 30» etter en feilfri økt virke nedslående.
+    const paaVei = ider.filter((id) => fremgang[id] && !mestret(fremgang, id)).length;
+    if (antall < data.length) {
+      const forklaring = 'En øvelse er mestret når du har svart riktig på den fire ganger på rad.';
+      barn.push(el('p', { class: 'tastehint' }, paaVei > 0 ? `${forklaring} ${paaVei} ${paaVei === 1 ? 'øvelse er' : 'øvelser er'} på vei.` : forklaring));
+    }
 
     // Knappene står over listen, så eleven slipper å bla forbi alle feilene for å øve på dem.
     const knapper: HTMLButtonElement[] = [];
@@ -887,8 +895,6 @@ const { ovelser, tittel, skrivedata } = Astro.props;
         liste.append(el('li', {}, el('strong', {}, spm), utdrag, el('span', { class: 'svar' }, fasit)));
       }
       barn.push(liste);
-    } else {
-      barn.push(el('p', {}, 'Ingen feil i denne økten.'));
     }
     if (lagringFeilet) barn.push(el('p', { class: 'tastehint' }, 'Fremgangen ble ikke lagret i denne nettleseren.'));
     vis(...barn);
