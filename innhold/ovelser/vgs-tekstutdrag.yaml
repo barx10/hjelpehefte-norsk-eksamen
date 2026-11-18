@@ -108,6 +108,90 @@
     - { venstre: "Affkom", hoyre: "Etterkommere" }
   forklaring: "Mange ord ligner dagens dansk og norsk, men skrivemåten er en annen. «Gaffn» er det samme ordet som «gagn», nytte."
 
+# Hamlet
+- id: vgs-utdrag-hamlet-valg
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvilke to valg stiller Hamlet opp?"
+  utdrag: "To be, or not to be: that is the question:\nWhether 'tis nobler in the mind to suffer\nThe slings and arrows of outrageous fortune,\nOr to take arms against a sea of troubles,\nAnd by opposing end them?\n\n(Shakespeare: Hamlet, 3. akt, 1. scene. Red. Dowden, 1899)"
+  alternativer: ["Å tåle det vonde livet gir, eller å kjempe imot og gjøre slutt på det", "Å bli konge eller å reise fra Danmark", "Å gifte seg eller å bli munk", "Å tilgi onkelen eller å glemme faren"]
+  riktig: 0
+  forklaring: "Hamlet spør om det er edlere å tåle skjebnens «slings and arrows» eller å gripe til våpen mot «a sea of troubles». Spørsmålet gjelder både hevnen og om det er verdt å leve."
+- id: vgs-utdrag-hamlet-frykt
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 3
+  spm: "Hva er det som får Hamlet til å nøle, ifølge utdraget?"
+  utdrag: "To sleep! perchance to dream! ay, there's the rub;\nFor in that sleep of death what dreams may come,\nWhen we have shuffled off this mortal coil,\nMust give us pause:"
+  alternativer: ["Usikkerheten om hva som kommer etter døden", "At han er redd for onkelen", "At han ikke har noe våpen", "At han vil bli konge selv"]
+  riktig: 0
+  forklaring: "Døden ligner søvn, men i søvnen kan det komme drømmer. Ingen vet hva som venter etter døden, og den tanken får ham til å stanse."
+- id: vgs-utdrag-hamlet-metafor
+  type: marker
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Marker de to metaforene for alt det vonde i livet."
+  tekst: "Whether 'tis nobler in the mind to suffer The [[slings and arrows]] of outrageous fortune, Or to take arms against [[a sea of troubles,]]"
+  forklaring: "Skjebnen skyter med slynger og piler, og plagene er et hav. Begge bildene viser livet som et angrep mennesket må tåle eller kjempe mot."
+
+# Romeo og Julie
+- id: vgs-utdrag-romeo-wherefore
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva betyr «wherefore» i Julies replikk?"
+  utdrag: "O Romeo, Romeo! wherefore art thou Romeo?\n\n(Shakespeare: Romeo og Julie, 2. akt, 2. scene. Red. Dowden, 1900)"
+  alternativer: ["Hvorfor", "Hvor", "Når", "Hvem"]
+  riktig: 0
+  forklaring: "Julie spør ikke hvor Romeo er, men hvorfor han må være Romeo, sønn i familien Montague, som er fiende av hennes egen familie."
+- id: vgs-utdrag-romeo-rose
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva vil Julie si med bildet av rosen?"
+  utdrag: "What's in a name? that which we call a rose\nBy any other name would smell as sweet;"
+  alternativer: ["Et navn endrer ikke hvem en person egentlig er", "Romeo bør gi henne roser", "Roser er vakrere enn navn", "Familien Montague har et vakkert navn"]
+  riktig: 0
+  forklaring: "En rose dufter like godt uansett hva den heter. På samme måte er Romeo den samme, selv om han ikke het Montague. Det er familienavnet, ikke personen, som er fienden."
+- id: vgs-utdrag-romeo-ord
+  type: matching
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Koble ordet fra Shakespeare til betydningen."
+  par:
+    - { venstre: "wherefore", hoyre: "hvorfor" }
+    - { venstre: "thou, thee, thy", hoyre: "du, deg, din" }
+    - { venstre: "doff", hoyre: "ta av, legge fra seg" }
+    - { venstre: "owes", hoyre: "eier" }
+  forklaring: "Shakespeares engelsk er over 400 år gammelt. Noen ord betyr noe annet i dag, som «wherefore» og «owes»."
+- id: vgs-utdrag-romeo-skriv
+  type: skriv
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Skriv et avsnitt der du tolker Julies replikk og drøfter om den er relevant i dag."
+  utdrag: "«'Tis but thy name that is my enemy; / Thou art thyself, though not a Montague.» (Shakespeare: Romeo og Julie, 2. akt, 2. scene. Red. Dowden, 1900)"
+  ord: { min: 80, maks: 180 }
+  nokkelord: ["renessansen", "individ", "familie", "i dag"]
+  nokkelordMinst: 2
+  sitat: true
+  kriterier: ["Avsnittet starter med en tydelig påstand", "Jeg siterer replikken", "Jeg forklarer hva Julie mener", "Jeg knytter replikken til renessansens syn på individet", "Jeg drøfter om tanken er relevant i dag"]
+  modelltekst: "Julie skiller mellom personen og navnet. Hun sier at det bare er navnet som er hennes fiende, og at Romeo er seg selv, «though not a Montague». For henne er det følelsene og personen som teller, ikke hvilken familie han tilhører. Det passer med renessansens syn på individet som verdifullt i seg selv. Tanken er fortsatt relevant. Også i dag kan familienavn, religion eller hvilken gruppe noen tilhører, stå i veien for vennskap og kjærlighet. Julies replikk minner oss om å se mennesket bak merkelappen."
+
 # Erasmus Montanus
 - id: vgs-utdrag-erasmus-komikk
   type: flervalg
