@@ -192,6 +192,86 @@
   kriterier: ["Avsnittet starter med en tydelig påstand", "Jeg siterer replikken", "Jeg forklarer hva Julie mener", "Jeg knytter replikken til renessansens syn på individet", "Jeg drøfter om tanken er relevant i dag"]
   modelltekst: "Julie skiller mellom personen og navnet. Hun sier at det bare er navnet som er hennes fiende, og at Romeo er seg selv, «though not a Montague». For henne er det følelsene og personen som teller, ikke hvilken familie han tilhører. Det passer med renessansens syn på individet som verdifullt i seg selv. Tanken er fortsatt relevant. Også i dag kan familienavn, religion eller hvilken gruppe noen tilhører, stå i veien for vennskap og kjærlighet. Julies replikk minner oss om å se mennesket bak merkelappen."
 
+# Petter Dass
+- id: vgs-utdrag-dass-salme
+  type: flervalg
+  kapittel: tidlig-nytid-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvorfor har salmestrofen så korte linjer og mange rim?"
+  utdrag: "HErre GUD! Dit dyre Navn og Ære\nOver Verden høyt i Savn maa være,\nOg alle Siæle,\nog alle Træle\nOg hver Geselle\nde skal fortælle\nDin Ære.\n\n(Petter Dass: Herre Gud! Dit dyre Navn og Ære)"
+  alternativer: ["Salmen skulle være lett å huske og synge for vanlige folk", "Dass hadde lite papir å skrive på", "Korte linjer var forbudt å bruke i kirken", "Salmen skulle være vanskelig, så bare de lærde forsto den"]
+  riktig: 0
+  forklaring: "Dass var opptatt av folkeopplysning. Fast rytme, rim og gjentakelser gjør det lettere å huske teksten og den kristne læren den formidler."
+- id: vgs-utdrag-dass-handling
+  type: rekkefolge
+  kapittel: tidlig-nytid-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Sett det som skjer i Den Nordske Dale-Viise, i riktig rekkefølge."
+  elementer: ["Aamund og Gudmund krangler som katt og hund om gården", "De blir stevnet for retten, men ingen av dem møter", "De betaler bot og sverger at de skal være venner", "Dagen etter går Gudmunds okser inn på Aamunds eng", "Aamund slår naboen i pannen så blodet renner"]
+  forklaring: "Visen bygger opp et forlik og river det ned igjen dagen etter. Det korte vennskapet gjør slutten komisk."
+- id: vgs-utdrag-dass-humor
+  type: flervalg
+  kapittel: tidlig-nytid-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva gjør strofen komisk?"
+  utdrag: "Bleve Venner god,\nSig forlige lod,\nSver om Liv og Blod,\nAt de blive skulde\nTilfulde\nEvig gode Venner og hulde.\n\nDagen nest efter sig hændte,\nGudmund hans Øxen de rendte\nInd paa Aamunds Enge\nLit lenge.\n\n(Petter Dass: Den Nordske Dale-Viise)"
+  alternativer: ["Det «evige» vennskapet varer bare til neste dag", "Oksene kan snakke", "Naboene bor i hver sin by", "Fortelleren gråter over det som skjer"]
+  riktig: 0
+  forklaring: "Kontrasten mellom den høytidelige eden om evig vennskap og krangelen dagen etter er komisk. Dass skildrer vanlige folk med humor."
+
+# Dorothe Engelbretsdatter
+- id: vgs-utdrag-dorothe-marker
+  type: marker
+  kapittel: tidlig-nytid-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Marker ordene som viser at tiden går og døden nærmer seg."
+  tekst: "Tiden sagte lister sig, [[Glaset rinder hastelig,]] [[Døden os i Hælen gaar,]] Evigheden forestaar."
+  forklaring: "Timeglasset som renner, og døden som går i hælene på oss, viser forgjengelighet. Det er et typisk motiv i barokken."
+- id: vgs-utdrag-dorothe-motiv
+  type: flervalg
+  kapittel: tidlig-nytid-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva er kvelden et bilde på i salmen?"
+  utdrag: "DAgen viger og gaar bort,\nLufften bliffver tyck og sort,\nSolen har alt Dalet plat,\nDet gaar ad den mørcke Nat.\n\n(Dorothe Engelbretsdatter: Afften-Psalme, 1678)"
+  alternativer: ["Livet som går mot slutten", "En lang arbeidsdag", "Vinteren i Bergen", "En reise som tar slutt"]
+  riktig: 0
+  forklaring: "Dagen som går over i natt, blir et bilde på livet som går mot døden. Den andre strofen sier det rett ut: «Døden os i Hælen gaar»."
+- id: vgs-utdrag-dorothe-brev
+  type: flervalg
+  kapittel: tidlig-nytid-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 3
+  spm: "Hvordan kan de siste linjene i brevet til Petter Dass leses?"
+  utdrag: "Om ieg zwischen uns at sige,\nKand lidt meer end Fader Vor,\nMaa ieg for de Lærde viige,\nBuxefolket gaar dog for.\n\n(Dorothe Engelbretsdatter: brev til Petter Dass, Taare-Offer, 1685)"
+  alternativer: ["Hun later som hun er beskjeden, men peker ironisk på at menn alltid går foran", "Hun mener at kvinner ikke bør skrive", "Hun ber Petter Dass om å lære henne fadervår", "Hun vil slutte å skrive dikt"]
+  riktig: 0
+  forklaring: "Hun kan «lidt meer end Fader Vor», men må vike for de lærde fordi «Buxefolket», mennene, går foran. Den beskjedne tonen kan leses som ironi over at kvinner ble regnet som mindre verdt som diktere."
+- id: vgs-utdrag-dorothe-skriv
+  type: skriv
+  kapittel: tidlig-nytid-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Skriv et avsnitt der du tolker Afften-Psalme som en barokk tekst, og drøft om tanken om at livet er kort, er relevant i dag."
+  utdrag: "«Tiden sagte lister sig, / Glaset rinder hastelig, / Døden os i Hælen gaar, / Evigheden forestaar.» (Dorothe Engelbretsdatter: Afften-Psalme, 1678)"
+  ord: { min: 80, maks: 180 }
+  nokkelord: ["barokken", "forgjengelighet", "i dag"]
+  nokkelordMinst: 2
+  sitat: true
+  kriterier: ["Avsnittet starter med en tydelig påstand", "Jeg siterer salmen", "Jeg forklarer hvordan salmen viser forgjengelighet", "Jeg knytter salmen til barokken", "Jeg drøfter om tanken er relevant i dag"]
+  modelltekst: "Afften-Psalme bruker kvelden til å minne leseren om at livet er kort. Når «Glaset rinder hastelig», er det timeglasset som viser at tiden renner ut, og «Døden os i Hælen gaar» gjør døden nesten til en forfølger. Det er typisk for barokken, der forgjengelighet og tanken på døden skulle få mennesket til å vende seg mot Gud. I dag er de fleste tekster om tid ikke religiøse, men tanken lever videre. Mange snakker om å leve i nuet fordi tiden går fort. Forskjellen er at salmen peker mot evigheten, mens vi i dag oftere peker mot livet her og nå."
+
 # Erasmus Montanus
 - id: vgs-utdrag-erasmus-komikk
   type: flervalg

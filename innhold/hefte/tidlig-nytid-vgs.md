@@ -34,6 +34,115 @@ Barokken er preget av sterke motsetninger: liv og død, synd og nåde, det jordi
 
 Petter Dass (1647 til 1707) var prest på Alstahaug. I Nordlands Trompet skildrer han naturen, folket og fisket i Nordland, ofte med humor. Dorothe Engelbretsdatter (1634 til 1716) regnes som den første kjente kvinnelige forfatteren i Norge. Hun skrev salmer og religiøse dikt.
 
+## Tekstutdrag: Petter Dass
+
+Petter Dass skrev både salmer og verdslige viser. Salmene skulle hjelpe folk å huske den kristne læren. Viseutdraget viser den humoristiske siden hans: to naboer på en gård i Nordland som ikke klarer å holde fred.
+
+> **Petter Dass: Herre Gud! Dit dyre Navn og Ære (første strofe)**
+>
+> HErre GUD! Dit dyre Navn og Ære\
+> Over Verden høyt i Savn maa være,\
+> Og alle Siæle,\
+> og alle Træle\
+> Og hver Geselle\
+> de skal fortælle\
+> Din Ære.
+>
+> Teksten er hentet fra NDLA (artikkelen «Petter Dass – dikter og prest»), der den er merket offentlig eie.
+
+> **Petter Dass: Den Nordske Dale-Viise (strofe 5 til 7)**
+>
+> Aamund og Gudmund hans Grande,\
+> Boer paa en Gaard, heder Sande,\
+> Disse Toe paa Leye,\
+> Mon eye,\
+> Hver af dem et Pund,\
+> Trættes og hver Stund\
+> Om sin Gaard og Grund,\
+> Ret som Kat og Hund,\
+> Skiendis, bandis, kivis,\
+> Og rivis,\
+> Hvoraf stor Forargelse givis.
+>
+> Aamund og Gudmund i Rette,\
+> Stefnis for Leybols Trette;\
+> Ingen af dem møtte,\
+> Men bøtte\
+> Stefnings Fald og Bod,\
+> Bleve Venner god,\
+> Sig forlige lod,\
+> Sver om Liv og Blod,\
+> At de blive skulde\
+> Tilfulde\
+> Evig gode Venner og hulde.
+>
+> Dagen nest efter sig hændte,\
+> Gudmund hans Øxen de rendte\
+> Ind paa Aamunds Enge\
+> Lit lenge.\
+> Strax var Koen solt,\
+> Djevels Huus blef holt,\
+> Det gick i hans Skolt,\
+> Aamund, stor og stolt,\
+> Slog sin gode Grande\
+> For Pande,\
+> Saa at Blod til Jorden mon stande.
+>
+> Teksten er hentet fra NDLA (artikkelen «Petter Dass – dikter og prest»), der den er merket offentlig eie.
+
+**Ordforklaringer:** *Siæle*: sjeler. *Træle*: treller, tjenere. *Geselle*: kamerat, svenn. *Grande*: granne, nabo. *paa Leye*: på leid jord. *Trættes*: trettes, krangler. *Skiendis, bandis, kivis*: skjeller, banner og kiver. *i Rette stefnis*: blir stevnet for retten. *Trette*: strid. *bøtte Stefnings Fald og Bod*: betalte bot fordi de ikke møtte. *forlige*: forsone. *hulde*: trofaste. *Øxen*: oksene. *Enge*: eng. *Skolt*: hode. *mon stande*: sto, rant.
+
+**Spørsmål til teksten**
+
+1. Hva er formålet med salmestrofen? Hvordan hjelper de korte linjene og rimene på det?
+2. Fortell med egne ord hva som skjer mellom Aamund og Gudmund.
+3. Hvordan skaper Dass humor i visen? Se på rim, rytme og sammenligningen «Ret som Kat og Hund».
+4. Barokken er ofte høytidelig og pyntet. Hvorfor kalles Dass en lite typisk barokkdikter?
+
+## Tekstutdrag: Dorothe Engelbretsdatter
+
+Dorothe Engelbretsdatter levde i Bergen og skrev salmer som ble svært populære. Kveldssalmen er typisk for barokken: Dagen som går mot natt, blir et bilde på livet som går mot døden. I brevet på vers til Petter Dass skriver hun om hvordan det var å være kvinnelig dikter.
+
+> **Dorothe Engelbretsdatter: Afften-Psalme (1678), de to første strofene**
+>
+> DAgen viger og gaar bort,\
+> Lufften bliffver tyck og sort,\
+> Solen har alt Dalet plat,\
+> Det gaar ad den mørcke Nat.
+>
+> Tiden sagte lister sig,\
+> Glaset rinder hastelig,\
+> Døden os i Hælen gaar,\
+> Evigheden forestaar.
+>
+> Teksten er hentet fra NDLA (artikkelen «Norges første kvinnelige forfatter»), der den er merket offentlig eie.
+
+> **Dorothe Engelbretsdatter: brev til Petter Dass, fra Taare-Offer (1685), utdrag**
+>
+> Grand Mercy, mein lieber Frater,\
+> Hæderlig Hr. Peter Dass,\
+> Vi vil være Camerater,\
+> Falder det ham saa til pas.\
+> Jeg som een Poete Unge,\
+> Byder frem, hvad ieg formaar,\
+> J een simpel Qvinde Tunge\
+> Jngen høy Discurs bestaar.\
+> Om ieg zwischen uns at sige,\
+> Kand lidt meer end Fader Vor,\
+> Maa ieg for de Lærde viige,\
+> Buxefolket gaar dog for.
+>
+> Teksten er hentet fra NDLA (artikkelen «Norges første kvinnelige forfatter»), der den er merket offentlig eie.
+
+**Ordforklaringer:** *viger*: viker. *Dalet plat*: gått helt ned. *Glaset rinder*: timeglasset renner. *forestaar*: står foran oss. *Grand Mercy*: tusen takk (fransk). *mein lieber Frater*: min kjære bror (tysk og latin). *til pas*: passer. *Poete Unge*: ung dikter. *formaar*: makter. *Discurs*: lærd tale. *zwischen uns at sige*: mellom oss sagt. *viige*: vike. *Buxefolket*: de som går i bukser, altså mennene.
+
+**Spørsmål til teksten**
+
+1. Hvilke bilder i kveldssalmen viser at tiden går og døden nærmer seg?
+2. Hvilket barokt motiv er timeglasset et bilde på?
+3. Hva sier Dorothe om seg selv som kvinnelig dikter i brevet? Mener hun det alvorlig, eller er det ironi?
+4. Brevet blander dansk, tysk, fransk og latin. Hva kan det si om leserne og om hvem som skrev på denne tiden?
+
 ## Opplysningstiden
 
 Opplysningstiden setter fornuften i sentrum. Mennesket skal tenke selv, og samfunnet kan bli bedre gjennom kunnskap.
