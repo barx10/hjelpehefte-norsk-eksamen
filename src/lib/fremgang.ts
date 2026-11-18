@@ -32,22 +32,69 @@ export function oppdater(f: Fremgang, id: string, riktig: boolean, naa: number =
   };
 }
 
-export function mestret(f: Fremgang, id: string): boolean {
-  return (f[id]?.box ?? 0) >= MESTRET_FRA_BOKS;
+// Spredt repetisjon. Hver boks har et intervall i dager. Når intervallet er gått siden siste svar,
+// skal øvelsen repeteres. Dagene regnes etter kalenderen, så «om 1 dag» betyr i morgen uansett klokkeslett.
+export const INTERVALL_DAGER = [0, 1, 3, 7, 14, 30] as const;
+
+/** Dagnummer i lokal tid, slik at to tidspunkt samme dag gir samme tall. */
+export function dagNr(t: number): number {
+  const d = new Date(t);
+  return Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000;
 }
 
-export function antallMestret(f: Fremgang, ider: string[]): number {
-  return ider.filter((id) => mestret(f, id)).length;
+/** Dagnummeret da øvelsen skal repeteres. Null hvis den ikke er prøvd. */
+export function forfallsdag(f: Fremgang, id: string): number | null {
+  const p = f[id];
+  if (!p) return null;
+  return dagNr(p.sist) + INTERVALL_DAGER[Math.min(Math.max(p.box, 0), MAKS_BOKS)]!;
 }
 
-/** Velger øvelser til en økt. Ubrukte og svake øvelser går foran de som sitter. */
-export function velgOkt(ider: string[], f: Fremgang, antall: number, rng: () => number = Math.random): string[] {
-  const rangert = ider
-    .map((id) => ({ id, poeng: (f[id]?.box ?? 0) + rng() * 0.9 }))
-    .sort((a, b) => a.poeng - b.poeng)
-    .slice(0, antall)
-    .map((x) => x.id);
-  return stokk(rangert, rng);
+export function skalRepeteres(f: Fremgang, id: string, naa: number = Date.now()): boolean {
+  const dag = forfallsdag(f, id);
+  return dag !== null && dagNr(naa) >= dag;
+}
+
+export function tilRepetisjon(f: Fremgang, ider: string[], naa: number = Date.now()): string[] {
+  return ider.filter((id) => skalRepeteres(f, id, naa));
+}
+
+/** Antall dager til neste repetisjon blant øvelsene, 0 hvis noe skal repeteres i dag. Null hvis ingen er prøvd. */
+export function dagerTilNeste(f: Fremgang, ider: string[], naa: number = Date.now()): number | null {
+  let neste: number | null = null;
+  for (const id of ider) {
+    const dag = forfallsdag(f, id);
+    if (dag !== null && (neste === null || dag < neste)) neste = dag;
+  }
+  return neste === null ? null : Math.max(0, neste - dagNr(naa));
+}
+
+/** En øvelse er mestret fra boks 4, så lenge den ikke har ventet for lenge på repetisjon. */
+export function mestret(f: Fremgang, id: string, naa: number = Date.now()): boolean {
+  return (f[id]?.box ?? 0) >= MESTRET_FRA_BOKS && !skalRepeteres(f, id, naa);
+}
+
+export function antallMestret(f: Fremgang, ider: string[], naa: number = Date.now()): number {
+  return ider.filter((id) => mestret(f, id, naa)).length;
+}
+
+/**
+ * Velger øvelser til en økt. Først de som skal repeteres, de som har ventet lengst først.
+ * Så nye øvelser. Er økten ikke full, fylles den med de svakeste av resten.
+ */
+export function velgOkt(ider: string[], f: Fremgang, antall: number, rng: () => number = Math.random, naa: number = Date.now()): string[] {
+  const idag = dagNr(naa);
+  const etter = (a: { poeng: number }, b: { poeng: number }) => a.poeng - b.poeng;
+  const forfalt = ider
+    .filter((id) => skalRepeteres(f, id, naa))
+    .map((id) => ({ id, poeng: forfallsdag(f, id)! - idag + rng() * 0.9 }))
+    .sort(etter);
+  const nye = ider.filter((id) => !f[id]).map((id) => ({ id, poeng: rng() })).sort(etter);
+  const resten = ider
+    .filter((id) => f[id] && !skalRepeteres(f, id, naa))
+    .map((id) => ({ id, poeng: f[id]!.box + rng() * 0.9 }))
+    .sort(etter);
+  const valgt = [...forfalt, ...nye, ...resten].slice(0, antall).map((x) => x.id);
+  return stokk(valgt, rng);
 }
 
 export function stokk<T>(liste: T[], rng: () => number = Math.random): T[] {
@@ -91,8 +138,7 @@ export function borOves<T extends TemaIder>(f: Fremgang, temaer: T[], maks = 3):
 
 /** «I dag», «I går», «For 3 dager siden» eller en dato. */
 export function naarTekst(sist: number, naa: number = Date.now()): string {
-  const dag = (t: number) => { const d = new Date(t); return Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000; };
-  const dager = dag(naa) - dag(sist);
+  const dager = dagNr(naa) - dagNr(sist);
   if (dager <= 0) return 'I dag';
   if (dager === 1) return 'I går';
   if (dager < 7) return `For ${dager} dager siden`;

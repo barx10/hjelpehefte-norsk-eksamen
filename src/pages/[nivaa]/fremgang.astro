@@ -17,6 +17,7 @@ const temaer = kapitler
   <h1>Min fremgang</h1>
   <p>Fremgangen lagres bare i nettleseren på denne enheten. Vil du bytte mellom mobil og PC, kan du flytte den her. Denne siden gjelder {nivaa.navn.toLowerCase()}. Hvert nivå har sin egen fremgang.</p>
 
+  <section class="repetisjon" id="repetisjon" hidden aria-live="polite" data-repeter={nurl(nivaa, 'ovelser/alle/?repeter=1')}></section>
   <div class="stat" id="stat" aria-live="polite"></div>
   <section class="fortsett" id="fortsett" aria-labelledby="fortsett-tittel" data-ovside={nurl(nivaa)}></section>
   <section id="bor-oves" aria-labelledby="bor-oves-tittel" hidden>
@@ -69,7 +70,7 @@ const temaer = kapitler
 </Layout>
 
 <script>
-  import { les, lagre, lagKode, lesKode, nullstill, antallMestret, tom, sistOvdeTema, borOves, naarTekst } from '../../lib/fremgang';
+  import { les, lagre, lagKode, lesKode, nullstill, antallMestret, tom, sistOvdeTema, borOves, naarTekst, tilRepetisjon, dagerTilNeste } from '../../lib/fremgang';
 
   type Tema = { tittel: string; nummer: string; lenke: string; ider: string[] };
   const temaer: Tema[] = JSON.parse(document.getElementById('temaer')!.textContent ?? '[]');
@@ -101,6 +102,7 @@ const temaer = kapitler
       }),
     );
 
+    tegnRepetisjon(f);
     tegnFortsett(f);
     tegnBorOves(f);
 
@@ -108,9 +110,10 @@ const temaer = kapitler
       ...temaer.map((t) => {
         const m = antallMestret(f, t.ider);
         const provd = t.ider.some((id) => f[id]);
+        const forfalt = tilRepetisjon(f, t.ider).length;
         const li = lag('li', `mal tema-rad${provd ? '' : ' uprovd'}`);
         const linje = lag('p', 'tema-linje');
-        linje.append(lag('span', '', navn(t)), lag('span', 'tema-tall', provd ? `${m} av ${t.ider.length} mestret` : 'Ikke prøvd'));
+        linje.append(lag('span', '', navn(t)), lag('span', 'tema-tall', provd ? `${m} av ${t.ider.length} mestret${forfalt ? ` · ${forfalt} til repetisjon` : ''}` : 'Ikke prøvd'));
         li.append(linje, maaler(m, t.ider.length));
         return li;
       }),
@@ -155,6 +158,24 @@ const temaer = kapitler
     fyll.style.width = `${av > 0 ? Math.round((mestret / av) * 100) : 0}%`;
     m.append(fyll);
     return m;
+  }
+
+  function tegnRepetisjon(f: ReturnType<typeof les>) {
+    const boks = $('repetisjon');
+    const forfalt = tilRepetisjon(f, alleIder).length;
+    const dager = dagerTilNeste(f, alleIder);
+    boks.hidden = dager === null;
+    if (dager === null) return boks.replaceChildren();
+    if (forfalt > 0) {
+      const knapp = lag('a', 'knapp', 'Repeter nå');
+      knapp.href = boks.dataset.repeter ?? '';
+      const tekst = lag('p');
+      tekst.append(lag('strong', '', `${forfalt} ${forfalt === 1 ? 'øvelse skal' : 'øvelser skal'} repeteres i dag.`), ' Det er lettere å huske når du repeterer litt hver dag.');
+      boks.classList.remove('rolig');
+      return boks.replaceChildren(tekst, knapp);
+    }
+    boks.classList.add('rolig');
+    boks.replaceChildren(lag('p', '', `Ingenting å repetere i dag. Neste repetisjon er ${dager === 1 ? 'i morgen' : `om ${dager} dager`}.`));
   }
 
   function tegnFortsett(f: ReturnType<typeof les>) {

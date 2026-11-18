@@ -14,7 +14,7 @@ test('riktig svar flytter øvelsen opp, feil sender den til boks 1', () => {
   f = oppdater(f, 'a', true, 3);
   f = oppdater(f, 'a', true, 4);
   assert.equal(f.a.box, 4);
-  assert.ok(mestret(f, 'a'));
+  assert.ok(mestret(f, 'a', 4));
   f = oppdater(f, 'a', false, 5);
   assert.equal(f.a.box, 1);
   assert.equal(f.a.feil, 1);
@@ -124,4 +124,34 @@ test('sist øvde tema, temaer som bør øves og tidstekst', async () => {
   assert.equal(naarTekst(new Date(2026, 10, 17, 23).getTime(), naa), 'I går');
   assert.equal(naarTekst(new Date(2026, 10, 14, 12).getTime(), naa), 'For 4 dager siden');
   assert.match(naarTekst(new Date(2026, 9, 2).getTime(), naa), /2\. oktober/);
+});
+
+test('spredt repetisjon: intervaller, mestret og øktvalg', async () => {
+  const { skalRepeteres, tilRepetisjon, dagerTilNeste, forfallsdag, dagNr, INTERVALL_DAGER } = await import('../src/lib/fremgang.ts');
+  const dag = (d, t = 12) => new Date(2026, 10, d, t).getTime();
+  assert.deepEqual([...INTERVALL_DAGER], [0, 1, 3, 7, 14, 30]);
+  let f = tom();
+  f = oppdater(f, 'feil', false, dag(10, 22));                 // boks 1: igjen i morgen
+  assert.equal(forfallsdag(f, 'feil'), dagNr(dag(11)));
+  assert.equal(skalRepeteres(f, 'feil', dag(10, 23)), false);
+  assert.equal(skalRepeteres(f, 'feil', dag(11, 7)), true);    // neste dag, selv om det er under 24 timer
+  for (let i = 0; i < 4; i++) f = oppdater(f, 'sitter', true, dag(1));   // boks 4: 14 dager
+  assert.equal(mestret(f, 'sitter', dag(14)), true);
+  assert.equal(skalRepeteres(f, 'sitter', dag(14)), false);
+  assert.equal(mestret(f, 'sitter', dag(15)), false);          // ventet for lenge, teller ikke som mestret
+  assert.equal(skalRepeteres(f, 'sitter', dag(15)), true);
+  assert.deepEqual(tilRepetisjon(f, ['feil', 'sitter', 'ny'], dag(12)), ['feil']);
+  assert.equal(dagerTilNeste(f, ['sitter'], dag(10)), 5);
+  assert.equal(dagerTilNeste(f, ['feil', 'sitter'], dag(12)), 0);
+  assert.equal(dagerTilNeste(f, ['ny'], dag(12)), null);
+
+  // Øktvalg: forfalte først, så nye, så resten. Den som har ventet lengst, kommer med når plassen er knapp.
+  let g = tom();
+  g = oppdater(g, 'lenge', false, dag(1));
+  g = oppdater(g, 'nylig', false, dag(9));
+  for (let i = 0; i < 3; i++) g = oppdater(g, 'venter', true, dag(9));  // boks 3, ikke forfalt 10. nov
+  const ider = ['venter', 'ny', 'nylig', 'lenge'];
+  assert.deepEqual(velgOkt(ider, g, 1, fast(0.5), dag(10)), ['lenge']);
+  assert.deepEqual(new Set(velgOkt(ider, g, 3, fast(0.5), dag(10))), new Set(['lenge', 'nylig', 'ny']));
+  assert.equal(velgOkt(ider, g, 10, fast(0.5), dag(10)).length, 4);
 });
