@@ -66,6 +66,33 @@ Norge var i union med Danmark og hadde få forfattere i denne perioden. Svarteda
 
 Reformasjonen i 1536 og 1537 og tiden etter finner du i kapittel 5.4.
 
+## Tekstutdrag: Peder Claussøn Friis
+
+Peder Claussøn Friis oversatte Snorres kongesagaer fra norrønt til dansk. Oversettelsen ble trykt i København i 1633, nesten tjue år etter at han døde. Utdraget er tittelbladet og begynnelsen av Snorres forord, slik det står i oversettelsen.
+
+> **Norske Kongers Chronica (1633), tittelbladet**
+>
+> Norske Kongers Chronica\
+> Udsat paa Danske / af\
+> H. Peder Claussøn /\
+> fordum Sognepræst i Undal.\
+> Nu nyligen menige mand til gaffn / igiennemseet / continuerit oc til Trycken forferdiget.
+>
+> **Snorre Sturlesøns Fortale paa sin Chrønicke (begynnelsen)**
+>
+> I denne Bog hafuer jeg ladet skrifue gamle Fraasagn om de Høffdinge / som hafuer regerit i disse Nordiske Lande / oc brugt Danske Tungemaal; efter som jeg hafuer fornommit aff de viseste Mænds Fortellelse / oc deris Angifuelse / som sandferdeligen viste at opregne de gamle Herrers Slegteregister oc Affkom.
+>
+> Peder Claussøn Friis (oversetter): Norske Kongers Chronica. København 1633. Teksten er hentet fra heimskringla.no.
+
+**Ordforklaringer:** *Udsat paa Danske*: oversatt til dansk. *menige mand til gaffn*: til nytte for vanlige folk. *continuerit*: ført videre. *Fraasagn*: fortellinger. *Danske Tungemaal*: det språket som ble talt i Norden, slik Snorre kalte det. *Slegteregister oc Affkom*: slektstavler og etterkommere. Skråstreken ( / ) ble brukt omtrent som vi bruker komma.
+
+**Spørsmål til teksten**
+
+1. Hvem skal oversettelsen være til nytte for, ifølge tittelbladet? Hvordan passer det med humanismens syn på kunnskap?
+2. Hvordan viser oversettelsen tanken om å gå «tilbake til kildene»?
+3. Hvilke kilder sier Snorre at han bygger på, og hvorfor stoler han på dem?
+4. Sammenlign språket med dansk og norsk i dag. Hvilke ord kjenner du igjen?
+
 ## Hvorfor er tekstene relevante i dag?
 
 - **Romeo og Julie** handler om unge som vil velge selv, mot familiens vilje. Det kan sammenlignes med debatter om negativ sosial kontroll og retten til å bestemme over eget liv.

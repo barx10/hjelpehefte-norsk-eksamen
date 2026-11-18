@@ -1,0 +1,309 @@
+# Øvelser til tekstutdragene i litteraturhistorien (kapittel 5.2 til 5.7). Utdragene er gjengitt ordrett fra utgavene som er oppgitt i kapitlene.
+
+# Håvamål
+- id: vgs-utdrag-havamal-tema
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hva er det som aldri dør, ifølge strofene?"
+  utdrag: "Døyr fe;\ndøyr frendar;\ndøyr sjølv det same.\nMen ordet um deg\naldri døyr\nvinn du eit gjetord gjævt.\n\nDøyr fe;\ndøyr frendar;\ndøyr sjølv det same.\nEg veit eitt\nsom aldri døyr,\ndom um daudan kvar.\n\n(Håvamål, strofe 76 og 77, ved Ivar Mortensson-Egnund)"
+  alternativer: ["Ettermælet, det folk sier om deg etter at du er død", "Rikdommen du samler", "Slekten din", "Kroppen din"]
+  riktig: 0
+  forklaring: "Buskap, slekt og mennesket selv dør. Det som lever videre, er ordet om deg og dommen over hver som er død, altså ettermælet."
+- id: vgs-utdrag-havamal-gjentakelse
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvorfor begynner begge strofene med de samme tre linjene?"
+  utdrag: "Døyr fe;\ndøyr frendar;\ndøyr sjølv det same."
+  alternativer: ["Gjentakelsen slår fast at alt dør, slik at det ene som ikke dør, blir tydeligere", "Diktet mangler ord, så linjene måtte brukes to ganger", "Gjentakelsen viser at strofene handler om to ulike personer", "Gjentakelsen gjør diktet morsomt"]
+  riktig: 0
+  forklaring: "Gjentakelsen hamrer inn at alt er forgjengelig. Da får kontrasten i slutten av strofene, det som aldri dør, større tyngde. Gjentakelse gjorde også tekstene lettere å huske da de ble overlevert muntlig."
+- id: vgs-utdrag-havamal-skriv
+  type: skriv
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Skriv et avsnitt der du sammenligner synet på ettermæle i Håvamål med hvordan unge bygger omdømme i dag."
+  utdrag: "«Men ordet um deg / aldri døyr / vinn du eit gjetord gjævt.» (Håvamål, strofe 76, ved Ivar Mortensson-Egnund)"
+  ord: { min: 80, maks: 180 }
+  nokkelord: ["ettermæle", "omdømme", "i dag"]
+  nokkelordMinst: 2
+  sitat: true
+  kriterier: ["Avsnittet starter med en tydelig påstand", "Jeg siterer Håvamål", "Jeg forklarer hva ettermæle betydde i norrøn tid", "Jeg sammenligner med noe konkret fra i dag", "Jeg viser både likheter og forskjeller"]
+  modelltekst: "Håvamål og sosiale medier har noe til felles: begge viser at det folk sier om deg, betyr mye. I Håvamål heter det at «ordet um deg / aldri døyr», og i norrøn tid var ettermælet nesten det eneste som kunne overleve døden. I dag bygger mange unge omdømme gjennom bilder og innlegg på nett. Likheten er at omdømmet lever videre og er vanskelig å endre. Forskjellen er at det norrøne ettermælet ble vunnet gjennom handlinger over et helt liv, mens et omdømme på nett kan endres på et øyeblikk av et enkelt bilde."
+
+# Slaget ved Svolder
+- id: vgs-utdrag-svolder-replikk
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva betyr Einars svar «Norge av din hånd, konge!»?"
+  utdrag: "Da brast buen i to deler. Da sa kong Olav: «Hvad brast der så høit?» Einar svarer: «Norge av din hånd, konge!»\n\n(Snorre: Olav Tryggvessons saga, Storms oversettelse revidert av Bugge, 1929)"
+  alternativer: ["At kongen er i ferd med å tape Norge, og at slaget er tapt", "At buen var laget i Norge", "At Einar vil reise hjem til Norge", "At kongen har mistet buen sin"]
+  riktig: 0
+  forklaring: "Einar svarer på spørsmålet om hva som brast, men svaret gjelder kongens makt. Det er en underdrivelse og et frampek: Olav Tryggvesson tapte slaget og døde."
+- id: vgs-utdrag-svolder-stil
+  type: flervalg
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvilket trekk ved sagastilen viser utdraget tydeligst?"
+  utdrag: "Einar tok buen og drog den straks frem for pilen odd og ropte: «For veik, for veik — er fyrstens bue.» Han kastet buen tilbake, men tok så sitt skjold og sverd og sloss."
+  alternativer: ["Objektiv forteller og korte replikker uten ord om følelser", "Lange beskrivelser av naturen", "Innsyn i hva personene tenker", "En forteller som kommenterer og moraliserer"]
+  riktig: 0
+  forklaring: "Fortelleren sier bare hva Einar gjør og sier. Vi må selv slutte oss til hva han føler. Det er typisk for sagastilen."
+- id: vgs-utdrag-svolder-marker
+  type: marker
+  kapittel: norront-vgs
+  mal: [mvg2-01]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Marker replikken som er et frampek mot at kongen taper slaget."
+  tekst: "Da brast buen i to deler. Da sa kong Olav: «Hvad brast der så høit?» Einar svarer: [[«Norge av din hånd, konge!»]] «Så stor brist er vel ennu ikke skjedd,» sier kongen; «ta buen min og skyt med den!»"
+  forklaring: "Einars svar peker fram mot det som skal skje: Olav mister Norge. Kongens svar viser at han ennå ikke vil innse det."
+
+# Peder Claussøn Friis
+- id: vgs-utdrag-clausson-humanisme
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvilken tanke fra humanismen viser tittelbladet tydeligst?"
+  utdrag: "Norske Kongers Chronica\nUdsat paa Danske / af\nH. Peder Claussøn /\nfordum Sognepræst i Undal.\nNu nyligen menige mand til gaffn / igiennemseet / continuerit oc til Trycken forferdiget.\n\n(Tittelbladet, København 1633)"
+  alternativer: ["Kunnskap skal nå vanlige folk, på deres eget språk", "Bare prester skal lese de gamle tekstene", "Gamle tekster bør glemmes", "Latin er det eneste språket for lærde bøker"]
+  riktig: 0
+  forklaring: "Boken er oversatt til dansk og trykt «menige mand til gaffn», til nytte for vanlige folk. Humanistene ville at de gamle kildene skulle bli lest, og trykkekunsten gjorde det mulig."
+- id: vgs-utdrag-clausson-kilder
+  type: flervalg
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva bygger Snorre på når han skriver om de gamle kongene, ifølge utdraget?"
+  utdrag: "I denne Bog hafuer jeg ladet skrifue gamle Fraasagn om de Høffdinge / som hafuer regerit i disse Nordiske Lande / oc brugt Danske Tungemaal; efter som jeg hafuer fornommit aff de viseste Mænds Fortellelse / oc deris Angifuelse / som sandferdeligen viste at opregne de gamle Herrers Slegteregister oc Affkom."
+  alternativer: ["Det kloke menn har fortalt ham, blant annet om slekt og etterkommere", "Brev fra kongene selv", "Det han har sett med egne øyne", "Bøker på latin fra Roma"]
+  riktig: 0
+  forklaring: "Snorre sier at han bygger på fortellingene til «de viseste Mænd», som kunne regne opp slektstavlene til de gamle herskerne."
+- id: vgs-utdrag-clausson-ord
+  type: matching
+  kapittel: renessansen-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Koble ordet fra 1633 til betydningen i dag."
+  par:
+    - { venstre: "Udsat paa Danske", hoyre: "Oversatt til dansk" }
+    - { venstre: "menige mand til gaffn", hoyre: "Til nytte for vanlige folk" }
+    - { venstre: "Fraasagn", hoyre: "Fortellinger" }
+    - { venstre: "Affkom", hoyre: "Etterkommere" }
+  forklaring: "Mange ord ligner dagens dansk og norsk, men skrivemåten er en annen. «Gaffn» er det samme ordet som «gagn», nytte."
+
+# Erasmus Montanus
+- id: vgs-utdrag-erasmus-komikk
+  type: flervalg
+  kapittel: tidlig-nytid-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva er det komiske i slutten av Erasmus Montanus?"
+  utdrag: "Jeronimus. A – – – – Hr. Lieutenant! Lad ham blive Soldat igien, til Jorden bliver flack.\n\nMontanus. Min kiære Svigerfar, Jorden er saa flack, som en Pandekage, er han nu fornøyet.\n\n(Holberg: Erasmus Montanus, 5. akt, 5. scene)"
+  alternativer: ["Erasmus har rett, men må si noe han vet er galt for å få det han vil ha", "Erasmus tror virkelig at jorden er flat", "Jeronimus blir overbevist om at jorden er rund", "Løytnanten vinner diskusjonen"]
+  riktig: 0
+  forklaring: "Det er snudd på hodet: den som har rett, må gi seg for den som tar feil. Holberg gjør narr både av Erasmus, som har vært hovmodig, og av bygda, som ikke vil lære."
+- id: vgs-utdrag-erasmus-marker
+  type: marker
+  kapittel: tidlig-nytid-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 1
+  oppdrag: "Marker ordene som viser hva som er viktigst for Jeronimus."
+  tekst: "Saa holder I da ikke meere for min kiære Svigersøn, at Jorden er rund; thi [[den post ligger mig meest om Hiertet.]]"
+  forklaring: "Jeronimus bryr seg mest om at Erasmus gir opp påstanden om at jorden er rund. Det er viktigere for ham enn hva som er sant."
+- id: vgs-utdrag-erasmus-opplysning
+  type: flervalg
+  kapittel: tidlig-nytid-vgs
+  mal: [mvg2-02]
+  status: godkjent
+  vanskegrad: 3
+  spm: "Hvordan kan slutten leses som kritikk i opplysningstidens ånd?"
+  utdrag: "Montanus. Min hierte Svigerfar, jeg vil ikke disputere videre derom. Men jeg vil allene sige dette, at alle lærde Folk er nu omstunder af de Tanker, at Jorden er rund."
+  alternativer: ["Den viser at fordommer kan vinne over kunnskap når makt og press bestemmer", "Den viser at de lærde alltid tar feil", "Den viser at man aldri skal diskutere", "Den viser at bygdefolk er klokere enn studenter"]
+  riktig: 0
+  forklaring: "Opplysningstiden ville at fornuften skulle styre. Holberg viser at det ikke er slik i bygda: Erasmus vinner ikke med fakta, han må bøye seg for svigerfarens krav."
+
+# Til min Gyldenlak
+- id: vgs-utdrag-gyldenlak-tiltale
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvem snakker jeget til i diktet?"
+  utdrag: "Gyldenlak, før Du din Glands har tabt,\nda er jeg Det hvoraf Alt er skabt;\nja før Du mister din Krones Guld,\nda er jeg Muld.\n\n(Wergeland: Til min Gyldenlak, 1845)"
+  alternativer: ["Blomsten gyldenlakk", "Kona si", "Gud", "Leseren"]
+  riktig: 0
+  forklaring: "Jeget snakker direkte til blomsten. Blomsten blir besjelet, nesten som et menneske, og det er typisk for romantikkens syn på naturen."
+- id: vgs-utdrag-gyldenlak-kontrast
+  type: flervalg
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvilken kontrast bygger den første strofen på?"
+  utdrag: "Gyldenlak, før Du din Glands har tabt,\nda er jeg Det hvoraf Alt er skabt;\nja før Du mister din Krones Guld,\nda er jeg Muld."
+  alternativer: ["Blomsten som fortsatt lever, og jeget som snart er død", "Natt og dag", "Byen og landet", "Fattig og rik"]
+  riktig: 0
+  forklaring: "Jeget vet at han dør før blomsten visner. Den gylne blomsten står mot jeget som snart er «Muld», jord."
+- id: vgs-utdrag-gyldenlak-marker
+  type: marker
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Marker ordene som viser at sjelen blir fri når jeget dør."
+  tekst: "Idet jeg raaber: med Vindvet op! mit sidste Blik faar din Gyldentop. Min Sjel dig kysser, idet forbi [[den flyver fri.]]"
+  forklaring: "Døden blir ikke framstilt som noe mørkt. Sjelen flyr fri ut gjennom det åpne vinduet. Det viser et romantisk syn på døden som en overgang."
+- id: vgs-utdrag-gyldenlak-skriv
+  type: skriv
+  kapittel: romantikken-vgs
+  mal: [mvg2-03]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Skriv et avsnitt om hvordan Til min Gyldenlak framstiller døden, og knytt diktet til romantikken."
+  utdrag: "«Min Sjel dig kysser, idet forbi / den flyver fri.» (Wergeland: Til min Gyldenlak, 1845)"
+  ord: { min: 80, maks: 180 }
+  nokkelord: ["romantikken", "døden", "naturen"]
+  nokkelordMinst: 2
+  sitat: true
+  kriterier: ["Avsnittet starter med en tydelig påstand om døden i diktet", "Jeg siterer diktet", "Jeg forklarer hvordan blomsten og naturen brukes", "Jeg knytter diktet til romantikken"]
+  modelltekst: "I Til min Gyldenlak blir døden framstilt som noe lyst og nesten vakkert. Jeget vet at han skal dø, men han snakker til blomsten med kjærlighet og ber den hilse rosebusken hans. Når han dør, er det sjelen som «flyver fri», og døden blir en overgang, ikke en slutt. Naturen er besjelet, og blomsten blir en venn som skal være «Brudeblus» i dødens hus. Dette er typisk for romantikken, der naturen er levende og nær mennesket, og der det evige er viktigere enn det jordiske."
+
+# Et dukkehjem
+- id: vgs-utdrag-dukkehjem-plikter
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilke plikter mener Nora at hun har, som Helmer ikke godtar?"
+  utdrag: "NORA. Jeg har andre ligeså hellige pligter.\n\nHELMER. Det har du ikke. Hvilke pligter skulde det være.\n\nNORA. Pligterne imod mig selv.\n\n(Ibsen: Et dukkehjem, 1879, 3. akt)"
+  alternativer: ["Pliktene mot seg selv", "Pliktene mot foreldrene sine", "Pliktene mot kirken", "Pliktene mot venninnen sin"]
+  riktig: 0
+  forklaring: "Nora mener hun har plikter mot seg selv. Helmer mener hun først og fremst er hustru og mor."
+- id: vgs-utdrag-dukkehjem-helmer
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva viser Helmers argumenter om samfunnet på Ibsens tid?"
+  utdrag: "HELMER. Forlade dit hjem, din mand og dine børn! Og du tænker ikke på, hvad folk vil sige."
+  alternativer: ["At kvinnens plass var i hjemmet, og at det var viktig hva andre mente", "At kvinner og menn hadde like rettigheter", "At det var vanlig at kvinner forlot familien", "At ingen brydde seg om ekteskapet"]
+  riktig: 0
+  forklaring: "Helmer viser til plikt og til «hvad folk vil sige». Det viser normene i samfunnet: kona skulle tjene familien, og omdømmet var viktig."
+- id: vgs-utdrag-dukkehjem-marker
+  type: marker
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Marker setningen der Nora sier hva hun først og fremst er."
+  tekst: "Det tror jeg ikke længere på. [[Jeg tror, at jeg er først og fremst et menneske, jeg, ligesåvel som du,]] – eller ialfald, at jeg skal forsøge på at bli’e det."
+  forklaring: "Nora setter det å være et menneske foran rollen som hustru og mor. Det var et radikalt standpunkt i 1879."
+- id: vgs-utdrag-dukkehjem-realisme
+  type: flervalg
+  kapittel: realisme-vgs
+  mal: [mvg3-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hvorfor er utdraget et typisk eksempel på realismen?"
+  utdrag: "NORA. Men jeg kan ikke længere lade mig nøje med, hvad de fleste siger og hvad der står i bøgerne. Jeg må selv tænke over de ting og se at få rede på dem."
+  alternativer: ["Det setter et samfunnsproblem under debatt gjennom vanlige mennesker i en hverdagslig samtale", "Det skildrer naturen som hellig", "Det handler om guder og helter", "Det har fast rim og rytme"]
+  riktig: 0
+  forklaring: "Realistene ville «sette problemer under debatt». Ibsen bruker en vanlig familie og en samtale i stuen for å diskutere kvinnens stilling i ekteskapet."
+
+# Jeg ser
+- id: vgs-utdrag-jegser-fremmed
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: godkjent
+  vanskegrad: 1
+  spm: "Hvilken følelse uttrykker jeget i slutten av diktet?"
+  utdrag: "Jeg ser, jeg ser . . . .\nJeg er vist kommet paa en feil klode!\nHer er saa underligt . . . .\n\n(Obstfelder: Jeg ser, 1893)"
+  alternativer: ["Fremmedhet, at jeget ikke hører hjemme i verden", "Glede over byen", "Sinne mot menneskene", "Lengsel tilbake til barndommen"]
+  riktig: 0
+  forklaring: "Jeget føler at det er kommet til feil planet. Fremmedgjøring er et viktig tema i modernismen."
+- id: vgs-utdrag-jegser-gjentakelse
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: godkjent
+  vanskegrad: 2
+  spm: "Hva gjør gjentakelsen av «jeg ser» i diktet?"
+  utdrag: "Jeg ser paa de velklædte herrer,\njeg ser paa de smilende damer,\njeg ser paa de ludende heste."
+  alternativer: ["Den viser et jeg som bare observerer verden utenfra, uten å være en del av den", "Den viser at jeget har dårlig syn", "Den gjør diktet til en fortelling med handling", "Den viser at jeget er glad i menneskene"]
+  riktig: 0
+  forklaring: "Jeget registrerer det det ser, ting for ting, men kommer ikke nær noe av det. Gjentakelsen forsterker avstanden mellom jeget og verden."
+- id: vgs-utdrag-jegser-modernisme
+  type: sortering
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Hvilke trekk har diktet Jeg ser, og hvilke har det ikke?"
+  kategorier: ["Har diktet", "Har ikke diktet"]
+  elementer:
+    - { tekst: "Frie vers uten fast rim", kategori: 0 }
+    - { tekst: "Et jeg som føler seg fremmed i verden", kategori: 0 }
+    - { tekst: "Bilder fra byen", kategori: 0 }
+    - { tekst: "Fast rim og rytme i hver strofe", kategori: 1 }
+    - { tekst: "En forteller som forklarer hva alt betyr", kategori: 1 }
+    - { tekst: "Naturen som hellig og trøstende", kategori: 1 }
+  forklaring: "Diktet har frie vers, bilder fra byen og et fremmedgjort jeg. Det peker fram mot modernismen. Det har ikke romantikkens trøstende natur eller en forteller som forklarer."
+
+# Sult
+- id: vgs-utdrag-sult-tid
+  type: flervalg
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: godkjent
+  vanskegrad: 3
+  spm: "Første setning står i fortid, men neste avsnitt begynner i nåtid. Hva er virkningen?"
+  utdrag: "Det var i den Tid, jeg gik omkring og sulted i Kristiania, denne forunderlige By, som ingen forlader, før han har faaet Mærker af den …………\n\nJeg ligger vaagen paa min Kvist og hører en Klokke nedenunder mig slaa seks Slag;\n\n(Hamsun: Sult, 1890)"
+  alternativer: ["Leseren blir dratt inn i jegets opplevelse, som om det skjer nå", "Det viser at teksten er full av feil", "Det viser at det er to ulike fortellere", "Det gjør teksten mer objektiv"]
+  riktig: 0
+  forklaring: "Overgangen til nåtid gjør at vi opplever det jeget opplever, i øyeblikket. Hamsun ville skildre sjelslivet innenfra, og det peker fram mot modernismen."
+- id: vgs-utdrag-sult-marker
+  type: marker
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: godkjent
+  vanskegrad: 2
+  oppdrag: "Marker det jeget legger merke til som viser at han er sulten."
+  tekst: "og lidt tilvenstre derfra et fedt, bugnende Avertissement fra Bager Fabian Olsen [[om nybagt Brød.]]"
+  forklaring: "Blant alt som henger på veggen, er det annonsen om nybakt brød jeget legger merke til. Han kaller den «fedt, bugnende». Sulten farger det han ser."
+- id: vgs-utdrag-sult-skriv
+  type: skriv
+  kapittel: modernisme-vgs
+  mal: [mvg3-02]
+  status: godkjent
+  vanskegrad: 3
+  oppdrag: "Skriv et avsnitt der du sammenligner fortelleren i begynnelsen av Sult med fortelleren i en realistisk tekst."
+  utdrag: "«Jeg ligger vaagen paa min Kvist og hører en Klokke nedenunder mig slaa seks Slag; det var allerede ganske lyst, og Folk begyndte at færdes op og ned i Trapperne.» (Hamsun: Sult, 1890)"
+  ord: { min: 80, maks: 180 }
+  nokkelord: ["forteller", "realismen", "modernismen", "jeg"]
+  nokkelordMinst: 2
+  sitat: true
+  kriterier: ["Avsnittet starter med en tydelig påstand", "Jeg siterer Sult", "Jeg forklarer hvordan fortelleren i Sult er", "Jeg sammenligner med fortelleren i en realistisk tekst", "Jeg forklarer hva forskjellen gjør med leseropplevelsen"]
+  modelltekst: "Fortelleren i Sult er et jeg som lar oss følge tankene og sansene hans tett. Han skriver: «Jeg ligger vaagen paa min Kvist og hører en Klokke nedenunder mig slaa seks Slag», og bytter fra fortid til nåtid, slik at vi opplever det han opplever. I mange realistiske tekster står fortelleren utenfor og viser personene i et miljø, slik at leseren ser et problem i samfunnet. Hos Hamsun er det jegets indre som er det viktige. Leseren må selv avgjøre om jeget er til å stole på, og det gjør teksten mer urolig og moderne."

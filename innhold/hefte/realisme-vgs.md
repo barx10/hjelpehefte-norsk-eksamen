@@ -36,6 +36,43 @@ Naturalismen er en mer radikal retning fra omkring 1880. Her er mennesket bestem
 | Amalie Skram | Constance Ring (1885) | Kvinnens stilling i ekteskapet |
 | Hans Jæger | Fra Kristiania-Bohêmen (1885) | Naturalistisk kritikk av moral |
 
+## Tekstutdrag: Et dukkehjem
+
+Nora har i åtte år spilt rollen som den søte og lydige konen til Torvald Helmer. I siste akt forstår hun at ekteskapet har vært et dukkehjem, og hun bestemmer seg for å forlate mannen og barna. Helmer prøver å stanse henne.
+
+> **Henrik Ibsen: Et dukkehjem (1879), 3. akt (utdrag)**
+>
+> **HELMER.** Forlade dit hjem, din mand og dine børn! Og du tænker ikke på, hvad folk vil sige.
+>
+> **NORA.** Det kan jeg ikke ta’e noget hensyn til. Jeg ved bare, det blir nødvendigt for mig.
+>
+> **HELMER.** Å, det er oprørende. Således kan du svigte dine helligste pligter.
+>
+> **NORA.** Hvad regner du da for mine helligste pligter?
+>
+> **HELMER.** Og det skal jeg behøve at sige dig! Er det ikke pligterne imod din mand og dine børn?
+>
+> **NORA.** Jeg har andre ligeså hellige pligter.
+>
+> **HELMER.** Det har du ikke. Hvilke pligter skulde *det* være.
+>
+> **NORA.** Pligterne imod mig selv.
+>
+> **HELMER.** Du er først og fremst hustru og moder.
+>
+> **NORA.** Det tror jeg ikke længere på. Jeg tror, at jeg er først og fremst et menneske, jeg, ligesåvel som du, – eller ialfald, at jeg skal forsøge på at bli’e det. Jeg ved nok, at de fleste gir dig ret, Torvald, og at der står noget sligt i bøgerne. Men jeg kan ikke længere lade mig nøje med, hvad de fleste siger og hvad der står i bøgerne. Jeg må selv tænke over de ting og se at få rede på dem.
+>
+> Henrik Ibsens skrifter (ibsen.uio.no), bind 7, 2008. Teksten følger førsteutgaven fra 1879.
+
+**Ordforklaringer:** *ta’e noget hensyn til*: ta noe hensyn til. *oprørende*: opprørende, sjokkerende. *lade mig nøje med*: nøye meg med. *få rede på*: finne ut av.
+
+**Spørsmål til teksten**
+
+1. Hva mener Helmer er Noras plikter, og hva mener Nora selv?
+2. Hvilke argumenter bruker Helmer? Hva viser de om synet på kvinner i samfunnet?
+3. Hvordan viser replikkene at realismen ville «sette problemer under debatt»?
+4. Er konflikten mellom plikten mot andre og plikten mot seg selv aktuell i dag? Begrunn svaret.
+
 ## Menneske, natur og samfunn
 
 I realismen er mennesket en del av samfunnet, formet av normer og krav. Naturen er ofte bakgrunn eller miljø. Samfunnet er det som skal forandres. Se hvordan teksten viser menneskene i møte med regler, penger og forventninger.
