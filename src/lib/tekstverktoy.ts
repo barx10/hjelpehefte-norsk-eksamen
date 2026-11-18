@@ -95,18 +95,95 @@ export function antallAvsnitt(tekst: string): number {
   return tekst.split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean).length;
 }
 
-/** Sjekker hvilke nøkkelord som brukes. Treffer også bøyde former (metafor, metaforen). */
+/** Avsnitt regnet etter linjeskift. Mange trykker Enter én gang mellom avsnittene, særlig på mobil. */
+export function antallAvsnittLinjer(tekst: string): number {
+  return tekst.split(/\n+/).map((b) => b.trim()).filter(Boolean).length;
+}
+
+export type Punkt = { ok: boolean; tekst: string };
+
+/** Sjekker antall avsnitt. Vanlige linjeskift teller, men eleven får et tips om å hoppe over en linje. */
+export function avsnittPunkt(tekst: string, minst: number): Punkt {
+  const n = antallAvsnittLinjer(tekst);
+  if (n < minst) return { ok: false, tekst: `Avsnitt: ${n}. Del teksten i minst ${minst} avsnitt, og hopp over en linje mellom dem.` };
+  if (antallAvsnitt(tekst) < n) return { ok: true, tekst: `Avsnitt: ${n}. Tips: Hopp over en linje mellom avsnittene, så blir skillene tydeligere.` };
+  return { ok: true, tekst: `Avsnitt: ${n}.` };
+}
+
+const escapeRegex = (t: string) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+/** Sjekker hvilke nøkkelord som brukes. Treffer bøyde former (metafor, metaforen), men ikke ord inni andre ord. */
 export function brukteNokkelord(tekst: string, nokkelord: string[]): { brukt: string[]; mangler: string[] } {
   const lav = tekst.toLocaleLowerCase('nb');
   const brukt: string[] = [];
   const mangler: string[] = [];
-  for (const ord of nokkelord) (lav.includes(ord.toLocaleLowerCase('nb')) ? brukt : mangler).push(ord);
+  for (const ord of nokkelord) {
+    const treff = new RegExp(`(^|[^\\p{L}\\p{N}])${escapeRegex(ord.toLocaleLowerCase('nb'))}`, 'u').test(lav);
+    (treff ? brukt : mangler).push(ord);
+  }
   return { brukt, mangler };
+}
+
+const TALLORD = ['null', 'ett', 'to', 'tre', 'fire', 'fem', 'seks', 'sju', 'åtte', 'ni', 'ti'];
+
+/** «a», «a og b», «a, b og c». */
+export function listeTekst(ord: string[], bindeord = 'og'): string {
+  if (ord.length <= 1) return ord.join('');
+  return `${ord.slice(0, -1).join(', ')} ${bindeord} ${ord.at(-1)}`;
+}
+
+/** Linjen om nøkkelord i den automatiske sjekken. */
+export function nokkelordPunkt(r: { brukt: string[]; mangler: string[] }, minst: number): Punkt {
+  const totalt = r.brukt.length + r.mangler.length;
+  if (r.mangler.length === 0) {
+    return { ok: true, tekst: totalt === 1 ? `Du har brukt begrepet ${r.brukt[0]}.` : `Du har brukt alle ${TALLORD[totalt] ?? totalt} begrepene: ${listeTekst(r.brukt)}.` };
+  }
+  if (r.brukt.length >= minst) return { ok: true, tekst: `Du har brukt ${r.brukt.length} av ${totalt} begreper: ${listeTekst(r.brukt)}.` };
+  const alleKreves = minst >= totalt;
+  return {
+    ok: false,
+    tekst: `Du har brukt ${r.brukt.length} av ${totalt} begreper. ${alleKreves ? 'Få med' : 'Prøv å få med'} ${listeTekst(r.mangler, alleKreves ? 'og' : 'eller')}.`,
+  };
 }
 
 /** Finner ut om teksten har minst ett sitat i anførselstegn. */
 export function harSitat(tekst: string): boolean {
-  return /«[^»]{2,}»|"[^"]{2,}"|“[^”]{2,}”/.test(tekst);
+  return sitater(tekst).length > 0;
+}
+
+/** Innholdet i alle sitater i anførselstegn. */
+export function sitater(tekst: string): string[] {
+  return [...tekst.matchAll(/«([^»]{2,})»|"([^"]{2,})"|“([^”]{2,})”/g)].map((m) => (m[1] ?? m[2] ?? m[3])!.trim()).filter(Boolean);
+}
+
+/** Små bokstaver, bare bokstaver og tall, ett mellomrom mellom ordene. Skråstrek for linjeskift i dikt forsvinner. */
+function normaliser(t: string): string {
+  return t.toLocaleLowerCase('nb').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+}
+
+/** Sant hvis sitatet står ordrett i kilden. Utelatelser markert med … eller [...] er lov. */
+export function sitatFinnes(sitat: string, kilde: string): boolean {
+  const k = ` ${normaliser(kilde)} `;
+  const deler = sitat.split(/\[\s*(?:\.\.\.|…)\s*\]|\(\s*(?:\.\.\.|…)\s*\)|\.\.\.|…/).map(normaliser).filter(Boolean);
+  return deler.length > 0 && deler.every((d) => k.includes(` ${d} `));
+}
+
+/**
+ * Sjekker sitatene mot teksten oppgaven bygger på. Korte sitater under tre ord, som titler og
+ * enkeltord i anførselstegn, sjekkes ikke mot kilden.
+ */
+export function sitatPunkt(tekst: string, kilde: string | null): Punkt {
+  const alle = sitater(tekst);
+  if (alle.length === 0) return { ok: false, tekst: 'Du har ikke brukt sitat i anførselstegn.' };
+  const lange = kilde ? alle.filter((s) => ordTelling(s) >= 3) : [];
+  if (lange.length === 0) return { ok: true, tekst: 'Du har brukt sitat i anførselstegn.' };
+  const mangler = lange.filter((s) => !sitatFinnes(s, kilde!));
+  if (mangler.length === 0) return { ok: true, tekst: lange.length === 1 ? 'Sitatet står ordrett i teksten.' : 'Sitatene står ordrett i teksten.' };
+  const forkort = (s: string) => (ordTelling(s) > 10 ? `${s.split(/\s+/).slice(0, 10).join(' ')} …` : s);
+  if (mangler.length === lange.length && lange.length === 1) {
+    return { ok: false, tekst: `Fant ikke sitatet «${forkort(mangler[0]!)}» i teksten. Sjekk at du har sitert ordrett.` };
+  }
+  return { ok: false, tekst: `${mangler.length} av ${lange.length} sitater står ikke ordrett i teksten, for eksempel «${forkort(mangler[0]!)}». Sjekk at du har sitert ordrett.` };
 }
 
 export type Ordkrav = { min: number; maks: number };

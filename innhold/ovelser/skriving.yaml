@@ -288,7 +288,7 @@
   nokkelord: ["etos"]
   sitat: true
   kriterier: ["Jeg siterer en kort setning", "Jeg sier at det er etos", "Jeg forklarer hvorfor avsenderen virker troverdig"]
-  modelltekst: "Sitatet fra fotballspilleren Mia Sand er etos. Hun er kjent og respektert, så leseren stoler på det hun sier om drikken."
+  modelltekst: "Sitatet fra fotballspilleren Mia Sand, «FreshUp gir meg energien jeg trenger», er etos. Hun er kjent og respektert, så leseren stoler på det hun sier om drikken."
 - id: skriv-o1-malgruppe
   type: skriv
   kapittel: oppgave-1
