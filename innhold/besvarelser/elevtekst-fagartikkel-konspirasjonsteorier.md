@@ -2,7 +2,7 @@
 tittel: "Konspirasjonsteorier i dagens samfunn"
 type: fagartikkel
 kategori: elevtekst, vg1
-nivaa: ['10', 'vg3']
+nivaa: ['vg3']
 status: godkjent
 oppgave: "Fagartikkel om konspirasjonsteorier"
 forfatter: "Anniken Louise Møster (elev i vg1 ved Arendal videregående skole)"

@@ -6,11 +6,12 @@ import { nurl } from '../../../lib/url';
 import { NIVAAER } from '../../../lib/nivaa';
 
 export async function getStaticPaths() {
+  // Alle tekster, ikke bare nivåets, slik at kilde og lisens vises også når teksten øvelsen bygger på, hører til et annet nivå.
+  const tekster = new Map((await hentBesvarelser()).map((b) => [b.id, b]));
   const alle = await Promise.all(
     NIVAAER.map(async (nivaa) => {
       const kapitler = await hentKapitler(nivaa);
       const ovelser = await hentOvelser(nivaa);
-      const tekster = new Map((await hentBesvarelser(nivaa)).map((b) => [b.id, b]));
       const tittelPerId = new Map(kapitler.map((k) => [k.id, kapittelNavn(k)]));
       const skrivefeil = await hentSkrivefeil(nivaa);
       const lenker = Object.fromEntries(kapitler.map((k) => [k.id, { url: nurl(nivaa, `hefte/${k.id}/`), tittel: kapittelNavn(k) }]));

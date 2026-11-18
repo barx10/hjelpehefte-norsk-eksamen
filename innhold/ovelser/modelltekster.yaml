@@ -395,3 +395,82 @@
   riktig: 0
   forklaring: "Setningen påstår noe om motivene til en hel gruppe. Det trenger en kilde, og man bør heller skrive «noen» og forklare."
   utdrag: "De som tror på konspirasjonsteorier, ønsker ofte å fornekte sannhet."
+- id: tekst-debatt-rekke
+  type: rekkefolge
+  kapittel: debattinnlegg
+  nivaa: '10'
+  fraTekst: modelltekst-debattinnlegg-skolemat
+  mal: [m10-10, m10-12]
+  status: godkjent
+  oppdrag: "Sett åpningssetningene i debattinnlegget i riktig rekkefølge."
+  elementer: ["Klokka er halv tolv, og vi har mattetime.", "For det første lærer vi bedre når vi har spist.", "Et annet argument er at skolemat gjør skolen mer rettferdig.", "I tillegg kan et felles måltid gi oss bedre fellesskap og sunnere vaner.", "Noen vil si at gratis skolemat koster for mye, og at det er foreldrenes ansvar å sende med mat.", "Skolemat hjelper oss å lære, gjør skolen mer rettferdig og gir oss et bedre fellesskap."]
+  forklaring: "Innlegget følger malen for debattinnlegg: innledning, tre argumenter, motargument og avslutning. Tekstbinderne «for det første», «et annet argument» og «i tillegg» viser rekkefølgen på argumentene."
+- id: tekst-debatt-sorter
+  type: sortering
+  kapittel: debattinnlegg
+  nivaa: '10'
+  fraTekst: modelltekst-debattinnlegg-skolemat
+  mal: [m10-10, m10-12]
+  status: godkjent
+  oppdrag: "Hvilken del av debattinnlegget hører setningen til?"
+  kategorier: ["Innledning", "Argument", "Motargument", "Avslutning"]
+  elementer:
+    - tekst: "Jeg går i 10. klasse, og dette ser jeg nesten hver dag."
+      kategori: 0
+    - tekst: "Hjernen trenger energi for å kunne konsentrere seg, akkurat som resten av kroppen."
+      kategori: 1
+    - tekst: "Hvis alle får det samme måltidet, trenger ingen å skamme seg."
+      kategori: 1
+    - tekst: "Det er sant at mange foreldre gjør det, men ikke alle klarer det."
+      kategori: 2
+    - tekst: "Derfor ber jeg politikerne i kommunen vår om å innføre gratis skolemat."
+      kategori: 3
+  forklaring: "Innledningen presenterer saken og standpunktet. Argumentene begrunner standpunktet. I motargumentet gir skribenten motparten rett i noe, og svarer så. Avslutningen oppsummerer og oppfordrer."
+- id: tekst-debatt-marker
+  type: marker
+  kapittel: debattinnlegg
+  nivaa: '10'
+  fraTekst: modelltekst-debattinnlegg-skolemat
+  mal: [m10-10, m10-12]
+  status: godkjent
+  oppdrag: "Marker setningen der skribenten sier standpunktet sitt."
+  tekst: "Klokka er halv tolv, og vi har mattetime. Det er fortsatt en halvtime til lunsj, og rundt meg hører jeg magene rumle. Noen har ikke spist frokost, og noen har ingen matpakke å glede seg til. Jeg går i 10. klasse, og dette ser jeg nesten hver dag. [[Derfor mener jeg at alle elever i ungdomsskolen bør få et gratis måltid på skolen hver dag.]]"
+  forklaring: "Standpunktet er det skribenten mener om saken. Her kommer det i siste setning i innledningen, etter at saken er presentert. «Derfor» viser at standpunktet bygger på det skribenten har sett."
+- id: tekst-debatt-fv-patos
+  type: flervalg
+  kapittel: debattinnlegg
+  nivaa: '10'
+  fraTekst: modelltekst-debattinnlegg-skolemat
+  mal: [m10-10, m10-12]
+  status: godkjent
+  spm: "Hvilken appellform bruker skribenten mest i dette utdraget?"
+  alternativer: ["Patos", "Logos", "Etos", "Ingen av dem"]
+  riktig: 0
+  forklaring: "Skribenten ber leseren om å forestille seg hvordan det føles å åpne en tom matboks. Det spiller på følelser, altså patos."
+  utdrag: "Tenk deg å åpne en tom matboks mens alle rundt deg spiser. Mange vil heller late som de ikke er sultne enn å si at det ikke er mat hjemme. Hvis alle får det samme måltidet, trenger ingen å skamme seg."
+- id: tekst-debatt-fv-motargument
+  type: flervalg
+  kapittel: debattinnlegg
+  nivaa: '10'
+  fraTekst: modelltekst-debattinnlegg-skolemat
+  mal: [m10-10, m10-12]
+  status: godkjent
+  spm: "Hva gjør skribenten i dette avsnittet?"
+  alternativer: ["Tar opp et motargument og svarer på det", "Oppsummerer argumentene sine", "Bytter standpunkt", "Angriper personene som er uenige"]
+  riktig: 0
+  forklaring: "Skribenten gjengir det motparten mener, gir dem delvis rett, og svarer med to poeng. Det gjør innlegget sterkere, fordi leseren ser at skribenten har tenkt på begge sider."
+  utdrag: "Noen vil si at gratis skolemat koster for mye, og at det er foreldrenes ansvar å sende med mat. Det er sant at mange foreldre gjør det, men ikke alle klarer det. Elevene skal ikke straffes for noe de ikke kan gjøre noe med. Dessuten har land som Sverige og Finland hatt gratis skolemat i mange år."
+- id: tekst-debatt-skriv
+  type: skriv
+  kapittel: debattinnlegg
+  nivaa: '10'
+  fraTekst: modelltekst-debattinnlegg-skolemat
+  mal: [m10-10, m10-12]
+  status: godkjent
+  oppdrag: "Les motargument-avsnittet i modellteksten. Skriv et tilsvarende avsnitt til et debattinnlegg om at skoledagen bør begynne klokka ni. Ta opp et motargument og svar på det."
+  utdrag: "Motargument-avsnittet i modellteksten: «Noen vil si at gratis skolemat koster for mye, og at det er foreldrenes ansvar å sende med mat. Det er sant at mange foreldre gjør det, men ikke alle klarer det. Elevene skal ikke straffes for noe de ikke kan gjøre noe med. Dessuten har land som Sverige og Finland hatt gratis skolemat i mange år. Hvis de har klart det, kan Norge også klare det.»"
+  ord: { min: 50, maks: 110 }
+  nokkelord: ["noen vil si", "det er sant", "dessuten"]
+  nokkelordMinst: 2
+  kriterier: ["Jeg gjengir motargumentet på en rettferdig måte", "Jeg gir motparten rett i noe før jeg svarer", "Jeg svarer med minst ett godt poeng", "Jeg bruker uttrykk som «noen vil si», «det er sant» og «dessuten»"]
+  modelltekst: "Noen vil si at elevene bare kan legge seg tidligere, så trenger ikke skolen å endre noe. Det er sant at mange ungdommer sitter for lenge oppe, men det er ikke hele forklaringen. Kroppen til ungdom blir trøtt senere på kvelden enn hos barn og voksne. Dessuten får elevene mer søvn hvis skolen begynner klokka ni, og da klarer de å følge med også i første time."

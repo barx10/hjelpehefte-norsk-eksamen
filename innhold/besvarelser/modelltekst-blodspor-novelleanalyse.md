@@ -2,7 +2,7 @@
 tittel: "Et uskyldig offer"
 type: novelleanalyse
 kategori: modelltekst
-nivaa: ['10', 'vg3']
+nivaa: ['vg3']
 status: godkjent
 oppgave: "Analyse av novellen «Blodspor» av Bakir Ahmethodzic (1999)"
 forfatter: "Åsa Abusland (NDLA)"

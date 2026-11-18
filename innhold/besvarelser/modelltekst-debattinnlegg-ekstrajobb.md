@@ -2,7 +2,7 @@
 tittel: "Jobb ved sida av skolen? Ja takk!"
 type: debattinnlegg
 kategori: modelltekst
-nivaa: ['10', 'vg3']
+nivaa: ['vg3']
 status: godkjent
 oppgave: "Skriv et debattinnlegg der du argumenterer for eller mot at ungdom bør ha en jobb ved siden av skolen."
 forfatter: "Marion Federl. Rettighetshaver: Kunnskapsløypa (NDLA)"
