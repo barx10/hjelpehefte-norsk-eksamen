@@ -101,6 +101,27 @@ export function kapittelForType(kapitler: Kapittel[], type: string): string | un
   return (kapitler.find((k) => k.id === type) ?? kapitler.find((k) => (k.data.tekstTyper as string[] | undefined)?.includes(type)))?.id;
 }
 
+/**
+ * Temagruppene kapitlene vises under, i fast rekkefølge. Holdes få med vilje, så eleven får oversikt uten å lete.
+ * Litteraturgruppen finnes bare på vg3.
+ */
+export const grupper = {
+  eksamen: 'Eksamen og oppgavene',
+  sjanger: 'Sjangre og analyse',
+  litteratur: 'Litteratur og språk i samfunnet',
+  skriving: 'Skriveteknikk',
+  rettskriving: 'Rettskriving og grammatikk',
+} as const satisfies Record<Kapittel['data']['gruppe'], string>;
+
+export type Gruppe = keyof typeof grupper;
+
+/** Deler kapitlene inn i temagrupper. Tomme grupper tas ikke med. Rekkefølgen inne i gruppen følger heftet. */
+export function grupperKapitler<T>(elementer: T[], kapittel: (e: T) => Kapittel): { id: Gruppe; tittel: string; elementer: T[] }[] {
+  return (Object.keys(grupper) as Gruppe[])
+    .map((id) => ({ id, tittel: grupper[id], elementer: elementer.filter((e) => kapittel(e).data.gruppe === id) }))
+    .filter((g) => g.elementer.length > 0);
+}
+
 export function kapittelNavn(k: Kapittel): string {
   return k.data.nummer ? `${k.data.nummer} ${k.data.tittel}` : k.data.tittel;
 }

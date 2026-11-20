@@ -2,7 +2,7 @@
 tittel: Innledning, avslutning og tittel
 nummer: '14'
 rekkefolge: 14
-gruppe: sprak
+gruppe: skriving
 status: godkjent
 nivaa: ['10', 'vg3']
 ---

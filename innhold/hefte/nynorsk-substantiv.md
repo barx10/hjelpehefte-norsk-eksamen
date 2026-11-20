@@ -2,7 +2,7 @@
 tittel: Nynorsk, substantiv
 nummer: '19'
 rekkefolge: 19
-gruppe: sprak
+gruppe: rettskriving
 status: godkjent
 nivaa: ['10', 'vg3']
 ingress: Substantiv har tre kjønn på nynorsk, og kvart kjønn har sitt eige bøyingsmønster. Lær mønstera, så kan du bøye dei aller fleste substantiva.

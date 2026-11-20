@@ -2,7 +2,7 @@
 tittel: Kilder og sitering
 nummer: '9'
 rekkefolge: 9
-gruppe: sprak
+gruppe: skriving
 status: godkjent
 nivaa: ['10', 'vg3']
 ---

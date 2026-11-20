@@ -1,7 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import { render } from 'astro:content';
-import { hentKapitler, nivaaStier } from '../../../lib/innhold';
+import { grupperKapitler, hentKapitler, nivaaStier } from '../../../lib/innhold';
 import { nurl } from '../../../lib/url';
 
 export const getStaticPaths = nivaaStier;
@@ -10,17 +10,7 @@ const { nivaa } = Astro.props;
 const kapitler = await hentKapitler(nivaa);
 const innhold = await Promise.all(kapitler.map(async (k) => ({ k, Content: (await render(k)).Content })));
 
-const gruppeTittel = {
-  eksamen: 'Om eksamen og oppgavene',
-  sjanger: 'Sjangre og maler',
-  litteratur: 'Litteratur og kontekst',
-  sprakNorge: 'Språk i Norge',
-  virkemidler: 'Virkemidler og synsvinkel',
-  sprak: 'Språk og tekstbygging',
-} as const;
-const grupper = (Object.keys(gruppeTittel) as (keyof typeof gruppeTittel)[])
-  .map((id) => ({ id, tittel: gruppeTittel[id], kapitler: kapitler.filter((k) => k.data.gruppe === id) }))
-  .filter((g) => g.kapitler.length > 0);
+const grupper = grupperKapitler(kapitler, (k) => k).map((g) => ({ ...g, kapitler: g.elementer }));
 const navn = (k: (typeof kapitler)[number]) => `${k.data.nummer ? k.data.nummer + ' ' : ''}${k.data.tittel}`;
 ---
 <Layout tittel="Lag ditt hefte" beskrivelse="Last ned hele hjelpeheftet i kortversjon, eller velg kapitlene du vil ha med." nivaa={nivaa}>

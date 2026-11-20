@@ -1,13 +1,14 @@
 ---
 import Illustrasjon from '../../../components/Illustrasjon.astro';
 import Layout from '../../../layouts/Layout.astro';
-import { hentKapitler, nivaaStier } from '../../../lib/innhold';
+import { grupperKapitler, hentKapitler, nivaaStier } from '../../../lib/innhold';
 import { nurl } from '../../../lib/url';
 
 export const getStaticPaths = nivaaStier;
 const { nivaa } = Astro.props;
 
 const kapitler = await hentKapitler(nivaa);
+const grupper = grupperKapitler(kapitler, (k) => k);
 ---
 <Layout tittel="Hefte" beskrivelse="Hjelpeheftet til norsk eksamen, kapittel for kapittel." nivaa={nivaa}>
   <div class="sidehode">
@@ -36,16 +37,21 @@ const kapitler = await hentKapitler(nivaa);
 
       <h2 id="kapitler">Kapitler</h2>
       <p class="tastehint">Trykk på et kapittel for å lese det.</p>
-      <ul class="liste-kapitler med-pil">
-        {kapitler.map((k) => (
-          <li>
-            <a href={nurl(nivaa, `hefte/${k.id}/`)}>
-              <span class="nr">{k.data.nummer}</span>
-              <span>{k.data.tittel}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
+      {grupper.map((g) => (
+        <section class="kapittelgruppe" aria-labelledby={`gruppe-${g.id}`}>
+          <h3 id={`gruppe-${g.id}`}>{g.tittel}</h3>
+          <ul class="liste-kapitler med-pil">
+            {g.elementer.map((k) => (
+              <li>
+                <a href={nurl(nivaa, `hefte/${k.id}/`)}>
+                  <span class="nr">{k.data.nummer}</span>
+                  <span>{k.data.tittel}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
     </>
   )}
 </Layout>

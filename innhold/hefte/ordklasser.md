@@ -2,7 +2,7 @@
 tittel: Ordklasser og bøying
 nummer: '17'
 rekkefolge: 17
-gruppe: sprak
+gruppe: rettskriving
 status: godkjent
 nivaa: ['10', 'vg3']
 perNivaa: { vg3: { nummer: '16', rekkefolge: 16 } }

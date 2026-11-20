@@ -2,7 +2,7 @@
 tittel: Fagspråk om språk og tekst
 nummer: '18'
 rekkefolge: 18
-gruppe: sprak
+gruppe: skriving
 status: godkjent
 nivaa: ['vg3']
 ---

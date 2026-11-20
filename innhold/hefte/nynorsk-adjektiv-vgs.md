@@ -2,7 +2,7 @@
 tittel: Nynorsk, adjektiv og partisipp (vgs)
 nummer: '23'
 rekkefolge: 23
-gruppe: sprak
+gruppe: rettskriving
 status: godkjent
 nivaa: ['vg3']
 ingress: Her får du særreglane for adjektiv og samsvarsbøying av partisipp, som du treng for å skrive sikker nynorsk.

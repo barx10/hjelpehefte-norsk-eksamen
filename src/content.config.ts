@@ -55,8 +55,8 @@ const hefte = defineCollection({
     tittel: z.string(),
     nummer: z.string().default(''),
     rekkefolge: z.number(),
-    // Styrer hvor kapittelet står når eleven velger kapitler til heftet.
-    gruppe: z.enum(['eksamen', 'sjanger', 'litteratur', 'sprakNorge', 'virkemidler', 'sprak']).default('eksamen'),
+    // Temagruppen kapittelet vises under på Øv-siden, i heftet og når eleven lager sitt eget hefte. Se `grupper` i src/lib/innhold.ts.
+    gruppe: z.enum(['eksamen', 'sjanger', 'litteratur', 'skriving', 'rettskriving']).default('eksamen'),
     ingress: z.string().optional(),
     // Typer modelltekster som vises i kapittelet. Uten feltet vises tekster med samme type som kapittelets id.
     tekstTyper: z.array(z.enum(['retorisk-analyse', 'novelleanalyse', 'diktanalyse', 'reklameanalyse', 'fagartikkel', 'essay', 'reflekterende-tekst', 'droftende-tekst', 'debattinnlegg'])).optional(),

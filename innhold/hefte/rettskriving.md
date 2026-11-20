@@ -2,7 +2,7 @@
 tittel: Vanlige skrivefeil
 nummer: '11'
 rekkefolge: 11
-gruppe: sprak
+gruppe: rettskriving
 nivaa: ['10', 'vg3']
 status: godkjent
 ---

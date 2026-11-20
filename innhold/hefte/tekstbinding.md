@@ -2,7 +2,7 @@
 tittel: Tekstbinding
 nummer: '10'
 rekkefolge: 10
-gruppe: sprak
+gruppe: skriving
 nivaa: ['10', 'vg3']
 status: godkjent
 ---

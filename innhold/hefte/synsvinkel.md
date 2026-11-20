@@ -2,7 +2,7 @@
 tittel: Synsvinkel
 nummer: '6'
 rekkefolge: 6
-gruppe: virkemidler
+gruppe: sjanger
 nivaa: ['10', 'vg3']
 perNivaa: { vg3: { nummer: '3.2', rekkefolge: 3.2 } }
 ---

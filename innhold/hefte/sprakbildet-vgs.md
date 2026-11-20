@@ -2,7 +2,7 @@
 tittel: Språksituasjonen i Norge
 nummer: '6.1'
 rekkefolge: 6.1
-gruppe: sprakNorge
+gruppe: litteratur
 status: godkjent
 nivaa: ['vg3']
 ---

@@ -128,7 +128,7 @@ a:hover { color: var(--primar-hover); }
   background: var(--flate); border: 1px solid var(--linje); border-radius: var(--radius); padding: 1rem 1.1rem;
   box-shadow: var(--skygge); display: flex; flex-direction: column; gap: 0.5rem;
 }
-.tema h3 { margin: 0; font-size: 1.1rem; }
+.tema h3, .tema h4 { margin: 0; font-size: 1.1rem; }
 .tema .nr { color: var(--aksent); font-weight: 700; margin-right: 0.35rem; }
 .tema .meta { color: var(--dempet); font-size: 0.92rem; margin: 0; }
 .tema .lenker { margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; padding-top: 0.5rem; }
@@ -542,7 +542,7 @@ h2, h3 { font-weight: 700; }
 .oversikt .tema:nth-child(odd) { background: var(--flate-2); }
 .tema-tittel { display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); gap: 0.5rem; align-items: baseline; min-width: 0; }
 .tema-tittel .nr { margin: 0; font-family: var(--skrift-tittel); font-size: 1.25rem; font-weight: 600; color: var(--primar); }
-.oversikt .tema h3 { font-size: 1.02rem; }
+.oversikt .tema h3, .oversikt .tema h4 { font-size: 1.02rem; }
 .oversikt .tema .meta { font-size: 0.85rem; }
 .tema-fremgang { display: grid; gap: 0.2rem; }
 .fremdrift-linje { height: 6px; border: 0; background: var(--linje); border-radius: 99px; }
@@ -684,3 +684,16 @@ dialog.modal hr { border: 0; border-top: 1px solid var(--linje); margin: 1.2rem 
 .forklaring { margin: 1rem 0 1.5rem; }
 .forklaring dt { font-weight: 700; margin-top: 0.5rem; }
 .forklaring dd { margin: 0; color: var(--dempet); }
+
+/* Kapitler delt i temagrupper på Øv-siden og i heftet */
+.kapittelgruppe { margin: 1.75rem 0 0; scroll-margin-top: 1rem; }
+.kapittelgruppe h3 { margin: 0 0 0.5rem; font-size: 1.2rem; }
+.gruppehode { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem 1rem; flex-wrap: wrap; }
+.gruppehode h3 { margin: 0; }
+.kapittelgruppe .oversikt { margin-top: 0.5rem; margin-bottom: 0; }
+.gruppesnarveier { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.5rem 0 0; }
+.gruppesnarveier a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0.25rem 0.9rem; border: 1px solid var(--linje);
+  border-radius: 99px; background: var(--flate); color: var(--tekst); text-decoration: none; font-size: 0.95rem;
+}
+.gruppesnarveier a:hover { border-color: var(--primar); }
