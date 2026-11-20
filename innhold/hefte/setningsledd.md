@@ -2,7 +2,7 @@
 tittel: Setningsledd og setninger
 nummer: '18'
 rekkefolge: 18
-gruppe: sprak
+gruppe: rettskriving
 status: godkjent
 nivaa: ['10']
 ---

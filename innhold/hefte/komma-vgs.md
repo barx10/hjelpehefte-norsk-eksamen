@@ -2,7 +2,7 @@
 tittel: Flere kommaregler
 nummer: '7.1'
 rekkefolge: 7.1
-gruppe: sprak
+gruppe: rettskriving
 status: godkjent
 nivaa: ['vg3']
 ---

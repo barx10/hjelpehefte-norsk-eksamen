@@ -2,7 +2,7 @@
 tittel: Slik bygger du et avsnitt
 nummer: '13'
 rekkefolge: 13
-gruppe: sprak
+gruppe: skriving
 status: godkjent
 nivaa: ['10', 'vg3']
 ---

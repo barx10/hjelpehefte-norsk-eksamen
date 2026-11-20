@@ -2,7 +2,7 @@
 tittel: De viktigste kommareglene
 nummer: '7'
 rekkefolge: 7
-gruppe: sprak
+gruppe: rettskriving
 nivaa: ['10', 'vg3']
 ---
 

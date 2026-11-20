@@ -2,7 +2,7 @@
 tittel: Setningsoppbygging
 nummer: '17'
 rekkefolge: 17
-gruppe: sprak
+gruppe: rettskriving
 status: godkjent
 nivaa: ['vg3']
 ---
