@@ -1,0 +1,184 @@
+- id: tems-fk-hva
+  type: flashkort
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  forside: "Hva er en temasetning?"
+  bakside: "Den første setningen i avsnittet. Den sier hva avsnittet skal vise, som en påstand du kan underbygge med belegg."
+- id: tems-fk-krav
+  type: flashkort
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  forside: "Tre krav til en god temasetning"
+  bakside: "Den er en påstand du kan vise med belegg, den har ett poeng, og den knytter seg til oppgaven."
+- id: tems-velg-1
+  type: flervalg
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  spm: "Hvilken temasetning passer best til avsnittet?"
+  utdrag: "___ Forfatteren skriver: «Hun løper. Snur seg. Løper videre.» Setningene er så korte at det nesten blir vanskelig å puste når man leser. Slik kjenner leseren på redselen sammen med henne."
+  alternativer: ["Det korte, hakkete språket speiler uroen i hovedpersonen.", "I dette avsnittet skal jeg skrive om språket.", "Novellen har mange setninger.", "Hvorfor skriver forfatteren slik?"]
+  riktig: 0
+  forklaring: "Den beste temasetningen er en påstand som forklaringen i avsnittet viser. De andre sier hva du gjør, er for generelle eller er et spørsmål."
+- id: tems-velg-2
+  type: flervalg
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  spm: "Hvilken temasetning passer best til avsnittet?"
+  utdrag: "___ Hun skriver at hun har jobbet på sykehus i tjue år. Når hun forteller om lange vakter, forstår leseren at hun vet hva hun snakker om. Det gjør det vanskeligere å avvise kravet hennes om flere ansatte."
+  alternativer: ["Skribenten bygger troverdighet ved å vise til egen erfaring.", "Teksten er interessant og godt skrevet.", "Skribenten heter Anne og er sykepleier.", "Etos er en appellform."]
+  riktig: 0
+  forklaring: "Avsnittet handler om hvordan erfaringen gjør skribenten troverdig. Den første temasetningen sier akkurat det."
+- id: tems-velg-3
+  type: flervalg
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  spm: "Hvilken temasetning passer best til avsnittet i et debattinnlegg?"
+  utdrag: "___ Ved skolen vår ble friminuttet utvidet fra 15 til 25 minutter i fjor, og lærerne melder om mer ro etter pausen. Elevene får brukt kroppen og kommer tilbake klare til å jobbe."
+  alternativer: ["Lengre friminutt gir bedre konsentrasjon i timene.", "Friminutt er noe alle skoler har.", "Jeg skal nå skrive om friminutt.", "Ved skolen vår ble friminuttet lengre i fjor."]
+  riktig: 0
+  forklaring: "Temasetningen skal være argumentet. Den siste setningen er et belegg og hører hjemme etter temasetningen."
+- id: tems-velg-4
+  type: flervalg
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  spm: "Hvilken temasetning passer best til avsnittet?"
+  utdrag: "___ I første strofe står det at «sola brenner i brystet», men i neste strofe «senker natta seg i meg». De to bildene står rett etter hverandre. Slik ser leseren at hun drives mellom håp og fortvilelse."
+  alternativer: ["Kontrasten mellom lys og mørke viser at hovedpersonen er splittet.", "Diktet har mange ord om farger.", "Lys og mørke er motsetninger.", "Jeg liker diktet godt."]
+  riktig: 0
+  forklaring: "Temasetningen sier hva kontrasten viser om hovedpersonen. Det er dette resten av avsnittet forklarer."
+- id: tems-feil-1
+  type: flervalg
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  spm: "Hva er galt med denne temasetningen?"
+  utdrag: "I dette avsnittet skal jeg skrive om virkemidler."
+  alternativer: ["Den sier hva skribenten skal gjøre, ikke hva avsnittet viser.", "Den er for lang.", "Den mangler sitat.", "Den er en påstand."]
+  riktig: 0
+  forklaring: "«I dette avsnittet skal jeg ...» forteller om skrivingen din. En temasetning skal være en påstand om teksten eller saken."
+- id: tems-feil-2
+  type: flervalg
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  spm: "Hva er galt med denne temasetningen?"
+  utdrag: "Forfatteren skriver: «Natten er en vegg mellom oss.»"
+  alternativer: ["Den starter med belegget i stedet for påstanden.", "Den har feil tegnsetting.", "Den er for kort.", "Den er en påstand."]
+  riktig: 0
+  forklaring: "Et sitat er et belegg. Først må leseren vite hva sitatet skal vise."
+- id: tems-feil-3
+  type: flervalg
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  spm: "Hva er galt med denne temasetningen?"
+  utdrag: "Teksten bruker mange virkemidler."
+  alternativer: ["Den er så generell at den kunne stått i nesten hvilken som helst tekst.", "Den inneholder et fagord.", "Den er for presis.", "Den har to poeng."]
+  riktig: 0
+  forklaring: "«Teksten bruker mange virkemidler» sier ikke hvilke virkemidler eller hva de gjør. Gjør den konkret."
+- id: tems-feil-4
+  type: flervalg
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  spm: "Hva er galt med denne temasetningen?"
+  utdrag: "Gratis skolemat gir elevene mer energi, og dessuten bør skolen innføre leksefrie helger."
+  alternativer: ["Den har to poeng, og bør deles i to avsnitt.", "Den mangler et fagbegrep.", "Den er et spørsmål.", "Den er for kort."]
+  riktig: 0
+  forklaring: "Ett avsnitt skal ha ett poeng. Her blandes skolemat og leksefri, og det blir to avsnitt."
+- id: tems-sort-1
+  type: sortering
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  oppdrag: "Er setningen en god temasetning eller ikke?"
+  kategorier: ["God temasetning", "Ikke en temasetning"]
+  elementer:
+    - tekst: "Gjentakelsen av «vi går» viser at personene ikke gir opp."
+      kategori: 0
+    - tekst: "Hun skriver: «Vi går. Vi går. Vi går videre.»"
+      kategori: 1
+    - tekst: "Skjermfrie klasserom gir mer muntlig aktivitet."
+      kategori: 0
+    - tekst: "Hva skjer egentlig i slutten?"
+      kategori: 1
+    - tekst: "Fortelleren holder avstand til hovedpersonen."
+      kategori: 0
+    - tekst: "Nå skal jeg skrive om fortelleren."
+      kategori: 1
+  forklaring: "En temasetning er en påstand med ett poeng. Sitater, spørsmål og setninger om hva du skal gjøre, er ikke temasetninger."
+- id: tems-sort-mangler
+  type: sortering
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  oppdrag: "Hva mangler i avsnittet?"
+  kategorier: ["Temasetning", "Belegg", "Forklaring"]
+  elementer:
+    - tekst: "Forfatteren skriver: «Han smilte.» Smilet viser at han har tilgitt henne."
+      kategori: 0
+    - tekst: "Metaforen viser at avstanden er stor. Den gjør ensomheten konkret og fysisk."
+      kategori: 1
+    - tekst: "Kontrasten viser at de er ulike. Hun skriver: «Mia lo høyt, mens Jonas satt stille.»"
+      kategori: 2
+  forklaring: "Et fullt avsnitt har temasetning, belegg og forklaring. Det første avsnittet starter rett på sitatet, det andre har ikke noe sitat eller eksempel, og det tredje sier aldri hva sitatet viser."
+- id: tems-mark-1
+  type: marker
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  oppdrag: "Marker temasetningen i avsnittet."
+  tekst: "Det var ei kald natt. [[Naturen speiler følelsene til hovedpersonen.]] Når hun er trist, regner det, og når hun til slutt tilgir broren, bryter sola gjennom skyene. Været blir slik et bilde på hva som skjer inne i henne."
+  forklaring: "Temasetningen er påstanden resten av avsnittet viser. Første setning er bare en beskrivelse og hører egentlig ikke hjemme her."
+- id: tems-mark-2
+  type: marker
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  oppdrag: "Marker temasetningen i avsnittet."
+  tekst: "[[Mobilforbud i timene gir elevene bedre arbeidsro.]] På skolen vår ble forbudet innført i høst. Nå forteller både lærere og elever at det er lettere å konsentrere seg. Arbeidsro er en forutsetning for læring, og derfor bør forbudet bli."
+  forklaring: "Den første setningen er påstanden. Resten er belegg, forklaring og kobling."
+- id: tems-rekke-1
+  type: rekkefolge
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  oppdrag: "Sett setningene i riktig rekkefølge. Start med temasetningen."
+  elementer: ["Lengre friminutt gir bedre konsentrasjon i timene.", "Ved skolen vår ble friminuttet utvidet med ti minutter i fjor.", "Lærerne melder at det er mer ro i timene etter pausen.", "Ti minutter ekstra ute er derfor ikke tapt tid, men en investering i læringen."]
+  forklaring: "Temasetning, belegg, forklaring og kobling."
+- id: tems-skriv-1
+  type: skriv
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  oppdrag: "Skriv en temasetning til avsnittet. Den skal være en påstand som resten av avsnittet viser."
+  utdrag: "___ Når hun får beskjed om at faren er syk, «trekker skyene seg sammen over fjorden». I slutten, da hun har bestemt seg for å reise hjem, skinner sola. Været følger altså følelsene hennes og gjør dem synlige for leseren."
+  ord: { min: 6, maks: 25 }
+  kriterier: ["Temasetningen er en påstand, ikke et spørsmål.", "Den har ett poeng.", "Den passer til resten av avsnittet."]
+  modelltekst: "Forfatteren bruker været til å vise hva hovedpersonen føler."
+- id: tems-skriv-2
+  type: skriv
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  oppdrag: "Skriv en temasetning til avsnittet i et debattinnlegg."
+  utdrag: "___ I Finland har alle elever fått et varmt måltid på skolen i mange tiår. Elever som er sultne, klarer ikke å følge med i timen. Når alle får mat, får også alle de samme mulighetene til å lære."
+  ord: { min: 6, maks: 25 }
+  kriterier: ["Temasetningen er argumentet ditt.", "Den har ett poeng.", "Den passer til eksemplet i avsnittet."]
+  modelltekst: "Gratis skolemat gjør det lettere for alle elever å lære."
+- id: tems-skriv-3
+  type: skriv
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  oppdrag: "Skriv om den svake temasetningen slik at den blir en tydelig påstand. Bruk temaet ensomhet."
+  starttekst: "I dette avsnittet skal jeg skrive om ensomhet i novellen."
+  ord: { min: 6, maks: 25 }
+  kriterier: ["Temasetningen er en påstand.", "Den sier noe om ensomhet.", "Den sier ikke «i dette avsnittet skal jeg»."]
+  modelltekst: "Ensomheten i novellen kommer tydeligst fram gjennom stillheten i huset."
