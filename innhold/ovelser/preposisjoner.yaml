@@ -1,0 +1,574 @@
+- id: prep-fk-ipa
+  type: flashkort
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "I eller på om byer?"
+  bakside: "De fleste byer har «i»: i Bergen, i Tromsø. Mange byer og tettsteder i innlandet har «på»: på Lillehammer, på Hamar. Øyer har «på»: på Island."
+- id: prep-sted-1
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Bestemor bor ___ Hamar."
+  alternativer: ["på", "i", "til", "ved"]
+  riktig: 0
+  forklaring: "Hamar er en by i innlandet, og der sier man «på Hamar»."
+- id: prep-sted-2
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Vi var ___ Bergen i ferien."
+  alternativer: ["i", "på", "til", "ved"]
+  riktig: 0
+  forklaring: "Bergen ligger ved kysten. Der sier man «i Bergen»."
+- id: prep-sted-3
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Hun har familie ___ Island."
+  alternativer: ["på", "i", "til", "ved"]
+  riktig: 0
+  forklaring: "Island er en øy, og om øyer bruker vi «på»."
+- id: prep-sted-4
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Mange flyktninger ___ Europa kommer fra Syria."
+  alternativer: ["i", "på", "ved", "til"]
+  riktig: 0
+  forklaring: "Om land og verdensdeler bruker vi «i»."
+- id: prep-sted-5
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Jeg er ___ skolen til klokka tre."
+  alternativer: ["på", "i", "til", "ved"]
+  riktig: 0
+  forklaring: "Vi sier «på skolen», «på jobb» og «på butikken» om steder vi går til for å gjøre noe."
+- id: prep-sted-6
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Barna leker ___ parken."
+  alternativer: ["i", "på", "til", "om"]
+  riktig: 0
+  forklaring: "Parken har grenser rundt seg, og da bruker vi «i»."
+- id: prep-sted-7
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Jeg så intervjuet ___ TV i går."
+  alternativer: ["på", "i", "om", "ved"]
+  riktig: 0
+  forklaring: "Vi sier «på TV», «på radio» og «på nett»."
+- id: prep-sted-8
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Jeg leste om saken ___ avisa."
+  alternativer: ["i", "på", "om", "til"]
+  riktig: 0
+  forklaring: "Om trykte medier som aviser og bøker bruker vi «i»."
+- id: prep-sted-9
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Til sommeren reiser vi ___ Tromsø."
+  alternativer: ["til", "i", "på", "om"]
+  riktig: 0
+  forklaring: "Når det er en bevegelse mot et sted, bruker vi «til»."
+- id: prep-ff-sted-1
+  type: finnfeil
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Etter skolen gikk vi i kino sammen."
+  feil: "i"
+  rettelse: "på"
+  forklaring: "Det heter «på kino», på samme måte som «på skolen» og «på jobb»."
+- id: prep-ff-sted-2
+  type: finnfeil
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Han jobber som lærer på Oslo."
+  feil: "på"
+  rettelse: "i"
+  forklaring: "Om de fleste byer, og alltid om Oslo, bruker vi «i»."
+- id: prep-sort-sted
+  type: sortering
+  kapittel: preposisjoner
+  undertema: Sted
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Bruker vi «i» eller «på»?"
+  kategorier: ["i", "på"]
+  elementer:
+    - tekst: "___ Norge"
+      kategori: 0
+    - tekst: "___ kino"
+      kategori: 1
+    - tekst: "___ skogen"
+      kategori: 0
+    - tekst: "___ Lillehammer"
+      kategori: 1
+    - tekst: "___ avisa"
+      kategori: 0
+    - tekst: "___ nett"
+      kategori: 1
+    - tekst: "___ Trondheim"
+      kategori: 0
+    - tekst: "___ biblioteket"
+      kategori: 1
+  forklaring: "Land, kystbyer og steder med grenser rundt har «i». Innlandsbyer, øyer og steder vi går til for å gjøre noe, har ofte «på»."
+- id: prep-fk-isommer
+  type: flashkort
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "I sommer eller om sommeren?"
+  bakside: "«I sommer» betyr denne sommeren. «Om sommeren» betyr hver sommer."
+- id: prep-fk-siden
+  type: flashkort
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hvordan sier du «two years ago» på norsk?"
+  bakside: "«For to år siden.» Ikke glem «for»."
+- id: prep-tid-1
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Vi skal til Spania ___ sommer."
+  alternativer: ["i", "om", "på", "for"]
+  riktig: 0
+  forklaring: "«I sommer» betyr denne sommeren som kommer eller som er nå."
+- id: prep-tid-2
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "___ vinteren går vi på ski hver helg."
+  alternativer: ["Om", "I", "På", "For"]
+  riktig: 0
+  forklaring: "«Om vinteren» betyr hver vinter. Det passer med «hver helg»."
+- id: prep-tid-3
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Prøven er ___ fredag."
+  alternativer: ["på", "om", "i", "for"]
+  riktig: 0
+  forklaring: "«På fredag» betyr denne fredagen."
+- id: prep-tid-4
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "___ mandagen har vi alltid gym."
+  alternativer: ["Om", "På", "I", "For"]
+  riktig: 0
+  forklaring: "«Om mandagen» betyr hver mandag. Ordet «alltid» viser at det skjer hver uke."
+- id: prep-tid-5
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Hun bodde i Sverige ___ tre år."
+  alternativer: ["i", "for", "på", "om"]
+  riktig: 0
+  forklaring: "Når du sier hvor lenge noe varte, bruker du «i». «For tre år» er påvirket av engelsk."
+- id: prep-tid-6
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Eksamen er ___ to uker."
+  alternativer: ["om", "i", "for", "på"]
+  riktig: 0
+  forklaring: "«Om to uker» sier hvor lenge det er til noe skjer."
+- id: prep-tid-7
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Boka kom ut ___ 2019."
+  alternativer: ["i", "på", "om", "for"]
+  riktig: 0
+  forklaring: "Om årstall bruker vi «i»."
+- id: prep-tid-8
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Ibsen skrev Et dukkehjem ___ 1800-tallet."
+  alternativer: ["på", "i", "om", "for"]
+  riktig: 0
+  forklaring: "Om århundrer og tiår bruker vi «på»: på 1800-tallet, på 90-tallet."
+- id: prep-ff-tid-1
+  type: finnfeil
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Vi flyttet hit tre år siden."
+  feil: "tre år siden"
+  rettelse: "for tre år siden"
+  forklaring: "Det heter «for tre år siden». Uten «for» er det en direkte oversettelse fra engelsk."
+- id: prep-ff-tid-2
+  type: finnfeil
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Jeg ventet på bussen for en halv time."
+  feil: "for"
+  rettelse: "i"
+  forklaring: "Når du sier hvor lenge noe varte, heter det «i en halv time»."
+- id: prep-ff-tid-3
+  type: finnfeil
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Mobiltelefonen ble vanlig på 2000."
+  feil: "på"
+  rettelse: "i"
+  forklaring: "Om årstall bruker vi «i»: i 2000. «På 2000-tallet» er riktig om hele tiåret."
+- id: prep-match-tid
+  type: matching
+  kapittel: preposisjoner
+  undertema: Tid
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Koble uttrykket til hva det betyr."
+  par:
+    - venstre: "i sommer"
+      hoyre: "denne sommeren"
+    - venstre: "om sommeren"
+      hoyre: "hver sommer"
+    - venstre: "for to år siden"
+      hoyre: "to år tilbake i tid"
+    - venstre: "om to år"
+      hoyre: "to år fram i tid"
+    - venstre: "i to år"
+      hoyre: "i et tidsrom på to år"
+  forklaring: "Preposisjonen avgjør om du snakker om nå, om noe som gjentar seg, om fortid, om framtid eller om hvor lenge."
+- id: prep-fk-interesse
+  type: flashkort
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Interessert i eller interessert for?"
+  bakside: "Interessert «i». Men substantivet heter interesse «for»: «Hun er interessert i musikk. Hun har stor interesse for musikk.»"
+- id: prep-fk-enig
+  type: flashkort
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Enig med eller enig i?"
+  bakside: "Du er enig «med» en person og enig «i» en sak: «Jeg er enig med Sara. Jeg er enig i forslaget.»"
+- id: prep-fast-1
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Han er veldig interessert ___ historie."
+  alternativer: ["i", "for", "av", "på"]
+  riktig: 0
+  forklaring: "Det heter «interessert i». Substantivet heter derimot «interesse for»."
+- id: prep-fast-2
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Hun har stor interesse ___ politikk."
+  alternativer: ["for", "i", "av", "på"]
+  riktig: 0
+  forklaring: "Substantivet «interesse» tar «for», selv om adjektivet heter «interessert i»."
+- id: prep-fast-3
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Foreldrene er stolte ___ henne."
+  alternativer: ["av", "på", "over", "for"]
+  riktig: 0
+  forklaring: "Det heter «stolt av». «Stolt på» og «stolt over» er påvirket av andre språk."
+- id: prep-fast-4
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Læreren var fornøyd ___ resultatet."
+  alternativer: ["med", "av", "over", "på"]
+  riktig: 0
+  forklaring: "Det heter «fornøyd med»."
+- id: prep-fast-5
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Mange unge er opptatt ___ hvordan de ser ut."
+  alternativer: ["av", "med", "på", "i"]
+  riktig: 0
+  forklaring: "Det heter «opptatt av» når noe interesserer deg mye."
+- id: prep-fast-6
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Jeg er så lei ___ regn."
+  alternativer: ["av", "på", "for", "med"]
+  riktig: 0
+  forklaring: "Det heter «lei av»."
+- id: prep-fast-7
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Hun er redd ___ edderkopper."
+  alternativer: ["for", "av", "på", "over"]
+  riktig: 0
+  forklaring: "Det heter «redd for». «Redd av» er påvirket av engelsk «afraid of»."
+- id: prep-fast-8
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Novellen handler ___ en gutt som mister faren sin."
+  alternativer: ["om", "av", "på", "med"]
+  riktig: 0
+  forklaring: "Det heter «handle om»."
+- id: prep-fast-9
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Mobilbruk kan føre ___ dårligere søvn."
+  alternativer: ["til", "på", "med", "av"]
+  riktig: 0
+  forklaring: "Det heter «føre til» og «bidra til»."
+- id: prep-fast-10
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Jeg er enig ___ deg."
+  alternativer: ["med", "i", "på", "av"]
+  riktig: 0
+  forklaring: "Du er enig «med» en person og enig «i» en sak."
+- id: prep-fast-11
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Jeg er enig ___ forslaget om lengre friminutt."
+  alternativer: ["i", "med", "på", "av"]
+  riktig: 0
+  forklaring: "Du er enig «i» en sak og enig «med» en person."
+- id: prep-fast-12
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Det finnes mange eksempler ___ dette i teksten."
+  alternativer: ["på", "av", "for", "om"]
+  riktig: 0
+  forklaring: "Det heter «eksempel på»."
+- id: prep-fast-13
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Hva er grunnen ___ at du kom for sent?"
+  alternativer: ["til", "for", "av", "på"]
+  riktig: 0
+  forklaring: "Det heter «grunnen til» og «årsaken til»."
+- id: prep-ff-fast-1
+  type: finnfeil
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Reklamen påvirker på hvordan unge ser på seg selv."
+  feil: "påvirker på"
+  rettelse: "påvirker"
+  forklaring: "«Påvirke» skal ikke ha preposisjon etter seg: «Reklamen påvirker hvordan unge ser på seg selv.»"
+- id: prep-ff-fast-2
+  type: finnfeil
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Hun er veldig glad på hunden sin."
+  feil: "på"
+  rettelse: "i"
+  forklaring: "Det heter «glad i»."
+- id: prep-ff-fast-3
+  type: finnfeil
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Han var sint for læreren etter timen."
+  feil: "for"
+  rettelse: "på"
+  forklaring: "Det heter «sint på» noen."
+- id: prep-ff-fast-4
+  type: finnfeil
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Hun er flink på å forklare ting."
+  feil: "på"
+  rettelse: "til"
+  forklaring: "Det heter «flink til å» gjøre noe."
+- id: prep-match-fast
+  type: matching
+  kapittel: preposisjoner
+  undertema: Faste uttrykk
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Koble ordet til preposisjonen som hører til."
+  par:
+    - venstre: "stolt"
+      hoyre: "av"
+    - venstre: "fornøyd"
+      hoyre: "med"
+    - venstre: "redd"
+      hoyre: "for"
+    - venstre: "interessert"
+      hoyre: "i"
+    - venstre: "sint"
+      hoyre: "på"
+  forklaring: "Disse faste uttrykkene må læres utenat: stolt av, fornøyd med, redd for, interessert i, sint på."
+- id: prep-fk-iforhold
+  type: flashkort
+  kapittel: preposisjoner
+  undertema: I forhold til
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Når er «i forhold til» riktig?"
+  bakside: "Bare når du sammenligner, altså når du kan bytte det med «sammenlignet med»: «Norge er lite i forhold til Sverige.»"
+- id: prep-ift-1
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: I forhold til
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "I hvilken setning er «i forhold til» brukt riktig?"
+  alternativer: ["Norge har få innbyggere i forhold til Tyskland.", "Jeg har mange tanker i forhold til eksamen.", "Skolen har ansvar i forhold til elevene.", "Han var frekk i forhold til læreren."]
+  riktig: 0
+  forklaring: "Bare den første setningen sammenligner to ting. Der kan du bytte med «sammenlignet med»."
+- id: prep-ift-2
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: I forhold til
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Jeg har mange tanker ___ framtida."
+  alternativer: ["om", "i forhold til", "på", "av"]
+  riktig: 0
+  forklaring: "Du har tanker «om» noe. «I forhold til» brukes bare når du sammenligner."
+- id: prep-ift-3
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: I forhold til
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Skolen har ansvar ___ elevene."
+  alternativer: ["for", "i forhold til", "med", "om"]
+  riktig: 0
+  forklaring: "Du har ansvar «for» noen."
+- id: prep-ff-ift
+  type: finnfeil
+  kapittel: preposisjoner
+  undertema: I forhold til
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Debattinnlegget tar opp mange problemer i forhold til skjermbruk."
+  feil: "i forhold til"
+  rettelse: "med"
+  forklaring: "Her sammenligner du ikke. Skriv «problemer med skjermbruk»."
