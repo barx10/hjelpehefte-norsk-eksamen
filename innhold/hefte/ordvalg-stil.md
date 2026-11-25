@@ -6,7 +6,7 @@ gruppe: skriving
 status: godkjent
 nivaa: ['10', 'vg3']
 ingress: Presise ord, variasjon og en stil som passer sjangeren.
-undertemaer: [Presise ord, Synonymer og antonymer, Utvide og forenkle, Nyansere, Framheve, Faste uttrykk, Varier setningene, Formell stil]
+undertemaer: [Presise ord, Synonymer og antonymer, Utvide og forenkle, Nyansere, Framheve, Faste uttrykk, Varier setningene, Formell stil, Faglig språk, Vis i stedet for å fortelle]
 ---
 
 Sensor vurderer ikke bare hva du skriver, men også hvordan. En tekst med presise ord og variert språk virker mer gjennomtenkt enn en tekst med de samme poengene i vage ord.
@@ -134,3 +134,39 @@ Eksamen krever skriftlig, saklig språk.
 - **Unngå forkortelser og emojier:** skriv *for eksempel*, ikke *f.eks.* i hver setning, og *og så videre*, ikke *osv.*
 - **Jeg-form:** Bruk gjerne «jeg» i reflekterende tekst, essay og debattinnlegg. I analyse og fagartikkel skal du vise til teksten: «Teksten viser», ikke «Jeg synes teksten viser».
 - **Unngå store ord uten innhold:** *helt utrolig, fantastisk, den beste teksten noensinne*.
+
+## Faglig språk
+
+I fagartikler, analyser og kortsvar skal språket være faglig. Det betyr fire ting:
+
+| Krav | Betyr | Eksempel |
+|---|---|---|
+| **Presist** | Si det du mener, uten unødvendige ord. | «Furua er et bartre som beholder nålene om vinteren.» |
+| **Objektivt** | Hold egne følelser utenfor, og vis til teksten eller kildene. | «Teksten viser», ikke «Jeg elsker hvordan teksten viser». |
+| **Målrettet** | Skriv til leseren og formålet oppgaven gir deg. | Forklar fagord hvis leseren ikke kan dem. |
+| **Etterrettelig** | Vis hvor opplysningene kommer fra. | «... (Store norske leksikon, 2024).» |
+
+Se kapittelet om kilder og sitering for hvordan du viser til kilder.
+
+## Vis i stedet for å fortelle
+
+I skjønnlitterære tekster er det ofte sterkere å **vise** en følelse enn å **si** den. Leseren skjønner selv hvordan personen har det.
+
+| Fortelle | Vise |
+|---|---|
+| Petter var trist. | Petter **tuslet** hjem med blikket i asfalten. |
+| Anna var glad. | Anna **trippet** nedover trappa og nynnet. |
+| Han var sint. | Han **smalt** døra igjen så bildene ristet. |
+
+**Verb** gjør mye av jobben. I stedet for å skrive «gikk» og «sa» hver gang, kan du velge verb som viser stemningen.
+
+| Nøytralt | Viser følelse eller personlighet |
+|---|---|
+| gikk | luntet, tuslet, marsjerte, trippet, sjanglet, strenet |
+| sa | hvisket, mumlet, ropte, freste, skrøt, stotret |
+| så | stirret, myste, kikket, glante |
+
+Et **adverb** kan forsterke: «Hun gikk **selvsikkert** inn i rommet.»
+
+Når du analyserer, kan du bruke det samme grepet motsatt vei: Hvilke verb bruker forfatteren, og hva viser de om personen? Det kalles indirekte personskildring.
+
