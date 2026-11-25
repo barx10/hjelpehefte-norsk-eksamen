@@ -1,0 +1,83 @@
+- id: funk-fk-presis
+  type: flashkort
+  kapittel: virkemidler
+  mal: [m10-06, mvg3-01]
+  status: godkjent
+  forside: "Hvordan skriver du presist om funksjonen til et virkemiddel?"
+  bakside: "Knytt det til temaet, en person eller stemningen i akkurat denne teksten. Ikke skriv bare at det «gjør teksten spennende»."
+- id: funk-fk-test
+  type: flashkort
+  kapittel: virkemidler
+  mal: [m10-06, mvg3-01]
+  status: godkjent
+  forside: "Hvordan tester du om forklaringen er for generell?"
+  bakside: "Spør: Kunne setningen stått i en analyse av en helt annen tekst? Da er den for generell."
+- id: funk-fv-1
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06, mvg3-01]
+  status: godkjent
+  spm: "Hvilken setning forklarer funksjonen best?"
+  alternativer: ["Kontrasten mellom den varme stua og snøstormen ute viser hvor utestengt gutten føler seg.", "Kontrasten gjør teksten mer spennende å lese.", "Kontrasten fanger oppmerksomheten til leseren.", "Forfatteren bruker kontrast i teksten."]
+  riktig: 0
+  forklaring: "Den første setningen sier hva kontrasten viser om personen i akkurat denne teksten. De andre kunne stått i nesten hvilken som helst analyse."
+- id: funk-fv-2
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06, mvg3-01]
+  status: godkjent
+  spm: "Hvilken setning forklarer funksjonen best?"
+  alternativer: ["Gjentakelsen av «vent» understreker at jeget har ventet så lenge at ventingen er blitt hele livet.", "Gjentakelsen gjør at vi husker diktet.", "Gjentakelsen skaper rytme og gjør diktet fint.", "Ordet «vent» står mange ganger."]
+  riktig: 0
+  forklaring: "Den beste forklaringen knytter gjentakelsen til temaet i diktet."
+- id: funk-fv-3
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06, mvg3-01]
+  status: godkjent
+  spm: "Hva er problemet med forklaringen?"
+  utdrag: "Metaforen «jeg er et skip uten ror» får leseren til å se for seg bildet og gjør teksten spennende."
+  alternativer: ["Den er så generell at den kunne gjeldt nesten alle metaforer.", "Den mangler et fagbegrep.", "Den er skrevet i presens.", "Den er for lang."]
+  riktig: 0
+  forklaring: "At en metafor får leseren til å «se for seg bildet», gjelder alle metaforer. Si hva bildet viser om temaet eller personen."
+- id: funk-fv-4
+  type: flervalg
+  kapittel: virkemidler
+  mal: [m10-06, mvg3-01]
+  status: godkjent
+  spm: "Hvordan kan forklaringen av metaforen «jeg er et skip uten ror» bli bedre?"
+  alternativer: ["Metaforen viser at jeget har mistet retningen i livet og driver dit andre bestemmer.", "Metaforen er et fint språklig bilde som gjør teksten levende.", "Metaforen handler om et skip.", "Metaforen gjør at leseren får lyst til å lese videre."]
+  riktig: 0
+  forklaring: "Den første forklaringen sier hva bildet betyr for jeget. Et skip uten ror kan ikke styre selv."
+- id: funk-sort-1
+  type: sortering
+  kapittel: virkemidler
+  mal: [m10-06, mvg3-01]
+  status: godkjent
+  oppdrag: "Er forklaringen presis eller upresis?"
+  kategorier: ["Presis", "Upresis"]
+  elementer:
+    - tekst: "De korte setningene i slutten speiler panikken hun føler."
+      kategori: 0
+    - tekst: "De korte setningene gjør teksten mer spennende."
+      kategori: 1
+    - tekst: "Symbolet buret viser at hun føler seg fanget i ekteskapet."
+      kategori: 0
+    - tekst: "Symbolet gjør at teksten får en dypere mening."
+      kategori: 1
+    - tekst: "De mørke fargene varsler tapet i slutten av novellen."
+      kategori: 0
+    - tekst: "Fargene gjør at vi ser det for oss."
+      kategori: 1
+  forklaring: "En presis forklaring sier hva virkemidlet gjør i akkurat denne teksten."
+- id: funk-skriv-1
+  type: skriv
+  kapittel: virkemidler
+  mal: [m10-06, mvg3-01]
+  status: godkjent
+  oppdrag: "Skriv om forklaringen slik at den sier hva kontrasten viser om personen. Bruk sitatene."
+  starttekst: "I diktet står det at jeget er «stille» og «grå», mens vennene er «høylytte» og «fulle av farger». Denne kontrasten gjør diktet spennende og fanger oppmerksomheten."
+  ord: { min: 25, maks: 70 }
+  nokkelord: ["kontrast"]
+  kriterier: ["Jeg nevner virkemidlet.", "Jeg bruker sitatene som belegg.", "Jeg forklarer hva kontrasten viser om personen eller temaet."]
+  modelltekst: "Jeget beskriver seg selv som «stille» og «grå», mens vennene er «høylytte» og «fulle av farger». Kontrasten viser at jeget føler seg utenfor, og at avstanden handler om hvem hun er, ikke bare om hva hun gjør. Slik forsterker kontrasten temaet: ensomheten i å være annerledes."

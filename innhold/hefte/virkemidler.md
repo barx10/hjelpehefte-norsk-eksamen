@@ -40,3 +40,26 @@ Mange lærebøker, også på vgs, bruker personifikasjon som fellesnavn for begg
 | Høydepunkt | Det mest dramatiske øyeblikket | Det leseren har ventet på. Spenningen brister. |
 | Sirkelkomposisjon | Teksten starter og slutter likt | Gir en følelse av at lite har forandret seg. |
 | Parallellhandlinger | To handlinger skjer samtidig | Viser sammenheng eller kontrast mellom karakterer. |
+
+## Skriv presist om funksjon
+
+Det vanskeligste er ofte å forklare hva virkemidlet gjør. Mange skriver at det «gjør teksten spennende» eller «fanger oppmerksomheten». Det kan sies om nesten alle virkemidler i nesten alle tekster, og det viser ikke at du har forstått teksten.
+
+Knytt funksjonen til **temaet**, til **en person** eller til **stemningen** i akkurat denne teksten.
+
+| Upresist | Presist |
+|---|---|
+| Metaforen gjør teksten spennende. | Metaforen «hjertet er et tomt hus» viser at sorgen har tatt over alt hun var før. |
+| Kontrasten fanger oppmerksomheten. | Kontrasten mellom den varme stua og snøstormen ute viser hvor utestengt gutten føler seg. |
+| Gjentakelsen gjør at vi husker det. | Gjentakelsen av «vent» understreker at jeget har ventet så lenge at ventingen er blitt hele livet. |
+| Forfatteren bruker mange adjektiver for å beskrive. | De mørke adjektivene «grå», «kald» og «tung» skaper en dyster stemning som varsler tapet i slutten. |
+
+**Test:** Kunne setningen din stått i en analyse av en helt annen tekst? Da er den for generell.
+
+<div class="bare-nett">
+
+> **Eksempel: avsnitt om funksjon (laget for øving)**
+>
+> Et viktig virkemiddel i diktet er kontrast. Jeget beskriver seg selv som «stille» og «grå», mens vennene er «høylytte» og «fulle av farger». Kontrasten viser at jeget føler seg utenfor fellesskapet, og at avstanden ikke bare handler om hva hun gjør, men om hvem hun er. Slik forsterker kontrasten diktets tema: ensomheten i å være annerledes.
+
+</div>

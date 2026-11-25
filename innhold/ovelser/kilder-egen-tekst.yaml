@@ -1,0 +1,33 @@
+- id: kild2-fk-egne
+  type: flashkort
+  kapittel: kilder
+  mal: [m10-07, mvg1-05]
+  status: godkjent
+  forside: "Hvorfor bør du legge bort kildene før du skriver?"
+  bakside: "Da skriver du ut fra notatene dine, og språket blir ditt eget. Det viser forståelse og hindrer plagiat."
+- id: kild2-rekke
+  type: rekkefolge
+  kapittel: kilder
+  mal: [m10-07, mvg1-05]
+  status: godkjent
+  oppdrag: "Sett stegene fra kilder til egen tekst i riktig rekkefølge."
+  elementer: ["Skum kilden for å finne hovedsynspunktet.", "Les nøye og noter med egne ord.", "Sorter kildene etter hva de mener.", "Legg bort kildene og skriv ut fra notatene.", "Før opp kildene i teksten og i kildelisten."]
+  forklaring: "Fra å forstå kilden, via egne notater, til en tekst med eget språk og tydelige kilder."
+- id: kild2-fv-1
+  type: flervalg
+  kapittel: kilder
+  mal: [m10-07, mvg1-05]
+  status: godkjent
+  spm: "Hvilket notat er skrevet med egne ord?"
+  alternativer: ["Søvnforsker mener tenåringer trenger mer søvn enn voksne, og at skolestart klokka åtte er for tidlig for mange.", "«Ungdom har en forskjøvet døgnrytme som gjør det biologisk vanskelig å sovne før midnatt.»", "Ungdom har forskjøvet døgnrytme som gjør det biologisk vanskelig å sovne før midnatt.", "Kopiert fra artikkelen."]
+  riktig: 0
+  forklaring: "Det første notatet gjengir innholdet med egne ord. Det andre er et direkte sitat, og det tredje er et sitat uten anførselstegn, som kan bli plagiat."
+- id: kild2-fv-2
+  type: flervalg
+  kapittel: kilder
+  mal: [m10-07, mvg1-05]
+  status: godkjent
+  spm: "Hva er plagiat?"
+  alternativer: ["Å skrive av en kilde nesten ordrett uten å vise til den.", "Å gjengi en kilde med egne ord og oppgi kilden.", "Å sitere med anførselstegn og oppgi kilden.", "Å ha en kildeliste."]
+  riktig: 0
+  forklaring: "Plagiat er å bruke andres tekst eller ideer som om de var dine egne, også når teksten bare er litt omskrevet."
