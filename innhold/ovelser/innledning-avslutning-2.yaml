@@ -1,0 +1,97 @@
+- id: innl2-fk-trakt
+  type: flashkort
+  kapittel: innledning-avslutning
+  mal: [m10-10, mvg1-07]
+  status: godkjent
+  forside: "Hva er traktmodellen for innledninger?"
+  bakside: "Start generelt, snevre inn mot det som gjør temaet viktig nå, og avslutt med problemstillingen."
+- id: innl2-fk-typer
+  type: flashkort
+  kapittel: innledning-avslutning
+  mal: [m10-10, mvg1-07]
+  status: godkjent
+  forside: "Tre måter å starte en innledning på"
+  bakside: "Informativt med fakta eller bakgrunn, med spørsmål og kontraster, eller med et sitat."
+- id: innl2-fk-sirkel
+  type: flashkort
+  kapittel: innledning-avslutning
+  mal: [m10-10, mvg1-07]
+  status: godkjent
+  forside: "Hva er sirkelkomposisjon i en avslutning?"
+  bakside: "At avslutningen griper fatt i noe fra innledningen, for eksempel spørsmålet eller sitatet. Da henger teksten sammen fra start til slutt."
+- id: innl2-rekke-trakt
+  type: rekkefolge
+  kapittel: innledning-avslutning
+  mal: [m10-10, mvg1-07]
+  status: godkjent
+  oppdrag: "Sett setningene i rekkefølgen generelt, innsnevring og problemstilling."
+  elementer: ["De fleste av oss har en mobil innen rekkevidde hele døgnet.", "På skolen har dette ført til en heftig debatt om mobilforbud i timene.", "Bør mobilen være forbudt i skoletiden?"]
+  forklaring: "Innledningen starter bredt, snevrer inn til skolen og ender med problemstillingen."
+- id: innl2-fv-type
+  type: flervalg
+  kapittel: innledning-avslutning
+  mal: [m10-10, mvg1-07]
+  status: godkjent
+  spm: "Hvilken type innledning er dette?"
+  utdrag: "Late tenåringer eller trøtte hjerner? Debatten om når skoledagen bør starte, handler om mer enn vekkerklokka. Hva taler egentlig for og mot en senere start?"
+  alternativer: ["Spørsmål og kontrast", "Informativ", "Sitat", "Personlig fortelling"]
+  riktig: 0
+  forklaring: "Innledningen setter to fordommer opp mot hverandre som spørsmål, før den snevrer inn til problemstillingen."
+- id: innl2-fv-feil
+  type: flervalg
+  kapittel: innledning-avslutning
+  mal: [m10-10, mvg1-07]
+  status: godkjent
+  spm: "Hva er galt med innledningen?"
+  utdrag: "I byen kan du gå på kino hver dag. Jeg bor selv i en by og elsker det. Det er flere jobber og mer å gjøre. Hvor er det best å bo?"
+  alternativer: ["Den har med argumenter som hører til hoveddelen, og er personlig.", "Den er for kort.", "Den har ingen tittel.", "Den har et spørsmål."]
+  riktig: 0
+  forklaring: "Innledningen skal lede inn mot problemstillingen. Argumentene om valgmuligheter og egne erfaringer hører hjemme senere i teksten."
+- id: innl2-fv-tittel
+  type: flervalg
+  kapittel: innledning-avslutning
+  mal: [m10-10, mvg1-07]
+  status: godkjent
+  spm: "Hvilken tittel passer best til en fagartikkel som drøfter om skoledagen bør starte senere?"
+  alternativer: ["Trøtte hjerner, tidlige timer", "Skolen må starte senere!", "Skoledagen, søvn og tenåringer, når er det beste tidspunktet å starte?", "Søvn"]
+  riktig: 0
+  forklaring: "Den første er kort, fengende og viser temaet. Den andre lover en ensidig tekst, den tredje er for lang, og den fjerde sier for lite."
+- id: innl2-fv-avsl
+  type: flervalg
+  kapittel: innledning-avslutning
+  mal: [m10-10, mvg1-07]
+  status: godkjent
+  spm: "Hvilken avslutning bruker sirkelkomposisjon?"
+  alternativer: ["Vi startet med eleven som sa at hjernen fortsatt lå i senga. Etter denne drøftingen er det lett å forstå henne.", "Det var alt jeg hadde å si om skolestart.", "Et nytt argument er at bussene går for sjelden.", "Til slutt vil jeg nevne at mange lærere også er trøtte."]
+  riktig: 0
+  forklaring: "Avslutningen griper tilbake til sitatet fra innledningen. De to siste innfører nye poeng, som ikke hører hjemme i en avslutning."
+- id: innl2-sort-avsl
+  type: sortering
+  kapittel: innledning-avslutning
+  mal: [m10-10, mvg1-07]
+  status: godkjent
+  oppdrag: "Hører grepet hjemme i en avslutning?"
+  kategorier: ["Passer", "Passer ikke"]
+  elementer:
+    - tekst: "Svare på problemstillingen"
+      kategori: 0
+    - tekst: "Gripe fatt i spørsmålet fra innledningen"
+      kategori: 0
+    - tekst: "Legge fram et helt nytt argument"
+      kategori: 1
+    - tekst: "Si hva du mener etter en nyansert drøfting"
+      kategori: 0
+    - tekst: "Peke framover i tid"
+      kategori: 0
+    - tekst: "Presentere et nytt virkemiddel"
+      kategori: 1
+  forklaring: "Avslutningen skal runde av. Nye argumenter og virkemidler hører til hoveddelen."
+- id: innl2-skriv-innl
+  type: skriv
+  kapittel: innledning-avslutning
+  mal: [m10-10, mvg1-07]
+  status: godkjent
+  oppdrag: "Skriv en innledning til en fagartikkel som drøfter om det bør være aldersgrense på sosiale medier. Bruk traktmodellen og avslutt med problemstillingen."
+  ord: { min: 40, maks: 90 }
+  kriterier: ["Jeg starter generelt.", "Jeg snevrer inn mot det som gjør temaet viktig nå.", "Jeg avslutter med en tydelig problemstilling.", "Jeg har ikke med argumenter som hører til hoveddelen."]
+  modelltekst: "Sosiale medier er en del av hverdagen for nesten alle unge. Mange begynner å bruke dem lenge før de er gamle nok etter reglene, og stadig flere spør om barn beskyttes godt nok. Politikere i flere land vil derfor stramme inn. Bør det være en strengere aldersgrense for sosiale medier?"

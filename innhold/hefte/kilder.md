@@ -27,6 +27,16 @@ Når du bruker tekster eller opplysninger fra andre, må du vise hvor de kommer 
 >
 > Forfatteren skriver at «natten er en vegg mellom oss». Dette er en metafor som gjør ensomheten konkret og fysisk.
 
+## Fra kilder til egen tekst
+
+Det tryggeste er å skrive med egne ord. Da viser du at du har forstått, og du unngår plagiat. Slik går du fram:
+
+1. **Skum først.** Les raskt for å finne hovedsynspunktet i kilden.
+2. **Les nøye og noter med egne ord.** Skriv de viktigste poengene kort. Merk av direkte sitater du vil bruke, og noter hvor alt kommer fra.
+3. **Sorter.** Hvilke kilder er for, og hvilke er mot? Hva er de enige om?
+4. **Legg bort kildene.** Skriv ut fra notatene dine. Da blir språket ditt eget.
+5. **Før opp kildene.** Vis til kilden i teksten hver gang du bruker noe fra den, og lag en kildeliste til slutt.
+
 ## Plagiat
 
 Plagiat er å bruke andres tekst eller ideer som om de var dine egne. Det gjelder både ordrett kopiering og tekst som bare er litt omskrevet. Husk at KI ikke er tillatt som hjelpemiddel på eksamen.

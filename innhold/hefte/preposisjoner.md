@@ -6,10 +6,24 @@ gruppe: rettskriving
 status: godkjent
 nivaa: ['10', 'vg3']
 ingress: Riktig preposisjon om sted og tid, og i faste uttrykk.
-undertemaer: [Sted, Tid, Faste uttrykk, I forhold til]
+undertemaer: [Vanlige preposisjoner, Sted, Tid, Faste uttrykk, I forhold til]
 ---
 
 Preposisjoner er små ord som *i, på, til, om, for, med* og *av*. De er korte, men det er lett å velge feil. Mange av reglene må du lære, fordi de ikke følger logikk, og fordi de ofte er annerledes enn på engelsk og andre språk.
+
+## Vanlige preposisjoner
+
+En preposisjon står foran et substantiv eller pronomen og viser hvordan det henger sammen med resten av setningen. Mange preposisjoner kan brukes både om sted, tid og mer abstrakte forhold.
+
+| Bruk | Preposisjoner | Eksempler |
+|---|---|---|
+| **Sted** | i, på, under, over, bak, foran, ved, mellom, gjennom, hos, langs, rundt | Boka ligger **på** bordet. Hun bor **i** Oslo. Katten gjemmer seg **under** senga. Vi overnatter **hos** bestemor. |
+| **Retning** | til, fra, mot, inn i, ut av, over | Vi går **til** skolen. Hun kommer **fra** Bergen. Han løp **mot** døra. |
+| **Tid** | før, etter, i, på, om, siden, under, innen, fram til | Vi spiser **før** filmen. Jeg har bodd her **i** tre år. Han har ventet **siden** mandag. **Under** krigen var det lite mat. |
+| **Abstrakte forhold** | av, for, fra, med, mot, til, om, uten | Et dikt **av** Inger Hagerup. En gave **fra** meg. Hun skriver **med** penn. Han er **mot** forslaget. En bok **om** krigen. Kaffe **uten** sukker. |
+| **Sammensatte preposisjoner** | på grunn av, i stedet for, ved siden av, i løpet av, i henhold til | Kampen ble avlyst **på grunn av** regn. **I løpet av** natta snødde det. |
+
+Preposisjonen bestemmer ofte meningen. «Hun gikk **til** huset» og «hun gikk **fra** huset» er motsatte bevegelser. «En gave **til** meg» betyr at jeg får gaven, mens «en gave **fra** meg» betyr at jeg gir den.
 
 ## Sted
 

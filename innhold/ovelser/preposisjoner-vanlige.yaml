@@ -1,0 +1,109 @@
+- id: prep2-fk-hva
+  type: flashkort
+  kapittel: preposisjoner
+  undertema: Vanlige preposisjoner
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hva gjør en preposisjon?"
+  bakside: "Den står foran et substantiv eller pronomen og viser hvordan det henger sammen med resten av setningen, for eksempel i sted, tid eller retning: på bordet, før filmen, til skolen."
+- id: prep2-fk-sammensatt
+  type: flashkort
+  kapittel: preposisjoner
+  undertema: Vanlige preposisjoner
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hva er en sammensatt preposisjon?"
+  bakside: "En preposisjon som består av flere ord, men fungerer som én: på grunn av, i stedet for, ved siden av, i løpet av."
+- id: prep2-mark-1
+  type: marker
+  kapittel: preposisjoner
+  undertema: Vanlige preposisjoner
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Marker preposisjonene."
+  tekst: "Katten sov [[under]] senga [[hos]] bestemor, mens hunden løp [[rundt]] huset."
+  forklaring: "«Under», «hos» og «rundt» viser hvor noe er eller skjer."
+- id: prep2-mark-2
+  type: marker
+  kapittel: preposisjoner
+  undertema: Vanlige preposisjoner
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Marker preposisjonene."
+  tekst: "[[Etter]] skolen gikk vi [[gjennom]] parken [[til]] kiosken [[ved]] stasjonen."
+  forklaring: "«Etter» viser tid, «gjennom», «til» og «ved» viser sted og retning."
+- id: prep2-mark-3
+  type: marker
+  kapittel: preposisjoner
+  undertema: Vanlige preposisjoner
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Marker preposisjonene."
+  tekst: "Kampen ble avlyst [[på grunn av]] regnet, så vi så film [[i stedet for]] å spille."
+  forklaring: "«På grunn av» og «i stedet for» er sammensatte preposisjoner. De består av flere ord, men fungerer som én preposisjon."
+- id: prep2-sort-1
+  type: sortering
+  kapittel: preposisjoner
+  undertema: Vanlige preposisjoner
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Viser preposisjonen sted eller tid?"
+  kategorier: ["Sted", "Tid"]
+  elementer:
+    - tekst: "Boka ligger på bordet."
+      kategori: 0
+    - tekst: "Vi spiser før filmen."
+      kategori: 1
+    - tekst: "Hun gjemte seg bak døra."
+      kategori: 0
+    - tekst: "Han har ventet siden mandag."
+      kategori: 1
+    - tekst: "Lampa henger over sofaen."
+      kategori: 0
+    - tekst: "Vi drar etter skolen."
+      kategori: 1
+  forklaring: "Spør hvor (sted) eller når (tid). Samme preposisjon kan ofte brukes om begge deler."
+- id: prep2-fv-1
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Vanlige preposisjoner
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "Blomstene var en gave ___ klassen."
+  alternativer: ["fra", "av", "på", "om"]
+  riktig: 0
+  forklaring: "Når noen gir noe, heter det «en gave fra meg». «Av» brukes om opphav: et dikt av Hagerup."
+- id: prep2-fv-2
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Vanlige preposisjoner
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "«Mitt skip er lastet med» er et dikt ___ Inger Hagerup."
+  alternativer: ["av", "fra", "med", "for"]
+  riktig: 0
+  forklaring: "Når du sier hvem som har laget noe, bruker du «av»: et dikt av Inger Hagerup."
+- id: prep2-fv-3
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Vanlige preposisjoner
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "___ krigen var det lite mat i byene."
+  alternativer: ["under", "om", "av", "hos"]
+  riktig: 0
+  forklaring: "«Under» kan også vise tid: i løpet av en hendelse eller periode."
+- id: prep2-fv-4
+  type: flervalg
+  kapittel: preposisjoner
+  undertema: Vanlige preposisjoner
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken preposisjon passer?"
+  utdrag: "I helgen sov jeg ___ en venn."
+  alternativer: ["hos", "ved", "på", "til"]
+  riktig: 0
+  forklaring: "Når du er i hjemmet til en person, bruker du «hos»."

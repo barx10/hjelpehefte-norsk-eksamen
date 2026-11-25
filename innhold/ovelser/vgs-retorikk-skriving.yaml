@@ -1,0 +1,81 @@
+- id: retv-fk-innledende
+  type: flashkort
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: godkjent
+  forside: "Hva er innledende etos?"
+  bakside: "Troverdigheten avsenderen har før teksten leses, for eksempel på grunn av yrke, erfaring eller et kjent navn."
+- id: retv-fk-aptum
+  type: flashkort
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: godkjent
+  forside: "Hva betyr aptum?"
+  bakside: "At teksten er passende: språk, tone og innhold passer mottakeren, situasjonen og tidspunktet."
+- id: retv-etos-1
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: godkjent
+  spm: "Hva slags etos er det når en lege skriver om helse?"
+  alternativer: ["Innledende etos", "Etos i teksten", "Lånt etos", "Logos"]
+  riktig: 0
+  forklaring: "Legen har troverdighet før leseren har lest et ord, fordi yrket gir kompetanse. Det er innledende etos."
+- id: retv-etos-2
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: godkjent
+  spm: "Hva gjør avsenderen her?"
+  utdrag: "Professor i ernæring Kari Holm sier det tydelig: Uten frokost lærer barna mindre."
+  alternativer: ["Låner etos fra en ekspert", "Spiller på patos", "Bryter med aptum", "Bruker en stråmann"]
+  riktig: 0
+  forklaring: "Ved å vise til en professor bruker avsenderen andres troverdighet for å styrke sin egen."
+- id: retv-aptum-1
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: godkjent
+  spm: "Hvorfor bryter teksten med aptum?"
+  utdrag: "Søknad til kommunestyret: Heisann! Vi i elevrådet trenger typ mer penger til ballbinge asap 😎"
+  alternativer: ["Tonen er for useriøs for mottakeren og situasjonen.", "Den har for mange argumenter.", "Den er publisert på feil sted.", "Den mangler patos."]
+  riktig: 0
+  forklaring: "En søknad til kommunestyret krever saklig og høflig språk. Slang og emojier passer ikke situasjonen."
+- id: retv-avsn-1
+  type: flervalg
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: godkjent
+  spm: "Hva mangler i avsnittet?"
+  utdrag: "Ordføreren bruker direkte henvendelse. Hun sier: «Du vet hvor viktig dette er. Du har selv barn.»"
+  alternativer: ["Forklaring av funksjonen: hvilken appellform virkemidlet styrker, og hvorfor.", "Temasetning.", "Belegg fra teksten.", "Fagbegreper."]
+  riktig: 0
+  forklaring: "Avsnittet navngir virkemidlet og viser det, men sier ikke hva avsenderen vil oppnå med det."
+- id: retv-match-form
+  type: matching
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: godkjent
+  oppdrag: "Koble formuleringen til appellformen den handler om."
+  par:
+    - venstre: "Tallene underbygger påstanden om at ..."
+      hoyre: "Logos"
+    - venstre: "Avsenderen viser til egen erfaring som ..."
+      hoyre: "Etos"
+    - venstre: "De verdiladde ordene skal vekke ..."
+      hoyre: "Patos"
+    - venstre: "Språket er tilpasset målgruppen ..."
+      hoyre: "Aptum"
+  forklaring: "Fagspråket gjør analysen presis. Bruk formuleringer som peker tydelig på appellformen."
+- id: retv-skriv-avsn
+  type: skriv
+  kapittel: retorisk-analyse-vgs
+  mal: [mvg3-07, mvg1-03]
+  status: godkjent
+  oppdrag: "Skriv et avsnitt om virkemidlet i utdraget. Ha med temasetning, belegg og funksjon, og si hvilken appellform virkemidlet styrker."
+  utdrag: "Kommunen har utsatt oppussingen av skolen i fem år. Vil du at ditt barn skal sitte i et klasserom med mugg på veggene? Det er på tide at politikerne tar ansvar."
+  ord: { min: 50, maks: 110 }
+  nokkelord: ["retorisk spørsmål", "patos"]
+  nokkelordMinst: 1
+  kriterier: ["Temasetningen sier hvilket virkemiddel avsnittet handler om.", "Jeg siterer fra utdraget.", "Jeg forklarer hvilken appellform virkemidlet styrker.", "Jeg forklarer hva avsenderen vil oppnå."]
+  modelltekst: "Skribenten bruker et retorisk spørsmål for å presse leseren til enighet. Hun spør: «Vil du at ditt barn skal sitte i et klasserom med mugg på veggene?» Ingen foreldre vil svare ja, og spørsmålet gjør dermed saken personlig for leseren. Slik spiller det retoriske spørsmålet på patos, og det gjør det vanskelig å avvise kravet om å pusse opp skolen."
