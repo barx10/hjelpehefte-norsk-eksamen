@@ -1,0 +1,439 @@
+- id: dk-fk-regel
+  type: flashkort
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hovedregelen for dobbel konsonant"
+  bakside: "Kort vokal gir dobbel konsonant: takk, hatt. Lang vokal gir enkel konsonant: tak, hat."
+- id: dk-vok-1
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Huset har et rødt ___."
+  alternativer: ["tak", "takk", "tagg"]
+  riktig: 0
+  forklaring: "Vokalen i «tak» er lang, og da er det enkel konsonant. «Takk» sier du når du får noe."
+- id: dk-vok-2
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Tusen ___ for hjelpen!"
+  alternativer: ["takk", "tak", "tack"]
+  riktig: 0
+  forklaring: "Vokalen er kort, og da er det dobbel konsonant."
+- id: dk-vok-3
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Kan jeg låne en ___ å skrive med?"
+  alternativer: ["penn", "pen", "pænn"]
+  riktig: 0
+  forklaring: "Vokalen i «penn» er kort. «Pen» med lang vokal betyr fin å se på."
+- id: dk-vok-4
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Hun hadde på seg en ___ genser."
+  alternativer: ["pen", "penn", "peen"]
+  riktig: 0
+  forklaring: "Her betyr ordet fin å se på. Vokalen er lang, og da er det enkel n."
+- id: dk-vok-5
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Han hadde en svart ___ på hodet."
+  alternativer: ["hatt", "hat", "hatd"]
+  riktig: 0
+  forklaring: "Vokalen er kort, og da er det dobbel t. «Hat» med lang vokal er det motsatte av kjærlighet."
+- id: dk-vok-6
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Vi må ___ om fem minutter."
+  alternativer: ["komme", "kome", "kåmme"]
+  riktig: 0
+  forklaring: "Vokalen i «komme» er kort og står mellom konsonanten og en ny vokal. Da er det dobbel m."
+- id: dk-vok-7
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Vi ___ lenge på bussen."
+  alternativer: ["ventet", "vennted", "ventett"]
+  riktig: 0
+  forklaring: "«Ventet» har to ulike konsonanter etter vokalen, n og t. Da trenger du ikke doble noen av dem."
+- id: dk-vok-8
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Det er en ___ dag i dag."
+  alternativer: ["fin", "finn", "fiin"]
+  riktig: 0
+  forklaring: "Vokalen i «fin» er lang, og da er det enkel n."
+- id: dk-ff-komer
+  type: finnfeil
+  ordliste: true
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Hun komer hjem klokka fem."
+  feil: "komer"
+  rettelse: "kommer"
+  forklaring: "Vokalen i «kommer» er kort. Da er det dobbel m."
+- id: dk-ff-hoper
+  type: finnfeil
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Gutten hoper over bekken."
+  feil: "hoper"
+  rettelse: "hopper"
+  forklaring: "Vokalen er kort. Da er det dobbel p."
+- id: dk-ff-kaffe
+  type: finnfeil
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Vil du ha en kopp kafe?"
+  feil: "kafe"
+  rettelse: "kaffe"
+  forklaring: "Drikken «kaffe» har kort vokal og dobbel f. «Kafé» er et sted du kan kjøpe kaffe."
+- id: dk-ff-bilde
+  type: finnfeil
+  ordliste: true
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Han tok et billde av utsikten."
+  feil: "billde"
+  rettelse: "bilde"
+  forklaring: "Etter vokalen kommer to ulike konsonanter, l og d. Da skal ingen av dem dobles."
+- id: dk-ff-sykel
+  type: finnfeil
+  ordliste: true
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Jeg syklet hjem på den nye sykelen min."
+  feil: "sykelen"
+  rettelse: "sykkelen"
+  forklaring: "Vokalen i «sykkel» er kort. Da er det dobbel k."
+- id: dk-sort-1
+  type: sortering
+  kapittel: dobbel-konsonant
+  undertema: Kort og lang vokal
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Enkel eller dobbel konsonant? Velg riktig skrivemåte."
+  kategorier: ["Riktig", "Feil"]
+  elementer:
+    - tekst: "takk for maten"
+      kategori: 0
+    - tekst: "vi måtte gå"
+      kategori: 0
+    - tekst: "hun spilte fotball"
+      kategori: 0
+    - tekst: "han komer snart"
+      kategori: 1
+    - tekst: "et grønnt hus"
+      kategori: 1
+    - tekst: "hjemme"
+      kategori: 0
+    - tekst: "kopp"
+      kategori: 0
+    - tekst: "vi glemmte boka"
+      kategori: 1
+  forklaring: "«Kommer» har kort vokal og dobbel m. «Grønt» og «glemte» har en konsonant etter, og da blir dobbel konsonant enkel."
+- id: dk-fk-boying
+  type: flashkort
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hva skjer med dobbel konsonant foran en annen konsonant?"
+  bakside: "Den blir som regel enkel: kjenne, kjente. Grønn, grønt. Trygg, trygt."
+- id: dk-boy-1
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Jeg ___ meg igjen med en gang."
+  alternativer: ["kjente", "kjennte", "kjentte"]
+  riktig: 0
+  forklaring: "Når det kommer en konsonant etter, blir dobbel n enkel: kjenne, kjente."
+- id: dk-boy-2
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "De bor i et ___ hus."
+  alternativer: ["grønt", "grønnt", "grønn"]
+  riktig: 0
+  forklaring: "Foran t blir dobbel n enkel: grønn, grønt."
+- id: dk-boy-3
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Vi ___ fotball hele ettermiddagen."
+  alternativer: ["spilte", "spillte", "spiltte"]
+  riktig: 0
+  forklaring: "Foran t blir dobbel l enkel: spille, spilte."
+- id: dk-boy-4
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Det er ___ å gå hjem i lyset."
+  alternativer: ["trygt", "tryggt", "trygtt"]
+  riktig: 0
+  forklaring: "Foran t blir dobbel g enkel: trygg, trygt."
+- id: dk-boy-5
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Hun ___ nøkkelen hjemme."
+  alternativer: ["glemte", "glemmte", "glemtte"]
+  riktig: 0
+  forklaring: "Foran t blir dobbel m enkel: glemme, glemte."
+- id: dk-boy-6
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Filmen ___ klokka sju."
+  alternativer: ["begynte", "begynnte", "begynt"]
+  riktig: 0
+  forklaring: "Foran t blir dobbel n enkel: begynne, begynte."
+- id: dk-boy-7
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Han ___ for gaven."
+  alternativer: ["takket", "taket", "takkt"]
+  riktig: 0
+  forklaring: "I «takket» kommer det en vokal etter kk. Da beholder du dobbel konsonant."
+- id: dk-boy-8
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Det var et ___ barn."
+  alternativer: ["snilt", "snillt", "snill"]
+  riktig: 0
+  forklaring: "Foran t blir dobbel l enkel: snill, snilt."
+- id: dk-boy-9
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Glasset var ___ til randen."
+  alternativer: ["fullt", "fult", "full"]
+  riktig: 0
+  forklaring: "«Fullt» er et av de få ordene som beholder dobbel konsonant foran t."
+- id: dk-ff-kjennte
+  type: finnfeil
+  ordliste: true
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Hun kjennte lukten av nybakt brød."
+  feil: "kjennte"
+  rettelse: "kjente"
+  forklaring: "Foran t blir dobbel n enkel: kjenne, kjente."
+- id: dk-ff-tynnt
+  type: finnfeil
+  ordliste: true
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Han hadde et tynnt skjerf rundt halsen."
+  feil: "tynnt"
+  rettelse: "tynt"
+  forklaring: "Foran t blir dobbel n enkel: tynn, tynt."
+- id: dk-ff-drommte
+  type: finnfeil
+  ordliste: true
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "I natt drømmte jeg om sommerferien."
+  feil: "drømmte"
+  rettelse: "drømte"
+  forklaring: "Foran t blir dobbel m enkel: drømme, drømte."
+- id: dk-mark-boy
+  type: marker
+  kapittel: dobbel-konsonant
+  undertema: Bøying
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Marker ordene som er skrevet feil."
+  tekst: "Vi [[spillte]] kort og [[glemmte]] tiden. Det var [[tryggt]] og godt inne, men ute var alt hvitt."
+  forklaring: "Foran en annen konsonant blir dobbel konsonant enkel: spilte, glemte, trygt. «Hvitt» er riktig, for det heter hvit og hvitt."
+- id: dk-fk-m
+  type: flashkort
+  kapittel: dobbel-konsonant
+  undertema: Unntak
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hvorfor skrives «rom» og «hjem» med én m?"
+  bakside: "Ord som slutter på m, har enkel m selv om vokalen er kort. Når det kommer en vokal etter, dobles m: rommet, hjemme."
+- id: dk-fk-smaord
+  type: flashkort
+  kapittel: dobbel-konsonant
+  undertema: Unntak
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hvilke småord har enkel konsonant selv om vokalen er kort?"
+  bakside: "Blant annet men, han, hun, den, det, at, en, et, til, vil, skal, kan, min, din, sin, hos og vel."
+- id: dk-unn-1
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Unntak
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Jeg har et eget ___ hjemme."
+  alternativer: ["rom", "romm", "råm"]
+  riktig: 0
+  forklaring: "Ord som slutter på m, har enkel m: rom. Med vokal etter blir det dobbel: rommet."
+- id: dk-unn-2
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Unntak
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Vi spiste middag i det store ___."
+  alternativer: ["rommet", "romet", "råmmet"]
+  riktig: 0
+  forklaring: "Når det kommer en vokal etter m, blir det dobbel m: rom, rommet."
+- id: dk-unn-3
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Unntak
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Jeg ville gå, ___ det regnet."
+  alternativer: ["men", "menn", "mæn"]
+  riktig: 0
+  forklaring: "«Men» er et småord med enkel n. «Menn» er flertall av mann."
+- id: dk-unn-4
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Unntak
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Vi ___ dra i morgen."
+  alternativer: ["skal", "skall", "skaal"]
+  riktig: 0
+  forklaring: "«Skal» er et småord med enkel l. «Skall» er det ytterste laget på et egg eller en frukt."
+- id: dk-unn-5
+  type: flervalg
+  kapittel: dobbel-konsonant
+  undertema: Unntak
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Hun ___ ikke gå hjem."
+  alternativer: ["vil", "vill", "vile"]
+  riktig: 0
+  forklaring: "«Vil» er et småord med enkel l. «Vill» betyr ikke temmet, som et vilt dyr."
+- id: dk-ff-somm
+  type: finnfeil
+  ordliste: true
+  kapittel: dobbel-konsonant
+  undertema: Unntak
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Boka somm jeg leste, var spennende."
+  feil: "somm"
+  rettelse: "som"
+  forklaring: "Ord som slutter på m, har enkel m. «Som» er dessuten et småord."
+- id: dk-ff-tilll
+  type: finnfeil
+  ordliste: true
+  kapittel: dobbel-konsonant
+  undertema: Unntak
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Vi gikk till butikken etter skolen."
+  feil: "till"
+  rettelse: "til"
+  forklaring: "«Til» er et småord med enkel l."
+- id: dk-ff-hjemm
+  type: finnfeil
+  ordliste: true
+  kapittel: dobbel-konsonant
+  undertema: Unntak
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Vi dro hjemm etter kampen."
+  feil: "hjemm"
+  rettelse: "hjem"
+  forklaring: "Ord som slutter på m, har enkel m. Med vokal etter blir det dobbel: hjemme."
+- id: dk-ff-hjeme
+  type: finnfeil
+  ordliste: true
+  kapittel: dobbel-konsonant
+  undertema: Unntak
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "I går var jeg hjeme hele dagen."
+  feil: "hjeme"
+  rettelse: "hjemme"
+  forklaring: "Når det kommer en vokal etter m, blir det dobbel m: hjem, hjemme."

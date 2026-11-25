@@ -1,0 +1,68 @@
+- id: rydd-fk-viktigst
+  type: flashkort
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  forside: "Hva betyr «det viktigste først» i et avsnitt?"
+  bakside: "At avsnittet starter med temasetningen, altså hovedpoenget. Så kommer belegg og eksempler, og til slutt en konklusjon."
+- id: rydd-fk-kommentar
+  type: flashkort
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  forside: "Hva er kommentarsetninger?"
+  bakside: "Setningene mellom temasetningen og avslutningen. De utdyper poenget med belegg, eksempler og forklaringer."
+- id: rydd-fv-1
+  type: flervalg
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  spm: "Hvorfor er avsnittet vanskelig å følge?"
+  utdrag: "Jonas postet et bilde fra hytteturen. Ali så det, men han var ikke invitert. En ulempe med sosiale medier er at det blir synlig for alle hvem som er med og hvem som ikke er det."
+  alternativer: ["Eksemplet kommer før leseren vet hva avsnittet handler om.", "Det har for mange tekstbindere.", "Det er skrevet i presens.", "Det har ingen eksempler."]
+  riktig: 0
+  forklaring: "Avsnittet bryter med «det viktigste først». Temasetningen, den siste setningen, burde stått først."
+- id: rydd-fv-2
+  type: flervalg
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  spm: "Hvilken setning hører ikke hjemme i avsnittet?"
+  utdrag: "Å sykle til skolen er et lurt valg. Sykling er bra for helsa. Bilkø er et stort problem i byen. Mange får mer energi når de sykler."
+  alternativer: ["Bilkø er et stort problem i byen.", "Sykling er bra for helsa.", "Mange får mer energi når de sykler.", "Å sykle til skolen er et lurt valg."]
+  riktig: 0
+  forklaring: "Avsnittet handler om hvorfor sykling er lurt for den som sykler. Bilkø er et annet poeng og hører til et annet avsnitt."
+- id: rydd-rekke-1
+  type: rekkefolge
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  oppdrag: "Rydd i avsnittet. Sett setningene i rekkefølgen temasetning, eksempel, forklaring og konklusjon."
+  elementer: ["En fordel med sosiale medier er at du kan finne venner med samme interesser.", "Tenk deg en elev på en liten skole som er den eneste som spiller sjakk.", "På nettet kan hun finne andre som deler interessen, og spille mot dem hver dag.", "Slik kan sosiale medier gjøre at færre føler seg alene."]
+  forklaring: "Det viktigste først: temasetningen. Så eksemplet, forklaringen og til slutt konklusjonen."
+- id: rydd-rekke-2
+  type: rekkefolge
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  oppdrag: "Rydd i analyseavsnittet. Start med temasetningen."
+  elementer: ["Ordvalget viser hvordan faren endrer seg gjennom novellen.", "I starten beskrives han som «rak» og «bestemt».", "Mot slutten «sleper» han seg over gulvet og «famler» etter døra.", "Dermed ser leseren hvor hardt sorgen har rammet ham."]
+  forklaring: "Temasetningen sier hva avsnittet vil vise. Sitatene er belegg, og den siste setningen konkluderer."
+- id: rydd-rekke-3
+  type: rekkefolge
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  oppdrag: "Rydd i avsnittet. Start med temasetningen."
+  elementer: ["Det er mange måter hver enkelt kan bidra til et bedre klima på.", "Et tiltak flere peker på, er å spise mindre kjøtt.", "Et annet tiltak er å reise kollektivt i stedet for å kjøre bil.", "Alt i alt kan små endringer i hverdagen gjøre en forskjell."]
+  forklaring: "Avsnittet starter med det overordnede poenget, gir to tiltak og avslutter med en konklusjon."
+- id: rydd-skriv-1
+  type: skriv
+  kapittel: avsnitt
+  mal: [m10-12, mvg1-11]
+  status: godkjent
+  oppdrag: "Skriv om avsnittet slik at det blir ryddig. Start med en temasetning, samle poengene, bruk tekstbindere og avslutt med en konklusjon."
+  starttekst: "Lesing er veldig viktig, vi får mer fantasi. Vi lager indre bilder. Vi forstår personene, vi blir mer empatiske. Ordforrådet blir større når vi leser. Da blir vi bedre til å skrive."
+  ord: { min: 50, maks: 110 }
+  kriterier: ["Avsnittet starter med en temasetning.", "Poengene kommer i en logisk rekkefølge.", "Jeg bruker tekstbindere.", "Avsnittet slutter med en konklusjon."]
+  modelltekst: "Å lese bøker gjør oss bedre rustet for skolen og livet. For det første får vi et større ordforråd, og det gjør det lettere å skrive. Dessuten trener vi fantasien når vi lager indre bilder av det vi leser. Når vi lever oss inn i personene, blir vi i tillegg flinkere til å forstå hvordan andre har det. Derfor er lesing mye mer enn underholdning."

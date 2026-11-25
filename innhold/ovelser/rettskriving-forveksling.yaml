@@ -1,0 +1,279 @@
+- id: forv-fk-naar
+  type: flashkort
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Når eller nå?"
+  bakside: "«Når» spør om tid eller innleder en leddsetning: Når kommer du? «Nå» betyr i dette øyeblikket: Jeg kommer nå."
+- id: forv-fk-ogsa
+  type: flashkort
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Også eller og så?"
+  bakside: "«Også» betyr i tillegg: Jeg vil også ha is. «Og så» betyr og deretter: Vi spiste, og så gikk vi."
+- id: forv-fk-ligge
+  type: flashkort
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Ligge eller legge?"
+  bakside: "Gjør noen noe med tingen, er det «legge»: Jeg legger boka på bordet. Er tingen bare der, er det «ligge»: Boka ligger på bordet."
+- id: forv-fk-sitte
+  type: flashkort
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Sitte eller sette?"
+  bakside: "«Sitte» er å være i ro: Hun sitter. «Sette» er å plassere noe eller seg: Hun setter seg. Preteritum er «satt» og «satte»."
+- id: forv-naar-1
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "___ du kommer hjem, må du ringe meg."
+  alternativer: ["Når", "Nå", "Nåe", "Når at"]
+  riktig: 0
+  forklaring: "«Når» innleder en leddsetning om tid."
+- id: forv-naar-2
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Vi må gå ___, ellers kommer vi for sent."
+  alternativer: ["nå", "når", "nåe", "når at"]
+  riktig: 0
+  forklaring: "«Nå» betyr i dette øyeblikket."
+- id: forv-ogsa-1
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Hun spiller fotball, og hun spiller ___ håndball."
+  alternativer: ["også", "og så", "og sa", "osså"]
+  riktig: 0
+  forklaring: "«Også» betyr i tillegg."
+- id: forv-ogsa-2
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Vi spiste middag, ___ gikk vi en tur."
+  alternativer: ["og så", "også", "og sa", "osså"]
+  riktig: 0
+  forklaring: "«Og så» betyr og deretter."
+- id: forv-vaert-1
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Jeg har aldri ___ i Paris."
+  alternativer: ["vært", "hvert", "vert", "vart"]
+  riktig: 0
+  forklaring: "«Vært» kommer av verbet å være: er, var, har vært."
+- id: forv-vaert-2
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Vi reiser til hytta ___ år."
+  alternativer: ["hvert", "vært", "vert", "hvær"]
+  riktig: 0
+  forklaring: "«Hvert» betyr hvert eneste."
+- id: forv-ligge-1
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Telefonen ___ på kjøkkenbenken."
+  alternativer: ["ligger", "legger", "liger", "leger"]
+  riktig: 0
+  forklaring: "Telefonen er bare der. Da er det «ligger»."
+- id: forv-ligge-2
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Kan du ___ fra deg telefonen i timen?"
+  alternativer: ["legge", "ligge", "lege", "lige"]
+  riktig: 0
+  forklaring: "Noen gjør noe med telefonen. Da er det «legge»."
+- id: forv-ligge-3
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "I går ___ jeg i senga hele dagen."
+  alternativer: ["lå", "la", "ligget", "lagt"]
+  riktig: 0
+  forklaring: "Preteritum av «ligge» er «lå». Preteritum av «legge» er «la»."
+- id: forv-sitte-1
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Kan du ___ deg ned?"
+  alternativer: ["sette", "sitte", "sete", "site"]
+  riktig: 0
+  forklaring: "Du plasserer deg selv. Da er det «sette deg»."
+- id: forv-sitte-2
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Vi ___ i timen og ventet."
+  alternativer: ["satt", "satte", "sittet", "sat"]
+  riktig: 0
+  forklaring: "Preteritum av «sitte» er «satt». «Satte» er preteritum av «sette»."
+- id: forv-noe-1
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Er det ___ som vil være med på kino?"
+  alternativer: ["noen", "noe", "non", "noan"]
+  riktig: 0
+  forklaring: "Det er snakk om personer. Da er det «noen»."
+- id: forv-noe-2
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Har du ___ å drikke?"
+  alternativer: ["noe", "noen", "non", "noa"]
+  riktig: 0
+  forklaring: "«Noe» brukes om ting og om det du ikke kan telle."
+- id: forv-enda-1
+  type: flervalg
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Den nye filmen er ___ bedre enn den første."
+  alternativer: ["enda", "ennå", "endå", "ende"]
+  riktig: 0
+  forklaring: "Foran et ord som sammenligner, som «bedre», skal det stå «enda»."
+- id: forv-ff-naa
+  type: finnfeil
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Nå jeg blir stor, vil jeg bli lege."
+  feil: "Nå"
+  rettelse: "Når"
+  forklaring: "«Når» innleder en leddsetning om tid."
+- id: forv-ff-ogsa
+  type: finnfeil
+  ordliste: true
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Vi var på stranda, og vi var osså på kino."
+  feil: "osså"
+  rettelse: "også"
+  forklaring: "Det skrives «også»."
+- id: forv-ff-vaert
+  type: finnfeil
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Har du hvert i Danmark?"
+  feil: "hvert"
+  rettelse: "vært"
+  forklaring: "«Vært» kommer av å være: har vært."
+- id: forv-ff-legger
+  type: finnfeil
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Katten legger og sover i sola."
+  feil: "legger"
+  rettelse: "ligger"
+  forklaring: "Katten er i ro. Da er det «ligger»."
+- id: forv-ff-sitter
+  type: finnfeil
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Hun sitter vasen på bordet."
+  feil: "sitter"
+  rettelse: "setter"
+  forklaring: "Hun plasserer vasen. Da er det «setter»."
+- id: forv-ff-la
+  type: finnfeil
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Hun la i senga og leste."
+  feil: "la"
+  rettelse: "lå"
+  forklaring: "Hun var i ro i senga. Preteritum av «ligge» er «lå»."
+- id: forv-ff-enna
+  type: finnfeil
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Han løp ennå fortere enn sist."
+  feil: "ennå"
+  rettelse: "enda"
+  forklaring: "Foran et ord som sammenligner, som «fortere», skal det stå «enda»."
+- id: forv-sort-ligge
+  type: sortering
+  kapittel: rettskriving
+  undertema: Forvekslingsord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Ligge eller legge? Velg riktig ord for setningen."
+  kategorier: ["ligger", "legger"]
+  elementer:
+    - tekst: "Boka ___ på pulten."
+      kategori: 0
+    - tekst: "Hun ___ boka i sekken."
+      kategori: 1
+    - tekst: "Hunden ___ i kurven."
+      kategori: 0
+    - tekst: "Jeg ___ meg tidlig i kveld."
+      kategori: 1
+    - tekst: "Byen ___ ved fjorden."
+      kategori: 0
+    - tekst: "Han ___ pengene i lommeboka."
+      kategori: 1
+  forklaring: "«Legger» når noen plasserer noe. «Ligger» når noe er i ro."

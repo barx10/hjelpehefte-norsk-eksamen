@@ -22,11 +22,11 @@ export async function getStaticPaths() {
         .filter(({ liste }) => liste.length > 0)
         .map(({ k, liste }) => ({
           params: { nivaa: nivaa.id, tema: k.id },
-          props: { nivaa, tittel: kapittelNavn(k), ingress: k.data.ingress, ovelser: klient(liste), kapittelId: k.id, lenker, skrivefeil },
+          props: { nivaa, tittel: kapittelNavn(k), ingress: k.data.ingress, ovelser: klient(liste), kapittelId: k.id, lenker, skrivefeil, undertemaer: k.data.undertemaer ?? [] },
         }));
       if (ovelser.length === 0) return sider;
       return [
-        { params: { nivaa: nivaa.id, tema: 'alle' }, props: { nivaa, tittel: 'Alle temaer', ingress: 'Blandede øvelser fra hele heftet.', ovelser: klient(ovelser), kapittelId: null, lenker, skrivefeil } },
+        { params: { nivaa: nivaa.id, tema: 'alle' }, props: { nivaa, tittel: 'Alle temaer', ingress: 'Blandede øvelser fra hele heftet.', ovelser: klient(ovelser), kapittelId: null, lenker, skrivefeil, undertemaer: [] } },
         ...sider,
       ];
     }),
@@ -34,8 +34,8 @@ export async function getStaticPaths() {
   return alle.flat();
 }
 
-const { nivaa, tittel, ingress, ovelser, kapittelId, lenker, skrivefeil } = Astro.props;
-const skrivedata = { trinn: nivaa.kode === 'vg3' ? 'vg3 studieforberedende' : '10. trinn', kapitler: lenker, skrivefeil };
+const { nivaa, tittel, ingress, ovelser, kapittelId, lenker, skrivefeil, undertemaer } = Astro.props;
+const skrivedata = { trinn: nivaa.kode === 'vg3' ? 'vg3 studieforberedende' : '10. trinn', kapitler: lenker, skrivefeil, undertemaer };
 ---
 <Layout tittel={`Øv: ${tittel}`} nivaa={nivaa}>
   <nav aria-label="Brødsmulesti" class="tilbake"><a href={nurl(nivaa, '')}>Tilbake til kapitlene</a></nav>

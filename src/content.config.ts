@@ -64,6 +64,8 @@ const hefte = defineCollection({
     status: status.default('godkjent'),
     nivaa: nivaaliste,
     // Eget nummer og egen plass for et nivå, når kapittelet brukes på flere nivåer.
+    // Delene eleven kan øve på én om gangen, i den rekkefølgen de vises. Øvelser i kapittelet viser til dem med `undertema`.
+    undertemaer: z.array(z.string()).optional(),
     perNivaa: z.record(nivaakode, z.object({ nummer: z.string().optional(), rekkefolge: z.number().optional() })).optional(),
   }),
 });
@@ -88,6 +90,8 @@ const base = z.object({
   nivaa: z.preprocess((v) => (v === undefined || v === null ? undefined : tilNivaaliste(v)), z.array(nivaakode).min(1).optional()),
   status,
   vanskegrad: z.number().int().min(1).max(3).default(1),
+  // Del av kapittelet øvelsen hører til, for eksempel en ordklasse. Eleven kan da øve på én del om gangen.
+  undertema: z.string().optional(),
 });
 
 const flashkort = base.extend({
@@ -117,6 +121,8 @@ const komma = base.extend({
 // Eleven trykker på ordet som er feil. `feil` er ordet (eller ordene) slik det står i teksten.
 const finnfeil = base.extend({
   type: z.literal('finnfeil'),
+  // Feilen er alltid feil, uansett sammenheng, og tas med i den automatiske sjekken av skriveoppgaver.
+  ordliste: z.boolean().default(false),
   tekst: z.string(),
   feil: z.string(),
   rettelse: z.string(),

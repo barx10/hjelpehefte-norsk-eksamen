@@ -1,6 +1,7 @@
 - id: rett-fk-to-ord
   type: flashkort
   kapittel: rettskriving
+  undertema: Ett eller to ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Hvordan skrives «i dag», «i morgen», «i går», «til slutt» og «for eksempel»?"
@@ -8,6 +9,7 @@
 - id: rett-fk-sammensatt
   type: flashkort
   kapittel: rettskriving
+  undertema: Sammensatte ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Hvordan skrives sammensatte ord?"
@@ -15,6 +17,7 @@
 - id: rett-fk-liten
   type: flashkort
   kapittel: rettskriving
+  undertema: Stor og liten forbokstav
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Hvilke ord skrives med liten forbokstav?"
@@ -22,6 +25,7 @@
 - id: rett-fk-stor
   type: flashkort
   kapittel: rettskriving
+  undertema: Stor og liten forbokstav
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Hvilke ord skrives med stor forbokstav?"
@@ -29,6 +33,7 @@
 - id: rett-fk-a-og
   type: flashkort
   kapittel: rettskriving
+  undertema: Og eller å
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Når skriver du «å», og når skriver du «og»?"
@@ -36,6 +41,7 @@
 - id: rett-fk-de-dem
   type: flashkort
   kapittel: rettskriving
+  undertema: Forvekslingsord
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Når skriver du «de», og når skriver du «dem»?"
@@ -43,6 +49,7 @@
 - id: rett-fv-idag
   type: flervalg
   kapittel: rettskriving
+  undertema: Ett eller to ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken skrivemåte er riktig?"
@@ -52,6 +59,7 @@
 - id: rett-fv-imorgen
   type: flervalg
   kapittel: rettskriving
+  undertema: Ett eller to ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken skrivemåte er riktig?"
@@ -61,6 +69,7 @@
 - id: rett-fv-tilslutt
   type: flervalg
   kapittel: rettskriving
+  undertema: Ett eller to ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken skrivemåte er riktig?"
@@ -70,6 +79,7 @@
 - id: rett-fv-forexempel
   type: flervalg
   kapittel: rettskriving
+  undertema: Ett eller to ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken skrivemåte er riktig?"
@@ -79,6 +89,7 @@
 - id: rett-fv-bokstaver
   type: flervalg
   kapittel: rettskriving
+  undertema: Stor og liten forbokstav
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken setning har riktige små og store bokstaver?"
@@ -88,6 +99,7 @@
 - id: rett-fv-a-og
   type: flervalg
   kapittel: rettskriving
+  undertema: Og eller å
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken setning er riktig?"
@@ -97,6 +109,7 @@
 - id: rett-fv-de-dem
   type: flervalg
   kapittel: rettskriving
+  undertema: Forvekslingsord
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken setning er riktig?"
@@ -106,6 +119,7 @@
 - id: rett-fv-liten-forbokstav
   type: flervalg
   kapittel: rettskriving
+  undertema: Stor og liten forbokstav
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilket av disse ordene skrives med liten forbokstav midt i en setning?"

@@ -57,17 +57,23 @@ export async function hentBesvarelser(nivaa?: Nivaa): Promise<Besvarelse[]> {
  * i en annen sammenheng, er med: feilstavinger, ord som skal skrives i to ord, hv-ord og særskriving. Og/å, de/dem og
  * stor forbokstav er ikke med, fordi de ofte er riktige.
  */
-export async function hentSkrivefeil(nivaa?: Nivaa): Promise<{ feil: string; rettelse: string }[]> {
+export async function hentSkrivefeil(nivaa?: Nivaa): Promise<{ feil: string; rettelse: string; kapittel: string }[]> {
   const sikre = /^feil-(m-)?(stave|to-ord|tid|sammensatt)-/;
-  const sett = new Map<string, { feil: string; rettelse: string }>();
+  const sett = new Map<string, { feil: string; rettelse: string; kapittel: string }>();
   for (const o of await hentOvelser(nivaa)) {
     const d = o.data;
-    if (d.type !== 'finnfeil' || d.kapittel.id !== 'rettskriving') continue;
+    if (d.type !== 'finnfeil') continue;
+    // Øvelser i andre kapitler er med når de er merket med `ordliste: true`.
+    if (d.ordliste) {
+      sett.set(d.feil.toLowerCase(), { feil: d.feil, rettelse: d.rettelse, kapittel: d.kapittel.id });
+      continue;
+    }
+    if (d.kapittel.id !== 'rettskriving') continue;
     // Hv-ord skrevet uten h, som «vem» og «vorfor». Ikke «hverdag» og «hver dag», som begge kan være riktige.
     const hvOrd = /^feil-m-ord-/.test(o.id) && /^hv/i.test(d.rettelse) && !/^hv/i.test(d.feil);
     if (!sikre.test(o.id) && !hvOrd) continue;
     if (['og', 'å'].includes(d.rettelse.toLowerCase())) continue;
-    sett.set(d.feil.toLowerCase(), { feil: d.feil, rettelse: d.rettelse });
+    sett.set(d.feil.toLowerCase(), { feil: d.feil, rettelse: d.rettelse, kapittel: 'rettskriving' });
   }
   return [...sett.values()];
 }
@@ -148,7 +154,7 @@ export function tilKlient(o: Ovelse, kapittelTittel: string, tekster: Map<string
   const tekstKilde = t
     ? { tittel: t.data.tittel, forfatter: t.data.forfatter ?? '', lisens: t.data.lisens ?? '', lisensUrl: t.data.lisensUrl ?? '', kilde: t.data.kilde ?? '', side: t.id }
     : null;
-  const felles = { id: o.id, kapittel: kapittelTittel, utkast: o.data.status === 'utkast', tekstKilde };
+  const felles = { id: o.id, kapittel: kapittelTittel, undertema: o.data.undertema ?? null, utkast: o.data.status === 'utkast', tekstKilde };
   const d = o.data;
   switch (d.type) {
     case 'flashkort':

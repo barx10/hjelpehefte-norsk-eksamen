@@ -1,0 +1,520 @@
+- id: okl2-fk-abstrakt
+  type: flashkort
+  kapittel: ordklasser
+  undertema: Substantiv
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  forside: "Hva er et abstrakt substantiv?"
+  bakside: "Et substantiv for noe du ikke kan ta på, som tanker, følelser og ideer: frihet, sorg, vennskap."
+- id: okl2-sort-abstrakt
+  type: sortering
+  kapittel: ordklasser
+  undertema: Substantiv
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  oppdrag: "Er substantivet konkret eller abstrakt?"
+  kategorier: ["Konkret", "Abstrakt"]
+  elementer:
+    - tekst: "stol"
+      kategori: 0
+    - tekst: "frihet"
+      kategori: 1
+    - tekst: "hund"
+      kategori: 0
+    - tekst: "sorg"
+      kategori: 1
+    - tekst: "bok"
+      kategori: 0
+    - tekst: "vennskap"
+      kategori: 1
+  forklaring: "Konkrete substantiv kan du se eller ta på. Abstrakte substantiv er tanker, følelser og ideer."
+- id: okl2-mark-subst
+  type: marker
+  kapittel: ordklasser
+  undertema: Substantiv
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  oppdrag: "Marker substantivene."
+  tekst: "Etter [[middagen]] satt [[bestemor]] i [[stolen]] og fortalte om [[krigen]] og [[savnet]]."
+  forklaring: "Du kan sette «en», «ei» eller «et» foran alle substantivene: en middag, ei bestemor, en stol, en krig, et savn."
+- id: okl2-ff-harleste
+  type: finnfeil
+  kapittel: ordklasser
+  undertema: Verb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  tekst: "Jeg har leste boka to ganger."
+  feil: "leste"
+  rettelse: "lest"
+  forklaring: "Etter «har» kommer perfektum partisipp: har lest. «Leste» er preteritum."
+- id: okl2-verb-1
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Verb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilken form er riktig?"
+  utdrag: "Hun ___ ballen over gjerdet."
+  alternativer: ["har kastet", "har kastede", "har kaste", "har kasten"]
+  riktig: 0
+  forklaring: "Etter «har» kommer perfektum partisipp: har kastet."
+- id: okl2-verb-2
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Verb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilken setning blander tider?"
+  alternativer: ["Hun går ut og så seg rundt.", "Hun går ut og ser seg rundt.", "Hun gikk ut og så seg rundt.", "Hun har gått ut og sett seg rundt."]
+  riktig: 0
+  forklaring: "«Går» er presens og «så» er preteritum. Hold deg til én tid når du forteller."
+- id: okl2-verb-3
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Verb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvor skal det ikke stå «å»?"
+  alternativer: ["Jeg kan ___ svømme.", "Jeg liker ___ svømme.", "Det er gøy ___ svømme.", "Hun lærte ___ svømme."]
+  riktig: 0
+  forklaring: "Etter hjelpeverb som «kan», «skal», «vil» og «må» står det ikke «å» foran verbet."
+- id: okl2-adj-1
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Adjektiv
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord er et adjektiv?"
+  utdrag: "Hun sang en fin sang."
+  alternativer: ["fin", "fint", "synger", "sang"]
+  riktig: 0
+  forklaring: "Her beskriver «fin» substantivet «sang». Da er det et adjektiv."
+- id: okl2-mark-adj
+  type: marker
+  kapittel: ordklasser
+  undertema: Adjektiv
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  oppdrag: "Marker adjektivene."
+  tekst: "Den [[gamle]] mannen bodde i et [[lite]], [[gult]] hus ved den [[stille]] fjorden."
+  forklaring: "Adjektivene beskriver substantivene mann, hus og fjord. De kan gradbøyes: gammel, eldre, eldst."
+- id: okl2-fk-adverb
+  type: flashkort
+  kapittel: ordklasser
+  undertema: Adverb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  forside: "Hva gjør et adverb?"
+  bakside: "Det sier noe om når, hvor, hvordan eller hvor mye. Eksempler: snart, hjemme, fort, veldig, ikke."
+- id: okl2-fk-hjemhjemme
+  type: flashkort
+  kapittel: ordklasser
+  undertema: Adverb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  forside: "Hjem eller hjemme?"
+  bakside: "«Hjem» brukes om bevegelse: Jeg går hjem. «Hjemme» brukes om å være et sted: Jeg er hjemme. Det samme gjelder ut/ute, inn/inne og opp/oppe."
+- id: okl2-adv-1
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Adverb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord er et adverb?"
+  utdrag: "Hun synger fint."
+  alternativer: ["fint", "fin", "sang", "hun"]
+  riktig: 0
+  forklaring: "«Fint» sier hvordan hun synger. Det beskriver verbet og er derfor et adverb."
+- id: okl2-adv-2
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Adverb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "I morgen er jeg ___ hele dagen."
+  alternativer: ["hjemme", "hjem", "hjemmet", "hjemover"]
+  riktig: 0
+  forklaring: "Du er et sted, og da heter det «hjemme»."
+- id: okl2-adv-3
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Adverb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Hunden vil ___ og gå tur."
+  alternativer: ["ut", "ute", "utenfor", "uti"]
+  riktig: 0
+  forklaring: "Det er en bevegelse, og da heter det «ut»."
+- id: okl2-adv-4
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Adverb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hva slags adverb er «ikke»?"
+  alternativer: ["Setningsadverb", "Stedsadverb", "Tidsadverb", "Måtesadverb"]
+  riktig: 0
+  forklaring: "«Ikke» sier noe om hele setningen og gjør den nektende. Det samme gjør «kanskje», «aldri» og «dessverre»."
+- id: okl2-ff-inne
+  type: finnfeil
+  kapittel: ordklasser
+  undertema: Adverb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  tekst: "Kom inne, det er kaldt ute!"
+  feil: "inne"
+  rettelse: "inn"
+  forklaring: "Det er en bevegelse, og da heter det «inn». «Inne» brukes når du er et sted."
+- id: okl2-ff-hjemme
+  type: finnfeil
+  kapittel: ordklasser
+  undertema: Adverb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  tekst: "Etter trening syklet jeg rett hjemme."
+  feil: "hjemme"
+  rettelse: "hjem"
+  forklaring: "Bevegelse mot et sted heter «hjem». «Hjemme» brukes om å være der."
+- id: okl2-mark-adv
+  type: marker
+  kapittel: ordklasser
+  undertema: Adverb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  oppdrag: "Marker adverbene."
+  tekst: "Vi kom [[ikke]] [[hjem]] før [[sent]], og da var alle [[veldig]] slitne."
+  forklaring: "«Ikke» er setningsadverb, «hjem» er stedsadverb, «sent» er tidsadverb og «veldig» er gradsadverb."
+- id: okl2-sort-adv
+  type: sortering
+  kapittel: ordklasser
+  undertema: Adverb
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  oppdrag: "Hva slags adverb er det?"
+  kategorier: ["Tid", "Sted", "Måte", "Grad"]
+  elementer:
+    - tekst: "snart"
+      kategori: 0
+    - tekst: "ute"
+      kategori: 1
+    - tekst: "fort"
+      kategori: 2
+    - tekst: "svært"
+      kategori: 3
+    - tekst: "aldri"
+      kategori: 0
+    - tekst: "her"
+      kategori: 1
+    - tekst: "ganske"
+      kategori: 3
+  forklaring: "Tid svarer på når, sted på hvor, måte på hvordan og grad på hvor mye."
+- id: okl2-pron-1
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Pronomen
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Jeg møtte ___ på bussen."
+  alternativer: ["dem", "de", "deres", "dere"]
+  riktig: 0
+  forklaring: "Ordet er objekt i setningen. Da heter det «dem»."
+- id: okl2-pron-2
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Pronomen
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "___ kom for sent til timen."
+  alternativer: ["De", "Dem", "Deres", "Det"]
+  riktig: 0
+  forklaring: "Ordet er subjekt og gjør noe. Da heter det «de»."
+- id: okl2-ff-dem
+  type: finnfeil
+  kapittel: ordklasser
+  undertema: Pronomen
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  tekst: "Dem som kom først, fikk de beste plassene."
+  feil: "Dem"
+  rettelse: "De"
+  forklaring: "«De som» er subjekt i setningen. Subjektsformen er «de»."
+- id: okl2-pron-3
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Pronomen
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Ole vasket ___ før middag."
+  alternativer: ["seg", "ham", "han", "sin"]
+  riktig: 0
+  forklaring: "«Seg» viser tilbake til subjektet. Det er Ole som vasker seg selv."
+- id: okl2-mark-pron
+  type: marker
+  kapittel: ordklasser
+  undertema: Pronomen
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  oppdrag: "Marker pronomenene."
+  tekst: "[[Hun]] ga [[ham]] boka, men [[han]] ville ikke ha [[den]]."
+  forklaring: "Pronomenene står i stedet for substantiv. «Den» viser tilbake til boka."
+- id: okl2-fk-sin
+  type: flashkort
+  kapittel: ordklasser
+  undertema: Determinativ
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  forside: "Sin eller hans?"
+  bakside: "«Sin» viser tilbake til subjektet i samme setning: Per tok sin sykkel (sin egen). «Hans» betyr at tingen tilhører en annen: Per tok hans sykkel (en annen gutts)."
+- id: okl2-det-1
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Determinativ
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Kari leser i sin egen bok. Hvilket ord passer?"
+  utdrag: "Kari leser i ___ bok."
+  alternativer: ["sin", "hennes", "deres", "sitt"]
+  riktig: 0
+  forklaring: "«Sin» viser tilbake til subjektet Kari. «Hennes» ville betydd at boka tilhører en annen jente."
+- id: okl2-det-2
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Determinativ
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Biblioteket har fått ___ bøker."
+  alternativer: ["flere", "mer", "mye", "mange mer"]
+  riktig: 0
+  forklaring: "«Bøker» kan telles. Da heter det «flere»."
+- id: okl2-det-3
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Determinativ
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord passer?"
+  utdrag: "Vi trenger ___ tid til prøven."
+  alternativer: ["mer", "flere", "mange", "fler"]
+  riktig: 0
+  forklaring: "«Tid» kan ikke telles. Da heter det «mer»."
+- id: okl2-ff-mer
+  type: finnfeil
+  kapittel: ordklasser
+  undertema: Determinativ
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  tekst: "Det kom mer elever på festen enn vi trodde."
+  feil: "mer"
+  rettelse: "flere"
+  forklaring: "«Elever» kan telles. Da heter det «flere»."
+- id: okl2-ff-hans
+  type: finnfeil
+  kapittel: ordklasser
+  undertema: Determinativ
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  tekst: "Jonas ringte moren hans for å si at han kom sent."
+  feil: "hans"
+  rettelse: "sin"
+  forklaring: "Det er hans egen mor Jonas ringer. Når eieren er subjektet i samme setning, heter det «moren sin»."
+- id: okl2-fk-prep
+  type: flashkort
+  kapittel: ordklasser
+  undertema: Preposisjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  forside: "Hva er en preposisjon?"
+  bakside: "Et lite ord som viser forhold i tid eller rom, og som står foran et substantiv eller pronomen: på bordet, etter skolen, med henne."
+- id: okl2-prep-1
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Preposisjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord er en preposisjon?"
+  utdrag: "Katten sover under sofaen."
+  alternativer: ["under", "katten", "sover", "sofaen"]
+  riktig: 0
+  forklaring: "«Under» viser hvor katten er i forhold til sofaen."
+- id: okl2-mark-prep
+  type: marker
+  kapittel: ordklasser
+  undertema: Preposisjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  oppdrag: "Marker preposisjonene."
+  tekst: "[[Etter]] middagen gikk vi [[gjennom]] parken [[til]] huset [[ved]] sjøen."
+  forklaring: "Preposisjonene står foran et substantiv og viser forhold i tid eller rom."
+- id: okl2-fk-konj
+  type: flashkort
+  kapittel: ordklasser
+  undertema: Konjunksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  forside: "Hva er en konjunksjon?"
+  bakside: "Et ord som binder sammen ledd eller setninger av samme slag. De vanligste er og, men, eller, for og så."
+- id: okl2-konj-1
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Konjunksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord er en konjunksjon?"
+  alternativer: ["men", "fordi", "at", "hvis"]
+  riktig: 0
+  forklaring: "«Men» binder sammen to setninger som begge kan stå alene. «Fordi», «at» og «hvis» er subjunksjoner."
+- id: okl2-konj-2
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Konjunksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilken ordklasse er «for» i setningen?"
+  utdrag: "Hun gikk tidlig, for hun var sliten."
+  alternativer: ["Konjunksjon", "Preposisjon", "Subjunksjon", "Adverb"]
+  riktig: 0
+  forklaring: "Her binder «for» sammen to hele setninger og betyr «fordi». Da er det en konjunksjon. I «en gave for deg» er det en preposisjon."
+- id: okl2-mark-konj
+  type: marker
+  kapittel: ordklasser
+  undertema: Konjunksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  oppdrag: "Marker konjunksjonene."
+  tekst: "Jeg ville gå på kino, [[men]] Sara ville bowle, [[så]] vi ble hjemme [[og]] spilte kort."
+  forklaring: "«Men», «så» og «og» binder sammen setninger som kan stå alene."
+- id: okl2-mark-konj-2
+  type: marker
+  kapittel: ordklasser
+  undertema: Konjunksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  oppdrag: "Marker konjunksjonene."
+  tekst: "Vil du ha te [[eller]] kaffe? Jeg tar kaffe, [[for]] jeg er trøtt."
+  forklaring: "«Eller» binder sammen te og kaffe. «For» binder sammen to setninger og betyr «fordi»."
+- id: okl2-fk-subj
+  type: flashkort
+  kapittel: ordklasser
+  undertema: Subjunksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  forside: "Hva er en subjunksjon?"
+  bakside: "Et ord som innleder en leddsetning: at, fordi, hvis, når, om, selv om, da, som, mens. Leddsetningen kan ikke stå alene."
+- id: okl2-fk-konjsubj
+  type: flashkort
+  kapittel: ordklasser
+  undertema: Subjunksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  forside: "Hvordan skiller du konjunksjon og subjunksjon?"
+  bakside: "Sett inn «ikke». Etter en subjunksjon står «ikke» før verbet: «fordi hun ikke kom». Etter en konjunksjon står det etter: «men hun kom ikke»."
+- id: okl2-subj-1
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Subjunksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord er en subjunksjon?"
+  alternativer: ["fordi", "men", "og", "eller"]
+  riktig: 0
+  forklaring: "«Fordi» innleder en leddsetning som ikke kan stå alene. De andre er konjunksjoner."
+- id: okl2-subj-2
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Subjunksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilken setning er ufullstendig?"
+  alternativer: ["Fordi det regnet hele dagen.", "Det regnet hele dagen.", "Det regnet hele dagen, så vi ble inne.", "Vi ble inne fordi det regnet."]
+  riktig: 0
+  forklaring: "«Fordi det regnet hele dagen» er en leddsetning. Den trenger en hovedsetning for å bli en hel setning."
+- id: okl2-subj-3
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Subjunksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvor skal det være komma?"
+  utdrag: "Når vi kommer sent blir læreren sur."
+  alternativer: ["Etter «sent»", "Etter «Når»", "Etter «vi»", "Det skal ikke være komma"]
+  riktig: 0
+  forklaring: "Når leddsetningen står først, skal det være komma etter den: «Når vi kommer sent, blir læreren sur.»"
+- id: okl2-mark-subj
+  type: marker
+  kapittel: ordklasser
+  undertema: Subjunksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  oppdrag: "Marker subjunksjonene."
+  tekst: "Jeg vet [[at]] du er sliten, men [[hvis]] vi går nå, rekker vi bussen [[før]] det blir mørkt."
+  forklaring: "«At», «hvis» og «før» innleder leddsetninger. «Men» er en konjunksjon."
+- id: okl2-sort-konjsubj
+  type: sortering
+  kapittel: ordklasser
+  undertema: Subjunksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  oppdrag: "Konjunksjon eller subjunksjon?"
+  kategorier: ["Konjunksjon", "Subjunksjon"]
+  elementer:
+    - tekst: "og"
+      kategori: 0
+    - tekst: "fordi"
+      kategori: 1
+    - tekst: "men"
+      kategori: 0
+    - tekst: "hvis"
+      kategori: 1
+    - tekst: "eller"
+      kategori: 0
+    - tekst: "selv om"
+      kategori: 1
+    - tekst: "så"
+      kategori: 0
+    - tekst: "at"
+      kategori: 1
+  forklaring: "Konjunksjoner binder sammen like ledd. Subjunksjoner innleder leddsetninger."
+- id: okl2-fk-interj
+  type: flashkort
+  kapittel: ordklasser
+  undertema: Interjeksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  forside: "Hva er en interjeksjon?"
+  bakside: "Et utrop, en hilsen eller et lydord: au, hei, hysj, æsj, oi, mjau. Interjeksjoner bøyes ikke."
+- id: okl2-interj-1
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Interjeksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hvilket ord er en interjeksjon?"
+  utdrag: "Æsj, det smaker vondt!"
+  alternativer: ["Æsj", "det", "smaker", "vondt"]
+  riktig: 0
+  forklaring: "«Æsj» er et utrop som viser en følelse."
+- id: okl2-interj-2
+  type: flervalg
+  kapittel: ordklasser
+  undertema: Interjeksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  spm: "Hva kan mange interjeksjoner gjøre i en novelle?"
+  alternativer: ["Gi teksten et muntlig preg og vise følelser", "Gjøre teksten mer saklig", "Vise tid og sted", "Binde sammen avsnitt"]
+  riktig: 0
+  forklaring: "Utrop som «au» og «oi» får dialogen til å høres ut som tale og viser hva personene føler."
+- id: okl2-mark-interj
+  type: marker
+  kapittel: ordklasser
+  undertema: Interjeksjon
+  mal: [m10-12, mvg1-08]
+  status: godkjent
+  oppdrag: "Marker interjeksjonene."
+  tekst: "«[[Hei]]!» ropte hun. «[[Oi]], du har fått ny jakke.» «[[Hysj]], ikke si det til noen.»"
+  forklaring: "Hilsener og utrop som «hei», «oi» og «hysj» er interjeksjoner."

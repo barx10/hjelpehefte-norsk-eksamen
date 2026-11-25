@@ -1,0 +1,435 @@
+- id: bind2-fk-alternativ
+  type: flashkort
+  kapittel: tekstbinding
+  undertema: Tekstbindere
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Tekstbindere som viser alternativ"
+  bakside: "Eller, enten ... eller, verken ... eller."
+- id: bind2-fk-oppregning
+  type: flashkort
+  kapittel: tekstbinding
+  undertema: Tekstbindere
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Tekstbindere som viser oppregning"
+  bakside: "For det første, for det andre, sist, men ikke minst."
+- id: bind2-tb-1
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Tekstbindere
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken tekstbinder passer best?"
+  utdrag: "Mange unge vil ha lengre friminutt. ___ ønsker de at skoledagen ikke blir lengre."
+  alternativer: ["Samtidig", "Derfor", "For eksempel", "Alt i alt"]
+  riktig: 0
+  forklaring: "«Samtidig» legger til et nytt ønske som står ved siden av det første."
+- id: bind2-tb-2
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Tekstbindere
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken tekstbinder passer best?"
+  utdrag: "Skribenten har gode argumenter. ___ bruker hun ingen kilder."
+  alternativer: ["Imidlertid", "Dessuten", "Derfor", "For det første"]
+  riktig: 0
+  forklaring: "Det andre utsagnet trekker ned det første. Da trengs en tekstbinder som viser motsetning."
+- id: bind2-tb-3
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Tekstbindere
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken tekstbinder passer best?"
+  utdrag: "___ er skolemat sunt. For det andre gir det elevene en pause sammen."
+  alternativer: ["For det første", "Til slutt", "Derimot", "Likevel"]
+  riktig: 0
+  forklaring: "«For det andre» viser at dette er en oppregning. Da må det starte med «for det første»."
+- id: bind2-tb-4
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Tekstbindere
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken tekstbinder passer best?"
+  utdrag: "Du kan ___ skrive en novelleanalyse eller et debattinnlegg."
+  alternativer: ["enten", "både", "verken", "ikke"]
+  riktig: 0
+  forklaring: "«Enten ... eller» viser at det er to alternativer, og at du skal velge ett."
+- id: bind2-tb-5
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Tekstbindere
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken tekstbinder passer best?"
+  utdrag: "Han ville ___ spise eller drikke etter at han fikk beskjeden."
+  alternativer: ["verken", "enten", "både", "også"]
+  riktig: 0
+  forklaring: "«Verken ... eller» betyr ingen av delene."
+- id: bind2-tb-6
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Tekstbindere
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken tekstbinder passer best?"
+  utdrag: "Mange tror at mobilen gjør oss ensomme. ___ viser undersøkelsen at unge bruker den mest til å snakke med venner."
+  alternativer: ["Tvert imot", "Dessuten", "Derfor", "På samme måte"]
+  riktig: 0
+  forklaring: "«Tvert imot» viser at det som følger, er det motsatte av det mange tror."
+- id: bind2-tb-7
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Tekstbindere
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken tekstbinder passer best?"
+  utdrag: "___ at hun var syk, møtte hun opp til kampen."
+  alternativer: ["Til tross for", "På grunn av", "Derfor", "I tillegg til"]
+  riktig: 0
+  forklaring: "«Til tross for» viser at noe skjer selv om noe annet skulle tilsi det motsatte."
+- id: bind2-sort-funksjon
+  type: sortering
+  kapittel: tekstbinding
+  undertema: Tekstbindere
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Hvilken funksjon har tekstbinderen?"
+  kategorier: ["Motsetning", "Årsak eller følge", "Legge til"]
+  elementer:
+    - tekst: "likevel"
+      kategori: 0
+    - tekst: "derfor"
+      kategori: 1
+    - tekst: "dessuten"
+      kategori: 2
+    - tekst: "imidlertid"
+      kategori: 0
+    - tekst: "dermed"
+      kategori: 1
+    - tekst: "i tillegg"
+      kategori: 2
+    - tekst: "fordi"
+      kategori: 1
+    - tekst: "derimot"
+      kategori: 0
+  forklaring: "Motsetning: likevel, imidlertid, derimot. Årsak og følge: derfor, dermed, fordi. Legge til: dessuten, i tillegg."
+- id: bind2-mark-tb
+  type: marker
+  kapittel: tekstbinding
+  undertema: Tekstbindere
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Marker tekstbinderne."
+  tekst: "Lekser kan være nyttige. [[For det første]] får du repetert stoffet. [[Likevel]] tar de mye tid, og [[derfor]] bør de være korte. [[Alt i alt]] er korte lekser best."
+  forklaring: "Tekstbinderne viser oppregning, motsetning, følge og konklusjon."
+- id: bind2-fk-likhet
+  type: flashkort
+  kapittel: tekstbinding
+  undertema: Sammenligne
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Tekstbindere som viser likhet"
+  bakside: "Både ... og, i likhet med, felles for ... er at, det samme ser vi i, også."
+- id: bind2-fk-forskjell
+  type: flashkort
+  kapittel: tekstbinding
+  undertema: Sammenligne
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Tekstbindere som viser forskjell"
+  bakside: "Mens, i motsetning til, derimot, en forskjell er at, på den ene siden ... på den andre siden."
+- id: bind2-sml-1
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Sammenligne
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken tekstbinder passer best?"
+  utdrag: "___ novellen og diktet handler om å miste noen."
+  alternativer: ["Både", "Enten", "Verken", "Mens"]
+  riktig: 0
+  forklaring: "«Både ... og» viser at to tekster har noe felles."
+- id: bind2-sml-2
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Sammenligne
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken tekstbinder passer best?"
+  utdrag: "Novellen er dyster helt til slutt, ___ diktet ender med håp."
+  alternativer: ["mens", "og", "fordi", "derfor"]
+  riktig: 0
+  forklaring: "«Mens» viser en forskjell mellom to ting som står ved siden av hverandre."
+- id: bind2-sml-3
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Sammenligne
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken tekstbinder passer best?"
+  utdrag: "___ hovedpersonen i novellen er jeg-personen i diktet ensom."
+  alternativer: ["I likhet med", "I motsetning til", "På grunn av", "Til tross for"]
+  riktig: 0
+  forklaring: "«I likhet med» viser at de to har noe felles."
+- id: bind2-sml-4
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Sammenligne
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken tekstbinder passer best?"
+  utdrag: "___ broren tør Sara å si hva hun mener."
+  alternativer: ["I motsetning til", "I likhet med", "Både", "På samme måte som"]
+  riktig: 0
+  forklaring: "«I motsetning til» viser en forskjell."
+- id: bind2-sml-5
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Sammenligne
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken tekstbinder passer best?"
+  utdrag: "___ for begge tekstene er at naturen speiler følelsene."
+  alternativer: ["Felles", "Forskjellig", "Mens", "Derimot"]
+  riktig: 0
+  forklaring: "«Felles for ... er at» viser en likhet."
+- id: bind2-sort-sml
+  type: sortering
+  kapittel: tekstbinding
+  undertema: Sammenligne
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Viser tekstbinderen likhet eller forskjell?"
+  kategorier: ["Likhet", "Forskjell"]
+  elementer:
+    - tekst: "i likhet med"
+      kategori: 0
+    - tekst: "i motsetning til"
+      kategori: 1
+    - tekst: "både ... og"
+      kategori: 0
+    - tekst: "mens"
+      kategori: 1
+    - tekst: "felles for ... er at"
+      kategori: 0
+    - tekst: "derimot"
+      kategori: 1
+    - tekst: "det samme ser vi i"
+      kategori: 0
+    - tekst: "en forskjell er at"
+      kategori: 1
+  forklaring: "Når du sammenligner, må leseren se om du peker på noe som er likt eller ulikt."
+- id: bind2-skriv-sml
+  type: skriv
+  kapittel: tekstbinding
+  undertema: Sammenligne
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Skriv et avsnitt som sammenligner skolemat og matpakke. Få med én likhet og én forskjell, og bruk tekstbindere som viser det."
+  ord: { min: 50, maks: 110 }
+  nokkelord: ["både", "mens", "i motsetning til", "felles for", "derimot", "i likhet med"]
+  nokkelordMinst: 2
+  kriterier: ["Jeg har med minst én likhet.", "Jeg har med minst én forskjell.", "Jeg bruker tekstbindere som viser likhet og forskjell."]
+  modelltekst: "Både skolemat og matpakke gir elevene energi gjennom skoledagen. Felles for dem er at de kan være sunne hvis maten er variert. En forskjell er derimot hvem som har ansvaret. Mens matpakken er foreldrenes ansvar, er skolematen skolens. Med skolemat får dermed alle elever det samme, uansett hva de har med hjemmefra."
+- id: bind2-fk-vise
+  type: flashkort
+  kapittel: tekstbinding
+  undertema: Vise tilbake
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Fire måter å vise tilbake på"
+  bakside: "Pekeord (denne utviklingen), pronomen (han, hun, den), synonymer eller omskrivinger (skuespillet) og gjentakelse av nøkkelordet."
+- id: bind2-vis-1
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Vise tilbake
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilket uttrykk viser best tilbake til første setning?"
+  utdrag: "Stadig flere unge leser færre bøker. ___ bekymrer lærere og forfattere."
+  alternativer: ["Denne utviklingen", "En utvikling", "Utviklinger", "Noe annet"]
+  riktig: 0
+  forklaring: "Pekeordet «denne» viser at du snakker om det som nettopp er nevnt."
+- id: bind2-vis-2
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Vise tilbake
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hva viser ordet «skuespillet» tilbake til?"
+  utdrag: "Ibsen skrev Et dukkehjem i 1879. Skuespillet vakte stor debatt."
+  alternativer: ["Et dukkehjem", "Ibsen", "1879", "Debatten"]
+  riktig: 0
+  forklaring: "«Skuespillet» er en omskriving av «Et dukkehjem». Slik slipper du å gjenta tittelen."
+- id: bind2-vis-3
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Vise tilbake
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvorfor er setningsparet uklart?"
+  utdrag: "Sara møtte Ingrid i gangen. Hun var sint."
+  alternativer: ["Det er uklart hvem «hun» er.", "Det mangler et komma.", "Det har for mange tekstbindere.", "Det står i feil tid."]
+  riktig: 0
+  forklaring: "Når to personer av samme kjønn er nevnt, vet ikke leseren hvem pronomenet viser til. Bruk navnet."
+- id: bind2-mark-vis
+  type: marker
+  kapittel: tekstbinding
+  undertema: Vise tilbake
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Marker ordene som viser tilbake til noe som er nevnt før."
+  tekst: "Bymiljøet blir stadig mer støyende. [[Denne]] støyen gjør det vanskelig å sove. [[Den]] rammer særlig barn, og [[dette]] bør politikerne ta på alvor."
+  forklaring: "Pekeord og pronomen binder setningene sammen uten at du trenger tekstbindere."
+- id: bind2-fk-som
+  type: flashkort
+  kapittel: tekstbinding
+  undertema: Flyt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hvorfor bør du ikke starte en setning med «som», «hvor» eller «hvordan»?"
+  bakside: "Da blir setningen ofte ufullstendig: «Som miljøet i novellen.» Bind den sammen med setningen foran, eller skriv den om."
+- id: bind2-flyt-1
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Flyt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken setning er ufullstendig?"
+  alternativer: ["Som resten av novellen.", "Stemningen er dyster.", "Fargene er grå og svarte.", "Det regner hele tiden."]
+  riktig: 0
+  forklaring: "En setning som starter med «som», mangler ofte både subjekt og verbal. Den må bindes til setningen foran."
+- id: bind2-flyt-2
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Flyt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken omskriving gir best flyt?"
+  alternativer: ["Prisen er et problem fordi mange ikke har råd.", "Prisen er et problem. Hvor mange ikke har råd.", "Prisen er et problem. Som mange ikke har råd til.", "Prisen er et problem, mange har ikke råd."]
+  riktig: 0
+  forklaring: "Den første binder sammen med «fordi». Den andre og tredje er ufullstendige, og den fjerde er kommaskjøt."
+- id: bind2-flyt-3
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Flyt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken versjon har best flyt?"
+  alternativer: ["Da Leo kom til en ny skole, kjente han ingen. Derfor satt han alene i friminuttene.", "Leo kom til en ny skole. Han kjente ingen. Han satt alene i friminuttene.", "Leo kom til en ny skole, han kjente ingen, han satt alene.", "Leo kom til en ny skole. Hvor han ikke kjente noen. Som gjorde at han satt alene."]
+  riktig: 0
+  forklaring: "Den første bruker en leddsetning og «derfor», slik at leseren ser sammenhengen. De andre er hakkete, har kommaskjøt eller er ufullstendige."
+- id: bind2-ff-hvordan
+  type: finnfeil
+  kapittel: tekstbinding
+  undertema: Flyt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Hun mister jobben. Hvordan hun mister alt hun har bygd opp."
+  feil: "Hvordan"
+  rettelse: "Dermed"
+  forklaring: "Setningen som starter med «Hvordan», er ufullstendig. «Dermed» viser følgen og gjør den til en hel setning."
+- id: bind2-rekke-flyt
+  type: rekkefolge
+  kapittel: tekstbinding
+  undertema: Flyt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Sett setningene i en rekkefølge som gir god flyt. Start med temasetningen."
+  elementer: ["Russetida kan føre til utenforskap.", "For det første er det dyrt å være med i en russegruppe.", "Dessuten blir noen ikke spurt om å bli med.", "Dermed kan elever bli stående utenfor hele våren."]
+  forklaring: "Temasetningen kommer først. «For det første» og «dessuten» viser oppregning, og «dermed» viser følgen."
+- id: bind2-skriv-flyt
+  type: skriv
+  kapittel: tekstbinding
+  undertema: Flyt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Skriv om teksten slik at den flyter bedre. Bruk tekstbindere og bind sammen noen av setningene. Behold innholdet."
+  starttekst: "Emma begynte på håndball da hun var åtte år. Hun var ikke spesielt god. Hun trente hver uke. Hun ble en av de beste på laget. Hun ble tatt ut til kretslaget i fjor. Hun drømmer om å spille i eliteserien."
+  ord: { min: 35, maks: 80 }
+  kriterier: ["Jeg bruker minst tre tekstbindere.", "Ikke alle setningene starter med «Hun».", "Innholdet er det samme som før."]
+  modelltekst: "Emma begynte på håndball da hun var åtte år. I starten var hun ikke spesielt god, men hun trente likevel hver uke. Etter hvert ble hun en av de beste på laget, og i fjor ble hun tatt ut til kretslaget. Nå drømmer hun om å spille i eliteserien."
+- id: bind2-fk-skjot
+  type: flashkort
+  kapittel: tekstbinding
+  undertema: Kommaskjøt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hva er kommaskjøt?"
+  bakside: "To helsetninger som er satt sammen med bare et komma: «Det regnet, vi ble inne.» Rett med punktum, med en tekstbinder (og, men, for, så) eller med en leddsetning."
+- id: bind2-fk-skjot-test
+  type: flashkort
+  kapittel: tekstbinding
+  undertema: Kommaskjøt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hvordan finner du kommaskjøt?"
+  bakside: "Se på delene på hver side av kommaet. Kan begge stå alene som hele setninger, kan du ikke ha bare komma mellom dem."
+- id: bind2-skjot-1
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Kommaskjøt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken setning har kommaskjøt?"
+  alternativer: ["Ibsen skrev Et dukkehjem i 1879, stykket vakte stor debatt.", "Ibsen skrev Et dukkehjem i 1879, og stykket vakte stor debatt.", "Da Et dukkehjem kom ut i 1879, vakte stykket stor debatt.", "Ibsen skrev Et dukkehjem i 1879. Stykket vakte stor debatt."]
+  riktig: 0
+  forklaring: "I den første setningen står to helsetninger med bare komma mellom. De andre er rettet med «og», med en leddsetning og med punktum."
+- id: bind2-skjot-2
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Kommaskjøt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken setning har kommaskjøt?"
+  alternativer: ["Novellen er kort, den har bare to personer.", "Novellen er kort, men den har mange lag.", "Selv om novellen er kort, har den mange lag.", "Novellen, som er kort, har bare to personer."]
+  riktig: 0
+  forklaring: "«Novellen er kort» og «den har bare to personer» kan begge stå alene. Da trengs punktum eller en tekstbinder."
+- id: bind2-skjot-3
+  type: flervalg
+  kapittel: tekstbinding
+  undertema: Kommaskjøt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvordan kan du rette kommaskjøten?"
+  utdrag: "Det regnet hele dagen, vi ble inne."
+  alternativer: ["Det regnet hele dagen, så vi ble inne.", "Det regnet hele dagen, vi ble inne hele dagen.", "Det regnet hele dagen vi ble inne.", "Det regnet, hele dagen, vi ble inne."]
+  riktig: 0
+  forklaring: "Tekstbinderen «så» viser at det andre er en følge av det første, og retter kommaskjøten."
+- id: bind2-sort-skjot
+  type: sortering
+  kapittel: tekstbinding
+  undertema: Kommaskjøt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Er setningen riktig, eller har den kommaskjøt?"
+  kategorier: ["Riktig", "Kommaskjøt"]
+  elementer:
+    - tekst: "Jeg leste boka, men jeg likte den ikke."
+      kategori: 0
+    - tekst: "Jeg leste boka, jeg likte den ikke."
+      kategori: 1
+    - tekst: "Fordi det var kaldt, tok hun på seg lua."
+      kategori: 0
+    - tekst: "Det var kaldt, hun tok på seg lua."
+      kategori: 1
+    - tekst: "Han løp til bussen. Den hadde allerede gått."
+      kategori: 0
+    - tekst: "Han løp til bussen, den hadde allerede gått."
+      kategori: 1
+  forklaring: "Kommaskjøt er når to hele setninger bare har komma mellom seg. Med tekstbinder, leddsetning eller punktum er det riktig."
+- id: bind2-skriv-skjot
+  type: skriv
+  kapittel: tekstbinding
+  undertema: Kommaskjøt
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Rett kommaskjøtene i teksten. Bruk punktum, tekstbindere eller leddsetninger. Prøv å variere."
+  starttekst: "Aasen reiste rundt i Norge i mange år, han samlet dialekter. Ut fra dem laget han et nytt skriftspråk, han ville at folk skulle skrive slik de snakket, han kalte det landsmål."
+  ord: { min: 25, maks: 60 }
+  kriterier: ["Teksten har ingen kommaskjøt.", "Jeg har brukt minst to ulike måter å rette på.", "Innholdet er det samme."]
+  modelltekst: "Aasen reiste rundt i Norge i mange år. Han samlet dialekter, og ut fra dem laget han et nytt skriftspråk. Fordi han ville at folk skulle skrive slik de snakket, kalte han det landsmål."

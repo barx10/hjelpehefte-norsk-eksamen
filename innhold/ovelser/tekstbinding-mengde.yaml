@@ -1,6 +1,7 @@
 - id: bind-m-1
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Mange unge bruker mye tid på mobilen. ___ sover de mindre enn før.»"
@@ -10,6 +11,7 @@
 - id: bind-m-2
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Hovedpersonen virker glad. ___ er hun egentlig svært ensom.»"
@@ -19,6 +21,7 @@
 - id: bind-m-3
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Det regnet hele dagen. ___ ble turen avlyst.»"
@@ -28,6 +31,7 @@
 - id: bind-m-4
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Teksten har mange virkemidler. ___ bruker forfatteren både metaforer og gjentakelser.»"
@@ -37,6 +41,7 @@
 - id: bind-m-5
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «___ leser du oppgaven nøye. Deretter lager du en skriveplan.»"
@@ -46,6 +51,7 @@
 - id: bind-m-6
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Vi har sett på argumentene for og imot. ___ mener jeg at skoledagen ikke bør bli lengre.»"
@@ -55,6 +61,7 @@
 - id: bind-m-7
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Mange mener at lekser er nyttige. Andre mener ___ at lekser skaper stress.»"
@@ -64,6 +71,7 @@
 - id: bind-m-8
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Talen er godt bygd opp. ___ bruker taleren effektive retoriske spørsmål.»"
@@ -73,6 +81,7 @@
 - id: bind-m-9
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Han hadde øvd i flere uker. ___ gikk prøven dårlig.»"
@@ -82,6 +91,7 @@
 - id: bind-m-10
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Skjermtid kan gi dårligere søvn. ___ bør mobilen ligge utenfor soverommet.»"
@@ -91,6 +101,7 @@
 - id: bind-m-11
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Diktet er kort. ___ inneholder det mange sterke bilder.»"
@@ -100,6 +111,7 @@
 - id: bind-m-12
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Novellen starter i medias res. ___ blir leseren kastet rett inn i handlingen.»"
@@ -109,6 +121,7 @@
 - id: bind-m-13
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Han vant ikke kampen, ___ han var skadet.»"
@@ -118,6 +131,7 @@
 - id: bind-m-14
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Reklamen bruker en kjent fotballspiller. ___ prøver avsenderen å få målgruppen til å stole på produktet.»"
@@ -127,6 +141,7 @@
 - id: bind-m-15
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Mange elever gruer seg til eksamen. Det er ___ lurt å forberede seg godt.»"
@@ -136,6 +151,7 @@
 - id: bind-m-16
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Klimaendringene påvirker hele verden. ___ smelter isen på polene.»"
@@ -145,6 +161,7 @@
 - id: bind-m-17
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Jeg har drøftet saken fra flere sider. ___ vil jeg si at begge parter har gode argumenter.»"
@@ -154,6 +171,7 @@
 - id: bind-m-18
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Hovedpersonen åpner døren. ___ ser hun at rommet er tomt.»"
@@ -163,6 +181,7 @@
 - id: bind-m-19
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Mobilforbud kan gi mer ro i timene. ___ kan elevene lære mindre om nettvett.»"
@@ -172,6 +191,7 @@
 - id: bind-m-20
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Hun hadde ikke spist frokost, ___ hun var sulten i første time.»"

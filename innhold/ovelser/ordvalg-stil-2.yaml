@@ -1,0 +1,136 @@
+- id: ordv2-fk-faglig
+  type: flashkort
+  kapittel: ordvalg-stil
+  undertema: Faglig språk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  forside: "Fire krav til faglig språk"
+  bakside: "Presist, objektivt, målrettet og etterrettelig."
+- id: ordv2-fag-1
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Faglig språk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken setning er mest objektiv?"
+  alternativer: ["Undersøkelsen viser at halvparten av elevene sover for lite.", "Jeg synes det er helt forferdelig at elever sover så lite.", "Alle vet jo at elever sover altfor lite.", "Elever sover sikkert mye mindre enn de burde, tror jeg."]
+  riktig: 0
+  forklaring: "Den første setningen viser til en kilde og holder egne følelser utenfor."
+- id: ordv2-fag-2
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Faglig språk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hva betyr det at en tekst er etterrettelig?"
+  alternativer: ["At den viser hvor opplysningene kommer fra", "At den er kort", "At den har mange fagord", "At den er skrevet i jeg-form"]
+  riktig: 0
+  forklaring: "Etterrettelig betyr at leseren kan sjekke opplysningene fordi du viser til kildene."
+- id: ordv2-fag-3
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Faglig språk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken beskrivelse er mest presis?"
+  alternativer: ["Bananen er en avlang, gul frukt med mykt, søtt fruktkjøtt.", "Bananen er en sånn frukt som er ganske fin og god.", "Bananen er veldig gul og veldig god og veldig populær.", "Bananen er en frukt som mange liker, også jeg."]
+  riktig: 0
+  forklaring: "Den første setningen beskriver form, farge og smak uten unødvendige ord."
+- id: ordv2-sort-faglig
+  type: sortering
+  kapittel: ordvalg-stil
+  undertema: Faglig språk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Passer setningen i en fagartikkel?"
+  kategorier: ["Passer", "Passer ikke"]
+  elementer:
+    - tekst: "Landsmålet ble likestilt med dansk-norsk i 1885."
+      kategori: 0
+    - tekst: "Nynorsk er kjempeteit, ærlig talt."
+      kategori: 1
+    - tekst: "Ifølge Statistisk sentralbyrå har litt over ti prosent av grunnskoleelevene nynorsk som hovedmål."
+      kategori: 0
+    - tekst: "Jeg tror kanskje at nynorsk er litt vanskelig, eller noe sånt."
+      kategori: 1
+  forklaring: "En fagartikkel skal være presis, objektiv og vise til kilder."
+- id: ordv2-fk-vis
+  type: flashkort
+  kapittel: ordvalg-stil
+  undertema: Vis i stedet for å fortelle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  forside: "Hva betyr «vis i stedet for å fortelle»?"
+  bakside: "At du viser en følelse eller en egenskap gjennom handlinger, verb og detaljer i stedet for å si den rett ut. «Han smalt døra igjen» i stedet for «Han var sint»."
+- id: ordv2-vis-1
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Vis i stedet for å fortelle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken setning viser at Petter er trist, uten å si det?"
+  alternativer: ["Petter tuslet hjem med blikket i asfalten.", "Petter var veldig trist.", "Petter gikk hjem og var trist.", "Petter følte seg lei seg."]
+  riktig: 0
+  forklaring: "«Tuslet» og «blikket i asfalten» viser tristheten. De andre setningene sier den rett ut."
+- id: ordv2-vis-2
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Vis i stedet for å fortelle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilket verb viser best at Anton skryter?"
+  utdrag: "– Jeg blir kongen av hele festen, ___ Anton."
+  alternativer: ["skrøt", "sa", "mumlet", "hvisket"]
+  riktig: 0
+  forklaring: "«Skrøt» viser hvordan Anton snakker og sier noe om personligheten hans."
+- id: ordv2-vis-3
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Vis i stedet for å fortelle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilket verb viser best at Guffen er sjenert?"
+  utdrag: "– Jeg tror jeg blir hjemme i kveld, ___ Guffen."
+  alternativer: ["mumlet", "ropte", "skrøt", "kommanderte"]
+  riktig: 0
+  forklaring: "«Mumlet» viser at han snakker lavt og utydelig, slik en sjenert person ofte gjør."
+- id: ordv2-match-ga
+  type: matching
+  kapittel: ordvalg-stil
+  undertema: Vis i stedet for å fortelle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Koble verbet til stemningen det viser."
+  par:
+    - venstre: "trippet"
+      hoyre: "glad og lett"
+    - venstre: "sjanglet"
+      hoyre: "full eller utmattet"
+    - venstre: "marsjerte"
+      hoyre: "bestemt"
+    - venstre: "luntet"
+      hoyre: "rolig og avslappet"
+    - venstre: "listet seg"
+      hoyre: "forsiktig"
+  forklaring: "Synonymer for «gå» kan vise hvordan personen har det."
+- id: ordv2-vis-4
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Vis i stedet for å fortelle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hva kalles det når forfatteren viser egenskapene til en person gjennom handlinger og ord?"
+  alternativer: ["Indirekte personskildring", "Direkte personskildring", "Tilbakeblikk", "Besjeling"]
+  riktig: 0
+  forklaring: "Indirekte personskildring viser egenskaper uten å si dem rett ut. Direkte personskildring sier dem: «Han var sjenert.»"
+- id: ordv2-skriv-vis
+  type: skriv
+  kapittel: ordvalg-stil
+  undertema: Vis i stedet for å fortelle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Skriv om teksten slik at den viser følelsene i stedet for å si dem. Bruk verb som viser stemningen."
+  starttekst: "Maja kom hjem. Hun var sint. Hun gikk opp på rommet sitt. Hun var lei seg."
+  ord: { min: 25, maks: 70 }
+  kriterier: ["Jeg sier ikke rett ut hva personen føler.", "Jeg bruker verb som viser følelsen.", "Leseren skjønner likevel hvordan personen har det."]
+  modelltekst: "Maja slengte sekken i gangen og smalt døra igjen bak seg. Hun stormet opp trappa uten å svare da mamma ropte. På rommet kastet hun seg på senga og borret ansiktet i puta."
