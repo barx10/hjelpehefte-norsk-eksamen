@@ -28,7 +28,7 @@ const { ovelser, tittel, skrivedata } = Astro.props;
   import type { Fremgang } from '../lib/fremgang';
 
   type TekstKilde = { tittel: string; forfatter: string; lisens: string; lisensUrl: string; kilde: string; side: string };
-  type Felles = { id: string; kapittel: string; utkast: boolean; tekstKilde: TekstKilde | null };
+  type Felles = { id: string; kapittel: string; undertema: string | null; utkast: boolean; tekstKilde: TekstKilde | null };
   type Flashkort = Felles & { type: 'flashkort'; forside: string; bakside: string };
   type Flervalg = Felles & { type: 'flervalg'; spm: string; alternativer: string[]; riktig: number; forklaring: string; utdrag: string | null };
   type Komma = Felles & {
@@ -86,13 +86,16 @@ const { ovelser, tittel, skrivedata } = Astro.props;
   ];
   const rot = document.getElementById('runner') as HTMLElement;
   const data: Ovelse[] = JSON.parse(document.getElementById('ovelser-data')!.textContent ?? '[]');
-  const skrivedata: { trinn: string; kapitler: KapittelLenker; skrivefeil: { feil: string; rettelse: string }[] } = JSON.parse(document.getElementById('skrive-data')!.textContent ?? '{}');
+  const skrivedata: { trinn: string; kapitler: KapittelLenker; skrivefeil: { feil: string; rettelse: string }[]; undertemaer?: string[] } = JSON.parse(document.getElementById('skrive-data')!.textContent ?? '{}');
   const visKapittel = new Set(data.map((o) => o.kapittel)).size > 1;
 
   let fremgang: Fremgang = les();
   let filter: 'alle' | Ovelse['type'] = 'alle';
   // 0 betyr alle regler. En valgt regel gir bare kommaoppgaver med den regelen.
   let kommaregel = 0;
+  // Tom streng betyr alle deler. Delene vises i rekkefølgen kapittelet oppgir, og bare de som har øvelser.
+  let undertema = '';
+  const undertemaer = (skrivedata.undertemaer ?? []).filter((u) => data.some((o) => o.undertema === u));
   let oktStorrelse = OKT_STORRELSE;
   let okt: Ovelse[] = [];
   let svar: Svar[] = [];
@@ -126,8 +129,9 @@ const { ovelser, tittel, skrivedata } = Astro.props;
   }
 
   function filtrert(): Ovelse[] {
-    if (kommaregel) return data.filter((o) => o.type === 'komma' && o.regler.includes(kommaregel));
-    return filter === 'alle' ? data : data.filter((o) => o.type === filter);
+    const liste = undertema ? data.filter((o) => o.undertema === undertema) : data;
+    if (kommaregel) return liste.filter((o) => o.type === 'komma' && o.regler.includes(kommaregel));
+    return filter === 'alle' ? liste : liste.filter((o) => o.type === filter);
   }
 
   function radiogruppe<T extends string | number>(navn: string, legend: string, valg: [T, string][], aktiv: T, velg: (v: T) => void): HTMLElement {
@@ -189,6 +193,11 @@ const { ovelser, tittel, skrivedata } = Astro.props;
       barn.push(boks);
     }
 
+    if (undertemaer.length > 1 && !visKapittel) {
+      const valg: [string, string][] = [['', 'Alle'], ...undertemaer.map((u): [string, string] => [u, u])];
+      barn.push(radiogruppe('undertema', 'Øv på én del', valg, undertema, (v) => { undertema = v; }));
+    }
+
     const kommaoppgaver = data.filter((o): o is Komma => o.type === 'komma');
     let kommaSett: HTMLElement | null = null;
     if (kommaoppgaver.length > 0) {
@@ -230,6 +239,12 @@ const { ovelser, tittel, skrivedata } = Astro.props;
 
   function startOkt() {
     const kilde = filtrert();
+    if (kilde.length === 0) {
+      const gammel = rot.querySelector('.melding.tomt');
+      gammel?.remove();
+      rot.querySelector('.knapp-rad')?.before(el('p', { class: 'melding tomt', role: 'status' }, 'Det finnes ingen øvelser av den typen i denne delen. Velg en annen type eller del.'));
+      return;
+    }
     const ider = velgOkt(kilde.map((o) => o.id), fremgang, oktStorrelse);
     const perId = new Map(kilde.map((o) => [o.id, o]));
     kjorOkt(ider.map((id) => perId.get(id)!).filter(Boolean));

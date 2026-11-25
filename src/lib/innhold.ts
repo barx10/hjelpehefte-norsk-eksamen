@@ -148,7 +148,7 @@ export function tilKlient(o: Ovelse, kapittelTittel: string, tekster: Map<string
   const tekstKilde = t
     ? { tittel: t.data.tittel, forfatter: t.data.forfatter ?? '', lisens: t.data.lisens ?? '', lisensUrl: t.data.lisensUrl ?? '', kilde: t.data.kilde ?? '', side: t.id }
     : null;
-  const felles = { id: o.id, kapittel: kapittelTittel, utkast: o.data.status === 'utkast', tekstKilde };
+  const felles = { id: o.id, kapittel: kapittelTittel, undertema: o.data.undertema ?? null, utkast: o.data.status === 'utkast', tekstKilde };
   const d = o.data;
   switch (d.type) {
     case 'flashkort':

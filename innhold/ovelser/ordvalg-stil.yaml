@@ -1,0 +1,580 @@
+- id: ordv-fk-presis
+  type: flashkort
+  kapittel: ordvalg-stil
+  undertema: Presise ord
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  forside: "Hvordan vet du at et ord er for vagt?"
+  bakside: "Spør: Kan leseren se for seg nøyaktig hva jeg mener? Ord som «ting», «bra» og «gjør» sier lite. Bytt dem med ord som «virkemiddel», «treffende» og «forsterker»."
+- id: ordv-presis-1
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Presise ord
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilket ord gjør setningen mest presis?"
+  utdrag: "Forfatteren bruker mange ___ for å skape spenning."
+  alternativer: ["virkemidler", "ting", "greier", "sånne ting"]
+  riktig: 0
+  forklaring: "«Virkemidler» er et fagord som sier nøyaktig hva forfatteren bruker. «Ting» og «greier» kan bety hva som helst."
+- id: ordv-presis-2
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Presise ord
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilket verb passer best?"
+  utdrag: "Gjentakelsen ___ følelsen av sinne."
+  alternativer: ["forsterker", "gjør", "har", "får"]
+  riktig: 0
+  forklaring: "«Forsterker» forteller hva gjentakelsen gjør med følelsen. «Gjør» og «får» er vage."
+- id: ordv-presis-3
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Presise ord
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilket ord er mest presist?"
+  utdrag: "Metaforen er ___, fordi en vegg er både hard og umulig å se gjennom."
+  alternativer: ["treffende", "bra", "fin", "kul"]
+  riktig: 0
+  forklaring: "«Treffende» sier hvorfor metaforen er god: den passer til det den beskriver. «Bra» og «fin» sier bare at du liker den."
+- id: ordv-presis-4
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Presise ord
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilket verb viser best hva skribenten gjør?"
+  utdrag: "Skribenten ___ at skolen bør starte senere om morgenen."
+  alternativer: ["hevder", "sier", "skriver om", "snakker om"]
+  riktig: 0
+  forklaring: "«Hevder» viser at skribenten legger fram en påstand. «Sier» og «snakker om» forteller ikke hva slags ytring det er."
+- id: ordv-presis-5
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Presise ord
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken setning er mest presis?"
+  alternativer: ["Bildet vekker medfølelse hos leseren.", "Bildet gjør noe med leseren.", "Bildet får leseren til å føle ting.", "Bildet er veldig sterkt."]
+  riktig: 0
+  forklaring: "Den første setningen sier hvilken følelse bildet skaper. De andre sier at noe skjer, men ikke hva."
+- id: ordv-presis-6
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Presise ord
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilket ord kan du stryke uten at setningen blir svakere?"
+  utdrag: "Slutten er veldig overraskende."
+  alternativer: ["veldig", "slutten", "overraskende", "er"]
+  riktig: 0
+  forklaring: "«Overraskende» er sterkt nok alene. «Veldig» gjør setningen lengre uten å si mer."
+- id: ordv-ff-ting
+  type: finnfeil
+  kapittel: ordvalg-stil
+  undertema: Presise ord
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  tekst: "Novellen har mange spennende ting som gjør den lett å lese."
+  feil: "ting"
+  rettelse: "virkemidler"
+  forklaring: "«Ting» er for vagt i en analyse. Si hva du mener, for eksempel virkemidler, hendelser eller vendepunkter."
+- id: ordv-sort-presis
+  type: sortering
+  kapittel: ordvalg-stil
+  undertema: Presise ord
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Er setningen presis eller vag?"
+  kategorier: ["Presis", "Vag"]
+  elementer:
+    - tekst: "Kontrasten mellom lys og mørke viser at hun er splittet."
+      kategori: 0
+    - tekst: "Teksten har mye bra språk."
+      kategori: 1
+    - tekst: "Skribenten bruker statistikk for å styrke logos."
+      kategori: 0
+    - tekst: "Forfatteren gjør mange ting med språket."
+      kategori: 1
+    - tekst: "De korte setningene skaper et høyt tempo."
+      kategori: 0
+    - tekst: "Slutten er veldig sånn trist."
+      kategori: 1
+  forklaring: "De presise setningene sier hva virkemidlet er og hva det gjør. De vage sier bare at noe er bra eller trist."
+- id: ordv-fk-synonym
+  type: flashkort
+  kapittel: ordvalg-stil
+  undertema: Synonymer og antonymer
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  forside: "Hva er et synonym?"
+  bakside: "Et ord med omtrent samme betydning som et annet ord, for eksempel «viktig» og «sentral»."
+- id: ordv-fk-antonym
+  type: flashkort
+  kapittel: ordvalg-stil
+  undertema: Synonymer og antonymer
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  forside: "Hva er et antonym?"
+  bakside: "Et ord med motsatt betydning, for eksempel «lys» og «mørk» eller «åpen» og «lukket»."
+- id: ordv-fk-fagbegrep
+  type: flashkort
+  kapittel: ordvalg-stil
+  undertema: Synonymer og antonymer
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  forside: "Kan du bruke synonymer for fagbegreper?"
+  bakside: "Nei. Har du skrevet «metafor», skal det stå «metafor» hele veien. Bytter du ord, kan sensor tro at du mener noe annet."
+- id: ordv-syn-1
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Synonymer og antonymer
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilket ord er et synonym for «avgjørende»?"
+  alternativer: ["utslagsgivende", "uviktig", "tilfeldig", "tvilsom"]
+  riktig: 0
+  forklaring: "«Utslagsgivende» betyr at noe bestemmer utfallet, akkurat som «avgjørende». «Uviktig» og «tilfeldig» betyr nesten det motsatte."
+- id: ordv-syn-2
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Synonymer og antonymer
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilket ord er et antonym for «åpen»?"
+  alternativer: ["lukket", "stor", "lys", "tom"]
+  riktig: 0
+  forklaring: "Det motsatte av åpen er lukket."
+- id: ordv-syn-3
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Synonymer og antonymer
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Ordet «redd» står tre ganger. Hvilken versjon varierer best uten å endre innholdet?"
+  alternativer: ["Hun er redd. Mørket skremmer henne, og hun gruer seg til å være alene.", "Hun er redd. Hun er redd for mørket og redd for å være alene.", "Hun er glad. Mørket skremmer henne, og hun gleder seg til å være alene.", "Hun er redd, redd, redd."]
+  riktig: 0
+  forklaring: "Den første versjonen bytter ut gjentakelsene med ord som betyr omtrent det samme. Den tredje endrer innholdet."
+- id: ordv-syn-4
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Synonymer og antonymer
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken setning bryter regelen om fagbegreper?"
+  alternativer: ["Forfatteren bruker en metafor i første strofe. Denne sammenligningen viser ...", "Forfatteren bruker en metafor i første strofe. Metaforen viser ...", "Forfatteren bruker en metafor i første strofe. Den viser ...", "Forfatteren bruker en metafor i første strofe. Dette bildet viser ..."]
+  riktig: 0
+  forklaring: "En sammenligning er et annet virkemiddel enn en metafor. Når du bytter fagbegrep, blir analysen upresis. «Dette bildet» går fordi en metafor er et språklig bilde."
+- id: ordv-syn-5
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Synonymer og antonymer
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilke antonymer får best fram kontrasten?"
+  utdrag: "Rommet er ___ i starten, men ___ i slutten."
+  alternativer: ["trangt og åpent", "trangt og lite", "stort og romslig", "kaldt og vått"]
+  riktig: 0
+  forklaring: "«Trangt» og «åpent» er motsetninger. Da ser leseren tydelig at noe har forandret seg."
+- id: ordv-syn-6
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Synonymer og antonymer
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "«Mager», «slank» og «tynn» betyr omtrent det samme. Hvilket ord er mest positivt?"
+  alternativer: ["slank", "mager", "tynn", "De er like positive"]
+  riktig: 0
+  forklaring: "Synonymer gir ulike assosiasjoner. «Slank» oppfattes som positivt, «mager» ofte som negativt."
+- id: ordv-match-syn
+  type: matching
+  kapittel: ordvalg-stil
+  undertema: Synonymer og antonymer
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Koble ordet til et synonym."
+  par:
+    - venstre: "viktig"
+      hoyre: "sentral"
+    - venstre: "vanskelig"
+      hoyre: "krevende"
+    - venstre: "vise"
+      hoyre: "synliggjøre"
+    - venstre: "mening"
+      hoyre: "oppfatning"
+    - venstre: "begynne"
+      hoyre: "innlede"
+  forklaring: "Synonymene betyr omtrent det samme og kan brukes for å unngå at samme ord går igjen."
+- id: ordv-match-ant
+  type: matching
+  kapittel: ordvalg-stil
+  undertema: Synonymer og antonymer
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Koble ordet til et antonym."
+  par:
+    - venstre: "trygg"
+      hoyre: "utrygg"
+    - venstre: "fellesskap"
+      hoyre: "ensomhet"
+    - venstre: "håp"
+      hoyre: "fortvilelse"
+    - venstre: "stillhet"
+      hoyre: "larm"
+    - venstre: "frihet"
+      hoyre: "fangenskap"
+  forklaring: "Antonymer er nyttige når du skal vise kontraster i en tekst."
+- id: ordv-utv-1
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Utvide og forenkle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken setning er en god utvidelse av «Forfatteren bruker metaforer»?"
+  alternativer: ["Forfatteren bruker metaforen «natten er en vegg» for å vise at avstanden mellom personene er uoverkommelig.", "Forfatteren bruker veldig mange metaforer i teksten sin.", "Forfatteren bruker metaforer, og det er bra.", "Forfatteren bruker metaforer, sammenligninger og besjelinger."]
+  riktig: 0
+  forklaring: "Den første setningen legger til et eksempel og forklarer virkningen. De andre blir lengre, men sier ikke mer."
+- id: ordv-forenkle-1
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Utvide og forenkle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvordan kan du forenkle «foretar en vurdering av»?"
+  alternativer: ["vurderer", "gjør en vurdering av", "foretar seg en vurdering", "vurderingen"]
+  riktig: 0
+  forklaring: "Ett verb sier det samme som fire ord. Bruk verb i stedet for substantiv der du kan."
+- id: ordv-forenkle-2
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Utvide og forenkle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken versjon er enklest uten at noe går tapt?"
+  alternativer: ["Mange mener at skoledagen er for lang.", "Det er slik at det er mange som mener at skoledagen er for lang.", "Det finnes mange som er av den oppfatning at skoledagen er for lang.", "Når det gjelder skoledagen, er det mange som mener at den er for lang."]
+  riktig: 0
+  forklaring: "«Det er slik at» og «det finnes mange som» er fyllord. Stryk dem."
+- id: ordv-forenkle-3
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Utvide og forenkle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hva kan du skrive i stedet for «gir uttrykk for»?"
+  alternativer: ["uttrykker", "gir", "uttrykket", "sier ifra om"]
+  riktig: 0
+  forklaring: "«Hun uttrykker sinne» er kortere enn «hun gir uttrykk for sinne»."
+- id: ordv-sort-tung
+  type: sortering
+  kapittel: ordvalg-stil
+  undertema: Utvide og forenkle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Er formuleringen tung eller enkel?"
+  kategorier: ["Tung", "Enkel"]
+  elementer:
+    - tekst: "foretar en undersøkelse av"
+      kategori: 0
+    - tekst: "undersøker"
+      kategori: 1
+    - tekst: "gir en beskrivelse av"
+      kategori: 0
+    - tekst: "beskriver"
+      kategori: 1
+    - tekst: "kommer fram til en konklusjon"
+      kategori: 0
+    - tekst: "konkluderer"
+      kategori: 1
+  forklaring: "De tunge formuleringene gjør et verb om til et substantiv og trenger flere ord. Det kalles substantivsyke."
+- id: ordv-skriv-utvid
+  type: skriv
+  kapittel: ordvalg-stil
+  undertema: Utvide og forenkle
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Utvid den tynne setningen til to eller tre setninger. Si hvilket virkemiddel det gjelder, gi et eksempel og forklar virkningen."
+  starttekst: "Forfatteren bruker korte setninger."
+  ord: { min: 25, maks: 70 }
+  nokkelord: ["korte setninger"]
+  kriterier: ["Jeg sier hvilket virkemiddel det er.", "Jeg har med et eksempel fra teksten.", "Jeg forklarer hva virkemidlet gjør med leseren."]
+  modelltekst: "Forfatteren bruker korte setninger når hovedpersonen flykter: «Hun løper. Snur seg. Løper videre.» De korte setningene gir et hakkete tempo som ligner pusten til en som er redd. Dermed kjenner leseren på uroen sammen med henne."
+- id: ordv-fk-nyansere
+  type: flashkort
+  kapittel: ordvalg-stil
+  undertema: Nyansere
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  forside: "Hva betyr det å nyansere?"
+  bakside: "Å vise hvor sikker du er, med ord som «ofte», «trolig», «i stor grad» og «ikke nødvendigvis». Det gjør teksten mer troverdig."
+- id: ordv-nyans-1
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Nyansere
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken setning er best nyansert?"
+  alternativer: ["Mange unge bruker mobilen mer enn de selv ønsker.", "Alle unge bruker altfor mye mobil.", "Unge er avhengige av mobilen.", "Ingen unge klarer seg uten mobil."]
+  riktig: 0
+  forklaring: "«Alle» og «ingen» er skråsikre og lette å motbevise. «Mange» er mer presist og troverdig."
+- id: ordv-nyans-2
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Nyansere
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken formulering passer best i en tolkning?"
+  alternativer: ["Novellen kan leses som en fortelling om ensomhet.", "Novellen handler helt sikkert om ensomhet.", "Det er bevist at novellen handler om ensomhet.", "Alle forstår at novellen handler om ensomhet."]
+  riktig: 0
+  forklaring: "En tolkning er ikke et bevis. «Kan leses som» viser at du tolker, og åpner for at andre lesninger også finnes."
+- id: ordv-nyans-3
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Nyansere
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilket ord nyanserer påstanden?"
+  utdrag: "Et forbud vil ___ gjøre problemet mindre."
+  alternativer: ["trolig", "garantert", "alltid", "helt"]
+  riktig: 0
+  forklaring: "«Trolig» viser at du mener det, men at du ikke kan være helt sikker. De andre gjør påstanden sterkere."
+- id: ordv-mark-nyans
+  type: marker
+  kapittel: ordvalg-stil
+  undertema: Nyansere
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Marker ordene som nyanserer påstandene."
+  tekst: "Lekser er [[ofte]] nyttige, men de er [[ikke nødvendigvis]] den beste måten å lære på. [[I mange tilfeller]] vil en kort repetisjon i timen gi like godt utbytte."
+  forklaring: "Ordene viser at skribenten ikke påstår at noe gjelder alltid. Det gjør argumentasjonen mer troverdig."
+- id: ordv-nyans-4
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Nyansere
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hva er problemet med denne teksten?"
+  utdrag: "Kanskje kan det muligens tenkes at lekser i noen grad kanskje er litt nyttige."
+  alternativer: ["Den er så forsiktig at det er uklart hva skribenten mener.", "Den er for skråsikker.", "Den har for mange fagord.", "Den mangler tekstbinding."]
+  riktig: 0
+  forklaring: "Nyansering er bra, men for mye av det gjør teksten utydelig. Vær sikker der du har belegg."
+- id: ordv-fk-utbrytning
+  type: flashkort
+  kapittel: ordvalg-stil
+  undertema: Framheve
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  forside: "Hva er utbrytning?"
+  bakside: "En måte å framheve et ledd på: «Det er nettopp slutten som gjør novellen sterk.» Leddet du vil framheve, settes mellom «det er» og «som»."
+- id: ordv-fram-1
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Framheve
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken setning framhever «slutten» mest?"
+  alternativer: ["Det er nettopp slutten som gjør novellen sterk.", "Novellen er sterk på grunn av slutten.", "Novellen har en slutt som er sterk.", "Slutten er en del av novellen."]
+  riktig: 0
+  forklaring: "Utbrytning med «det er ... som» og ordet «nettopp» peker ut slutten som det viktigste."
+- id: ordv-fram-2
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Framheve
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvor i setningen bør det viktigste stå når du vil framheve det?"
+  alternativer: ["Først", "Midt i", "Sist i en lang leddsetning", "I parentes"]
+  riktig: 0
+  forklaring: "Det som står først, legger leseren mest merke til. «Ensomhet er det sterkeste temaet» framhever ensomhet."
+- id: ordv-fram-3
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Framheve
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvorfor virker den siste setningen sterk?"
+  utdrag: "Vi har diskutert skolematen i mange år, vi har skrevet brev til rektor, og vi har samlet underskrifter fra nesten alle elevene. Ingenting har skjedd."
+  alternativer: ["Den er kort etter flere lange setninger.", "Den har et vanskelig ord.", "Den står i parentes.", "Den har et spørsmålstegn."]
+  riktig: 0
+  forklaring: "En kort setning etter lange setninger bryter rytmen og får ekstra vekt."
+- id: ordv-mark-fram
+  type: marker
+  kapittel: ordvalg-stil
+  undertema: Framheve
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Marker ordene som framhever noe."
+  tekst: "Debattinnlegget handler [[først og fremst]] om rettferdighet. [[Særlig]] avslutningen appellerer til følelser, og [[nettopp]] derfor blir den sittende i hodet."
+  forklaring: "Ord som «først og fremst», «særlig» og «nettopp» peker ut det skribenten mener er viktigst."
+- id: ordv-fk-blanding
+  type: flashkort
+  kapittel: ordvalg-stil
+  undertema: Faste uttrykk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  forside: "Hva er en blanding av to faste uttrykk?"
+  bakside: "Når deler av to uttrykk blandes, for eksempel «det spiller ingen betydning» fra «det spiller ingen rolle» og «det har ingen betydning»."
+- id: ordv-ff-spiller
+  type: finnfeil
+  kapittel: ordvalg-stil
+  undertema: Faste uttrykk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  tekst: "For meg spiller det ingen betydning hvem som vinner."
+  feil: "betydning"
+  rettelse: "rolle"
+  forklaring: "Det heter «spille en rolle» eller «ha betydning». «Spille en betydning» er en blanding av to uttrykk."
+- id: ordv-ff-stilling
+  type: finnfeil
+  kapittel: ordvalg-stil
+  undertema: Faste uttrykk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  tekst: "Vi må ta stilling om dette spørsmålet før valget."
+  feil: "om"
+  rettelse: "til"
+  forklaring: "Det faste uttrykket er «ta stilling til»."
+- id: ordv-ff-istand
+  type: finnfeil
+  kapittel: ordvalg-stil
+  undertema: Faste uttrykk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  tekst: "Hun var ikke i stand å svare på spørsmålet."
+  feil: "stand å"
+  rettelse: "stand til å"
+  forklaring: "Det heter «være i stand til å»."
+- id: ordv-ff-inntrykk
+  type: finnfeil
+  kapittel: ordvalg-stil
+  undertema: Faste uttrykk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  tekst: "Talen gjorde sterkt inntrykk av publikum."
+  feil: "av"
+  rettelse: "på"
+  forklaring: "Det heter «gjøre inntrykk på» noen. «Gi inntrykk av» betyr noe annet."
+- id: ordv-fast-1
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Faste uttrykk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken setning er riktig?"
+  alternativer: ["Sinnet hennes kommer til uttrykk i dialogen.", "Sinnet hennes kommer til uttrykk for i dialogen.", "Sinnet hennes gir uttrykk i dialogen.", "Sinnet hennes kommer uttrykk i dialogen."]
+  riktig: 0
+  forklaring: "Det heter «noe kommer til uttrykk» og «noen gir uttrykk for noe». Ikke bland de to."
+- id: ordv-fast-2
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Faste uttrykk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilket uttrykk passer?"
+  utdrag: "Skribenten ___ at elevene selv må få bestemme."
+  alternativer: ["legger vekt på", "legger vekt om", "setter vekt for", "legger vekten til"]
+  riktig: 0
+  forklaring: "Det faste uttrykket er «legge vekt på»."
+- id: ordv-fast-3
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Faste uttrykk
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilket uttrykk passer?"
+  utdrag: "Naturen ___ i diktet."
+  alternativer: ["spiller en viktig rolle", "spiller en viktig betydning", "har en viktig rolle for", "gjør en viktig rolle"]
+  riktig: 0
+  forklaring: "Det heter «spille en rolle»."
+- id: ordv-var-1
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Varier setningene
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken versjon har best variasjon?"
+  alternativer: ["Hun går ut og ser seg rundt. Fordi hun er redd, begynner hun å løpe.", "Hun går ut. Hun ser seg rundt. Hun er redd. Hun begynner å løpe.", "Hun går ut, og hun ser seg rundt, og hun er redd, og hun begynner å løpe.", "Hun går ut hun ser seg rundt hun er redd hun løper."]
+  riktig: 0
+  forklaring: "Den første versjonen blander korte og lange setninger og bruker «fordi» til å vise årsak. Den andre er hakkete, og den tredje er en lang kjede med «og»."
+- id: ordv-var-2
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Varier setningene
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Mange setninger starter med «Han». Hvilken omskriving varierer starten?"
+  alternativer: ["Etter skolen går han hjem.", "Han går hjem etter skolen.", "Han går, han, hjem etter skolen.", "Han han går hjem etter skolen."]
+  riktig: 0
+  forklaring: "Når du flytter et annet ledd først, her tidsadverbialet, varierer du setningsstarten. Husk at verbet da kommer før subjektet."
+- id: ordv-rekke-var
+  type: rekkefolge
+  kapittel: ordvalg-stil
+  undertema: Varier setningene
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Bygg setningen slik at den starter med leddsetningen."
+  elementer: ["Selv om", "hun er redd,", "går hun", "inn i", "mørket."]
+  forklaring: "Når leddsetningen står først, kommer verbet «går» før subjektet «hun» i hovedsetningen. Det gir variasjon i setningsstartene."
+- id: ordv-skriv-var
+  type: skriv
+  kapittel: ordvalg-stil
+  undertema: Varier setningene
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Skriv om teksten slik at setningene varierer i lengde og start. Behold innholdet."
+  starttekst: "Ali kommer hjem. Ali ser at huset er mørkt. Ali lister seg inn. Ali ser en lapp på kjøkkenbenken. Klokka er tolv."
+  ord: { min: 25, maks: 60 }
+  kriterier: ["Jeg blander korte og lange setninger.", "Ikke alle setningene starter med samme ord.", "Innholdet er det samme som før."]
+  modelltekst: "Klokka er tolv da Ali kommer hjem. Huset er mørkt og stille, så han lister seg inn for ikke å vekke noen. På kjøkkenbenken ligger en lapp."
+- id: ordv-form-1
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Formell stil
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "Hvilken setning passer i en analyse?"
+  alternativer: ["Teksten viser hvordan ensomhet kan oppleves.", "Teksten er liksom sånn om ensomhet.", "Jeg synes teksten er kjempebra.", "Teksten er typ veldig trist."]
+  riktig: 0
+  forklaring: "I en analyse viser du til teksten og bruker et saklig språk. «Liksom», «sånn», «typ» og «kjempe-» hører hjemme i muntlig språk."
+- id: ordv-form-2
+  type: flervalg
+  kapittel: ordvalg-stil
+  undertema: Formell stil
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  spm: "I hvilken sjanger passer det best å skrive «jeg mener»?"
+  alternativer: ["Debattinnlegg", "Novelleanalyse", "Fagartikkel", "Retorisk analyse"]
+  riktig: 0
+  forklaring: "I debattinnlegg, essay og reflekterende tekst er jeg-stemmen en del av sjangeren. I analyse og fagartikkel viser du heller til teksten."
+- id: ordv-mark-muntlig
+  type: marker
+  kapittel: ordvalg-stil
+  undertema: Formell stil
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Marker ordene som er for muntlige i en eksamenstekst."
+  tekst: "Novellen er [[liksom]] ganske trist, og hovedpersonen er [[sånn]] ensom hele tiden. Slutten er [[kjempefin]], [[typ]] at hun finner en venn."
+  forklaring: "Muntlige ord gjør teksten mindre saklig. Skriv heller «Novellen er trist» og «Slutten er håpefull»."
+- id: ordv-sort-stil
+  type: sortering
+  kapittel: ordvalg-stil
+  undertema: Formell stil
+  mal: [m10-10, m10-12, mvg2-06, mvg3-08]
+  status: godkjent
+  oppdrag: "Passer ordet i en formell eksamenstekst?"
+  kategorier: ["Passer", "Passer ikke"]
+  elementer:
+    - tekst: "dessuten"
+      kategori: 0
+    - tekst: "liksom"
+      kategori: 1
+    - tekst: "derimot"
+      kategori: 0
+    - tekst: "typ"
+      kategori: 1
+    - tekst: "for eksempel"
+      kategori: 0
+    - tekst: "mega"
+      kategori: 1
+  forklaring: "«Dessuten», «derimot» og «for eksempel» er skriftspråk. «Liksom», «typ» og «mega» er muntlige."

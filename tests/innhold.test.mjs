@@ -46,3 +46,16 @@ test('styrker og forbedringer i modelltekstene viser til avsnitt som finnes', ()
     }
   }
 });
+
+test('undertema i øvelsene finnes i kapittelets liste over undertemaer', () => {
+  const kapitler = new Map(
+    readdirSync('innhold/hefte').filter((f) => f.endsWith('.md')).map((f) => [f.replace(/\.md$/, ''), frontmatter(join('innhold/hefte', f))]),
+  );
+  for (const f of readdirSync('innhold/ovelser').filter((f) => f.endsWith('.yaml'))) {
+    for (const o of yaml.load(readFileSync(join('innhold/ovelser', f), 'utf-8'))) {
+      if (!o.undertema) continue;
+      const liste = kapitler.get(o.kapittel)?.undertemaer ?? [];
+      assert.ok(liste.includes(o.undertema), `${f}: ${o.id} har undertema «${o.undertema}», som kapittelet ${o.kapittel} ikke oppgir`);
+    }
+  }
+});

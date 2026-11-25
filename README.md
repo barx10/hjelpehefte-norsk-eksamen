@@ -116,6 +116,8 @@ Skriveøvelser og eksamenstreningen viser automatiske sjekker etter levering (`s
 
 Eleven velger hvor mange øvelser økten skal ha (10, 20, 40 eller alle). I temaet med kommaoppgaver kan eleven også øve på én kommaregel om gangen. Valget bruker feltet `regler`.
 
+Et kapittel kan deles i mindre deler som eleven kan øve på én om gangen, for eksempel én ordklasse. Kapittelet lister delene i rekkefølge med `undertemaer: [Substantiv, Verb]`, og hver øvelse oppgir sin del med `undertema: Verb`. En test sjekker at delen finnes i kapittelets liste.
+
 Filene som slutter på `-mengde.yaml`, har mange korte oppgaver av samme slag: komma, finn feilen, overgangsord og virkemidler. For vgs finnes mengdefiler for setningsoppbygging, retorisk analyse, talespråk, instruksjonsord, litteratur, kortsvar, essay, kontekst, språksituasjon, samisk, fagartikkel og realisme (`vgs-*-mengde.yaml`). De står som `utkast` til de er gjennomgått.
 
 Alle typer kan ha `fraTekst: <id>` som peker på en tekst i `innhold/besvarelser/`. Da vises forfatter, lisens og kilde under øvelsen.
