@@ -1,6 +1,7 @@
 - id: bind-fk-hva
   type: flashkort
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Hva er tekstbinding?"
@@ -8,6 +9,7 @@
 - id: bind-fk-legge-til
   type: flashkort
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som legger til noe"
@@ -15,6 +17,7 @@
 - id: bind-fk-kontrast
   type: flashkort
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som viser kontrast"
@@ -22,6 +25,7 @@
 - id: bind-fk-arsak
   type: flashkort
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som gir årsak"
@@ -29,6 +33,7 @@
 - id: bind-fk-folge
   type: flashkort
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som viser følge"
@@ -36,6 +41,7 @@
 - id: bind-fk-eksempel
   type: flashkort
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som innleder et eksempel"
@@ -43,6 +49,7 @@
 - id: bind-fk-rekkefolge
   type: flashkort
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som viser rekkefølge"
@@ -50,6 +57,7 @@
 - id: bind-fk-konklusjon
   type: flashkort
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Overgangsord som innleder en konklusjon"
@@ -57,6 +65,7 @@
 - id: bind-fk-henvisning
   type: flashkort
   kapittel: tekstbinding
+  undertema: Vise tilbake
   mal: [m10-11, mvg1-11]
   status: godkjent
   forside: "Hvordan kan du binde setninger sammen uten overgangsord?"
@@ -64,6 +73,7 @@
 - id: bind-fv-kontrast
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Novellen er kort. ___ rommer den store følelser.»"
@@ -73,6 +83,7 @@
 - id: bind-fv-folge
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Han glemte å lese oppgaven. ___ misforsto han hva som ble spurt om.»"
@@ -82,6 +93,7 @@
 - id: bind-fv-eksempel
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Metaforer gjør teksten levende. ___ gir «natten er en vegg» en følelse av avstand.»"
@@ -91,6 +103,7 @@
 - id: bind-fv-rekkefolge
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «___ leser du alle oppgavene. Deretter velger du oppgave.»"
@@ -100,6 +113,7 @@
 - id: bind-fv-konklusjon
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig overgangsord: «Vi har sett på språk, form og tema. ___ kan vi konkludere med at diktet handler om ensomhet.»"
@@ -109,6 +123,7 @@
 - id: bind-fv-arsak
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig ord: «Vi ble hjemme, ___ det regnet.»"
@@ -118,6 +133,7 @@
 - id: bind-fv-men
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Velg riktig ord: «Hun var sliten, ___ hun fortsatte å skrive.»"
@@ -127,6 +143,7 @@
 - id: bind-fv-henvisning
   type: flervalg
   kapittel: tekstbinding
+  undertema: Vise tilbake
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hvilken tekst er best bundet sammen?"
@@ -136,6 +153,7 @@
 - id: bind-fv-derimot
   type: flervalg
   kapittel: tekstbinding
+  undertema: Tekstbindere
   mal: [m10-11, mvg1-11]
   status: godkjent
   spm: "Hva gjør overgangsordet «derimot»?"
