@@ -1,0 +1,467 @@
+- id: lyd-fk-hv
+  type: flashkort
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hvilke spørreord starter med hv?"
+  bakside: "Hva, hvem, hvor, hvorfor, hvilken og hvordan. H-en er stum."
+- id: lyd-fk-ig
+  type: flashkort
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hvordan husker du g-en i «viktig» og «dårlig»?"
+  bakside: "Bøy ordet: viktige, dårlige. Da hører du g-en."
+- id: lyd-stum-1
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["hvorfor", "vorfor", "hvorfår", "worfor"]
+  riktig: 0
+  forklaring: "Spørreord med v-lyd skrives med hv: hva, hvem, hvor, hvorfor."
+- id: lyd-stum-2
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["gjest", "jest", "hjest", "gest"]
+  riktig: 0
+  forklaring: "Ordet skrives med stum g: gjest, gjøre, gjerne, gjennom."
+- id: lyd-stum-3
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["hjelpe", "jelpe", "gjelpe", "hjelppe"]
+  riktig: 0
+  forklaring: "Ordet skrives med stum h: hjem, hjelpe, hjerte."
+- id: lyd-stum-4
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["egentlig", "egentli", "egenlig", "egentlik"]
+  riktig: 0
+  forklaring: "Endelsen -lig har stum g."
+- id: lyd-stum-5
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Det var en ___ vinterdag."
+  alternativer: ["kald", "kal", "kall", "kalt"]
+  riktig: 0
+  forklaring: "Ordet har stum d etter l. «Kall» betyr noe annet, og «kalt» er av å kalle."
+- id: lyd-stum-6
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["viktig", "vikti", "viktigg", "viktik"]
+  riktig: 0
+  forklaring: "Endelsen -ig har stum g. Tenk på «viktige»."
+- id: lyd-ff-vem
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Vem var det som ringte?"
+  feil: "Vem"
+  rettelse: "Hvem"
+  forklaring: "Spørreord med v-lyd skrives med hv."
+- id: lyd-ff-jore
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Hva skal vi jøre i helga?"
+  feil: "jøre"
+  rettelse: "gjøre"
+  forklaring: "«Gjøre» skrives med stum g."
+- id: lyd-ff-jerte
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Hun fikk vondt i jertet."
+  feil: "jertet"
+  rettelse: "hjertet"
+  forklaring: "«Hjerte» skrives med stum h."
+- id: lyd-ff-dali
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Været var dårli hele uka."
+  feil: "dårli"
+  rettelse: "dårlig"
+  forklaring: "Endelsen -lig har stum g. Tenk på «dårlige»."
+- id: lyd-ff-vennli
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Hun var veldig vennli mot de nye elevene."
+  feil: "vennli"
+  rettelse: "vennlig"
+  forklaring: "Endelsen -lig har stum g."
+- id: lyd-ff-lan
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Norge er et lan med mange fjorder."
+  feil: "lan"
+  rettelse: "land"
+  forklaring: "«Land» har stum d etter n."
+- id: lyd-mark-stum
+  type: marker
+  kapittel: lyder-importord
+  undertema: Stumme bokstaver
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Marker ordene som mangler en stum bokstav."
+  tekst: "[[Va]] skal vi [[jøre]] når vi kommer [[jem]]? Det er [[vikti]] å bestemme seg."
+  forklaring: "Riktig er «Hva», «gjøre», «hjem» og «viktig». Alle har en stum bokstav."
+- id: lyd-fk-kj
+  type: flashkort
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hvordan kan kj-lyden skrives?"
+  bakside: "Med kj (kjøre), med k foran i, y og ei (kino, kysse, keiser), og med tj (tjue)."
+- id: lyd-fk-sj
+  type: flashkort
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hvordan kan sj-lyden skrives?"
+  bakside: "Med sj (sjø), skj (skjorte), sk foran i, y, øy og ei (ski, sky, skøyte), og -sjon i importord (stasjon)."
+- id: lyd-kj-1
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["kino", "kjino", "tjino", "chino"]
+  riktig: 0
+  forklaring: "Foran i trenger du ikke j: kino."
+- id: lyd-kj-2
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["kjøre", "køre", "tjøre", "skjøre"]
+  riktig: 0
+  forklaring: "Foran ø skal det være kj: kjøre."
+- id: lyd-kj-3
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["tjue", "kjue", "sjue", "chue"]
+  riktig: 0
+  forklaring: "Tallordet skrives med tj: tjue."
+- id: lyd-sj-1
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["ski", "skji", "sji", "shi"]
+  riktig: 0
+  forklaring: "Foran i trenger du ikke j: ski."
+- id: lyd-sj-2
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["skjorte", "sjorte", "skorte", "shorte"]
+  riktig: 0
+  forklaring: "Ordet skrives med skj."
+- id: lyd-sj-3
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["sjokolade", "skjokolade", "chokolade", "sokolade"]
+  riktig: 0
+  forklaring: "Ordet skrives med sj."
+- id: lyd-sj-4
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["informasjon", "informasion", "informatjon", "information"]
+  riktig: 0
+  forklaring: "Importord som slutter på -tion på engelsk, skrives med -sjon på norsk."
+- id: lyd-ff-kjino
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Vi skal på kjino i kveld."
+  feil: "kjino"
+  rettelse: "kino"
+  forklaring: "Foran i trenger du ikke j."
+- id: lyd-ff-skjy
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Det var ikke en skjy på himmelen."
+  feil: "skjy"
+  rettelse: "sky"
+  forklaring: "Foran y trenger du ikke j."
+- id: lyd-ff-situasion
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Hun beskriver situasionen godt."
+  feil: "situasionen"
+  rettelse: "situasjonen"
+  forklaring: "Importord som slutter på -tion på engelsk, skrives med -sjon på norsk."
+- id: lyd-sort-kjsj
+  type: sortering
+  kapittel: lyder-importord
+  undertema: Kj- og sj-lyden
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  oppdrag: "Har ordet kj-lyden eller sj-lyden?"
+  kategorier: ["kj-lyden", "sj-lyden"]
+  elementer:
+    - tekst: "kino"
+      kategori: 0
+    - tekst: "ski"
+      kategori: 1
+    - tekst: "kjole"
+      kategori: 0
+    - tekst: "skjære"
+      kategori: 1
+    - tekst: "tjue"
+      kategori: 0
+    - tekst: "stasjon"
+      kategori: 1
+    - tekst: "kysse"
+      kategori: 0
+    - tekst: "sjø"
+      kategori: 1
+  forklaring: "K foran i og y gir kj-lyd. Sk foran i og y gir sj-lyd."
+- id: lyd-fk-ere
+  type: flashkort
+  kapittel: lyder-importord
+  undertema: Forstavelser og endelser
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hva er preteritum av verb som slutter på -ere?"
+  bakside: "De får -te: studere, studerte. Reagere, reagerte."
+- id: lyd-end-1
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Forstavelser og endelser
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["forklare", "for klare", "forrklare", "forklarre"]
+  riktig: 0
+  forklaring: "Forstavelser skrives sammen med resten av ordet."
+- id: lyd-end-2
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Forstavelser og endelser
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["uenig", "u enig", "u-enig", "uennig"]
+  riktig: 0
+  forklaring: "Forstavelsen u- skrives sammen med ordet."
+- id: lyd-end-3
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Forstavelser og endelser
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Hun ___ i Bergen i tre år."
+  alternativer: ["studerte", "studerde", "studerete", "studeret"]
+  riktig: 0
+  forklaring: "Verb på -ere får -te i preteritum."
+- id: lyd-end-4
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Forstavelser og endelser
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Ungdommene fikk nye ___."
+  alternativer: ["friheter", "frihetter", "friheder", "frihettene"]
+  riktig: 0
+  forklaring: "Ord på -het får flertall med én t: friheter."
+- id: lyd-end-5
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Forstavelser og endelser
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["fantastisk", "fantastis", "fantastik", "fantastish"]
+  riktig: 0
+  forklaring: "Endelsen -isk skrives med sk."
+- id: lyd-ff-reagerde
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Forstavelser og endelser
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Publikum reagerde sterkt på talen."
+  feil: "reagerde"
+  rettelse: "reagerte"
+  forklaring: "Verb på -ere får -te i preteritum."
+- id: lyd-ff-misforsto
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Forstavelser og endelser
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Jeg mis forsto oppgaven."
+  feil: "mis forsto"
+  rettelse: "misforsto"
+  forklaring: "Forstavelsen mis- skrives sammen med resten av ordet."
+- id: lyd-fk-import
+  type: flashkort
+  kapittel: lyder-importord
+  undertema: Importord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  forside: "Hvorfor skriver vi «sjanger» og ikke «genre»?"
+  bakside: "Mange importord er tilpasset norsk skrivemåte. Da skal du bruke den norske formen: sjanger, sjåfør, byrå, nivå."
+- id: lyd-imp-1
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Importord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  utdrag: "Debattinnlegg er en ___ der du argumenterer."
+  alternativer: ["sjanger", "genre", "sjangre", "shanger"]
+  riktig: 0
+  forklaring: "Den norske skrivemåten er «sjanger»."
+- id: lyd-imp-2
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Importord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["nivå", "niveau", "nivo", "nivåe"]
+  riktig: 0
+  forklaring: "Den norske skrivemåten er «nivå»."
+- id: lyd-imp-3
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Importord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["byrå", "bureau", "byro", "byråe"]
+  riktig: 0
+  forklaring: "Den norske skrivemåten er «byrå»."
+- id: lyd-imp-4
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Importord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["interessant", "interresant", "interesant", "interressant"]
+  riktig: 0
+  forklaring: "«Interessant» har én r og dobbel s."
+- id: lyd-imp-5
+  type: flervalg
+  kapittel: lyder-importord
+  undertema: Importord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  spm: "Hvilken skrivemåte er riktig?"
+  alternativer: ["konklusjon", "konklution", "konkluson", "konklusion"]
+  riktig: 0
+  forklaring: "Importord på -sjon skrives med sj."
+- id: lyd-ff-genre
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Importord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Novellen er en kort genre med få personer."
+  feil: "genre"
+  rettelse: "sjanger"
+  forklaring: "Bruk den norske skrivemåten «sjanger»."
+- id: lyd-ff-spessiell
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Importord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Slutten er ganske spessiell."
+  feil: "spessiell"
+  rettelse: "spesiell"
+  forklaring: "«Spesiell» har én s i midten."
+- id: lyd-ff-diskution
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Importord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "Vi hadde en lang diskution i klassen."
+  feil: "diskution"
+  rettelse: "diskusjon"
+  forklaring: "Importord på -sjon skrives med sj."
+- id: lyd-ff-kommunikasion
+  type: finnfeil
+  kapittel: lyder-importord
+  undertema: Importord
+  mal: [m10-11, mvg1-11]
+  status: godkjent
+  tekst: "God kommunikasion er viktig i en klasse."
+  feil: "kommunikasion"
+  rettelse: "kommunikasjon"
+  forklaring: "Importord på -sjon skrives med sj."
