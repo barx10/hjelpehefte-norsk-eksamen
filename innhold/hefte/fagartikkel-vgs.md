@@ -57,6 +57,32 @@ Du må oppgi alle kilder slik at andre lett finner dem.
 
 Husk at svaret kontrolleres for plagiat.
 
+## Vis avstand til stoffet
+
+Når du drøfter, legger du fram synspunkter du ikke nødvendigvis deler. Skriver du dem som sannheter, kan det se ut som om to personer med motsatt syn har skrevet annethvert avsnitt.
+
+| Uten avstand | Med avstand |
+|---|---|
+| Sosiale medier ødelegger konsentrasjonen til unge. | **Mange hevder at** sosiale medier svekker konsentrasjonen til unge. |
+| Unge i dag er bortskjemte og tåler ingenting. | **Et annet synspunkt er at** unge i dag tåler mindre motgang enn før. |
+| Skjermen er det viktigste verktøyet i skolen. | **Ifølge tilhengerne** er skjermen et nødvendig verktøy i skolen. |
+
+Nyttige formuleringer: *mange mener, noen hevder, et argument for er, et motargument er, ifølge, kritikere peker på, på den andre siden*.
+
+Spar egen mening til avslutningen. Der kan du si hva du mener, så lenge drøftingen før har vært nyansert.
+
+## Flyt mellom avsnittene
+
+Bruk den første setningen i hvert nytt avsnitt til å binde det til det forrige. Da følger leseren den røde tråden.
+
+- «**Et annet argument** for senere skolestart handler om trafikk.»
+- «**Mot dette kan man innvende** at ...»
+- «**Selv om** søvn er viktig, **er det også** et poeng at ...»
+
+## Sitater fra skjønnlitteratur
+
+Et kort sitat fra et dikt, en sang eller en roman kan gi en fagartikkel liv, særlig i innledningen eller avslutningen. Sitatet må knyttes til poenget ditt, og det må føres opp som kilde.
+
 ## Saklig språk
 
 - Skriv «jeg» med måte, og la fagkunnskapen bære teksten.

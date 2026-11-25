@@ -31,6 +31,10 @@ Alle tekster blir til i en situasjon. Start der.
 
 Appellformene virker ofte sammen. Et personlig eksempel kan både bygge etos og vekke patos.
 
+**Etos har to sider.** *Innledende etos* er troverdigheten avsenderen har før teksten leses, for eksempel på grunn av yrke, erfaring eller et kjent navn. *Etos i teksten* er det avsenderen gjør for å bygge troverdighet underveis: viser til egen erfaring, viser gode verdier eller låner troverdighet fra eksperter.
+
+**Aptum** betyr at teksten er passende. Språk, tone og innhold skal passe mottakeren, situasjonen og tidspunktet. Kairos og aptum henger sammen: rett ord til rett tid, på rett måte.
+
 ## Retoriske virkemidler
 
 Virkemidler er måter å sette appellene i verk på.
@@ -66,6 +70,33 @@ Se på hvordan påstandene er bygd.
 > **VIRKEMIDLER OG SPRÅK:** Hvilke retoriske grep gjør teksten mer virkningsfull?
 >
 > **VURDERING:** Fungerer teksten overfor målgruppen? Hva er sterkest, hva svakest, og passer tidspunktet?
+
+## Formuleringer du kan bruke
+
+Fagspråket gjør analysen presis. Her er formuleringer du kan bygge videre på.
+
+| Appell | Formuleringer |
+|---|---|
+| Etos | Avsenderen har høy innledende etos fordi ... · Avsenderen styrker etos ved å vise til egen erfaring ... · Her låner avsenderen etos fra ... · Den manglende dokumentasjonen svekker etos ... |
+| Logos | Teksten appellerer til logos når ... · Tallene underbygger påstanden om ... · Logos svekkes fordi argumentet bygger på en generalisering ... |
+| Patos | Avsenderen spiller på patos når ... · Patosappellen forsterkes av ... · De verdiladde ordene skal vekke ... |
+| Kairos og aptum | Teksten kom ut da ..., og det styrker kairos ... · Språket er tilpasset målgruppen, og teksten oppfyller kravet til aptum ... · Tonen bryter med aptum fordi ... |
+
+## Avsnitt om et virkemiddel
+
+Målet er å vise **hvordan** og **hvorfor** avsenderen bruker et virkemiddel. Et godt avsnitt har tre deler:
+
+1. **Temasetning** som sier hvilket virkemiddel avsnittet handler om.
+2. **Belegg** fra teksten. Når du påstår at et virkemiddel brukes, må du vise det.
+3. **Funksjon:** Hvilken appellform styrker virkemidlet, og hva vil avsenderen oppnå?
+
+<div class="bare-nett">
+
+> **Eksempel (laget for øving)**
+>
+> Mot slutten av talen bruker ordføreren direkte henvendelse for å skape nærhet. Hun sier «du» tre ganger på kort tid: «Du vet hvor viktig dette er. Du har selv barn. Du fortjener en trygg skolevei.» Ved å snakke direkte til hver enkelt lytter får hun saken til å handle om lytterens egen familie. Den direkte henvendelsen spiller dermed på patos, og den gjør det vanskelig å stille seg utenfor kravet om en tryggere skolevei.
+
+</div>
 
 ## Fra funn til vurdering
 

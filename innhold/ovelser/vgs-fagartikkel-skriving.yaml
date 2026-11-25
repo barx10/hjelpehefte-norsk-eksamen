@@ -1,0 +1,83 @@
+- id: fagv-fk-avstand
+  type: flashkort
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09, mvg1-07]
+  status: godkjent
+  forside: "Hva betyr det å vise avstand til stoffet?"
+  bakside: "Å legge fram synspunkter som synspunkter, ikke som sannheter: «Mange hevder at ...», «Et annet synspunkt er at ...». Egen mening sparer du til avslutningen."
+- id: fagv-avst-1
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09, mvg1-07]
+  status: godkjent
+  spm: "Hvilken temasetning viser avstand til stoffet?"
+  alternativer: ["Mange hevder at sosiale medier svekker konsentrasjonen til unge.", "Sosiale medier ødelegger konsentrasjonen til unge.", "Alle vet at sosiale medier er farlige.", "Jeg er helt sikker på at sosiale medier er skadelige."]
+  riktig: 0
+  forklaring: "«Mange hevder at» viser at dette er et synspunkt du drøfter, ikke en sannhet du slår fast."
+- id: fagv-avst-2
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09, mvg1-07]
+  status: godkjent
+  spm: "Hva er problemet når temasetningene står slik etter hverandre?"
+  utdrag: "Avsnitt 2: Skolen presser elevene så hardt at mange bryter sammen. Avsnitt 3: Elever i dag er bortskjemte og tåler ikke vanlige krav."
+  alternativer: ["Det ser ut som to personer med motsatt syn har skrevet hvert sitt avsnitt.", "Avsnittene er for korte.", "Det mangler kildehenvisning i temasetningene.", "Setningene er i feil tid."]
+  riktig: 0
+  forklaring: "Når begge synspunktene står som sannheter, blir teksten selvmotsigende. Vis avstand: «Mange mener ...», «Et annet synspunkt er ...»."
+- id: fagv-avst-3
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09, mvg1-07]
+  status: godkjent
+  spm: "Hvor i fagartikkelen passer det best å si hva du selv mener?"
+  alternativer: ["I avslutningen", "I innledningen", "I første temasetning", "I kildelisten"]
+  riktig: 0
+  forklaring: "I hoveddelen drøfter du med avstand. I avslutningen kan du ta stilling, så lenge drøftingen har vært nyansert."
+- id: fagv-mark-avst
+  type: marker
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09, mvg1-07]
+  status: godkjent
+  oppdrag: "Marker formuleringene som viser avstand til stoffet."
+  tekst: "[[Mange mener]] at leksefri skole gir mer tid til hvile. [[Kritikere peker på]] at elevene da får mindre repetisjon. [[På den andre siden]] viser erfaringer fra enkelte skoler at resultatene ikke blir dårligere."
+  forklaring: "Formuleringene viser at du gjengir og veier synspunkter, ikke slår fast sannheter."
+- id: fagv-sort-avst
+  type: sortering
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09, mvg1-07]
+  status: godkjent
+  oppdrag: "Viser setningen avstand til stoffet?"
+  kategorier: ["Med avstand", "Uten avstand"]
+  elementer:
+    - tekst: "Ifølge tilhengerne gir skjermen mer variert undervisning."
+      kategori: 0
+    - tekst: "Skjermen er det beste som har skjedd skolen."
+      kategori: 1
+    - tekst: "Et motargument er at skjermen gir mer uro."
+      kategori: 0
+    - tekst: "Skjermen ødelegger all læring."
+      kategori: 1
+    - tekst: "Noen forskere hevder at håndskrift gir bedre læring."
+      kategori: 0
+    - tekst: "Håndskrift er alltid best."
+      kategori: 1
+  forklaring: "Formuleringer som «ifølge», «et motargument er» og «noen hevder» viser at du drøfter."
+- id: fagv-flyt-1
+  type: flervalg
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09, mvg1-07]
+  status: godkjent
+  spm: "Hvilken temasetning binder best til forrige avsnitt, som handlet om søvn?"
+  alternativer: ["Et annet argument for senere skolestart handler om trafikk.", "Trafikk er et problem.", "Nå skal jeg skrive om trafikk.", "Busser går ofte."]
+  riktig: 0
+  forklaring: "«Et annet argument» viser at avsnittet fortsetter drøftingen, og leseren følger den røde tråden."
+- id: fagv-skriv-avst
+  type: skriv
+  kapittel: fagartikkel-vgs
+  mal: [mvg3-09, mvg1-07]
+  status: godkjent
+  oppdrag: "Skriv om de to temasetningene slik at de viser avstand til stoffet og henger sammen."
+  starttekst: "Skolen presser elevene så hardt at mange bryter sammen. Elever i dag er bortskjemte og tåler ingenting."
+  ord: { min: 15, maks: 50 }
+  kriterier: ["Begge temasetningene viser at dette er synspunkter.", "Jeg bruker formuleringer som «mange mener» eller «et annet synspunkt er».", "Det ser ikke ut som to ulike personer har skrevet dem."]
+  modelltekst: "Mange mener at skolen presser elevene så hardt at noen bryter sammen. Et annet synspunkt er at elever i dag tåler mindre motgang enn tidligere generasjoner."
