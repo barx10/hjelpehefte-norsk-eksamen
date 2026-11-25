@@ -16,7 +16,7 @@ export type Funn = {
   mulig?: boolean;
 };
 
-export type Skrivefeil = { feil: string; rettelse: string };
+export type Skrivefeil = { feil: string; rettelse: string; kapittel?: string };
 
 export type Sjekkvalg = {
   sjanger: Sjanger;
@@ -448,15 +448,18 @@ function drofting(tekst: string): Funn[] {
 function skrivefeil(tekst: string, liste: Skrivefeil[]): Funn | null {
   const lav = ` ${utenSitater(tekst).toLowerCase().replace(/[.,;:!?()«»"]/g, ' ').replace(/\s+/g, ' ')} `;
   const sett = new Map<string, string>();
+  const kapitler = new Set<string>();
   for (const f of liste) {
     const feil = f.feil.toLowerCase();
-    if (lav.includes(` ${feil} `)) sett.set(feil, f.rettelse.toLowerCase());
+    if (!lav.includes(` ${feil} `)) continue;
+    sett.set(feil, f.rettelse.toLowerCase());
+    kapitler.add(f.kapittel ?? 'rettskriving');
   }
   return sett.size ? {
     id: 'skrivefeil',
     melding: 'Disse ordene ser ut til å være skrevet feil.',
     utdrag: [...sett].map(([f, r]) => `«${f}» skal være «${r}»`),
-    kapitler: ['rettskriving'],
+    kapitler: [...kapitler],
     mulig: true,
   } : null;
 }

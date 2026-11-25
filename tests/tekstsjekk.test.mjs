@@ -169,6 +169,12 @@ test('skrivefeil fra ordlisten', () => {
   assert.ok(!ider('Jeg skal skrive en fagartikkel i morgen om språk.' + fyll, { sjanger: 'annet', skrivefeil: liste }).includes('skrivefeil'));
 });
 
+test('skrivefeil lenker til kapittelet feilen kommer fra', () => {
+  const liste = [{ feil: 'komer', rettelse: 'kommer', kapittel: 'dobbel-konsonant' }, { feil: 'imorgen', rettelse: 'i morgen' }];
+  const f = sjekkTekst('Hun komer hjem imorgen etter skolen.' + fyll, { sjanger: 'annet', skrivefeil: liste }).find((x) => x.id === 'skrivefeil');
+  assert.deepEqual(f.kapitler, ['dobbel-konsonant', 'rettskriving']);
+});
+
 test('kildelisten regnes ikke som avslutning', () => {
   const kropp = ['Tittel', ...Array(3).fill('Avsnitt med innhold om saken.' + fyll.repeat(4)), 'Samtidig er det slik. Derfor mener jeg dette.' + fyll.repeat(2), 'Kilder', 'Dyrendal, A. (2020). Tittel.'].join('\n\n');
   assert.ok(!ider(kropp, { sjanger: 'fagartikkel' }).includes('konklusjon'));

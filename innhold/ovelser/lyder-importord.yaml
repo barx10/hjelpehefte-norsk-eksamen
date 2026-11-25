@@ -77,6 +77,7 @@
   forklaring: "Endelsen -ig har stum g. Tenk på «viktige»."
 - id: lyd-ff-vem
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Stumme bokstaver
   mal: [m10-11, mvg1-11]
@@ -87,6 +88,7 @@
   forklaring: "Spørreord med v-lyd skrives med hv."
 - id: lyd-ff-jore
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Stumme bokstaver
   mal: [m10-11, mvg1-11]
@@ -97,6 +99,7 @@
   forklaring: "«Gjøre» skrives med stum g."
 - id: lyd-ff-jerte
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Stumme bokstaver
   mal: [m10-11, mvg1-11]
@@ -107,6 +110,7 @@
   forklaring: "«Hjerte» skrives med stum h."
 - id: lyd-ff-dali
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Stumme bokstaver
   mal: [m10-11, mvg1-11]
@@ -117,6 +121,7 @@
   forklaring: "Endelsen -lig har stum g. Tenk på «dårlige»."
 - id: lyd-ff-vennli
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Stumme bokstaver
   mal: [m10-11, mvg1-11]
@@ -232,6 +237,7 @@
   forklaring: "Importord som slutter på -tion på engelsk, skrives med -sjon på norsk."
 - id: lyd-ff-kjino
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Kj- og sj-lyden
   mal: [m10-11, mvg1-11]
@@ -242,6 +248,7 @@
   forklaring: "Foran i trenger du ikke j."
 - id: lyd-ff-skjy
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Kj- og sj-lyden
   mal: [m10-11, mvg1-11]
@@ -252,6 +259,7 @@
   forklaring: "Foran y trenger du ikke j."
 - id: lyd-ff-situasion
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Kj- og sj-lyden
   mal: [m10-11, mvg1-11]
@@ -348,6 +356,7 @@
   forklaring: "Endelsen -isk skrives med sk."
 - id: lyd-ff-reagerde
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Forstavelser og endelser
   mal: [m10-11, mvg1-11]
@@ -358,6 +367,7 @@
   forklaring: "Verb på -ere får -te i preteritum."
 - id: lyd-ff-misforsto
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Forstavelser og endelser
   mal: [m10-11, mvg1-11]
@@ -437,6 +447,7 @@
   forklaring: "Bruk den norske skrivemåten «sjanger»."
 - id: lyd-ff-spessiell
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Importord
   mal: [m10-11, mvg1-11]
@@ -447,6 +458,7 @@
   forklaring: "«Spesiell» har én s i midten."
 - id: lyd-ff-diskution
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Importord
   mal: [m10-11, mvg1-11]
@@ -457,6 +469,7 @@
   forklaring: "Importord på -sjon skrives med sj."
 - id: lyd-ff-kommunikasion
   type: finnfeil
+  ordliste: true
   kapittel: lyder-importord
   undertema: Importord
   mal: [m10-11, mvg1-11]

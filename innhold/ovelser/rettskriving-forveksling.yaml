@@ -196,6 +196,7 @@
   forklaring: "«Når» innleder en leddsetning om tid."
 - id: forv-ff-ogsa
   type: finnfeil
+  ordliste: true
   kapittel: rettskriving
   undertema: Forvekslingsord
   mal: [m10-11, mvg1-11]

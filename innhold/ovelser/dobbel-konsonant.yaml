@@ -96,6 +96,7 @@
   forklaring: "Vokalen i «fin» er lang, og da er det enkel n."
 - id: dk-ff-komer
   type: finnfeil
+  ordliste: true
   kapittel: dobbel-konsonant
   undertema: Kort og lang vokal
   mal: [m10-11, mvg1-11]
@@ -126,6 +127,7 @@
   forklaring: "Drikken «kaffe» har kort vokal og dobbel f. «Kafé» er et sted du kan kjøpe kaffe."
 - id: dk-ff-bilde
   type: finnfeil
+  ordliste: true
   kapittel: dobbel-konsonant
   undertema: Kort og lang vokal
   mal: [m10-11, mvg1-11]
@@ -136,6 +138,7 @@
   forklaring: "Etter vokalen kommer to ulike konsonanter, l og d. Da skal ingen av dem dobles."
 - id: dk-ff-sykel
   type: finnfeil
+  ordliste: true
   kapittel: dobbel-konsonant
   undertema: Kort og lang vokal
   mal: [m10-11, mvg1-11]
@@ -279,6 +282,7 @@
   forklaring: "«Fullt» er et av de få ordene som beholder dobbel konsonant foran t."
 - id: dk-ff-kjennte
   type: finnfeil
+  ordliste: true
   kapittel: dobbel-konsonant
   undertema: Bøying
   mal: [m10-11, mvg1-11]
@@ -289,6 +293,7 @@
   forklaring: "Foran t blir dobbel n enkel: kjenne, kjente."
 - id: dk-ff-tynnt
   type: finnfeil
+  ordliste: true
   kapittel: dobbel-konsonant
   undertema: Bøying
   mal: [m10-11, mvg1-11]
@@ -299,6 +304,7 @@
   forklaring: "Foran t blir dobbel n enkel: tynn, tynt."
 - id: dk-ff-drommte
   type: finnfeil
+  ordliste: true
   kapittel: dobbel-konsonant
   undertema: Bøying
   mal: [m10-11, mvg1-11]
@@ -389,6 +395,7 @@
   forklaring: "«Vil» er et småord med enkel l. «Vill» betyr ikke temmet, som et vilt dyr."
 - id: dk-ff-somm
   type: finnfeil
+  ordliste: true
   kapittel: dobbel-konsonant
   undertema: Unntak
   mal: [m10-11, mvg1-11]
@@ -399,6 +406,7 @@
   forklaring: "Ord som slutter på m, har enkel m. «Som» er dessuten et småord."
 - id: dk-ff-tilll
   type: finnfeil
+  ordliste: true
   kapittel: dobbel-konsonant
   undertema: Unntak
   mal: [m10-11, mvg1-11]
@@ -409,6 +417,7 @@
   forklaring: "«Til» er et småord med enkel l."
 - id: dk-ff-hjemm
   type: finnfeil
+  ordliste: true
   kapittel: dobbel-konsonant
   undertema: Unntak
   mal: [m10-11, mvg1-11]
@@ -419,6 +428,7 @@
   forklaring: "Ord som slutter på m, har enkel m. Med vokal etter blir det dobbel: hjemme."
 - id: dk-ff-hjeme
   type: finnfeil
+  ordliste: true
   kapittel: dobbel-konsonant
   undertema: Unntak
   mal: [m10-11, mvg1-11]

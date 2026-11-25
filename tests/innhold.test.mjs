@@ -59,3 +59,21 @@ test('undertema i øvelsene finnes i kapittelets liste over undertemaer', () => 
     }
   }
 });
+
+test('ord i den automatiske ordlisten står ikke i modelltekstene og eksamenstekstene', () => {
+  const feil = [];
+  for (const f of readdirSync('innhold/ovelser').filter((f) => f.endsWith('.yaml'))) {
+    for (const o of yaml.load(readFileSync(join('innhold/ovelser', f), 'utf-8'))) {
+      if (o.type === 'finnfeil' && o.ordliste) feil.push(o.feil.toLowerCase());
+    }
+  }
+  assert.ok(feil.length > 0);
+  const filer = [
+    ...readdirSync('innhold/besvarelser').filter((f) => f.endsWith('.md')).map((f) => join('innhold/besvarelser', f)),
+    ...readdirSync('innhold/eksamen').map((f) => join('innhold/eksamen', f)),
+  ];
+  for (const fil of filer) {
+    const tekst = ` ${readFileSync(fil, 'utf-8').toLowerCase().replace(/[^a-zæøåé]+/g, ' ')} `;
+    for (const ord of feil) assert.ok(!tekst.includes(` ${ord} `), `${fil}: inneholder «${ord}», som den automatiske sjekken melder som feil`);
+  }
+});

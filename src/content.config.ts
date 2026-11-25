@@ -121,6 +121,8 @@ const komma = base.extend({
 // Eleven trykker på ordet som er feil. `feil` er ordet (eller ordene) slik det står i teksten.
 const finnfeil = base.extend({
   type: z.literal('finnfeil'),
+  // Feilen er alltid feil, uansett sammenheng, og tas med i den automatiske sjekken av skriveoppgaver.
+  ordliste: z.boolean().default(false),
   tekst: z.string(),
   feil: z.string(),
   rettelse: z.string(),
