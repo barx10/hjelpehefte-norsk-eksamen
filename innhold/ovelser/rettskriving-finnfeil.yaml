@@ -1,6 +1,7 @@
 - id: feil-sammensatt-eksamensoppgave
   type: finnfeil
   kapittel: rettskriving
+  undertema: Sammensatte ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Jeg leste eksamen oppgaven nøye."
@@ -10,6 +11,7 @@
 - id: feil-sammensatt-skriveplan
   type: finnfeil
   kapittel: rettskriving
+  undertema: Sammensatte ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Vi trenger en god skrive plan."
@@ -19,6 +21,7 @@
 - id: feil-sammensatt-avisartikkel
   type: finnfeil
   kapittel: rettskriving
+  undertema: Sammensatte ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Hun leste en lang avis artikkel."
@@ -28,6 +31,7 @@
 - id: feil-sammensatt-sprakbruk
   type: finnfeil
   kapittel: rettskriving
+  undertema: Sammensatte ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Teksten har en sterk språk bruk."
@@ -37,6 +41,7 @@
 - id: feil-sammensatt-diktanalyse
   type: finnfeil
   kapittel: rettskriving
+  undertema: Sammensatte ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Dikt analysen var vanskelig."
@@ -46,6 +51,7 @@
 - id: feil-tid-imorgen
   type: finnfeil
   kapittel: rettskriving
+  undertema: Ett eller to ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Vi har eksamen imorgen."
@@ -55,6 +61,7 @@
 - id: feil-tid-idag
   type: finnfeil
   kapittel: rettskriving
+  undertema: Ett eller to ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Jeg leste novellen idag."
@@ -64,6 +71,7 @@
 - id: feil-tid-igar
   type: finnfeil
   kapittel: rettskriving
+  undertema: Ett eller to ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Vi skrev en tekst igår."
@@ -73,6 +81,7 @@
 - id: feil-tid-tilslutt
   type: finnfeil
   kapittel: rettskriving
+  undertema: Ett eller to ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Tilslutt oppsummerer jeg poengene."
@@ -82,6 +91,7 @@
 - id: feil-tid-forexempel
   type: finnfeil
   kapittel: rettskriving
+  undertema: Ett eller to ord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Mange bruker virkemidler, forexempel metaforer."
@@ -91,6 +101,7 @@
 - id: feil-bokstav-mandag
   type: finnfeil
   kapittel: rettskriving
+  undertema: Stor og liten forbokstav
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Eksamen er på Mandag."
@@ -100,6 +111,7 @@
 - id: feil-bokstav-mai
   type: finnfeil
   kapittel: rettskriving
+  undertema: Stor og liten forbokstav
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Vi har prøve i Mai."
@@ -109,6 +121,7 @@
 - id: feil-bokstav-norsk
   type: finnfeil
   kapittel: rettskriving
+  undertema: Stor og liten forbokstav
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Jeg liker å skrive på Norsk."
@@ -118,6 +131,7 @@
 - id: feil-bokstav-norsk-forfatter
   type: finnfeil
   kapittel: rettskriving
+  undertema: Stor og liten forbokstav
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "«Faderen» ble skrevet av Bjørnson, en Norsk forfatter."
@@ -127,6 +141,7 @@
 - id: feil-bokstav-oslo
   type: finnfeil
   kapittel: rettskriving
+  undertema: Stor og liten forbokstav
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Vi bor i oslo."
@@ -136,6 +151,7 @@
 - id: feil-bokstav-punktum
   type: finnfeil
   kapittel: rettskriving
+  undertema: Stor og liten forbokstav
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Det regnet. vi gikk hjem."
@@ -145,6 +161,7 @@
 - id: feil-a-og-1
   type: finnfeil
   kapittel: rettskriving
+  undertema: Og eller å
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Jeg liker og lese bøker."
@@ -154,6 +171,7 @@
 - id: feil-a-og-2
   type: finnfeil
   kapittel: rettskriving
+  undertema: Og eller å
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Hun prøvde og skrive en novelle."
@@ -163,6 +181,7 @@
 - id: feil-a-og-3
   type: finnfeil
   kapittel: rettskriving
+  undertema: Og eller å
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Hun leste novellen å skrev en analyse."
@@ -172,6 +191,7 @@
 - id: feil-de-dem-1
   type: finnfeil
   kapittel: rettskriving
+  undertema: Forvekslingsord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Jeg ser de hver dag."
@@ -181,6 +201,7 @@
 - id: feil-de-dem-2
   type: finnfeil
   kapittel: rettskriving
+  undertema: Forvekslingsord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Dem kom for sent til timen."
@@ -190,6 +211,7 @@
 - id: feil-hver-dag
   type: finnfeil
   kapittel: rettskriving
+  undertema: Forvekslingsord
   mal: [m10-11, mvg1-11]
   status: godkjent
   tekst: "Jeg leser hverdag før leggetid."
