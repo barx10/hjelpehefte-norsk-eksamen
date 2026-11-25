@@ -25,7 +25,7 @@ Tekstbinding er det som får setninger og avsnitt til å henge sammen. Uten teks
 
 - **Henvis tilbake.** Bruk ord som «dette», «denne utviklingen» eller «den holdningen». «Klimaendringene øker. Denne utviklingen bekymrer mange.»
 - **Start avsnittet med en temasetning** som knytter seg til forrige avsnitt.
-- **Unngå at alle setninger starter likt.** Varier mellom korte og lange setninger.
+- **Unngå at alle setninger starter likt.** Varier mellom korte og lange setninger. Se kapittelet om ordvalg og stil.
 - **Bruk riktig overgangsord.** Et feil ord, som «derfor» der du mener «men», forvirrer leseren.
 
 > **Eksempel**

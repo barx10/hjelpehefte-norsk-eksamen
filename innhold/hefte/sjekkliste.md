@@ -24,6 +24,10 @@ Bruk fem minutter på dette. Det er tid vel brukt.
 
 - Store bokstaver etter punktum?
 - Sammensatte ord skrevet som ett ord? («eksamensoppgave», ikke «eksamen oppgave»)
+- Har du byttet ut vage ord som «ting», «bra» og «veldig» med mer presise ord?
+- Varierer setningene i lengde, og starter de ikke likt?
+- Er fagbegrepene de samme gjennom hele teksten?
+- Er preposisjonene riktige, for eksempel «interessert i» og «for to år siden»?
 - Kandidatnummer på plass, ikke navn?
 - Har du sjekket retteprogrammet på ord du er usikker på?
 - Oppfyller teksten lengdekravet som er oppgitt i oppgaven?

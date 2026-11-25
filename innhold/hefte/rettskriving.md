@@ -8,7 +8,7 @@ status: godkjent
 undertemaer: [Ett eller to ord, Sammensatte ord, Stor og liten forbokstav, Og eller å, Forvekslingsord, Stavefeil]
 ---
 
-Retteprogrammet fanger ikke alt. Her er feil som går igjen.
+Retteprogrammet fanger ikke alt. Her er feil som går igjen. Egne kapitler tar for seg preposisjoner, enkel og dobbel konsonant og lyder, endelser og importord.
 
 ## Skriv i to ord
 

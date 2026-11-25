@@ -53,3 +53,5 @@ En god temasetning
 - **Forklaring uten sitat.** Da blir påstanden din bare en mening. Vis fra teksten.
 - **Flere poeng i ett avsnitt.** Del dem i to avsnitt.
 - **Ingen temasetning.** Leseren vet ikke hva avsnittet skal bevise.
+
+Vil du gjøre avsnittet språklig bedre, se kapittelet om ordvalg og stil.
